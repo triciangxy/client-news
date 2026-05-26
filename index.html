@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Pulse · Key Client Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300..700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg-base: #0a0d14;
+    --bg-surface: #10141d;
+    --bg-elev: #161c28;
+    --bg-hover: #1d2533;
+
+    --line-faint: rgba(255,255,255,0.05);
+    --line-soft: rgba(255,255,255,0.09);
+    --line-strong: rgba(255,255,255,0.18);
+
+    --ink-bright: #f4ecd8;
+    --ink-primary: #d6cfbf;
+    --ink-secondary: #8893a6;
+    --ink-tertiary: #5c6473;
+    --ink-faint: #383f4d;
+
+    --t-listed:     #f4ecd8;
+    --t-sovereign:  #e07a5f;
+    --t-pension:    #c9a866;
+    --t-insurance:  #88b0c9;
+    --t-bank:       #a988d4;
+
+    --up:   #4ade80;
+    --down: #ff6b9d;
+    --warn: #ffb86b;
+
+    --serif: 'Instrument Serif', 'Source Serif Pro', Georgia, serif;
+    --sans: 'Inter Tight', system-ui, -apple-system, sans-serif;
+    --mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+
+    --t-quick: 180ms cubic-bezier(0.4, 0, 0.2, 1);
+    --t-smooth: 420ms cubic-bezier(0.32, 0.72, 0.21, 0.99);
+  }
+
+  html { background: var(--bg-base); }
+  body {
+    font-family: var(--sans); font-weight: 380;
+    color: var(--ink-primary);
+    background:
+      radial-gradient(ellipse 70% 50% at 15% 25%, rgba(184, 138, 255, 0.05), transparent 60%),
+      radial-gradient(ellipse 60% 45% at 85% 70%, rgba(255, 149, 88, 0.04), transparent 60%),
+      radial-gradient(ellipse 50% 40% at 50% 50%, rgba(74, 222, 128, 0.025), transparent 60%),
+      var(--bg-base);
+    line-height: 1.55; min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: ''; position: fixed; inset: 0;
+    pointer-events: none; z-index: 1;
+    opacity: 0.03; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  body::after {
+    content: ''; position: fixed; inset: 0;
+    pointer-events: none; z-index: 1;
+    background: repeating-linear-gradient(0deg, transparent 0px, transparent 3px, rgba(255,255,255,0.008) 3px, rgba(255,255,255,0.008) 4px);
+  }
+
+  header.app-header {
+    position: relative; z-index: 2;
+    padding: 32px 44px 24px;
+    border-bottom: 1px solid var(--line-faint);
+    display: flex; align-items: flex-end;
+    justify-content: space-between; gap: 60px; flex-wrap: wrap;
+  }
+  .brand { display: flex; flex-direction: column; gap: 4px; max-width: 620px; }
+  .brand-line {
+    font-family: var(--mono);
+    font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--ink-tertiary);
+    display: flex; align-items: center; gap: 12px;
+  }
+  .brand-line .dot {
+    width: 7px; height: 7px;
+    background: var(--up); border-radius: 50%;
+    box-shadow: 0 0 14px var(--up);
+    animation: pulse 2.4s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.85); }
+  }
+  .brand-title {
+    font-family: var(--serif); font-weight: 400; font-size: 48px;
+    line-height: 1.02; letter-spacing: -0.01em;
+    color: var(--ink-bright); margin-top: 6px;
+  }
+  .brand-title em { font-style: italic; opacity: 0.94; }
+  .brand-sub {
+    font-size: 13.5px; color: var(--ink-secondary);
+    margin-top: 10px; line-height: 1.55;
+  }
+
+  .meta-strip { display: flex; gap: 36px; align-items: flex-end; flex-wrap: wrap; }
+  .meta-block { display: flex; flex-direction: column; gap: 3px; min-width: 60px; }
+  .meta-label {
+    font-family: var(--mono);
+    font-size: 9.5px; font-weight: 500;
+    letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--ink-tertiary);
+  }
+  .meta-value {
+    font-family: var(--serif); font-weight: 400;
+    font-size: 28px; line-height: 1.02;
+    color: var(--ink-bright);
+    font-feature-settings: "tnum";
+  }
+  .meta-value.small {
+    font-size: 13px; font-family: var(--sans);
+    font-weight: 500; color: var(--ink-primary);
+    letter-spacing: -0.01em;
+  }
+
+  .controls {
+    position: relative; z-index: 2;
+    padding: 16px 44px;
+    display: flex; align-items: center;
+    justify-content: space-between; gap: 24px;
+    border-bottom: 1px solid var(--line-faint);
+    flex-wrap: wrap;
+  }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px; }
+  .legend-pill {
+    font-family: var(--mono);
+    font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-secondary);
+    padding: 6px 12px 6px 26px;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid transparent;
+    cursor: pointer; transition: all var(--t-quick);
+    position: relative; user-select: none;
+  }
+  .legend-pill::before {
+    content: ''; position: absolute;
+    left: 11px; top: 50%; transform: translateY(-50%);
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--pill-color, var(--ink-tertiary));
+    box-shadow: 0 0 8px var(--pill-color, transparent);
+  }
+  .legend-pill .ct {
+    font-size: 9px; color: var(--ink-tertiary); margin-left: 6px;
+  }
+  .legend-pill:hover { color: var(--ink-bright); background: var(--bg-hover); }
+  .legend-pill.active { color: var(--ink-bright); background: var(--bg-elev); border-color: var(--line-soft); }
+  .legend-pill.muted { opacity: 0.32; }
+
+  .sort-tabs {
+    display: flex; gap: 2px;
+    background: var(--bg-surface);
+    padding: 3px; border-radius: 4px;
+    border: 1px solid var(--line-faint);
+  }
+  .sort-tab {
+    font-family: var(--mono);
+    font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-tertiary);
+    padding: 7px 14px; border-radius: 3px;
+    cursor: pointer; transition: all var(--t-quick);
+    border: none; background: transparent; user-select: none;
+  }
+  .sort-tab:hover { color: var(--ink-primary); }
+  .sort-tab.active { color: var(--ink-bright); background: var(--bg-elev); }
+
+  main { position: relative; z-index: 2; padding: 28px 44px 60px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    background: var(--bg-surface);
+    border: 1px solid var(--line-faint);
+    border-radius: 6px;
+    padding: 22px 22px 18px;
+    cursor: pointer;
+    transition: border-color var(--t-quick), transform var(--t-quick), background var(--t-quick);
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column;
+    min-height: 280px;
+  }
+  .card::before {
+    content: ''; position: absolute;
+    left: 0; top: 0; bottom: 0; width: 2px;
+    background: var(--card-color, var(--ink-faint));
+    box-shadow: 0 0 12px var(--card-color, transparent);
+    opacity: 0.7;
+  }
+  .card:hover {
+    border-color: var(--line-soft);
+    background: var(--bg-elev);
+    transform: translateY(-1px);
+  }
+  .card.dimmed { opacity: 0.28; }
+
+  .card-top {
+    display: flex; justify-content: space-between;
+    align-items: flex-start; gap: 12px;
+    margin-bottom: 14px;
+  }
+  .card-name {
+    font-family: var(--serif); font-weight: 400; font-size: 22px;
+    line-height: 1.1; color: var(--ink-bright);
+    letter-spacing: -0.005em;
+  }
+  .card-meta {
+    font-family: var(--mono);
+    font-size: 9.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    margin-top: 4px;
+    display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+  }
+  .card-meta .type { color: var(--card-color, var(--ink-secondary)); font-weight: 500; }
+  .card-meta .ticker { color: var(--ink-secondary); }
+  .card-meta .country { color: var(--ink-tertiary); }
+  .card-meta .sep { color: var(--ink-faint); }
+
+  .card-price-line {
+    margin-top: 10px;
+    display: flex; align-items: baseline; gap: 12px;
+    font-family: var(--mono);
+    font-feature-settings: "tnum";
+  }
+  .card-price-line .price {
+    font-size: 17px; font-weight: 500;
+    color: var(--ink-bright);
+  }
+  .card-price-line .price .ccy {
+    font-size: 10px; color: var(--ink-tertiary);
+    font-weight: 400; letter-spacing: 0.08em;
+  }
+  .card-price-line .change {
+    font-size: 11.5px; font-weight: 500;
+  }
+  .card-price-line .change.up { color: var(--up); }
+  .card-price-line .change.down { color: var(--down); }
+  .card-price-line .change.flat { color: var(--ink-tertiary); }
+  .card-price-line .change .arrow { margin-right: 2px; }
+  .card-price-line .price.skeleton,
+  .card-price-line .change.skeleton {
+    color: var(--ink-faint); letter-spacing: 0.1em;
+  }
+  .card-price-line .unlisted {
+    font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--ink-tertiary);
+    padding: 3px 8px;
+    border: 1px solid var(--line-faint);
+    border-radius: 2px;
+  }
+
+  .card-aum-block {
+    text-align: right; flex-shrink: 0;
+    font-family: var(--mono);
+    font-size: 9.5px; letter-spacing: 0.16em;
+    color: var(--ink-tertiary); text-transform: uppercase;
+  }
+  .card-aum-block .num {
+    font-family: var(--serif);
+    font-size: 26px; font-weight: 400;
+    color: var(--ink-bright);
+    letter-spacing: -0.01em; text-transform: none;
+    display: block; line-height: 1;
+    margin-bottom: 4px;
+    font-feature-settings: "tnum";
+  }
+
+  .card-source-row {
+    display: flex; align-items: center; gap: 6px;
+    margin: 14px 0 8px;
+  }
+  .card-source-row .label {
+    font-family: var(--mono);
+    font-size: 9px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+  }
+  .card-source-row .source-tag {
+    font-family: var(--mono);
+    font-size: 8.5px; letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 2px 6px; border-radius: 2px;
+    background: var(--bg-elev);
+    color: var(--source-color, var(--ink-secondary));
+    border: 1px solid var(--line-faint);
+  }
+  .card-source-row .source-tag.exchange {
+    color: var(--t-listed);
+    border-color: rgba(244, 236, 216, 0.2);
+  }
+  .card-source-row .source-tag.rss {
+    color: var(--up);
+    border-color: rgba(74, 222, 128, 0.3);
+  }
+  .card-source-row .source-tag.domain-news {
+    color: var(--warn);
+    border-color: rgba(255, 184, 107, 0.3);
+  }
+  .card-source-row::after {
+    content: ''; flex: 1; height: 1px;
+    background: var(--line-faint); margin-left: 4px;
+  }
+
+  .card-news { display: flex; flex-direction: column; gap: 7px; flex: 1; }
+  .card-news-item {
+    font-size: 12.5px; line-height: 1.4;
+    color: var(--ink-primary);
+    border-left: 1px solid var(--line-soft);
+    padding-left: 10px;
+    text-decoration: none;
+    transition: color var(--t-quick), border-color var(--t-quick);
+    display: block;
+  }
+  .card-news-item:hover {
+    color: var(--ink-bright);
+    border-left-color: var(--card-color, var(--ink-secondary));
+  }
+  .card-news-item .when {
+    font-family: var(--mono);
+    font-size: 9px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    display: block; margin-bottom: 2px;
+  }
+  .card-news-empty {
+    font-size: 12px; color: var(--ink-tertiary);
+    font-style: italic;
+    border-left: 1px solid var(--line-faint);
+    padding-left: 10px;
+  }
+
+  .card-footer-row {
+    margin-top: 12px; padding-top: 12px;
+    border-top: 1px solid var(--line-faint);
+    display: flex; justify-content: space-between;
+    align-items: center; gap: 12px; flex-wrap: wrap;
+  }
+  .card-earnings { display: flex; align-items: baseline; gap: 8px; }
+  .card-earnings-label, .card-newsroom-link {
+    font-family: var(--mono);
+    font-size: 9px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+  }
+  .card-earnings-date {
+    font-family: var(--mono);
+    font-size: 11px; color: var(--ink-primary);
+    font-feature-settings: "tnum";
+  }
+  .card-earnings-date.soon { color: var(--t-pension); }
+  .card-earnings-date.imminent { color: var(--t-sovereign); }
+  .card-newsroom-link {
+    text-decoration: none;
+    transition: color var(--t-quick); margin-left: auto;
+  }
+  .card-newsroom-link:hover { color: var(--card-color, var(--ink-bright)); }
+  .card-newsroom-link .arrow {
+    display: inline-block; margin-left: 4px;
+    transition: transform var(--t-quick);
+  }
+  .card-newsroom-link:hover .arrow { transform: translateX(3px); }
+
+  .detail-panel {
+    position: fixed; top: 0; right: 0;
+    width: min(560px, 96vw); height: 100vh;
+    background: var(--bg-surface);
+    border-left: 1px solid var(--line-soft);
+    z-index: 50; transform: translateX(100%);
+    transition: transform var(--t-smooth);
+    overflow-y: auto;
+    box-shadow: -40px 0 60px rgba(0,0,0,0.4);
+  }
+  .detail-panel.open { transform: translateX(0); }
+  .detail-inner { padding: 32px 36px 60px; }
+
+  .detail-top {
+    display: flex; justify-content: space-between;
+    align-items: center; margin-bottom: 28px; gap: 16px;
+  }
+  .detail-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+  .detail-tag {
+    font-family: var(--mono);
+    font-size: 9.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink-secondary);
+    padding: 4px 9px; border-radius: 2px;
+    background: var(--bg-elev);
+    border: 1px solid var(--line-faint);
+  }
+  .detail-tag.type {
+    color: var(--detail-color, var(--ink-bright));
+    border-color: var(--detail-color, var(--line-faint));
+  }
+  .detail-close {
+    background: transparent;
+    border: 1px solid var(--line-soft);
+    color: var(--ink-secondary);
+    font-family: var(--mono);
+    font-size: 10px; letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 6px 11px; cursor: pointer;
+    border-radius: 3px; transition: all var(--t-quick);
+    flex-shrink: 0;
+  }
+  .detail-close:hover { color: var(--ink-bright); border-color: var(--line-strong); }
+
+  .detail-name {
+    font-family: var(--serif); font-size: 38px; font-weight: 400;
+    line-height: 1.05; color: var(--ink-bright);
+    margin-bottom: 6px; letter-spacing: -0.01em;
+  }
+  .detail-ticker {
+    font-family: var(--mono);
+    font-size: 12px; letter-spacing: 0.18em;
+    color: var(--ink-tertiary);
+    text-transform: uppercase; margin-bottom: 28px;
+  }
+
+  .detail-quote-row {
+    display: flex; gap: 32px; flex-wrap: wrap;
+    padding: 18px 0;
+    border-top: 1px solid var(--line-faint);
+    border-bottom: 1px solid var(--line-faint);
+    margin-bottom: 28px;
+  }
+  .detail-quote-block { display: flex; flex-direction: column; gap: 4px; }
+  .detail-quote-label {
+    font-family: var(--mono);
+    font-size: 9px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+  }
+  .detail-quote-value {
+    font-family: var(--mono); font-size: 16px;
+    color: var(--ink-bright); font-feature-settings: "tnum";
+  }
+  .detail-quote-value.up { color: var(--up); }
+  .detail-quote-value.down { color: var(--down); }
+
+  .detail-blurb {
+    font-size: 14px; line-height: 1.6;
+    color: var(--ink-secondary);
+    margin-bottom: 28px;
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.018);
+    border-left: 2px solid var(--detail-color, var(--ink-faint));
+    border-radius: 0 4px 4px 0;
+  }
+
+  .detail-section-title {
+    font-family: var(--mono);
+    font-size: 10px; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    margin: 0 0 14px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .detail-section-title a {
+    font-family: var(--mono); font-size: 9.5px;
+    color: var(--ink-secondary);
+    text-decoration: none; letter-spacing: 0.16em;
+    transition: color var(--t-quick);
+  }
+  .detail-section-title a:hover { color: var(--detail-color, var(--ink-bright)); }
+
+  .detail-source-line {
+    font-family: var(--mono);
+    font-size: 9.5px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    margin-bottom: 12px;
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+  .detail-source-line .src-pill {
+    padding: 3px 8px; border-radius: 2px;
+    background: var(--bg-elev);
+    border: 1px solid var(--line-faint);
+  }
+  .detail-source-line .src-pill.exchange { color: var(--t-listed); border-color: rgba(244, 236, 216, 0.2); }
+  .detail-source-line .src-pill.rss { color: var(--up); border-color: rgba(74, 222, 128, 0.3); }
+  .detail-source-line .src-pill.domain-news { color: var(--warn); border-color: rgba(255, 184, 107, 0.3); }
+
+  .detail-news { display: flex; flex-direction: column; gap: 14px; margin-bottom: 32px; }
+  .detail-news-item {
+    display: block; text-decoration: none;
+    padding: 12px 0 14px;
+    border-bottom: 1px solid var(--line-faint);
+    transition: background var(--t-quick);
+  }
+  .detail-news-item:hover { background: rgba(255,255,255,0.02); }
+  .detail-news-meta {
+    font-family: var(--mono);
+    font-size: 9px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    display: flex; gap: 10px; margin-bottom: 6px;
+  }
+  .detail-news-meta .pub { color: var(--detail-color, var(--ink-secondary)); }
+  .detail-news-title {
+    font-size: 14.5px; line-height: 1.45;
+    color: var(--ink-primary);
+  }
+  .detail-news-item:hover .detail-news-title { color: var(--ink-bright); }
+  .detail-news-empty {
+    font-size: 13px; color: var(--ink-tertiary);
+    font-style: italic; padding: 12px 0;
+  }
+
+  .footer-note {
+    position: relative; z-index: 2;
+    padding: 24px 44px 32px;
+    border-top: 1px solid var(--line-faint);
+    font-family: var(--mono);
+    font-size: 10px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    display: flex; justify-content: space-between;
+    align-items: center; gap: 16px; flex-wrap: wrap;
+  }
+  .footer-note a { color: var(--ink-secondary); text-decoration: none; }
+  .footer-note a:hover { color: var(--ink-bright); }
+
+  .loading-state {
+    padding: 60px 44px;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-tertiary);
+  }
+  .error-state {
+    padding: 60px 44px;
+    text-align: center;
+    color: var(--down);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+
+  @media (max-width: 640px) {
+    header.app-header { padding: 22px 22px 18px; }
+    .brand-title { font-size: 36px; }
+    .controls { padding: 14px 22px; }
+    main { padding: 22px 22px 40px; }
+    .grid { grid-template-columns: 1fr; }
+    .detail-inner { padding: 24px 22px 60px; }
+    .detail-name { font-size: 30px; }
+    .footer-note { padding: 18px 22px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="brand">
+    <div class="brand-line">
+      <span class="dot"></span>
+      <span>Client Pulse · Key Client Tracker</span>
+    </div>
+    <h1 class="brand-title">Key client <em>signals,</em><br>at a glance</h1>
+    <p class="brand-sub">Hybrid news sourcing &mdash; exchange filings for listed names, official RSS where published, and domain-filtered news for the rest. Every headline traceable to its source.</p>
+  </div>
+
+  <div class="meta-strip">
+    <div class="meta-block">
+      <div class="meta-label">Data as of</div>
+      <div class="meta-value small" id="meta-time">—</div>
+    </div>
+    <div class="meta-block">
+      <div class="meta-label">Tracking</div>
+      <div class="meta-value" id="meta-count">—</div>
+    </div>
+    <div class="meta-block">
+      <div class="meta-label">Listed · Private</div>
+      <div class="meta-value small" id="meta-breadth">—</div>
+    </div>
+  </div>
+</header>
+
+<section class="controls">
+  <div class="legend" id="legend"></div>
+  <div class="sort-tabs" id="sort-tabs">
+    <button class="sort-tab active" data-sort="default">Default</button>
+    <button class="sort-tab" data-sort="recent">Most Recent News</button>
+    <button class="sort-tab" data-sort="gainers">Top Gainers</button>
+    <button class="sort-tab" data-sort="losers">Top Losers</button>
+    <button class="sort-tab" data-sort="aum">By AUM</button>
+  </div>
+</section>
+
+<main>
+  <div id="grid-wrapper">
+    <div class="loading-state">Loading data…</div>
+  </div>
+</main>
+
+<aside class="detail-panel" id="detail-panel">
+  <div class="detail-inner" id="detail-inner"></div>
+</aside>
+
+<footer class="footer-note">
+  <span id="footer-status">Loading…</span>
+  <span>For internal use · Not investment advice</span>
+</footer>
+
+<script>
+/* Dashboard reads from data.json, which is regenerated by a GitHub Action
+   on a schedule. No live fetching from the browser, no CORS issues. */
+
+const TYPE_META = {
+  listed:    { label: 'Listed',    color: 'var(--t-listed)' },
+  sovereign: { label: 'Sovereign', color: 'var(--t-sovereign)' },
+  pension:   { label: 'Pension',   color: 'var(--t-pension)' },
+  insurance: { label: 'Insurance', color: 'var(--t-insurance)' },
+  bank:      { label: 'Bank',      color: 'var(--t-bank)' },
+};
+
+const state = {
+  data: null,
+  sort: 'default',
+  typeFilter: null,
+  selected: null,
+};
+
+function fmtPrice(v) {
+  if (v == null || !isFinite(v)) return '—';
+  const d = v >= 100 ? 2 : v >= 1 ? 2 : 4;
+  return v.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+}
+function fmtPct(v) {
+  if (v == null || !isFinite(v)) return '—';
+  return `${v > 0 ? '+' : ''}${v.toFixed(2)}%`;
+}
+function fmtChange(v) {
+  if (v == null || !isFinite(v)) return '—';
+  return `${v > 0 ? '+' : ''}${v.toFixed(2)}`;
+}
+function fmtAum(v) {
+  if (v == null) return '—';
+  if (v >= 1000) return (v / 1000).toFixed(2) + 'T';
+  return v + 'B';
+}
+function fmtRelTime(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (isNaN(d)) return '';
+  const diff = (Date.now() - d.getTime()) / 1000;
+  if (diff < 60) return 'just now';
+  if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+  if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+  if (diff < 86400 * 7) return Math.floor(diff / 86400) + 'd ago';
+  return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
+}
+function daysUntil(iso) {
+  if (!iso) return null;
+  const d = new Date(iso + 'T00:00:00');
+  if (isNaN(d)) return null;
+  return Math.ceil((d - new Date()) / 86400000);
+}
+function fmtEarnings(iso) {
+  if (!iso) return null;
+  const d = new Date(iso + 'T00:00:00');
+  if (isNaN(d)) return null;
+  return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+function escapeHtml(s) {
+  return (s || '').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[ch]));
+}
+function latestNewsDate(short) {
+  const arr = state.data?.news?.[short]?.items;
+  if (!arr || !arr.length) return 0;
+  const d = new Date(arr[0].pubDate);
+  return isNaN(d) ? 0 : d.getTime();
+}
+
+function renderLegend() {
+  const el = document.getElementById('legend');
+  const counts = {};
+  state.data.clients.forEach(c => counts[c.type] = (counts[c.type] || 0) + 1);
+  el.innerHTML = Object.entries(TYPE_META).map(([key, meta]) => `
+    <button class="legend-pill ${state.typeFilter === key ? 'active' : ''} ${state.typeFilter && state.typeFilter !== key ? 'muted' : ''}"
+            data-type="${key}" style="--pill-color:${meta.color}">
+      ${meta.label}<span class="ct">${counts[key] || 0}</span>
+    </button>
+  `).join('');
+  el.querySelectorAll('.legend-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const t = btn.dataset.type;
+      state.typeFilter = state.typeFilter === t ? null : t;
+      renderLegend();
+      renderGrid();
+    });
+  });
+}
+
+function renderMeta() {
+  const gen = state.data.generated_at ? new Date(state.data.generated_at) : new Date();
+  document.getElementById('meta-time').textContent =
+    gen.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }) + ' · ' +
+    gen.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
+  document.getElementById('meta-count').textContent = state.data.clients.length;
+  const listed = state.data.clients.filter(c => c.type === 'listed').length;
+  document.getElementById('meta-breadth').textContent = `${listed} · ${state.data.clients.length - listed}`;
+
+  const ago = Math.floor((Date.now() - gen.getTime()) / 60000);
+  const agoStr = ago < 60 ? `${ago}m ago` : `${Math.floor(ago/60)}h ago`;
+  document.getElementById('footer-status').textContent =
+    `Hybrid sourcing · Last refresh: ${agoStr} · Auto-updates every 30 min during APAC hours`;
+}
+
+function clientsForView() {
+  let list = state.data.clients.slice();
+  if (state.typeFilter) list = list.filter(c => c.type === state.typeFilter);
+  const get = (c, key) => {
+    if (key === 'gainers') {
+      const q = state.data.quotes[c.ticker];
+      return c.type === 'listed' && q ? -(q.changePct ?? 0) : Infinity;
+    }
+    if (key === 'losers') {
+      const q = state.data.quotes[c.ticker];
+      return c.type === 'listed' && q ? (q.changePct ?? 0) : Infinity;
+    }
+    if (key === 'recent') return -latestNewsDate(c.short);
+    if (key === 'aum') return -(c.aum || 0);
+    return 0;
+  };
+  if (state.sort !== 'default') list.sort((a, b) => get(a, state.sort) - get(b, state.sort));
+  return list;
+}
+
+function sourceBadge(source, isCard) {
+  if (!source) return `<span class="${isCard ? 'source-tag' : 'src-pill'}">no source</span>`;
+  const cls = source.type;
+  const labelText = (source.type === 'exchange' ? 'EX · ' :
+                     source.type === 'rss' ? 'RSS · ' :
+                     source.type === 'domain-news' ? 'SITE · ' : '');
+  return `<span class="${isCard ? 'source-tag' : 'src-pill'} ${cls}">${labelText}${escapeHtml(source.label)}</span>`;
+}
+
+function ensureGrid() {
+  const wrap = document.getElementById('grid-wrapper');
+  if (!wrap.querySelector('.grid')) {
+    wrap.innerHTML = '<div class="grid" id="grid"></div>';
+  }
+}
+
+function renderGrid() {
+  ensureGrid();
+  const grid = document.getElementById('grid');
+  const list = clientsForView();
+  grid.innerHTML = list.map(c => {
+    const typeMeta = TYPE_META[c.type];
+    const isListed = c.type === 'listed';
+    const q = isListed ? state.data.quotes[c.ticker] : null;
+    const newsBlock = state.data.news[c.short];
+    const news = newsBlock?.items || [];
+    const source = newsBlock?.source;
+    const changeClass = q ? (q.changePct > 0 ? 'up' : q.changePct < 0 ? 'down' : 'flat') : 'flat';
+    const arrow = q ? (q.changePct > 0 ? '▲' : q.changePct < 0 ? '▼' : '·') : '';
+    const earnDays = daysUntil(c.earnings);
+    let earnClass = '';
+    if (earnDays != null && earnDays >= 0) {
+      if (earnDays <= 7) earnClass = 'imminent';
+      else if (earnDays <= 21) earnClass = 'soon';
+    }
+    const topNews = news.slice(0, 3);
+    return `
+      <article class="card" data-short="${c.short}" style="--card-color:${typeMeta.color}">
+        <div class="card-top">
+          <div style="min-width:0; flex:1;">
+            <div class="card-name">${escapeHtml(c.name)}</div>
+            <div class="card-meta">
+              <span class="type">${typeMeta.label}</span>
+              <span class="sep">·</span>
+              <span class="country">${escapeHtml(c.country)}</span>
+              ${c.ticker ? `<span class="sep">·</span><span class="ticker">${c.ticker}</span>` : ''}
+            </div>
+            <div class="card-price-line">
+              ${isListed
+                ? (q ? `
+                    <span class="price">${fmtPrice(q.price)}<span class="ccy"> ${q.currency || ''}</span></span>
+                    <span class="change ${changeClass}"><span class="arrow">${arrow}</span>${fmtPct(q.changePct)}</span>`
+                  : `<span class="price skeleton">· · ·</span><span class="change skeleton">—</span>`)
+                : `<span class="unlisted">Unlisted</span>`}
+            </div>
+          </div>
+          <div class="card-aum-block">
+            <span class="num">$${fmtAum(c.aum)}</span>
+            AUM
+          </div>
+        </div>
+
+        <div class="card-source-row">
+          <span class="label">Headlines from</span>
+          ${sourceBadge(source, true)}
+        </div>
+
+        <div class="card-news">
+          ${topNews.length === 0
+            ? `<div class="card-news-empty">No recent items from this source</div>`
+            : topNews.map(n => `
+              <a class="card-news-item" href="${escapeHtml(n.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+                <span class="when">${fmtRelTime(n.pubDate)}${n.source ? ' · ' + escapeHtml(n.source) : ''}</span>
+                ${escapeHtml(n.title)}
+              </a>`).join('')
+          }
+        </div>
+
+        <div class="card-footer-row">
+          ${c.earnings ? `
+            <div class="card-earnings">
+              <span class="card-earnings-label">Next earnings</span>
+              <span class="card-earnings-date ${earnClass}">
+                ${fmtEarnings(c.earnings)}${earnDays != null && earnDays >= 0 ? ` · ${earnDays}d` : ''}
+              </span>
+            </div>` : '<span></span>'}
+          ${c.newsroom ? `
+            <a class="card-newsroom-link" href="${c.newsroom}" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+              Newsroom<span class="arrow">→</span>
+            </a>` : ''}
+        </div>
+      </article>
+    `;
+  }).join('');
+  grid.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('click', () => openDetail(card.dataset.short));
+  });
+}
+
+function openDetail(short) {
+  const c = state.data.clients.find(x => x.short === short);
+  if (!c) return;
+  state.selected = short;
+  const typeMeta = TYPE_META[c.type];
+  const isListed = c.type === 'listed';
+  const q = isListed ? state.data.quotes[c.ticker] : null;
+  const newsBlock = state.data.news[short];
+  const news = newsBlock?.items || [];
+  const source = newsBlock?.source;
+  const changeClass = q ? (q.changePct > 0 ? 'up' : q.changePct < 0 ? 'down' : 'flat') : 'flat';
+  const earnDays = daysUntil(c.earnings);
+
+  const panel = document.getElementById('detail-panel');
+  panel.style.setProperty('--detail-color', typeMeta.color);
+  document.getElementById('detail-inner').innerHTML = `
+    <div class="detail-top">
+      <div class="detail-tags">
+        <span class="detail-tag type">${typeMeta.label}</span>
+        <span class="detail-tag">${escapeHtml(c.country)}</span>
+        ${q?.exchange ? `<span class="detail-tag">${escapeHtml(q.exchange)}</span>` : ''}
+        ${q?.marketState ? `<span class="detail-tag">${escapeHtml(q.marketState)}</span>` : ''}
+      </div>
+      <button class="detail-close" onclick="closeDetail()">Close ✕</button>
+    </div>
+
+    <h2 class="detail-name">${escapeHtml(c.name)}</h2>
+    <div class="detail-ticker">${c.ticker || c.short}${q?.currency ? ' · ' + q.currency : ''}${c.aum ? ' · AUM $' + fmtAum(c.aum) : ''}</div>
+
+    ${c.blurb ? `<div class="detail-blurb">${escapeHtml(c.blurb)}</div>` : ''}
+
+    ${isListed ? `
+    <div class="detail-quote-row">
+      <div class="detail-quote-block">
+        <span class="detail-quote-label">Price</span>
+        <span class="detail-quote-value">${q ? fmtPrice(q.price) : '—'}</span>
+      </div>
+      <div class="detail-quote-block">
+        <span class="detail-quote-label">Change</span>
+        <span class="detail-quote-value ${changeClass}">${q ? fmtChange(q.change) : '—'}</span>
+      </div>
+      <div class="detail-quote-block">
+        <span class="detail-quote-label">% Change</span>
+        <span class="detail-quote-value ${changeClass}">${q ? fmtPct(q.changePct) : '—'}</span>
+      </div>
+      <div class="detail-quote-block">
+        <span class="detail-quote-label">Day Range</span>
+        <span class="detail-quote-value">${q?.dayLow != null ? fmtPrice(q.dayLow) + ' – ' + fmtPrice(q.dayHigh) : '—'}</span>
+      </div>
+      ${c.earnings ? `
+        <div class="detail-quote-block">
+          <span class="detail-quote-label">Next earnings</span>
+          <span class="detail-quote-value">${fmtEarnings(c.earnings)}${earnDays != null && earnDays >= 0 ? ` · ${earnDays}d` : ''}</span>
+        </div>` : ''}
+    </div>` : ''}
+
+    <h3 class="detail-section-title">
+      Recent coverage
+      ${c.newsroom ? `<a href="${c.newsroom}" target="_blank" rel="noopener">Open newsroom →</a>` : ''}
+    </h3>
+    <div class="detail-source-line">
+      <span>Sourced from:</span>
+      ${sourceBadge(source, false)}
+    </div>
+
+    <div class="detail-news">
+      ${news.length === 0
+        ? `<div class="detail-news-empty">No recent headlines found from this source.</div>`
+        : news.map(n => `
+          <a class="detail-news-item" href="${escapeHtml(n.url)}" target="_blank" rel="noopener">
+            <div class="detail-news-meta">
+              <span class="pub">${escapeHtml(n.source || source?.label || 'Source')}</span>
+              <span>${fmtRelTime(n.pubDate)}</span>
+            </div>
+            <div class="detail-news-title">${escapeHtml(n.title)}</div>
+          </a>`).join('')
+      }
+    </div>
+  `;
+  panel.classList.add('open');
+}
+
+function closeDetail() {
+  state.selected = null;
+  document.getElementById('detail-panel').classList.remove('open');
+}
+window.closeDetail = closeDetail;
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+
+document.querySelectorAll('.sort-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    if (!state.data) return;
+    document.querySelectorAll('.sort-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    state.sort = tab.dataset.sort;
+    renderGrid();
+  });
+});
+
+async function boot() {
+  try {
+    // Cache-bust so we always get the latest data.json
+    const res = await fetch('./data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    state.data = await res.json();
+    renderLegend();
+    renderMeta();
+    renderGrid();
+  } catch (e) {
+    document.getElementById('grid-wrapper').innerHTML =
+      `<div class="error-state">Could not load data.json — has the refresh workflow run yet? (${escapeHtml(e.message)})</div>`;
+    document.getElementById('footer-status').textContent = 'Data load failed';
+  }
+}
+
+boot();
+</script>
+</body>
+</html>
