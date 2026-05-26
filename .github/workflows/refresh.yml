@@ -1,0 +1,49 @@
+name: Refresh Client Pulse Data
+
+on:
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+
+  # Scheduled: every 30 min during APAC business hours (00:00–10:00 UTC = 08:00–18:00 SGT)
+  # Mon–Fri only. Cron times are UTC.
+  schedule:
+    - cron: '*/30 0-10 * * 1-5'
+
+# Allow the workflow to push commits back to the repo
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch news + quotes
+        run: python fetch_news.py
+
+      - name: Commit updated data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet data.json; then
+            echo "No changes to data.json"
+          else
+            git add data.json
+            git commit -m "chore: refresh data.json [skip ci]"
+            git push
+          fi
