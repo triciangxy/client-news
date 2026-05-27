@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T04:06:04Z",
+  "generated_at": "2026-05-27T08:27:00Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 84.85,
-      "change": 0.5499999999999972,
-      "changePct": 0.6524317912218235,
+      "price": 84.55,
+      "change": 0.25,
+      "changePct": 0.29655990510083036,
       "currency": "HKD",
       "prevClose": 84.3,
       "dayHigh": 85.1,
@@ -261,20 +261,20 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 95300.0,
-      "change": -700.0,
-      "changePct": -0.7291666666666666,
+      "price": 95000.0,
+      "change": -1000.0,
+      "changePct": -1.0416666666666665,
       "currency": "KRW",
       "prevClose": 96000.0,
       "dayHigh": 97300.0,
-      "dayLow": 94900.0,
+      "dayLow": 94500.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 5655.0,
-      "change": -6.0,
-      "changePct": -0.10598834128245893,
+      "price": 5628.0,
+      "change": -33.0,
+      "changePct": -0.5829358770535241,
       "currency": "JPY",
       "prevClose": 5661.0,
       "dayHigh": 5690.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3012.0,
-      "change": -38.0,
-      "changePct": -1.2459016393442623,
+      "price": 3001.0,
+      "change": -49.0,
+      "changePct": -1.6065573770491801,
       "currency": "JPY",
       "prevClose": 3050.0,
       "dayHigh": 3033.0,
@@ -316,6 +316,12 @@
           "pubDate": "Thu, 30 Apr 2026 07:00:00 GMT"
         },
         {
+          "title": "Can a bedtime routine alleviate stress?",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnBsWmdkRlVtak5iZmNtRjQtZ3YzNVVJZ3U4eVpPdnQ5aHJaWHEwV09VZHFhUlFVUjRELU55RkduY1llR1ZlSHg1M2RkZ0FkdkFxZzFXblhmbjJJMmw3bmpKYzZhdlVDNmpiQkZWN2lkcmZ3bGJ1bVhULUFDalNuVmhTSFlRVWVjb3NsY294YlRBZDhSaHc?oc=5",
+          "pubDate": "Wed, 15 May 2024 16:36:37 GMT"
+        },
+        {
           "title": "AIA China accelerates geographical expansion with approval to prepare a new branch in Zhejiang",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnJOVkJObjFvVFZCaFZPazFldEdpS2xVcVRPN1h0dVhOdlloc0pFNEFkZ3V1c1dIeUt6NmJ5MVRWR0JDcjJnanpxSE9IS1J1X01FR3RVVmQ2TFFpQy0tWEdfcnFSNG51OTFHMFdZN1hETVZpQ0ItU2s5a0VIOWZVbEZNTkQtYmhwM0pka1E0YWV4QQ?oc=5",
@@ -340,6 +346,12 @@
           "pubDate": "Wed, 14 Dec 2022 10:59:21 GMT"
         },
         {
+          "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
+          "source": "AIA Design",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
+          "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
+        },
+        {
           "title": "Healthy Finances",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1S2lEdDJRMnNDQU02M2s1ZFlqUTVYdnR2VDVEMWQyV1ZtdDh0bzE0ZG1SWURueUxucDR5MGNGWm91RW91a0dEb2hGQno5TW40bnRub25KV0tLVGY4ZDFhaGlvSkdlTksyajBfclhObTMzdVZ5d0VlS3d3?oc=5",
@@ -350,18 +362,6 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVkQ3XzNBWkxfd2RoUnA3Q25OQXd6Z1F6WDdXX2EwbWs4YjcyU1dpVi0xZGFXMFF0aXFYY1RWeDN0eF9jVVVhV2xrVEtQV2gwSmZCQUJyVThCalQyakltX2dvTWc1cHBXVDZZSU1GNGZRZVQyMVJEY3pUMWp1SXdSckpPcjBOVGlJUThOMFhBNFRoWG5RWXVZaXF0S0M1djh6QmNJamRNM0xjRnl6X2ZaOTNSZE9MMGFxOThJMTBkZHh6djM0SDdrVkhNTU41emh0UW1SNDNPVXlfN0NNN3lyVXB2YjNlT2toX1NPSm9XRTE?oc=5",
           "pubDate": "Wed, 20 Aug 2025 22:16:19 GMT"
-        },
-        {
-          "title": "Regulatory Disclosures",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EanU4eHRKcmlNSTZwSGVUZC1iMjBiQ1Y5S0VVR1ZVR2VhaXF1aVdqOHdWU0Rfc0o0UExpQlRHY3p0TFQ0a3EteTVSSk45eWI3RHUzZ2hTbUNIcDllWnpQa0FOamJ3dk5JSTNJenBfVS1UOVBvRGdQc05RcDc0Zw?oc=5",
-          "pubDate": "Tue, 30 Sep 2025 09:08:44 GMT"
-        },
-        {
-          "title": "Managing feelings (5–7)",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSTVoNkthSkJRV29KdXl5eE93QnVNeFVZOGRSX3pyWjBodDNJeFBIS3BEZ2JqbnJuTzAwdk5GOVhhNUs0cmx3TUVDcDVVY2x1MVZTUUtqZk1BOFd4dHI0VHpyVWh3Slh6?oc=5",
-          "pubDate": "Mon, 21 Nov 2022 18:03:35 GMT"
         }
       ]
     },
@@ -934,6 +934,18 @@
       },
       "items": [
         {
+          "title": "A RETIREMENT BONUS TO HELP YOUR SAVINGS GO FURTHER",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd0RqaGZGZ0ZkVHlQcUdkNzE4bUpwNXltanJTZGVaWWFabXRLWGl2MGJCYmk0dlBuc2N3bU12VC1KU1hRNWpnczdFTE1JdVNBdGdXTHp1UmlxNDQtVmdvQVZjZ2UzMmVZdVFxVkhtRnNpS0J2U2V6LWptS1FJbzFkU1l4WXBxTDJ1MC1IS1V2ZDZCbnBOVkl3ZTNCM3JlYm1fN2VrbUNYbw?oc=5",
+          "pubDate": "Thu, 14 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "How to stay safe from sales tactics and scams",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
+          "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
+        },
+        {
           "title": "Indexed balanced",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWpfVWxUZTZLSjZBaWZuTi0xdVc4QnJPRkJNTG1aek03dGdTWi1qZjFVbVIxbE5TcmhPMVhJYTEzdHZESkk1aFpHUkxoVjJkNVAxV1E5RVp0dFJ2YUREdDFuWVVoYi1pSUdrUjk5aHpvQzhRdm5vSmhfdXhVS1QzaFN1bDdzME9oQzA3NDRzT0d6U2pHSEx3eXR6OGw3LTV5OHNCRnRhbWZZR3Z0amR6MXRCQ0tiR0puZ1lSd04tbzI3dmd2b084Rg?oc=5",
@@ -952,10 +964,22 @@
           "pubDate": "Thu, 05 Dec 2024 08:00:00 GMT"
         },
         {
+          "title": "Meet our trusted Financial Advisers",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
+          "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
+        },
+        {
           "title": "Try SuperSmart",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ja1NFTUJVTm5pZV9odHhQNjU0UE1zTVY5QUc1bEhiUmhKTVBoa0dob3ZBbjlORVlIeC1xYm4zdHU5TjNsZUNfaVFYSWlETm1hNzhsU1hManNDWUlsNzdrNEkzR0g2bm8?oc=5",
           "pubDate": "Wed, 03 Sep 2025 07:50:38 GMT"
+        },
+        {
+          "title": "HOSTPLUS SELF-MANAGED INVEST ANNUAL REPORT",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
+          "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
         },
         {
           "title": "Review -",
@@ -968,30 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUZQbFBuenRESTA4emZGUEtGM01qVG5rbkdrME5GV2MyV2w2Sktaa1I0N2FmNktxeXROc21uN0JyMzFlS3Z4Z0FGcHRCVU1JLWdoV0tlMGNEakY5M2hTRGl0Q2VFdlRQU0xnZlZRTmhOVWhSUm9mbk16cnJMUG96YVZnUm9JUExKclNBeVpFNVFUSDVJQXVvdjhMbks4Q0NJNEdj?oc=5",
           "pubDate": "Tue, 30 Sep 2025 07:00:00 GMT"
-        },
-        {
-          "title": "TRACK DOWN YOUR LOST SUPER.",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNnE5dXZkSmNGY3RoSE1hYkV3VDFXZUZRLUY5djBjaGw0Mk1ubGVrclBIZGNscFpzdmE3RzNCMWUtd0RTWGxsV1NhWlVSV3JCcE1lbnByOHoxTVQwck1ob3k5UHNZTE9vbENySWNSeVJNVTM4Z0NtM0NuY0E1SlNRa1VlczVGczgyNGotNjQzZTgyX1A4azUzblgzS2VILVFSLUZ0ZVRRYUxIaUkya2JyR0N2RTBGUHBuSTlHVzJ6VS1QUnFaSXBTMW50NFd3VjFrMTJzMmx4UWtOR2RUWnFVNEEzdXJCLTVzSXBPVC1rZGFGMDR4T2kwSmVR?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 10:57:11 GMT"
-        },
-        {
-          "title": "HOW TO TRANSFER FUNDS FROM A SELF-MANAGED SUPER FUND (SMSF) INTO HOSTPLUS",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVFo0bXg5d3NHdHgxZmt0dnN2SXVoNTJCUDVXYm1BZ3dUVlZKZEpUVS1mYWMxcmh2VUt5UjI0WTVvVl9sWXdJeU52NDM2cjJ1UkNHSWg4X3YwajlxTWJRRnhjazRXaGZQYUduYWYwbk1nN1VIT2NvU3ZnZHVwT1J0YVQwdmRXVUVsdjVpUmpFZVVNX0JfVFN1aUJucUEyMl9IV3J4TE1RSVZfSTMtcHhncVVacnRLS3hfSVlaM1Y3Y2ZmekwtRVdoZWQyRFEydGM?oc=5",
-          "pubDate": "Tue, 16 Dec 2025 10:21:42 GMT"
-        },
-        {
-          "title": "INVESTMENT",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMUt5dlVpTTA4VkR0MlZ2RkpZbzViUTlyc2tBNHlkMlRxYk9sTHF0TlFOUDBMbnpwT2NIeVV0Qm51S2xJLXYzVUNZN3Bpay1oY28zT1d1bnIwdEhjY2JkUW4tS191UHFLUTNmaGFQYVVDbWRkVVFFMFFBQTFqUU11WkdwUzhxRy1JS1lXNnRuTUIyMzQ4WVBVeFNUUGZYSjZUMi1sZDA4Sy0tUnBOOHdRbWRLV0R1VHM0TEF0aVhfUjlqbGx2b0E?oc=5",
-          "pubDate": "Tue, 30 Sep 2025 07:00:00 GMT"
-        },
-        {
-          "title": "Hostplus extends MetLife partnership",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXal9weDdkQVF3Wk9idFBpck1udE53SDhFd0g3MEZDMDdkUUZzN1pkbllvX0xQZUJ0cW1qR21LOHZ6OTRDclZ0SU9TQkRONXkwTF9xbEQ4WDNoTUFHR2dTdXYwUXlhNnhoS1BCdE1rV1BGOF8yNTV3VlptYnZtR3c?oc=5",
-          "pubDate": "Fri, 11 Jul 2025 14:02:29 GMT"
         }
       ]
     },
