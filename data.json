@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T13:27:57Z",
+  "generated_at": "2026-05-27T04:06:04Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 84.3,
-      "change": -1.75,
-      "changePct": -2.033701336432307,
+      "price": 84.85,
+      "change": 0.5499999999999972,
+      "changePct": 0.6524317912218235,
       "currency": "HKD",
-      "prevClose": 86.05,
-      "dayHigh": 86.0,
-      "dayLow": 84.2,
+      "prevClose": 84.3,
+      "dayHigh": 85.1,
+      "dayLow": 83.1,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 96000.0,
-      "change": -2200.0,
-      "changePct": -2.240325865580448,
+      "price": 95300.0,
+      "change": -700.0,
+      "changePct": -0.7291666666666666,
       "currency": "KRW",
-      "prevClose": 98200.0,
-      "dayHigh": 99300.0,
-      "dayLow": 95800.0,
+      "prevClose": 96000.0,
+      "dayHigh": 97300.0,
+      "dayLow": 94900.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 5661.0,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 5655.0,
+      "change": -6.0,
+      "changePct": -0.10598834128245893,
       "currency": "JPY",
       "prevClose": 5661.0,
-      "dayHigh": 5698.0,
-      "dayLow": 5610.0,
+      "dayHigh": 5690.0,
+      "dayLow": 5576.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3050.0,
-      "change": -43.0,
-      "changePct": -1.3902360168121564,
+      "price": 3012.0,
+      "change": -38.0,
+      "changePct": -1.2459016393442623,
       "currency": "JPY",
-      "prevClose": 3093.0,
-      "dayHigh": 3107.0,
-      "dayLow": 3010.0,
+      "prevClose": 3050.0,
+      "dayHigh": 3033.0,
+      "dayLow": 2968.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -328,12 +328,6 @@
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
-          "title": "AIA Group Press Release_ENG_6 June 2025",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNGlZM29xTDRxcUg4cUduQWExdTN2MjJhUzZ1OTV2WnZiTFpoR3FzWS1GREI3ZkFzcTdSVE51eFNlTHJhUk4talpNNlVIYVlMVnBuVVUtMTJEZlJSM0ExaWkyVzI2cl9wVzI0VGJqUlFBR2l1d1daeEc1bmxnbEtqSS1zSC1sOUhzcUFfODd2bHBreHl0S2MtQU9RNXctWDg4b0tZbUpmSm1GcjRldzJvVTBMbHdHWF9GSm9lSjFZZHg?oc=5",
-          "pubDate": "Fri, 06 Jun 2025 07:00:00 GMT"
-        },
-        {
           "title": "How financial planning can help your small business",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
@@ -362,6 +356,12 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EanU4eHRKcmlNSTZwSGVUZC1iMjBiQ1Y5S0VVR1ZVR2VhaXF1aVdqOHdWU0Rfc0o0UExpQlRHY3p0TFQ0a3EteTVSSk45eWI3RHUzZ2hTbUNIcDllWnpQa0FOamJ3dk5JSTNJenBfVS1UOVBvRGdQc05RcDc0Zw?oc=5",
           "pubDate": "Tue, 30 Sep 2025 09:08:44 GMT"
+        },
+        {
+          "title": "Managing feelings (5–7)",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSTVoNkthSkJRV29KdXl5eE93QnVNeFVZOGRSX3pyWjBodDNJeFBIS3BEZ2JqbnJuTzAwdk5GOVhhNUs0cmx3TUVDcDVVY2x1MVZTUUtqZk1BOFd4dHI0VHpyVWh3Slh6?oc=5",
+          "pubDate": "Mon, 21 Nov 2022 18:03:35 GMT"
         }
       ]
     },
@@ -444,16 +444,16 @@
       },
       "items": [
         {
-          "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0tT1JVSVhTTUhGWkdIOEMwdlk0TkEzNm00VTQwd3dqa204SjVIZEFVaUFnaDIxMjRoSTBXRG5kRThqQQ?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 18:10:26 GMT"
-        },
-        {
           "title": "| SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBydU1ZT3RWZzhsaEVrRzNodTFTRGFWSklHQ2xMUzFvcVNDNWMzS1N3V0JsUnpQZW9VTkx3?oc=5",
           "pubDate": "Mon, 24 Feb 2025 07:30:29 GMT"
+        },
+        {
+          "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1LQm02YUFLaDR6bUZHRnJOQVR1dnJFTTZTU0YteDlUUzZ6X0lMZTFXZFpCOHRwODdJWmRBUmJwSHk?oc=5",
+          "pubDate": "Sun, 23 Feb 2025 18:14:49 GMT"
         },
         {
           "title": "Directors and Executive Officers | Company information | SUMITOMO MITSUI TRUST GROUP",
@@ -550,6 +550,12 @@
           "pubDate": "Wed, 01 Apr 2026 07:00:00 GMT"
         },
         {
+          "title": "About JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sTXhtX1JNQnRDeWc2bWR1b1ZhRTFQemNzc1pfZHpOX0RKeWVGS2pKYVVkSk9WWWtVenZpMjhaN2JMT05KTGltSHZaSnJGdExJdm1IUTd6Tnd4Ny1RQ19LRzZxZzluaTVXTDliWXRud1hSNHlMeHRF?oc=5",
+          "pubDate": "Sun, 25 Feb 2018 05:21:52 GMT"
+        },
+        {
           "title": "Management Philosophy-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDM3X0xROFk2QV9HblVNWjBiZklFV1RlSl9LNS1MUFpjT0Zjb3Z1aFdTMmd3cVpaSFk1ZGhSdVhlT0pWOUtxc2M4R3p5dG1pUTVTZjJhUXd0SVE4QXhWZmZocmNCNUh3N3l1Vjl0ZmljNkk3SEpkclk3ZEk3VTRGM2JvYTk?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41dXRSTksxQm5hYWtVZGc2b1pNemU4LTE0T1M1N0R0UERIbWhkWXpxcDdSRl9aM0NrbEJyMWFyeXBYTjlka09tMVVteXRTazFqaDF4Mk9idlVVeDBuYjRsX1ozUV9fVlRlbVBnTDJoeUl0UUtGZXNfektn?oc=5",
           "pubDate": "Wed, 21 May 2025 07:00:00 GMT"
-        },
-        {
-          "title": "Japan Post Bank Debit Application Method (Website Version)",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
-          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
         }
       ]
     },
@@ -588,12 +588,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRlZnaDkzb0UzSWt6VVZ4QmxDUElxSkh0ZWllaFY4UzFIOEZXUkdjZXNDTERNLVVqMFptMGI3bFgyMS1YOFJVcnVkU2ZSUnJpcHRFaHV5azNSOG94dW1sSHNYb2JDclphbVY0?oc=5",
           "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
-        },
-        {
-          "title": "About Us",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWcTFrVzFnaEhHaUtWLXUyWHJMNWFTRmQ3TFowZUlGNzBrdUo5eDBRM2s2UEpRRXNwbHV1YlZ3ZVZfOFo2S0VnVE1ZeGgzUjQ?oc=5",
-          "pubDate": "Tue, 30 Nov 2021 20:45:33 GMT"
         },
         {
           "title": "Harmony Champions: Roses for racial harmony",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNjh4eG84T0VucjhxTW1Sc19fRVIwSzJTZTE4UmQxeHdpRFJHbFZsVlZENDd4M3ByQ1UzUTl0Wko1LUFmMXRZcG9EVnVFTDhMWWszclRjT2JRTjVuTm1uejcyd0htdXdfb3IyNW13VGFBWTFhZk1EV2NiV3A5alV6Mm5GSzBZUGdBVVIzbHREYTQtMnF5SzlmNjlPdm5sandCM2VrZWppWXdyQ0hrRldKalQ0VFRTZTlsNkdFejFWd25wam1YMmlHbw?oc=5",
           "pubDate": "Fri, 24 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Temasek Positions Organisation for the New Global Environment",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZXhCVm9JS0M5NGpaelFCX0NxeHVqSVpiVk8waU91TWZwUlhlT1liN1d0aGpUNlJySVBUajM1U0hLM0JfT0UzVFY3b0gtejRTVFU0S04ya1pveG55S3hoNllzVkJLaWtFcUl3WHFuZzJvZFJRSFp1djhseU9TZ2szQTllcldoUkozN3Y2d2dTMl9CTnB5aF9pZFdPMzVIMkpXcGdZTEk4V0lYYlp3eDhvNDV5YkozZG9TaDNXUDlBZ2lUU2RTQnByZlNR?oc=5",
+          "pubDate": "Thu, 28 Aug 2025 07:00:00 GMT"
         }
       ]
     },
@@ -864,12 +864,6 @@
       },
       "items": [
         {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc3RBUkVXLWt2VG1RdnBnNVFMRkRuRVBLNF9jbER2MDZ1OU9BZXh3Sm5hRHgySGJxNUwwMFgyMHZEOVRUcFUxbnFLeF9zemtnMVhkcGpmQnB5RzhSZ2tya0tkZWUzWU5jb3Q4eV8yaFM4MXhfbjc1dk5zSHdnS1pubHhqV3VwUFpR?oc=5",
-          "pubDate": "Sat, 25 Apr 2026 01:10:02 GMT"
-        },
-        {
           "title": "NPS Sustainable Management Report 2022",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YYU1DR2R1VEpiRkhWUnp3TnZwS0VFTi1qb29FMFd6TlFja09xSWlhSkhRaUtmY3dXZ2E1M3BodlB3QmQ5RWNSeUs4OXBUZEhiLUkxejNQeHBUenZmWFJTT3VrckF4QUFZZUYwS21HdW8zZWpy?oc=5",
@@ -922,6 +916,12 @@
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
+        },
+        {
+          "title": "National Pension Service Investment Management",
+          "source": "국민연금기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
+          "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
         }
       ]
     },
@@ -946,10 +946,22 @@
           "pubDate": "Sat, 27 May 2023 07:00:00 GMT"
         },
         {
+          "title": "MINUTES OF THE HOSTPLUS 2024 ANNUAL MEMBERS’ MEETING",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSXo0MTc5MVpVcmJkQUo2VVctNXRxSW1nclM3TWhlZVJ5MW5TdVNWRXpSOXVEc25LTWthSHU1NXZsZGNqX184RHNyaW9ndE90WTAzcDV2Zm1QajViZTNaOVF3MnhGSXp3YXdkc1Jna1VubkdnX0RFNm9oeXNia1hWOC1BZ1VZWXpTSUtiYU9ZSEZBRWprTEdXTnhwZXBzSTFnUTVmMzRNRUU4czV2VUZlVUlpV0Z6ZTVLOTVKWmVkQVJtWFdHR3hnV0cwVTdZVzBxa2c4eWpR?oc=5",
+          "pubDate": "Thu, 05 Dec 2024 08:00:00 GMT"
+        },
+        {
           "title": "Try SuperSmart",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ja1NFTUJVTm5pZV9odHhQNjU0UE1zTVY5QUc1bEhiUmhKTVBoa0dob3ZBbjlORVlIeC1xYm4zdHU5TjNsZUNfaVFYSWlETm1hNzhsU1hManNDWUlsNzdrNEkzR0g2bm8?oc=5",
           "pubDate": "Wed, 03 Sep 2025 07:50:38 GMT"
+        },
+        {
+          "title": "Review -",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSHF4cUh5aV9IWVAwX0FDU05xNnZxOWtDNzN2NEJOcnQ5LVVqWGM1NjZadm1BNmNhTjF3RXJjOU4tQkpSS1pxVGMwYjlpdWROS20wa0VGRnpyeExfZXZpMWRELTc1ME9STnNvNXE5WXdWdjM0RjJmTUFNaFo4V0lBZnhUTnJUUk9lYkxvbzBPeHJKRExxaUhHYjRkdWFONmRJdWM1NkdJRzQ0RGpzZWc0UUNZWi04MENsLUdyUTQwbndPcWpuYXloV3Axc05MelcxcEMyQ3VfUF9wOVFaaTZsRQ?oc=5",
+          "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
         },
         {
           "title": "HOSTPLUS EXECUTIVE",
@@ -958,40 +970,28 @@
           "pubDate": "Tue, 30 Sep 2025 07:00:00 GMT"
         },
         {
+          "title": "TRACK DOWN YOUR LOST SUPER.",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNnE5dXZkSmNGY3RoSE1hYkV3VDFXZUZRLUY5djBjaGw0Mk1ubGVrclBIZGNscFpzdmE3RzNCMWUtd0RTWGxsV1NhWlVSV3JCcE1lbnByOHoxTVQwck1ob3k5UHNZTE9vbENySWNSeVJNVTM4Z0NtM0NuY0E1SlNRa1VlczVGczgyNGotNjQzZTgyX1A4azUzblgzS2VILVFSLUZ0ZVRRYUxIaUkya2JyR0N2RTBGUHBuSTlHVzJ6VS1QUnFaSXBTMW50NFd3VjFrMTJzMmx4UWtOR2RUWnFVNEEzdXJCLTVzSXBPVC1rZGFGMDR4T2kwSmVR?oc=5",
+          "pubDate": "Mon, 07 Jul 2025 10:57:11 GMT"
+        },
+        {
           "title": "HOW TO TRANSFER FUNDS FROM A SELF-MANAGED SUPER FUND (SMSF) INTO HOSTPLUS",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVFo0bXg5d3NHdHgxZmt0dnN2SXVoNTJCUDVXYm1BZ3dUVlZKZEpUVS1mYWMxcmh2VUt5UjI0WTVvVl9sWXdJeU52NDM2cjJ1UkNHSWg4X3YwajlxTWJRRnhjazRXaGZQYUduYWYwbk1nN1VIT2NvU3ZnZHVwT1J0YVQwdmRXVUVsdjVpUmpFZVVNX0JfVFN1aUJucUEyMl9IV3J4TE1RSVZfSTMtcHhncVVacnRLS3hfSVlaM1Y3Y2ZmekwtRVdoZWQyRFEydGM?oc=5",
           "pubDate": "Tue, 16 Dec 2025 10:21:42 GMT"
         },
         {
+          "title": "INVESTMENT",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMUt5dlVpTTA4VkR0MlZ2RkpZbzViUTlyc2tBNHlkMlRxYk9sTHF0TlFOUDBMbnpwT2NIeVV0Qm51S2xJLXYzVUNZN3Bpay1oY28zT1d1bnIwdEhjY2JkUW4tS191UHFLUTNmaGFQYVVDbWRkVVFFMFFBQTFqUU11WkdwUzhxRy1JS1lXNnRuTUIyMzQ4WVBVeFNUUGZYSjZUMi1sZDA4Sy0tUnBOOHdRbWRLV0R1VHM0TEF0aVhfUjlqbGx2b0E?oc=5",
+          "pubDate": "Tue, 30 Sep 2025 07:00:00 GMT"
+        },
+        {
           "title": "Hostplus extends MetLife partnership",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXal9weDdkQVF3Wk9idFBpck1udE53SDhFd0g3MEZDMDdkUUZzN1pkbllvX0xQZUJ0cW1qR21LOHZ6OTRDclZ0SU9TQkRONXkwTF9xbEQ4WDNoTUFHR2dTdXYwUXlhNnhoS1BCdE1rV1BGOF8yNTV3VlptYnZtR3c?oc=5",
           "pubDate": "Fri, 11 Jul 2025 14:02:29 GMT"
-        },
-        {
-          "title": "Retirement Bonus",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
-          "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "title": "CEO Message: Cyber Security Update",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
-          "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
-        },
-        {
-          "title": "FY24 Hostplus Pooled Superannuation Trust Financial Statements June 2024",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQU3U2eWtLMU1oci1GZ0JVSVVpZWVRS0lCOE9OakY2VmkwTHZIRVp3MWI4UmtBcFVjcTZjZ0lrd0RzQWRGLW9qOHNhSE1aQjdoOFI5cXB3M2lPTDU1TXA5bFBFY3JGdGZrT1RiMkVBY29ZT1Q0QWJpTW1mYTMxd0F3R29fXzUycmpHUDN3OU00VWFYSTEwdXNOQWc2WHZ4UmJFNkZWNlpGRzR2ajdBQ0Q1UXFjZ3FVaGZkV0ZwYjkxTENVaW0xcmd6ZlJxMURpNlNRNXotZG04c0Q1aG5uYllPS1EyM2RMb2FrY0lWNm9NLThuU3R3RmF6Qjc5RXRLcHpodmR5N0gwdUFXZVl1LUtIaGNCUnptYWlKMkFyZXVR?oc=5",
-          "pubDate": "Sun, 30 Jun 2024 07:00:00 GMT"
-        },
-        {
-          "title": "Hostplus Investment performance July - Sept 24",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObjUyMDh5OGFFQmRPSVB3YUMtX29yb1FCcDNTcTlydWY0dmxPdmtSOVJHcnMwMk5CRmFldWNyajN6WmE3SG9GM1ZZR1FJUFBMWkQybml5dnpXakM1LXFGUGM0WGptVHNwckNHQUo2TWpFdUFpZkRuRW81a0dqWEFLOWpYUndiWkpvN0V1ZVlDOWFtN1lPMkduYjI3ekdPUjhGU2VfODNBMGxOa21qU1BwUXAzNXItVk0?oc=5",
-          "pubDate": "Thu, 14 Nov 2024 08:00:00 GMT"
         }
       ]
     },
