@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T08:03:56Z",
+  "generated_at": "2026-05-28T11:58:17Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 82.35,
-      "change": -0.7590000000000003,
-      "changePct": -0.9132584918600879,
+      "price": 82.15,
+      "change": -0.958999999999989,
+      "changePct": -1.153906315802126,
       "currency": "HKD",
       "prevClose": 83.109,
       "dayHigh": 83.0,
@@ -328,12 +328,6 @@
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
-          "title": "How financial planning can help your small business",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
-          "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
-        },
-        {
           "title": "Brisk walking: How to do it correctly, according to experts",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
@@ -362,6 +356,12 @@
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSTVoNkthSkJRV29KdXl5eE93QnVNeFVZOGRSX3pyWjBodDNJeFBIS3BEZ2JqbnJuTzAwdk5GOVhhNUs0cmx3TUVDcDVVY2x1MVZTUUtqZk1BOFd4dHI0VHpyVWh3Slh6?oc=5",
           "pubDate": "Mon, 21 Nov 2022 18:03:35 GMT"
+        },
+        {
+          "title": "HEALTHIER PLANET, HEALTHIER COMMUNITIES AIA GROUP LIMITED SUSTAINABILITY REPORT 2025",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMHpSN25SU2F3c0hSMXNBTDBZNW5abnVnY1FaS1NGSTZ6UVpiMGQzUG1iZHZ4TTlZRGxIcUkyRUNrQ1ZjN2lSSjZZUElINnYxX0hFeEgxUWF4YmQ0bzd5UTFkQTZ5dkZuRE04YUdFdTFWaWlCZ3VSU0djaXZJLXE0MXdpVFhweXdMTFdOZ3Q1T08ySTYzWHdhLWZ6SlhyVDYz?oc=5",
+          "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
         }
       ]
     },
@@ -620,12 +620,6 @@
           "pubDate": "Mon, 11 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Skills for Success: From Gig Grind ​​​​to Growth",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQS3BRNFdpbXRnMjBtU3MzTEpEOEFteVFFQmJacUxTUVJGWkVoZkFRU2NCdWhJa3dHUmgxaTlLbTBLTEV5a3lMN2hpU0NwVEt5MFlJNUJ3ZndkQ0Y5UkNPVEZPUlNsSW9KZlNZOWZSSXhBTmRfeWYzNkduVlRXNnVqb2JENXl4cl80Tmx4eUJFTmhleFRmXzVVcDFZeXRIaWE5dVBtdk1OQlNKUUJmaVc3VHoweUFpUEI1NXBuMFVKRUhtb2hR?oc=5",
-          "pubDate": "Tue, 28 Apr 2026 07:00:00 GMT"
-        },
-        {
           "title": "Fu Chengyu to Step Down from Temasek Board",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZXhCVm9JS0M5NGpaelFCX0NxeHVqSVpiVk8waU91TWZwUlhlT1liN1d0aGpUNlJySVBUajM1U0hLM0JfT0UzVFY3b0gtejRTVFU0S04ya1pveG55S3hoNllzVkJLaWtFcUl3WHFuZzJvZFJRSFp1djhseU9TZ2szQTllcldoUkozN3Y2d2dTMl9CTnB5aF9pZFdPMzVIMkpXcGdZTEk4V0lYYlp3eDhvNDV5YkozZG9TaDNXUDlBZ2lUU2RTQnByZlNR?oc=5",
           "pubDate": "Thu, 28 Aug 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Scenario Analysis and Resilience",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYXg2V3kxSjFGQXJuOC02cnZwNTc2akNjbmNUOGVVdzZRZ2tnYjFsdGJqWl9mSC02aG9JZlFSQno0QkhhM2tGTnVDSkVaZU9MUE1uZmhqWXR0dWF4S0Z5MmMxaVNjUVdOelg1MndVNlFFV0pOc0RmQlo0dlFrMXdjejZHUjh5Z2s3ZnpXR1o4NTZHdWUwRVFNYmhHdlZIOFNyMG0yZGYtUE1OZ3AwdURWel9Gb3RrVmVEVmE3N1BHQkR6bVh4VDg0LVBPT2VKNGs?oc=5",
+          "pubDate": "Wed, 09 Jul 2025 07:03:01 GMT"
         }
       ]
     },
@@ -675,7 +675,7 @@
           "title": "Anthropic Partners with GIC to Launch Enterprise AI Services Firm",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdHpaYWFiXzJWMGdHV0E5bUpCNTBFNFpHRFpFaTdRRkxIU3NXc3BiQnp5dTk0RWdfaElzcTdLOERhakJqTUxnNVRrVTlCSWgzak9ranc4VDRBRW1KSEw2SHJSUzFmajRETTEycGZiLU5seGdWcGRtSVNMMC1rT2xqa0dOSzgySnJENGk4ZTE3WlBqaTd4ZTRKa2JieHlkVVF1b1ZzZTA1TzliNC1Pc0U2bDVqcm1NX2VfMTRtNkN1N085R2pEX1pteldYVklKaHFTczc0bVVkM0RKNjFn?oc=5",
-          "pubDate": "Mon, 04 May 2026 13:28:18 GMT"
+          "pubDate": "Mon, 04 May 2026 07:00:00 GMT"
         },
         {
           "title": "GIC acquires 25.1% stake in Lendlease International Towers Sydney Trust",
@@ -836,6 +836,12 @@
           "pubDate": "Fri, 19 Dec 2014 08:00:00 GMT"
         },
         {
+          "title": "문서뷰어",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWGNHQUt3SzhFb0pTaHRmZlRHVnVVdXpwSVdjNUx3am1FTUk3RUNsVmlyUlVma01OTGwzcGtoWm9GdTZ2azFWM0JGYzNKWkhma2NjalhDUE9KZTFCcjJyZlp1Tmg5ZWg3RG13UzgwOVo4TWg4OENGQmRMWGp1TjFZRk9uY2FaQXJKMTRyUw?oc=5",
+          "pubDate": "Fri, 18 Jul 2025 13:43:29 GMT"
+        },
+        {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
@@ -846,12 +852,6 @@
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
           "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
-        },
-        {
-          "title": "Client Privacy Notice│ Korea Investment Corporation",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Ca2pUOElDNW9yX1ZLeE5KM1VyU3FoQktBUmszNHhiNzZQS19lcExYRU9qekozcE9tUllaQ1pIa3NGNlVfTTNQTkxTaUM?oc=5",
-          "pubDate": "Sun, 22 Jun 2025 09:03:18 GMT"
         }
       ]
     },
@@ -1058,10 +1058,10 @@
           "pubDate": "Tue, 26 May 2026 06:10:22 GMT"
         },
         {
-          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
+          "title": "Market announcement - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
-          "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZm1FbGxGYW15b3dsZnpyT2lsNkhCSmlSMmVPVW9wTk5VQ0VwZVNmTlRQOXoyVWZrMzNwM1dHdFRTc1JOMTVDY183bUpWTkk4bFg5MFNzQktjd3Q5QjVtV09fbjdjZTFlR1hVcERSM3EwZU1pZ3N0RnN4YkNycnFaQktpLS02ak5pREpqcXcwaHdidkxlS0MydkFrTE40S1dLdlpKbVd6aWozMzJqSUxFSzlpUF82Q3FJN21ZMHVjTUp5T09kMm16Y25fSkh4NUpMRmw0WUFfUm13aFEtV3h2U2o0U0hPdTg?oc=5",
+          "pubDate": "Wed, 06 May 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1110,12 +1110,6 @@
           "pubDate": "Sun, 23 Nov 2025 22:15:14 GMT"
         },
         {
-          "title": "Nippon Life Insurance Company Global Web Site",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwd2g0N0xjX3dzaDNnZkQzaGNwMDluSzFHbThJS1M2VTVycEJacjJuVWVnSjItdVktN25CenhxWEZ4ODhmQlg0?oc=5",
-          "pubDate": "Thu, 29 Jun 2023 09:42:46 GMT"
-        },
-        {
           "title": "Reports and Publications | Nippon Life Insurance Company",
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
@@ -1132,6 +1126,12 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZZHA2aU1tcGJmVDBLb0FmR2ZPZzB6bDZ0RjNNVS1kdm9qM21fWVdxbGVOSkFNcnJ6NDhBYjlJYWxZZlpaLWxFOU9od2tuSmc2QXc4OE56R002cXN5S3l1U2pDVGZzbWROd1U0MjJPVQ?oc=5",
           "pubDate": "Thu, 29 Jun 2023 10:29:29 GMT"
+        },
+        {
+          "title": "Newsroom | Nippon Life Insurance Company",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50cWJ4QTNyclZwcks2dGRidnhMZHROdXplYXZYZkpWNVZ6aU5sWXl1Wmd2X1J6YWswTU5PMlR2MWJMMUZ1Sm4ydExVVEhlc19vSFoxd2g0a3hFQQ?oc=5",
+          "pubDate": "Fri, 30 Jun 2023 10:28:05 GMT"
         }
       ]
     },
@@ -1168,6 +1168,12 @@
           "pubDate": "Wed, 06 May 2026 02:57:10 GMT"
         },
         {
+          "title": "Our team",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oMmZFc2lpNm9qTUVxUjJEeVhTdExWX0dsbmVTbnktU3FjYWo4akxPNGRTRDZqUlI4MGF2RzNMdWZGeHhOVmNRbW9raVFUYWoyNkRoTThheEdaaUhRWV8zYg?oc=5",
+          "pubDate": "Wed, 06 May 2026 00:34:59 GMT"
+        },
+        {
           "title": "FWD Group Holdings Limited Board Diversity Policy",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeXpyZ2gtSldIQ0p6RkxZYXZPSUkwckhraXA3LWhLcWxqaDYyVWotaGVNRjRBWkRkNjBIS3hhZm1LU2cxV2p4bWVvdnRjNWJlQkpvSnZkLVAtZzlpV3lpUG5NVG5iQktjTE1vSXFiOENFMGRDcGZHX21ZQVFiNkVxZTlmc2FVRGNsX2NZdG55VTZfei1NTDB3U0VyQVJEakxQNWRfWVJMQXhyTnFUSW5NYWxrcGhDTlFYbWpDaWxVYVdPMGxCalVLTkRwOE0?oc=5",
@@ -1195,13 +1201,7 @@
           "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
-          "pubDate": "Fri, 10 Oct 2025 13:17:58 GMT"
-        },
-        {
-          "title": "Shareholder information",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6QTh2eW5iVW9BQzl2NWl1MVJVaV93OUc3OTczbVlLOXJxNkhWdUl0RVpSS2U3aWRwdHhxY1RjdUtBdF92Q2Y3LWlTZGRuVy1EVlpZYllzLW1ISjVzam1QNnZtRnZMa2J4?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 07:00:00 GMT"
+          "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
         }
       ]
     },
