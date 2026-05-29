@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T11:58:17Z",
+  "generated_at": "2026-05-29T03:56:09Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 82.15,
-      "change": -0.958999999999989,
-      "changePct": -1.153906315802126,
+      "price": 82.2,
+      "change": 0.04999999999999716,
+      "changePct": 0.0608642726719381,
       "currency": "HKD",
-      "prevClose": 83.109,
-      "dayHigh": 83.0,
-      "dayLow": 80.35,
+      "prevClose": 82.15,
+      "dayHigh": 84.2,
+      "dayLow": 82.05,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 92800.0,
-      "change": -2200.0,
-      "changePct": -2.3157894736842106,
+      "price": 93500.0,
+      "change": 700.0,
+      "changePct": 0.7543103448275862,
       "currency": "KRW",
-      "prevClose": 95000.0,
-      "dayHigh": 95100.0,
-      "dayLow": 91000.0,
+      "prevClose": 92800.0,
+      "dayHigh": 94800.0,
+      "dayLow": 91700.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 5554.0,
-      "change": -74.0,
-      "changePct": -1.3148542999289268,
+      "price": 5611.0,
+      "change": 57.0,
+      "changePct": 1.026287360460929,
       "currency": "JPY",
-      "prevClose": 5628.0,
-      "dayHigh": 5599.0,
-      "dayLow": 5499.0,
+      "prevClose": 5554.0,
+      "dayHigh": 5650.0,
+      "dayLow": 5547.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 2960.5,
-      "change": -40.5,
-      "changePct": -1.3495501499500167,
+      "price": 3046.0,
+      "change": 85.5,
+      "changePct": 2.888025671339301,
       "currency": "JPY",
-      "prevClose": 3001.0,
-      "dayHigh": 2977.0,
-      "dayLow": 2901.0,
+      "prevClose": 2960.5,
+      "dayHigh": 3046.0,
+      "dayLow": 2968.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -328,6 +328,12 @@
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
+          "title": "How financial planning can help your small business",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
+          "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
+        },
+        {
           "title": "Brisk walking: How to do it correctly, according to experts",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
@@ -356,12 +362,6 @@
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSTVoNkthSkJRV29KdXl5eE93QnVNeFVZOGRSX3pyWjBodDNJeFBIS3BEZ2JqbnJuTzAwdk5GOVhhNUs0cmx3TUVDcDVVY2x1MVZTUUtqZk1BOFd4dHI0VHpyVWh3Slh6?oc=5",
           "pubDate": "Mon, 21 Nov 2022 18:03:35 GMT"
-        },
-        {
-          "title": "HEALTHIER PLANET, HEALTHIER COMMUNITIES AIA GROUP LIMITED SUSTAINABILITY REPORT 2025",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMHpSN25SU2F3c0hSMXNBTDBZNW5abnVnY1FaS1NGSTZ6UVpiMGQzUG1iZHZ4TTlZRGxIcUkyRUNrQ1ZjN2lSSjZZUElINnYxX0hFeEgxUWF4YmQ0bzd5UTFkQTZ5dkZuRE04YUdFdTFWaWlCZ3VSU0djaXZJLXE0MXdpVFhweXdMTFdOZ3Q1T08ySTYzWHdhLWZ6SlhyVDYz?oc=5",
-          "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
         }
       ]
     },
@@ -584,16 +584,22 @@
       },
       "items": [
         {
+          "title": "Our Leadership",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
+        },
+        {
+          "title": "About Us",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWcTFrVzFnaEhHaUtWLXUyWHJMNWFTRmQ3TFowZUlGNzBrdUo5eDBRM2s2UEpRRXNwbHV1YlZ3ZVZfOFo2S0VnVE1ZeGgzUjQ?oc=5",
+          "pubDate": "Tue, 30 Nov 2021 20:45:33 GMT"
+        },
+        {
           "title": "Our Portfolio",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRlZnaDkzb0UzSWt6VVZ4QmxDUElxSkh0ZWllaFY4UzFIOEZXUkdjZXNDTERNLVVqMFptMGI3bFgyMS1YOFJVcnVkU2ZSUnJpcHRFaHV5azNSOG94dW1sSHNYb2JDclphbVY0?oc=5",
           "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
-        },
-        {
-          "title": "Harmony Champions: Roses for racial harmony",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZkdzOUthUkxxQlJBQ0pKWEZfRE9uQ0xKMEY1TVl3a0l5LWg4bXk5dkpjaGo3N2lyaGpuai00TGxiRHA1R0ROcENnbGktUmthbnZqTW9MMndNQnZZREZFU2FzVmx3ODJwR01na25oUVQ3czYzRUFuX2NVVThMMklXaFdiNlpwUjVhaUNCQ3ZvZVB1bkN5VndRVmpOZ2xOWWxsOTBuV1JjbUcwTUZtcG9NTG93SEZHOTBwdWJidFB5NFRrWHM?oc=5",
-          "pubDate": "Wed, 13 May 2026 10:01:34 GMT"
         },
         {
           "title": "Speech by Mr Teo Chee Hean, Chairman of Temasek, at Ecosperity Week 2026",
@@ -608,10 +614,10 @@
           "pubDate": "Mon, 18 May 2026 15:09:01 GMT"
         },
         {
-          "title": "Evidence-based Investments to Improve Metabolic Care",
+          "title": "Home News & Stories Stories Future & Trends Beyond Capital",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1dqQzB4ZVFwS1Z6Q1JuRkNxMzdCVDV2TFJENVk1N3p5MUZfNzJoSlVaeDVxNHhLVnk0aUd2LW5qZnRlel8wNnVFY3VydVpSWFY4Y1o1dW1TbExwemktRXY4bzJWbXRtR2xhb290bWVOMmJRcUxmemg2eHQ0ZWhINUp5S0Ixbk0xWWZfSFJZUGljMzFfZDlVLWtfVC0zU29uQ1d4cUtGNkVsR0tFNFY0UWFVRFJRTzNHZndJNXhtWWRSU0hQUWc?oc=5",
-          "pubDate": "Wed, 13 May 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOajBjcm9lczNfYkd3QXdpdFdUVGF3SWtRTmE3V3djTWlOZkExTDZHaWNEMGw5ejB6SzB2Zk44Nk1pUzJHak0tMENURzl6VWJOU2tEYzNJdEhjSXZlZWhmWDRGN0FPYWd1RW9jNlloamhKaGtsU091b3Q3ZkhETC1zcmkzV00?oc=5",
+          "pubDate": "Tue, 26 May 2026 01:32:56 GMT"
         },
         {
           "title": "Temasek’s approach to alternative assets",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZXhCVm9JS0M5NGpaelFCX0NxeHVqSVpiVk8waU91TWZwUlhlT1liN1d0aGpUNlJySVBUajM1U0hLM0JfT0UzVFY3b0gtejRTVFU0S04ya1pveG55S3hoNllzVkJLaWtFcUl3WHFuZzJvZFJRSFp1djhseU9TZ2szQTllcldoUkozN3Y2d2dTMl9CTnB5aF9pZFdPMzVIMkpXcGdZTEk4V0lYYlp3eDhvNDV5YkozZG9TaDNXUDlBZ2lUU2RTQnByZlNR?oc=5",
           "pubDate": "Thu, 28 Aug 2025 07:00:00 GMT"
-        },
-        {
-          "title": "Scenario Analysis and Resilience",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYXg2V3kxSjFGQXJuOC02cnZwNTc2akNjbmNUOGVVdzZRZ2tnYjFsdGJqWl9mSC02aG9JZlFSQno0QkhhM2tGTnVDSkVaZU9MUE1uZmhqWXR0dWF4S0Z5MmMxaVNjUVdOelg1MndVNlFFV0pOc0RmQlo0dlFrMXdjejZHUjh5Z2s3ZnpXR1o4NTZHdWUwRVFNYmhHdlZIOFNyMG0yZGYtUE1OZ3AwdURWel9Gb3RrVmVEVmE3N1BHQkR6bVh4VDg0LVBPT2VKNGs?oc=5",
-          "pubDate": "Wed, 09 Jul 2025 07:03:01 GMT"
         }
       ]
     },
@@ -654,6 +654,12 @@
       },
       "items": [
         {
+          "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUVULUxhN3dPdlZVSFhtZUdOZkV2QkJ4emhLbk9ucHBLUl81aFZYVnJqVkRmbVliamNGblVfaVlSSEZ4dnlWSERVbUZHbEtFRkhoTWpHeXl6bE5nNTNZWm9KeVNqVnNyNloxaHFlYjJWSjVoa2R5SS1XMTU0U3liSFlnRkctcXRvbDdISi0wdHBza2hYdTJVLVRHa3Z1U3ZNQm1WeXJKVlJyZw?oc=5",
+          "pubDate": "Thu, 28 May 2026 18:23:07 GMT"
+        },
+        {
           "title": "Sony Music Publishing Agrees to Acquire Complete Catalog of Recognition Music Group",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdGFIakd6aUo1ZDB1aG1WNi12SlgyOWYybzB6aTBwV0hLbGZRNWJCNGp0VUpBdFFXeHBDR2xudG5ncHdVY29JQkNycUdvSnV6dnNTWkNKaDlXV0ExdjRfM3RkYklLeTdJT1pNTXpUSS1kNC1xbDVhMHVObS1zVnluaDVrOENBUVNFZVVrX2pObzl1dF9nMHdTVjBnd2VWWDVLWDktb2ZlR2JvM0x1V0ZQVWxXc0ZLMWZFaldsRg?oc=5",
@@ -664,12 +670,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTUNoRXhvNzU4NjJJQnZ2Smh3OGc1anFlNUg0bXZIVmVOdWpxVnRWT2VzdndTai13T1B6d1VqTmRzTXdDUWg1a2JkU2VfTWdZSGwtWnJlZmo0bUFWOTh3OWZ3bkVrRFNiQXJhWE5lcWM2WkNEYmYyWkFTVXIwLXNwY1dteVlrYm5MVDJfVHVuWEJqRkhtY18yODNMWGdXaUlwbERhNUNrb2d5MGxVRG9zMWk0d2w2SEYwS3QwMzdB?oc=5",
           "pubDate": "Fri, 08 May 2026 05:12:13 GMT"
-        },
-        {
-          "title": "Neoenergia Strengthens Partnership with GIC Through Third Agreement in Transmission",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUFNhNE5SdXdxRnN4N1M4V0wxX0hUeGtUV0xLMVgtUm9lbWxTdk5tNHJHU05oTXVucjhRcDJZeTN2NzFSS3oxUm0wcEhPbXlOVzNMSnZPN0xkdHhMMER2RXZZN0JWc3JhbkRadC1DQWhEUWVTa1E4TW82bEtKQnUxZXhRNmpETjhnaEphM2xjcDZaS2hNWGRrRjlaWkI2YXR5bzRKOVVFbnhTTGRuZ2padFVPMThUVlF5Q2VPMA?oc=5",
-          "pubDate": "Tue, 28 Apr 2026 21:47:41 GMT"
         },
         {
           "title": "Anthropic Partners with GIC to Launch Enterprise AI Services Firm",
@@ -940,6 +940,12 @@
           "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
         },
         {
+          "title": "SIGNIFICANT EVENT NOTICE",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYVZLZnZQMDJSZ0lBQjRKSlBuMU5KQWR0cTNBcHZ0Sy1GcElkZzBWXzRLWmQwN2xLSFM5N2liZjVqcmtJeHAwanpsQ084SzF0LU02TmgzRTRVM09Rd1N1VjJjdjBIUUdVOUZfWXFZTHZZNl9oU1VZclozNVJkU3dUNmNSY0JTOWJZNmVjdWtDbTBHQ2wtUFNCWnk0ZDZkNEVaQWhkcHlNbDRsZ3ppZnJPb0JfRQ?oc=5",
+          "pubDate": "Fri, 30 May 2025 07:00:00 GMT"
+        },
+        {
           "title": "Indexed balanced",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWpfVWxUZTZLSjZBaWZuTi0xdVc4QnJPRkJNTG1aek03dGdTWi1qZjFVbVIxbE5TcmhPMVhJYTEzdHZESkk1aFpHUkxoVjJkNVAxV1E5RVp0dFJ2YUREdDFuWVVoYi1pSUdrUjk5aHpvQzhRdm5vSmhfdXhVS1QzaFN1bDdzME9oQzA3NDRzT0d6U2pHSEx3eXR6OGw3LTV5OHNCRnRhbWZZR3Z0amR6MXRCQ0tiR0puZ1lSd04tbzI3dmd2b084Rg?oc=5",
@@ -976,12 +982,6 @@
           "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
         },
         {
-          "title": "Review -",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSHF4cUh5aV9IWVAwX0FDU05xNnZxOWtDNzN2NEJOcnQ5LVVqWGM1NjZadm1BNmNhTjF3RXJjOU4tQkpSS1pxVGMwYjlpdWROS20wa0VGRnpyeExfZXZpMWRELTc1ME9STnNvNXE5WXdWdjM0RjJmTUFNaFo4V0lBZnhUTnJUUk9lYkxvbzBPeHJKRExxaUhHYjRkdWFONmRJdWM1NkdJRzQ0RGpzZWc0UUNZWi04MENsLUdyUTQwbndPcWpuYXloV3Axc05MelcxcEMyQ3VfUF9wOVFaaTZsRQ?oc=5",
-          "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
-        },
-        {
           "title": "HOSTPLUS EXECUTIVE",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUZQbFBuenRESTA4emZGUEtGM01qVG5rbkdrME5GV2MyV2w2Sktaa1I0N2FmNktxeXROc21uN0JyMzFlS3Z4Z0FGcHRCVU1JLWdoV0tlMGNEakY5M2hTRGl0Q2VFdlRQU0xnZlZRTmhOVWhSUm9mbk16cnJMUG96YVZnUm9JUExKclNBeVpFNVFUSDVJQXVvdjhMbks4Q0NJNEdj?oc=5",
@@ -1010,16 +1010,16 @@
           "pubDate": "Mon, 25 May 2026 21:04:12 GMT"
         },
         {
-          "title": "Weekly bonds outstanding - 15 May 2026 - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42WmJPb0ZIOTlodVZicERsYldNSTNIdGFuT1ZTMmo4U0wwR2hHc012YW93T1Z4UUdyRm1Tc3ItREVyNkJuaFB3X2lvTVR4WTloWlVoX2JabFNpb0Q3LXBUdDhB?oc=5",
-          "pubDate": "Wed, 20 May 2026 19:50:32 GMT"
-        },
-        {
           "title": "Australia’s Bond Market Evolution - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GUFVlRzVyb2xNV05GS0ZaT3o3Q2xuVW1seVBVdzViZW0zMlo1QjViM25hQzI4cXczSWxPeWU5cWNIRG15UlVUaGdUeW9fZ0ItTFFUUkFhdWYzYjl5UWp4XzNFaWJpVlhndWZjaUpqSUs?oc=5",
           "pubDate": "Mon, 25 May 2026 21:04:12 GMT"
+        },
+        {
+          "title": "Weekly bonds outstanding - 8 May 2026 - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RdmF4R3Q4TGpHd1AxSGlyazY2Z0RpS1VISTZhZVlGbDhVdDZHUFE3NjJ2bkwzRHlNTG9Fd0hITVdBUl91a2lYSTJpTmtiNTNnajhCNG5pWkY4Ti1tUU1hRg?oc=5",
+          "pubDate": "Fri, 08 May 2026 07:00:00 GMT"
         },
         {
           "title": "Weekly bonds outstanding - 22 May 2026 - TCorp",
@@ -1198,10 +1198,10 @@
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
         },
         {
-          "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
+          "title": "FWD Group Holdings Limited New Business Highlights 3Q25 (ENG)",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
-          "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQnY2ODNib3JETnNZVXhNRDNrbHA2RWFJdUdWWVNEaC00alpKS1kyODBqVWNVNjAydng0S2hBeVFaaVFiS24wZ0pHT3BZMUZ0M1RJSHFzcWRDZWhqaEc2UjFCVVJVczZPSVBYX0JvR1RGSTA2QVJMTXZ0UUZ4Ul9mckNkLWNBbmQ3X2hEUzNzdG9PbER5NEMycktjeDR4bmdWcmNfVHBQR05aVS1TTmY3b0ozU3ZZWFQzUDZDT0pCSjlBSzllR3pmUWUtbEhlUkQyajhPMF81WUltZEFoTjQ4bUR3VTlxUVhpZVBqWFZTVFZpOTRYbmJz?oc=5",
+          "pubDate": "Mon, 03 Nov 2025 08:00:00 GMT"
         }
       ]
     },
