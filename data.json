@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T04:24:51Z",
+  "generated_at": "2026-06-03T09:14:40Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -255,7 +255,7 @@
       "changePct": 0.18270401948843568,
       "currency": "HKD",
       "prevClose": 82.1,
-      "dayHigh": 82.55,
+      "dayHigh": 82.85,
       "dayLow": 81.45,
       "marketState": "",
       "exchange": "HKSE"
@@ -272,20 +272,20 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 5676.0,
-      "change": 120.0,
-      "changePct": 2.159827213822894,
+      "price": 5719.0,
+      "change": 163.0,
+      "changePct": 2.933765298776098,
       "currency": "JPY",
       "prevClose": 5556.0,
-      "dayHigh": 5718.0,
+      "dayHigh": 5722.0,
       "dayLow": 5576.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3155.0,
-      "change": 89.0,
-      "changePct": 2.902804957599478,
+      "price": 3163.0,
+      "change": 97.0,
+      "changePct": 3.1637312459230267,
       "currency": "JPY",
       "prevClose": 3066.0,
       "dayHigh": 3175.0,
@@ -322,34 +322,16 @@
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
-          "title": "How financial planning can help your small business",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
-          "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
-        },
-        {
           "title": "Brisk walking: How to do it correctly, according to experts",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
           "pubDate": "Wed, 14 Dec 2022 10:59:21 GMT"
         },
         {
-          "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
-          "source": "AIA Design",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
-          "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
-        },
-        {
           "title": "Healthy Finances",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1S2lEdDJRMnNDQU02M2s1ZFlqUTVYdnR2VDVEMWQyV1ZtdDh0bzE0ZG1SWURueUxucDR5MGNGWm91RW91a0dEb2hGQno5TW40bnRub25KV0tLVGY4ZDFhaGlvSkdlTksyajBfclhObTMzdVZ5d0VlS3d3?oc=5",
           "pubDate": "Fri, 22 Jul 2022 04:22:23 GMT"
-        },
-        {
-          "title": "AIA Investment Management and Trust Corporation Philippines AIA Peso Money Market Fund KEY INFORMATION AND INVESTMENT DISCLOSURE",
-          "source": "investment.aia.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR21TandpUkZqemR6bnR1V0R6Qk50VlVqaUFGSEFwRVNua2xQajR2TnBOLW5HMGdEd1dYalZlZmdqXzAyaml2YWEyRVlVTWdORFRWMkVzZWxfNm5KNGMzamJ2Y19NX0N5eGw1M0ZRbEJqdVRLQ2RHamM0Z2lsWGQ2NUliMFNxYmJUNHdITlI3SDlpZmxNTFNHazFncnhGaW9zNC03YWZoWURuNXNIV1c2QVlBaEs4OFNidjVCQ0I0MkpXbnM?oc=5",
-          "pubDate": "Thu, 24 Jul 2025 23:04:32 GMT"
         },
         {
           "title": "TRANSCRIPT AIA China Growth Strategy",
@@ -362,6 +344,24 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EanU4eHRKcmlNSTZwSGVUZC1iMjBiQ1Y5S0VVR1ZVR2VhaXF1aVdqOHdWU0Rfc0o0UExpQlRHY3p0TFQ0a3EteTVSSk45eWI3RHUzZ2hTbUNIcDllWnpQa0FOamJ3dk5JSTNJenBfVS1UOVBvRGdQc05RcDc0Zw?oc=5",
           "pubDate": "Tue, 30 Sep 2025 09:08:44 GMT"
+        },
+        {
+          "title": "Managing feelings (5–7)",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KSTVoNkthSkJRV29KdXl5eE93QnVNeFVZOGRSX3pyWjBodDNJeFBIS3BEZ2JqbnJuTzAwdk5GOVhhNUs0cmx3TUVDcDVVY2x1MVZTUUtqZk1BOFd4dHI0VHpyVWh3Slh6?oc=5",
+          "pubDate": "Mon, 21 Nov 2022 18:03:35 GMT"
+        },
+        {
+          "title": "HEALTHIER PLANET, HEALTHIER COMMUNITIES AIA GROUP LIMITED SUSTAINABILITY REPORT 2025",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMHpSN25SU2F3c0hSMXNBTDBZNW5abnVnY1FaS1NGSTZ6UVpiMGQzUG1iZHZ4TTlZRGxIcUkyRUNrQ1ZjN2lSSjZZUElINnYxX0hFeEgxUWF4YmQ0bzd5UTFkQTZ5dkZuRE04YUdFdTFWaWlCZ3VSU0djaXZJLXE0MXdpVFhweXdMTFdOZ3Q1T08ySTYzWHdhLWZ6SlhyVDYz?oc=5",
+          "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "AIA China receives approval to begin preparations to establish a new branch in Anhui",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMHlKZWRNYjNnVVhOUXZhQ3hHRzMtVzhBTldVTmhRZGxEZGdKVnYzRXdZSDI5TTUtOUFYMUhremU4MERvdzBlWVVZTlMxWGlnSGY5dEJJVmZjbXp5enlBWHJENGNWOUxyUndnOFZNZmdPWkx5aUhNdTZ5UWpGR2E3cFBjclVHdVVUSFlPQl9aaVpoUQ?oc=5",
+          "pubDate": "Mon, 28 Oct 2024 07:00:00 GMT"
         }
       ]
     },
@@ -410,6 +410,12 @@
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
         },
         {
+          "title": "Diversity and Inclusion",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWN6cHZmR2gyaTEzeHAzVlk5azhZVVJXZjY3MldsTkRkRVJhUUxUTTEzV0VadVdEWVlRaTVhVFZ6UkhqYTVhekc1LVp4bkRrUWF1bGdHMEFYM1BhOVBlUUN1VEpDTFFqei1ERjJnT0lEREh1dm5SNXp6OC1tYktxdXlHMXBub1NpUERCUGVickl5SDF4TWc?oc=5",
+          "pubDate": "Tue, 20 May 2025 20:30:48 GMT"
+        },
+        {
           "title": "Diversity Report",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU2hhUFVrX0FKc2dUZUtxcGttNEpmZXdEcEpzZC1QZGpOSHZUQXl4UUk5MnFNNFY1VlNtS3FzZmhIaVlaX1NxNDVfOW1OMHYwUWEyM3ZJSG1RcVFVdzBsbFA0YjhFZDFZdkFsZnJDajN0OVpoYnl1LTlDcjFiWHlfV0QyWGZlRmc2UkxNNkZNV1pndmloQk00?oc=5",
@@ -426,12 +432,6 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jcTBhQ0FtUHMzekc2WXk4TG1Tang4S1dRZkY3X0FHTHlfSmx4MDN1V0ZqVlN0Y3Z2eTg0VDdMTHV5cGhuR1VWUTJ5MHhEYTFQRUw4T29MWXNFM3d0aE5NX19SbWxFMGFUTEo4?oc=5",
           "pubDate": "Sat, 07 Mar 2026 08:37:43 GMT"
-        },
-        {
-          "title": "Shinhan Financial Group-ESG Reporting | Data Pack",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ia05HZGRUQzlLM1NvX185TnBpb1dIZEtTM3NhNHUwSWk3NHRSS3VEVFJ1bUdOQTJNWkRkV2hnSUJsQnBHQ1NJdE5sYl9IRmNZUzJOR2VTZkt1X3c?oc=5",
-          "pubDate": "Mon, 22 Jul 2024 01:09:35 GMT"
         }
       ]
     },
@@ -593,19 +593,13 @@
           "title": "Opening Remarks by Mr Dilhan Pillay, CEO of Temasek, at Ecosperity Opening Dinner",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaV80MXdFSU92eGpGZVlMd25hVzBmelpiZzJCSGlOLVRCRHdKTWxqRDNNamdsQkJTaklGMU95OXU4bXJPOEdOTWs0bTRwcjFCRW1kN0M1UzZvRmdTalRiN1lva3JaSVd0SnZacDdsSUNjMGRjTHJncUdmQnRVdlc2N3FsZ25FcG5QaVYtN0M1M3lDUlgwQkpMc0szSVppOC1kc19zdUxzQTVCNm1oV0lCdE5oYk95blpwUmkwQ0xtdHVveG5Fa1d4TFZTTllBcERDSjNPY1RLaDMwY0FhZ1ZiZnZxeUJmbjQ?oc=5",
-          "pubDate": "Mon, 18 May 2026 15:09:01 GMT"
+          "pubDate": "Mon, 18 May 2026 07:00:00 GMT"
         },
         {
           "title": "Home News & Stories Stories Future & Trends Beyond Capital",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOajBjcm9lczNfYkd3QXdpdFdUVGF3SWtRTmE3V3djTWlOZkExTDZHaWNEMGw5ejB6SzB2Zk44Nk1pUzJHak0tMENURzl6VWJOU2tEYzNJdEhjSXZlZWhmWDRGN0FPYWd1RW9jNlloamhKaGtsU091b3Q3ZkhETC1zcmkzV00?oc=5",
           "pubDate": "Tue, 26 May 2026 01:32:56 GMT"
-        },
-        {
-          "title": "Associate, Investment Researcher Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV1RQTlpnbVc1UEtyNkxPeGtmWUI2bVRpbGJmMmx3S2RJTjJ0dVdPOUF3T3Y4YmRKUXVpTm1fMjBxZ2ZFUlByNjhubXA3andpNDJ5WmxvRW52c2pyT0I1T3pxRmc0NHJRd1ktcFlrLTlDMHBpNUVHZmdyUmJGN3VIOC0xVENrVFBOMFRLMGJB?oc=5",
-          "pubDate": "Mon, 11 May 2026 12:34:54 GMT"
         },
         {
           "title": "Harmony Champions: Roses for racial harmony",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZXhCVm9JS0M5NGpaelFCX0NxeHVqSVpiVk8waU91TWZwUlhlT1liN1d0aGpUNlJySVBUajM1U0hLM0JfT0UzVFY3b0gtejRTVFU0S04ya1pveG55S3hoNllzVkJLaWtFcUl3WHFuZzJvZFJRSFp1djhseU9TZ2szQTllcldoUkozN3Y2d2dTMl9CTnB5aF9pZFdPMzVIMkpXcGdZTEk4V0lYYlp3eDhvNDV5YkozZG9TaDNXUDlBZ2lUU2RTQnByZlNR?oc=5",
           "pubDate": "Thu, 28 Aug 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Scenario Analysis and Resilience",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYXg2V3kxSjFGQXJuOC02cnZwNTc2akNjbmNUOGVVdzZRZ2tnYjFsdGJqWl9mSC02aG9JZlFSQno0QkhhM2tGTnVDSkVaZU9MUE1uZmhqWXR0dWF4S0Z5MmMxaVNjUVdOelg1MndVNlFFV0pOc0RmQlo0dlFrMXdjejZHUjh5Z2s3ZnpXR1o4NTZHdWUwRVFNYmhHdlZIOFNyMG0yZGYtUE1OZ3AwdURWel9Gb3RrVmVEVmE3N1BHQkR6bVh4VDg0LVBPT2VKNGs?oc=5",
+          "pubDate": "Wed, 09 Jul 2025 07:03:01 GMT"
         }
       ]
     },
@@ -660,58 +660,58 @@
           "pubDate": "Thu, 28 May 2026 18:23:07 GMT"
         },
         {
+          "title": "Associate/AVP, Quantitative Strategist, External Managers",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZklsQUFub0MxdUVBUmphM2VHYXRpS0JFNGo1WFhIUVFhXy1IUGJYYWtucF9EY3otQmlGX2lEQnJjNWxDMjA5ZXBWQ2k3YllReXR4aGFfNFVtNDNmbU9hQlIydUhnX2tWdldzZ20wZGlWeURtWEtnOUprb05Wd3BIX0h6SWJzSVZYUGU4c2dMVVVtejh1UWxORVQ4TU9lVWNycFh2c3ZDTnZrZllTbGJPWXVBUQ?oc=5",
+          "pubDate": "Mon, 25 May 2026 20:41:59 GMT"
+        },
+        {
+          "title": "Analyst, Talent Acquisition Sourcing Specialist (12 months contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdHI1S0dlZkVBZTFqMThOWENqOFAxSlBHaUNxMjZpRHpEY05VTmlLUjhSd0ZlQnJuOEFqNnFJQmxRVVpROEJPTko4WlJ4dGV2VHFqM1pGYTlQYW1keWdTRzlwRzRIYlBfTjI5dUpqTUNzTVNEdnI0WWhpTWpjOVVCNjRCYUZ2ZTI0Rm0xc0pSQVphT3B5YWl4U2J5TjFTV29iNW5Ebi1XMTk1V2RSMU9aZlpIWDVuNzVtcEQ5LW9oUG1nUjBCOEE?oc=5",
+          "pubDate": "Wed, 20 May 2026 14:10:42 GMT"
+        },
+        {
+          "title": "AVP/VP, Investment Research, Private Equity, Technology Investment Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaVM5NksyVlJTak1mV3lKdTNYMnF4UlgxYzFOLUs4RnZaeDF3MkRRZFRaajZJVVptMTA3SzJxQmRVYU9zRFpvcXRUNGV4MmcyYURwYXpkai1mUGhjWG5KOGZDMXFKb2pDd2NzYUZPUkFjQzl6U2dJUFJSUUJOaS1laWJ4S2hIY2NhMXlmaVdZSllNbW4tY1Z2ZzEtdjVfVVVEWnBpRDlnV3pGVXRSSmk4OWhkakM2ZFFEd2pXbk13Yk04b3hWZGYyMmNGZDJYUmdhM1plWVVJR0V3Uk0?oc=5",
+          "pubDate": "Thu, 21 May 2026 23:28:53 GMT"
+        },
+        {
+          "title": "AVP, Index Operations",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR2JsZWlFYlg2UFVKeFdnTVdGX3pYdUlkZHJ3VjROaUpGREt0Y1RSbUNEMnJNZjFiY2lLNld6Z3FyRGRpcW9FMThVX295TkgtTkhJUlN5QS1KLWdvcDRtS24xeE9wLXlDVDZNRld2WVE4SmNnUkZualJfWEZTOTBhSTRB?oc=5",
+          "pubDate": "Thu, 21 May 2026 15:33:58 GMT"
+        },
+        {
+          "title": "AVP/VP, AI Engineer, Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa21zOEgyakgwM1h4b2hubnhZZ3ZsV2FBbG95aU5SNnlLa2dkaFpOYlhYa1Y3X05UZHVkVVlhcWU5SjJBQjIyaGFwZmM1UHVVTjZ6cGtVUzNDV01IZENkTFJnQ0Zkb3pQUXYwN3h1NzN0WTVJclVoRFlEVGdRbTBGS2lONEw5bWJWa0YyTjB4emV0d2U0bXc3UA?oc=5",
+          "pubDate": "Thu, 28 May 2026 06:45:09 GMT"
+        },
+        {
+          "title": "VP, Financial Operations Lead",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTVQ1QXppVzlUSE9RYlZ2anNRZGNNN2FCWDhTSXJRV0hGdlNPa2NWTTVVT0J6MWNJRGdfNEZmNGM0Z0NUNHlWOHk5cDhsVDZPY0JRVlZPVkFObEZZcGl1dEdRS0tqR2NCT1VMaXlwbzZSamdPZjlnX3dMcVlHak9ZMksxMUpkRWdxdXBnSg?oc=5",
+          "pubDate": "Thu, 28 May 2026 06:42:10 GMT"
+        },
+        {
+          "title": "VP, Corporate Infrastructure Services Department",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd1JvRjFRZzhlUmpzWUdPMUlOTmd3TUNUY0hkSGRwTjNWbENiOEtsbHpiS0ppOWgwbmZCTVU2QkVKX1FqN1N4QTFiNGpWcUp3ZzJ6VE4teGRVVW5nLTBDUlk3cnItQXpEYUs2SERVc3VacDhDU2ZCbW15TEtXUno2QUZqZV9leERZWGVsQzZEc2JrRW1sQ2ZLSGV5QU5rU3BFbVE?oc=5",
+          "pubDate": "Tue, 05 May 2026 17:45:38 GMT"
+        },
+        {
+          "title": "Associate/AVP, Portfolio Services Analyst",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZjFGRkxialdESVJWbjdtVXE1ZlFkV3pVRkxzY1VEaUlUcGlZTWNFeWJDQ3NNUFBTdkk4Y0h1cFEzczZqU0U2XzVuYkRpeS1yZmg1cWtDWDRYTzc1VGQzTHF6RnlrcGhIUVlHLVlfZG9Vczdnc2NHVm1IMklzT3VBbHhnTlV2Rmh2bWd5emJiNzdzYUdLV3ZwZWtYTQ?oc=5",
+          "pubDate": "Tue, 12 May 2026 12:45:18 GMT"
+        },
+        {
           "title": "Sony Music Publishing Agrees to Acquire Complete Catalog of Recognition Music Group",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdGFIakd6aUo1ZDB1aG1WNi12SlgyOWYybzB6aTBwV0hLbGZRNWJCNGp0VUpBdFFXeHBDR2xudG5ncHdVY29JQkNycUdvSnV6dnNTWkNKaDlXV0ExdjRfM3RkYklLeTdJT1pNTXpUSS1kNC1xbDVhMHVObS1zVnluaDVrOENBUVNFZVVrX2pObzl1dF9nMHdTVjBnd2VWWDVLWDktb2ZlR2JvM0x1V0ZQVWxXc0ZLMWZFaldsRg?oc=5",
           "pubDate": "Mon, 11 May 2026 12:20:44 GMT"
-        },
-        {
-          "title": "Brookfield and GIC Complete Record A$6.7 Billion Acquisition of National Storage REIT",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTUNoRXhvNzU4NjJJQnZ2Smh3OGc1anFlNUg0bXZIVmVOdWpxVnRWT2VzdndTai13T1B6d1VqTmRzTXdDUWg1a2JkU2VfTWdZSGwtWnJlZmo0bUFWOTh3OWZ3bkVrRFNiQXJhWE5lcWM2WkNEYmYyWkFTVXIwLXNwY1dteVlrYm5MVDJfVHVuWEJqRkhtY18yODNMWGdXaUlwbERhNUNrb2d5MGxVRG9zMWk0d2w2SEYwS3QwMzdB?oc=5",
-          "pubDate": "Fri, 08 May 2026 05:12:13 GMT"
-        },
-        {
-          "title": "Anthropic Partners with GIC to Launch Enterprise AI Services Firm",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdHpaYWFiXzJWMGdHV0E5bUpCNTBFNFpHRFpFaTdRRkxIU3NXc3BiQnp5dTk0RWdfaElzcTdLOERhakJqTUxnNVRrVTlCSWgzak9ranc4VDRBRW1KSEw2SHJSUzFmajRETTEycGZiLU5seGdWcGRtSVNMMC1rT2xqa0dOSzgySnJENGk4ZTE3WlBqaTd4ZTRKa2JieHlkVVF1b1ZzZTA1TzliNC1Pc0U2bDVqcm1NX2VfMTRtNkN1N085R2pEX1pteldYVklKaHFTczc0bVVkM0RKNjFn?oc=5",
-          "pubDate": "Mon, 04 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "GIC acquires 25.1% stake in Lendlease International Towers Sydney Trust",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
-          "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
-        },
-        {
-          "title": "AI's Next Frontier: Data, Talent, and Infrastructure",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkYlp6eU9nLXJpWHZ0aXZOT0M4aVluWVpUVEd3dDhRbmxRUkRyNGpzY0pQUWZ6NklUaXJEb3IwcUlRUllUaExpMWduWklDdGZyc19hT3ZfR0wxOENRVXVFSEVCU1R4ZS1YWUppcg?oc=5",
-          "pubDate": "Fri, 16 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Mark Lee",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
-          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
-        },
-        {
-          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
-          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
-        },
-        {
-          "title": "Boon Chin Hau",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
-          "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
-        },
-        {
-          "title": "Deepak Parekh",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         }
       ]
     },
@@ -934,6 +934,12 @@
       },
       "items": [
         {
+          "title": "A RETIREMENT BONUS TO HELP YOUR SAVINGS GO FURTHER",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd0RqaGZGZ0ZkVHlQcUdkNzE4bUpwNXltanJTZGVaWWFabXRLWGl2MGJCYmk0dlBuc2N3bU12VC1KU1hRNWpnczdFTE1JdVNBdGdXTHp1UmlxNDQtVmdvQVZjZ2UzMmVZdVFxVkhtRnNpS0J2U2V6LWptS1FJbzFkU1l4WXBxTDJ1MC1IS1V2ZDZCbnBOVkl3ZTNCM3JlYm1fN2VrbUNYbw?oc=5",
+          "pubDate": "Thu, 14 May 2026 07:00:00 GMT"
+        },
+        {
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUZQbFBuenRESTA4emZGUEtGM01qVG5rbkdrME5GV2MyV2w2Sktaa1I0N2FmNktxeXROc21uN0JyMzFlS3Z4Z0FGcHRCVU1JLWdoV0tlMGNEakY5M2hTRGl0Q2VFdlRQU0xnZlZRTmhOVWhSUm9mbk16cnJMUG96YVZnUm9JUExKclNBeVpFNVFUSDVJQXVvdjhMbks4Q0NJNEdj?oc=5",
           "pubDate": "Tue, 30 Sep 2025 07:00:00 GMT"
-        },
-        {
-          "title": "TRACK DOWN YOUR LOST SUPER.",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNnE5dXZkSmNGY3RoSE1hYkV3VDFXZUZRLUY5djBjaGw0Mk1ubGVrclBIZGNscFpzdmE3RzNCMWUtd0RTWGxsV1NhWlVSV3JCcE1lbnByOHoxTVQwck1ob3k5UHNZTE9vbENySWNSeVJNVTM4Z0NtM0NuY0E1SlNRa1VlczVGczgyNGotNjQzZTgyX1A4azUzblgzS2VILVFSLUZ0ZVRRYUxIaUkya2JyR0N2RTBGUHBuSTlHVzJ6VS1QUnFaSXBTMW50NFd3VjFrMTJzMmx4UWtOR2RUWnFVNEEzdXJCLTVzSXBPVC1rZGFGMDR4T2kwSmVR?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 10:57:11 GMT"
         }
       ]
     },
@@ -1058,10 +1058,10 @@
           "pubDate": "Wed, 06 May 2026 07:00:00 GMT"
         },
         {
-          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
+          "title": "Urunga Sewage Treatment Plant upgrade - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
-          "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95MDZfR2NNY1AwRWlFbFMwOU1LMFl2RVIzU1VPWE5iallSeUt3bmdvLWhLcWlOaUFjdXNlS3ZndjBFVXpoQ29UdTFnendJRlAtdDYtOG9jcU9kNDY3SmlNTEdHRjc3ZG1mSm1EVVRlOUg?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         }
       ]
     },
@@ -1168,6 +1168,12 @@
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
         },
         {
+          "title": "Our fact sheet",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
+          "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
+        },
+        {
           "title": "Our team",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
@@ -1196,12 +1202,6 @@
           "source": "ace-ib.fwd.com",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3WllKVVhBQ1l0NVhEN3ROem1oT1ZRb2FFTTJMVUFFUHJKY3BEb21rZUJvYWtjZ245QTYtZWNPazNnQUQ0VGtTd3g3TkhSN1lidG5hem01alRPLW9VMFptS0Rpa1RoOE1JdXc?oc=5",
           "pubDate": "Thu, 14 May 2026 18:25:04 GMT"
-        },
-        {
-          "title": "Our team",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45enFFVHNqc0F4UnlOTHFaZ3VCSm1WT0pHOHI2eUpsSE9yalprcll1d1hkUExHbF9rVXVvdnFsZ2hudE9XRUx0aHhKci13QmlLRWRMZ0NDbFpKTnF1eXBn?oc=5",
-          "pubDate": "Wed, 06 May 2026 01:55:02 GMT"
         }
       ]
     },
@@ -1250,12 +1250,6 @@
           "pubDate": "Mon, 23 May 2016 04:48:22 GMT"
         },
         {
-          "title": "List of Group Companies：The Norinchukin Bank",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMemF2azA4OVRIUnFOdENDekpqSnpMUkNjSFhYbVBQbktKNTgyRVlzV0Jyc2xUZzc0b2tlcTBhOFZseGRaR0JGLXpPc0MwcHVwSFd6OURVYmVDVTBSYjRvN3FCbkM?oc=5",
-          "pubDate": "Mon, 23 May 2016 04:54:47 GMT"
-        },
-        {
           "title": "Head Office：The Norinchukin Bank",
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DX0k1V2FYTU5nMlB6ZkpSWGtkU1BjbzFGQ0Y1NWJ6OEFQejVzTFVpanVGSGZ6c2JiLVY1cEdqWmE5V1h6MC1sOEg5anprMUt0bGhZRGFneFlsOHNtcVJhd1gtd2FIbkVjRVBPRXVfSVlwTWps?oc=5",
@@ -1272,6 +1266,12 @@
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVpTQlB4d2RWZ21Dald6bWhzMGo1Q0YxY3JCMmtSZkQwYjIyRnE3b0diV19xRG9vSjV2aUFIWjFNdjhiVXZNeHhFcWZFVDA1YkgzT1djR2ltZlFUOUVkS0VQUVZxdXl5SlVDTUNnSVJ6c19kZ0RRUTl3aVZiTTZMLWJUNUY3VEtOck5odF9QODVxUlVYLTY3Sl9od3lSV3BJMmNNeGw5UjM?oc=5",
           "pubDate": "Fri, 06 Jun 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Annual Report/Integrated Report：The Norinchukin Bank",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84OVJFX1ZtTS03d1Z1VWQ5YTE0Q3Zjd3dMU3p4aG5SclQyQldDbzljeVYzMUxmSXdkN1UzcUNCSHptX0ZPeEJ6dC04N2l5blBWc1UzeFBvUG1GMWJr?oc=5",
+          "pubDate": "Mon, 23 May 2016 05:00:59 GMT"
         }
       ]
     }
