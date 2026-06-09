@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T07:53:00Z",
+  "generated_at": "2026-06-09T11:19:20Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.05,
-      "change": -1.6000000000000085,
-      "changePct": -2.202339986235387,
+      "price": 71.0,
+      "change": -1.6500000000000057,
+      "changePct": -2.2711631108052384,
       "currency": "HKD",
       "prevClose": 72.65,
       "dayHigh": 72.4,
@@ -486,12 +486,6 @@
           "pubDate": "Mon, 24 Feb 2025 07:53:11 GMT"
         },
         {
-          "title": "Covered Bond Valuation Investor Report",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEaUlPdkl4WVBaeHhUb05FTFVhMjVBaXB2S2YzQk1adTZzRWxqVHVRNkdycXd6NWc5Y3V5ZVpLTW5LSTRkRnlQY2liT29BTHNrSm1rMGw5dVFEUmZtazgyR1B4OElnUVozQkJsaGdmZVc?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 09:00:24 GMT"
-        },
-        {
           "title": "SuMi TRUST Covered Bond",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LMm92aFVjUGNpejlpbl9CaU5iRHVGaTRxa0l2TXdWQW1wMEFxalI3SklhMnNia2ZTaTFIaUVVTlVXTXFDUjBEM2diRTdzdmFndUdKSWQ0V1lTODhVR2UwZm4wRWczTDJVOFE?oc=5",
@@ -502,6 +496,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWG8tMTFrZUh4OFczamxzWE1kN2hIa3dtM2xPU1VycUlER093VVYwSG9vRU0wV2FLNnQ2RS10Z1JBanI1R215eS1ZMTNwZHpvRVYyU0w5bkdyQnVDaktxVkFMeTdwNmNzVkZ2RUhWc1NjMXdBeDhJbm4yTTkxNjJUOU41QWVEcmZzU21jWTl1ZGhjUjZRbUtZ?oc=5",
           "pubDate": "Sun, 27 Apr 2025 04:41:53 GMT"
+        },
+        {
+          "title": "Rating Information | Stock and Corporate Bond Information | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZjVZOGM0RVQ2TUVkRVRVSDB6eHFhSTlNRmJ0SzZCMDFZLWFkeF9aMTRDRm0zYUhEUUNxN2xxVXZrMXJYOXRHamE5ZHdqX29VbVhJbFhucmdBTDhIZjduYg?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 02:05:00 GMT"
         }
       ]
     },
@@ -513,12 +513,6 @@
         "query": "site:jp-bank.japanpost.jp"
       },
       "items": [
-        {
-          "title": "Japan Post Bank Debit Application Method (Website Version)",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
-          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
-        },
         {
           "title": "ゆうちょ銀行口座へのお振込方法",
           "source": "jp-bank.japanpost.jp",
@@ -572,6 +566,12 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDM3X0xROFk2QV9HblVNWjBiZklFV1RlSl9LNS1MUFpjT0Zjb3Z1aFdTMmd3cVpaSFk1ZGhSdVhlT0pWOUtxc2M4R3p5dG1pUTVTZjJhUXd0SVE4QXhWZmZocmNCNUh3N3l1Vjl0ZmljNkk3SEpkclk3ZEk3VTRGM2JvYTk?oc=5",
           "pubDate": "Sun, 25 Feb 2018 23:43:44 GMT"
+        },
+        {
+          "title": "JAPAN POST BANK Co., Ltd.",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zal9IWWhqWnBxT2NubGljOU1LX1NlYl9SbkhMUEJseHBwVDdFZzBhU0tHZzFMWGI2V1V1a1ZJbE5MdlRhMXdmMnBWVVlFRTFkVmhUcFMtbXJTVHlLcGtEMnlsekd2R0pxc1Z0bmZrendKMUhM?oc=5",
+          "pubDate": "Fri, 12 Nov 2021 08:00:00 GMT"
         }
       ]
     },
@@ -588,6 +588,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
           "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
+        },
+        {
+          "title": "AI and the energy transition: enabling efficiency while managing trade-offs",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
+          "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
         },
         {
           "title": "Home News & Stories Stories Future & Trends Beyond Capital",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMUVLMVJVZjB3TnhoODhmRy13YllLbGZIMnhsdFF3WmdFajZqNTVHZFNqMzd3RlRZREJfSlUxcHhMcTRCdy1OQzV5VERGUWFjd0d0UHJEZ3dEaUl1MTB6LTdIUUROVTd0WC1XXzJWdkFtYUtzdV9rZ2pTZklfSU11YjBaUW15YnNaVFRIR3lvdzhsTDVFNGdtLVJnRE1GNUlrS2J3eA?oc=5",
           "pubDate": "Mon, 11 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Temasek Positions Organisation for the New Global Environment",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZXhCVm9JS0M5NGpaelFCX0NxeHVqSVpiVk8waU91TWZwUlhlT1liN1d0aGpUNlJySVBUajM1U0hLM0JfT0UzVFY3b0gtejRTVFU0S04ya1pveG55S3hoNllzVkJLaWtFcUl3WHFuZzJvZFJRSFp1djhseU9TZ2szQTllcldoUkozN3Y2d2dTMl9CTnB5aF9pZFdPMzVIMkpXcGdZTEk4V0lYYlp3eDhvNDV5YkozZG9TaDNXUDlBZ2lUU2RTQnByZlNR?oc=5",
-          "pubDate": "Thu, 28 Aug 2025 07:00:00 GMT"
         }
       ]
     },
@@ -660,16 +660,34 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
+          "title": "Ramp Raises Series F at $44 Billion Valuation",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2VVaE9yZ3FQckxBZWk0S2hVUzROM3pLNHhaRS04YnVhNmVoa3llcHY4VU0zU1lPU0xpZVRqY080ZjVQejVGLVFIazc5RDQ5aS1QSHR2VlJtTF9qa1JzM3MxZ2N6M1ZOLWVmYzNoY2dJNkk4dkJ5TV82Y1pRQml1REhUb0NaS0Yz?oc=5",
+          "pubDate": "Thu, 04 Jun 2026 12:03:27 GMT"
+        },
+        {
           "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUVULUxhN3dPdlZVSFhtZUdOZkV2QkJ4emhLbk9ucHBLUl81aFZYVnJqVkRmbVliamNGblVfaVlSSEZ4dnlWSERVbUZHbEtFRkhoTWpHeXl6bE5nNTNZWm9KeVNqVnNyNloxaHFlYjJWSjVoa2R5SS1XMTU0U3liSFlnRkctcXRvbDdISi0wdHBza2hYdTJVLVRHa3Z1U3ZNQm1WeXJKVlJyZw?oc=5",
           "pubDate": "Thu, 28 May 2026 18:24:08 GMT"
         },
         {
-          "title": "Ramp Raises Series F at $44 Billion Valuation",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2VVaE9yZ3FQckxBZWk0S2hVUzROM3pLNHhaRS04YnVhNmVoa3llcHY4VU0zU1lPU0xpZVRqY080ZjVQejVGLVFIazc5RDQ5aS1QSHR2VlJtTF9qa1JzM3MxZ2N6M1ZOLWVmYzNoY2dJNkk4dkJ5TV82Y1pRQml1REhUb0NaS0Yz?oc=5",
-          "pubDate": "Thu, 04 Jun 2026 12:03:27 GMT"
+          "title": "SVP, Finance Business Partner (Technology)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSTE0ZmQ0QkVkYkd4SVRTXzFTMDJXZ1MtWWNGbVJNdnRBVVpfTzJTU3VqLTBON0UteXlMUlNHNHRRT2c4dXFQNGhIeG9qOFRFek1jWDdueERVdExlRFpFOFh1aFBFOHlvRHcxeXpfM2xmMEtRWG1jY0xwRUVsRXhNLVdGR3oyRzVhM3Y4ZE9RSTVTalFlbGt3SFpfdGZvLWNHNkx3?oc=5",
+          "pubDate": "Mon, 08 Jun 2026 15:15:48 GMT"
+        },
+        {
+          "title": "Analyst, Talent Acquisition Sourcing Specialist (12 months contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdHI1S0dlZkVBZTFqMThOWENqOFAxSlBHaUNxMjZpRHpEY05VTmlLUjhSd0ZlQnJuOEFqNnFJQmxRVVpROEJPTko4WlJ4dGV2VHFqM1pGYTlQYW1keWdTRzlwRzRIYlBfTjI5dUpqTUNzTVNEdnI0WWhpTWpjOVVCNjRCYUZ2ZTI0Rm0xc0pSQVphT3B5YWl4U2J5TjFTV29iNW5Ebi1XMTk1V2RSMU9aZlpIWDVuNzVtcEQ5LW9oUG1nUjBCOEE?oc=5",
+          "pubDate": "Wed, 20 May 2026 14:10:42 GMT"
+        },
+        {
+          "title": "Associate/AVP, Portfolio Services Analyst",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZjFGRkxialdESVJWbjdtVXE1ZlFkV3pVRkxzY1VEaUlUcGlZTWNFeWJDQ3NNUFBTdkk4Y0h1cFEzczZqU0U2XzVuYkRpeS1yZmg1cWtDWDRYTzc1VGQzTHF6RnlrcGhIUVlHLVlfZG9Vczdnc2NHVm1IMklzT3VBbHhnTlV2Rmh2bWd5emJiNzdzYUdLV3ZwZWtYTQ?oc=5",
+          "pubDate": "Tue, 12 May 2026 12:45:18 GMT"
         },
         {
           "title": "Sony Music Publishing Agrees to Acquire Complete Catalog of Recognition Music Group",
@@ -678,40 +696,22 @@
           "pubDate": "Mon, 11 May 2026 12:20:44 GMT"
         },
         {
-          "title": "GIC acquires 25.1% stake in Lendlease International Towers Sydney Trust",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
-          "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
+          "title": "VP, Application Support Engineer (Digital Enterprise Services), Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNlR4cm01dEhOR2ZLN3VPOGNHTFF3al9uNUtfaXZoTzdmTV8yUmJ0R0hZN2V6TUdzVGVtbnNxdXoyeVFKNld0SDJjUVJ1NTBaVlFqT3ZEQjIwUzJ4MHNnUnpfTGxwSU9aYnd2MVBxMk40OURCVDBicmY4bXhqQklleFZnVHJMaHBQczhuN1dMRnFlSmdtUVRWaGRlUFlndkZfUG9aeUVNWmg4U3VzUWxzeWFHRVgyS0RkcU4tQVh2X1hCbDhoeUh4MFlORGdKXzBwT2RROWlhOVU?oc=5",
+          "pubDate": "Mon, 11 May 2026 14:12:52 GMT"
         },
         {
-          "title": "AI's Next Frontier: Data, Talent, and Infrastructure",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkYlp6eU9nLXJpWHZ0aXZOT0M4aVluWVpUVEd3dDhRbmxRUkRyNGpzY0pQUWZ6NklUaXJEb3IwcUlRUllUaExpMWduWklDdGZyc19hT3ZfR0wxOENRVXVFSEVCU1R4ZS1YWUppcg?oc=5",
-          "pubDate": "Fri, 16 Jan 2026 08:00:00 GMT"
+          "title": "Executive Assistant, Global Investment Services",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSllDQU5GNUYycXB5RzBma2otc291RFl3M3VHTnB4V0liTU1xcVBHa3hncm1GR3RKckhMOVNQOVlQMC1OeDhwY1VXdkJqM2l4SlE1T0lGWENsNmxfZU9vTlJZR0s1M052eml2U3BrZ3owRHVrRnFxQVBrR0I1RFdTWUhOUkhFQ1Y3Sm56eUxOclVfbUt4WU1kNFFwcVBMQ3lQTEdqZg?oc=5",
+          "pubDate": "Mon, 11 May 2026 07:49:10 GMT"
         },
         {
-          "title": "Mark Lee",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
-          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
-        },
-        {
-          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
-          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
-        },
-        {
-          "title": "Boon Chin Hau",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
-          "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
-        },
-        {
-          "title": "Deepak Parekh",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
+          "title": "AVP, Index Operations",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOR2JsZWlFYlg2UFVKeFdnTVdGX3pYdUlkZHJ3VjROaUpGREt0Y1RSbUNEMnJNZjFiY2lLNld6Z3FyRGRpcW9FMThVX295TkgtTkhJUlN5QS1KLWdvcDRtS24xeE9wLXlDVDZNRld2WVE4SmNnUkZualJfWEZTOTBhSTRB?oc=5",
+          "pubDate": "Thu, 21 May 2026 15:33:58 GMT"
         }
       ]
     },
@@ -888,16 +888,16 @@
           "pubDate": "Thu, 13 Mar 2025 07:00:00 GMT"
         },
         {
+          "title": "HAPPY PENSION LINKING GENERATIONS",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wb3FaYlo1dzJ0VHBSVnpGVFZpOE8zcDhfV2pGdjZMZDBlWlN4cncxQml5X0dWX1JfdlJ3T0M1YVgwRElpR21udEkzdEdvNjJhRHh1bmFGNElwbU5fYlgteWx4enBBQzFJeWZZQkxNdXZPdy16djl5QlJQSXY?oc=5",
+          "pubDate": "Mon, 01 Nov 2010 07:00:00 GMT"
+        },
+        {
           "title": "National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdU9yQ1pXYkgzNjZSaFV1WGVReUVQdzV1ZlczSXlCNHpYOEFsSDVsRGx0eHVwLUZXYnFXQy16QUlPd0UyZ2FOb25UMG9wakxMemRWTExUeWVkRnNHSk5ZTzA0UUhFbnZlRjdFMGMzeklNQTlYMWVDZmw4c3drWjVhY3gwRXJDX3dX?oc=5",
           "pubDate": "Sat, 12 Jul 2025 15:10:32 GMT"
-        },
-        {
-          "title": "National Pension for All People’s Happiness",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
-          "pubDate": "Sun, 19 Feb 2023 08:19:21 GMT"
         },
         {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
