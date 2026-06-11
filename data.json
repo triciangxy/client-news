@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T11:53:50Z",
+  "generated_at": "2026-06-11T04:13:55Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 70.25,
-      "change": -0.75,
-      "changePct": -1.056338028169014,
+      "price": 71.8,
+      "change": 1.5499999999999972,
+      "changePct": 2.206405693950174,
       "currency": "HKD",
-      "prevClose": 71.0,
-      "dayHigh": 73.2,
-      "dayLow": 69.05,
+      "prevClose": 70.25,
+      "dayHigh": 72.25,
+      "dayLow": 71.0,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 98200.0,
-      "change": -3000.0,
-      "changePct": -2.9644268774703555,
+      "price": 97900.0,
+      "change": -300.0,
+      "changePct": -0.30549898167006106,
       "currency": "KRW",
-      "prevClose": 101200.0,
-      "dayHigh": 100800.0,
-      "dayLow": 95300.0,
+      "prevClose": 98200.0,
+      "dayHigh": 98300.0,
+      "dayLow": 94100.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 5918.0,
-      "change": -18.0,
-      "changePct": -0.3032345013477089,
+      "price": 5889.0,
+      "change": -29.0,
+      "changePct": -0.4900304156809733,
       "currency": "JPY",
-      "prevClose": 5936.0,
-      "dayHigh": 6096.0,
-      "dayLow": 5887.0,
+      "prevClose": 5918.0,
+      "dayHigh": 5937.0,
+      "dayLow": 5832.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3177.0,
-      "change": 23.0,
-      "changePct": 0.7292327203551047,
+      "price": 3090.0,
+      "change": -87.0,
+      "changePct": -2.7384324834749765,
       "currency": "JPY",
-      "prevClose": 3154.0,
-      "dayHigh": 3248.0,
-      "dayLow": 3164.0,
+      "prevClose": 3177.0,
+      "dayHigh": 3113.0,
+      "dayLow": 3060.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -614,12 +614,6 @@
           "pubDate": "Fri, 05 Jun 2026 11:33:17 GMT"
         },
         {
-          "title": "Associate, Investment Researcher Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV1RQTlpnbVc1UEtyNkxPeGtmWUI2bVRpbGJmMmx3S2RJTjJ0dVdPOUF3T3Y4YmRKUXVpTm1fMjBxZ2ZFUlByNjhubXA3andpNDJ5WmxvRW52c2pyT0I1T3pxRmc0NHJRd1ktcFlrLTlDMHBpNUVHZmdyUmJGN3VIOC0xVENrVFBOMFRLMGJB?oc=5",
-          "pubDate": "Mon, 11 May 2026 12:34:54 GMT"
-        },
-        {
           "title": "Harmony Champions: Roses for racial harmony",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZkdzOUthUkxxQlJBQ0pKWEZfRE9uQ0xKMEY1TVl3a0l5LWg4bXk5dkpjaGo3N2lyaGpuai00TGxiRHA1R0ROcENnbGktUmthbnZqTW9MMndNQnZZREZFU2FzVmx3ODJwR01na25oUVQ3czYzRUFuX2NVVThMMklXaFdiNlpwUjVhaUNCQ3ZvZVB1bkN5VndRVmpOZ2xOWWxsOTBuV1JjbUcwTUZtcG9NTG93SEZHOTBwdWJidFB5NFRrWHM?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1dqQzB4ZVFwS1Z6Q1JuRkNxMzdCVDV2TFJENVk1N3p5MUZfNzJoSlVaeDVxNHhLVnk0aUd2LW5qZnRlel8wNnVFY3VydVpSWFY4Y1o1dW1TbExwemktRXY4bzJWbXRtR2xhb290bWVOMmJRcUxmemg2eHQ0ZWhINUp5S0Ixbk0xWWZfSFJZUGljMzFfZDlVLWtfVC0zU29uQ1d4cUtGNkVsR0tFNFY0UWFVRFJRTzNHZndJNXhtWWRSU0hQUWc?oc=5",
           "pubDate": "Wed, 13 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "AVP (12 months contract), Cybersecurity Programme, Engagement and Change Management",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMGpEYjZCdFFlQy1rRlp0MmVOMVJWaXF3YmFyQUhsV0tsN3ZXaUpGcEZ6b05kanNMaW4xNC0zU1M0eFhkT0ZFUS1DX0REZDNTMGZybTNzclJYNkRfYnl1d09xNmVpUHlQa01IX0NCZzRwaVN1djdXanNBR0xScjVSNWpuZjdJTFVVUlJkeEpRZkFvQWQwZjZiUXVGZHZQSW9teTctdC1MOVU1Y2tZbllFWjRiUjAxNHJzQlY0cGk1OWJxa2lEQjZnd0hkdlNmQWdQbXVlUjIxVFBLdw?oc=5",
+          "pubDate": "Thu, 21 May 2026 00:55:45 GMT"
         }
       ]
     },
@@ -660,28 +660,22 @@
           "pubDate": "Wed, 18 Mar 2026 22:21:49 GMT"
         },
         {
-          "title": "Who We Are",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nUnRlazljZkZ6bWZ2Z1ZxOGtnMkhrazY4Vy0tOFlNU1V3clliNWt0YTFHRlNaUW9yWnFQeXlrbW9JVlAzVk1qRmxn?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
-        },
-        {
           "title": "Ramp Raises Series F at $44 Billion Valuation",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2VVaE9yZ3FQckxBZWk0S2hVUzROM3pLNHhaRS04YnVhNmVoa3llcHY4VU0zU1lPU0xpZVRqY080ZjVQejVGLVFIazc5RDQ5aS1QSHR2VlJtTF9qa1JzM3MxZ2N6M1ZOLWVmYzNoY2dJNkk4dkJ5TV82Y1pRQml1REhUb0NaS0Yz?oc=5",
           "pubDate": "Thu, 04 Jun 2026 12:03:27 GMT"
         },
         {
-          "title": "FCC Portal Terms of Use",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BeG92czl3OUU0M2JDcEV0a01SU1ljSUsyLVdBUW1JTmUwODNsaUhZb04xOEtTX3Rrbm9Wa2FxbElYU25BUHVTbklqbTVzUnlwMFhpMndB?oc=5",
-          "pubDate": "Wed, 10 Jun 2026 02:15:36 GMT"
-        },
-        {
           "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUVULUxhN3dPdlZVSFhtZUdOZkV2QkJ4emhLbk9ucHBLUl81aFZYVnJqVkRmbVliamNGblVfaVlSSEZ4dnlWSERVbUZHbEtFRkhoTWpHeXl6bE5nNTNZWm9KeVNqVnNyNloxaHFlYjJWSjVoa2R5SS1XMTU0U3liSFlnRkctcXRvbDdISi0wdHBza2hYdTJVLVRHa3Z1U3ZNQm1WeXJKVlJyZw?oc=5",
           "pubDate": "Thu, 28 May 2026 18:24:08 GMT"
+        },
+        {
+          "title": "VP, Project Manager (PMO and Finance), Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOXdWN25lVmtHMlVPWUFCYnZETlpydmtHN2FaYmQ5bzl6ME0tbXFrb2sycmZUTDRPQ3pTamtQTVdTeFZsN2VmSV9pSWs3bGxIeVYzamJyTjZuT0xLVURUc2NkU01paUVrVm5QbDA4aUNQYmdvOEUxdDh2MHVKV2JLTEJFSzNoeE1JUWlONkUxMU02dUdoX3FvWFROTjliYXowX1V5TElyWEV3YVJ5eURxT0ZjMlJiZDQ?oc=5",
+          "pubDate": "Wed, 10 Jun 2026 12:12:19 GMT"
         },
         {
           "title": "Analyst/Associate, Portfolio Reporting Analyst, PE COO Office (2-year contract)",
@@ -708,10 +702,16 @@
           "pubDate": "Tue, 12 May 2026 12:45:18 GMT"
         },
         {
-          "title": "Sony Music Publishing Agrees to Acquire Complete Catalog of Recognition Music Group",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdGFIakd6aUo1ZDB1aG1WNi12SlgyOWYybzB6aTBwV0hLbGZRNWJCNGp0VUpBdFFXeHBDR2xudG5ncHdVY29JQkNycUdvSnV6dnNTWkNKaDlXV0ExdjRfM3RkYklLeTdJT1pNTXpUSS1kNC1xbDVhMHVObS1zVnluaDVrOENBUVNFZVVrX2pObzl1dF9nMHdTVjBnd2VWWDVLWDktb2ZlR2JvM0x1V0ZQVWxXc0ZLMWZFaldsRg?oc=5",
-          "pubDate": "Mon, 11 May 2026 12:20:44 GMT"
+          "title": "AVP/VP, Project Manager (Infrastructure and Cybersecurity Resilience), Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNTZRVUZYMFVNWm5RTGxfZWhENlhpdlFtMEd5dDFxc29CaWkwUUNjRmQ1eWNIRHpjZTlxZ1h3cFRKUkpzYXc4QnZMVTY3R0Njckk4b1ozaUI1NjF3NGk5cnE0ZXdYTG5SQnBjY093TXptN1l6a2xjaGlwR2hCZExGV3U0dWJibnloYUpoak0xMFZiTDNSa3dhSkpnWENJaGFqejZTd3dCcTktb0JJQnEyYUFhQU1ILVpaYXh5RFVUcTg5N2REa0hFOHZSMjNwRHZ0dFpJSlFTWnphY0Z5U2U4Sw?oc=5",
+          "pubDate": "Mon, 18 May 2026 11:51:20 GMT"
+        },
+        {
+          "title": "AVP/VP, AI Alpha Group, Quantitative Portfolio Manager",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEZxSUVid0Z1WnZQc3pla3F4WkdPZVJCak45LXp5NzJzbUxRa1Q1TlVET1dFRGt3dWNlVHVqYm04MzFSNWN0N24zX1B5TXJGU2J6V2RxY0NyUThlUkttTVhxT25nZ2ZmN1BVUkhmRFRqQkZPdjRFRVVlNGxpUTBHYk5YTXNpVmQ0YjhZV2tMRzNreTdMR19GQ09qSUpYOTl3MzNibEd5RWFVR3E2MFU0?oc=5",
+          "pubDate": "Thu, 14 May 2026 03:35:47 GMT"
         }
       ]
     },
@@ -772,16 +772,16 @@
           "pubDate": "Sun, 24 Feb 2019 10:29:46 GMT"
         },
         {
-          "title": "China Investment Corporation",
-          "source": "china-inv.cn",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWNtNnpCeE9leGxCYUdHU0xBTmxuc1hTbXJCQ0g0S1Q4Rzh2VUlqdkxMN1YyaGJJX1RpMk5fUVpSUUFCU1J1R28wdTl5VGVQeDhVcktxMUNTQzN0WFFOdkdNeTZGNEpuX3JjWTFWeUJSYTBKdG9TUEdxd0YzZzctNEltTTQzOWNq?oc=5",
-          "pubDate": "Mon, 03 Feb 2025 14:21:02 GMT"
-        },
-        {
           "title": "CHINA INVESTMENT CORPORATION ANNUAL REPORT 2021",
           "source": "china-inv.cn",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81NWVUUFNCY1l1S1BEcm1lOFFROG5zZVhHaWh6TGdDN0Q1VDk0X0otUmlOZDZUc3JfbkVYWGszMVF1WDZCWW5KWS1yUnBaMUprOWpLVmg5Q2lEMXZvSTlpSWQxb29RR1pz?oc=5",
           "pubDate": "Fri, 02 Dec 2022 14:13:53 GMT"
+        },
+        {
+          "title": "CHINA INVESTMENT CORPORATION ANNUAL REPORT 2023",
+          "source": "china-inv.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NNEJGdlF0SklJV0lMM2xwTkpobkZraGVJamRuSUE2bXdhakg5SV9IdldsNU1KOURuUDVGY2FwMjJKTTdEcExxS3Q3Umtqb0xBcG11eU1hRWxPeVZVSHQzdVFmUlZzcE0z?oc=5",
+          "pubDate": "Sun, 31 Dec 2023 08:00:00 GMT"
         }
       ]
     },
@@ -1004,16 +1004,22 @@
       },
       "items": [
         {
-          "title": "Australia’s Bond Market Evolution - TCorp",
+          "title": "Weekly bonds outstanding - 29 May 2026 - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GUFVlRzVyb2xNV05GS0ZaT3o3Q2xuVW1seVBVdzViZW0zMlo1QjViM25hQzI4cXczSWxPeWU5cWNIRG15UlVUaGdUeW9fZ0ItTFFUUkFhdWYzYjl5UWp4XzNFaWJpVlhndWZjaUpqSUs?oc=5",
-          "pubDate": "Mon, 25 May 2026 21:04:12 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5id2tJbDUyT3poekJ4NGxzQ29TWDZLU2VWYy1mMzRMeHpwWmlsSTNxVDA0MUJGWDdiMVg1NVgza2xxNExoVFk0UlFnazhnaTV3MHk5YlYtZkhuOGNmYmNGX3R3?oc=5",
+          "pubDate": "Fri, 05 Jun 2026 13:10:34 GMT"
         },
         {
           "title": "Weekly bonds outstanding - 5 June 2026 - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TMjlYRnN1LXRFcWNPU2xGRjJsQ3hkS1VsOW4tMHN6ZF9pelF1RkwwbUpEZkNSQzZqaDdCZG1OaGpIRmVETlZweXBtOS1JWmE5ZmtTazBFaGhHNFpaenRPTU93?oc=5",
           "pubDate": "Fri, 05 Jun 2026 13:10:34 GMT"
+        },
+        {
+          "title": "Performance Summary Report – May 2026 - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTbXBlRk5aV2dOUmlSMTRNeUNaX0lnMlhTSVoyR1p2R0ZvUWg1T3E2by0wczA2Qjc5T0tTSHB0S0lRVWhabGxPUVFUNlRmQjBRdTQ2SzdDLUNmUnluQVVJai1hck4zRGlvaW1Ha3dsOUZsQjd5?oc=5",
+          "pubDate": "Wed, 10 Jun 2026 00:43:44 GMT"
         },
         {
           "title": "TCorp announces an increase to the 3.00% 20 April 2029 Benchmark bond and 4.75% 20 September 2035 Sustainability Benchmark bond via Yieldbroker tender - TCorp",
@@ -1056,12 +1062,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
           "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNUDVmcXBlbzdvUmdKUml6R2pFemkzbEtfTkVOQ1VMMVlHZThkQ2hCV2dkMHhiT04xTDZGVkltcGxNdTlhWWlTUXBVRHFBc2NUbnlicEhmZHBqbXZsaVlHV0pYQVd1aldzUzd5ZFlIM2dRQ1dCRHp1R0xYcy1LWWVTSDVlZWNYY21vVWtVMUN4NU1CX1R1MjlEVkNQVUUtSTFTU1gxQTJyLUtaVWJkUHBLZVFUU29raXBncHNGM2FaTlEyMjlqQzRJRlBKMkZ6NkN6QTZsTWJLRk1JYWt1ZkVEODA5M0VHUlQ5d3FQREI3ODhqTDRuUHN6YmEtUDNLZDZvUEZIcE00NGpVeEdKTmllcE53MWt5czdTTDk3TUlraEVBYVRhWVBGM3dOOHdrV1E?oc=5",
-          "pubDate": "Tue, 19 May 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1152,8 +1152,8 @@
         {
           "title": "FWD Group appoints Martin Zingg to Board of Directors",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLXEzQzRQeEZRVnVKRWFhcGRsVGszMHRRNW42T3ZaTEpmZHJMcnNFRmxVUHotSkprdTRhVElmWmc2M045N0V0WWVBb1VOSjJCTVFMTzRzRG5tWE9TWmxtWjlqc1F6ZUVKRl9ySmVCcmViNy1wcF9IVzEzSTBmNzRCdzVHMHhJdHdKcWtHTElvdVFQXy13NXk1aWZmYzdydw?oc=5",
-          "pubDate": "Fri, 29 May 2026 11:54:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPenVBdFZ0aC1BYzNZblE3RUdTRnF2MTZvU09Vamk5and0aGsxQU5fZlIxZk9EWGNiWWVBY1BpOTN4MDhlN1d4Y3gzdGRWVUdkZ1VORUkwSTRMaWlKTVdpeWV2MzRzN1hGYm5sSkpQdEVWUG91VElpRUFEbW5FekpyOVJFT0s0UU9QMzdaSEp0cVBfem9ES0IySldQYmdTdndvRzAw?oc=5",
+          "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
           "title": "Our fact sheet",
@@ -1166,6 +1166,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNUo4YVVaeDlmMHoxS2M4a3JxWExlX0FZQlNnaklaVkVCckVzLU9RTEJTQzhLbEE1UFhNYThxcmpXNVF0aXdKSDRTUFBadEJvNFZuMFFhZ1htY3FUWkY3QXJ0OFhMaHNDSV9aYlY1TDJOQTNHQUNKZ05KMy11b3EycHlzSWE4d1ZYc0NIMW92YWNSOHdQQzF4Rk0zUTBrYmZLeXJZNERLMGs5ZEk5cjU4b2NjdjdYRnYtdXM5QllWcEFNSnRKS05ORFJPRl9lQlRWUW4tOVozMWFTZmdqdVdiY2JYOHVBYXhRVHUydUVyWVhNOVE?oc=5",
           "pubDate": "Mon, 18 May 2026 10:11:53 GMT"
+        },
+        {
+          "title": "FWD Group Holdings Limited Board Diversity Policy",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeXpyZ2gtSldIQ0p6RkxZYXZPSUkwckhraXA3LWhLcWxqaDYyVWotaGVNRjRBWkRkNjBIS3hhZm1LU2cxV2p4bWVvdnRjNWJlQkpvSnZkLVAtZzlpV3lpUG5NVG5iQktjTE1vSXFiOENFMGRDcGZHX21ZQVFiNkVxZTlmc2FVRGNsX2NZdG55VTZfei1NTDB3U0VyQVJEakxQNWRfWVJMQXhyTnFUSW5NYWxrcGhDTlFYbWpDaWxVYVdPMGxCalVLTkRwOE0?oc=5",
+          "pubDate": "Mon, 07 Jul 2025 07:00:00 GMT"
         },
         {
           "title": "FWD | Diana Utod Bacasmas",
@@ -1196,12 +1202,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
           "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
-        },
-        {
-          "title": "David Junius",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
-          "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
         }
       ]
     },
