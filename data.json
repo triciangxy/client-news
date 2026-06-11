@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T04:13:55Z",
+  "generated_at": "2026-06-11T09:00:20Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.8,
-      "change": 1.5499999999999972,
-      "changePct": 2.206405693950174,
+      "price": 73.75,
+      "change": 3.5,
+      "changePct": 4.98220640569395,
       "currency": "HKD",
       "prevClose": 70.25,
-      "dayHigh": 72.25,
+      "dayHigh": 74.05,
       "dayLow": 71.0,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 97900.0,
-      "change": -300.0,
-      "changePct": -0.30549898167006106,
+      "price": 96900.0,
+      "change": -1300.0,
+      "changePct": -1.3238289205702647,
       "currency": "KRW",
       "prevClose": 98200.0,
       "dayHigh": 98300.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 5889.0,
-      "change": -29.0,
-      "changePct": -0.4900304156809733,
+      "price": 5876.0,
+      "change": -42.0,
+      "changePct": -0.7096992227103751,
       "currency": "JPY",
       "prevClose": 5918.0,
       "dayHigh": 5937.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3090.0,
-      "change": -87.0,
-      "changePct": -2.7384324834749765,
+      "price": 3096.0,
+      "change": -81.0,
+      "changePct": -2.5495750708215295,
       "currency": "JPY",
       "prevClose": 3177.0,
       "dayHigh": 3113.0,
@@ -684,6 +684,12 @@
           "pubDate": "Mon, 08 Jun 2026 14:46:56 GMT"
         },
         {
+          "title": "AVP, Financial Planning & Analysis, Finance Department",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSnVQMkFEVUVQVDgxWi1IcDBGaGc1cThLRUZIN1dxUmpPQlRTVFMtSUQ1WnFuR2VVMm1BaEFKUk0zc2VBNGYxRE9md25mLUhqYTVCbGxhUm5BY18wQ3ZuQTFtbFJPRW9BQmpQR0dtSVFBLWJZSUp5aGhrTy12NVMtVmJoVVhsWnNqR0pHUUdNdWZ5Nm1QMXIxZjd0dW4zVVVaS0tVX1Z0dUNqY2Z2eFZJZA?oc=5",
+          "pubDate": "Thu, 11 Jun 2026 08:56:05 GMT"
+        },
+        {
           "title": "SVP, Finance Business Partner (Technology)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSTE0ZmQ0QkVkYkd4SVRTXzFTMDJXZ1MtWWNGbVJNdnRBVVpfTzJTU3VqLTBON0UteXlMUlNHNHRRT2c4dXFQNGhIeG9qOFRFek1jWDdueERVdExlRFpFOFh1aFBFOHlvRHcxeXpfM2xmMEtRWG1jY0xwRUVsRXhNLVdGR3oyRzVhM3Y4ZE9RSTVTalFlbGt3SFpfdGZvLWNHNkx3?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNTZRVUZYMFVNWm5RTGxfZWhENlhpdlFtMEd5dDFxc29CaWkwUUNjRmQ1eWNIRHpjZTlxZ1h3cFRKUkpzYXc4QnZMVTY3R0Njckk4b1ozaUI1NjF3NGk5cnE0ZXdYTG5SQnBjY093TXptN1l6a2xjaGlwR2hCZExGV3U0dWJibnloYUpoak0xMFZiTDNSa3dhSkpnWENJaGFqejZTd3dCcTktb0JJQnEyYUFhQU1ILVpaYXh5RFVUcTg5N2REa0hFOHZSMjNwRHZ0dFpJSlFTWnphY0Z5U2U4Sw?oc=5",
           "pubDate": "Mon, 18 May 2026 11:51:20 GMT"
-        },
-        {
-          "title": "AVP/VP, AI Alpha Group, Quantitative Portfolio Manager",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEZxSUVid0Z1WnZQc3pla3F4WkdPZVJCak45LXp5NzJzbUxRa1Q1TlVET1dFRGt3dWNlVHVqYm04MzFSNWN0N24zX1B5TXJGU2J6V2RxY0NyUThlUkttTVhxT25nZ2ZmN1BVUkhmRFRqQkZPdjRFRVVlNGxpUTBHYk5YTXNpVmQ0YjhZV2tMRzNreTdMR19GQ09qSUpYOTl3MzNibEd5RWFVR3E2MFU0?oc=5",
-          "pubDate": "Thu, 14 May 2026 03:35:47 GMT"
         }
       ]
     },
@@ -836,6 +836,12 @@
           "pubDate": "Fri, 12 Sep 2025 19:22:12 GMT"
         },
         {
+          "title": "PRESS RELEASE",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtc0NvLWhEU1prNFFSOFlGZzZTY3ZHYWVtYVVLdnc0Z1didVNGSnZGcG9xWmo1S3kwX3dlTnlTQUR5VURwWW9mSk92WTF0U0NrbjRtX1lPWTk1b0swOFE?oc=5",
+          "pubDate": "Sun, 22 Nov 2020 08:00:00 GMT"
+        },
+        {
           "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
@@ -846,12 +852,6 @@
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsR3lFNHBWSE96QkhnbEZWOWcwOEFsNjBhTmszQi1teGFkY1VyaXMwYUdjMng2RlJJOXJpMnlHQlEwT3hKZ0h3UnRTS0hpOC1rNUFxSlFvNF8tNnlaMmI2ZlFPbzRkTGJpQzE5SWQ3Vy1wOV9j?oc=5",
           "pubDate": "Sat, 28 Jun 2025 22:19:53 GMT"
-        },
-        {
-          "title": "Sustainable Investment │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpV3h3bExBM3BmT0NKTXRuZUZ2YlZqMnJHRTNHalN6cnF4TlV6T3NYU3ZrYnp6el9TN3Rocl9iTWRyQXM1dXZwT1V4Q055d1c5VWo0bDZ6aTZTUEFlaEMzeW9zaVQwZw?oc=5",
-          "pubDate": "Mon, 14 Jul 2025 04:48:54 GMT"
         }
       ]
     },
@@ -866,14 +866,14 @@
         {
           "title": "National Pension Service",
           "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGYzTFR4cUZmUVI2ODJuUXBMeWNUOFlsOXBCV0pUbnhrajdWU2F4bmhxMHBhREo1MVpZUndnX3lPcFlZaHozRUxxcy1MX3JfZHAtbkZ4eG1SQmt6UGhFeUxCYXdxYnBOVldfV1RkbkJ6ajI3Nnk0U2wzNUpFSE1DWlJTMTNnYzYz?oc=5",
-          "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yeFF5OXRLMWRQRGFSdmVEUnlPZTFSWV9VN0Z1OHkyRHIzazJVbjJDUjlYb21IVEluLU1xS3ZfU2s4UmtQLWNFU3poNnk1MFBNVlNzbVBlV1p1a2tnNzhyY0JsMTV2TmZSLVNIbnNIb0NkZw?oc=5",
+          "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
         {
           "title": "National Pension Service",
           "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yeFF5OXRLMWRQRGFSdmVEUnlPZTFSWV9VN0Z1OHkyRHIzazJVbjJDUjlYb21IVEluLU1xS3ZfU2s4UmtQLWNFU3poNnk1MFBNVlNzbVBlV1p1a2tnNzhyY0JsMTV2TmZSLVNIbnNIb0NkZw?oc=5",
-          "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGYzTFR4cUZmUVI2ODJuUXBMeWNUOFlsOXBCV0pUbnhrajdWU2F4bmhxMHBhREo1MVpZUndnX3lPcFlZaHozRUxxcy1MX3JfZHAtbkZ4eG1SQmt6UGhFeUxCYXdxYnBOVldfV1RkbkJ6ajI3Nnk0U2wzNUpFSE1DWlJTMTNnYzYz?oc=5",
+          "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
           "title": "National Pension Service",
@@ -1022,16 +1022,16 @@
           "pubDate": "Wed, 10 Jun 2026 00:43:44 GMT"
         },
         {
-          "title": "TCorp announces an increase to the 3.00% 20 April 2029 Benchmark bond and 4.75% 20 September 2035 Sustainability Benchmark bond via Yieldbroker tender - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQN0Q3eVhDYlZmajI1aVc0SzRNd1E0emNCVngwZVlnWXlqWV9zMWVOVTQxemZuWWc5MU1ZOUxsLVVSYkVEOGVNRW9NSGNyVGstejRLaUhzNkpqTkthdDhrSFZwNHJCRGJzdTBkWERvcF9yWjNmYjY5Rm1oaS1xMnd4dkZzbnVhX2lfODFNdFptRnNCcHdya2xfYUxSdXdYM29mYUlBU3h3QkUtUjJPWWFRUkZFM2NTVWI5aEJxRkc1ZkFCNldZRFJBdS1TYmM4OXR0LWJHYWxzSUEtcTdla0txamZOUm9GYlZNaEVibg?oc=5",
-          "pubDate": "Mon, 25 May 2026 21:04:12 GMT"
-        },
-        {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "TCorp announces an increase to the 3.00% 20 April 2029 Benchmark bond and 4.75% 20 September 2035 Sustainability Benchmark bond via Yieldbroker tender - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQN0Q3eVhDYlZmajI1aVc0SzRNd1E0emNCVngwZVlnWXlqWV9zMWVOVTQxemZuWWc5MU1ZOUxsLVVSYkVEOGVNRW9NSGNyVGstejRLaUhzNkpqTkthdDhrSFZwNHJCRGJzdTBkWERvcF9yWjNmYjY5Rm1oaS1xMnd4dkZzbnVhX2lfODFNdFptRnNCcHdya2xfYUxSdXdYM29mYUlBU3h3QkUtUjJPWWFRUkZFM2NTVWI5aEJxRkc1ZkFCNldZRFJBdS1TYmM4OXR0LWJHYWxzSUEtcTdla0txamZOUm9GYlZNaEVibg?oc=5",
+          "pubDate": "Mon, 25 May 2026 21:04:12 GMT"
         },
         {
           "title": "Market announcement - TCorp",
