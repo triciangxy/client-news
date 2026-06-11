@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T09:00:20Z",
+  "generated_at": "2026-06-11T12:52:42Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -514,6 +514,12 @@
       },
       "items": [
         {
+          "title": "Japan Post Bank Debit Application Method (Website Version)",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
+          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
+        },
+        {
           "title": "ゆうちょ銀行口座へのお振込方法",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSk9jMG5OMnh4a0dicVNvLVhFbjBoMnd0N2JEYWNzdVkzR1hjdGFwX3ZRVWxFZXZKMFdJekRwTU1IQ3ktNUNWeVVNdmU1eVpSZmxiVHlrV0c5cENKdmxuVWdBVHJUN1NicXFzOF9YWW1FTE5oQmdQQmdENk9JWTlGT1VWbVRvVFE?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zal9IWWhqWnBxT2NubGljOU1LX1NlYl9SbkhMUEJseHBwVDdFZzBhU0tHZzFMWGI2V1V1a1ZJbE5MdlRhMXdmMnBWVVlFRTFkVmhUcFMtbXJTVHlLcGtEMnlsekd2R0pxc1Z0bmZrendKMUhM?oc=5",
           "pubDate": "Fri, 12 Nov 2021 08:00:00 GMT"
-        },
-        {
-          "title": "Yucho Tetsuzuki App",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOWJjWnVtaHpJRm5yVTRyUngwWV9HdVdheFBpR3FBNmswWl82TlFHTHl3ZmJ5V3M3ZEZHTlNETVR4R1RBQlF3T2FUc2ZUbXZhd3RkRWxJUFRBcVlwZU93cWlUN2VkdmxIOHdmMW1wNkVGTG1kZnJMbWFQMDdWUzRncmF1dmducnlYclYxT1lqaw?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 09:01:55 GMT"
         }
       ]
     },
@@ -638,10 +638,10 @@
           "pubDate": "Wed, 13 May 2026 07:00:00 GMT"
         },
         {
-          "title": "AVP (12 months contract), Cybersecurity Programme, Engagement and Change Management",
+          "title": "Fu Chengyu to Step Down from Temasek Board",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMGpEYjZCdFFlQy1rRlp0MmVOMVJWaXF3YmFyQUhsV0tsN3ZXaUpGcEZ6b05kanNMaW4xNC0zU1M0eFhkT0ZFUS1DX0REZDNTMGZybTNzclJYNkRfYnl1d09xNmVpUHlQa01IX0NCZzRwaVN1djdXanNBR0xScjVSNWpuZjdJTFVVUlJkeEpRZkFvQWQwZjZiUXVGZHZQSW9teTctdC1MOVU1Y2tZbllFWjRiUjAxNHJzQlY0cGk1OWJxa2lEQjZnd0hkdlNmQWdQbXVlUjIxVFBLdw?oc=5",
-          "pubDate": "Thu, 21 May 2026 00:55:45 GMT"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
+          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -672,46 +672,46 @@
           "pubDate": "Thu, 28 May 2026 18:24:08 GMT"
         },
         {
-          "title": "VP, Project Manager (PMO and Finance), Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOXdWN25lVmtHMlVPWUFCYnZETlpydmtHN2FaYmQ5bzl6ME0tbXFrb2sycmZUTDRPQ3pTamtQTVdTeFZsN2VmSV9pSWs3bGxIeVYzamJyTjZuT0xLVURUc2NkU01paUVrVm5QbDA4aUNQYmdvOEUxdDh2MHVKV2JLTEJFSzNoeE1JUWlONkUxMU02dUdoX3FvWFROTjliYXowX1V5TElyWEV3YVJ5eURxT0ZjMlJiZDQ?oc=5",
-          "pubDate": "Wed, 10 Jun 2026 12:12:19 GMT"
-        },
-        {
-          "title": "Analyst/Associate, Portfolio Reporting Analyst, PE COO Office (2-year contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWG5UQkoyRExNZ2t1UzBFVjlhblFBQXRXS0lFVWQ5Rkk5TVVxVWxpT1JkTFFiM2JldG4yUlBLal9rTGVPdFB5TUVSLWFZVUFoQUxXWXN0bmRyMzFXRUstT0g4N3dCMTR5eFp2OTF1UWhZVE5vX04xd1BYWXQ5ZUE3aHZVc2VrcDFOWmV6a3RTem83SkNhcDJxUDFOWTU4aVNBdDA0VlhKUE5uY25fUjIzdkRRb2UzN09HU3RKTHdrVDRiUF9Id0UzQnJYdko3eDdCUUtfNGJR?oc=5",
-          "pubDate": "Mon, 08 Jun 2026 14:46:56 GMT"
-        },
-        {
           "title": "AVP, Financial Planning & Analysis, Finance Department",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSnVQMkFEVUVQVDgxWi1IcDBGaGc1cThLRUZIN1dxUmpPQlRTVFMtSUQ1WnFuR2VVMm1BaEFKUk0zc2VBNGYxRE9md25mLUhqYTVCbGxhUm5BY18wQ3ZuQTFtbFJPRW9BQmpQR0dtSVFBLWJZSUp5aGhrTy12NVMtVmJoVVhsWnNqR0pHUUdNdWZ5Nm1QMXIxZjd0dW4zVVVaS0tVX1Z0dUNqY2Z2eFZJZA?oc=5",
           "pubDate": "Thu, 11 Jun 2026 08:56:05 GMT"
         },
         {
-          "title": "SVP, Finance Business Partner (Technology)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSTE0ZmQ0QkVkYkd4SVRTXzFTMDJXZ1MtWWNGbVJNdnRBVVpfTzJTU3VqLTBON0UteXlMUlNHNHRRT2c4dXFQNGhIeG9qOFRFek1jWDdueERVdExlRFpFOFh1aFBFOHlvRHcxeXpfM2xmMEtRWG1jY0xwRUVsRXhNLVdGR3oyRzVhM3Y4ZE9RSTVTalFlbGt3SFpfdGZvLWNHNkx3?oc=5",
-          "pubDate": "Mon, 08 Jun 2026 15:15:48 GMT"
+          "title": "GIC acquires 25.1% stake in Lendlease International Towers Sydney Trust",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
+          "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
         },
         {
-          "title": "Analyst, Talent Acquisition Sourcing Specialist (12 months contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdHI1S0dlZkVBZTFqMThOWENqOFAxSlBHaUNxMjZpRHpEY05VTmlLUjhSd0ZlQnJuOEFqNnFJQmxRVVpROEJPTko4WlJ4dGV2VHFqM1pGYTlQYW1keWdTRzlwRzRIYlBfTjI5dUpqTUNzTVNEdnI0WWhpTWpjOVVCNjRCYUZ2ZTI0Rm0xc0pSQVphT3B5YWl4U2J5TjFTV29iNW5Ebi1XMTk1V2RSMU9aZlpIWDVuNzVtcEQ5LW9oUG1nUjBCOEE?oc=5",
-          "pubDate": "Wed, 20 May 2026 14:10:42 GMT"
+          "title": "AI's Next Frontier: Data, Talent, and Infrastructure",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkYlp6eU9nLXJpWHZ0aXZOT0M4aVluWVpUVEd3dDhRbmxRUkRyNGpzY0pQUWZ6NklUaXJEb3IwcUlRUllUaExpMWduWklDdGZyc19hT3ZfR0wxOENRVXVFSEVCU1R4ZS1YWUppcg?oc=5",
+          "pubDate": "Fri, 16 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "Associate/AVP, Portfolio Services Analyst",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZjFGRkxialdESVJWbjdtVXE1ZlFkV3pVRkxzY1VEaUlUcGlZTWNFeWJDQ3NNUFBTdkk4Y0h1cFEzczZqU0U2XzVuYkRpeS1yZmg1cWtDWDRYTzc1VGQzTHF6RnlrcGhIUVlHLVlfZG9Vczdnc2NHVm1IMklzT3VBbHhnTlV2Rmh2bWd5emJiNzdzYUdLV3ZwZWtYTQ?oc=5",
-          "pubDate": "Tue, 12 May 2026 12:45:18 GMT"
+          "title": "Mark Lee",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
+          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
         },
         {
-          "title": "AVP/VP, Project Manager (Infrastructure and Cybersecurity Resilience), Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNTZRVUZYMFVNWm5RTGxfZWhENlhpdlFtMEd5dDFxc29CaWkwUUNjRmQ1eWNIRHpjZTlxZ1h3cFRKUkpzYXc4QnZMVTY3R0Njckk4b1ozaUI1NjF3NGk5cnE0ZXdYTG5SQnBjY093TXptN1l6a2xjaGlwR2hCZExGV3U0dWJibnloYUpoak0xMFZiTDNSa3dhSkpnWENJaGFqejZTd3dCcTktb0JJQnEyYUFhQU1ILVpaYXh5RFVUcTg5N2REa0hFOHZSMjNwRHZ0dFpJSlFTWnphY0Z5U2U4Sw?oc=5",
-          "pubDate": "Mon, 18 May 2026 11:51:20 GMT"
+          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
+          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
+        },
+        {
+          "title": "Boon Chin Hau",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
+          "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
+        },
+        {
+          "title": "Deepak Parekh",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         }
       ]
     },
@@ -1162,6 +1162,12 @@
           "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         },
         {
+          "title": "FWD GROUP HOLDINGS LIMITED 富衛集團有限公司",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTmdORzVZNFhnczRqSmMwdXJQb0JoU2NES3JJeHFpc1R1a0FrWWdWbFJoaVp2ejNNOXotSDJ1QXp3VTg0WkhpY2RMVXlleGNiaWpweXNTMHdINWhLTmY5OXJ4aVNOT0o0S2I3Qkl6RnpNMlE0WUZoSDVGTGtUVV9HTnhGcFhJV3k4ZUxoRE9rQzNSdE9EcDV6TThQQnFiN0dRT0dGTFhTdnVaZGRoajBFN1JmQjg1MzFfQlAwemZhX09jdUJqU2lFUmRtUjU1cnd6NXc?oc=5",
+          "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
+        },
+        {
           "title": "FWD Group makes key hire for its high-net-worth business; Mark Bensman to join as Chief Officer, FWD High Net Worth",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNUo4YVVaeDlmMHoxS2M4a3JxWExlX0FZQlNnaklaVkVCckVzLU9RTEJTQzhLbEE1UFhNYThxcmpXNVF0aXdKSDRTUFBadEJvNFZuMFFhZ1htY3FUWkY3QXJ0OFhMaHNDSV9aYlY1TDJOQTNHQUNKZ05KMy11b3EycHlzSWE4d1ZYc0NIMW92YWNSOHdQQzF4Rk0zUTBrYmZLeXJZNERLMGs5ZEk5cjU4b2NjdjdYRnYtdXM5QllWcEFNSnRKS05ORFJPRl9lQlRWUW4tOVozMWFTZmdqdVdiY2JYOHVBYXhRVHUydUVyWVhNOVE?oc=5",
@@ -1196,12 +1202,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3lPUngxa2owYnVVS3dZVUxGOXhpOTVuamQ3azJOLWtPdWVPVkN4OC1DZHhiUUtaZlRWMFJqOVNzTE9QamROQkhFc1RCdW95bmlOZ1NFdFotVi1wVk1MdEMtN01QWUZzWTNOVzFBRUN1YXYwdzFEWV9JUjVIOXF5MGI1UWRoa0E?oc=5",
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
-        },
-        {
-          "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
-          "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
         }
       ]
     },
