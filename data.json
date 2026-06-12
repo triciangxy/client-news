@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T08:46:47Z",
+  "generated_at": "2026-06-12T12:21:37Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -538,22 +538,28 @@
           "pubDate": "Tue, 01 Jul 2025 07:00:00 GMT"
         },
         {
-          "title": "To Valued Customers who encounter a message at our bank ATM regarding an information update on your residence card/ period of stay-JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUHo5QlpWNmdpQWhfNS1UdmJWNGoyV3ZzWEZBT3FfNzMyTm5VZjV0ci1GLVhHTU5kYnkwNFAwdGM0N3ZZUndxbEdHRGFabU5tRjJjcGdhNHlVeHRPOE1YeDNRVFUySEpNVHNsRGhLOA?oc=5",
-          "pubDate": "Tue, 04 Jan 2022 08:00:00 GMT"
-        },
-        {
           "title": "User Guide",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vejJMV2NWZ1l3TE53QVN3blFKRWRBLUNUY0FCcXRqSE02Q2htLUY0SGJZa05zRGs3NXdNVkw0ZWprT1pvYS00NlRlWW5KdUZvVUFnX2VyNW5ZdktRRXJ5OERKSHFqUll0b0V0YmZFeGFJY1dvXzg5NQ?oc=5",
           "pubDate": "Mon, 04 Mar 2024 05:10:51 GMT"
         },
         {
+          "title": "Our apps cannot be used with some residence cards",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jZEh0OWJtWTdNWHUtbVVYMFk4bk9VWDFXbHhrMFo0c1VFMm1TMVo0VmR3OEYyQTJlLVpKZzFSRnBBdjVSWTQydGZ0aXZvVU9lWmFVWmN4WEhuTFJIcWdocGpCaUFkUVJSZ0tRTFBLcw?oc=5",
+          "pubDate": "Mon, 25 May 2026 05:22:44 GMT"
+        },
+        {
           "title": "JAPAN POST BANK Co., Ltd.",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbGlfb2JMdEYxRFUwT1lNNURvU3RVNHFadzJ2VWFuTjU0Q0luUUNOcDBRempQTnBLSHlVTExYVzZQaFV4REJ0N2dLLUZoNHNSU2d6Yi1FSFEtYUJlanN1VkdVSkZJRDdMUmtzamNpRWpFdmpscGZRbFF2c2daaGlTS2VZMGQ2X3JXWk9R?oc=5",
           "pubDate": "Wed, 01 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "To Valued Customers who encounter a message at our bank ATM regarding an information update on your residence card/ period of stay-JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUHo5QlpWNmdpQWhfNS1UdmJWNGoyV3ZzWEZBT3FfNzMyTm5VZjV0ci1GLVhHTU5kYnkwNFAwdGM0N3ZZUndxbEdHRGFabU5tRjJjcGdhNHlVeHRPOE1YeDNRVFUySEpNVHNsRGhLOA?oc=5",
+          "pubDate": "Tue, 04 Jan 2022 08:00:00 GMT"
         },
         {
           "title": "About JAPAN POST BANK",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDM3X0xROFk2QV9HblVNWjBiZklFV1RlSl9LNS1MUFpjT0Zjb3Z1aFdTMmd3cVpaSFk1ZGhSdVhlT0pWOUtxc2M4R3p5dG1pUTVTZjJhUXd0SVE4QXhWZmZocmNCNUh3N3l1Vjl0ZmljNkk3SEpkclk3ZEk3VTRGM2JvYTk?oc=5",
           "pubDate": "Sun, 25 Feb 2018 23:43:44 GMT"
-        },
-        {
-          "title": "JAPAN POST BANK Co., Ltd.",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zal9IWWhqWnBxT2NubGljOU1LX1NlYl9SbkhMUEJseHBwVDdFZzBhU0tHZzFMWGI2V1V1a1ZJbE5MdlRhMXdmMnBWVVlFRTFkVmhUcFMtbXJTVHlLcGtEMnlsekd2R0pxc1Z0bmZrendKMUhM?oc=5",
-          "pubDate": "Fri, 12 Nov 2021 08:00:00 GMT"
         }
       ]
     },
@@ -616,14 +616,8 @@
         {
           "title": "Temasek's inaugural Fellow - Advancing capabilities across our ecosystem",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV05XMHphc1pIRG1SUXBNYkdVVlREelF1ZHl4b3RrcnhSU0J4QjNoOVJSZC1KU2djTkxyYTV5Sk5yTnJkY0owdThxRGhsanpzNWVtWE00ZjBFMDFjNmI2WHZkRGViMm4tRDBOUm81YTNfaVBrTkRIVVYyYmY3VWxfWmJDQ3J1QXFBZWpUM3hjMFp4TmEwNG55R1A0NU12Q1BiRzQ5enZXX3g0eDl6VHFCTDIxUmNUWmZRTGZpelpVMGVBZjA5?oc=5",
-          "pubDate": "Fri, 05 Jun 2026 11:33:17 GMT"
-        },
-        {
-          "title": "Harmony Champions: Roses for racial harmony",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZkdzOUthUkxxQlJBQ0pKWEZfRE9uQ0xKMEY1TVl3a0l5LWg4bXk5dkpjaGo3N2lyaGpuai00TGxiRHA1R0ROcENnbGktUmthbnZqTW9MMndNQnZZREZFU2FzVmx3ODJwR01na25oUVQ3czYzRUFuX2NVVThMMklXaFdiNlpwUjVhaUNCQ3ZvZVB1bkN5VndRVmpOZ2xOWWxsOTBuV1JjbUcwTUZtcG9NTG93SEZHOTBwdWJidFB5NFRrWHM?oc=5",
-          "pubDate": "Wed, 13 May 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMklXdkFLNUpvREhzdVEycXlmb3RYSEFIUDN1SEZIQWFVQ0hVenQzMkZzZm5JUHQxYmNSTWpkMXV0SXU0UnVWWTltRFNMazNQcXhXSVZsTl9yTEgxdWtNcGdWeVIzYWtSUHpQLUI3VFFwRmFvTEhlWUMteGZQTUdvNl9Pejd0TXFYUXZ4T1FTZ3kxaEF0REVPSm1TQmVwSExvX1pablNkUnlKREsyS05la2VXaWlIRDJqME54VjdFeFRnVGYzMmFtTUVPNkF3ODJxZlBZWC13V3Y5VEhpT3J6emk0cnJ3RjZwaUExREljbURfeFo0QWRBb2NBVE1CSV9KcHUxTlFvZXk?oc=5",
+          "pubDate": "Fri, 05 Jun 2026 11:33:16 GMT"
         },
         {
           "title": "Speech by Mr Teo Chee Hean, Chairman of Temasek, at Ecosperity Week 2026",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1dqQzB4ZVFwS1Z6Q1JuRkNxMzdCVDV2TFJENVk1N3p5MUZfNzJoSlVaeDVxNHhLVnk0aUd2LW5qZnRlel8wNnVFY3VydVpSWFY4Y1o1dW1TbExwemktRXY4bzJWbXRtR2xhb290bWVOMmJRcUxmemg2eHQ0ZWhINUp5S0Ixbk0xWWZfSFJZUGljMzFfZDlVLWtfVC0zU29uQ1d4cUtGNkVsR0tFNFY0UWFVRFJRTzNHZndJNXhtWWRSU0hQUWc?oc=5",
           "pubDate": "Wed, 13 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Fu Chengyu to Step Down from Temasek Board",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
+          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -664,12 +664,6 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX2poZy1Dd29VX1IwR3luTWRtdXhmNWVhR1ZmdGZaOEdYM1Z0NURvSUJzNTVjQVJEWDFLYXZ1R1MwN1d3UENaTnduZF9pTlA1UWNZZUFNNllQQ0FVUEVET2pyQ2JTSUNjWEluMnRlZG9OcE42UV9SMUowa1RFZDdzRkR6bHJiXzdrYldiOUtDLUJieWVzNWVPSFZLV3hHSktkU1I1bDMxUkNqQl9u?oc=5",
           "pubDate": "Tue, 09 Jun 2026 17:33:03 GMT"
-        },
-        {
-          "title": "Ramp Raises Series F at $44 Billion Valuation",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2VVaE9yZ3FQckxBZWk0S2hVUzROM3pLNHhaRS04YnVhNmVoa3llcHY4VU0zU1lPU0xpZVRqY080ZjVQejVGLVFIazc5RDQ5aS1QSHR2VlJtTF9qa1JzM3MxZ2N6M1ZOLWVmYzNoY2dJNkk4dkJ5TV82Y1pRQml1REhUb0NaS0Yz?oc=5",
-          "pubDate": "Thu, 04 Jun 2026 12:03:27 GMT"
         },
         {
           "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
@@ -712,6 +706,12 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdHI1S0dlZkVBZTFqMThOWENqOFAxSlBHaUNxMjZpRHpEY05VTmlLUjhSd0ZlQnJuOEFqNnFJQmxRVVpROEJPTko4WlJ4dGV2VHFqM1pGYTlQYW1keWdTRzlwRzRIYlBfTjI5dUpqTUNzTVNEdnI0WWhpTWpjOVVCNjRCYUZ2ZTI0Rm0xc0pSQVphT3B5YWl4U2J5TjFTV29iNW5Ebi1XMTk1V2RSMU9aZlpIWDVuNzVtcEQ5LW9oUG1nUjBCOEE?oc=5",
           "pubDate": "Wed, 20 May 2026 14:10:42 GMT"
+        },
+        {
+          "title": "AVP/VP, Project Manager (Infrastructure and Cybersecurity Resilience), Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNTZRVUZYMFVNWm5RTGxfZWhENlhpdlFtMEd5dDFxc29CaWkwUUNjRmQ1eWNIRHpjZTlxZ1h3cFRKUkpzYXc4QnZMVTY3R0Njckk4b1ozaUI1NjF3NGk5cnE0ZXdYTG5SQnBjY093TXptN1l6a2xjaGlwR2hCZExGV3U0dWJibnloYUpoak0xMFZiTDNSa3dhSkpnWENJaGFqejZTd3dCcTktb0JJQnEyYUFhQU1ILVpaYXh5RFVUcTg5N2REa0hFOHZSMjNwRHZ0dFpJSlFTWnphY0Z5U2U4Sw?oc=5",
+          "pubDate": "Mon, 18 May 2026 11:51:20 GMT"
         }
       ]
     },
@@ -1036,8 +1036,14 @@
         {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQTm9FRWtqVndoUWxWMS1yOHV3QWNDQmNiNDhCN2hKQi1qVjJXa09MckJzYm1VczZpZGFTZk1oTGJWdDRUbUtOeHp6TGZjMkVJckpvWEpTZFJYWHdQekFSTGtiR0swY3pVS0RMWG9GR2o3Qm5XV0JrdFRMbnVLMjM1c2ZTdnJLMlFkcUg1bTBQTzB1OG5sVGdieTJPRjN4VTZDbDZhdTgzQXZQV1l4ZUxPZ1Q0d1FLZzNiS2F6VWNXS2dmd29jdHRKZFp4WlhhMnowUXVGQ190ckN2LXY4NDZSM1JRamRObzhIYl9LNEkwRHRhN3VGN0NsMGQtc3JqeXdYVnJzTWtKdlItc0FMdXc?oc=5",
-          "pubDate": "Tue, 19 May 2026 03:20:21 GMT"
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPaVctdHQ5aVc1NUxENTJ0c2dDV3MtVFR1ZldMVFZXeVN0NkRRYUlTUXZ3RTBGWnhUanMzTmpGblFtVm1kNWNheFFOdnRiS2NVZlQ2YXR1cVpsQ011WnNySThsWFBENmNvUTF2V29QUmc4ekFva1dzaGd3SkhsRG83aW1hdWtueWU5WGlUblhQOGc4S3FqOEZqSW5GVTgtNnB2eW82Z2NSTUlQb0FJRmNUY0tEN2ZjOGlKNkdER1A0VEJ5SEdwMXA4ME9Mb1B0TGZ0UDJka0dYV01laWR3eFFjeUhfaFNyS0FndmVLSzg4SjVOSVBvcUpHaVZuVVN5dC1yMVNjUnh1VUU4N191WGxCNFBXSXFETm9y?oc=5",
+          "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Weekly economic report - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CMWNudGR5T2ItbkM5SnQ3d3luNHUwS2Y3eTAzY0toY1BXaHp0ak1sbzY0LXZpbzIzejgxejd5S2s3Z05rczBoNzVlXzFra1pzVDVMclREaFRrVFhIYUx5MWtYdXR3eC1IbFJpLXBHQQ?oc=5",
+          "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
         },
         {
           "title": "TCorp appoints General Manager, Financial Markets - TCorp",
@@ -1049,12 +1055,6 @@
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
-          "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0tOV3JKb0xYRVl1UzRKWG8zQUMtX1dVSGJLb3Z5eklUSnR5YktwR1pDeFN5V2ZIeGJHTUp1UGw4eHhkSzlXbi1FMUlGQkN2UlRyejlaZ05SendxdzcyUnliazFjaTl6VkFabmgxeVV1Tlp6bXZPT3hBdXdPVnlid2NSdXRnUFFUYjZDSm5NUzJ4SmlzeHdsZHBiV2dybE5MQzNTYk94RDcwYmY5QVFyRA?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
