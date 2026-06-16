@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T04:42:11Z",
+  "generated_at": "2026-06-16T10:10:57Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 75.6,
-      "change": -0.9000000000000057,
-      "changePct": -1.1764705882353015,
+      "price": 75.2,
+      "change": -1.2999999999999972,
+      "changePct": -1.6993464052287546,
       "currency": "HKD",
       "prevClose": 76.5,
       "dayHigh": 76.3,
-      "dayLow": 75.0,
+      "dayLow": 74.7,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107200.0,
-      "change": 1600.0,
-      "changePct": 1.5151515151515151,
+      "price": 106700.0,
+      "change": 1100.0,
+      "changePct": 1.0416666666666665,
       "currency": "KRW",
       "prevClose": 105600.0,
       "dayHigh": 110700.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 5943.0,
-      "change": -118.0,
-      "changePct": -1.9468734532255405,
+      "price": 5979.0,
+      "change": -82.0,
+      "changePct": -1.3529120607160534,
       "currency": "JPY",
       "prevClose": 6061.0,
       "dayHigh": 5999.0,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3124.0,
-      "change": -74.0,
-      "changePct": -2.313946216385241,
+      "price": 3170.0,
+      "change": -28.0,
+      "changePct": -0.8755472170106317,
       "currency": "JPY",
       "prevClose": 3198.0,
-      "dayHigh": 3171.0,
+      "dayHigh": 3183.0,
       "dayLow": 3110.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -430,8 +430,8 @@
         {
           "title": "Diversity Report",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU2hhUFVrX0FKc2dUZUtxcGttNEpmZXdEcEpzZC1QZGpOSHZUQXl4UUk5MnFNNFY1VlNtS3FzZmhIaVlaX1NxNDVfOW1OMHYwUWEyM3ZJSG1RcVFVdzBsbFA0YjhFZDFZdkFsZnJDajN0OVpoYnl1LTlDcjFiWHlfV0QyWGZlRmc2UkxNNkZNV1pndmloQk00?oc=5",
-          "pubDate": "Fri, 01 Nov 2024 06:38:02 GMT"
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
+          "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
         }
       ]
     },
@@ -907,21 +907,21 @@
         },
         {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
-          "source": "기금운용본부",
+          "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         },
         {
           "title": "수탁자 책임 활동 보고서 영문 09.13(표지 앞뒤).indd",
-          "source": "기금운용본부",
+          "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
           "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
         },
         {
-          "title": "Executive Fund Director & Chief Investment Officer",
-          "source": "기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
-          "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
+          "title": "- 국민연금공단",
+          "source": "",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYU25GUUtTSkIzQzVPLXkzUTNOTUVMQmt6TVNUeGVVWEF5SElBTUw5U0lic2xCQVhURUVKTVhXMEtRakJJeE1udExTb3I3UmYtd0pZOW45cmFlQzl3VXBMQVZHblRmOXRNU2c?oc=5",
+          "pubDate": "Mon, 14 Dec 2009 23:16:16 GMT"
         }
       ]
     },
