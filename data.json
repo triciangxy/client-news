@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T04:22:46Z",
+  "generated_at": "2026-06-17T09:19:09Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 75.4,
-      "change": 0.20000000000000284,
-      "changePct": 0.2659574468085144,
+      "price": 75.05,
+      "change": -0.15000000000000568,
+      "changePct": -0.1994680851063905,
       "currency": "HKD",
       "prevClose": 75.2,
       "dayHigh": 75.85,
@@ -261,35 +261,35 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104100.0,
-      "change": -2600.0,
-      "changePct": -2.436738519212746,
+      "price": 103100.0,
+      "change": -3600.0,
+      "changePct": -3.373945641986879,
       "currency": "KRW",
       "prevClose": 106700.0,
       "dayHigh": 108800.0,
-      "dayLow": 103500.0,
+      "dayLow": 102700.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6065.0,
-      "change": 86.0,
-      "changePct": 1.438367620003345,
+      "price": 6033.0,
+      "change": 54.0,
+      "changePct": 0.9031610637230305,
       "currency": "JPY",
       "prevClose": 5979.0,
       "dayHigh": 6081.0,
-      "dayLow": 6003.0,
+      "dayLow": 6002.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3167.0,
-      "change": -3.0,
-      "changePct": -0.0946372239747634,
+      "price": 3125.0,
+      "change": -45.0,
+      "changePct": -1.4195583596214512,
       "currency": "JPY",
       "prevClose": 3170.0,
       "dayHigh": 3235.0,
-      "dayLow": 3164.0,
+      "dayLow": 3125.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -654,12 +654,6 @@
       },
       "items": [
         {
-          "title": "AVP, Transaction Management, Real Estate",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaDh4anpQYWVGNFVGcFFtM2NOX0JkN3U2VHRYOVo0a2p6eGdyNGtpbFhuLVFXeDI5YnBqbTBET2N4TGlwOGktb09RLTluaUV6bFRoSy1JcUNhM3dnWjdUVUNtNUgxXzZEUkpmOE95Y25GOFhJZ0dLaXhuQVl5WWNuemdIOVZsOUFTd05TZEZxemsyMlhGNER3YUlKRnY?oc=5",
-          "pubDate": "Wed, 18 Mar 2026 22:21:49 GMT"
-        },
-        {
           "title": "AVP/VP, Portfolio Manager, External Managers - Equities",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX2poZy1Dd29VX1IwR3luTWRtdXhmNWVhR1ZmdGZaOEdYM1Z0NURvSUJzNTVjQVJEWDFLYXZ1R1MwN1d3UENaTnduZF9pTlA1UWNZZUFNNllQQ0FVUEVET2pyQ2JTSUNjWEluMnRlZG9OcE42UV9SMUowa1RFZDdzRkR6bHJiXzdrYldiOUtDLUJieWVzNWVPSFZLV3hHSktkU1I1bDMxUkNqQl9u?oc=5",
@@ -712,6 +706,12 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdHI1S0dlZkVBZTFqMThOWENqOFAxSlBHaUNxMjZpRHpEY05VTmlLUjhSd0ZlQnJuOEFqNnFJQmxRVVpROEJPTko4WlJ4dGV2VHFqM1pGYTlQYW1keWdTRzlwRzRIYlBfTjI5dUpqTUNzTVNEdnI0WWhpTWpjOVVCNjRCYUZ2ZTI0Rm0xc0pSQVphT3B5YWl4U2J5TjFTV29iNW5Ebi1XMTk1V2RSMU9aZlpIWDVuNzVtcEQ5LW9oUG1nUjBCOEE?oc=5",
           "pubDate": "Wed, 20 May 2026 14:10:42 GMT"
+        },
+        {
+          "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUVULUxhN3dPdlZVSFhtZUdOZkV2QkJ4emhLbk9ucHBLUl81aFZYVnJqVkRmbVliamNGblVfaVlSSEZ4dnlWSERVbUZHbEtFRkhoTWpHeXl6bE5nNTNZWm9KeVNqVnNyNloxaHFlYjJWSjVoa2R5SS1XMTU0U3liSFlnRkctcXRvbDdISi0wdHBza2hYdTJVLVRHa3Z1U3ZNQm1WeXJKVlJyZw?oc=5",
+          "pubDate": "Thu, 28 May 2026 18:24:08 GMT"
         }
       ]
     },
@@ -1028,6 +1028,12 @@
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
+          "title": "TCorp announces an increase to the 3.00% 20 April 2029 Benchmark bond and 4.75% 20 September 2035 Sustainability Benchmark bond via Yieldbroker tender - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQN0Q3eVhDYlZmajI1aVc0SzRNd1E0emNCVngwZVlnWXlqWV9zMWVOVTQxemZuWWc5MU1ZOUxsLVVSYkVEOGVNRW9NSGNyVGstejRLaUhzNkpqTkthdDhrSFZwNHJCRGJzdTBkWERvcF9yWjNmYjY5Rm1oaS1xMnd4dkZzbnVhX2lfODFNdFptRnNCcHdya2xfYUxSdXdYM29mYUlBU3h3QkUtUjJPWWFRUkZFM2NTVWI5aEJxRkc1ZkFCNldZRFJBdS1TYmM4OXR0LWJHYWxzSUEtcTdla0txamZOUm9GYlZNaEVibg?oc=5",
+          "pubDate": "Mon, 25 May 2026 21:04:12 GMT"
+        },
+        {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQTm9FRWtqVndoUWxWMS1yOHV3QWNDQmNiNDhCN2hKQi1qVjJXa09MckJzYm1VczZpZGFTZk1oTGJWdDRUbUtOeHp6TGZjMkVJckpvWEpTZFJYWHdQekFSTGtiR0swY3pVS0RMWG9GR2o3Qm5XV0JrdFRMbnVLMjM1c2ZTdnJLMlFkcUg1bTBQTzB1OG5sVGdieTJPRjN4VTZDbDZhdTgzQXZQV1l4ZUxPZ1Q0d1FLZzNiS2F6VWNXS2dmd29jdHRKZFp4WlhhMnowUXVGQ190ckN2LXY4NDZSM1JRamRObzhIYl9LNEkwRHRhN3VGN0NsMGQtc3JqeXdYVnJzTWtKdlItc0FMdXc?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblVWTGNJdVMyOHVJQjNVc08xdUdObTZ1YlhtZkpSdGkySDQtZU5WMmp0bm85ZnVUZXpiTHg0QnFhQ2hSelMtQVAxdDR3S0Z4LUROUC1QdFljUHkwVGdLQ0VjbjZ6Mmx5QjFKN0l4RnFrOURoNGJQZmMzazB3TDJHbGlJZ2NrV3dwU09YajJDMDE1MlJCbEJRWkZYdF9hN2Z6MjVPVGxyZzNsUExfVzk3cUJJNTIxNkwybkpj?oc=5",
           "pubDate": "Mon, 23 Feb 2026 01:03:21 GMT"
-        },
-        {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
-          "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -1162,12 +1162,6 @@
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
-          "title": "FWD Group makes key hire for its high-net-worth business; Mark Bensman to join as Chief Officer, FWD High Net Worth",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNUo4YVVaeDlmMHoxS2M4a3JxWExlX0FZQlNnaklaVkVCckVzLU9RTEJTQzhLbEE1UFhNYThxcmpXNVF0aXdKSDRTUFBadEJvNFZuMFFhZ1htY3FUWkY3QXJ0OFhMaHNDSV9aYlY1TDJOQTNHQUNKZ05KMy11b3EycHlzSWE4d1ZYc0NIMW92YWNSOHdQQzF4Rk0zUTBrYmZLeXJZNERLMGs5ZEk5cjU4b2NjdjdYRnYtdXM5QllWcEFNSnRKS05ORFJPRl9lQlRWUW4tOVozMWFTZmdqdVdiY2JYOHVBYXhRVHUydUVyWVhNOVE?oc=5",
-          "pubDate": "Mon, 18 May 2026 10:11:53 GMT"
-        },
-        {
           "title": "FWD Group Holdings Limited Interim Results Presentation 2025",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOR3k4elBnZDdqSGtXTmYwc0FhdHgybkx4Sm5Ha3JVd3VKT1NUT1FMeHVpTzVwRE1jRUktWDJ1YTdEZHBQSTZ3cjNQT2V3TmxNc0JaMGJYR3R4Tjh3NEVTU1NpTmdUQnlQLWF5NWpFckotLUlBNFF1bWFOOE11VDV4OEplZkNnUWxvWHJ3YzVnQThVUW1fZXVtVzhudjI1ZGNfekRUN1U5RzRBMl81UURDWkpvV1cxTVN1SDhBQ0o3OWZjNDZxQ3NhY3ZLMk8tT2dsenh4OGRzYU81X3RCV1lVWlg2SjNXa2VSV05BeUVjNlJVWDRSOVZNRQ?oc=5",
@@ -1202,6 +1196,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
+        },
+        {
+          "title": "FWD FitForMe | Uncover AI-recommended coverages based on people like you!",
+          "source": "FWD FitForMe",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
+          "pubDate": "Thu, 05 Dec 2024 03:07:27 GMT"
         }
       ]
     },
