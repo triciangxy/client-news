@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T04:44:30Z",
+  "generated_at": "2026-06-22T10:41:25Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.7,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 74.25,
+      "change": 0.5499999999999972,
+      "changePct": 0.746268656716414,
       "currency": "HKD",
       "prevClose": 73.7,
-      "dayHigh": 74.1,
+      "dayHigh": 74.7,
       "dayLow": 72.0,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 97800.0,
-      "change": -3100.0,
-      "changePct": -3.072348860257681,
+      "price": 97500.0,
+      "change": -3400.0,
+      "changePct": -3.3696729435084243,
       "currency": "KRW",
       "prevClose": 100900.0,
       "dayHigh": 100400.0,
@@ -272,23 +272,23 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6164.0,
-      "change": 101.0,
-      "changePct": 1.6658419924129968,
+      "price": 6213.0,
+      "change": 150.0,
+      "changePct": 2.4740227610094014,
       "currency": "JPY",
       "prevClose": 6063.0,
-      "dayHigh": 6168.0,
+      "dayHigh": 6218.0,
       "dayLow": 5990.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3254.0,
-      "change": 64.0,
-      "changePct": 2.0062695924764893,
+      "price": 3269.0,
+      "change": 79.0,
+      "changePct": 2.4764890282131664,
       "currency": "JPY",
       "prevClose": 3190.0,
-      "dayHigh": 3260.0,
+      "dayHigh": 3286.0,
       "dayLow": 3183.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -314,6 +314,12 @@
           "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OZUVyblNTeUdnSjNvR096TWFxVlNodVdreU5ZUXFSaENMME1RdGswSUh1V3FBYXlUdUZVel9wZ3NjZE02YzZNTjFQcVhKV1hGeG42RExuOA?oc=5",
           "pubDate": "Mon, 17 Mar 2025 15:17:41 GMT"
+        },
+        {
+          "title": "AIA GROUP LIMITED SUSTAINABILITY REPORT 2025 SUBSECTION REPORT",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGtZOV9sdmxDRmNXVUU1Q1RpaGQ5N05UVnJuVnQ1MlpZNk5SMW5MaU1XMl9PcU42R09JWFFzd1E0ZnF4bGg2R3dMMGFZTUxtRkhJQTV3ZWNOSVAzcThNLU1tN3U4cWhPSU9jemlNTWMxWDh0dVpXQnJBamhmdWY2eklhTl85aU0wZkRYQ1Z3Z0xSTExLMG4yQkc0dzJUZFVZSGdQWmxyQ3ZFQ2c3UDQ3SUs1bkhndw?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 22:22:44 GMT"
         },
         {
           "title": "AIA China accelerates geographical expansion with approval to prepare a new branch in Zhejiang",
@@ -356,12 +362,6 @@
           "source": "investment.aia.com",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR21TandpUkZqemR6bnR1V0R6Qk50VlVqaUFGSEFwRVNua2xQajR2TnBOLW5HMGdEd1dYalZlZmdqXzAyaml2YWEyRVlVTWdORFRWMkVzZWxfNm5KNGMzamJ2Y19NX0N5eGw1M0ZRbEJqdVRLQ2RHamM0Z2lsWGQ2NUliMFNxYmJUNHdITlI3SDlpZmxNTFNHazFncnhGaW9zNC03YWZoWURuNXNIV1c2QVlBaEs4OFNidjVCQ0I0MkpXbnM?oc=5",
           "pubDate": "Thu, 24 Jul 2025 23:04:32 GMT"
-        },
-        {
-          "title": "TRANSCRIPT AIA China Growth Strategy",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVkQ3XzNBWkxfd2RoUnA3Q25OQXd6Z1F6WDdXX2EwbWs4YjcyU1dpVi0xZGFXMFF0aXFYY1RWeDN0eF9jVVVhV2xrVEtQV2gwSmZCQUJyVThCalQyakltX2dvTWc1cHBXVDZZSU1GNGZRZVQyMVJEY3pUMWp1SXdSckpPcjBOVGlJUThOMFhBNFRoWG5RWXVZaXF0S0M1djh6QmNJamRNM0xjRnl6X2ZaOTNSZE9MMGFxOThJMTBkZHh6djM0SDdrVkhNTU41emh0UW1SNDNPVXlfN0NNN3lyVXB2YjNlT2toX1NPSm9XRTE?oc=5",
-          "pubDate": "Wed, 20 Aug 2025 22:16:19 GMT"
         }
       ]
     },
@@ -629,7 +629,7 @@
           "title": "Keppel: From shipyard roots to global asset manager",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSVRsaWtPTS1wcTFjNERkdkt0azNKYm1oVkV4NWZTNmxSQzRKWDhTU3RkMTZZN25LeWxJME9PeFNPbGJ0WFV5aDNZN3BSdXhkV0ZyVHhMdDkxM2t5UXNjV2NtRHpLSWFab1FieS1yTThpOWVxSlpjZjY3SGRJUnNuMnZtYXhReU1EVkRXa3lLRFRkanRiZ3I5b0l6NjlBZkNuLVJZN3hIQ0xicFE2MmpCTE5tQ3NjZjB1bHE4Nm8zNmRsVUVrUjhUeGV0bGM?oc=5",
-          "pubDate": "Tue, 09 Jun 2026 11:05:34 GMT"
+          "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Associate/Senior Associate, Portfolio Development Job Details",
