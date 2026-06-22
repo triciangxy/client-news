@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T13:36:29Z",
+  "generated_at": "2026-06-22T04:44:30Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -251,45 +251,45 @@
   "quotes": {
     "1299.HK": {
       "price": 73.7,
-      "change": -1.3499999999999943,
-      "changePct": -1.7988007994670145,
+      "change": 0.0,
+      "changePct": 0.0,
       "currency": "HKD",
-      "prevClose": 75.05,
-      "dayHigh": 74.85,
-      "dayLow": 72.95,
+      "prevClose": 73.7,
+      "dayHigh": 74.1,
+      "dayLow": 72.0,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 100900.0,
-      "change": 100.0,
-      "changePct": 0.0992063492063492,
+      "price": 97800.0,
+      "change": -3100.0,
+      "changePct": -3.072348860257681,
       "currency": "KRW",
-      "prevClose": 100800.0,
-      "dayHigh": 104400.0,
-      "dayLow": 98700.0,
+      "prevClose": 100900.0,
+      "dayHigh": 100400.0,
+      "dayLow": 97400.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6063.0,
-      "change": -113.0,
-      "changePct": -1.829663212435233,
+      "price": 6164.0,
+      "change": 101.0,
+      "changePct": 1.6658419924129968,
       "currency": "JPY",
-      "prevClose": 6176.0,
-      "dayHigh": 6180.0,
-      "dayLow": 6030.0,
+      "prevClose": 6063.0,
+      "dayHigh": 6168.0,
+      "dayLow": 5990.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3190.0,
-      "change": -106.0,
-      "changePct": -3.216019417475728,
+      "price": 3254.0,
+      "change": 64.0,
+      "changePct": 2.0062695924764893,
       "currency": "JPY",
-      "prevClose": 3296.0,
-      "dayHigh": 3287.0,
-      "dayLow": 3186.0,
+      "prevClose": 3190.0,
+      "dayHigh": 3260.0,
+      "dayLow": 3183.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -303,6 +303,12 @@
         "query": "site:aia.com"
       },
       "items": [
+        {
+          "title": "VPP Login",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KQTNWdUZMX0ZfdS15clN4d09oUU9OZXF0Q3cxblNna1c0SGNPZmd5TENIajFZNmJzSExmSF83eEVZMkozZGw0T1pUdWFsSU0xa2NYaW9hQUZZNjFUbGZmczNoS24xZjBFcG1xeDluRQ?oc=5",
+          "pubDate": "Sat, 21 Jun 2025 01:36:38 GMT"
+        },
         {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
           "source": "AIA Design",
@@ -356,12 +362,6 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVkQ3XzNBWkxfd2RoUnA3Q25OQXd6Z1F6WDdXX2EwbWs4YjcyU1dpVi0xZGFXMFF0aXFYY1RWeDN0eF9jVVVhV2xrVEtQV2gwSmZCQUJyVThCalQyakltX2dvTWc1cHBXVDZZSU1GNGZRZVQyMVJEY3pUMWp1SXdSckpPcjBOVGlJUThOMFhBNFRoWG5RWXVZaXF0S0M1djh6QmNJamRNM0xjRnl6X2ZaOTNSZE9MMGFxOThJMTBkZHh6djM0SDdrVkhNTU41emh0UW1SNDNPVXlfN0NNN3lyVXB2YjNlT2toX1NPSm9XRTE?oc=5",
           "pubDate": "Wed, 20 Aug 2025 22:16:19 GMT"
-        },
-        {
-          "title": "Regulatory Disclosures",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EanU4eHRKcmlNSTZwSGVUZC1iMjBiQ1Y5S0VVR1ZVR2VhaXF1aVdqOHdWU0Rfc0o0UExpQlRHY3p0TFQ0a3EteTVSSk45eWI3RHUzZ2hTbUNIcDllWnpQa0FOamJ3dk5JSTNJenBfVS1UOVBvRGdQc05RcDc0Zw?oc=5",
-          "pubDate": "Tue, 30 Sep 2025 09:08:44 GMT"
         }
       ]
     },
@@ -374,7 +374,7 @@
       },
       "items": [
         {
-          "title": "Shinhan Financial Group-Investor Relations",
+          "title": "Ethics at Shinhan",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
           "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
@@ -416,7 +416,7 @@
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
         },
         {
-          "title": "Shinhan the Financial Leader (Present-2017)",
+          "title": "Private Financial Holding Company (2009-2001)",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xSzNjdHVoYnJDWEJLdGE1UnZZRkJ1WS1iMTIwazl0QS1vQUxzMGVKa3ZhNGt4ei1WX1NqY3hmSTlxTGQ2SWNtTzJyb2lWTmljQjJPc1ZnczV2Q29s?oc=5",
           "pubDate": "Mon, 29 Jul 2024 02:43:19 GMT"
@@ -430,8 +430,8 @@
         {
           "title": "Diversity Report",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
-          "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdEpoTVRVZ3E4YWQ0ZjhISU53Tml2Y1pjb1Jna1gtT1E5S3ZMWHFRRzFFcUlIQ29heXpybEc3OHUyYkl5TEFHZDRBaUZQSjRHcGx6TS1YbWRURWRrM2tlOG9pUzlFOV9lSmZYeXFyaXVuMzlVSS1OWVF5V1JaQWxxellJeER5UHFxLUJfOGpwa3p3SkNWbzVn?oc=5",
+          "pubDate": "Mon, 29 Jul 2024 02:02:04 GMT"
         }
       ]
     },
@@ -584,6 +584,18 @@
       },
       "items": [
         {
+          "title": "Our Leadership",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
+        },
+        {
+          "title": "Our Portfolio",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRlZnaDkzb0UzSWt6VVZ4QmxDUElxSkh0ZWllaFY4UzFIOEZXUkdjZXNDTERNLVVqMFptMGI3bFgyMS1YOFJVcnVkU2ZSUnJpcHRFaHV5azNSOG94dW1sSHNYb2JDclphbVY0?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
+        },
+        {
           "title": "Temasek Appoints Wendy Koh as Chief Financial Officer",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSFZSZEdzQ0E0N244MDhPVUR2RkxMV0RIN2xtNDdIenFzVVltYWZpcjZrNS13MzJQX1hicXFQWFFKMGwxMlg1VlhXVy1vUkNoRWNxS2h6S2J1dTkxT1pybWp6eWpfOEw0ajlNZmcyU01FRVFTN2lOZF9zX1BJb19yaFMtRUppdzdEZWVkTk5jUEpEejVoenhNQnhHSUlQYlhMNEJ5LTdxek5pTE9fRFhvS1gwQ2ZfVk80YWdOZlBmNA?oc=5",
@@ -593,7 +605,7 @@
           "title": "Putting People First: How AI is Making Banking More Human",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMmgzUTFiU0swdm5mRlZvU0hGUkdjdFpkSjhEYWRPekRRZVhvRWlGeEhGSVpZTU1UeUdTM2UzclhBTDFUa3hIMC1XR3ZzN09YZHNfV3hMSFBsN2hlb21xSkpfSDNiYjNkam5oMHhFaU9ETkMtVTZ5YlVUQzNCQ2EzWTB4Q01ueEJpZGc1MF9kLUE4SXVzNE05SEJadF91WTM0NHdQRUhTVmRaRU5aTU9aNDlYOFpuYlBFTmdTRmVvR0JIb0dqUVNOV3BBMHAtRDJ4dVNXcw?oc=5",
-          "pubDate": "Fri, 19 Jun 2026 10:39:37 GMT"
+          "pubDate": "Fri, 19 Jun 2026 10:39:38 GMT"
         },
         {
           "title": "Temasek's inaugural Fellow - Advancing capabilities across our ecosystem",
@@ -605,13 +617,13 @@
           "title": "A New Model in Action: Powering and Connecting Singapore",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN3hycmNHM0h4UnZJaElZR2h3Qm9MV0R2SHA4ME1yLWViUGR3ZjNEVWh6S3Fpa0ZfNEFkY3VfNHNzVWZTa1oxOXlCUDNoOUR1OG91VFZYX19JcEpUWWZDd0VVNV9uazNoQ2ZqaUVjZnN2aWpLQlM3SUYwS2hvT29HQllHVkVYTlQ5b013ZG5YeC1wenBuN2JQOS1yd3g3UVRWRnNiU3ZPWlloMS15WWlPc296ODVzWldCTTZBTmRMLUlOSnJ2dndiblE5QnBKYVhvREFR?oc=5",
-          "pubDate": "Tue, 09 Jun 2026 11:05:34 GMT"
+          "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Senior Management Appointments",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0U4cHlhY1RrbHlJb2JpdmFQWW5wWFUzLTBDbmcza29DR2ZwczRTRm1VQmJkSTdFVUVxV0Ewd2hEa2pMREIxWkJsakw0UV9rOTVtZm41NDRnMGpnR0xUNEpIbHpSQmUxTGhvd29yUlFTUzkxRHI5SzdDU1NDeHY0aXNVOUFuMFFUdTY2a3JPRWxiNThyVVNVVTN0a0drM2RuaklucktJMV8?oc=5",
-          "pubDate": "Thu, 11 Jun 2026 14:14:53 GMT"
+          "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Keppel: From shipyard roots to global asset manager",
@@ -620,28 +632,16 @@
           "pubDate": "Tue, 09 Jun 2026 11:05:34 GMT"
         },
         {
+          "title": "Associate/Senior Associate, Portfolio Development Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM0pVazh1MUFTbi1xRkxVejFzc21TV1hpR1I1c1BBdnd4SEVpN0l0aW9tcHN6cGhWV0FZZlp2TGhubWlCQUE2VW1JLVk1YVg1T3Q4aFpkc1ZINGFxTWdvYXpkY011YWdoUkw3dmZ2aEFPQjFxdEd2QWhWZGRQTThmYkYyai1nZUQ0bmotOHFjQ3pWeWs5aEYxUmx1T0JkbHU2V1Rn?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 02:24:08 GMT"
+        },
+        {
           "title": "AI and the energy transition: enabling efficiency while managing trade-offs",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
           "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Legal Counsel, Technology Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY2ZSRGpYVHFJVW5NMUdxOE5tblFienNsWWhaOTRoM3EzX0t1cEdJS09zdzJycmEyMGNkNlUwZFdEUXRheDdCbGVkcnQ3WS1nY28tNXduMllmYXNYZE5XRVJCWnVuQ2pNWVhkWU5ucVBwVEd4WFREUjNiZVdJT0EwRUhFRmY?oc=5",
-          "pubDate": "Tue, 26 May 2026 06:41:14 GMT"
-        },
-        {
-          "title": "Associate/Senior Associate (12 months contract), IT Auditor (AI, Cybersecurity controls) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSTRBT0VQS1pMbDlyRkJ4czBwN1hSc0hxbU90d05RMHhPalJKUURCZVRFNGxFYnJiY0IxcWFKRjczakVZU0lGaHdQeUItanlTU1FFdktoamF5TGxaTzVfRDZYYmY2UGxVdU9lRUhPYnZHenRXZUtEbTRtbVQ3ckVhYzk3ZnZHNGRvYThVNVBYTHp4Tzd0MmNfVzJmVHpkeXJuWFIxSUFFZ29KY3NIMEhWRHhoZndCZ2w0X05oemdVWGdFRTBVOG84ZEQ5c1NPOExUYzBFTTlJUmMtcnhMZ2NaSXJ3d1U?oc=5",
-          "pubDate": "Sun, 24 May 2026 18:57:40 GMT"
-        },
-        {
-          "title": "Fu Chengyu to Step Down from Temasek Board",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
-          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -653,12 +653,6 @@
         "query": "site:gic.com.sg"
       },
       "items": [
-        {
-          "title": "Who We Are",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nUnRlazljZkZ6bWZ2Z1ZxOGtnMkhrazY4Vy0tOFlNU1V3clliNWt0YTFHRlNaUW9yWnFQeXlrbW9JVlAzVk1qRmxn?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
-        },
         {
           "title": "Associate, Vendor Operations Administrator, Technology Group (1 Year Contract)",
           "source": "gic.careers",
@@ -696,6 +690,12 @@
           "pubDate": "Tue, 16 Jun 2026 16:29:41 GMT"
         },
         {
+          "title": "Analyst/Associate, Workplace Security (1-year contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWotV0ZBblg2bldscmlxQjhVRWZzOGp4b3dxZ2VvR2VLc215QUlDbEdDZ0dVVHlGdzlVbjhGZlJXaVhEZ2ZlcHlYMzlQVWY5eFZXUWZHUC1XZG1mQVUxZURfRFNvZW9BZmV0OFNGQktOR3VJbmk3SHUwZW5Pa2F6d3FpUm1IV0lFLU1GNDlzbmp5YkhXb0hWT1J2aEdhai0wSVNobG9pZjNzbmV3ekVSQVhfaw?oc=5",
+          "pubDate": "Fri, 19 Jun 2026 05:49:07 GMT"
+        },
+        {
           "title": "Analyst/Associate, Portfolio Reporting Analyst, PE COO Office (2-year contract)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWG5UQkoyRExNZ2t1UzBFVjlhblFBQXRXS0lFVWQ5Rkk5TVVxVWxpT1JkTFFiM2JldG4yUlBLal9rTGVPdFB5TUVSLWFZVUFoQUxXWXN0bmRyMzFXRUstT0g4N3dCMTR5eFp2OTF1UWhZVE5vX04xd1BYWXQ5ZUE3aHZVc2VrcDFOWmV6a3RTem83SkNhcDJxUDFOWTU4aVNBdDA0VlhKUE5uY25fUjIzdkRRb2UzN09HU3RKTHdrVDRiUF9Id0UzQnJYdko3eDdCUUtfNGJR?oc=5",
@@ -708,10 +708,10 @@
           "pubDate": "Thu, 11 Jun 2026 08:56:05 GMT"
         },
         {
-          "title": "Associate/AVP, Quantitative Strategist, External Managers",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZklsQUFub0MxdUVBUmphM2VHYXRpS0JFNGo1WFhIUVFhXy1IUGJYYWtucF9EY3otQmlGX2lEQnJjNWxDMjA5ZXBWQ2k3YllReXR4aGFfNFVtNDNmbU9hQlIydUhnX2tWdldzZ20wZGlWeURtWEtnOUprb05Wd3BIX0h6SWJzSVZYUGU4c2dMVVVtejh1UWxORVQ4TU9lVWNycFh2c3ZDTnZrZllTbGJPWXVBUQ?oc=5",
-          "pubDate": "Mon, 25 May 2026 20:41:59 GMT"
+          "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUVULUxhN3dPdlZVSFhtZUdOZkV2QkJ4emhLbk9ucHBLUl81aFZYVnJqVkRmbVliamNGblVfaVlSSEZ4dnlWSERVbUZHbEtFRkhoTWpHeXl6bE5nNTNZWm9KeVNqVnNyNloxaHFlYjJWSjVoa2R5SS1XMTU0U3liSFlnRkctcXRvbDdISi0wdHBza2hYdTJVLVRHa3Z1U3ZNQm1WeXJKVlJyZw?oc=5",
+          "pubDate": "Thu, 28 May 2026 18:24:08 GMT"
         }
       ]
     },
@@ -866,6 +866,12 @@
         {
           "title": "National Pension Service",
           "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSWI5N0I4eVJVV2JSVXEzNmFjd1dhZVdSbWU3TE83S0xJazc5SFA1WXBYMnkyMGNpcDNYdUZOUllIdktZdUNvVVVxbktwMXRlYmE4X0pXQjFLT2liTF9scVc1Mjc4SllHV0ZaMDJYQXhwX2FoOWtULVFXS0czYjY0djVReWVGR0tfNGR6QVdiLWg4YlVETHc?oc=5",
+          "pubDate": "Fri, 19 Jun 2026 22:32:26 GMT"
+        },
+        {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGYzTFR4cUZmUVI2ODJuUXBMeWNUOFlsOXBCV0pUbnhrajdWU2F4bmhxMHBhREo1MVpZUndnX3lPcFlZaHozRUxxcy1MX3JfZHAtbkZ4eG1SQmt6UGhFeUxCYXdxYnBOVldfV1RkbkJ6ajI3Nnk0U2wzNUpFSE1DWlJTMTNnYzYz?oc=5",
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
@@ -916,12 +922,6 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
           "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
-        },
-        {
-          "title": "RESPONSIBLE INVESTMENT & GOVERNANCE REPORT 2024",
-          "source": "기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kV2otX2I0ZFhuZy1qYUdFQnk4c0VRTmVzSHU3YlJXVlBXaHB1WmdBczV6eVA5UU9PRU5mVHU2b3dlWmI3SEh3TElVNEFEM21Zd0dpWG9QN19GeDF4UVhjSVZXRQ?oc=5",
-          "pubDate": "Wed, 28 Jan 2026 01:15:25 GMT"
         }
       ]
     },
@@ -1004,22 +1004,22 @@
       },
       "items": [
         {
-          "title": "Weekly bonds outstanding - 29 May 2026 - TCorp",
+          "title": "Weekly bonds outstanding - 12 June 2026 - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5id2tJbDUyT3poekJ4NGxzQ29TWDZLU2VWYy1mMzRMeHpwWmlsSTNxVDA0MUJGWDdiMVg1NVgza2xxNExoVFk0UlFnazhnaTV3MHk5YlYtZkhuOGNmYmNGX3R3?oc=5",
-          "pubDate": "Fri, 05 Jun 2026 13:10:34 GMT"
-        },
-        {
-          "title": "Weekly bonds outstanding - 5 June 2026 - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TMjlYRnN1LXRFcWNPU2xGRjJsQ3hkS1VsOW4tMHN6ZF9pelF1RkwwbUpEZkNSQzZqaDdCZG1OaGpIRmVETlZweXBtOS1JWmE5ZmtTazBFaGhHNFpaenRPTU93?oc=5",
-          "pubDate": "Fri, 05 Jun 2026 13:10:34 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wa3VheWNIZlJWV2NMYVJyNUNNTlhRRFc2VFk0M2UwNXZkVmZTT3BFQVQ3TVdYdVZpS1Y3ZGhXekxTOGFRZGNvRlp5Vno3SFNnQ0Joalh4QTFrbFJ1VFFVT3R5VQ?oc=5",
+          "pubDate": "Mon, 15 Jun 2026 19:19:58 GMT"
         },
         {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Weekly bonds outstanding - 29 May 2026 - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5id2tJbDUyT3poekJ4NGxzQ29TWDZLU2VWYy1mMzRMeHpwWmlsSTNxVDA0MUJGWDdiMVg1NVgza2xxNExoVFk0UlFnazhnaTV3MHk5YlYtZkhuOGNmYmNGX3R3?oc=5",
+          "pubDate": "Fri, 05 Jun 2026 13:10:34 GMT"
         },
         {
           "title": "Weekly economic report - TCorp",
@@ -1046,12 +1046,6 @@
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "TCorp Q3 FY26 Funding Update - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
-          "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
-        },
-        {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0tOV3JKb0xYRVl1UzRKWG8zQUMtX1dVSGJLb3Z5eklUSnR5YktwR1pDeFN5V2ZIeGJHTUp1UGw4eHhkSzlXbi1FMUlGQkN2UlRyejlaZ05SendxdzcyUnliazFjaTl6VkFabmgxeVV1Tlp6bXZPT3hBdXdPVnlid2NSdXRnUFFUYjZDSm5NUzJ4SmlzeHdsZHBiV2dybE5MQzNTYk94RDcwYmY5QVFyRA?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNTkEtdGdrdjZrT0RwNHJXTHUyZGJlNk9kQjZfVlFTQXVUaERSeWtIdkFmMXB0VVk5ZWhla20yakFKQWN5OHQ5cHZQOVhYRDhsV0d4QWNKVDQ0NUJvTVJYenlXYzZmZlpCb2pnWEZnS1A4Qy1uZ2I3Zng0aWlvbWdjRlVYcVdpUU9YSGVvdjdnS2RubmZtWlNBN0JBbXI0Z2pWRXR6MXdPZmJ4TmpKN1Q3MENzMjM2bTJQN1lkenRnckpKR3U0elpXc2R4SEJUblpDd19EdzNmMmRHMzZ3N3JLVExKa2laMmh5RENDX21SREhIYUhxeDNBZmZ0T0pRMXV2LU9mbkZ4aVZfV3pFYXFxQ1R3ZDY2akYxR2ww?oc=5",
           "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "TCorp economic podcast - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -1073,6 +1073,18 @@
         "query": "site:nissay.co.jp"
       },
       "items": [
+        {
+          "title": "Nippon Life Insurance Company Global Web Site",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwd2g0N0xjX3dzaDNnZkQzaGNwMDluSzFHbThJS1M2VTVycEJacjJuVWVnSjItdVktN25CenhxWEZ4ODhmQlg0?oc=5",
+          "pubDate": "Thu, 29 Jun 2023 09:42:46 GMT"
+        },
+        {
+          "title": "Nippon Life Insurance Company Announcement of Strategic Partnership with Blackstone",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVXQzdjFiT1ZzcjdnUEhDanYyQ2doSnh3cVRwNFYtaUthYjFoUkxONkllY1phQ1pWdnlBcHM4Zm1SN1VxZEFGTjh2b3Q3cEpGRllaTVBmNnUzX09scjFZR0dENTJMb01vbWM0SmRHSVVITEhQbm5KSm9FUFRZU05sVGdjc0c5SHlQNkE?oc=5",
+          "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT"
+        },
         {
           "title": "Major Responsible Investment Examples | Sustainability | Nippon Life Insurance Company",
           "source": "nissay.co.jp",
@@ -1120,18 +1132,6 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
           "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
-        },
-        {
-          "title": "Medical Certificate (Attending Physician’s Statement) for Hospitalization / Operation",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41TFhYMlJURnk0RXVFa0FKbXJtR1BfRExZaHA3eG5GMU9iX0hzcURhNFZyYXNLWDBpSzlaSDNwWVRjRzE1WW9PdXRaMEliVDVNYjdUUWpNaUVJZVdTUFlBRGJkNjNZOG9TQ0UyczRUbngxbXNvNDlFSWZhNng?oc=5",
-          "pubDate": "Mon, 10 Jul 2023 07:00:00 GMT"
-        },
-        {
-          "title": "Newsroom | Nippon Life Insurance Company",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHRkVlbmhzVFI5bFFEZW5meGFoMWh3Yl9UaTBObTVZRFlsV2d6N0JKbGhXOUNhbjl5cHY4RkdnM2gzRmpYSmpkaFhZdk9zdw?oc=5",
-          "pubDate": "Thu, 29 Jun 2023 12:10:19 GMT"
         }
       ]
     },
@@ -1147,13 +1147,13 @@
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
-          "pubDate": "Tue, 02 Jun 2026 04:18:21 GMT"
+          "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "FWD Group appoints Martin Zingg to Board of Directors",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPenVBdFZ0aC1BYzNZblE3RUdTRnF2MTZvU09Vamk5and0aGsxQU5fZlIxZk9EWGNiWWVBY1BpOTN4MDhlN1d4Y3gzdGRWVUdkZ1VORUkwSTRMaWlKTVdpeWV2MzRzN1hGYm5sSkpQdEVWUG91VElpRUFEbW5FekpyOVJFT0s0UU9QMzdaSEp0cVBfem9ES0IySldQYmdTdndvRzAw?oc=5",
-          "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
+          "pubDate": "Fri, 29 May 2026 11:54:00 GMT"
         },
         {
           "title": "FWD GROUP HOLDINGS LIMITED 富衛集團有限公司",
@@ -1198,10 +1198,10 @@
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
         },
         {
-          "title": "FWD FitForMe | Uncover AI-recommended coverages based on people like you!",
-          "source": "FWD FitForMe",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
-          "pubDate": "Thu, 05 Dec 2024 03:07:27 GMT"
+          "title": "Our fact sheet",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
+          "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         }
       ]
     },
