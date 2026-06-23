@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T07:52:20Z",
+  "generated_at": "2026-06-23T11:20:09Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.75,
-      "change": -1.5,
-      "changePct": -2.0202020202020203,
+      "price": 72.95,
+      "change": -1.2999999999999972,
+      "changePct": -1.7508417508417469,
       "currency": "HKD",
       "prevClose": 74.25,
       "dayHigh": 74.7,
@@ -486,12 +486,6 @@
           "pubDate": "Mon, 24 Feb 2025 07:53:11 GMT"
         },
         {
-          "title": "Covered Bond Valuation Investor Report",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEaUlPdkl4WVBaeHhUb05FTFVhMjVBaXB2S2YzQk1adTZzRWxqVHVRNkdycXd6NWc5Y3V5ZVpLTW5LSTRkRnlQY2liT29BTHNrSm1rMGw5dVFEUmZtazgyR1B4OElnUVozQkJsaGdmZVc?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 09:00:24 GMT"
-        },
-        {
           "title": "SuMi TRUST Covered Bond",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LMm92aFVjUGNpejlpbl9CaU5iRHVGaTRxa0l2TXdWQW1wMEFxalI3SklhMnNia2ZTaTFIaUVVTlVXTXFDUjBEM2diRTdzdmFndUdKSWQ0V1lTODhVR2UwZm4wRWczTDJVOFE?oc=5",
@@ -502,6 +496,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZjVZOGM0RVQ2TUVkRVRVSDB6eHFhSTlNRmJ0SzZCMDFZLWFkeF9aMTRDRm0zYUhEUUNxN2xxVXZrMXJYOXRHamE5ZHdqX29VbVhJbFhucmdBTDhIZjduYg?oc=5",
           "pubDate": "Mon, 24 Feb 2025 02:05:00 GMT"
+        },
+        {
+          "title": "Notice regarding Change of Directors and Executive Officers in Sumitomo Mitsui Trust Group and Sumitomo Mitsui Trust Bank",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QcDJsU0tINWRKb09oUjF5WjlOaXdQbTZMREYzdElxVWlnU0R5WE1tX05aM2lVQU9PWkZ2YkRXSTBhbnp6bl9uRFJ2TXBlUjh0SnBHaUY3VkRYMVpzQ1VkdkpESy1jVXY5enItVmVjT2tOM2MzZ1dfd1d2QQ?oc=5",
+          "pubDate": "Thu, 26 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -513,6 +513,12 @@
         "query": "site:jp-bank.japanpost.jp"
       },
       "items": [
+        {
+          "title": "Japan Post Bank Debit Application Method (Website Version)",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
+          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
+        },
         {
           "title": "ゆうちょ銀行口座へのお振込方法",
           "source": "jp-bank.japanpost.jp",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOWRqNGx0eWVPb1pQY2JMOEhHbmNQQ3ctMm1rY3RRcVl4OEdycXBkTldjdjlLRVhNRWpHMXUzRkpfcUVJaWFob0JQMlhsRU90dlQxY3g1U2EtMDBCSV9UZF9XTlBISlRvT09HakhLdm9Nc0NnTF9rQTBPbTBCVGNaMVpEM3VDdFN5TmJr?oc=5",
           "pubDate": "Mon, 03 Jun 2019 10:33:47 GMT"
-        },
-        {
-          "title": "Management Philosophy-JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDM3X0xROFk2QV9HblVNWjBiZklFV1RlSl9LNS1MUFpjT0Zjb3Z1aFdTMmd3cVpaSFk1ZGhSdVhlT0pWOUtxc2M4R3p5dG1pUTVTZjJhUXd0SVE4QXhWZmZocmNCNUh3N3l1Vjl0ZmljNkk3SEpkclk3ZEk3VTRGM2JvYTk?oc=5",
-          "pubDate": "Sun, 25 Feb 2018 23:43:44 GMT"
         }
       ]
     },
@@ -583,12 +583,6 @@
         "query": "site:temasek.com.sg"
       },
       "items": [
-        {
-          "title": "Our Leadership",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
-          "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
-        },
         {
           "title": "Temasek Appoints Wendy Koh as Chief Financial Officer",
           "source": "Temasek",
@@ -614,12 +608,6 @@
           "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "A New Model in Action: Powering and Connecting Singapore",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN3hycmNHM0h4UnZJaElZR2h3Qm9MV0R2SHA4ME1yLWViUGR3ZjNEVWh6S3Fpa0ZfNEFkY3VfNHNzVWZTa1oxOXlCUDNoOUR1OG91VFZYX19JcEpUWWZDd0VVNV9uazNoQ2ZqaUVjZnN2aWpLQlM3SUYwS2hvT29HQllHVkVYTlQ5b013ZG5YeC1wenBuN2JQOS1yd3g3UVRWRnNiU3ZPWlloMS15WWlPc296ODVzWldCTTZBTmRMLUlOSnJ2dndiblE5QnBKYVhvREFR?oc=5",
-          "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "Senior Management Appointments",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0U4cHlhY1RrbHlJb2JpdmFQWW5wWFUzLTBDbmcza29DR2ZwczRTRm1VQmJkSTdFVUVxV0Ewd2hEa2pMREIxWkJsakw0UV9rOTVtZm41NDRnMGpnR0xUNEpIbHpSQmUxTGhvd29yUlFTUzkxRHI5SzdDU1NDeHY0aXNVOUFuMFFUdTY2a3JPRWxiNThyVVNVVTN0a0drM2RuaklucktJMV8?oc=5",
@@ -632,6 +620,12 @@
           "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
+          "title": "Legal Counsel, Technology (6 to 8 years PQE) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDJlVzRoZFFzdEhQOHRhRmNHdWNUV1RzZV9TV1dSS3RFaTdBTzFhZWxkSk1qUFhrMG45REl3cWhJd0FfZTl4VU9qLWJZYW53Z1N4SDFJdU9EeUFFdzVsVjNLYkdfYldCSll0VHhhbl83cFFWeTRhTnVsYmxtdUFGZVVld18xeWQtNzJiWC1XMkVWTkVEVkc0eXZTcmhXcjFibU1F?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 07:17:35 GMT"
+        },
+        {
           "title": "Associate/Senior Associate, Portfolio Development Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM0pVazh1MUFTbi1xRkxVejFzc21TV1hpR1I1c1BBdnd4SEVpN0l0aW9tcHN6cGhWV0FZZlp2TGhubWlCQUE2VW1JLVk1YVg1T3Q4aFpkc1ZINGFxTWdvYXpkY011YWdoUkw3dmZ2aEFPQjFxdEd2QWhWZGRQTThmYkYyai1nZUQ0bmotOHFjQ3pWeWs5aEYxUmx1T0JkbHU2V1Rn?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
           "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Associate/Senior Associate (12 months contract), IT Auditor (AI, Cybersecurity controls) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSTRBT0VQS1pMbDlyRkJ4czBwN1hSc0hxbU90d05RMHhPalJKUURCZVRFNGxFYnJiY0IxcWFKRjczakVZU0lGaHdQeUItanlTU1FFdktoamF5TGxaTzVfRDZYYmY2UGxVdU9lRUhPYnZHenRXZUtEbTRtbVQ3ckVhYzk3ZnZHNGRvYThVNVBYTHp4Tzd0MmNfVzJmVHpkeXJuWFIxSUFFZ29KY3NIMEhWRHhoZndCZ2w0X05oemdVWGdFRTBVOG84ZEQ5c1NPOExUYzBFTTlJUmMtcnhMZ2NaSXJ3d1U?oc=5",
+          "pubDate": "Sun, 24 May 2026 18:57:40 GMT"
         }
       ]
     },
@@ -702,16 +702,16 @@
           "pubDate": "Mon, 08 Jun 2026 14:46:56 GMT"
         },
         {
-          "title": "The Role of REITs in Real Estate Allocations",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU293ZGl5cF8ydFd4OXFadW4yNFN1M0taNWtSU1dZaXFOdlRpRHd3X2RqekxZVi1tX0ZkVk5fMklLRzJ4M0VWdWs1S0lsYk95TE9DLXhtZHlnSGhsMGNZTzJvdVRNVGoxcGZGVUdVd1BHUGN2MGp0QVU1VV93NThxZFpBQWxzYmNtQ2NRQmRmcVJ2SHZmbl9DcF9oM1diUnZiTmlQNV8wUQ?oc=5",
-          "pubDate": "Tue, 23 Jun 2026 03:38:20 GMT"
-        },
-        {
           "title": "AVP, Financial Planning & Analysis, Finance Department",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSnVQMkFEVUVQVDgxWi1IcDBGaGc1cThLRUZIN1dxUmpPQlRTVFMtSUQ1WnFuR2VVMm1BaEFKUk0zc2VBNGYxRE9md25mLUhqYTVCbGxhUm5BY18wQ3ZuQTFtbFJPRW9BQmpQR0dtSVFBLWJZSUp5aGhrTy12NVMtVmJoVVhsWnNqR0pHUUdNdWZ5Nm1QMXIxZjd0dW4zVVVaS0tVX1Z0dUNqY2Z2eFZJZA?oc=5",
           "pubDate": "Thu, 11 Jun 2026 08:56:05 GMT"
+        },
+        {
+          "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUVULUxhN3dPdlZVSFhtZUdOZkV2QkJ4emhLbk9ucHBLUl81aFZYVnJqVkRmbVliamNGblVfaVlSSEZ4dnlWSERVbUZHbEtFRkhoTWpHeXl6bE5nNTNZWm9KeVNqVnNyNloxaHFlYjJWSjVoa2R5SS1XMTU0U3liSFlnRkctcXRvbDdISi0wdHBza2hYdTJVLVRHa3Z1U3ZNQm1WeXJKVlJyZw?oc=5",
+          "pubDate": "Thu, 28 May 2026 18:24:08 GMT"
         }
       ]
     },
@@ -882,6 +882,12 @@
           "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
         {
+          "title": "NPS Sustainable Management Report 2022",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YYU1DR2R1VEpiRkhWUnp3TnZwS0VFTi1qb29FMFd6TlFja09xSWlhSkhRaUtmY3dXZ2E1M3BodlB3QmQ5RWNSeUs4OXBUZEhiLUkxejNQeHBUenZmWFJTT3VrckF4QUFZZUYwS21HdW8zZWpy?oc=5",
+          "pubDate": "Fri, 31 Dec 2021 08:00:00 GMT"
+        },
+        {
           "title": "2024 National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53N1dMMktnZ1pkVGstcjBheGxKQ1BXUjhsU0owR2JSVWlwWWdaVFZrVUl5MkNnNF9URDhwUlk0TGNGUjZ0bnpTaENQWHc1ZFJEWVZ4TmRkYnJOVHVpUWh6aVRjQUlFa3M1MXVXVzE1VjBqVVVI?oc=5",
@@ -916,12 +922,6 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
           "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
         }
       ]
     },
@@ -1046,12 +1046,6 @@
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "TCorp Q3 FY26 Funding Update - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
-          "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
-        },
-        {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0tOV3JKb0xYRVl1UzRKWG8zQUMtX1dVSGJLb3Z5eklUSnR5YktwR1pDeFN5V2ZIeGJHTUp1UGw4eHhkSzlXbi1FMUlGQkN2UlRyejlaZ05SendxdzcyUnliazFjaTl6VkFabmgxeVV1Tlp6bXZPT3hBdXdPVnlid2NSdXRnUFFUYjZDSm5NUzJ4SmlzeHdsZHBiV2dybE5MQzNTYk94RDcwYmY5QVFyRA?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNTkEtdGdrdjZrT0RwNHJXTHUyZGJlNk9kQjZfVlFTQXVUaERSeWtIdkFmMXB0VVk5ZWhla20yakFKQWN5OHQ5cHZQOVhYRDhsV0d4QWNKVDQ0NUJvTVJYenlXYzZmZlpCb2pnWEZnS1A4Qy1uZ2I3Zng0aWlvbWdjRlVYcVdpUU9YSGVvdjdnS2RubmZtWlNBN0JBbXI0Z2pWRXR6MXdPZmJ4TmpKN1Q3MENzMjM2bTJQN1lkenRnckpKR3U0elpXc2R4SEJUblpDd19EdzNmMmRHMzZ3N3JLVExKa2laMmh5RENDX21SREhIYUhxeDNBZmZ0T0pRMXV2LU9mbkZ4aVZfV3pFYXFxQ1R3ZDY2akYxR2ww?oc=5",
           "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "TCorp economic podcast - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
