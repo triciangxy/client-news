@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T03:50:27Z",
+  "generated_at": "2026-06-23T07:52:20Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.05,
-      "change": -1.2000000000000028,
-      "changePct": -1.61616161616162,
+      "price": 72.75,
+      "change": -1.5,
+      "changePct": -2.0202020202020203,
       "currency": "HKD",
       "prevClose": 74.25,
       "dayHigh": 74.7,
-      "dayLow": 72.85,
+      "dayLow": 72.6,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 99400.0,
-      "change": 1900.0,
-      "changePct": 1.948717948717949,
+      "price": 97700.0,
+      "change": 200.0,
+      "changePct": 0.20512820512820512,
       "currency": "KRW",
       "prevClose": 97500.0,
       "dayHigh": 103700.0,
-      "dayLow": 99100.0,
+      "dayLow": 96500.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6103.0,
-      "change": -110.0,
-      "changePct": -1.7704812489940447,
+      "price": 6053.0,
+      "change": -160.0,
+      "changePct": -2.575245453082247,
       "currency": "JPY",
       "prevClose": 6213.0,
       "dayHigh": 6182.0,
-      "dayLow": 6097.0,
+      "dayLow": 6048.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3252.0,
-      "change": -17.0,
-      "changePct": -0.5200367084735393,
+      "price": 3210.0,
+      "change": -59.0,
+      "changePct": -1.8048332823493423,
       "currency": "JPY",
       "prevClose": 3269.0,
       "dayHigh": 3293.0,
-      "dayLow": 3249.0,
+      "dayLow": 3210.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -486,6 +486,12 @@
           "pubDate": "Mon, 24 Feb 2025 07:53:11 GMT"
         },
         {
+          "title": "Covered Bond Valuation Investor Report",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEaUlPdkl4WVBaeHhUb05FTFVhMjVBaXB2S2YzQk1adTZzRWxqVHVRNkdycXd6NWc5Y3V5ZVpLTW5LSTRkRnlQY2liT29BTHNrSm1rMGw5dVFEUmZtazgyR1B4OElnUVozQkJsaGdmZVc?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 09:00:24 GMT"
+        },
+        {
           "title": "SuMi TRUST Covered Bond",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LMm92aFVjUGNpejlpbl9CaU5iRHVGaTRxa0l2TXdWQW1wMEFxalI3SklhMnNia2ZTaTFIaUVVTlVXTXFDUjBEM2diRTdzdmFndUdKSWQ0V1lTODhVR2UwZm4wRWczTDJVOFE?oc=5",
@@ -496,12 +502,6 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZjVZOGM0RVQ2TUVkRVRVSDB6eHFhSTlNRmJ0SzZCMDFZLWFkeF9aMTRDRm0zYUhEUUNxN2xxVXZrMXJYOXRHamE5ZHdqX29VbVhJbFhucmdBTDhIZjduYg?oc=5",
           "pubDate": "Mon, 24 Feb 2025 02:05:00 GMT"
-        },
-        {
-          "title": "Notice regarding Change of Directors and Executive Officers in Sumitomo Mitsui Trust Group and Sumitomo Mitsui Trust Bank",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QcDJsU0tINWRKb09oUjF5WjlOaXdQbTZMREYzdElxVWlnU0R5WE1tX05aM2lVQU9PWkZ2YkRXSTBhbnp6bl9uRFJ2TXBlUjh0SnBHaUY3VkRYMVpzQ1VkdkpESy1jVXY5enItVmVjT2tOM2MzZ1dfd1d2QQ?oc=5",
-          "pubDate": "Thu, 26 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -1046,6 +1046,12 @@
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
+          "title": "TCorp Q3 FY26 Funding Update - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
+          "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
+        },
+        {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0tOV3JKb0xYRVl1UzRKWG8zQUMtX1dVSGJLb3Z5eklUSnR5YktwR1pDeFN5V2ZIeGJHTUp1UGw4eHhkSzlXbi1FMUlGQkN2UlRyejlaZ05SendxdzcyUnliazFjaTl6VkFabmgxeVV1Tlp6bXZPT3hBdXdPVnlid2NSdXRnUFFUYjZDSm5NUzJ4SmlzeHdsZHBiV2dybE5MQzNTYk94RDcwYmY5QVFyRA?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNTkEtdGdrdjZrT0RwNHJXTHUyZGJlNk9kQjZfVlFTQXVUaERSeWtIdkFmMXB0VVk5ZWhla20yakFKQWN5OHQ5cHZQOVhYRDhsV0d4QWNKVDQ0NUJvTVJYenlXYzZmZlpCb2pnWEZnS1A4Qy1uZ2I3Zng0aWlvbWdjRlVYcVdpUU9YSGVvdjdnS2RubmZtWlNBN0JBbXI0Z2pWRXR6MXdPZmJ4TmpKN1Q3MENzMjM2bTJQN1lkenRnckpKR3U0elpXc2R4SEJUblpDd19EdzNmMmRHMzZ3N3JLVExKa2laMmh5RENDX21SREhIYUhxeDNBZmZ0T0pRMXV2LU9mbkZ4aVZfV3pFYXFxQ1R3ZDY2akYxR2ww?oc=5",
           "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "TCorp economic podcast - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
-          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
