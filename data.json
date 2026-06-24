@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T03:51:45Z",
+  "generated_at": "2026-06-24T07:43:18Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.25,
-      "change": 0.29999999999999716,
-      "changePct": 0.4112405757368021,
+      "price": 73.6,
+      "change": 0.6499999999999915,
+      "changePct": 0.8910212474297347,
       "currency": "HKD",
       "prevClose": 72.95,
       "dayHigh": 74.3,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 96600.0,
-      "change": -1100.0,
-      "changePct": -1.1258955987717503,
+      "price": 95700.0,
+      "change": -2000.0,
+      "changePct": -2.047082906857728,
       "currency": "KRW",
       "prevClose": 97700.0,
       "dayHigh": 98000.0,
@@ -272,24 +272,24 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 5932.0,
-      "change": -121.0,
-      "changePct": -1.9990087559887662,
+      "price": 5889.0,
+      "change": -164.0,
+      "changePct": -2.7094002973732034,
       "currency": "JPY",
       "prevClose": 6053.0,
       "dayHigh": 6108.0,
-      "dayLow": 5916.0,
+      "dayLow": 5883.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3126.0,
-      "change": -84.0,
-      "changePct": -2.6168224299065423,
+      "price": 3101.0,
+      "change": -109.0,
+      "changePct": -3.3956386292834893,
       "currency": "JPY",
       "prevClose": 3210.0,
       "dayHigh": 3242.0,
-      "dayLow": 3115.0,
+      "dayLow": 3072.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -398,6 +398,18 @@
           "pubDate": "Mon, 22 Jul 2024 17:11:20 GMT"
         },
         {
+          "title": "ESG DATA PACK",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcE9vZG1Gb3JUT0hwUGRXYURMVnJTRDdvUkkzREtjTFVFaEo5V2MwVG1jRGxIODFoWDlYckJnTFFTQWt0V1MxYzNYZUI2S1dydDZkZ3pRa09relN0c0hhNFU2SE83Zks4LU1JZTdIQUZZeHh2Z0N2WEJJNGttY1hYYlgzaHJKTjREcTBicTQzam9ZQmM0Umk2eXZIS2JrakY1bWFVazRBRk43andoTlE?oc=5",
+          "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
+        },
+        {
+          "title": "PowerPoint 프레젠테이션",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY1dFdmZKUDBDbDJ6cjBjdnk0OWVtY21nREZPUDBzb01SbXVZTTZUb2NKTkp0YktGeEV4dkxLLVBhXzRUc2tEdmY3TlpIRzJ3OVlYbnN5ckRjYXhaaUdkblFrU1NpcFktQ2NPcUZfMlZBWko4MFRFSXVmYWlqWi1IQ2pTY2ZVQUF0X1Q0akFTYzBCSUNPNUJr?oc=5",
+          "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
+        },
+        {
           "title": "Private Financial Holding Company (2009-2001)",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xSzNjdHVoYnJDWEJLdGE1UnZZRkJ1WS1iMTIwazl0QS1vQUxzMGVKa3ZhNGt4ei1WX1NqY3hmSTlxTGQ2SWNtTzJyb2lWTmljQjJPc1ZnczV2Q29s?oc=5",
@@ -416,22 +428,10 @@
           "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
         },
         {
-          "title": "CODE OF CONDUCT FOR EMPLOYEES",
+          "title": "PowerPoint 프레젠테이션",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMWdvWHl6NTUxR0NXYnFYcU5vQzN1S01ETDNLOTh6eHNoMXMxQmZyeGhTSHpMREswTm4xdGp2M1FVdnB1U2RjOWhOUG5pWlRPeG9IZlhEcVRyWFdMcHA0NlFmWngwaHZOem04YkVvZ3dTZVhDR3JSa3pvdUR5bVE?oc=5",
-          "pubDate": "Mon, 29 Jul 2024 14:07:20 GMT"
-        },
-        {
-          "title": "Shinhan Financial Group",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxU2tMMG9kaU5NS0otT282TlBMZ0VhTHF5cUxEVlpmU2xBOWppZjIxQXQxMjhkSGZobHRiQXFZTTh5N1I0a2dtVkVWMGNPbXQ4cU95N2ZTUlU4cFIwSDVuRU9IbGJIMUcyYUdEU25nZjhMbWF4aGZ6SFdORlNJZE0?oc=5",
-          "pubDate": "Fri, 29 Aug 2025 02:38:35 GMT"
-        },
-        {
-          "title": "Shinhan Financial Group-IR calendar",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16T25xS0lRekFpYktoNUpuQXZDNTVZQ0FpYWxyLWdCVFQybzJGeXRaX2JJNEh6YmhFZWp1RU1McW92X1lmUEF2M3QtYWtYZENVRXpDNk53?oc=5",
-          "pubDate": "Sat, 20 Jul 2024 02:40:25 GMT"
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVzVmaHhOWDljVGRBcVBqY2haVUFMZW1sbWlhY09OM3FFaEprcjhzNldRU0FMQ21RUEtneGJ1YnkzMTZHS1A5anpBNnE3bUN5RGlaRlVLZ2hPQXFfMTQtQXNsUVpHT1pmVW9qWEtTVEhsX3daMl8wSlZ4Ny1fcWtuNzVzeVRRQW9RdEg3VDlyMmY?oc=5",
+          "pubDate": "Mon, 03 Jan 2022 08:00:00 GMT"
         }
       ]
     },
@@ -568,10 +568,10 @@
           "pubDate": "Sun, 25 Feb 2018 05:21:52 GMT"
         },
         {
-          "title": "Items Disclosed on Internet Pursuant to Laws and Regulations, and the Articles of Incorporation 1) Notes to Non-Consolidated Fi",
+          "title": "Management Philosophy-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOWRqNGx0eWVPb1pQY2JMOEhHbmNQQ3ctMm1rY3RRcVl4OEdycXBkTldjdjlLRVhNRWpHMXUzRkpfcUVJaWFob0JQMlhsRU90dlQxY3g1U2EtMDBCSV9UZF9XTlBISlRvT09HakhLdm9Nc0NnTF9rQTBPbTBCVGNaMVpEM3VDdFN5TmJr?oc=5",
-          "pubDate": "Mon, 03 Jun 2019 10:33:47 GMT"
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDM3X0xROFk2QV9HblVNWjBiZklFV1RlSl9LNS1MUFpjT0Zjb3Z1aFdTMmd3cVpaSFk1ZGhSdVhlT0pWOUtxc2M4R3p5dG1pUTVTZjJhUXd0SVE4QXhWZmZocmNCNUh3N3l1Vjl0ZmljNkk3SEpkclk3ZEk3VTRGM2JvYTk?oc=5",
+          "pubDate": "Sun, 25 Feb 2018 23:43:44 GMT"
         }
       ]
     },
@@ -702,16 +702,16 @@
           "pubDate": "Thu, 11 Jun 2026 08:56:05 GMT"
         },
         {
+          "title": "SVP, Finance Business Partner (Technology)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSTE0ZmQ0QkVkYkd4SVRTXzFTMDJXZ1MtWWNGbVJNdnRBVVpfTzJTU3VqLTBON0UteXlMUlNHNHRRT2c4dXFQNGhIeG9qOFRFek1jWDdueERVdExlRFpFOFh1aFBFOHlvRHcxeXpfM2xmMEtRWG1jY0xwRUVsRXhNLVdGR3oyRzVhM3Y4ZE9RSTVTalFlbGt3SFpfdGZvLWNHNkx3?oc=5",
+          "pubDate": "Mon, 08 Jun 2026 15:15:48 GMT"
+        },
+        {
           "title": "VP, Risk Quantitative Analyst",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT2FqUy1FMzFVUGg0VGlQaTVBYm9PWHNtQ0tUaVlXTUZRYVM2UmpScEZqWjJ1RGMwZjliVmZrY0FjQUxVSGFXX3Vla0luTFR2NzNMc3BwQ3B6ekE2WTNGNV9sNkpENnpUQ09rOG44T01QN3VXYldVWlVGNk1OX3RNYmk3RmttZFVwNkxLRGJjM0ZkTnNiN1VLTnRwQWZLMVdMOU1qa3JsY3VfVU5adWFHMUlFOWJjRFROQnE0MDBIa1VkNXdsb2NZaVFVc2dVMGoxRjI0?oc=5",
           "pubDate": "Tue, 23 Jun 2026 13:17:26 GMT"
-        },
-        {
-          "title": "Ramp Raises Series F at $44 Billion Valuation",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2VVaE9yZ3FQckxBZWk0S2hVUzROM3pLNHhaRS04YnVhNmVoa3llcHY4VU0zU1lPU0xpZVRqY080ZjVQejVGLVFIazc5RDQ5aS1QSHR2VlJtTF9qa1JzM3MxZ2N6M1ZOLWVmYzNoY2dJNkk4dkJ5TV82Y1pRQml1REhUb0NaS0Yz?oc=5",
-          "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT"
         }
       ]
     },
@@ -882,6 +882,12 @@
           "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
         {
+          "title": "NPS Sustainable Management Report 2022",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YYU1DR2R1VEpiRkhWUnp3TnZwS0VFTi1qb29FMFd6TlFja09xSWlhSkhRaUtmY3dXZ2E1M3BodlB3QmQ5RWNSeUs4OXBUZEhiLUkxejNQeHBUenZmWFJTT3VrckF4QUFZZUYwS21HdW8zZWpy?oc=5",
+          "pubDate": "Fri, 31 Dec 2021 08:00:00 GMT"
+        },
+        {
           "title": "2024 National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53N1dMMktnZ1pkVGstcjBheGxKQ1BXUjhsU0owR2JSVWlwWWdaVFZrVUl5MkNnNF9URDhwUlk0TGNGUjZ0bnpTaENQWHc1ZFJEWVZ4TmRkYnJOVHVpUWh6aVRjQUlFa3M1MXVXVzE1VjBqVVVI?oc=5",
@@ -892,12 +898,6 @@
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdU9yQ1pXYkgzNjZSaFV1WGVReUVQdzV1ZlczSXlCNHpYOEFsSDVsRGx0eHVwLUZXYnFXQy16QUlPd0UyZ2FOb25UMG9wakxMemRWTExUeWVkRnNHSk5ZTzA0UUhFbnZlRjdFMGMzeklNQTlYMWVDZmw4c3drWjVhY3gwRXJDX3dX?oc=5",
           "pubDate": "Sat, 12 Jul 2025 15:10:32 GMT"
-        },
-        {
-          "title": "National Pension for All People’s Happiness",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
-          "pubDate": "Sun, 19 Feb 2023 08:19:21 GMT"
         },
         {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
@@ -1004,12 +1004,6 @@
       },
       "items": [
         {
-          "title": "Weekly bonds outstanding - 12 June 2026",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wa3VheWNIZlJWV2NMYVJyNUNNTlhRRFc2VFk0M2UwNXZkVmZTT3BFQVQ3TVdYdVZpS1Y3ZGhXekxTOGFRZGNvRlp5Vno3SFNnQ0Joalh4QTFrbFJ1VFFVT3R5VQ?oc=5",
-          "pubDate": "Mon, 15 Jun 2026 19:19:58 GMT"
-        },
-        {
           "title": "Market announcement",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNTkEtdGdrdjZrT0RwNHJXTHUyZGJlNk9kQjZfVlFTQXVUaERSeWtIdkFmMXB0VVk5ZWhla20yakFKQWN5OHQ5cHZQOVhYRDhsV0d4QWNKVDQ0NUJvTVJYenlXYzZmZlpCb2pnWEZnS1A4Qy1uZ2I3Zng0aWlvbWdjRlVYcVdpUU9YSGVvdjdnS2RubmZtWlNBN0JBbXI0Z2pWRXR6MXdPZmJ4TmpKN1Q3MENzMjM2bTJQN1lkenRnckpKR3U0elpXc2R4SEJUblpDd19EdzNmMmRHMzZ3N3JLVExKa2laMmh5RENDX21SREhIYUhxeDNBZmZ0T0pRMXV2LU9mbkZ4aVZfV3pFYXFxQ1R3ZDY2akYxR2ww?oc=5",
           "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "TCorp economic podcast",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -1153,7 +1153,7 @@
           "title": "FWD Group appoints Martin Zingg to Board of Directors",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPenVBdFZ0aC1BYzNZblE3RUdTRnF2MTZvU09Vamk5and0aGsxQU5fZlIxZk9EWGNiWWVBY1BpOTN4MDhlN1d4Y3gzdGRWVUdkZ1VORUkwSTRMaWlKTVdpeWV2MzRzN1hGYm5sSkpQdEVWUG91VElpRUFEbW5FekpyOVJFT0s0UU9QMzdaSEp0cVBfem9ES0IySldQYmdTdndvRzAw?oc=5",
-          "pubDate": "Fri, 29 May 2026 11:54:00 GMT"
+          "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
           "title": "FWD Group Holdings Limited Interim Results Presentation 2025",
