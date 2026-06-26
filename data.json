@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T08:00:01Z",
+  "generated_at": "2026-06-26T11:12:11Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 70.7,
-      "change": -1.5,
-      "changePct": -2.0775623268698062,
+      "price": 70.8,
+      "change": -1.4000000000000057,
+      "changePct": -1.9390581717451603,
       "currency": "HKD",
       "prevClose": 72.2,
       "dayHigh": 71.1,
@@ -398,7 +398,19 @@
           "pubDate": "Mon, 22 Jul 2024 17:11:20 GMT"
         },
         {
-          "title": "Shinhan Financial Group",
+          "title": "ESG DATA PACK",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcE9vZG1Gb3JUT0hwUGRXYURMVnJTRDdvUkkzREtjTFVFaEo5V2MwVG1jRGxIODFoWDlYckJnTFFTQWt0V1MxYzNYZUI2S1dydDZkZ3pRa09relN0c0hhNFU2SE83Zks4LU1JZTdIQUZZeHh2Z0N2WEJJNGttY1hYYlgzaHJKTjREcTBicTQzam9ZQmM0Umk2eXZIS2JrakY1bWFVazRBRk43andoTlE?oc=5",
+          "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
+        },
+        {
+          "title": "PowerPoint 프레젠테이션",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY1dFdmZKUDBDbDJ6cjBjdnk0OWVtY21nREZPUDBzb01SbXVZTTZUb2NKTkp0YktGeEV4dkxLLVBhXzRUc2tEdmY3TlpIRzJ3OVlYbnN5ckRjYXhaaUdkblFrU1NpcFktQ2NPcUZfMlZBWko4MFRFSXVmYWlqWi1IQ2pTY2ZVQUF0X1Q0akFTYzBCSUNPNUJr?oc=5",
+          "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Shinhan Financial Group-Annual Report",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPVHB3M181ZTZfTS1DRGw2dmdZWHoyWGJ5eHFoUEtQWEhCV3dzNnpKdTI2WVhfZER3dXBOU3dwSFBxRldFRTJjNV8yY1lsTzZBaWVSLU5MMm9vZ29lZlpVVQ?oc=5",
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
@@ -410,28 +422,16 @@
           "pubDate": "Mon, 29 Jul 2024 02:43:19 GMT"
         },
         {
-          "title": "Diversity Report",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
-          "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
-        },
-        {
           "title": "Diversity and Inclusion",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWN6cHZmR2gyaTEzeHAzVlk5azhZVVJXZjY3MldsTkRkRVJhUUxUTTEzV0VadVdEWVlRaTVhVFZ6UkhqYTVhekc1LVp4bkRrUWF1bGdHMEFYM1BhOVBlUUN1VEpDTFFqei1ERjJnT0lEREh1dm5SNXp6OC1tYktxdXlHMXBub1NpUERCUGVickl5SDF4TWc?oc=5",
           "pubDate": "Tue, 20 May 2025 20:30:48 GMT"
         },
         {
-          "title": "CODE OF CONDUCT FOR EMPLOYEES",
+          "title": "Diversity Report",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMWdvWHl6NTUxR0NXYnFYcU5vQzN1S01ETDNLOTh6eHNoMXMxQmZyeGhTSHpMREswTm4xdGp2M1FVdnB1U2RjOWhOUG5pWlRPeG9IZlhEcVRyWFdMcHA0NlFmWngwaHZOem04YkVvZ3dTZVhDR3JSa3pvdUR5bVE?oc=5",
-          "pubDate": "Mon, 29 Jul 2024 14:07:20 GMT"
-        },
-        {
-          "title": "Shinhan Financial Group-CEO Profile",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NRTJNd0gzU1NTNGxscklZbDdVdzJya2U3S2Q1YVBGV0NObUsyZjJGNUMzaG04d0RrVmFkQTJrcGYxQWtmUEg3Uy1jamQzUXRMVzlYX2xjWlY?oc=5",
-          "pubDate": "Wed, 24 Jul 2024 03:08:20 GMT"
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
+          "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
         }
       ]
     },
@@ -556,6 +556,12 @@
           "pubDate": "Tue, 04 Jan 2022 08:00:00 GMT"
         },
         {
+          "title": "About JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sTXhtX1JNQnRDeWc2bWR1b1ZhRTFQemNzc1pfZHpOX0RKeWVGS2pKYVVkSk9WWWtVenZpMjhaN2JMT05KTGltSHZaSnJGdExJdm1IUTd6Tnd4Ny1RQ19LRzZxZzluaTVXTDliWXRud1hSNHlMeHRF?oc=5",
+          "pubDate": "Sun, 25 Feb 2018 05:21:52 GMT"
+        },
+        {
           "title": "Management Philosophy-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDM3X0xROFk2QV9HblVNWjBiZklFV1RlSl9LNS1MUFpjT0Zjb3Z1aFdTMmd3cVpaSFk1ZGhSdVhlT0pWOUtxc2M4R3p5dG1pUTVTZjJhUXd0SVE4QXhWZmZocmNCNUh3N3l1Vjl0ZmljNkk3SEpkclk3ZEk3VTRGM2JvYTk?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOWJjWnVtaHpJRm5yVTRyUngwWV9HdVdheFBpR3FBNmswWl82TlFHTHl3ZmJ5V3M3ZEZHTlNETVR4R1RBQlF3T2FUc2ZUbXZhd3RkRWxJUFRBcVlwZU93cWlUN2VkdmxIOHdmMW1wNkVGTG1kZnJMbWFQMDdWUzRncmF1dmducnlYclYxT1lqaw?oc=5",
           "pubDate": "Mon, 07 Jul 2025 09:01:55 GMT"
-        },
-        {
-          "title": "Japan Post Bank Debit Application Method (Website Version)",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
-          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
         }
       ]
     },
@@ -666,10 +666,22 @@
           "pubDate": "Mon, 15 Jun 2026 15:19:27 GMT"
         },
         {
+          "title": "AVP/VP, Investment Tax, Private Markets",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQUpnMGFPRjcwMVpqbDR1YWoyLVh5bTRtVFUyeGNKb2g2Z2NCaWtrbWh4NUdWb1hzZW1KN1ppR2ZqeXJENXFnd2I4Q2lxaWIzSFBrZUVJbV9LSUEzbTVvaERhOFpFZzJvUFA3STRSRWx3ekI2QXdZSmVKWVhKRzVUMGNOUVRfamlVY295RDljSmVtMzBhWklueWtzSQ?oc=5",
+          "pubDate": "Tue, 16 Jun 2026 16:19:35 GMT"
+        },
+        {
           "title": "AVP, Talent Acquisition (2-year contract)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
           "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
+        },
+        {
+          "title": "Associate/ AVP, Talent & Organization Strategy",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1k1UHZyQ2RQeUJFazJ2cjBUV3BBUm53Rlo1RVpkRTVkYWpmR2ZPUzFtd3BFOHdkMjZSUU9xNTBBX3EtNjJqR1ZJMVRaQmQ3UTJsRFFUOHFZM3pkcEZtTExxQ0F6WHhmM2h1QXdyZGZnMkgwLUJfclhteXFqTncxQkpoM2dKY1RfRXU0MGg2TTg5c2NBVjdnbDFfRXNZc3pUTWc?oc=5",
+          "pubDate": "Tue, 16 Jun 2026 16:29:41 GMT"
         },
         {
           "title": "Analyst/Associate, Workplace Security (1-year contract)",
@@ -700,18 +712,6 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSTE0ZmQ0QkVkYkd4SVRTXzFTMDJXZ1MtWWNGbVJNdnRBVVpfTzJTU3VqLTBON0UteXlMUlNHNHRRT2c4dXFQNGhIeG9qOFRFek1jWDdueERVdExlRFpFOFh1aFBFOHlvRHcxeXpfM2xmMEtRWG1jY0xwRUVsRXhNLVdGR3oyRzVhM3Y4ZE9RSTVTalFlbGt3SFpfdGZvLWNHNkx3?oc=5",
           "pubDate": "Mon, 08 Jun 2026 15:15:48 GMT"
-        },
-        {
-          "title": "VP, Risk Quantitative Analyst",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT2FqUy1FMzFVUGg0VGlQaTVBYm9PWHNtQ0tUaVlXTUZRYVM2UmpScEZqWjJ1RGMwZjliVmZrY0FjQUxVSGFXX3Vla0luTFR2NzNMc3BwQ3B6ekE2WTNGNV9sNkpENnpUQ09rOG44T01QN3VXYldVWlVGNk1OX3RNYmk3RmttZFVwNkxLRGJjM0ZkTnNiN1VLTnRwQWZLMVdMOU1qa3JsY3VfVU5adWFHMUlFOWJjRFROQnE0MDBIa1VkNXdsb2NZaVFVc2dVMGoxRjI0?oc=5",
-          "pubDate": "Tue, 23 Jun 2026 13:17:26 GMT"
-        },
-        {
-          "title": "Ramp Raises Series F at $44 Billion Valuation",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2VVaE9yZ3FQckxBZWk0S2hVUzROM3pLNHhaRS04YnVhNmVoa3llcHY4VU0zU1lPU0xpZVRqY080ZjVQejVGLVFIazc5RDQ5aS1QSHR2VlJtTF9qa1JzM3MxZ2N6M1ZOLWVmYzNoY2dJNkk4dkJ5TV82Y1pRQml1REhUb0NaS0Yz?oc=5",
-          "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT"
         }
       ]
     },
@@ -900,12 +900,6 @@
           "pubDate": "Sat, 12 Jul 2025 15:10:32 GMT"
         },
         {
-          "title": "National Pension for All People’s Happiness",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
-          "pubDate": "Sun, 19 Feb 2023 08:19:21 GMT"
-        },
-        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -922,6 +916,12 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
+        },
+        {
+          "title": "National Pension Service Investment Management",
+          "source": "기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
+          "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
         }
       ]
     },
@@ -1262,16 +1262,16 @@
           "pubDate": "Mon, 23 May 2016 04:54:03 GMT"
         },
         {
-          "title": "[The Norinchukin Bank] 2025",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGo1Um8xXzA0RGlpSW9YQWQyOElpa1ZrRXBEWWtHcUFkZmp1dTZYS002dnBWLTEzRUdCV0JEakRaVFU4WFZVN0YxMFk0NzhnckdvWndHOW1DT2Y0OFFsTDlOQzNPTjJXSmRZcUM1aktXZFBZdlNXdTNodURaZ2I3QmhmQktab290bU1YWU5JZkRBMlVzZ1E?oc=5",
-          "pubDate": "Sat, 20 Sep 2025 01:37:06 GMT"
-        },
-        {
           "title": "Philosophies and Policies：Sustainability：The Norinchukin Bank",
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE56OU9sWjhOUHU4aUhrb3BaOUZMeWk4cThyQlN6TDNNWHY0RmJSZ3FJZ0t6TjhiWVJLSHROc0JLd2F6MHFDT3lQY0RSZ0lrT3lnOEctZVBfOW4xVHczX1E4dmRqTFlKa3hYOXpKbGFFdExtZw?oc=5",
           "pubDate": "Fri, 10 Sep 2021 14:47:07 GMT"
+        },
+        {
+          "title": "News Release 2025：The Norinchukin Bank",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVpTQlB4d2RWZ21Dald6bWhzMGo1Q0YxY3JCMmtSZkQwYjIyRnE3b0diV19xRG9vSjV2aUFIWjFNdjhiVXZNeHhFcWZFVDA1YkgzT1djR2ltZlFUOUVkS0VQUVZxdXl5SlVDTUNnSVJ6c19kZ0RRUTl3aVZiTTZMLWJUNUY3VEtOck5odF9QODVxUlVYLTY3Sl9od3lSV3BJMmNNeGw5UjM?oc=5",
+          "pubDate": "Fri, 06 Jun 2025 07:00:00 GMT"
         }
       ]
     }
