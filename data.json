@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T07:56:08Z",
+  "generated_at": "2026-06-30T11:14:03Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.4,
-      "change": -0.7999999999999972,
-      "changePct": -1.108033240997226,
+      "price": 71.45,
+      "change": -0.75,
+      "changePct": -1.0387811634349031,
       "currency": "HKD",
       "prevClose": 72.2,
       "dayHigh": 72.4,
@@ -316,12 +316,6 @@
           "pubDate": "Sat, 21 Mar 2026 22:22:44 GMT"
         },
         {
-          "title": "How to recognise social anxiety disorder: Causes, symptoms and treatments",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRGI0MGsxVFZQLUIwMnR5UEZJTUZnNFEzLVdoM3pzZVlGRVRWTVNucVJUNTB6clBHMDVCX3dzZ3NLNGNQVEVkMlpHNzFPcG5BSHJ6TE4tQU5SRGJKVVppbF9sTUk5N1dKZVlTeVZtLTFHSE9CR0NvaWlBdThaRjRGU0pBNGJHa3ZVejMwcnJoRXZYQXN0?oc=5",
-          "pubDate": "Wed, 14 Dec 2022 11:02:55 GMT"
-        },
-        {
           "title": "AIA China accelerates geographical expansion with approval to prepare a new branch in Zhejiang",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnJOVkJObjFvVFZCaFZPazFldEdpS2xVcVRPN1h0dVhOdlloc0pFNEFkZ3V1c1dIeUt6NmJ5MVRWR0JDcjJnanpxSE9IS1J1X01FR3RVVmQ2TFFpQy0tWEdfcnFSNG51OTFHMFdZN1hETVZpQ0ItU2s5a0VIOWZVbEZNTkQtYmhwM0pka1E0YWV4QQ?oc=5",
@@ -362,6 +356,12 @@
           "source": "investment.aia.com",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR21TandpUkZqemR6bnR1V0R6Qk50VlVqaUFGSEFwRVNua2xQajR2TnBOLW5HMGdEd1dYalZlZmdqXzAyaml2YWEyRVlVTWdORFRWMkVzZWxfNm5KNGMzamJ2Y19NX0N5eGw1M0ZRbEJqdVRLQ2RHamM0Z2lsWGQ2NUliMFNxYmJUNHdITlI3SDlpZmxNTFNHazFncnhGaW9zNC03YWZoWURuNXNIV1c2QVlBaEs4OFNidjVCQ0I0MkpXbnM?oc=5",
           "pubDate": "Thu, 24 Jul 2025 23:04:32 GMT"
+        },
+        {
+          "title": "TRANSCRIPT AIA China Growth Strategy",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVkQ3XzNBWkxfd2RoUnA3Q25OQXd6Z1F6WDdXX2EwbWs4YjcyU1dpVi0xZGFXMFF0aXFYY1RWeDN0eF9jVVVhV2xrVEtQV2gwSmZCQUJyVThCalQyakltX2dvTWc1cHBXVDZZSU1GNGZRZVQyMVJEY3pUMWp1SXdSckpPcjBOVGlJUThOMFhBNFRoWG5RWXVZaXF0S0M1djh6QmNJamRNM0xjRnl6X2ZaOTNSZE9MMGFxOThJMTBkZHh6djM0SDdrVkhNTU41emh0UW1SNDNPVXlfN0NNN3lyVXB2YjNlT2toX1NPSm9XRTE?oc=5",
+          "pubDate": "Wed, 20 Aug 2025 22:16:19 GMT"
         }
       ]
     },
@@ -596,12 +596,6 @@
           "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Temasek's inaugural Fellow - Advancing capabilities across our ecosystem",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR25ORUduSzU1OHJ3bGhfT01CelJWWURMaV9MS0pMd1N4MV9TQ3o0cE5fYjBCSU1YUDJjcFpHVG5EQThiWXJ0ZkIzQUdlN3FLUVdXMW9pWWdzX3ZFcDRWcXc4LW1hYk1pTkdBRDM4eXd1ZFVtdTZUQUxBcFVScGxsSC1hUFhWWnZnR2kwTUlWRVJjdHZmSmdheUlCc2lLVnQ1VzlycTRIWHY5S2dpVERRWWF6c3pxSUVydW1iRFkzTDJuc1liMlVGZEFEUFh2dldRRVJSR1ZnbWZ5ZWd1U3d4QWRFVDd6dw?oc=5",
-          "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNXItWkMtOExGam1SV3laa1ZkR0J5Z2xtSUdHWHJtSFR5Q1RUaXBfM1NiakZ6ekNoZEZvZFQ5bmRMd1ZsMDFXeF9ORVJ0MTVnQ3diN25zNVo0VlJZWHhkd1ZSWXhKZW00eFlFU3hmX2hCR0FrUGVLTFMySVhFOXVYaXNPNmQ2YzBxd3oyQ1I2c1hSQ3pkaXFveHdqdjFROWhSalRqRFRHVW5fNnlfRXVpZEpCT0tzTGdIbzA1QlJCVUl2eDEydG5BRGVjcFlkWVg4YlprejJrVGZhcER1alNFOFctY2hXeVVDY1Z0dmNpbjR0Zw?oc=5",
@@ -612,6 +606,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDJlVzRoZFFzdEhQOHRhRmNHdWNUV1RzZV9TV1dSS3RFaTdBTzFhZWxkSk1qUFhrMG45REl3cWhJd0FfZTl4VU9qLWJZYW53Z1N4SDFJdU9EeUFFdzVsVjNLYkdfYldCSll0VHhhbl83cFFWeTRhTnVsYmxtdUFGZVVld18xeWQtNzJiWC1XMkVWTkVEVkc0eXZTcmhXcjFibU1F?oc=5",
           "pubDate": "Sat, 20 Jun 2026 07:17:35 GMT"
+        },
+        {
+          "title": "Temasek's inaugural Fellow - Advancing capabilities across our ecosystem",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR25ORUduSzU1OHJ3bGhfT01CelJWWURMaV9MS0pMd1N4MV9TQ3o0cE5fYjBCSU1YUDJjcFpHVG5EQThiWXJ0ZkIzQUdlN3FLUVdXMW9pWWdzX3ZFcDRWcXc4LW1hYk1pTkdBRDM4eXd1ZFVtdTZUQUxBcFVScGxsSC1hUFhWWnZnR2kwTUlWRVJjdHZmSmdheUlCc2lLVnQ1VzlycTRIWHY5S2dpVERRWWF6c3pxSUVydW1iRFkzTDJuc1liMlVGZEFEUFh2dldRRVJSR1ZnbWZ5ZWd1U3d4QWRFVDd6dw?oc=5",
+          "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "A New Model in Action: Powering and Connecting Singapore",
@@ -794,6 +794,12 @@
       },
       "items": [
         {
+          "title": "81ec5e47-ea6b-474a-97b3-191a53403769",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1bVMtRE1YWjlUWWdpR1BkelIyRXE1bXQxUmNtT2tId0RIVjVrYW83SEhTbk1YVHNnNjBDUzB3LTBiUFFhOGFqRWtSaDlIQnZZRzlnWUZBRlJ5aEs5UDR5M0c4cG14T1gyNFg0RjgwS0JvbkthYXgwak4tQlNvTjg?oc=5",
+          "pubDate": "Mon, 29 Jun 2026 12:03:44 GMT"
+        },
+        {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
@@ -846,12 +852,6 @@
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsR3lFNHBWSE96QkhnbEZWOWcwOEFsNjBhTmszQi1teGFkY1VyaXMwYUdjMng2RlJJOXJpMnlHQlEwT3hKZ0h3UnRTS0hpOC1rNUFxSlFvNF8tNnlaMmI2ZlFPbzRkTGJpQzE5SWQ3Vy1wOV9j?oc=5",
           "pubDate": "Sat, 28 Jun 2025 22:19:53 GMT"
-        },
-        {
-          "title": "Sustainable Investment │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpV3h3bExBM3BmT0NKTXRuZUZ2YlZqMnJHRTNHalN6cnF4TlV6T3NYU3ZrYnp6el9TN3Rocl9iTWRyQXM1dXZwT1V4Q055d1c5VWo0bDZ6aTZTUEFlaEMzeW9zaVQwZw?oc=5",
-          "pubDate": "Mon, 14 Jul 2025 04:48:54 GMT"
         }
       ]
     },
@@ -888,7 +888,7 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
-          "title": "Established the National Pension Corporation",
+          "title": "National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdU9yQ1pXYkgzNjZSaFV1WGVReUVQdzV1ZlczSXlCNHpYOEFsSDVsRGx0eHVwLUZXYnFXQy16QUlPd0UyZ2FOb25UMG9wakxMemRWTExUeWVkRnNHSk5ZTzA0UUhFbnZlRjdFMGMzeklNQTlYMWVDZmw4c3drWjVhY3gwRXJDX3dX?oc=5",
           "pubDate": "Sat, 12 Jul 2025 15:10:32 GMT"
@@ -1150,6 +1150,12 @@
           "pubDate": "Wed, 24 Jun 2026 07:12:23 GMT"
         },
         {
+          "title": "- FWD Group",
+          "source": "",
+          "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9rS0Z2RWtTQTc5QXhvUDA1REFiNVJxRUpmaEcyNkkzaW9ycFhhaWtWZzAtWlNWOXl2S0RSZ3NB?oc=5",
+          "pubDate": "Tue, 30 Jun 2026 06:44:44 GMT"
+        },
+        {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
@@ -1196,12 +1202,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
           "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
-        },
-        {
-          "title": "2025 Annual Report Chairman’s statement",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
-          "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
         }
       ]
     },
