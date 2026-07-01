@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T04:09:31Z",
+  "generated_at": "2026-07-01T08:35:58Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 96500.0,
-      "change": 700.0,
-      "changePct": 0.7306889352818371,
+      "price": 96400.0,
+      "change": 600.0,
+      "changePct": 0.6263048016701461,
       "currency": "KRW",
       "prevClose": 95800.0,
       "dayHigh": 98800.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6130.0,
-      "change": 73.0,
-      "changePct": 1.2052171041769855,
+      "price": 6120.0,
+      "change": 63.0,
+      "changePct": 1.040118870728083,
       "currency": "JPY",
       "prevClose": 6057.0,
       "dayHigh": 6170.0,
@@ -283,13 +283,13 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3096.0,
-      "change": 33.0,
-      "changePct": 1.0773751224289911,
+      "price": 3087.0,
+      "change": 24.0,
+      "changePct": 0.7835455435847208,
       "currency": "JPY",
       "prevClose": 3063.0,
       "dayHigh": 3123.0,
-      "dayLow": 3082.0,
+      "dayLow": 3074.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -314,6 +314,12 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGtZOV9sdmxDRmNXVUU1Q1RpaGQ5N05UVnJuVnQ1MlpZNk5SMW5MaU1XMl9PcU42R09JWFFzd1E0ZnF4bGg2R3dMMGFZTUxtRkhJQTV3ZWNOSVAzcThNLU1tN3U4cWhPSU9jemlNTWMxWDh0dVpXQnJBamhmdWY2eklhTl85aU0wZkRYQ1Z3Z0xSTExLMG4yQkc0dzJUZFVZSGdQWmxyQ3ZFQ2c3UDQ3SUs1bkhndw?oc=5",
           "pubDate": "Sat, 21 Mar 2026 22:22:44 GMT"
+        },
+        {
+          "title": "Can a bedtime routine alleviate stress?",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnBsWmdkRlVtak5iZmNtRjQtZ3YzNVVJZ3U4eVpPdnQ5aHJaWHEwV09VZHFhUlFVUjRELU55RkduY1llR1ZlSHg1M2RkZ0FkdkFxZzFXblhmbjJJMmw3bmpKYzZhdlVDNmpiQkZWN2lkcmZ3bGJ1bVhULUFDalNuVmhTSFlRVWVjb3NsY294YlRBZDhSaHc?oc=5",
+          "pubDate": "Wed, 15 May 2024 16:36:37 GMT"
         },
         {
           "title": "How to recognise social anxiety disorder: Causes, symptoms and treatments",
@@ -356,12 +362,6 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1S2lEdDJRMnNDQU02M2s1ZFlqUTVYdnR2VDVEMWQyV1ZtdDh0bzE0ZG1SWURueUxucDR5MGNGWm91RW91a0dEb2hGQno5TW40bnRub25KV0tLVGY4ZDFhaGlvSkdlTksyajBfclhObTMzdVZ5d0VlS3d3?oc=5",
           "pubDate": "Fri, 22 Jul 2022 04:22:23 GMT"
-        },
-        {
-          "title": "AIA Investment Management and Trust Corporation Philippines AIA Peso Money Market Fund KEY INFORMATION AND INVESTMENT DISCLOSURE",
-          "source": "investment.aia.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR21TandpUkZqemR6bnR1V0R6Qk50VlVqaUFGSEFwRVNua2xQajR2TnBOLW5HMGdEd1dYalZlZmdqXzAyaml2YWEyRVlVTWdORFRWMkVzZWxfNm5KNGMzamJ2Y19NX0N5eGw1M0ZRbEJqdVRLQ2RHamM0Z2lsWGQ2NUliMFNxYmJUNHdITlI3SDlpZmxNTFNHazFncnhGaW9zNC03YWZoWURuNXNIV1c2QVlBaEs4OFNidjVCQ0I0MkpXbnM?oc=5",
-          "pubDate": "Thu, 24 Jul 2025 23:04:32 GMT"
         }
       ]
     },
@@ -373,6 +373,12 @@
         "query": "site:shinhangroup.com OR site:shinhan.com"
       },
       "items": [
+        {
+          "title": "- 신한은행",
+          "source": "",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5COUFZOFZ0Y2dJNjI0SEtwWkZFWW43MTR3bVczTEJRZEM1ZmJlR00wVWN1MEhORWV6T3dpRDJJSlpnclJ6bS1IY19HRzE1ZEZfTlNSUGVYRQ?oc=5",
+          "pubDate": "Fri, 15 Nov 2013 18:04:40 GMT"
+        },
         {
           "title": "Shinhan Financial Group-Investor Relations",
           "source": "신한금융그룹",
@@ -426,12 +432,6 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
           "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
-        },
-        {
-          "title": "CODE OF CONDUCT FOR EMPLOYEES",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMWdvWHl6NTUxR0NXYnFYcU5vQzN1S01ETDNLOTh6eHNoMXMxQmZyeGhTSHpMREswTm4xdGp2M1FVdnB1U2RjOWhOUG5pWlRPeG9IZlhEcVRyWFdMcHA0NlFmWngwaHZOem04YkVvZ3dTZVhDR3JSa3pvdUR5bVE?oc=5",
-          "pubDate": "Mon, 29 Jul 2024 14:07:20 GMT"
         }
       ]
     },
@@ -702,16 +702,16 @@
           "pubDate": "Tue, 16 Jun 2026 16:29:41 GMT"
         },
         {
+          "title": "Analyst/Associate, Workplace Security (1-year contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWotV0ZBblg2bldscmlxQjhVRWZzOGp4b3dxZ2VvR2VLc215QUlDbEdDZ0dVVHlGdzlVbjhGZlJXaVhEZ2ZlcHlYMzlQVWY5eFZXUWZHUC1XZG1mQVUxZURfRFNvZW9BZmV0OFNGQktOR3VJbmk3SHUwZW5Pa2F6d3FpUm1IV0lFLU1GNDlzbmp5YkhXb0hWT1J2aEdhai0wSVNobG9pZjNzbmV3ekVSQVhfaw?oc=5",
+          "pubDate": "Fri, 19 Jun 2026 05:49:07 GMT"
+        },
+        {
           "title": "VP, Credit Analyst, Alternative Credit Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUl6aFNYdUxPQVN1cm9Tb1ExbnJ5YVktYnVpYjRLTlg0TGFXZTBBaFUyWlg4ZWtSaWdNRHhnVDcyN1N5b2szMzlVc29GYnRSQjJJUWJzdXdJZGJaUzZ0aGZNQWxpUDRhWUlqS3NYSTBMNUplaTVoUVczQWZQNzVTVG5XMVk3U1lpczMxZlAzdEZZbUVGRnlTZ3M0VTBUNlU?oc=5",
           "pubDate": "Sat, 27 Jun 2026 02:23:22 GMT"
-        },
-        {
-          "title": "Associate, Real Estate, Asia Strategic Investments - Equity focus",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVpKV01HOXVieXVIMGFtQ2pHdXR4SVg4T0c4cUQ4cl9OaGlOX2hlQXFPOVhBNWNDWWdicXBIZ0t2ODlSc09EUTNlTUFRTnFaMDZpOHpWZkxPN29wUDlPel8zUFVueC0wMHo2ZWxoa2t2eHB2MVpZTTNBeGl3ZEstbHpmMkU4YXJPMjA2R2wzdnpKOTBzQm5sVEhxS0c4cW5CU2IwUVZicWFfUW50OWNJT0hpOUhrUWZqVC1BbA?oc=5",
-          "pubDate": "Sun, 28 Jun 2026 14:42:40 GMT"
         }
       ]
     },
@@ -800,34 +800,10 @@
           "pubDate": "Mon, 29 Jun 2026 12:03:44 GMT"
         },
         {
-          "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 05:21:28 GMT"
-        },
-        {
-          "title": "KIC 2023 Annual Report",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ySjM4cmluUnZtUXB0eUR6MEhFWVN6OHdZT2JTOGhVWXZBbGtrWkRxMjIybEVuem5LQ3doOEhFRUlvSjc1T3VrZmhNcHJiUDRCb1NWeElvVXBjVTg3MF9FaFI4ZWc?oc=5",
-          "pubDate": "Fri, 12 Sep 2025 19:21:07 GMT"
-        },
-        {
-          "title": "Benchmark │ Our Portfolio │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MzNRUTdUS3luTkxmZWVTc1JnaTdTMERod01JTGIzWmhtN3MySThvUkhPeXl3OV96c21XLXgyM0o5aUJzek5QOVI1NDIwaXZ2Sm16SmtQY05BcU5zNG9nZHp3?oc=5",
-          "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
-        },
-        {
           "title": "Untitled",
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
           "pubDate": "Fri, 12 Sep 2025 17:18:18 GMT"
-        },
-        {
-          "title": "Press Releases",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
-          "pubDate": "Fri, 28 Feb 2025 08:00:00 GMT"
         },
         {
           "title": "2 02 3 K ORE A INVE S TMENT CORP OR A TION ANNU AL REP OR T",
@@ -836,22 +812,46 @@
           "pubDate": "Fri, 12 Sep 2025 19:22:12 GMT"
         },
         {
-          "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
+          "title": "2022 년 11 월 1 일",
           "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tcGZraEhPMERPUTQyRExUb1VwWUdoTVdMWlQ1Z25WUy02bWp2NXZ2LXV0Sk9oZjBuT19LOXpIblBGMHNnemdrUVZFb012eWpfRHFmczFSbjhuNWphTkdyaEMxU2Z0MTdzQzVIdEZQYVhselRtVGxjYnpkTkUtWm8?oc=5",
+          "pubDate": "Sun, 10 Aug 2025 00:36:32 GMT"
         },
         {
-          "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
+          "title": "PRESS RELEASE",
           "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
-          "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1SMU9LbDAxaDdPYnhoc2p4UnN1WGZ1eWc1ZVdtUENnUnZZbmF4N3hJRE9rakJKM0FtN28xa3I4dnRoT0ZQWElyN1hOSnFLdVdCRHNQLTJLXzY?oc=5",
+          "pubDate": "Fri, 09 Dec 2016 08:00:00 GMT"
         },
         {
-          "title": "Client Privacy Notice│ Korea Investment Corporation",
+          "title": "KIC to increase external management in Chinese equities to domestic managers Seoul (March 30, 2015): Kore",
           "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Ca2pUOElDNW9yX1ZLeE5KM1VyU3FoQktBUmszNHhiNzZQS19lcExYRU9qekozcE9tUllaQ1pIa3NGNlVfTTNQTkxTaUM?oc=5",
-          "pubDate": "Sun, 22 Jun 2025 09:03:18 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtdEFYWXNNYXN5czlNbHVWTF9xekhCQVg2OVQ1d19PSS1lZGZzMWFVblFaM1JYVk9Pbno3Nm9ZUTc0bWRXcUNwcVJ6cFQxYmhIelZlckxYcHU?oc=5",
+          "pubDate": "Mon, 30 Mar 2015 07:00:00 GMT"
+        },
+        {
+          "title": "[Press Release] KIC names new CIO | Press Releases │ Latest Stories │ Newsroom │ Korea Investment Corporation",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PVnZmWHpkd1Baa0VFUHh4T0JmSkJKejRFS0ZEU241Y1QtbWVTWWN1cjdSN3BQZHVzSzh2UldxV3VKbWhRWHNsMVgzcDdQWWM5M29jWFQ3dE9ySEU?oc=5",
+          "pubDate": "Tue, 06 Aug 2019 07:00:00 GMT"
+        },
+        {
+          "title": "Job Opportunities at KIC(San Francisco Office) | Job Openings │ Careers │ Korea Investment Corporation",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1oYjFRRld0N0ZSUjA0VGV3SXo2aVdXU3pmM1pjcFY0dk52LVhfaVZWQWRWYWt2Q2hRUkFia0NfQ2JDYS14UjRkYlZNLTVIMUNHLXpfbDFIRQ?oc=5",
+          "pubDate": "Mon, 23 Dec 2024 08:00:00 GMT"
+        },
+        {
+          "title": "Press Releases",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xUTRrSkpCek9pSDlmSHFnb2kxZE5JTFRPaHU3YndYVC00OFJ1Q0l1empzYW5oR1JZSGM5VFVfeGVZdHdYaThWMWR0d0owcWZ5V05QRnNn?oc=5",
+          "pubDate": "Mon, 27 Jan 2014 08:00:00 GMT"
+        },
+        {
+          "title": "Professor DaeSik Kim Appointed as Chairman of KIC Steering Committee",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DWVZDczlyTVIxdWc1M05qMnNyazM5a0liby1NS2s2SmNaZlppb2E4WDVjbWdVM3dzUmY4cFk2bnpnMDRuZ1pndlQwNjJMTUJqeTRneUJTSWo2bXZLM0E?oc=5",
+          "pubDate": "Wed, 26 Nov 2014 08:00:00 GMT"
         }
       ]
     },
@@ -894,34 +894,34 @@
           "pubDate": "Sat, 12 Jul 2025 15:10:32 GMT"
         },
         {
+          "title": "National Pension for All People’s Happiness",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
+          "pubDate": "Sun, 19 Feb 2023 08:19:21 GMT"
+        },
+        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         },
         {
           "title": "수탁자 책임 활동 보고서 영문 09.13(표지 앞뒤).indd",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
           "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
         },
         {
           "title": "Executive Fund Director & Chief Investment Officer",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
         },
         {
           "title": "National Pension Service Investment Management",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
           "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
         }
       ]
     },
@@ -933,12 +933,6 @@
         "query": "site:hostplus.com.au"
       },
       "items": [
-        {
-          "title": "Home",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
-          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
-        },
         {
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
@@ -992,6 +986,12 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUZQbFBuenRESTA4emZGUEtGM01qVG5rbkdrME5GV2MyV2w2Sktaa1I0N2FmNktxeXROc21uN0JyMzFlS3Z4Z0FGcHRCVU1JLWdoV0tlMGNEakY5M2hTRGl0Q2VFdlRQU0xnZlZRTmhOVWhSUm9mbk16cnJMUG96YVZnUm9JUExKclNBeVpFNVFUSDVJQXVvdjhMbks4Q0NJNEdj?oc=5",
           "pubDate": "Tue, 30 Sep 2025 07:00:00 GMT"
+        },
+        {
+          "title": "HOW TO TRANSFER FUNDS FROM A SELF-MANAGED SUPER FUND (SMSF) INTO HOSTPLUS",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVFo0bXg5d3NHdHgxZmt0dnN2SXVoNTJCUDVXYm1BZ3dUVlZKZEpUVS1mYWMxcmh2VUt5UjI0WTVvVl9sWXdJeU52NDM2cjJ1UkNHSWg4X3YwajlxTWJRRnhjazRXaGZQYUduYWYwbk1nN1VIT2NvU3ZnZHVwT1J0YVQwdmRXVUVsdjVpUmpFZVVNX0JfVFN1aUJucUEyMl9IV3J4TE1RSVZfSTMtcHhncVVacnRLS3hfSVlaM1Y3Y2ZmekwtRVdoZWQyRFEydGM?oc=5",
+          "pubDate": "Tue, 16 Dec 2025 10:21:42 GMT"
         }
       ]
     },
@@ -1004,62 +1004,62 @@
       },
       "items": [
         {
-          "title": "Weekly bonds outstanding - 12 June 2026",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wa3VheWNIZlJWV2NMYVJyNUNNTlhRRFc2VFk0M2UwNXZkVmZTT3BFQVQ3TVdYdVZpS1Y3ZGhXekxTOGFRZGNvRlp5Vno3SFNnQ0Joalh4QTFrbFJ1VFFVT3R5VQ?oc=5",
-          "pubDate": "Mon, 15 Jun 2026 19:19:58 GMT"
-        },
-        {
-          "title": "TCorp updates its forecast FY27 term borrowing programme",
-          "source": "TCorp",
+          "title": "TCorp updates its forecast FY27 term borrowing programme - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdTVzaVFWV281N2hDS0hZSHNjWFU3d3RrV2Y0ZU4wSGVXZWxwSDdXVXFpeDFNX1pkVzBfcTcwRzNxU3pTYjlGMmhsR084S1lhVUl5UXoyR3RhQnp2VFl2bDNNMGdBdndGMlljejQwQUJnQ2NIc20xNkhNczdWUE9TWUpBV29VTUtFcXBtSkdhSUg?oc=5",
           "pubDate": "Sun, 28 Jun 2026 15:32:12 GMT"
         },
         {
-          "title": "Weekly economic report",
-          "source": "TCorp",
+          "title": "Weekly bonds outstanding - 12 June 2026 - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wa3VheWNIZlJWV2NMYVJyNUNNTlhRRFc2VFk0M2UwNXZkVmZTT3BFQVQ3TVdYdVZpS1Y3ZGhXekxTOGFRZGNvRlp5Vno3SFNnQ0Joalh4QTFrbFJ1VFFVT3R5VQ?oc=5",
+          "pubDate": "Mon, 15 Jun 2026 19:19:58 GMT"
+        },
+        {
+          "title": "Weekly economic report - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zNUN6RDNPV3drRk91bVJlNkNCX0NhenhPbVo4RjZXMDJTNjREZE92WF9uM0gtTGhxNTBVV3lEMWw4c1plSUhadlEyRFNDZGs3Y2xsLTFfc3FsajZEenYzb3htT2Y4anBud1dERW5pcw?oc=5",
           "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Market announcement",
-          "source": "TCorp",
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeHc4cEloaU5jcnJhdURKR2tvdDJLUXNrM2RlZHk1TmNiV1h4NkJweFJ2UXFvZ21iRnpmRGViSVZKelhXamFaNXdKWEprYUJ3Y2NQU29FQlJZQy03clRfelh1bkFvNUVfSTRpbGpnb3RCNHlNQ2xQMkMtTGhoWWIxZzNXaDBsR1MwREgwYW9KWW10RVVVQmZuUTVUeE0yZG5vWXMyUDZwT3JyWTFHOUhxVUdfSGluZUpKWTRsOFhPWGU?oc=5",
           "pubDate": "Fri, 26 Jun 2026 02:45:27 GMT"
         },
         {
-          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
-          "source": "TCorp",
+          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
           "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "TCorp appoints General Manager, Financial Markets",
-          "source": "TCorp",
+          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
           "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
-          "source": "TCorp",
+          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblVWTGNJdVMyOHVJQjNVc08xdUdObTZ1YlhtZkpSdGkySDQtZU5WMmp0bm85ZnVUZXpiTHg0QnFhQ2hSelMtQVAxdDR3S0Z4LUROUC1QdFljUHkwVGdLQ0VjbjZ6Mmx5QjFKN0l4RnFrOURoNGJQZmMzazB3TDJHbGlJZ2NrV3dwU09YajJDMDE1MlJCbEJRWkZYdF9hN2Z6MjVPVGxyZzNsUExfVzk3cUJJNTIxNkwybkpj?oc=5",
           "pubDate": "Mon, 23 Feb 2026 01:03:21 GMT"
         },
         {
-          "title": "Market announcement",
-          "source": "TCorp",
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Market announcement",
-          "source": "TCorp",
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Market announcement",
-          "source": "TCorp",
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0tOV3JKb0xYRVl1UzRKWG8zQUMtX1dVSGJLb3Z5eklUSnR5YktwR1pDeFN5V2ZIeGJHTUp1UGw4eHhkSzlXbi1FMUlGQkN2UlRyejlaZ05SendxdzcyUnliazFjaTl6VkFabmgxeVV1Tlp6bXZPT3hBdXdPVnlid2NSdXRnUFFUYjZDSm5NUzJ4SmlzeHdsZHBiV2dybE5MQzNTYk94RDcwYmY5QVFyRA?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         }
