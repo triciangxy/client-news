@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T07:35:12Z",
+  "generated_at": "2026-07-02T10:43:21Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.15,
-      "change": 0.7000000000000028,
-      "changePct": 0.979706088173552,
+      "price": 72.8,
+      "change": 1.3499999999999943,
+      "changePct": 1.8894331700489775,
       "currency": "HKD",
       "prevClose": 71.45,
       "dayHigh": 72.95,
@@ -374,6 +374,12 @@
       },
       "items": [
         {
+          "title": "- 신한은행",
+          "source": "",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5COUFZOFZ0Y2dJNjI0SEtwWkZFWW43MTR3bVczTEJRZEM1ZmJlR00wVWN1MEhORWV6T3dpRDJJSlpnclJ6bS1IY19HRzE1ZEZfTlNSUGVYRQ?oc=5",
+          "pubDate": "Fri, 15 Nov 2013 18:04:40 GMT"
+        },
+        {
           "title": "Ethics at Shinhan",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
@@ -426,12 +432,6 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
           "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
-        },
-        {
-          "title": "CODE OF CONDUCT FOR EMPLOYEES",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMWdvWHl6NTUxR0NXYnFYcU5vQzN1S01ETDNLOTh6eHNoMXMxQmZyeGhTSHpMREswTm4xdGp2M1FVdnB1U2RjOWhOUG5pWlRPeG9IZlhEcVRyWFdMcHA0NlFmWngwaHZOem04YkVvZ3dTZVhDR3JSa3pvdUR5bVE?oc=5",
-          "pubDate": "Mon, 29 Jul 2024 14:07:20 GMT"
         }
       ]
     },
@@ -1144,12 +1144,6 @@
       },
       "items": [
         {
-          "title": "FWD | MOHAMMAD NOOR BIN ABDUL MAJID",
-          "source": "ace-ib.fwd.com",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ia2pzREJUWklBREVfaDNVVVo1Mk9QOFlyRm1KalV6OEVoaS11aEFkMWFReWd2ZENHa0hoNDJiUVJQX0dScTk5VU9zREhyTGJxQ2UtbnA1ZDhNN05mR0o2cXNmVnpJLTRSUWJmdWQ0TURPeWQ0NGVmVDlEOUFMWDA?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 07:12:23 GMT"
-        },
-        {
           "title": "- FWD Group",
           "source": "",
           "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9rS0Z2RWtTQTc5QXhvUDA1REFiNVJxRUpmaEcyNkkzaW9ycFhhaWtWZzAtWlNWOXl2S0RSZ3NB?oc=5",
@@ -1202,6 +1196,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
           "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
+        },
+        {
+          "title": "FWD FitForMe | Uncover AI-recommended coverages based on people like you!",
+          "source": "FWD FitForMe",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
+          "pubDate": "Thu, 05 Dec 2024 03:07:27 GMT"
         }
       ]
     },
