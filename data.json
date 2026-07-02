@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T03:50:48Z",
+  "generated_at": "2026-07-02T07:35:12Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.25,
-      "change": 0.7999999999999972,
-      "changePct": 1.119664100769765,
+      "price": 72.15,
+      "change": 0.7000000000000028,
+      "changePct": 0.979706088173552,
       "currency": "HKD",
       "prevClose": 71.45,
       "dayHigh": 72.95,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 102700.0,
-      "change": 6300.0,
-      "changePct": 6.535269709543569,
+      "price": 102200.0,
+      "change": 5800.0,
+      "changePct": 6.016597510373444,
       "currency": "KRW",
       "prevClose": 96400.0,
       "dayHigh": 105000.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6278.0,
-      "change": 158.0,
-      "changePct": 2.5816993464052285,
+      "price": 6260.0,
+      "change": 140.0,
+      "changePct": 2.287581699346405,
       "currency": "JPY",
       "prevClose": 6120.0,
       "dayHigh": 6291.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3167.0,
-      "change": 80.0,
-      "changePct": 2.5915127955944284,
+      "price": 3148.0,
+      "change": 61.0,
+      "changePct": 1.9760285066407515,
       "currency": "JPY",
       "prevClose": 3087.0,
       "dayHigh": 3169.0,
@@ -416,7 +416,7 @@
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
         },
         {
-          "title": "Private Financial Holding Company (2009-2001)",
+          "title": "Giant Step forward for Korea’s #1 Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xSzNjdHVoYnJDWEJLdGE1UnZZRkJ1WS1iMTIwazl0QS1vQUxzMGVKa3ZhNGt4ei1WX1NqY3hmSTlxTGQ2SWNtTzJyb2lWTmljQjJPc1ZnczV2Q29s?oc=5",
           "pubDate": "Mon, 29 Jul 2024 02:43:19 GMT"
@@ -590,16 +590,16 @@
           "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNXItWkMtOExGam1SV3laa1ZkR0J5Z2xtSUdHWHJtSFR5Q1RUaXBfM1NiakZ6ekNoZEZvZFQ5bmRMd1ZsMDFXeF9ORVJ0MTVnQ3diN25zNVo0VlJZWHhkd1ZSWXhKZW00eFlFU3hmX2hCR0FrUGVLTFMySVhFOXVYaXNPNmQ2YzBxd3oyQ1I2c1hSQ3pkaXFveHdqdjFROWhSalRqRFRHVW5fNnlfRXVpZEpCT0tzTGdIbzA1QlJCVUl2eDEydG5BRGVjcFlkWVg4YlprejJrVGZhcER1alNFOFctY2hXeVVDY1Z0dmNpbjR0Zw?oc=5",
-          "pubDate": "Mon, 29 Jun 2026 10:27:14 GMT"
-        },
-        {
           "title": "Legal Counsel, Technology (6 to 8 years PQE) Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDJlVzRoZFFzdEhQOHRhRmNHdWNUV1RzZV9TV1dSS3RFaTdBTzFhZWxkSk1qUFhrMG45REl3cWhJd0FfZTl4VU9qLWJZYW53Z1N4SDFJdU9EeUFFdzVsVjNLYkdfYldCSll0VHhhbl83cFFWeTRhTnVsYmxtdUFGZVVld18xeWQtNzJiWC1XMkVWTkVEVkc0eXZTcmhXcjFibU1F?oc=5",
           "pubDate": "Sat, 20 Jun 2026 07:17:35 GMT"
+        },
+        {
+          "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
+          "pubDate": "Mon, 29 Jun 2026 10:27:14 GMT"
         },
         {
           "title": "Temasek's inaugural Fellow - Advancing capabilities across our ecosystem",
@@ -660,58 +660,58 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
-          "title": "Ramp Raises Series F at $44 Billion Valuation",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2VVaE9yZ3FQckxBZWk0S2hVUzROM3pLNHhaRS04YnVhNmVoa3llcHY4VU0zU1lPU0xpZVRqY080ZjVQejVGLVFIazc5RDQ5aS1QSHR2VlJtTF9qa1JzM3MxZ2N6M1ZOLWVmYzNoY2dJNkk4dkJ5TV82Y1pRQml1REhUb0NaS0Yz?oc=5",
-          "pubDate": "Thu, 04 Jun 2026 12:03:41 GMT"
+          "title": "Associate, Vendor Operations Administrator, Technology Group (1 Year Contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEhoa01hWTUtazJEZ1pTNVg0SDg1bGlnaG1wdW9MOGxhemtKNXBiSjRXS0dPb0tnbGpWNDZpZ0JjRVNfT1FPTEdFN0RYSkZFYWs1WjhIb0l5UU51eWtBb2NnU3plXzBnVV9wUWdBMzVUR2JVRXJYNEx4VVJXTFFuX2dpdUZVMFZ0NXBXckY1cVp1RHpWX0hNczI2NExIeXFWVzRaZkQtaWZSYjZTTk5WZG9yelR2eHJqeWhBcjBQVGVCMDQ1aGhIaTJzWEFMY0pqdEtla3hR?oc=5",
+          "pubDate": "Mon, 15 Jun 2026 15:19:27 GMT"
         },
         {
-          "title": "GIC acquires 25.1% stake in Lendlease International Towers Sydney Trust",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
-          "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
+          "title": "AVP/VP, Investment Tax, Private Markets",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQUpnMGFPRjcwMVpqbDR1YWoyLVh5bTRtVFUyeGNKb2g2Z2NCaWtrbWh4NUdWb1hzZW1KN1ppR2ZqeXJENXFnd2I4Q2lxaWIzSFBrZUVJbV9LSUEzbTVvaERhOFpFZzJvUFA3STRSRWx3ekI2QXdZSmVKWVhKRzVUMGNOUVRfamlVY295RDljSmVtMzBhWklueWtzSQ?oc=5",
+          "pubDate": "Tue, 16 Jun 2026 16:19:35 GMT"
         },
         {
-          "title": "AI's Next Frontier: Data, Talent, and Infrastructure",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkYlp6eU9nLXJpWHZ0aXZOT0M4aVluWVpUVEd3dDhRbmxRUkRyNGpzY0pQUWZ6NklUaXJEb3IwcUlRUllUaExpMWduWklDdGZyc19hT3ZfR0wxOENRVXVFSEVCU1R4ZS1YWUppcg?oc=5",
-          "pubDate": "Fri, 16 Jan 2026 08:00:00 GMT"
+          "title": "AVP, Talent Acquisition (2-year contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
         },
         {
-          "title": "Mark Lee",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
-          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
+          "title": "AVP, Data Analyst, Infrastructure",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMi1wcUxxblYwb1hjTWY1Ynh5WHZYOGZsZ0NBNkphMk0yZEIzY0NuYkpoU2hWb3NtLTBJa0czUmlFM1BaVTZabTBiajNJM0xzdXdUT0ZhZHR2WVZaSFZPNVd3WEV6cDZXSGZWbDZid3hsOGRjR0ZVMDEtZmFjY3dzUzZWUGFOcGVtekhnQzdEcUV3VmhI?oc=5",
+          "pubDate": "Wed, 17 Jun 2026 10:26:02 GMT"
         },
         {
-          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
-          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
+          "title": "Vice President, Business Manager, Internal Audit Department",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS0ltM2FXb3ZDeFVPNGt4Wjl4cjNOMzdBbUoyaDQwdUdDbnBOZ2lCc3BTV0xub01YV1BZUkJKZ0FsTllYeF9MMUhUajlNVEt4WHhWUVJsVzlYQTk5cFBEQ1FnVlFIc1hlb2N6NklOQVNZcXBZbnVVcmVpb3lWSnRJNTVKQVhXOG9jZ1lCcm80c2xaVHJQcHpDTmwxNTRrV3Q0dmtvajlISlBVZ0FvMHhoSzd5M1BHM0E?oc=5",
+          "pubDate": "Tue, 16 Jun 2026 16:18:34 GMT"
         },
         {
-          "title": "Boon Chin Hau",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
-          "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
+          "title": "AVP, Index Operations",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPamJ6YXFuTk5qcmgtRlV1WktoTG5tNjByUW5KaHZndTlBYXNIZHhLS2NKZkZEb1hHclNSX2pxQjBoODNuQ1A3YURTMkJtRDk2WkhmYVAwSkJCVHlmMjVfd1RGdmdMNXpVd2JQcXBqS0VqNUg4QmRPOGpYWGlfNTJiRFF3?oc=5",
+          "pubDate": "Fri, 26 Jun 2026 01:25:58 GMT"
         },
         {
-          "title": "Deepak Parekh",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
+          "title": "Associate/ AVP, Talent & Organization Strategy",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1k1UHZyQ2RQeUJFazJ2cjBUV3BBUm53Rlo1RVpkRTVkYWpmR2ZPUzFtd3BFOHdkMjZSUU9xNTBBX3EtNjJqR1ZJMVRaQmQ3UTJsRFFUOHFZM3pkcEZtTExxQ0F6WHhmM2h1QXdyZGZnMkgwLUJfclhteXFqTncxQkpoM2dKY1RfRXU0MGg2TTg5c2NBVjdnbDFfRXNZc3pUTWc?oc=5",
+          "pubDate": "Tue, 16 Jun 2026 16:29:41 GMT"
         },
         {
-          "title": "Carsten Stendevad",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
-          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
+          "title": "VP, Credit Analyst, Alternative Credit Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUl6aFNYdUxPQVN1cm9Tb1ExbnJ5YVktYnVpYjRLTlg0TGFXZTBBaFUyWlg4ZWtSaWdNRHhnVDcyN1N5b2szMzlVc29GYnRSQjJJUWJzdXdJZGJaUzZ0aGZNQWxpUDRhWUlqS3NYSTBMNUplaTVoUVczQWZQNzVTVG5XMVk3U1lpczMxZlAzdEZZbUVGRnlTZ3M0VTBUNlU?oc=5",
+          "pubDate": "Sat, 27 Jun 2026 02:23:22 GMT"
         },
         {
-          "title": "CPPIB, GIC and The Scion Group Acquire 24 U.S. Student Housing Properties for US$1.1 Billion",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYmNURUFvSlREODBJbEJZc1RhQmZGc3JoeGp3MHd4Slk5WVl2YWNac201bTBWSWZfdmx5V0JYWWNId2p3ckR4VjdYTXAydVFvb1ZzLXBycWxqWXFXcDR3eHRxazRZenRVd0YzUFdXa1E2N1gtMEdFM25KcWUwQ29neUtKZ0hpelJMUkVjY3JhSk81NG1pU2hlYnlCZ3k2VmhhVW5EQ0xKREhHaGdYbVZCUXVaYnVHQXZMMzRlQ0RBQkpZSkx1N2c?oc=5",
-          "pubDate": "Wed, 03 Jan 2018 08:00:00 GMT"
+          "title": "Associate, Real Estate, Asia Strategic Investments - Equity focus",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVpKV01HOXVieXVIMGFtQ2pHdXR4SVg4T0c4cUQ4cl9OaGlOX2hlQXFPOVhBNWNDWWdicXBIZ0t2ODlSc09EUTNlTUFRTnFaMDZpOHpWZkxPN29wUDlPel8zUFVueC0wMHo2ZWxoa2t2eHB2MVpZTTNBeGl3ZEstbHpmMkU4YXJPMjA2R2wzdnpKOTBzQm5sVEhxS0c4cW5CU2IwUVZicWFfUW50OWNJT0hpOUhrUWZqVC1BbA?oc=5",
+          "pubDate": "Sun, 28 Jun 2026 14:42:40 GMT"
         }
       ]
     },
@@ -1058,10 +1058,10 @@
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Market announcement",
+          "title": "TCorp economic podcast",
           "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0tOV3JKb0xYRVl1UzRKWG8zQUMtX1dVSGJLb3Z5eklUSnR5YktwR1pDeFN5V2ZIeGJHTUp1UGw4eHhkSzlXbi1FMUlGQkN2UlRyejlaZ05SendxdzcyUnliazFjaTl6VkFabmgxeVV1Tlp6bXZPT3hBdXdPVnlid2NSdXRnUFFUYjZDSm5NUzJ4SmlzeHdsZHBiV2dybE5MQzNTYk94RDcwYmY5QVFyRA?oc=5",
-          "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -1156,16 +1156,16 @@
           "pubDate": "Tue, 30 Jun 2026 06:44:44 GMT"
         },
         {
-          "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
-          "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "FWD Code of Ethics and Business Conduct",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZmQ2MjROOFdjeXdPaDdldHFaT2d0MjdUc2o1MVc1NGVXcG43aVBHbW1YWmI3ZXFvM2pNTWlJSHVpdFZVU1htN3BGRVlPaUVBb3JhRWNMeGs0bGRYd1JJNWNwRmtjN1IxWjk2MTd4NFFFQXhDakdfT1NQdGtpQ3RSNEsxLTFkV2pCNzd3NTNFdEtST3dEdnh1OEQ2a0x5SmdLcUNlbW5pQnM0SkF0VkJPZkwxR1NQVGVmRjRUd01pdmVjTXRORmVyek5VU0RmN2M4dU5BOEF4aGRMSjFlZzMtanpmVQ?oc=5",
           "pubDate": "Mon, 08 Jun 2026 05:16:34 GMT"
+        },
+        {
+          "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
+          "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Code of Ethics and Business Conduct v3",
