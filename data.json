@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T12:10:42Z",
+  "generated_at": "2026-07-02T03:50:48Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.45,
-      "change": -0.75,
-      "changePct": -1.0387811634349031,
+      "price": 72.25,
+      "change": 0.7999999999999972,
+      "changePct": 1.119664100769765,
       "currency": "HKD",
-      "prevClose": 72.2,
-      "dayHigh": 72.4,
-      "dayLow": 70.9,
+      "prevClose": 71.45,
+      "dayHigh": 72.95,
+      "dayLow": 70.5,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 96400.0,
-      "change": 600.0,
-      "changePct": 0.6263048016701461,
+      "price": 102700.0,
+      "change": 6300.0,
+      "changePct": 6.535269709543569,
       "currency": "KRW",
-      "prevClose": 95800.0,
-      "dayHigh": 98800.0,
-      "dayLow": 94500.0,
+      "prevClose": 96400.0,
+      "dayHigh": 105000.0,
+      "dayLow": 94000.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6120.0,
-      "change": 63.0,
-      "changePct": 1.040118870728083,
+      "price": 6278.0,
+      "change": 158.0,
+      "changePct": 2.5816993464052285,
       "currency": "JPY",
-      "prevClose": 6057.0,
-      "dayHigh": 6170.0,
-      "dayLow": 6071.0,
+      "prevClose": 6120.0,
+      "dayHigh": 6291.0,
+      "dayLow": 6153.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3087.0,
-      "change": 24.0,
-      "changePct": 0.7835455435847208,
+      "price": 3167.0,
+      "change": 80.0,
+      "changePct": 2.5915127955944284,
       "currency": "JPY",
-      "prevClose": 3063.0,
-      "dayHigh": 3123.0,
-      "dayLow": 3074.0,
+      "prevClose": 3087.0,
+      "dayHigh": 3169.0,
+      "dayLow": 3114.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -374,13 +374,7 @@
       },
       "items": [
         {
-          "title": "- 신한은행",
-          "source": "",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5COUFZOFZ0Y2dJNjI0SEtwWkZFWW43MTR3bVczTEJRZEM1ZmJlR00wVWN1MEhORWV6T3dpRDJJSlpnclJ6bS1IY19HRzE1ZEZfTlNSUGVYRQ?oc=5",
-          "pubDate": "Fri, 15 Nov 2013 18:04:40 GMT"
-        },
-        {
-          "title": "Shinhan Financial Group-Investor Relations",
+          "title": "Ethics at Shinhan",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
           "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
@@ -392,7 +386,7 @@
           "pubDate": "Mon, 22 Jul 2024 02:29:29 GMT"
         },
         {
-          "title": "Shinhan Financial Group",
+          "title": "Innovation Leader, Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
@@ -416,7 +410,7 @@
           "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
         },
         {
-          "title": "Shinhan Financial Group-Annual Report",
+          "title": "Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPVHB3M181ZTZfTS1DRGw2dmdZWHoyWGJ5eHFoUEtQWEhCV3dzNnpKdTI2WVhfZER3dXBOU3dwSFBxRldFRTJjNV8yY1lsTzZBaWVSLU5MMm9vZ29lZlpVVQ?oc=5",
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
@@ -432,6 +426,12 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
           "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
+        },
+        {
+          "title": "CODE OF CONDUCT FOR EMPLOYEES",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMWdvWHl6NTUxR0NXYnFYcU5vQzN1S01ETDNLOTh6eHNoMXMxQmZyeGhTSHpMREswTm4xdGp2M1FVdnB1U2RjOWhOUG5pWlRPeG9IZlhEcVRyWFdMcHA0NlFmWngwaHZOem04YkVvZ3dTZVhDR3JSa3pvdUR5bVE?oc=5",
+          "pubDate": "Mon, 29 Jul 2024 14:07:20 GMT"
         }
       ]
     },
@@ -660,58 +660,58 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
-          "title": "Associate, Vendor Operations Administrator, Technology Group (1 Year Contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEhoa01hWTUtazJEZ1pTNVg0SDg1bGlnaG1wdW9MOGxhemtKNXBiSjRXS0dPb0tnbGpWNDZpZ0JjRVNfT1FPTEdFN0RYSkZFYWs1WjhIb0l5UU51eWtBb2NnU3plXzBnVV9wUWdBMzVUR2JVRXJYNEx4VVJXTFFuX2dpdUZVMFZ0NXBXckY1cVp1RHpWX0hNczI2NExIeXFWVzRaZkQtaWZSYjZTTk5WZG9yelR2eHJqeWhBcjBQVGVCMDQ1aGhIaTJzWEFMY0pqdEtla3hR?oc=5",
-          "pubDate": "Mon, 15 Jun 2026 15:19:27 GMT"
+          "title": "Ramp Raises Series F at $44 Billion Valuation",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2VVaE9yZ3FQckxBZWk0S2hVUzROM3pLNHhaRS04YnVhNmVoa3llcHY4VU0zU1lPU0xpZVRqY080ZjVQejVGLVFIazc5RDQ5aS1QSHR2VlJtTF9qa1JzM3MxZ2N6M1ZOLWVmYzNoY2dJNkk4dkJ5TV82Y1pRQml1REhUb0NaS0Yz?oc=5",
+          "pubDate": "Thu, 04 Jun 2026 12:03:41 GMT"
         },
         {
-          "title": "AVP/VP, Investment Tax, Private Markets",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQUpnMGFPRjcwMVpqbDR1YWoyLVh5bTRtVFUyeGNKb2g2Z2NCaWtrbWh4NUdWb1hzZW1KN1ppR2ZqeXJENXFnd2I4Q2lxaWIzSFBrZUVJbV9LSUEzbTVvaERhOFpFZzJvUFA3STRSRWx3ekI2QXdZSmVKWVhKRzVUMGNOUVRfamlVY295RDljSmVtMzBhWklueWtzSQ?oc=5",
-          "pubDate": "Tue, 16 Jun 2026 16:19:35 GMT"
+          "title": "GIC acquires 25.1% stake in Lendlease International Towers Sydney Trust",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
+          "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
         },
         {
-          "title": "AVP, Talent Acquisition (2-year contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
+          "title": "AI's Next Frontier: Data, Talent, and Infrastructure",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkYlp6eU9nLXJpWHZ0aXZOT0M4aVluWVpUVEd3dDhRbmxRUkRyNGpzY0pQUWZ6NklUaXJEb3IwcUlRUllUaExpMWduWklDdGZyc19hT3ZfR0wxOENRVXVFSEVCU1R4ZS1YWUppcg?oc=5",
+          "pubDate": "Fri, 16 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "AVP, Data Analyst, Infrastructure",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMi1wcUxxblYwb1hjTWY1Ynh5WHZYOGZsZ0NBNkphMk0yZEIzY0NuYkpoU2hWb3NtLTBJa0czUmlFM1BaVTZabTBiajNJM0xzdXdUT0ZhZHR2WVZaSFZPNVd3WEV6cDZXSGZWbDZid3hsOGRjR0ZVMDEtZmFjY3dzUzZWUGFOcGVtekhnQzdEcUV3VmhI?oc=5",
-          "pubDate": "Wed, 17 Jun 2026 10:26:02 GMT"
+          "title": "Mark Lee",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
+          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
         },
         {
-          "title": "Vice President, Business Manager, Internal Audit Department",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS0ltM2FXb3ZDeFVPNGt4Wjl4cjNOMzdBbUoyaDQwdUdDbnBOZ2lCc3BTV0xub01YV1BZUkJKZ0FsTllYeF9MMUhUajlNVEt4WHhWUVJsVzlYQTk5cFBEQ1FnVlFIc1hlb2N6NklOQVNZcXBZbnVVcmVpb3lWSnRJNTVKQVhXOG9jZ1lCcm80c2xaVHJQcHpDTmwxNTRrV3Q0dmtvajlISlBVZ0FvMHhoSzd5M1BHM0E?oc=5",
-          "pubDate": "Tue, 16 Jun 2026 16:18:34 GMT"
+          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
+          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
         },
         {
-          "title": "AVP, Index Operations",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPamJ6YXFuTk5qcmgtRlV1WktoTG5tNjByUW5KaHZndTlBYXNIZHhLS2NKZkZEb1hHclNSX2pxQjBoODNuQ1A3YURTMkJtRDk2WkhmYVAwSkJCVHlmMjVfd1RGdmdMNXpVd2JQcXBqS0VqNUg4QmRPOGpYWGlfNTJiRFF3?oc=5",
-          "pubDate": "Fri, 26 Jun 2026 01:25:58 GMT"
+          "title": "Boon Chin Hau",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
+          "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
         },
         {
-          "title": "Associate/ AVP, Talent & Organization Strategy",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1k1UHZyQ2RQeUJFazJ2cjBUV3BBUm53Rlo1RVpkRTVkYWpmR2ZPUzFtd3BFOHdkMjZSUU9xNTBBX3EtNjJqR1ZJMVRaQmQ3UTJsRFFUOHFZM3pkcEZtTExxQ0F6WHhmM2h1QXdyZGZnMkgwLUJfclhteXFqTncxQkpoM2dKY1RfRXU0MGg2TTg5c2NBVjdnbDFfRXNZc3pUTWc?oc=5",
-          "pubDate": "Tue, 16 Jun 2026 16:29:41 GMT"
+          "title": "Deepak Parekh",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         },
         {
-          "title": "Analyst/Associate, Workplace Security (1-year contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWotV0ZBblg2bldscmlxQjhVRWZzOGp4b3dxZ2VvR2VLc215QUlDbEdDZ0dVVHlGdzlVbjhGZlJXaVhEZ2ZlcHlYMzlQVWY5eFZXUWZHUC1XZG1mQVUxZURfRFNvZW9BZmV0OFNGQktOR3VJbmk3SHUwZW5Pa2F6d3FpUm1IV0lFLU1GNDlzbmp5YkhXb0hWT1J2aEdhai0wSVNobG9pZjNzbmV3ekVSQVhfaw?oc=5",
-          "pubDate": "Fri, 19 Jun 2026 05:49:07 GMT"
+          "title": "Carsten Stendevad",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
+          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
         },
         {
-          "title": "VP, Credit Analyst, Alternative Credit Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUl6aFNYdUxPQVN1cm9Tb1ExbnJ5YVktYnVpYjRLTlg0TGFXZTBBaFUyWlg4ZWtSaWdNRHhnVDcyN1N5b2szMzlVc29GYnRSQjJJUWJzdXdJZGJaUzZ0aGZNQWxpUDRhWUlqS3NYSTBMNUplaTVoUVczQWZQNzVTVG5XMVk3U1lpczMxZlAzdEZZbUVGRnlTZ3M0VTBUNlU?oc=5",
-          "pubDate": "Sat, 27 Jun 2026 02:23:22 GMT"
+          "title": "CPPIB, GIC and The Scion Group Acquire 24 U.S. Student Housing Properties for US$1.1 Billion",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYmNURUFvSlREODBJbEJZc1RhQmZGc3JoeGp3MHd4Slk5WVl2YWNac201bTBWSWZfdmx5V0JYWWNId2p3ckR4VjdYTXAydVFvb1ZzLXBycWxqWXFXcDR3eHRxazRZenRVd0YzUFdXa1E2N1gtMEdFM25KcWUwQ29neUtKZ0hpelJMUkVjY3JhSk81NG1pU2hlYnlCZ3k2VmhhVW5EQ0xKREhHaGdYbVZCUXVaYnVHQXZMMzRlQ0RBQkpZSkx1N2c?oc=5",
+          "pubDate": "Wed, 03 Jan 2018 08:00:00 GMT"
         }
       ]
     },
@@ -894,12 +894,6 @@
           "pubDate": "Sat, 12 Jul 2025 15:10:32 GMT"
         },
         {
-          "title": "National Pension for All People’s Happiness",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
-          "pubDate": "Sun, 19 Feb 2023 08:19:21 GMT"
-        },
-        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -922,6 +916,12 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
           "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
+        },
+        {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
+          "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
         }
       ]
     },
@@ -1004,62 +1004,62 @@
       },
       "items": [
         {
-          "title": "TCorp updates its forecast FY27 term borrowing programme - TCorp",
-          "source": "NSW Government",
+          "title": "TCorp updates its forecast FY27 term borrowing programme",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdTVzaVFWV281N2hDS0hZSHNjWFU3d3RrV2Y0ZU4wSGVXZWxwSDdXVXFpeDFNX1pkVzBfcTcwRzNxU3pTYjlGMmhsR084S1lhVUl5UXoyR3RhQnp2VFl2bDNNMGdBdndGMlljejQwQUJnQ2NIc20xNkhNczdWUE9TWUpBV29VTUtFcXBtSkdhSUg?oc=5",
           "pubDate": "Sun, 28 Jun 2026 15:32:12 GMT"
         },
         {
-          "title": "Weekly bonds outstanding - 12 June 2026 - TCorp",
-          "source": "NSW Government",
+          "title": "Weekly bonds outstanding - 12 June 2026",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wa3VheWNIZlJWV2NMYVJyNUNNTlhRRFc2VFk0M2UwNXZkVmZTT3BFQVQ3TVdYdVZpS1Y3ZGhXekxTOGFRZGNvRlp5Vno3SFNnQ0Joalh4QTFrbFJ1VFFVT3R5VQ?oc=5",
           "pubDate": "Mon, 15 Jun 2026 19:19:58 GMT"
         },
         {
-          "title": "Weekly economic report - TCorp",
-          "source": "NSW Government",
+          "title": "Weekly economic report",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zNUN6RDNPV3drRk91bVJlNkNCX0NhenhPbVo4RjZXMDJTNjREZE92WF9uM0gtTGhxNTBVV3lEMWw4c1plSUhadlEyRFNDZGs3Y2xsLTFfc3FsajZEenYzb3htT2Y4anBud1dERW5pcw?oc=5",
           "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
+          "title": "Market announcement",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeHc4cEloaU5jcnJhdURKR2tvdDJLUXNrM2RlZHk1TmNiV1h4NkJweFJ2UXFvZ21iRnpmRGViSVZKelhXamFaNXdKWEprYUJ3Y2NQU29FQlJZQy03clRfelh1bkFvNUVfSTRpbGpnb3RCNHlNQ2xQMkMtTGhoWWIxZzNXaDBsR1MwREgwYW9KWW10RVVVQmZuUTVUeE0yZG5vWXMyUDZwT3JyWTFHOUhxVUdfSGluZUpKWTRsOFhPWGU?oc=5",
           "pubDate": "Fri, 26 Jun 2026 02:45:27 GMT"
         },
         {
-          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
-          "source": "NSW Government",
+          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
           "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
-          "source": "NSW Government",
+          "title": "TCorp appoints General Manager, Financial Markets",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
           "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
-          "source": "NSW Government",
+          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblVWTGNJdVMyOHVJQjNVc08xdUdObTZ1YlhtZkpSdGkySDQtZU5WMmp0bm85ZnVUZXpiTHg0QnFhQ2hSelMtQVAxdDR3S0Z4LUROUC1QdFljUHkwVGdLQ0VjbjZ6Mmx5QjFKN0l4RnFrOURoNGJQZmMzazB3TDJHbGlJZ2NrV3dwU09YajJDMDE1MlJCbEJRWkZYdF9hN2Z6MjVPVGxyZzNsUExfVzk3cUJJNTIxNkwybkpj?oc=5",
           "pubDate": "Mon, 23 Feb 2026 01:03:21 GMT"
         },
         {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
+          "title": "Market announcement",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
+          "title": "Market announcement",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
+          "title": "Market announcement",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0tOV3JKb0xYRVl1UzRKWG8zQUMtX1dVSGJLb3Z5eklUSnR5YktwR1pDeFN5V2ZIeGJHTUp1UGw4eHhkSzlXbi1FMUlGQkN2UlRyejlaZ05SendxdzcyUnliazFjaTl6VkFabmgxeVV1Tlp6bXZPT3hBdXdPVnlid2NSdXRnUFFUYjZDSm5NUzJ4SmlzeHdsZHBiV2dybE5MQzNTYk94RDcwYmY5QVFyRA?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         }
