@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T07:23:10Z",
+  "generated_at": "2026-07-03T10:14:09Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.4,
-      "change": 0.6000000000000085,
-      "changePct": 0.824175824175836,
+      "price": 73.25,
+      "change": 0.45000000000000284,
+      "changePct": 0.618131868131872,
       "currency": "HKD",
       "prevClose": 72.8,
       "dayHigh": 74.75,
@@ -666,6 +666,12 @@
           "pubDate": "Tue, 16 Jun 2026 16:19:35 GMT"
         },
         {
+          "title": "AVP, Talent Acquisition (2-year contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
+        },
+        {
           "title": "AVP, Data Analyst, Infrastructure",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMi1wcUxxblYwb1hjTWY1Ynh5WHZYOGZsZ0NBNkphMk0yZEIzY0NuYkpoU2hWb3NtLTBJa0czUmlFM1BaVTZabTBiajNJM0xzdXdUT0ZhZHR2WVZaSFZPNVd3WEV6cDZXSGZWbDZid3hsOGRjR0ZVMDEtZmFjY3dzUzZWUGFOcGVtekhnQzdEcUV3VmhI?oc=5",
@@ -690,6 +696,12 @@
           "pubDate": "Tue, 16 Jun 2026 16:29:41 GMT"
         },
         {
+          "title": "AVP, Production Support Engineer (Front Office)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeE16U2N2Y05KcU5ZYlR3bG1JcDFPcjRPejBzWU9wcnRZNkVBOWpXMkp6Z2x4dUt1WnNDVFh0T0hGb1ZMSWdlaDFwMmZrMXhkcUt5RVpORVl4dVNvOXhwMTlZcmFHSnI2aE1ibmdHVmVScHlwTk5STkt5QzBqeVRXc3dwS0hDV3cwdEdYSHREelBhRlJCUktmejR1SnYwak5Kajl5OWZqek0?oc=5",
+          "pubDate": "Thu, 02 Jul 2026 22:13:23 GMT"
+        },
+        {
           "title": "VP, Credit Analyst, Alternative Credit Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUl6aFNYdUxPQVN1cm9Tb1ExbnJ5YVktYnVpYjRLTlg0TGFXZTBBaFUyWlg4ZWtSaWdNRHhnVDcyN1N5b2szMzlVc29GYnRSQjJJUWJzdXdJZGJaUzZ0aGZNQWxpUDRhWUlqS3NYSTBMNUplaTVoUVczQWZQNzVTVG5XMVk3U1lpczMxZlAzdEZZbUVGRnlTZ3M0VTBUNlU?oc=5",
@@ -700,18 +712,6 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVpKV01HOXVieXVIMGFtQ2pHdXR4SVg4T0c4cUQ4cl9OaGlOX2hlQXFPOVhBNWNDWWdicXBIZ0t2ODlSc09EUTNlTUFRTnFaMDZpOHpWZkxPN29wUDlPel8zUFVueC0wMHo2ZWxoa2t2eHB2MVpZTTNBeGl3ZEstbHpmMkU4YXJPMjA2R2wzdnpKOTBzQm5sVEhxS0c4cW5CU2IwUVZicWFfUW50OWNJT0hpOUhrUWZqVC1BbA?oc=5",
           "pubDate": "Sun, 28 Jun 2026 14:42:40 GMT"
-        },
-        {
-          "title": "Associate/AVP, Securities Operations",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcDdJV2NGZktpNm1JMXhsOF9JM2c5eGJRallndWg5dEVBaFVpVGptaVFLcEU5N19JanpaaU40QjM5M0tSaHlINVF4czVNbU5oTm91SEY1NTBWdWcxTER5TGJ2RHZhdU5fcEtRMjBveVRnQjVaQjNlVWl4MFhOQXNSUGJxNzRqaExKMVUxT3J3Y3IxUzBN?oc=5",
-          "pubDate": "Tue, 23 Jun 2026 18:55:45 GMT"
-        },
-        {
-          "title": "VP, Risk Quantitative Analyst",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT2FqUy1FMzFVUGg0VGlQaTVBYm9PWHNtQ0tUaVlXTUZRYVM2UmpScEZqWjJ1RGMwZjliVmZrY0FjQUxVSGFXX3Vla0luTFR2NzNMc3BwQ3B6ekE2WTNGNV9sNkpENnpUQ09rOG44T01QN3VXYldVWlVGNk1OX3RNYmk3RmttZFVwNkxLRGJjM0ZkTnNiN1VLTnRwQWZLMVdMOU1qa3JsY3VfVU5adWFHMUlFOWJjRFROQnE0MDBIa1VkNXdsb2NZaVFVc2dVMGoxRjI0?oc=5",
-          "pubDate": "Tue, 23 Jun 2026 13:17:26 GMT"
         }
       ]
     },
@@ -888,7 +888,7 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
-          "title": "Established the National Pension Corporation",
+          "title": "National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdU9yQ1pXYkgzNjZSaFV1WGVReUVQdzV1ZlczSXlCNHpYOEFsSDVsRGx0eHVwLUZXYnFXQy16QUlPd0UyZ2FOb25UMG9wakxMemRWTExUeWVkRnNHSk5ZTzA0UUhFbnZlRjdFMGMzeklNQTlYMWVDZmw4c3drWjVhY3gwRXJDX3dX?oc=5",
           "pubDate": "Sat, 12 Jul 2025 15:10:32 GMT"
