@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T03:31:50Z",
+  "generated_at": "2026-07-03T07:23:10Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.45,
-      "change": 0.6500000000000057,
-      "changePct": 0.8928571428571506,
+      "price": 73.4,
+      "change": 0.6000000000000085,
+      "changePct": 0.824175824175836,
       "currency": "HKD",
       "prevClose": 72.8,
       "dayHigh": 74.75,
@@ -266,15 +266,15 @@
       "changePct": 4.990215264187866,
       "currency": "KRW",
       "prevClose": 102200.0,
-      "dayHigh": 107800.0,
+      "dayHigh": 108000.0,
       "dayLow": 103100.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6358.0,
-      "change": 98.0,
-      "changePct": 1.5654952076677318,
+      "price": 6326.0,
+      "change": 66.0,
+      "changePct": 1.0543130990415337,
       "currency": "JPY",
       "prevClose": 6260.0,
       "dayHigh": 6377.0,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3191.0,
-      "change": 43.0,
-      "changePct": 1.3659466327827192,
+      "price": 3230.0,
+      "change": 82.0,
+      "changePct": 2.6048284625158833,
       "currency": "JPY",
       "prevClose": 3148.0,
-      "dayHigh": 3218.0,
+      "dayHigh": 3230.0,
       "dayLow": 3156.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -380,7 +380,7 @@
           "pubDate": "Fri, 15 Nov 2013 18:04:40 GMT"
         },
         {
-          "title": "Ethics at Shinhan",
+          "title": "Shinhan Financial Group-Investor Relations",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
           "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
@@ -660,22 +660,10 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
-          "title": "Associate, Vendor Operations Administrator, Technology Group (1 Year Contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEhoa01hWTUtazJEZ1pTNVg0SDg1bGlnaG1wdW9MOGxhemtKNXBiSjRXS0dPb0tnbGpWNDZpZ0JjRVNfT1FPTEdFN0RYSkZFYWs1WjhIb0l5UU51eWtBb2NnU3plXzBnVV9wUWdBMzVUR2JVRXJYNEx4VVJXTFFuX2dpdUZVMFZ0NXBXckY1cVp1RHpWX0hNczI2NExIeXFWVzRaZkQtaWZSYjZTTk5WZG9yelR2eHJqeWhBcjBQVGVCMDQ1aGhIaTJzWEFMY0pqdEtla3hR?oc=5",
-          "pubDate": "Mon, 15 Jun 2026 15:19:27 GMT"
-        },
-        {
           "title": "AVP/VP, Investment Tax, Private Markets",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQUpnMGFPRjcwMVpqbDR1YWoyLVh5bTRtVFUyeGNKb2g2Z2NCaWtrbWh4NUdWb1hzZW1KN1ppR2ZqeXJENXFnd2I4Q2lxaWIzSFBrZUVJbV9LSUEzbTVvaERhOFpFZzJvUFA3STRSRWx3ekI2QXdZSmVKWVhKRzVUMGNOUVRfamlVY295RDljSmVtMzBhWklueWtzSQ?oc=5",
           "pubDate": "Tue, 16 Jun 2026 16:19:35 GMT"
-        },
-        {
-          "title": "AVP, Talent Acquisition (2-year contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
         },
         {
           "title": "AVP, Data Analyst, Infrastructure",
@@ -712,6 +700,18 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVpKV01HOXVieXVIMGFtQ2pHdXR4SVg4T0c4cUQ4cl9OaGlOX2hlQXFPOVhBNWNDWWdicXBIZ0t2ODlSc09EUTNlTUFRTnFaMDZpOHpWZkxPN29wUDlPel8zUFVueC0wMHo2ZWxoa2t2eHB2MVpZTTNBeGl3ZEstbHpmMkU4YXJPMjA2R2wzdnpKOTBzQm5sVEhxS0c4cW5CU2IwUVZicWFfUW50OWNJT0hpOUhrUWZqVC1BbA?oc=5",
           "pubDate": "Sun, 28 Jun 2026 14:42:40 GMT"
+        },
+        {
+          "title": "Associate/AVP, Securities Operations",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcDdJV2NGZktpNm1JMXhsOF9JM2c5eGJRallndWg5dEVBaFVpVGptaVFLcEU5N19JanpaaU40QjM5M0tSaHlINVF4czVNbU5oTm91SEY1NTBWdWcxTER5TGJ2RHZhdU5fcEtRMjBveVRnQjVaQjNlVWl4MFhOQXNSUGJxNzRqaExKMVUxT3J3Y3IxUzBN?oc=5",
+          "pubDate": "Tue, 23 Jun 2026 18:55:45 GMT"
+        },
+        {
+          "title": "VP, Risk Quantitative Analyst",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT2FqUy1FMzFVUGg0VGlQaTVBYm9PWHNtQ0tUaVlXTUZRYVM2UmpScEZqWjJ1RGMwZjliVmZrY0FjQUxVSGFXX3Vla0luTFR2NzNMc3BwQ3B6ekE2WTNGNV9sNkpENnpUQ09rOG44T01QN3VXYldVWlVGNk1OX3RNYmk3RmttZFVwNkxLRGJjM0ZkTnNiN1VLTnRwQWZLMVdMOU1qa3JsY3VfVU5adWFHMUlFOWJjRFROQnE0MDBIa1VkNXdsb2NZaVFVc2dVMGoxRjI0?oc=5",
+          "pubDate": "Tue, 23 Jun 2026 13:17:26 GMT"
         }
       ]
     },
@@ -906,6 +906,12 @@
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         },
         {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbmI1UXU3cVUzRjlOeEdLNjZsN19velN6WktSaE9TOFhqNDFlVzQ1N2hsQ2phMnc3WEI0U3JLYk1NdzVWdWxDdS1LNVg5MkxxQjJ5UV96dXduLXRzWFNpcVhDTkFYX1FocUNoZGRkTlFsOHUzcXVNQ3h1aWxWVXBOMDZJQ0k2VWxEX3lpME40WU9aUQ?oc=5",
+          "pubDate": "Wed, 07 May 2025 04:17:22 GMT"
+        },
+        {
           "title": "수탁자 책임 활동 보고서 영문 09.13(표지 앞뒤).indd",
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
@@ -916,12 +922,6 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
-        },
-        {
-          "title": "National Pension Service Investment Management",
-          "source": "기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
-          "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
         }
       ]
     },
@@ -1016,6 +1016,12 @@
           "pubDate": "Sun, 28 Jun 2026 15:32:12 GMT"
         },
         {
+          "title": "Weekly bonds outstanding - 26 June 2026",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5TTEY5ZXhOQm1RWkNrMktGR1k1UlpvZ1NTa1JXQVR1UlZRNUt1bWtHcFhuMHhKSzNfS2tkUkcyOW5CdFVtanNPNTllSzVMbXZPNDZzUmp5X0NyMFFjaEwwZFQ3MA?oc=5",
+          "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT"
+        },
+        {
           "title": "Weekly economic report",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zNUN6RDNPV3drRk91bVJlNkNCX0NhenhPbVo4RjZXMDJTNjREZE92WF9uM0gtTGhxNTBVV3lEMWw4c1plSUhadlEyRFNDZGs3Y2xsLTFfc3FsajZEenYzb3htT2Y4anBud1dERW5pcw?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
-        },
-        {
-          "title": "TCorp economic podcast",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
-          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
