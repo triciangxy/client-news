@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T08:23:29Z",
+  "generated_at": "2026-07-06T12:24:28Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.85,
-      "change": 0.5999999999999943,
-      "changePct": 0.8191126279863403,
+      "price": 74.0,
+      "change": 0.75,
+      "changePct": 1.023890784982935,
       "currency": "HKD",
       "prevClose": 73.25,
       "dayHigh": 74.6,
@@ -304,6 +304,12 @@
       },
       "items": [
         {
+          "title": "VPP Login",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KQTNWdUZMX0ZfdS15clN4d09oUU9OZXF0Q3cxblNna1c0SGNPZmd5TENIajFZNmJzSExmSF83eEVZMkozZGw0T1pUdWFsSU0xa2NYaW9hQUZZNjFUbGZmczNoS24xZjBFcG1xeDluRQ?oc=5",
+          "pubDate": "Sat, 21 Jun 2025 01:36:38 GMT"
+        },
+        {
           "title": "Insights and Views",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBONml3Q3dzdTRueU4zelp4NXFaOVVjUkF2THl5MHhSRWpTMHl6R2FhajA5UFQ4Q0lfWnpnclhmS2N3UGdvb0RIbzg4U2IzajBmejFHQTRCak82eTRUNXdFUTQ0SFo?oc=5",
@@ -334,6 +340,12 @@
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
+          "title": "AIA Group Press Release_ENG_6 June 2025",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNGlZM29xTDRxcUg4cUduQWExdTN2MjJhUzZ1OTV2WnZiTFpoR3FzWS1GREI3ZkFzcTdSVE51eFNlTHJhUk4talpNNlVIYVlMVnBuVVUtMTJEZlJSM0ExaWkyVzI2cl9wVzI0VGJqUlFBR2l1d1daeEc1bmxnbEtqSS1zSC1sOUhzcUFfODd2bHBreHl0S2MtQU9RNXctWDg4b0tZbUpmSm1GcjRldzJvVTBMbHdHWF9GSm9lSjFZZHg?oc=5",
+          "pubDate": "Fri, 06 Jun 2025 07:00:00 GMT"
+        },
+        {
           "title": "How financial planning can help your small business",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
@@ -350,18 +362,6 @@
           "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
-        },
-        {
-          "title": "Healthy Finances",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1S2lEdDJRMnNDQU02M2s1ZFlqUTVYdnR2VDVEMWQyV1ZtdDh0bzE0ZG1SWURueUxucDR5MGNGWm91RW91a0dEb2hGQno5TW40bnRub25KV0tLVGY4ZDFhaGlvSkdlTksyajBfclhObTMzdVZ5d0VlS3d3?oc=5",
-          "pubDate": "Fri, 22 Jul 2022 04:22:23 GMT"
-        },
-        {
-          "title": "AIA Investment Management and Trust Corporation Philippines AIA Peso Money Market Fund KEY INFORMATION AND INVESTMENT DISCLOSURE",
-          "source": "investment.aia.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR21TandpUkZqemR6bnR1V0R6Qk50VlVqaUFGSEFwRVNua2xQajR2TnBOLW5HMGdEd1dYalZlZmdqXzAyaml2YWEyRVlVTWdORFRWMkVzZWxfNm5KNGMzamJ2Y19NX0N5eGw1M0ZRbEJqdVRLQ2RHamM0Z2lsWGQ2NUliMFNxYmJUNHdITlI3SDlpZmxNTFNHazFncnhGaW9zNC03YWZoWURuNXNIV1c2QVlBaEs4OFNidjVCQ0I0MkpXbnM?oc=5",
-          "pubDate": "Thu, 24 Jul 2025 23:04:32 GMT"
         }
       ]
     },
@@ -562,16 +562,16 @@
           "pubDate": "Tue, 04 Jan 2022 08:00:00 GMT"
         },
         {
+          "title": "About JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sTXhtX1JNQnRDeWc2bWR1b1ZhRTFQemNzc1pfZHpOX0RKeWVGS2pKYVVkSk9WWWtVenZpMjhaN2JMT05KTGltSHZaSnJGdExJdm1IUTd6Tnd4Ny1RQ19LRzZxZzluaTVXTDliWXRud1hSNHlMeHRF?oc=5",
+          "pubDate": "Sun, 25 Feb 2018 05:21:52 GMT"
+        },
+        {
           "title": "Management Philosophy-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDM3X0xROFk2QV9HblVNWjBiZklFV1RlSl9LNS1MUFpjT0Zjb3Z1aFdTMmd3cVpaSFk1ZGhSdVhlT0pWOUtxc2M4R3p5dG1pUTVTZjJhUXd0SVE4QXhWZmZocmNCNUh3N3l1Vjl0ZmljNkk3SEpkclk3ZEk3VTRGM2JvYTk?oc=5",
           "pubDate": "Sun, 25 Feb 2018 23:43:44 GMT"
-        },
-        {
-          "title": "JAPAN POST BANK Co., Ltd.",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zal9IWWhqWnBxT2NubGljOU1LX1NlYl9SbkhMUEJseHBwVDdFZzBhU0tHZzFMWGI2V1V1a1ZJbE5MdlRhMXdmMnBWVVlFRTFkVmhUcFMtbXJTVHlLcGtEMnlsekd2R0pxc1Z0bmZrendKMUhM?oc=5",
-          "pubDate": "Fri, 12 Nov 2021 08:00:00 GMT"
         }
       ]
     },
@@ -596,10 +596,28 @@
           "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT"
         },
         {
+          "title": "Legal Counsel, Technology (6 to 8 years PQE) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDJlVzRoZFFzdEhQOHRhRmNHdWNUV1RzZV9TV1dSS3RFaTdBTzFhZWxkSk1qUFhrMG45REl3cWhJd0FfZTl4VU9qLWJZYW53Z1N4SDFJdU9EeUFFdzVsVjNLYkdfYldCSll0VHhhbl83cFFWeTRhTnVsYmxtdUFGZVVld18xeWQtNzJiWC1XMkVWTkVEVkc0eXZTcmhXcjFibU1F?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 07:17:35 GMT"
+        },
+        {
+          "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
+          "pubDate": "Mon, 29 Jun 2026 10:27:14 GMT"
+        },
+        {
           "title": "Temasek's inaugural Fellow - Advancing capabilities across our ecosystem",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR25ORUduSzU1OHJ3bGhfT01CelJWWURMaV9MS0pMd1N4MV9TQ3o0cE5fYjBCSU1YUDJjcFpHVG5EQThiWXJ0ZkIzQUdlN3FLUVdXMW9pWWdzX3ZFcDRWcXc4LW1hYk1pTkdBRDM4eXd1ZFVtdTZUQUxBcFVScGxsSC1hUFhWWnZnR2kwTUlWRVJjdHZmSmdheUlCc2lLVnQ1VzlycTRIWHY5S2dpVERRWWF6c3pxSUVydW1iRFkzTDJuc1liMlVGZEFEUFh2dldRRVJSR1ZnbWZ5ZWd1U3d4QWRFVDd6dw?oc=5",
           "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "A New Model in Action: Powering and Connecting Singapore",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN3hycmNHM0h4UnZJaElZR2h3Qm9MV0R2SHA4ME1yLWViUGR3ZjNEVWh6S3Fpa0ZfNEFkY3VfNHNzVWZTa1oxOXlCUDNoOUR1OG91VFZYX19JcEpUWWZDd0VVNV9uazNoQ2ZqaUVjZnN2aWpLQlM3SUYwS2hvT29HQllHVkVYTlQ5b013ZG5YeC1wenBuN2JQOS1yd3g3UVRWRnNiU3ZPWlloMS15WWlPc296ODVzWldCTTZBTmRMLUlOSnJ2dndiblE5QnBKYVhvREFR?oc=5",
+          "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Senior Management Appointments",
@@ -614,34 +632,16 @@
           "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Temasek Positions Organisation for the New Global Environment",
+          "title": "AI and the energy transition: enabling efficiency while managing trade-offs",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZXhCVm9JS0M5NGpaelFCX0NxeHVqSVpiVk8waU91TWZwUlhlT1liN1d0aGpUNlJySVBUajM1U0hLM0JfT0UzVFY3b0gtejRTVFU0S04ya1pveG55S3hoNllzVkJLaWtFcUl3WHFuZzJvZFJRSFp1djhseU9TZ2szQTllcldoUkozN3Y2d2dTMl9CTnB5aF9pZFdPMzVIMkpXcGdZTEk4V0lYYlp3eDhvNDV5YkozZG9TaDNXUDlBZ2lUU2RTQnByZlNR?oc=5",
-          "pubDate": "Thu, 28 Aug 2025 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
+          "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Bridging the Gap",
+          "title": "Fu Chengyu to Step Down from Temasek Board",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbnJLS29YTGczWmFHNGVyOFdhQUR1eE9aeGlRMlJhR05yUU5nY19nUFdieXc1cm5SWjlHMTVsRFhvOWVwaFZwNFRIYjdWMWhrU1dWOGROMUZ0ekRaRTQ0RTQtV3dXWXdxdkJjTEVxdVVQR0xpWE8zWXVRSU1lVGJxTmRiZjQxMlRIdHhNSWg1ZTE1WU5nak81UGFCeTRSUmto?oc=5",
-          "pubDate": "Wed, 09 Jul 2025 07:00:00 GMT"
-        },
-        {
-          "title": "Ok Domain Name Anti-Abuse Policy Abusive use(s) of .temasek domain names will not be tolerated. The nature of such abuses create",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb19lVURzUkRTTWgwRjFsTm1ZTmZraXliY3cwdGdrSldNOHFGcy1LRlF5UWJoajdUcjJvLVVINHZVMUl5S0NLSXp3VTU4blZWOWZLZG1JWFp3X2Nrc3EwNHEwRnNkRFVUTkNHdFlMbDVELTlOR3VjYWM2NXVYUTA4QjdPZXptd1IwaTdxeFM2ekhZbDk0VFhpcEFKUFgwVnhFbExSTXVnVWZBS3hIWlQxaGRB?oc=5",
-          "pubDate": "Fri, 26 Jan 2018 10:04:42 GMT"
-        },
-        {
-          "title": "About Us",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sY3RDZlE4UUpxTU4tR3M2RUZGQkN3MmNHd1NDejlvcHVMNldIQVRsNE4tUS1wOE9MejBIU2FIa0FIUHZBd0JHbFV5RWUzVTV3a0xERXFPVnZBZHVlVUpXV2RvT1Q?oc=5",
-          "pubDate": "Mon, 24 Nov 2025 01:50:52 GMT"
-        },
-        {
-          "title": "Dilhan: Temasek’s Path Forward in a Fragmented World",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNjh1NzZ0dS16a2txSnpEY0c4T0I5dklVQUZOdExDbHNRSEZSZGFDV0ZxZ3Z6UjZESjNvT1pHMnBzdjBTbVpESi1RN19ESTIwNFpZbXhydDBJRXAxa0VxQUI3R2xvV2NVdTFNWUtuUVVCN28wSzd0TVF2dUdJcVNjU3dRdnhJODJMa0tYYjdxajZxNWE1VWZlb3laZ285ZkNTNzhpYzIxTV9yUQ?oc=5",
-          "pubDate": "Fri, 17 Oct 2025 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
+          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -1034,12 +1034,6 @@
           "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Market announcement",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeHc4cEloaU5jcnJhdURKR2tvdDJLUXNrM2RlZHk1TmNiV1h4NkJweFJ2UXFvZ21iRnpmRGViSVZKelhXamFaNXdKWEprYUJ3Y2NQU29FQlJZQy03clRfelh1bkFvNUVfSTRpbGpnb3RCNHlNQ2xQMkMtTGhoWWIxZzNXaDBsR1MwREgwYW9KWW10RVVVQmZuUTVUeE0yZG5vWXMyUDZwT3JyWTFHOUhxVUdfSGluZUpKWTRsOFhPWGU?oc=5",
-          "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Market announcement",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
+          "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         }
       ]
     },
