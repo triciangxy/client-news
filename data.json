@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T07:42:06Z",
+  "generated_at": "2026-07-07T11:10:11Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.25,
-      "change": -1.75,
-      "changePct": -2.364864864864865,
+      "price": 72.6,
+      "change": -1.4000000000000057,
+      "changePct": -1.8918918918918997,
       "currency": "HKD",
       "prevClose": 74.0,
       "dayHigh": 73.65,
@@ -934,6 +934,12 @@
       },
       "items": [
         {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
+        },
+        {
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSHF4cUh5aV9IWVAwX0FDU05xNnZxOWtDNzN2NEJOcnQ5LVVqWGM1NjZadm1BNmNhTjF3RXJjOU4tQkpSS1pxVGMwYjlpdWROS20wa0VGRnpyeExfZXZpMWRELTc1ME9STnNvNXE5WXdWdjM0RjJmTUFNaFo4V0lBZnhUTnJUUk9lYkxvbzBPeHJKRExxaUhHYjRkdWFONmRJdWM1NkdJRzQ0RGpzZWc0UUNZWi04MENsLUdyUTQwbndPcWpuYXloV3Axc05MelcxcEMyQ3VfUF9wOVFaaTZsRQ?oc=5",
           "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "HOSTPLUS EXECUTIVE",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUZQbFBuenRESTA4emZGUEtGM01qVG5rbkdrME5GV2MyV2w2Sktaa1I0N2FmNktxeXROc21uN0JyMzFlS3Z4Z0FGcHRCVU1JLWdoV0tlMGNEakY5M2hTRGl0Q2VFdlRQU0xnZlZRTmhOVWhSUm9mbk16cnJMUG96YVZnUm9JUExKclNBeVpFNVFUSDVJQXVvdjhMbks4Q0NJNEdj?oc=5",
-          "pubDate": "Tue, 30 Sep 2025 07:00:00 GMT"
         }
       ]
     },
