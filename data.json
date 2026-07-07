@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T03:39:44Z",
+  "generated_at": "2026-07-07T07:42:06Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.0,
-      "change": -2.0,
-      "changePct": -2.7027027027027026,
+      "price": 72.25,
+      "change": -1.75,
+      "changePct": -2.364864864864865,
       "currency": "HKD",
       "prevClose": 74.0,
       "dayHigh": 73.65,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107800.0,
-      "change": 100.0,
-      "changePct": 0.09285051067780872,
+      "price": 108600.0,
+      "change": 900.0,
+      "changePct": 0.8356545961002786,
       "currency": "KRW",
       "prevClose": 107700.0,
       "dayHigh": 109500.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6602.0,
-      "change": 62.0,
-      "changePct": 0.9480122324159022,
+      "price": 6555.0,
+      "change": 15.0,
+      "changePct": 0.22935779816513763,
       "currency": "JPY",
       "prevClose": 6540.0,
       "dayHigh": 6643.0,
@@ -283,13 +283,13 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3353.0,
-      "change": 91.0,
-      "changePct": 2.7896995708154506,
+      "price": 3307.0,
+      "change": 45.0,
+      "changePct": 1.3795217657878602,
       "currency": "JPY",
       "prevClose": 3262.0,
       "dayHigh": 3402.0,
-      "dayLow": 3332.0,
+      "dayLow": 3303.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -568,10 +568,10 @@
           "pubDate": "Sun, 25 Feb 2018 23:43:44 GMT"
         },
         {
-          "title": "JAPAN POST BANK Co., Ltd.",
+          "title": "Japan Post Bank Debit Application Method (Website Version)",
           "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zal9IWWhqWnBxT2NubGljOU1LX1NlYl9SbkhMUEJseHBwVDdFZzBhU0tHZzFMWGI2V1V1a1ZJbE5MdlRhMXdmMnBWVVlFRTFkVmhUcFMtbXJTVHlLcGtEMnlsekd2R0pxc1Z0bmZrendKMUhM?oc=5",
-          "pubDate": "Fri, 12 Nov 2021 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
+          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
         }
       ]
     },
@@ -1030,12 +1030,6 @@
         {
           "title": "Weekly economic report",
           "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vRmRfM3g1VGVPT2ZsMVp6THNzVDJQVG43ejhac2FUaWhWWkJqS3dfMzhKYVEwMnZYeWVwbzhMUzZpVWc0NnFadjdJb2xPcWZOM2VTb05hTlJYZHVEMDRwdjczRGdLUWhXbEhEb2RyQQ?oc=5",
-          "pubDate": "Mon, 06 Jul 2026 04:14:35 GMT"
-        },
-        {
-          "title": "Weekly economic report",
-          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zNUN6RDNPV3drRk91bVJlNkNCX0NhenhPbVo4RjZXMDJTNjREZE92WF9uM0gtTGhxNTBVV3lEMWw4c1plSUhadlEyRFNDZGs3Y2xsLTFfc3FsajZEenYzb3htT2Y4anBud1dERW5pcw?oc=5",
           "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
@@ -1062,6 +1056,12 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Market announcement",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
+          "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         }
       ]
     },
