@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T02:54:42Z",
+  "generated_at": "2026-07-08T05:55:06Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,45 +250,45 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.15,
-      "change": 0.5500000000000114,
-      "changePct": 0.7575757575757733,
+      "price": 73.65,
+      "change": 1.0500000000000114,
+      "changePct": 1.446280991735553,
       "currency": "HKD",
       "prevClose": 72.6,
-      "dayHigh": 73.85,
+      "dayHigh": 73.95,
       "dayLow": 72.6,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 108600.0,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 106800.0,
+      "change": -1800.0,
+      "changePct": -1.6574585635359116,
       "currency": "KRW",
       "prevClose": 108600.0,
       "dayHigh": 111000.0,
-      "dayLow": 106800.0,
+      "dayLow": 105200.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6618.0,
-      "change": 63.0,
-      "changePct": 0.9610983981693364,
+      "price": 6637.0,
+      "change": 82.0,
+      "changePct": 1.2509534706331045,
       "currency": "JPY",
       "prevClose": 6555.0,
-      "dayHigh": 6628.0,
+      "dayHigh": 6664.0,
       "dayLow": 6525.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3327.0,
-      "change": 20.0,
-      "changePct": 0.6047777441790142,
+      "price": 3331.0,
+      "change": 24.0,
+      "changePct": 0.725733293014817,
       "currency": "JPY",
       "prevClose": 3307.0,
-      "dayHigh": 3334.0,
+      "dayHigh": 3363.0,
       "dayLow": 3272.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -1144,58 +1144,64 @@
       },
       "items": [
         {
-          "title": "FWD Code of Ethics and Business Conduct",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZmQ2MjROOFdjeXdPaDdldHFaT2d0MjdUc2o1MVc1NGVXcG43aVBHbW1YWmI3ZXFvM2pNTWlJSHVpdFZVU1htN3BGRVlPaUVBb3JhRWNMeGs0bGRYd1JJNWNwRmtjN1IxWjk2MTd4NFFFQXhDakdfT1NQdGtpQ3RSNEsxLTFkV2pCNzd3NTNFdEtST3dEdnh1OEQ2a0x5SmdLcUNlbW5pQnM0SkF0VkJPZkwxR1NQVGVmRjRUd01pdmVjTXRORmVyek5VU0RmN2M4dU5BOEF4aGRMSjFlZzMtanpmVQ?oc=5",
-          "pubDate": "Mon, 08 Jun 2026 05:16:34 GMT"
-        },
-        {
           "title": "- FWD Group",
           "source": "",
           "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9rS0Z2RWtTQTc5QXhvUDA1REFiNVJxRUpmaEcyNkkzaW9ycFhhaWtWZzAtWlNWOXl2S0RSZ3NB?oc=5",
           "pubDate": "Tue, 30 Jun 2026 06:44:44 GMT"
         },
         {
-          "title": "FWD | Kathyreen Grace Bedonia Rengalota",
-          "source": "ace-ph.fwd.com",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UbV9CNzh4Q1I5bFMtdFZMYTgyMnNuU1NTLVlUc3FFeFlFNGJPZGZZSGIzVXJGTFp1bm9udmczWHE2ZHRxTm54ZzJyc0szaFhyTjg4?oc=5",
-          "pubDate": "Thu, 28 May 2026 18:39:05 GMT"
+          "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
+          "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "PUBLICATION OF THE OFFERING CIRCULAR FWD GROUP HOLDINGS LIMITED 富衛集團有限公司 US$5,000,000,000 Global Medium Term No",
+          "title": "Code of Ethics and Business Conduct v3",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQQU1oU3NjMl9uRE01UmZYU3FWZGZ0bHlMbHZEc0RoTWFvMHFSNmdUVHVGMklaNWhzTU41c0JsLW5oa1c0Q2VKRkc2T1NCMC1PRlZMa3lsZjdyTHA3RzkwaWwxUDRBUUdFOG1wRkx2RVhLeGlWR2NkNDZkZllWS0V2a3BfQkd0WEpzdkxVTVhvRkV4ZmxNT3REVVh1N0h6c3ZLaVRTNW0yMXRsMVJGV0NvME9OOGl1UXlLckJFbnJLZTRKdjdtbmtwa1hpaEFvT3pCWm1POGlhOGZQNUU2MjhMWGJ5d20tOTVuMHR0UHZGbjU0Ums0Z2RMOUM5d2FKQTZxbkV4cmtoSkN1U2ZBWF9z?oc=5",
-          "pubDate": "Thu, 16 Apr 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGh1ODRnSnVCWlN5bFB5R2lHTXBsaFNxWUN6dXVITFhUMVNaVFBmejdyLWIyVVBnZkFvQXViTlRFQkthejhqOHhVcGpBd1kzZi02amE4NDNXTE1aazYwZkp2NWhWLXNUbk5NSGgzSVpnRUVMdnNrZ0Y3d0RmWUsycmc4Nkp3U0V5b1RqOEV0ZUN5djBsR0hjbXNrVnlZcVpWQllORFZhb1lFQllMSnB4eGdFRFdlZ1VMYWZLYVgxYTdjTGRXMUVmRlhzUHk?oc=5",
+          "pubDate": "Fri, 04 Aug 2023 11:47:59 GMT"
         },
         {
-          "title": "FWD Group 2025 annual results announcement Analyst briefing presentation script 16 March 2026 Slide 2 – Disclaimer Business Highlights",
+          "title": "FWD Group 2025 annual results announcement Analyst briefing presentation script 16 March 2026 Slide 2 – Disclaimer Business Hi",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNcW5lSWtlRENaRHdFbE9qaDNCQmpzNWU0bHZnWFNpOV8yM0MzdjBnOUtpNEJlMlgzRlhZYS02eWR4cTh3Q0cxT0dLT0lGUVE1VmZYUEdIRjhRSVdlUWlmTnZsTFo4LVhkNE12bXVZLWtrVndsN3p0RFVqdk4zVFpiN0dHS0pwYTg1SWtGSk9rRjRhcXp3VUMzZl91a0prMXc5WVM5M2h2TXJYZUxGanBjOUpabVBZdGk0S09adEluemVZTXhpRkRzcHJMZVp3ZGQwODJQbmNYR0E1eTJpZHB3dkxKRTh2Vm1SZWIwaFQtUUp6RG40dE9r?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVnd0QTFzNWJyVl96anphTkNEMUV6MklrcS1wU1JYbm5RR0U4cXEwMm1mSGIxcVVscXlYSXVMelVDZ1FTWmFtOTNiT2xDUmZxQ0NaY0FpZkQydmRmbEFZSmJwYmpjU25rVUxwUEhFN2lia1RWOERSZlItNUpwSFh6OW5yOGtLZ1dOWWdCZ3JXNkZzOVVXLTB5a1BENTdHY2E3c05iNHNKNklMS3JiTk9xVnRhamE0b2JaQTV1cnMwc3VyLUtMNEJSUUZLSm4ydjlscXZTTDdSWHBfcWh2YzFnSW9EWmctRjBINUh3OHFrYXdoVEU0VVpz?oc=5",
           "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
         },
         {
-          "title": "FWD Group announces the appointment of Petter Sternby as Group Corporate Transactions Officer",
+          "title": "FWD Group collaborates with Yale School of Management to offer exclusive bespoke learning programme for Bancassurance and IFA partners",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRE9ZMC02emlZdVFsQ2M1d1Nfc255bkNxR1pwei1lZFJtYTZ5RTNpQTUtSEFJbFJpS2dfS2tDRWNJYmpwdmFZM1ZXRlZMcUVTM040X1ZSdnNnX1hZZjJySWxmbFlaVkxiaVdJNTZoZzZlOE13bkJreG1FQXNKcUROMnY0UDhLb2pYRDJfUzNSczhyQ0tGc0phakF2am1Ta0hBN1lpNmNtYVRNa2hUangwMVhQUnVOSXU0dVVCMGpjM1BHTTI5Ml9tbGtaWkdXUUdCbVlCVnJJT1o?oc=5",
-          "pubDate": "Mon, 11 Jun 2018 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3lPUngxa2owYnVVS3dZVUxGOXhpOTVuamQ3azJOLWtPdWVPVkN4OC1DZHhiUUtaZlRWMFJqOVNzTE9QamROQkhFc1RCdW95bmlOZ1NFdFotVi1wVk1MdEMtN01QWUZzWTNOVzFBRUN1YXYwdzFEWV9JUjVIOXF5MGI1UWRoa0E?oc=5",
+          "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
         },
         {
-          "title": "FWD partners with DDB on brand and creative strategy",
+          "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORlBSNTBzTHoyVTRGM2IzSHZmMVRBdVUzdkpUbE56bzNnVFFhWkxYTHVzODdkZVcyQnN1WWk0WlN1S2paWmZXSTJxWHhraE5OMlpJQ0JKNjYyamtCV1pramdtYkpCdW5ZMkZTakVJM0hudnJ0VzNENG5FUDQ1ZEF2UWFxbnFoY3V4MUw2bEpiSEs5ZmxyRk1jRFRINS1lbnl5U2c?oc=5",
-          "pubDate": "Tue, 21 Aug 2018 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
+          "pubDate": "Fri, 10 Oct 2025 13:17:58 GMT"
         },
         {
-          "title": "FWD Group announces the appointment of Ken Lau as Managing Director, Greater China and CEO, Hong Kong & Macau",
+          "title": "David Junius",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX1d6aEl1UUo4dHJsTGs3N1JjV3hwZmFwNkFnbW1XNVJGQXVwNWcxclRPUGhFMWJ6OXVhUGhtVllkLVhHcjVIWFQ0Nmt0ZDc0U25Db09rbXcyTTRTRTZmWEVCaGhFZWlCbExZUEgwbkFLOTRzYnFYUjhNa2YyLWdXLUpnUFMzSzA4QVdPTS12bEFLeEdtNXhnZVRhU3ROZmE3dGFlUTlveGFDSHF5X3VISmFiSWl1QQ?oc=5",
-          "pubDate": "Mon, 02 Apr 2018 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
+          "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
         },
         {
-          "title": "FWD Group extends support as Official Partner for Clockenflap’s 10th Anniversary",
+          "title": "Our fact sheet",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTGxWLWo2bWdVMWxKT2RnVkVTSXVMV1NJeF9qbzlsYW54MEJLV2FIaW14RjVwUlo1ekxxTVRiTDQ1aEhCbHJ0cU40UW1CZUpPRTZuWlBKLUtrbXBGYXBQMlM1bnVTWkZ6NUNQTHVRcjFDdXJ3OENEUURCa0NfV1NhSkI5STFhWlZNQ2I4OWhmeVNZellJOXhwWXZ6ZzB2Szhwa3hBYUo3SkRFZ09XbUtXR2ZXZnFSalpTb0tHWXdhZ3BVRkVQ?oc=5",
-          "pubDate": "Tue, 14 Nov 2017 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
+          "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
+        },
+        {
+          "title": "2025 Annual Report Chairman’s statement",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
+          "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "FWD Vendor Code of Ethics and Business Conduct",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
+          "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
         }
       ]
     },
