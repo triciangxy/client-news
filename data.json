@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T05:55:06Z",
+  "generated_at": "2026-07-08T08:33:24Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.65,
-      "change": 1.0500000000000114,
-      "changePct": 1.446280991735553,
+      "price": 73.7,
+      "change": 1.1000000000000085,
+      "changePct": 1.515151515151527,
       "currency": "HKD",
       "prevClose": 72.6,
       "dayHigh": 73.95,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 106800.0,
-      "change": -1800.0,
-      "changePct": -1.6574585635359116,
+      "price": 107300.0,
+      "change": -1300.0,
+      "changePct": -1.1970534069981584,
       "currency": "KRW",
       "prevClose": 108600.0,
       "dayHigh": 111000.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6637.0,
-      "change": 82.0,
-      "changePct": 1.2509534706331045,
+      "price": 6579.0,
+      "change": 24.0,
+      "changePct": 0.3661327231121282,
       "currency": "JPY",
       "prevClose": 6555.0,
       "dayHigh": 6664.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3331.0,
-      "change": 24.0,
-      "changePct": 0.725733293014817,
+      "price": 3305.0,
+      "change": -2.0,
+      "changePct": -0.06047777441790142,
       "currency": "JPY",
       "prevClose": 3307.0,
       "dayHigh": 3363.0,
@@ -584,6 +584,36 @@
       },
       "items": [
         {
+          "title": "Temasek Sustainability Report 2026",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdllPbG9wLWxtZlBTNFN3QXBxY040RlFpNHBkVmhJcGt6Zkl2Y2hNSEtTUGtXeDVIMXJ1VWxDSXVrU05xZlluUm1LUmhKZk12aGd5b3ZCN3hqSEZDZkdQZEZZRlRxQjJTRGhGSkxCSllXMDZrTUk4dklJaEZRUEhvYXk2TVVZZ0RlQ1hqZFZ4NW5fdEsweklPa0JlS09KaTlzdF9NNjNheEZibTI4MFRZYjVkWWY4dw?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:01:21 GMT"
+        },
+        {
+          "title": "Temasek Review 2026 Media Briefing: CEO Address Video Transcript",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUkg1M3dWS09MZjVYdzhkQU45X3JnZGltN01tRl9sMm5JTlRlcXM0MFB2ZXNUdFFybjNtcGsteEluZ0wzMXVYXy1OUk9VVW50clh0c3VCY0Vmd0g4M1lGWnpERTV4THVGSjZXaHZLS0NVaVI3anFraEI1NmxVYTBWY3YtdlVIWjRla1pEeWJ2SVFFNzVhdHVrU1owSVJ4WnBSNkZBaWZPUkRQcXZvZENJMmdSeW5CUUdpSjBPSXpDNWFTTWxJX0NKZGE0WXZMT2NaWEE?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:00:53 GMT"
+        },
+        {
+          "title": "Business Integrity and Governance",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUkxIN0xJTVNMSklsYVJ0SlFIOXY1ZGM4dlpzZnV4Y3ktSVdZUDVPZ2ZMTlh3d0hxdVgwcWdjWENvdjNuR2p1Yklybi1TWVFGdHJkYWdha1R5YWp1SzNZWTZnUDJOQndoZWdNdkJrV3hkNkVfZGtYWVBvejdGV1U0b09sMWY4ZTBYS25LU2FfbGdrSUYydURuTkdhSTEyTkZfdXM5NVhsWHlzT3RGbW81UA?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:01:17 GMT"
+        },
+        {
+          "title": "Temasek’s Net Portfolio Value Grows to S$518 billion, up S$49 billion from Last Year",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQWVUUlBWSkdfVnl1SDYyOXY0bTRheDZJOGR6eTV6ckNic2tpbktZSDNUbl8zZDlnU29wTWJXUDNVeWN4Vm1KaXMwNjVoWnFlRWluamNOSVd1LXBsVHkzeFVIU045U2tweVEwb21wOHdsc05adWpYVXhsYTItMkdLTzFYbkViTFpaNEJaZTNUZXZCYVdfRUtta3BnSkZubW9sYmU3ZS1qTlh0T05ZMWQ5SjBLSHVPY3pTMjlBNTVRZ29OMjJtdVk3ZVNpUFg?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:00:53 GMT"
+        },
+        {
+          "title": "Temasek Review 2026: Media Briefing Speaker Notes",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaVNNejZ2RHZnYTVYeG9vb2VGUmZTbzFhOHBPMUZxbTJta3E0b0gzSldCclRfVkZPVUIwS2l1WDlUV28xOVdkYXhXWjBjaHU3Y29XamhrbXE2cGNwX3VHbkFmWWg3MVNxcW5yTHJhS1lMcVN1Y3V6U1hmWWFSM2Vhc3ZVMERXUHlHNkwwa3VCQi1lQW1QVzB6VUo3NVBkMXk0anFHM1Q3Nm9LcWs?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:00:53 GMT"
+        },
+        {
           "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
@@ -612,36 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN3hycmNHM0h4UnZJaElZR2h3Qm9MV0R2SHA4ME1yLWViUGR3ZjNEVWh6S3Fpa0ZfNEFkY3VfNHNzVWZTa1oxOXlCUDNoOUR1OG91VFZYX19JcEpUWWZDd0VVNV9uazNoQ2ZqaUVjZnN2aWpLQlM3SUYwS2hvT29HQllHVkVYTlQ5b013ZG5YeC1wenBuN2JQOS1yd3g3UVRWRnNiU3ZPWlloMS15WWlPc296ODVzWldCTTZBTmRMLUlOSnJ2dndiblE5QnBKYVhvREFR?oc=5",
           "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Senior Management Appointments",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0U4cHlhY1RrbHlJb2JpdmFQWW5wWFUzLTBDbmcza29DR2ZwczRTRm1VQmJkSTdFVUVxV0Ewd2hEa2pMREIxWkJsakw0UV9rOTVtZm41NDRnMGpnR0xUNEpIbHpSQmUxTGhvd29yUlFTUzkxRHI5SzdDU1NDeHY0aXNVOUFuMFFUdTY2a3JPRWxiNThyVVNVVTN0a0drM2RuaklucktJMV8?oc=5",
-          "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Keppel: From shipyard roots to global asset manager",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSVRsaWtPTS1wcTFjNERkdkt0azNKYm1oVkV4NWZTNmxSQzRKWDhTU3RkMTZZN25LeWxJME9PeFNPbGJ0WFV5aDNZN3BSdXhkV0ZyVHhMdDkxM2t5UXNjV2NtRHpLSWFab1FieS1yTThpOWVxSlpjZjY3SGRJUnNuMnZtYXhReU1EVkRXa3lLRFRkanRiZ3I5b0l6NjlBZkNuLVJZN3hIQ0xicFE2MmpCTE5tQ3NjZjB1bHE4Nm8zNmRsVUVrUjhUeGV0bGM?oc=5",
-          "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Legal Counsel, Technology (6 to 8 years PQE) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDJlVzRoZFFzdEhQOHRhRmNHdWNUV1RzZV9TV1dSS3RFaTdBTzFhZWxkSk1qUFhrMG45REl3cWhJd0FfZTl4VU9qLWJZYW53Z1N4SDFJdU9EeUFFdzVsVjNLYkdfYldCSll0VHhhbl83cFFWeTRhTnVsYmxtdUFGZVVld18xeWQtNzJiWC1XMkVWTkVEVkc0eXZTcmhXcjFibU1F?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 07:17:35 GMT"
-        },
-        {
-          "title": "AI and the energy transition: enabling efficiency while managing trade-offs",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
-          "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Fu Chengyu to Step Down from Temasek Board",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
-          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -1034,6 +1034,12 @@
           "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
         },
         {
+          "title": "Market announcement",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU0h4cDJUOFBWeDlvbkVFRm1HRlgzRU1mSkVJNTFiY011UENtR3doR3E5b0VSOF9JOFRsR3VxNFNfeFAxOGZ0NmZtZm9Pd0szcXVla3ZYQ3JOQnNhTzA1TnJZZ0gzREllWmFtNDhXcTBsNEdnR25qbGl4azdpRW1mXzQtcGdROEFrZTduRVUzSEhUQmJCVTMyTFJDVmtGOGFBNnlJaTB5RERzaURMYzNRSzVaUkRhTl9JNXlRT1V2TDJ3NkVHcWNEWlFfQ05aVHBqeTZiTXpYYlVUZ056cXBlazRnRnhBbjdHUklmVENLMEpzNU83UUFMRFZPNkZpSXV4bnVF?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:08:52 GMT"
+        },
+        {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Market announcement",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
-          "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -1192,16 +1192,16 @@
           "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         },
         {
+          "title": "FWD FitForMe | Uncover AI-recommended coverages based on people like you!",
+          "source": "FWD FitForMe",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
+          "pubDate": "Thu, 05 Dec 2024 03:07:27 GMT"
+        },
+        {
           "title": "2025 Annual Report Chairman’s statement",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
           "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "FWD Vendor Code of Ethics and Business Conduct",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
-          "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
         }
       ]
     },
