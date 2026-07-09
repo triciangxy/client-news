@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T07:39:10Z",
+  "generated_at": "2026-07-09T11:06:57Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.4,
-      "change": -1.2999999999999972,
-      "changePct": -1.763907734056984,
+      "price": 72.3,
+      "change": -1.4000000000000057,
+      "changePct": -1.8995929443690713,
       "currency": "HKD",
       "prevClose": 73.7,
       "dayHigh": 73.3,
@@ -444,12 +444,6 @@
       },
       "items": [
         {
-          "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0tT1JVSVhTTUhGWkdIOEMwdlk0TkEzNm00VTQwd3dqa204SjVIZEFVaUFnaDIxMjRoSTBXRG5kRThqQQ?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 18:10:26 GMT"
-        },
-        {
           "title": "Sustainability Report",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdktvS3R5UTZLWjgtNWktNFZTRkVSeXVWb1Vnclp3Q0VQOTgxa0czcVI2cklRX09KM1N6Mmx6WmpfZFVtblZQMTJBVWZkWDRzNFF1T1NsT0xhZ0toUEhDbS1GYVZlcU5VVzNhU1RNVkR2RzdyUEhtN0NTMU9MZ09GdEJNVll1cTVSbFhmQnp3dzNGeTRrZjB2bzFsTDJrNEZfNmww?oc=5",
@@ -466,6 +460,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZaXdrMVgydUt5XzJ5Y0huaXNuVXBDRXBVM3FLa2VTOXRhVjEzb0w2dzZJZ3o5b24zM0x4X3BzbEpuRWpOZlcxVHlnN2htLUE3OEJaS3hxVHpGUm8wY1NLTw?oc=5",
           "pubDate": "Sun, 23 Feb 2025 22:36:20 GMT"
+        },
+        {
+          "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1LQm02YUFLaDR6bUZHRnJOQVR1dnJFTTZTU0YteDlUUzZ6X0lMZTFXZFpCOHRwODdJWmRBUmJwSHk?oc=5",
+          "pubDate": "Sun, 23 Feb 2025 18:14:49 GMT"
         },
         {
           "title": "Notice regarding Change of Directors and Executive Officers in Sumitomo Mitsui Trust Group and Sumitomo Mitsui Trust Bank",
@@ -614,9 +614,27 @@
           "pubDate": "Wed, 08 Jul 2026 07:00:53 GMT"
         },
         {
+          "title": "Temasek Review 2026: Media Briefing FAQs",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdDVOTmRjWDN4U2dhXy1YbWdJRWdIeXY5ZkJoRDNqNW81cDVNLTRJT1N1Tmt3Y3d3LUJrcDVpYjRlUjFNWTI1V1hmaGw4S3h2LUhBa3psVEQ1VEJxdFk5WE03Wm9QZk1vR2FXbkUwcUZHNUEzc1dlVVBkNHY2Sk5xQ09JNk9ucV9xeHRKVk00NFg0QVh0ejliOHNSOEE?oc=5",
+          "pubDate": "Thu, 09 Jul 2026 09:37:04 GMT"
+        },
+        {
+          "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
+          "pubDate": "Mon, 29 Jun 2026 10:27:14 GMT"
+        },
+        {
           "title": "Temasek Appoints Wendy Koh as Chief Financial Officer",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSFZSZEdzQ0E0N244MDhPVUR2RkxMV0RIN2xtNDdIenFzVVltYWZpcjZrNS13MzJQX1hicXFQWFFKMGwxMlg1VlhXVy1vUkNoRWNxS2h6S2J1dTkxT1pybWp6eWpfOEw0ajlNZmcyU01FRVFTN2lOZF9zX1BJb19yaFMtRUppdzdEZWVkTk5jUEpEejVoenhNQnhHSUlQYlhMNEJ5LTdxek5pTE9fRFhvS1gwQ2ZfVk80YWdOZlBmNA?oc=5",
+          "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Putting People First: How AI is Making Banking More Human",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMmgzUTFiU0swdm5mRlZvU0hGUkdjdFpkSjhEYWRPekRRZVhvRWlGeEhGSVpZTU1UeUdTM2UzclhBTDFUa3hIMC1XR3ZzN09YZHNfV3hMSFBsN2hlb21xSkpfSDNiYjNkam5oMHhFaU9ETkMtVTZ5YlVUQzNCQ2EzWTB4Q01ueEJpZGc1MF9kLUE4SXVzNE05SEJadF91WTM0NHdQRUhTVmRaRU5aTU9aNDlYOFpuYlBFTmdTRmVvR0JIb0dqUVNOV3BBMHAtRDJ4dVNXcw?oc=5",
           "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT"
         },
         {
@@ -624,24 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR25ORUduSzU1OHJ3bGhfT01CelJWWURMaV9MS0pMd1N4MV9TQ3o0cE5fYjBCSU1YUDJjcFpHVG5EQThiWXJ0ZkIzQUdlN3FLUVdXMW9pWWdzX3ZFcDRWcXc4LW1hYk1pTkdBRDM4eXd1ZFVtdTZUQUxBcFVScGxsSC1hUFhWWnZnR2kwTUlWRVJjdHZmSmdheUlCc2lLVnQ1VzlycTRIWHY5S2dpVERRWWF6c3pxSUVydW1iRFkzTDJuc1liMlVGZEFEUFh2dldRRVJSR1ZnbWZ5ZWd1U3d4QWRFVDd6dw?oc=5",
           "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Senior Management Appointments",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0U4cHlhY1RrbHlJb2JpdmFQWW5wWFUzLTBDbmcza29DR2ZwczRTRm1VQmJkSTdFVUVxV0Ewd2hEa2pMREIxWkJsakw0UV9rOTVtZm41NDRnMGpnR0xUNEpIbHpSQmUxTGhvd29yUlFTUzkxRHI5SzdDU1NDeHY0aXNVOUFuMFFUdTY2a3JPRWxiNThyVVNVVTN0a0drM2RuaklucktJMV8?oc=5",
-          "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Keppel: From shipyard roots to global asset manager",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSVRsaWtPTS1wcTFjNERkdkt0azNKYm1oVkV4NWZTNmxSQzRKWDhTU3RkMTZZN25LeWxJME9PeFNPbGJ0WFV5aDNZN3BSdXhkV0ZyVHhMdDkxM2t5UXNjV2NtRHpLSWFab1FieS1yTThpOWVxSlpjZjY3SGRJUnNuMnZtYXhReU1EVkRXa3lLRFRkanRiZ3I5b0l6NjlBZkNuLVJZN3hIQ0xicFE2MmpCTE5tQ3NjZjB1bHE4Nm8zNmRsVUVrUjhUeGV0bGM?oc=5",
-          "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Legal Counsel, Technology (6 to 8 years PQE) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDJlVzRoZFFzdEhQOHRhRmNHdWNUV1RzZV9TV1dSS3RFaTdBTzFhZWxkSk1qUFhrMG45REl3cWhJd0FfZTl4VU9qLWJZYW53Z1N4SDFJdU9EeUFFdzVsVjNLYkdfYldCSll0VHhhbl83cFFWeTRhTnVsYmxtdUFGZVVld18xeWQtNzJiWC1XMkVWTkVEVkc0eXZTcmhXcjFibU1F?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 07:17:35 GMT"
         }
       ]
     },
@@ -988,10 +988,10 @@
           "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
         },
         {
-          "title": "HOSTPLUS EXECUTIVE",
+          "title": "Review -",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUZQbFBuenRESTA4emZGUEtGM01qVG5rbkdrME5GV2MyV2w2Sktaa1I0N2FmNktxeXROc21uN0JyMzFlS3Z4Z0FGcHRCVU1JLWdoV0tlMGNEakY5M2hTRGl0Q2VFdlRQU0xnZlZRTmhOVWhSUm9mbk16cnJMUG96YVZnUm9JUExKclNBeVpFNVFUSDVJQXVvdjhMbks4Q0NJNEdj?oc=5",
-          "pubDate": "Tue, 30 Sep 2025 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSHF4cUh5aV9IWVAwX0FDU05xNnZxOWtDNzN2NEJOcnQ5LVVqWGM1NjZadm1BNmNhTjF3RXJjOU4tQkpSS1pxVGMwYjlpdWROS20wa0VGRnpyeExfZXZpMWRELTc1ME9STnNvNXE5WXdWdjM0RjJmTUFNaFo4V0lBZnhUTnJUUk9lYkxvbzBPeHJKRExxaUhHYjRkdWFONmRJdWM1NkdJRzQ0RGpzZWc0UUNZWi04MENsLUdyUTQwbndPcWpuYXloV3Axc05MelcxcEMyQ3VfUF9wOVFaaTZsRQ?oc=5",
+          "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1030,14 +1030,14 @@
         {
           "title": "Market announcement",
           "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNeExhdFR4NHRYZFlUNURTNXktM0hxT2NjY080YWZseXFRZ1RNNm5ZV1VnbHlkUjJ3ZGVCREcxQUN6Z1BMSVJJWEw2ajEwVmJLdXVDcXJuZFdLOUs1S1B6MEhjNDNBRHB1emdvbzhEMW5HLThjSFlLOG1SV1A1ZlZvVFk2VVZoYmJ0SEZadmtMMGhBZUpKYWc5dFZtQ00yOXB3TDF2UHA5ZnRWNWFLSHpBNFFuSzRLNUxkMXF5dVhNa3VSaUxFOXZaY0FSelRuMnFjaXQxbzNOQTMzMGE1WDZHTGVxLVN4cUV6NFdvWVhyMmdVLUhSRTdNVV9OMGtIXzlPVWlqbEln?oc=5",
-          "pubDate": "Thu, 09 Jul 2026 06:35:21 GMT"
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU0h4cDJUOFBWeDlvbkVFRm1HRlgzRU1mSkVJNTFiY011UENtR3doR3E5b0VSOF9JOFRsR3VxNFNfeFAxOGZ0NmZtZm9Pd0szcXVla3ZYQ3JOQnNhTzA1TnJZZ0gzREllWmFtNDhXcTBsNEdnR25qbGl4azdpRW1mXzQtcGdROEFrZTduRVUzSEhUQmJCVTMyTFJDVmtGOGFBNnlJaTB5RERzaURMYzNRSzVaUkRhTl9JNXlRT1V2TDJ3NkVHcWNEWlFfQ05aVHBqeTZiTXpYYlVUZ056cXBlazRnRnhBbjdHUklmVENLMEpzNU83UUFMRFZPNkZpSXV4bnVF?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:08:52 GMT"
         },
         {
           "title": "Market announcement",
           "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU0h4cDJUOFBWeDlvbkVFRm1HRlgzRU1mSkVJNTFiY011UENtR3doR3E5b0VSOF9JOFRsR3VxNFNfeFAxOGZ0NmZtZm9Pd0szcXVla3ZYQ3JOQnNhTzA1TnJZZ0gzREllWmFtNDhXcTBsNEdnR25qbGl4azdpRW1mXzQtcGdROEFrZTduRVUzSEhUQmJCVTMyTFJDVmtGOGFBNnlJaTB5RERzaURMYzNRSzVaUkRhTl9JNXlRT1V2TDJ3NkVHcWNEWlFfQ05aVHBqeTZiTXpYYlVUZ056cXBlazRnRnhBbjdHUklmVENLMEpzNU83UUFMRFZPNkZpSXV4bnVF?oc=5",
-          "pubDate": "Wed, 08 Jul 2026 07:08:52 GMT"
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNeExhdFR4NHRYZFlUNURTNXktM0hxT2NjY080YWZseXFRZ1RNNm5ZV1VnbHlkUjJ3ZGVCREcxQUN6Z1BMSVJJWEw2ajEwVmJLdXVDcXJuZFdLOUs1S1B6MEhjNDNBRHB1emdvbzhEMW5HLThjSFlLOG1SV1A1ZlZvVFk2VVZoYmJ0SEZadmtMMGhBZUpKYWc5dFZtQ00yOXB3TDF2UHA5ZnRWNWFLSHpBNFFuSzRLNUxkMXF5dVhNa3VSaUxFOXZaY0FSelRuMnFjaXQxbzNOQTMzMGE1WDZHTGVxLVN4cUV6NFdvWVhyMmdVLUhSRTdNVV9OMGtIXzlPVWlqbEln?oc=5",
+          "pubDate": "Thu, 09 Jul 2026 06:35:21 GMT"
         },
         {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
