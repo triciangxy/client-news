@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T11:06:57Z",
+  "generated_at": "2026-07-10T03:35:01Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.3,
-      "change": -1.4000000000000057,
-      "changePct": -1.8995929443690713,
+      "price": 74.25,
+      "change": 1.9500000000000028,
+      "changePct": 2.697095435684651,
       "currency": "HKD",
-      "prevClose": 73.7,
-      "dayHigh": 73.3,
-      "dayLow": 71.6,
+      "prevClose": 72.3,
+      "dayHigh": 74.5,
+      "dayLow": 72.55,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 105000.0,
-      "change": -2300.0,
-      "changePct": -2.1435228331780056,
+      "price": 110800.0,
+      "change": 5800.0,
+      "changePct": 5.523809523809524,
       "currency": "KRW",
-      "prevClose": 107300.0,
-      "dayHigh": 109700.0,
-      "dayLow": 104000.0,
+      "prevClose": 105000.0,
+      "dayHigh": 111500.0,
+      "dayLow": 104300.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6577.0,
-      "change": -2.0,
-      "changePct": -0.030399756801945583,
+      "price": 6543.0,
+      "change": -34.0,
+      "changePct": -0.5169530180933557,
       "currency": "JPY",
-      "prevClose": 6579.0,
-      "dayHigh": 6606.0,
-      "dayLow": 6531.0,
+      "prevClose": 6577.0,
+      "dayHigh": 6641.0,
+      "dayLow": 6505.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3289.0,
-      "change": -16.0,
-      "changePct": -0.4841149773071104,
+      "price": 3280.0,
+      "change": -9.0,
+      "changePct": -0.2736394040741867,
       "currency": "JPY",
-      "prevClose": 3305.0,
-      "dayHigh": 3317.0,
-      "dayLow": 3270.0,
+      "prevClose": 3289.0,
+      "dayHigh": 3348.0,
+      "dayLow": 3254.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -450,12 +450,6 @@
           "pubDate": "Tue, 15 Apr 2025 04:49:36 GMT"
         },
         {
-          "title": "| SUMITOMO MITSUI TRUST GROUP",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBydU1ZT3RWZzhsaEVrRzNodTFTRGFWSklHQ2xMUzFvcVNDNWMzS1N3V0JsUnpQZW9VTkx3?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 07:30:29 GMT"
-        },
-        {
           "title": "Shareholders' Meeting",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZaXdrMVgydUt5XzJ5Y0huaXNuVXBDRXBVM3FLa2VTOXRhVjEzb0w2dzZJZ3o5b24zM0x4X3BzbEpuRWpOZlcxVHlnN2htLUE3OEJaS3hxVHpGUm8wY1NLTw?oc=5",
@@ -502,6 +496,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CQ2U4RWJaV2UzdXBwRVltbXJrQUdWNlU2anZkWlBLWUQ5V0dNamlGNm1mNGhld25sMmU2R3dkTnNJelJhN3FqeDJHZUhqVjhJam9Xd0pidUQ5THA5VjI0?oc=5",
           "pubDate": "Mon, 24 Feb 2025 07:53:11 GMT"
+        },
+        {
+          "title": "Covered Bond Valuation Investor Report",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEaUlPdkl4WVBaeHhUb05FTFVhMjVBaXB2S2YzQk1adTZzRWxqVHVRNkdycXd6NWc5Y3V5ZVpLTW5LSTRkRnlQY2liT29BTHNrSm1rMGw5dVFEUmZtazgyR1B4OElnUVozQkJsaGdmZVc?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 09:00:24 GMT"
         }
       ]
     },
@@ -596,12 +596,6 @@
           "pubDate": "Wed, 08 Jul 2026 07:00:53 GMT"
         },
         {
-          "title": "Business Integrity and Governance",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUkxIN0xJTVNMSklsYVJ0SlFIOXY1ZGM4dlpzZnV4Y3ktSVdZUDVPZ2ZMTlh3d0hxdVgwcWdjWENvdjNuR2p1Yklybi1TWVFGdHJkYWdha1R5YWp1SzNZWTZnUDJOQndoZWdNdkJrV3hkNkVfZGtYWVBvejdGV1U0b09sMWY4ZTBYS25LU2FfbGdrSUYydURuTkdhSTEyTkZfdXM5NVhsWHlzT3RGbW81UA?oc=5",
-          "pubDate": "Wed, 08 Jul 2026 07:01:17 GMT"
-        },
-        {
           "title": "Temasek’s Net Portfolio Value Grows to S$518 billion, up S$49 billion from Last Year",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQWVUUlBWSkdfVnl1SDYyOXY0bTRheDZJOGR6eTV6ckNic2tpbktZSDNUbl8zZDlnU29wTWJXUDNVeWN4Vm1KaXMwNjVoWnFlRWluamNOSVd1LXBsVHkzeFVIU045U2tweVEwb21wOHdsc05adWpYVXhsYTItMkdLTzFYbkViTFpaNEJaZTNUZXZCYVdfRUtta3BnSkZubW9sYmU3ZS1qTlh0T05ZMWQ5SjBLSHVPY3pTMjlBNTVRZ29OMjJtdVk3ZVNpUFg?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR25ORUduSzU1OHJ3bGhfT01CelJWWURMaV9MS0pMd1N4MV9TQ3o0cE5fYjBCSU1YUDJjcFpHVG5EQThiWXJ0ZkIzQUdlN3FLUVdXMW9pWWdzX3ZFcDRWcXc4LW1hYk1pTkdBRDM4eXd1ZFVtdTZUQUxBcFVScGxsSC1hUFhWWnZnR2kwTUlWRVJjdHZmSmdheUlCc2lLVnQ1VzlycTRIWHY5S2dpVERRWWF6c3pxSUVydW1iRFkzTDJuc1liMlVGZEFEUFh2dldRRVJSR1ZnbWZ5ZWd1U3d4QWRFVDd6dw?oc=5",
           "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Senior Management Appointments",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa0U4cHlhY1RrbHlJb2JpdmFQWW5wWFUzLTBDbmcza29DR2ZwczRTRm1VQmJkSTdFVUVxV0Ewd2hEa2pMREIxWkJsakw0UV9rOTVtZm41NDRnMGpnR0xUNEpIbHpSQmUxTGhvd29yUlFTUzkxRHI5SzdDU1NDeHY0aXNVOUFuMFFUdTY2a3JPRWxiNThyVVNVVTN0a0drM2RuaklucktJMV8?oc=5",
+          "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT"
         }
       ]
     },
@@ -653,6 +653,12 @@
         "query": "site:gic.com.sg"
       },
       "items": [
+        {
+          "title": "VP, Information & Technology Risk Manager (Audit Management)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajg5UDlpbzBUUk43YUdmZVlyNDY0SEk0QTJ0OXRCdHFiNlBpQXowMG5XQzljYTNFR0hRa0NUVmpzQUI1bXlBVEk3Z3NEYlR5S3NqR3pLUk8tV2NGVWU5Q3o1M1FMV1lmdk1wdVFmREVVZV8ya3I3QTg2RFM1WHR1d1I1N1RuRUVvdEd6VTA0V2VweGdVcDF6U0lFNXJWTks2alFSNVJhQXA0VlJfMm84bzRqUEhuVEFnbnU4?oc=5",
+          "pubDate": "Thu, 09 Jul 2026 04:17:17 GMT"
+        },
         {
           "title": "Associate/AVP, IT Audit",
           "source": "gic.careers",
@@ -678,6 +684,12 @@
           "pubDate": "Sun, 28 Jun 2026 14:42:40 GMT"
         },
         {
+          "title": "Portfolio Manager, Treasury, Balance Sheet Management Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU1sOG81UkNhRTNhMHRGTDU2dFVRWjdVODMyUG5KbkwtMHdvZHJmY29DWUJDTlNPRkFaSVNucDk2cGh1OUQzZmVRakd5Nkhva19LaHJzNkIxWG80aTYtMWFMcXAtaC13YzI4SFhIVXR3RWY1RTNPNkJmSTEzTEpPVGptQ2F6SlFnLTNtQ0JMX21QOUlLLVQtWXVRQ25UMzRGZzlQLWRzcndTbEowRzRhWmdrVmVnX28?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 23:39:09 GMT"
+        },
+        {
           "title": "Associate, Vendor Operations Administrator, Technology Group (1 Year Contract)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEhoa01hWTUtazJEZ1pTNVg0SDg1bGlnaG1wdW9MOGxhemtKNXBiSjRXS0dPb0tnbGpWNDZpZ0JjRVNfT1FPTEdFN0RYSkZFYWs1WjhIb0l5UU51eWtBb2NnU3plXzBnVV9wUWdBMzVUR2JVRXJYNEx4VVJXTFFuX2dpdUZVMFZ0NXBXckY1cVp1RHpWX0hNczI2NExIeXFWVzRaZkQtaWZSYjZTTk5WZG9yelR2eHJqeWhBcjBQVGVCMDQ1aGhIaTJzWEFMY0pqdEtla3hR?oc=5",
@@ -700,18 +712,6 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS0ltM2FXb3ZDeFVPNGt4Wjl4cjNOMzdBbUoyaDQwdUdDbnBOZ2lCc3BTV0xub01YV1BZUkJKZ0FsTllYeF9MMUhUajlNVEt4WHhWUVJsVzlYQTk5cFBEQ1FnVlFIc1hlb2N6NklOQVNZcXBZbnVVcmVpb3lWSnRJNTVKQVhXOG9jZ1lCcm80c2xaVHJQcHpDTmwxNTRrV3Q0dmtvajlISlBVZ0FvMHhoSzd5M1BHM0E?oc=5",
           "pubDate": "Tue, 16 Jun 2026 16:18:34 GMT"
-        },
-        {
-          "title": "VP, Talent & Organization Strategy",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbG1OSXEyMDRDOHg2LW1nZGFqWEZEeWVzWlhTRUk1NUFtOVlTbVdvOFdNQUl1ZFEzMUc5cDhWeW93MUxTclItcTd1djdzQW4wS3ZhRU02QTNCU1Zvc0lHZ04tTDNiNGZYZGtzdDBzVHlYX2pfSkY0d1FJWmdRSjhrYXJ5ZUdudHNHTFMwS050RmR5Rmc?oc=5",
-          "pubDate": "Tue, 16 Jun 2026 16:17:59 GMT"
-        },
-        {
-          "title": "Associate/ AVP, Talent & Organization Strategy",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1k1UHZyQ2RQeUJFazJ2cjBUV3BBUm53Rlo1RVpkRTVkYWpmR2ZPUzFtd3BFOHdkMjZSUU9xNTBBX3EtNjJqR1ZJMVRaQmQ3UTJsRFFUOHFZM3pkcEZtTExxQ0F6WHhmM2h1QXdyZGZnMkgwLUJfclhteXFqTncxQkpoM2dKY1RfRXU0MGg2TTg5c2NBVjdnbDFfRXNZc3pUTWc?oc=5",
-          "pubDate": "Tue, 16 Jun 2026 16:29:41 GMT"
         }
       ]
     },
