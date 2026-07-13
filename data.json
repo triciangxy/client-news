@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T06:38:05Z",
+  "generated_at": "2026-07-13T10:29:39Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.0,
-      "change": -0.6500000000000057,
-      "changePct": -0.894700619408129,
+      "price": 72.4,
+      "change": -0.25,
+      "changePct": -0.3441156228492773,
       "currency": "HKD",
       "prevClose": 72.65,
       "dayHigh": 72.55,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 108300.0,
-      "change": -900.0,
-      "changePct": -0.8241758241758242,
+      "price": 108600.0,
+      "change": -600.0,
+      "changePct": -0.5494505494505495,
       "currency": "KRW",
       "prevClose": 109200.0,
       "dayHigh": 113300.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6620.0,
-      "change": 62.0,
-      "changePct": 0.9454101860323268,
+      "price": 6632.0,
+      "change": 74.0,
+      "changePct": 1.128392802683745,
       "currency": "JPY",
       "prevClose": 6558.0,
       "dayHigh": 6674.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3291.0,
-      "change": 30.0,
-      "changePct": 0.9199632014719411,
+      "price": 3299.0,
+      "change": 38.0,
+      "changePct": 1.1652867218644587,
       "currency": "JPY",
       "prevClose": 3261.0,
       "dayHigh": 3363.0,
@@ -410,7 +410,7 @@
           "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
         },
         {
-          "title": "Shinhan Financial Group-Annual Report",
+          "title": "Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPVHB3M181ZTZfTS1DRGw2dmdZWHoyWGJ5eHFoUEtQWEhCV3dzNnpKdTI2WVhfZER3dXBOU3dwSFBxRldFRTJjNV8yY1lsTzZBaWVSLU5MMm9vZ29lZlpVVQ?oc=5",
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
@@ -660,6 +660,12 @@
           "pubDate": "Fri, 10 Jul 2026 04:01:39 GMT"
         },
         {
+          "title": "Who We Are",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nUnRlazljZkZ6bWZ2Z1ZxOGtnMkhrazY4Vy0tOFlNU1V3clliNWt0YTFHRlNaUW9yWnFQeXlrbW9JVlAzVk1qRmxn?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
+        },
+        {
           "title": "VP, Information & Technology Risk Manager (Audit Management)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajg5UDlpbzBUUk43YUdmZVlyNDY0SEk0QTJ0OXRCdHFiNlBpQXowMG5XQzljYTNFR0hRa0NUVmpzQUI1bXlBVEk3Z3NEYlR5S3NqR3pLUk8tV2NGVWU5Q3o1M1FMV1lmdk1wdVFmREVVZV8ya3I3QTg2RFM1WHR1d1I1N1RuRUVvdEd6VTA0V2VweGdVcDF6U0lFNXJWTks2alFSNVJhQXA0VlJfMm84bzRqUEhuVEFnbnU4?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbG1OSXEyMDRDOHg2LW1nZGFqWEZEeWVzWlhTRUk1NUFtOVlTbVdvOFdNQUl1ZFEzMUc5cDhWeW93MUxTclItcTd1djdzQW4wS3ZhRU02QTNCU1Zvc0lHZ04tTDNiNGZYZGtzdDBzVHlYX2pfSkY0d1FJWmdRSjhrYXJ5ZUdudHNHTFMwS050RmR5Rmc?oc=5",
           "pubDate": "Tue, 16 Jun 2026 16:17:59 GMT"
-        },
-        {
-          "title": "VP, Fixed Income Portfolio & Risk (CIOO)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSEx2cDhDTEhHdFRhYmVyMTljU3ROd2d1VVB3Sk00Rm5pTWxUZ1Zvbm81dUtXX0hIZ1I3VHBocENaWGhwRzlRU0NWbXp4Si1aTC1kTjc3TlhVN1QySTdGS1dJdTJZUmJhTldmRGgwaGFydEpKN2lsYWdsX2RCWUhNeVNKRTc5dmQyU3E5MUtsTkFfWC1NMWVwdktsM2FyNnVt?oc=5",
-          "pubDate": "Thu, 18 Jun 2026 22:00:58 GMT"
         }
       ]
     },
@@ -836,6 +836,12 @@
           "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
         },
         {
+          "title": "PRESS RELEASE",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
+          "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
+        },
+        {
           "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
@@ -846,12 +852,6 @@
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Ca2pUOElDNW9yX1ZLeE5KM1VyU3FoQktBUmszNHhiNzZQS19lcExYRU9qekozcE9tUllaQ1pIa3NGNlVfTTNQTkxTaUM?oc=5",
           "pubDate": "Sun, 22 Jun 2025 09:03:18 GMT"
-        },
-        {
-          "title": "Press Releases",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PM3NXcjdETXNxSmJrVUdwQ3BKbXVNYmVyaUlvY0JjWU9mZmdzOTBaTFdmRlc3R215b1BQUFBWTENsREVTcWd5X2lOazhkLXVsemZKSndpX1VYYkE?oc=5",
-          "pubDate": "Wed, 29 Feb 2012 08:00:00 GMT"
         }
       ]
     },
@@ -900,12 +900,6 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
-          "title": "National Pension for All People’s Happiness",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
-          "pubDate": "Sun, 19 Feb 2023 08:19:21 GMT"
-        },
-        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -922,6 +916,12 @@
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
           "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
+        },
+        {
+          "title": "Executive Fund Director & Chief Investment Officer",
+          "source": "국민연금기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
+          "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
         }
       ]
     },
