@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T02:42:04Z",
+  "generated_at": "2026-07-14T05:33:45Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.15,
-      "change": 0.75,
-      "changePct": 1.0359116022099446,
+      "price": 73.65,
+      "change": 1.25,
+      "changePct": 1.7265193370165743,
       "currency": "HKD",
       "prevClose": 72.4,
-      "dayHigh": 73.45,
+      "dayHigh": 73.85,
       "dayLow": 72.0,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107700.0,
-      "change": -900.0,
-      "changePct": -0.8287292817679558,
+      "price": 108900.0,
+      "change": 300.0,
+      "changePct": 0.2762430939226519,
       "currency": "KRW",
       "prevClose": 108600.0,
       "dayHigh": 112000.0,
@@ -272,20 +272,20 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6619.0,
-      "change": -13.0,
-      "changePct": -0.19601930036188178,
+      "price": 6654.0,
+      "change": 22.0,
+      "changePct": 0.33172496984318456,
       "currency": "JPY",
       "prevClose": 6632.0,
-      "dayHigh": 6667.0,
+      "dayHigh": 6671.0,
       "dayLow": 6542.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3294.0,
-      "change": -5.0,
-      "changePct": -0.1515610791148833,
+      "price": 3312.0,
+      "change": 13.0,
+      "changePct": 0.39405880569869656,
       "currency": "JPY",
       "prevClose": 3299.0,
       "dayHigh": 3324.0,
@@ -410,7 +410,7 @@
           "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
         },
         {
-          "title": "Shinhan Financial Group",
+          "title": "Shinhan Financial Group-Annual Report",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPVHB3M181ZTZfTS1DRGw2dmdZWHoyWGJ5eHFoUEtQWEhCV3dzNnpKdTI2WVhfZER3dXBOU3dwSFBxRldFRTJjNV8yY1lsTzZBaWVSLU5MMm9vZ29lZlpVVQ?oc=5",
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
@@ -514,16 +514,16 @@
       },
       "items": [
         {
-          "title": "ゆうちょ銀行口座へのお振込方法",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSk9jMG5OMnh4a0dicVNvLVhFbjBoMnd0N2JEYWNzdVkzR1hjdGFwX3ZRVWxFZXZKMFdJekRwTU1IQ3ktNUNWeVVNdmU1eVpSZmxiVHlrV0c5cENKdmxuVWdBVHJUN1NicXFzOF9YWW1FTE5oQmdQQmdENk9JWTlGT1VWbVRvVFE?oc=5",
-          "pubDate": "Mon, 26 Feb 2018 09:21:27 GMT"
-        },
-        {
           "title": "JAP AN POST BANK Annual R eport JAP AN POST BANK Annual R eport",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91X1R0MHBSbkp1NmdYVjNDN3F4S1FYX2JOTkZhZUZWMTJ5Qm5lS3l4Wnk1WTk5bmxnR1c2d0Y0VTlydFNjSEdjRTdvQmdfRWwzS0FYQXQ2RVpPTkRuaVUyR3BRQkxmRlJ4eWZvMldBWjQyb1BjQk5aUmI1c3M?oc=5",
           "pubDate": "Tue, 01 Jul 2025 07:00:00 GMT"
+        },
+        {
+          "title": "ゆうちょ銀行口座へのお振込方法",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSk9jMG5OMnh4a0dicVNvLVhFbjBoMnd0N2JEYWNzdVkzR1hjdGFwX3ZRVWxFZXZKMFdJekRwTU1IQ3ktNUNWeVVNdmU1eVpSZmxiVHlrV0c5cENKdmxuVWdBVHJUN1NicXFzOF9YWW1FTE5oQmdQQmdENk9JWTlGT1VWbVRvVFE?oc=5",
+          "pubDate": "Mon, 26 Feb 2018 09:21:27 GMT"
         },
         {
           "title": "委 任 状",
@@ -900,12 +900,6 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
-          "title": "National Pension for All People’s Happiness",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
-          "pubDate": "Sun, 19 Feb 2023 08:19:21 GMT"
-        },
-        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -922,6 +916,12 @@
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
           "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
+        },
+        {
+          "title": "Executive Fund Director & Chief Investment Officer",
+          "source": "국민연금기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
+          "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
         }
       ]
     },
@@ -1177,7 +1177,7 @@
           "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
-          "pubDate": "Fri, 10 Oct 2025 13:17:58 GMT"
+          "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
         },
         {
           "title": "David Junius",
