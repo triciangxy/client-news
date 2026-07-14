@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T05:33:45Z",
+  "generated_at": "2026-07-14T08:10:42Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.65,
-      "change": 1.25,
-      "changePct": 1.7265193370165743,
+      "price": 73.95,
+      "change": 1.5499999999999972,
+      "changePct": 2.1408839779005486,
       "currency": "HKD",
       "prevClose": 72.4,
-      "dayHigh": 73.85,
+      "dayHigh": 74.2,
       "dayLow": 72.0,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 108900.0,
-      "change": 300.0,
-      "changePct": 0.2762430939226519,
+      "price": 106500.0,
+      "change": -2100.0,
+      "changePct": -1.9337016574585635,
       "currency": "KRW",
       "prevClose": 108600.0,
       "dayHigh": 112000.0,
@@ -277,15 +277,15 @@
       "changePct": 0.33172496984318456,
       "currency": "JPY",
       "prevClose": 6632.0,
-      "dayHigh": 6671.0,
+      "dayHigh": 6677.0,
       "dayLow": 6542.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3312.0,
-      "change": 13.0,
-      "changePct": 0.39405880569869656,
+      "price": 3304.0,
+      "change": 5.0,
+      "changePct": 0.1515610791148833,
       "currency": "JPY",
       "prevClose": 3299.0,
       "dayHigh": 3324.0,
@@ -322,12 +322,6 @@
           "pubDate": "Mon, 13 Jul 2026 02:08:19 GMT"
         },
         {
-          "title": "AIA GROUP LIMITED SUSTAINABILITY REPORT 2025 SUBSECTION REPORT",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGtZOV9sdmxDRmNXVUU1Q1RpaGQ5N05UVnJuVnQ1MlpZNk5SMW5MaU1XMl9PcU42R09JWFFzd1E0ZnF4bGg2R3dMMGFZTUxtRkhJQTV3ZWNOSVAzcThNLU1tN3U4cWhPSU9jemlNTWMxWDh0dVpXQnJBamhmdWY2eklhTl85aU0wZkRYQ1Z3Z0xSTExLMG4yQkc0dzJUZFVZSGdQWmxyQ3ZFQ2c3UDQ3SUs1bkhndw?oc=5",
-          "pubDate": "Sat, 21 Mar 2026 22:22:44 GMT"
-        },
-        {
           "title": "AIA China accelerates geographical expansion with approval to prepare a new branch in Zhejiang",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnJOVkJObjFvVFZCaFZPazFldEdpS2xVcVRPN1h0dVhOdlloc0pFNEFkZ3V1c1dIeUt6NmJ5MVRWR0JDcjJnanpxSE9IS1J1X01FR3RVVmQ2TFFpQy0tWEdfcnFSNG51OTFHMFdZN1hETVZpQ0ItU2s5a0VIOWZVbEZNTkQtYmhwM0pka1E0YWV4QQ?oc=5",
@@ -362,6 +356,12 @@
           "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
+        },
+        {
+          "title": "Healthy Finances",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1S2lEdDJRMnNDQU02M2s1ZFlqUTVYdnR2VDVEMWQyV1ZtdDh0bzE0ZG1SWURueUxucDR5MGNGWm91RW91a0dEb2hGQno5TW40bnRub25KV0tLVGY4ZDFhaGlvSkdlTksyajBfclhObTMzdVZ5d0VlS3d3?oc=5",
+          "pubDate": "Fri, 22 Jul 2022 04:22:23 GMT"
         }
       ]
     },
@@ -428,10 +428,10 @@
           "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
         },
         {
-          "title": "Shinhan Financial Group-CEO Profile",
+          "title": "CODE OF CONDUCT FOR EMPLOYEES",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NRTJNd0gzU1NTNGxscklZbDdVdzJya2U3S2Q1YVBGV0NObUsyZjJGNUMzaG04d0RrVmFkQTJrcGYxQWtmUEg3Uy1jamQzUXRMVzlYX2xjWlY?oc=5",
-          "pubDate": "Wed, 24 Jul 2024 03:08:20 GMT"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMWdvWHl6NTUxR0NXYnFYcU5vQzN1S01ETDNLOTh6eHNoMXMxQmZyeGhTSHpMREswTm4xdGp2M1FVdnB1U2RjOWhOUG5pWlRPeG9IZlhEcVRyWFdMcHA0NlFmWngwaHZOem04YkVvZ3dTZVhDR3JSa3pvdUR5bVE?oc=5",
+          "pubDate": "Mon, 29 Jul 2024 14:07:20 GMT"
         }
       ]
     },
@@ -900,6 +900,12 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
+          "title": "National Pension for All People’s Happiness",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
+          "pubDate": "Sun, 19 Feb 2023 08:19:21 GMT"
+        },
+        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -916,12 +922,6 @@
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
           "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
-        },
-        {
-          "title": "Executive Fund Director & Chief Investment Officer",
-          "source": "국민연금기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
-          "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
         }
       ]
     },
@@ -1262,16 +1262,16 @@
           "pubDate": "Mon, 23 May 2016 04:54:03 GMT"
         },
         {
+          "title": "[The Norinchukin Bank] 2025",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGo1Um8xXzA0RGlpSW9YQWQyOElpa1ZrRXBEWWtHcUFkZmp1dTZYS002dnBWLTEzRUdCV0JEakRaVFU4WFZVN0YxMFk0NzhnckdvWndHOW1DT2Y0OFFsTDlOQzNPTjJXSmRZcUM1aktXZFBZdlNXdTNodURaZ2I3QmhmQktab290bU1YWU5JZkRBMlVzZ1E?oc=5",
+          "pubDate": "Sat, 20 Sep 2025 01:37:06 GMT"
+        },
+        {
           "title": "News Release 2025：The Norinchukin Bank",
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVpTQlB4d2RWZ21Dald6bWhzMGo1Q0YxY3JCMmtSZkQwYjIyRnE3b0diV19xRG9vSjV2aUFIWjFNdjhiVXZNeHhFcWZFVDA1YkgzT1djR2ltZlFUOUVkS0VQUVZxdXl5SlVDTUNnSVJ6c19kZ0RRUTl3aVZiTTZMLWJUNUY3VEtOck5odF9QODVxUlVYLTY3Sl9od3lSV3BJMmNNeGw5UjM?oc=5",
           "pubDate": "Fri, 06 Jun 2025 07:00:00 GMT"
-        },
-        {
-          "title": "The Norinchukin Bank Sustainable Finance",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6S2w1ejBtWUxGZF84blNZZkRaYnd4VG5xNEZNUlVPTHJpaHBCNlljOGEwRjFmRWQwUXpTa3F2bDUzUEJlZVB1cTI4RmMyc0dRSjRzaW9sSjZ2MjMzTEFjYnlZZjVkU0hZeEZScE5DWWhSUEU?oc=5",
-          "pubDate": "Thu, 31 Aug 2023 06:38:07 GMT"
         }
       ]
     }
