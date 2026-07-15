@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T08:17:32Z",
+  "generated_at": "2026-07-15T10:21:20Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.1,
-      "change": 2.0,
-      "changePct": 2.699055330634278,
+      "price": 76.2,
+      "change": 2.1000000000000085,
+      "changePct": 2.8340080971660035,
       "currency": "HKD",
       "prevClose": 74.1,
       "dayHigh": 76.9,
@@ -702,16 +702,16 @@
           "pubDate": "Tue, 16 Jun 2026 16:19:35 GMT"
         },
         {
-          "title": "AVP, Talent Acquisition (2-year contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
-        },
-        {
           "title": "AVP, Data Analyst, Infrastructure",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMi1wcUxxblYwb1hjTWY1Ynh5WHZYOGZsZ0NBNkphMk0yZEIzY0NuYkpoU2hWb3NtLTBJa0czUmlFM1BaVTZabTBiajNJM0xzdXdUT0ZhZHR2WVZaSFZPNVd3WEV6cDZXSGZWbDZid3hsOGRjR0ZVMDEtZmFjY3dzUzZWUGFOcGVtekhnQzdEcUV3VmhI?oc=5",
           "pubDate": "Wed, 17 Jun 2026 10:26:02 GMT"
+        },
+        {
+          "title": "Vice President, Business Manager, Internal Audit Department",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS0ltM2FXb3ZDeFVPNGt4Wjl4cjNOMzdBbUoyaDQwdUdDbnBOZ2lCc3BTV0xub01YV1BZUkJKZ0FsTllYeF9MMUhUajlNVEt4WHhWUVJsVzlYQTk5cFBEQ1FnVlFIc1hlb2N6NklOQVNZcXBZbnVVcmVpb3lWSnRJNTVKQVhXOG9jZ1lCcm80c2xaVHJQcHpDTmwxNTRrV3Q0dmtvajlISlBVZ0FvMHhoSzd5M1BHM0E?oc=5",
+          "pubDate": "Tue, 16 Jun 2026 16:18:34 GMT"
         }
       ]
     },
@@ -940,6 +940,12 @@
           "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
+          "title": "Hostplus members rewarded with strong FY26 returns",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
+          "pubDate": "Mon, 13 Jul 2026 13:06:09 GMT"
+        },
+        {
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
           "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
-        },
-        {
-          "title": "Review -",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSHF4cUh5aV9IWVAwX0FDU05xNnZxOWtDNzN2NEJOcnQ5LVVqWGM1NjZadm1BNmNhTjF3RXJjOU4tQkpSS1pxVGMwYjlpdWROS20wa0VGRnpyeExfZXZpMWRELTc1ME9STnNvNXE5WXdWdjM0RjJmTUFNaFo4V0lBZnhUTnJUUk9lYkxvbzBPeHJKRExxaUhHYjRkdWFONmRJdWM1NkdJRzQ0RGpzZWc0UUNZWi04MENsLUdyUTQwbndPcWpuYXloV3Axc05MelcxcEMyQ3VfUF9wOVFaaTZsRQ?oc=5",
-          "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
         }
       ]
     },
