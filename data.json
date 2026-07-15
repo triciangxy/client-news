@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T02:40:27Z",
+  "generated_at": "2026-07-15T05:34:54Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.8,
-      "change": 0.7000000000000028,
-      "changePct": 0.9446693657220012,
+      "price": 75.2,
+      "change": 1.1000000000000085,
+      "changePct": 1.4844804318488645,
       "currency": "HKD",
       "prevClose": 74.1,
       "dayHigh": 76.9,
@@ -261,20 +261,20 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 109200.0,
-      "change": 2700.0,
-      "changePct": 2.535211267605634,
+      "price": 108500.0,
+      "change": 2000.0,
+      "changePct": 1.8779342723004695,
       "currency": "KRW",
       "prevClose": 106500.0,
-      "dayHigh": 110100.0,
+      "dayHigh": 110400.0,
       "dayLow": 107300.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6710.0,
-      "change": 56.0,
-      "changePct": 0.8415990381725278,
+      "price": 6716.0,
+      "change": 62.0,
+      "changePct": 0.9317703636910128,
       "currency": "JPY",
       "prevClose": 6654.0,
       "dayHigh": 6767.0,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3316.0,
-      "change": 12.0,
-      "changePct": 0.36319612590799033,
+      "price": 3341.0,
+      "change": 37.0,
+      "changePct": 1.1198547215496368,
       "currency": "JPY",
       "prevClose": 3304.0,
-      "dayHigh": 3351.0,
+      "dayHigh": 3352.0,
       "dayLow": 3288.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -450,6 +450,12 @@
           "pubDate": "Tue, 15 Apr 2025 04:49:36 GMT"
         },
         {
+          "title": "Shareholders' Meeting",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZaXdrMVgydUt5XzJ5Y0huaXNuVXBDRXBVM3FLa2VTOXRhVjEzb0w2dzZJZ3o5b24zM0x4X3BzbEpuRWpOZlcxVHlnN2htLUE3OEJaS3hxVHpGUm8wY1NLTw?oc=5",
+          "pubDate": "Sun, 23 Feb 2025 22:36:20 GMT"
+        },
+        {
           "title": "Reports (Sustainability) | Sustainability | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jTHVmQnV5RHVGRVhYMW9teFE4a0VQWXFHUmVoeUhDTGFmaVVtOXF2bk4tb1NCQXVSbExvSG9WYzMtNGxXU3pJYWtYYS1WV1NTcWdqTDhocnNiMW5vOVE?oc=5",
@@ -496,12 +502,6 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TQ2VydlZHQWZZNXc4bzFRVDB4aGdpWEw5djl0NE56WHIzaUdyZlNmQld6LXF5dUd4dHZKTjc5N2JHdUY3ejltY1NCY1RyZw?oc=5",
           "pubDate": "Mon, 24 Feb 2025 00:02:27 GMT"
-        },
-        {
-          "title": "Basel III Disclosure | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CQ2U4RWJaV2UzdXBwRVltbXJrQUdWNlU2anZkWlBLWUQ5V0dNamlGNm1mNGhld25sMmU2R3dkTnNJelJhN3FqeDJHZUhqVjhJam9Xd0pidUQ5THA5VjI0?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 07:53:11 GMT"
         }
       ]
     },
@@ -614,6 +614,12 @@
           "pubDate": "Wed, 08 Jul 2026 15:59:05 GMT"
         },
         {
+          "title": "Business Integrity and Governance",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUkxIN0xJTVNMSklsYVJ0SlFIOXY1ZGM4dlpzZnV4Y3ktSVdZUDVPZ2ZMTlh3d0hxdVgwcWdjWENvdjNuR2p1Yklybi1TWVFGdHJkYWdha1R5YWp1SzNZWTZnUDJOQndoZWdNdkJrV3hkNkVfZGtYWVBvejdGV1U0b09sMWY4ZTBYS25LU2FfbGdrSUYydURuTkdhSTEyTkZfdXM5NVhsWHlzT3RGbW81UA?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:01:17 GMT"
+        },
+        {
           "title": "Temasek’s Net Portfolio Value Grows to S$518 billion, up S$49 billion from Last Year",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQWVUUlBWSkdfVnl1SDYyOXY0bTRheDZJOGR6eTV6ckNic2tpbktZSDNUbl8zZDlnU29wTWJXUDNVeWN4Vm1KaXMwNjVoWnFlRWluamNOSVd1LXBsVHkzeFVIU045U2tweVEwb21wOHdsc05adWpYVXhsYTItMkdLTzFYbkViTFpaNEJaZTNUZXZCYVdfRUtta3BnSkZubW9sYmU3ZS1qTlh0T05ZMWQ5SjBLSHVPY3pTMjlBNTVRZ29OMjJtdVk3ZVNpUFg?oc=5",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
           "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Associate (12 months contract), Organisation & People (Data Scientist) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaC1tenR6VzlicjMtMmVUcTV4Z0JYUmhtRHFjc2JxbkpoT05YNXBPSHBnSld6ZVFQanVONWtmU1RxNllRUnJUUko2ZnEzR1JUYW1DWk16VWF3cHYxUmNzM3ZTRnpjLVpTQzlqWExieFRQcXc0dGFDVnJHbzhRbm1OREJORlNrMENLcVl5ZVpRQXZxaFJ0WDJ5NC1tUHdkRk9oRzZGdVBlOG5jNHNKTVdnOVJVN3V2enVUaWRYNVQ1WUkzV19sSjA4LUtrUQ?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 02:24:01 GMT"
         }
       ]
     },
@@ -940,6 +940,12 @@
           "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
+          "title": "Hostplus members rewarded with strong FY26 returns",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
+          "pubDate": "Mon, 13 Jul 2026 13:06:09 GMT"
+        },
+        {
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
           "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
-        },
-        {
-          "title": "Review -",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSHF4cUh5aV9IWVAwX0FDU05xNnZxOWtDNzN2NEJOcnQ5LVVqWGM1NjZadm1BNmNhTjF3RXJjOU4tQkpSS1pxVGMwYjlpdWROS20wa0VGRnpyeExfZXZpMWRELTc1ME9STnNvNXE5WXdWdjM0RjJmTUFNaFo4V0lBZnhUTnJUUk9lYkxvbzBPeHJKRExxaUhHYjRkdWFONmRJdWM1NkdJRzQ0RGpzZWc0UUNZWi04MENsLUdyUTQwbndPcWpuYXloV3Axc05MelcxcEMyQ3VfUF9wOVFaaTZsRQ?oc=5",
-          "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1214,6 +1214,12 @@
       },
       "items": [
         {
+          "title": "Sustainability：The Norinchukin Bank",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YRHR2UjFvaE11TTZUZnV5NmxlY1FUR3pUUUlLSEZWTEluNkZTSnpSMXA5Ynl0cFphb3g1Qzg2UWJxOS1kdF9mRy1Ra3Z0Uk9icVh1akFpcnFSQQ?oc=5",
+          "pubDate": "Wed, 01 Sep 2021 12:15:00 GMT"
+        },
+        {
           "title": "Corporate Outline：The Norinchukin Bank",
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDUUhnekJiOXAtLXZ5RlBrc3p6aGtzZ09xRHVTclpaOG1PUUY5Zmh5Y01ER1h6QVJzTjhuYi12ekpFdFlVeHN4cktLVXBQQXBOMWplMjJVRE1qMm1EZ2c?oc=5",
@@ -1242,12 +1248,6 @@
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1GVGJuR1BTclFUZ3dENmVkOXdYQ1h5OF8zX25FTUhjWjJnU1UtNngxcUNWcW9TY1U3cVkyNjVjazN0cnJJeHc?oc=5",
           "pubDate": "Mon, 23 May 2016 04:48:22 GMT"
-        },
-        {
-          "title": "Sustainability：The Norinchukin Bank",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YRHR2UjFvaE11TTZUZnV5NmxlY1FUR3pUUUlLSEZWTEluNkZTSnpSMXA5Ynl0cFphb3g1Qzg2UWJxOS1kdF9mRy1Ra3Z0Uk9icVh1akFpcnFSQQ?oc=5",
-          "pubDate": "Sat, 11 Sep 2021 16:02:19 GMT"
         },
         {
           "title": "Management：The Norinchukin Bank",
