@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:54:54Z",
+  "generated_at": "2026-07-15T02:40:27Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.1,
-      "change": 1.6999999999999886,
-      "changePct": 2.3480662983425256,
+      "price": 74.8,
+      "change": 0.7000000000000028,
+      "changePct": 0.9446693657220012,
       "currency": "HKD",
-      "prevClose": 72.4,
-      "dayHigh": 74.3,
-      "dayLow": 72.0,
+      "prevClose": 74.1,
+      "dayHigh": 76.9,
+      "dayLow": 74.65,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 106500.0,
-      "change": -2100.0,
-      "changePct": -1.9337016574585635,
+      "price": 109200.0,
+      "change": 2700.0,
+      "changePct": 2.535211267605634,
       "currency": "KRW",
-      "prevClose": 108600.0,
-      "dayHigh": 112000.0,
-      "dayLow": 106000.0,
+      "prevClose": 106500.0,
+      "dayHigh": 110100.0,
+      "dayLow": 107300.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6654.0,
-      "change": 22.0,
-      "changePct": 0.33172496984318456,
+      "price": 6710.0,
+      "change": 56.0,
+      "changePct": 0.8415990381725278,
       "currency": "JPY",
-      "prevClose": 6632.0,
-      "dayHigh": 6677.0,
-      "dayLow": 6542.0,
+      "prevClose": 6654.0,
+      "dayHigh": 6767.0,
+      "dayLow": 6662.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3304.0,
-      "change": 5.0,
-      "changePct": 0.1515610791148833,
+      "price": 3316.0,
+      "change": 12.0,
+      "changePct": 0.36319612590799033,
       "currency": "JPY",
-      "prevClose": 3299.0,
-      "dayHigh": 3324.0,
-      "dayLow": 3251.0,
+      "prevClose": 3304.0,
+      "dayHigh": 3351.0,
+      "dayLow": 3288.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -374,12 +374,6 @@
       },
       "items": [
         {
-          "title": "Shinhan Financial Group-Investor Relations",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
-          "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
-        },
-        {
           "title": "Shinhan Financial Group-Investor Presentations",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tVHAzWW5EdmVYdE1nd2lRZi1fTW9RaTFjb0ZQeEc0YWFVeFQtUlVhcWlHelVlWVhJZWJGdFViNHlqMHBad2xuMUJVNkM4TTdLMG9JY2dtd1dWRzhiY3FwYi1GNzZmbnlmSDhTZnp0V2JkZw?oc=5",
@@ -402,6 +396,12 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcE9vZG1Gb3JUT0hwUGRXYURMVnJTRDdvUkkzREtjTFVFaEo5V2MwVG1jRGxIODFoWDlYckJnTFFTQWt0V1MxYzNYZUI2S1dydDZkZ3pRa09relN0c0hhNFU2SE83Zks4LU1JZTdIQUZZeHh2Z0N2WEJJNGttY1hYYlgzaHJKTjREcTBicTQzam9ZQmM0Umk2eXZIS2JrakY1bWFVazRBRk43andoTlE?oc=5",
           "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
+        },
+        {
+          "title": "Shinhan Financial Group-Investor Relations",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
+          "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
         },
         {
           "title": "PowerPoint 프레젠테이션",
@@ -428,10 +428,10 @@
           "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
         },
         {
-          "title": "Shinhan Financial Group-CEO Profile",
+          "title": "CODE OF CONDUCT FOR EMPLOYEES",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NRTJNd0gzU1NTNGxscklZbDdVdzJya2U3S2Q1YVBGV0NObUsyZjJGNUMzaG04d0RrVmFkQTJrcGYxQWtmUEg3Uy1jamQzUXRMVzlYX2xjWlY?oc=5",
-          "pubDate": "Wed, 24 Jul 2024 03:08:20 GMT"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMWdvWHl6NTUxR0NXYnFYcU5vQzN1S01ETDNLOTh6eHNoMXMxQmZyeGhTSHpMREswTm4xdGp2M1FVdnB1U2RjOWhOUG5pWlRPeG9IZlhEcVRyWFdMcHA0NlFmWngwaHZOem04YkVvZ3dTZVhDR3JSa3pvdUR5bVE?oc=5",
+          "pubDate": "Mon, 29 Jul 2024 14:07:20 GMT"
         }
       ]
     },
@@ -450,10 +450,10 @@
           "pubDate": "Tue, 15 Apr 2025 04:49:36 GMT"
         },
         {
-          "title": "Shareholders' Meeting",
+          "title": "Reports (Sustainability) | Sustainability | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZaXdrMVgydUt5XzJ5Y0huaXNuVXBDRXBVM3FLa2VTOXRhVjEzb0w2dzZJZ3o5b24zM0x4X3BzbEpuRWpOZlcxVHlnN2htLUE3OEJaS3hxVHpGUm8wY1NLTw?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 22:36:20 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jTHVmQnV5RHVGRVhYMW9teFE4a0VQWXFHUmVoeUhDTGFmaVVtOXF2bk4tb1NCQXVSbExvSG9WYzMtNGxXU3pJYWtYYS1WV1NTcWdqTDhocnNiMW5vOVE?oc=5",
+          "pubDate": "Sun, 23 Feb 2025 18:41:46 GMT"
         },
         {
           "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
@@ -599,7 +599,7 @@
           "title": "Temasek Sustainability Report 2026",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdllPbG9wLWxtZlBTNFN3QXBxY040RlFpNHBkVmhJcGt6Zkl2Y2hNSEtTUGtXeDVIMXJ1VWxDSXVrU05xZlluUm1LUmhKZk12aGd5b3ZCN3hqSEZDZkdQZEZZRlRxQjJTRGhGSkxCSllXMDZrTUk4dklJaEZRUEhvYXk2TVVZZ0RlQ1hqZFZ4NW5fdEsweklPa0JlS09KaTlzdF9NNjNheEZibTI4MFRZYjVkWWY4dw?oc=5",
-          "pubDate": "Wed, 08 Jul 2026 07:01:21 GMT"
+          "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Temasek Review 2026 Media Briefing: CEO Address Video Transcript",
@@ -666,12 +666,6 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
-          "title": "Who We Are",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nUnRlazljZkZ6bWZ2Z1ZxOGtnMkhrazY4Vy0tOFlNU1V3clliNWt0YTFHRlNaUW9yWnFQeXlrbW9JVlAzVk1qRmxn?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
-        },
-        {
           "title": "VP, Information & Technology Risk Manager (Audit Management)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajg5UDlpbzBUUk43YUdmZVlyNDY0SEk0QTJ0OXRCdHFiNlBpQXowMG5XQzljYTNFR0hRa0NUVmpzQUI1bXlBVEk3Z3NEYlR5S3NqR3pLUk8tV2NGVWU5Q3o1M1FMV1lmdk1wdVFmREVVZV8ya3I3QTg2RFM1WHR1d1I1N1RuRUVvdEd6VTA0V2VweGdVcDF6U0lFNXJWTks2alFSNVJhQXA0VlJfMm84bzRqUEhuVEFnbnU4?oc=5",
@@ -712,6 +706,12 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMi1wcUxxblYwb1hjTWY1Ynh5WHZYOGZsZ0NBNkphMk0yZEIzY0NuYkpoU2hWb3NtLTBJa0czUmlFM1BaVTZabTBiajNJM0xzdXdUT0ZhZHR2WVZaSFZPNVd3WEV6cDZXSGZWbDZid3hsOGRjR0ZVMDEtZmFjY3dzUzZWUGFOcGVtekhnQzdEcUV3VmhI?oc=5",
           "pubDate": "Wed, 17 Jun 2026 10:26:02 GMT"
+        },
+        {
+          "title": "Vice President, Business Manager, Internal Audit Department",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS0ltM2FXb3ZDeFVPNGt4Wjl4cjNOMzdBbUoyaDQwdUdDbnBOZ2lCc3BTV0xub01YV1BZUkJKZ0FsTllYeF9MMUhUajlNVEt4WHhWUVJsVzlYQTk5cFBEQ1FnVlFIc1hlb2N6NklOQVNZcXBZbnVVcmVpb3lWSnRJNTVKQVhXOG9jZ1lCcm80c2xaVHJQcHpDTmwxNTRrV3Q0dmtvajlISlBVZ0FvMHhoSzd5M1BHM0E?oc=5",
+          "pubDate": "Tue, 16 Jun 2026 16:18:34 GMT"
         }
       ]
     },
@@ -1174,6 +1174,12 @@
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
         },
         {
+          "title": "FWD | Erwin Canlas Salalila",
+          "source": "ace-ph.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBTZndJTnhaMFg2OUtnV09vN0N3cnF1QTlnTVJ6TlROYTZBY1FGRGJXbUtHZlF5OGVjWVotNEZMSE90ZEduU0NpV2xER0c?oc=5",
+          "pubDate": "Tue, 14 Jul 2026 08:49:22 GMT"
+        },
+        {
           "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
@@ -1196,12 +1202,6 @@
           "source": "FWD FitForMe",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
           "pubDate": "Thu, 05 Dec 2024 03:07:27 GMT"
-        },
-        {
-          "title": "2025 Annual Report Chairman’s statement",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
-          "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
         }
       ]
     },
