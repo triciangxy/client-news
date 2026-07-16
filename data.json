@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T12:01:05Z",
+  "generated_at": "2026-07-16T02:47:19Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.2,
-      "change": 2.1000000000000085,
-      "changePct": 2.8340080971660035,
+      "price": 76.75,
+      "change": 0.5499999999999972,
+      "changePct": 0.7217847769028835,
       "currency": "HKD",
-      "prevClose": 74.1,
-      "dayHigh": 76.9,
-      "dayLow": 74.65,
+      "prevClose": 76.2,
+      "dayHigh": 77.3,
+      "dayLow": 76.15,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107300.0,
-      "change": 800.0,
-      "changePct": 0.7511737089201878,
+      "price": 106700.0,
+      "change": -600.0,
+      "changePct": -0.5591798695246971,
       "currency": "KRW",
-      "prevClose": 106500.0,
-      "dayHigh": 110400.0,
-      "dayLow": 106700.0,
+      "prevClose": 107300.0,
+      "dayHigh": 112400.0,
+      "dayLow": 105000.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6757.0,
-      "change": 103.0,
-      "changePct": 1.5479410880673279,
+      "price": 6745.0,
+      "change": -12.0,
+      "changePct": -0.17759360663016133,
       "currency": "JPY",
-      "prevClose": 6654.0,
-      "dayHigh": 6767.0,
-      "dayLow": 6662.0,
+      "prevClose": 6757.0,
+      "dayHigh": 6754.0,
+      "dayLow": 6675.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3350.0,
-      "change": 46.0,
-      "changePct": 1.3922518159806294,
+      "price": 3317.0,
+      "change": -33.0,
+      "changePct": -0.9850746268656717,
       "currency": "JPY",
-      "prevClose": 3304.0,
-      "dayHigh": 3352.0,
-      "dayLow": 3288.0,
+      "prevClose": 3350.0,
+      "dayHigh": 3338.0,
+      "dayLow": 3293.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -303,6 +303,12 @@
         "query": "site:aia.com"
       },
       "items": [
+        {
+          "title": "A New Lens on Ageing: Thriving in an Older Asia",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qb2NKSURvY1RTZ0drZzREdGxoOEJmRVZPZ3dobVpJeGtpSzRNZ05Ub3NpdlpXU1VGMTBDdlU3OHI2SFBTSE1nT05oV1RObG1XVjdFdVNTOU9aWnppang2X1d6elJrbEpLSWFvZG9vM0J2MWM?oc=5",
+          "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
+        },
         {
           "title": "AIA announces winners of the AIA Healthiest Schools Competition",
           "source": "aia.com",
@@ -356,12 +362,6 @@
           "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
-        },
-        {
-          "title": "Healthy Finances",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1S2lEdDJRMnNDQU02M2s1ZFlqUTVYdnR2VDVEMWQyV1ZtdDh0bzE0ZG1SWURueUxucDR5MGNGWm91RW91a0dEb2hGQno5TW40bnRub25KV0tLVGY4ZDFhaGlvSkdlTksyajBfclhObTMzdVZ5d0VlS3d3?oc=5",
-          "pubDate": "Fri, 22 Jul 2022 04:22:23 GMT"
         }
       ]
     },
@@ -550,6 +550,12 @@
           "pubDate": "Wed, 01 Apr 2026 07:00:00 GMT"
         },
         {
+          "title": "About JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sTXhtX1JNQnRDeWc2bWR1b1ZhRTFQemNzc1pfZHpOX0RKeWVGS2pKYVVkSk9WWWtVenZpMjhaN2JMT05KTGltSHZaSnJGdExJdm1IUTd6Tnd4Ny1RQ19LRzZxZzluaTVXTDliWXRud1hSNHlMeHRF?oc=5",
+          "pubDate": "Sun, 25 Feb 2018 05:21:52 GMT"
+        },
+        {
           "title": "To Valued Customers who encounter a message at our bank ATM regarding an information update on your residence card/ period of stay-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUHo5QlpWNmdpQWhfNS1UdmJWNGoyV3ZzWEZBT3FfNzMyTm5VZjV0ci1GLVhHTU5kYnkwNFAwdGM0N3ZZUndxbEdHRGFabU5tRjJjcGdhNHlVeHRPOE1YeDNRVFUySEpNVHNsRGhLOA?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
           "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
-        },
-        {
-          "title": "May 15, 2024 Company Name: JAPAN POST BANK Co., Ltd. Representative",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoSHgwOTJBYmNlMnJONllmUlBMbmRrckM0d1BUaEctOENhdGx0R3VvVjY5RmxrbFhRTnNWZTZoZXlscElvYnVHanZJOW8zaGJsRElqdU9KaVRKeW1sQnZDQ09FSmNYYzFsMXhqRDF5UjRqdVBQdEUxTg?oc=5",
-          "pubDate": "Wed, 15 May 2024 07:00:00 GMT"
         }
       ]
     },
@@ -678,6 +678,18 @@
           "pubDate": "Wed, 08 Jul 2026 09:53:39 GMT"
         },
         {
+          "title": "Associate, Executive and Partnerships Assistant",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNlFabTVOSEJka2Iyd3NJOEkxZVIxVEx0TmhKcE9fcXMzQS1DWlRLcW15bUtEQ090eGVtTFgtOHV4b2NrT3NWeXo4ZEZaOUFvRGc5aVN6QU1JR1ZySFFjckxQS3ZCdXEzLUJQZnFRY18tc2lFSHI5VlpMY0s2SDRWZC04RnhTZkllTmlXcUs1aEFfRFNRQTIwTm9UWGtLWFVlbzdocQ?oc=5",
+          "pubDate": "Wed, 15 Jul 2026 17:57:38 GMT"
+        },
+        {
+          "title": "VP/SVP, Information & Technology Risk Manager (Control Assurance & Enablement)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGtVR0FEQURucVI0UmNqei1OXzZrWWg5ZFNDTHRaV282MGpUaU84V0JSaWhLVnZpeHNVTnVhMDNNcWJ3NDJTM2oxTThSa2UybEYta0Y0bWRqSVhCUnV3ZWxXYUgzTTNiT3JDb0huTk5PN1FrSlN2OFotUWt1ZzhXa3I3ZURxRHIxT0M5bVhiRHczcWxZT2M5ZlBlWnlac0tkYlMyb3RYcGJHUGwxcDY5R0hsTnZKMEd1dU1MOHVjd2Fza0Y5Mkpmb0hJdC1adWlkSmc?oc=5",
+          "pubDate": "Wed, 15 Jul 2026 17:57:37 GMT"
+        },
+        {
           "title": "Analyst/Associate, Capital Markets, Real Estate",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXZyUjFxRTJxaHV1SWJBM0xGdUczN3M1U2hGR0RQU0dOcnlDeTQyVy1Ld1B1UkJ2NFc4TS1rZUg5SndoVnBzVGNwSlNqeVQtZ1EtTHJHX25BZjJsb0pFQ0xTemhSR09IVWZkbk45MEJVMEJEVDJ3dlpsNFpFd1VLUzMxY3E4TnFDSENCdXhVQU92b01uOWZDNGxqZVZwaFlaTnZROG13?oc=5",
@@ -690,28 +702,16 @@
           "pubDate": "Wed, 08 Jul 2026 23:39:09 GMT"
         },
         {
-          "title": "Associate, Vendor Operations Administrator, Technology Group (1 Year Contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEhoa01hWTUtazJEZ1pTNVg0SDg1bGlnaG1wdW9MOGxhemtKNXBiSjRXS0dPb0tnbGpWNDZpZ0JjRVNfT1FPTEdFN0RYSkZFYWs1WjhIb0l5UU51eWtBb2NnU3plXzBnVV9wUWdBMzVUR2JVRXJYNEx4VVJXTFFuX2dpdUZVMFZ0NXBXckY1cVp1RHpWX0hNczI2NExIeXFWVzRaZkQtaWZSYjZTTk5WZG9yelR2eHJqeWhBcjBQVGVCMDQ1aGhIaTJzWEFMY0pqdEtla3hR?oc=5",
-          "pubDate": "Mon, 15 Jun 2026 15:19:27 GMT"
-        },
-        {
           "title": "AVP/VP, Investment Tax, Private Markets",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQUpnMGFPRjcwMVpqbDR1YWoyLVh5bTRtVFUyeGNKb2g2Z2NCaWtrbWh4NUdWb1hzZW1KN1ppR2ZqeXJENXFnd2I4Q2lxaWIzSFBrZUVJbV9LSUEzbTVvaERhOFpFZzJvUFA3STRSRWx3ekI2QXdZSmVKWVhKRzVUMGNOUVRfamlVY295RDljSmVtMzBhWklueWtzSQ?oc=5",
           "pubDate": "Tue, 16 Jun 2026 16:19:35 GMT"
         },
         {
-          "title": "AVP, Data Analyst, Infrastructure",
+          "title": "AVP, Talent Acquisition (2-year contract)",
           "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMi1wcUxxblYwb1hjTWY1Ynh5WHZYOGZsZ0NBNkphMk0yZEIzY0NuYkpoU2hWb3NtLTBJa0czUmlFM1BaVTZabTBiajNJM0xzdXdUT0ZhZHR2WVZaSFZPNVd3WEV6cDZXSGZWbDZid3hsOGRjR0ZVMDEtZmFjY3dzUzZWUGFOcGVtekhnQzdEcUV3VmhI?oc=5",
-          "pubDate": "Wed, 17 Jun 2026 10:26:02 GMT"
-        },
-        {
-          "title": "Vice President, Business Manager, Internal Audit Department",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS0ltM2FXb3ZDeFVPNGt4Wjl4cjNOMzdBbUoyaDQwdUdDbnBOZ2lCc3BTV0xub01YV1BZUkJKZ0FsTllYeF9MMUhUajlNVEt4WHhWUVJsVzlYQTk5cFBEQ1FnVlFIc1hlb2N6NklOQVNZcXBZbnVVcmVpb3lWSnRJNTVKQVhXOG9jZ1lCcm80c2xaVHJQcHpDTmwxNTRrV3Q0dmtvajlISlBVZ0FvMHhoSzd5M1BHM0E?oc=5",
-          "pubDate": "Tue, 16 Jun 2026 16:18:34 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
         }
       ]
     },
@@ -842,16 +842,16 @@
           "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
         },
         {
+          "title": "2018 Annual Report | Reports │ Newsroom │ Korea Investment Corporation",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KV3RwY3dBZEh4S25QRmczTXpYbW9NMGpEZWpUeDI2clhGSEVvT2pNOFVhTjFJYzFSWkVybVJEYWYtYm05WnhqX0JxN0dyZw?oc=5",
+          "pubDate": "Thu, 30 May 2019 07:00:00 GMT"
+        },
+        {
           "title": "Client Privacy Notice│ Korea Investment Corporation",
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Ca2pUOElDNW9yX1ZLeE5KM1VyU3FoQktBUmszNHhiNzZQS19lcExYRU9qekozcE9tUllaQ1pIa3NGNlVfTTNQTkxTaUM?oc=5",
           "pubDate": "Sun, 22 Jun 2025 09:03:18 GMT"
-        },
-        {
-          "title": "Press Releases",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PM3NXcjdETXNxSmJrVUdwQ3BKbXVNYmVyaUlvY0JjWU9mZmdzOTBaTFdmRlc3R215b1BQUFBWTENsREVTcWd5X2lOazhkLXVsemZKSndpX1VYYkE?oc=5",
-          "pubDate": "Wed, 29 Feb 2012 08:00:00 GMT"
         }
       ]
     },
@@ -880,12 +880,6 @@
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53N1dMMktnZ1pkVGstcjBheGxKQ1BXUjhsU0owR2JSVWlwWWdaVFZrVUl5MkNnNF9URDhwUlk0TGNGUjZ0bnpTaENQWHc1ZFJEWVZ4TmRkYnJOVHVpUWh6aVRjQUlFa3M1MXVXVzE1VjBqVVVI?oc=5",
           "pubDate": "Thu, 13 Mar 2025 07:00:00 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEVJLTU5Y2h5cWpwNWc2SDRBSFNkWFo4dkQtNC1BTjB6WTlKYWRfYTJ4WGw4akpZSmhzX3RYVjVyMEhTVVo1Z2VNTGhtLUMzV01YLWhLWDJEdXN5d3J6UVVjbERIOElqWWliNlAzb0NQMThNcmNhbThDVERzV3Y0Z2t6WENyYXNNbGpZ?oc=5",
-          "pubDate": "Tue, 07 Jul 2026 22:04:25 GMT"
         },
         {
           "title": "National Pension Service",
@@ -922,6 +916,12 @@
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
+        },
+        {
+          "title": "National Pension Service Investment Management",
+          "source": "국민연금기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
+          "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
         }
       ]
     },
@@ -1010,12 +1010,6 @@
           "pubDate": "Fri, 10 Jul 2026 01:35:28 GMT"
         },
         {
-          "title": "TCorp announces an increase to the 2.00% 20 March 2031 and 5.50% 22 October 2036 Benchmark bonds via Yieldbroker tender - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSzU1bWV0eW1nSTFSNVM2ZGRTTnpWZHpKd0xLQVhxX0xkZFFqLW8xMnZpTV9XOEppOTZyMmdsNWdHdk9makpOcGFMVzlKUjUwdm5LYXVzb05oRDRqLVJJRUZMUElGeFA1Y0lES2U5MGJyN1hjLXMwVkgxR2ZJM1k3akt6dEp0dkt0LXlzNnV4UUhmQ1lsSXBHVnExSVBTOHVVS2ZEWVpzNEFqMEtMeURlMjVNdGU2aUhkRFQ3UTVYSTdJQWJxdU1QVllqWU50WEV3V0pkMFhGTkVjeDIteDh0YXFn?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 01:35:36 GMT"
-        },
-        {
           "title": "TCorp announces results from the increase of its 2.00% 20 March 2031 and 5.50% 22 October 2036 Benchmark bonds via tender - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSmkwc2owbWo2R1lpYUk2dEgyZ2lJTHNrTzdjZTZCd25iM19wMWVQcHYxXzJvd04zQlRlaWxzMm9DWlE5STdGVlYydlluTWZHajNtNnBTV3RWTUs5UkVkVUFjUjVYaUUyRUI2U1JPR1RTc2s4bDdxSFM2SEU4aHlQVW95X2NIZm9FU2drZ2ZZLTRKNFV5b284N3pfd1M4cEpkQlVsMzZ1RDhjSnVBN0NmWDVsaWZIRjZZN2VLejlaclJuc2RncGxEU0JtRlRXSXZhTm1Nd2JhanFjMkNwN0haQUJtcWY?oc=5",
@@ -1026,6 +1020,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nUHdkeFlVVjRBam9KMnFDWV81bG1ORUhCSDZCODdPSkZPeDZqdGkzNDhUOE5VbVlCMDRVdUU4M1ppVWhDUUJTd0xJRGV4aURFb2R2MXgtQzd2SHBOTUwwWFJ2X1BNRVNqdFZ2NEVRVzl5WUFjV3c?oc=5",
           "pubDate": "Fri, 10 Jul 2026 13:50:18 GMT"
+        },
+        {
+          "title": "TCorp announces an increase to the 2.00% 20 March 2031 and 5.50% 22 October 2036 Benchmark bonds via Yieldbroker tender - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSzU1bWV0eW1nSTFSNVM2ZGRTTnpWZHpKd0xLQVhxX0xkZFFqLW8xMnZpTV9XOEppOTZyMmdsNWdHdk9makpOcGFMVzlKUjUwdm5LYXVzb05oRDRqLVJJRUZMUElGeFA1Y0lES2U5MGJyN1hjLXMwVkgxR2ZJM1k3akt6dEp0dkt0LXlzNnV4UUhmQ1lsSXBHVnExSVBTOHVVS2ZEWVpzNEFqMEtMeURlMjVNdGU2aUhkRFQ3UTVYSTdJQWJxdU1QVllqWU50WEV3V0pkMFhGTkVjeDIteDh0YXFn?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 01:35:36 GMT"
         },
         {
           "title": "Weekly economic report - TCorp",
