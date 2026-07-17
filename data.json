@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T05:44:28Z",
+  "generated_at": "2026-07-17T08:13:22Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.8,
-      "change": -1.2999999999999972,
-      "changePct": -1.7082785808147138,
+      "price": 75.15,
+      "change": -0.9499999999999886,
+      "changePct": -1.2483574244415094,
       "currency": "HKD",
       "prevClose": 76.1,
       "dayHigh": 76.35,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6415.0,
-      "change": -285.0,
-      "changePct": -4.253731343283582,
+      "price": 6450.0,
+      "change": -250.0,
+      "changePct": -3.731343283582089,
       "currency": "JPY",
       "prevClose": 6700.0,
       "dayHigh": 6702.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3113.0,
-      "change": -145.0,
-      "changePct": -4.450583179864948,
+      "price": 3141.0,
+      "change": -117.0,
+      "changePct": -3.591160220994475,
       "currency": "JPY",
       "prevClose": 3258.0,
       "dayHigh": 3261.0,
@@ -666,12 +666,6 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
-          "title": "AVP/VP, Brand and Marketing (Creative)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORnFkb0ZHWC02SS11bkcyVXRHbTVGc3FJZEZEaXFFOVUxT3JlX0hCcVVfeG5Ed1NiNkoxQTZWdGhvSGVNZy02NjN3U09aV0tPeFV0am5saWI1dEcxQXJTSjgxemtOb2U0anlUTGNyQ2FrREhZYVFpTk5qU1JXYUUxdVR5Xy1DSzFwR3BwRm52UUhXdml4SlF1Z0l0X0Q?oc=5",
-          "pubDate": "Wed, 08 Jul 2026 09:53:39 GMT"
-        },
-        {
           "title": "VP/SVP, Information & Technology Risk Manager (Control Assurance & Enablement)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGtVR0FEQURucVI0UmNqei1OXzZrWWg5ZFNDTHRaV282MGpUaU84V0JSaWhLVnZpeHNVTnVhMDNNcWJ3NDJTM2oxTThSa2UybEYta0Y0bWRqSVhCUnV3ZWxXYUgzTTNiT3JDb0huTk5PN1FrSlN2OFotUWt1ZzhXa3I3ZURxRHIxT0M5bVhiRHczcWxZT2M5ZlBlWnlac0tkYlMyb3RYcGJHUGwxcDY5R0hsTnZKMEd1dU1MOHVjd2Fza0Y5Mkpmb0hJdC1adWlkSmc?oc=5",
@@ -712,6 +706,12 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
           "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
+        },
+        {
+          "title": "Mark Lee",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
+          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
         }
       ]
     },
@@ -988,10 +988,10 @@
           "pubDate": "Wed, 03 Sep 2025 07:50:38 GMT"
         },
         {
-          "title": "HOSTPLUS SELF-MANAGED INVEST ANNUAL REPORT",
+          "title": "HOSTPLUS POOLED S UPERANNUATION TRUST FINANCIAL STATEMENTS 30 JUNE 2023",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
-          "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPcXFER0tvSTBDUmRPQS1hRkY4VVd3UFB4NUJCY0QyUWkydm84QmE4b3dReUJpeWU5WnZRcVJDc1gzTjN5M0VKTW9HTUltMlpzZjhXcjNTZ3FTOS15NTF0a3c5a1d4eExDWWppLVZNaWlROTQtT1VyQlRha2pybGxiNWpTVXJxNnpkRmFzRmhDeDJNT1RlbjJNX0RZNTZ4TXBNWC13bDdYYTM3YUFnRWtKQl83akN4WFl1NVRTVUlEVXhLU1FnYU9ORFZMX0c2a19CN0hyd3ZneWtudHBEMDF5aXAzSFdOc1JOUnJ5VzBYQ1QzMVhhanNHWi1PaGl3RWUzampXM3R5a0NEaFJuc05IVHp1S01tMm5Bd3Y1bXJR?oc=5",
+          "pubDate": "Fri, 30 Jun 2023 07:00:00 GMT"
         }
       ]
     },
@@ -1003,12 +1003,6 @@
         "query": "site:tcorp.nsw.gov.au"
       },
       "items": [
-        {
-          "title": "Weekly bonds outstanding - 10 July 2026 - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03QWtKamxOb3F2aHEyZE41d2VtemtGX01veEp3T1dvd2VqbTFybjc2b1lGOTROV09QdHUzbFBtNG9CbWNPZ3FudFNhNHkzenFGTHVvamU1ek1ockJpMVVSWFdYTQ?oc=5",
-          "pubDate": "Thu, 16 Jul 2026 16:54:49 GMT"
-        },
         {
           "title": "TCorp announcement - TCorp",
           "source": "NSW Government",
@@ -1062,6 +1056,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
           "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
+        },
+        {
+          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblVWTGNJdVMyOHVJQjNVc08xdUdObTZ1YlhtZkpSdGkySDQtZU5WMmp0bm85ZnVUZXpiTHg0QnFhQ2hSelMtQVAxdDR3S0Z4LUROUC1QdFljUHkwVGdLQ0VjbjZ6Mmx5QjFKN0l4RnFrOURoNGJQZmMzazB3TDJHbGlJZ2NrV3dwU09YajJDMDE1MlJCbEJRWkZYdF9hN2Z6MjVPVGxyZzNsUExfVzk3cUJJNTIxNkwybkpj?oc=5",
+          "pubDate": "Mon, 23 Feb 2026 01:03:21 GMT"
         }
       ]
     },
