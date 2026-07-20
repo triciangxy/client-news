@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T03:25:16Z",
+  "generated_at": "2026-07-20T06:33:20Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 75.55,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 75.1,
+      "change": -0.45000000000000284,
+      "changePct": -0.5956320317670455,
       "currency": "HKD",
       "prevClose": 75.55,
       "dayHigh": 76.75,
@@ -261,13 +261,13 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 102000.0,
-      "change": -5900.0,
-      "changePct": -5.4680259499536605,
+      "price": 101400.0,
+      "change": -6500.0,
+      "changePct": -6.024096385542169,
       "currency": "KRW",
       "prevClose": 107900.0,
       "dayHigh": 105800.0,
-      "dayLow": 101800.0,
+      "dayLow": 100000.0,
       "marketState": "",
       "exchange": "KSE"
     },
@@ -584,12 +584,6 @@
       },
       "items": [
         {
-          "title": "Temasek Sustainability Report 2026",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdllPbG9wLWxtZlBTNFN3QXBxY040RlFpNHBkVmhJcGt6Zkl2Y2hNSEtTUGtXeDVIMXJ1VWxDSXVrU05xZlluUm1LUmhKZk12aGd5b3ZCN3hqSEZDZkdQZEZZRlRxQjJTRGhGSkxCSllXMDZrTUk4dklJaEZRUEhvYXk2TVVZZ0RlQ1hqZFZ4NW5fdEsweklPa0JlS09KaTlzdF9NNjNheEZibTI4MFRZYjVkWWY4dw?oc=5",
-          "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "Temasek Review 2026 Media Briefing: CEO Address Video Transcript",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUkg1M3dWS09MZjVYdzhkQU45X3JnZGltN01tRl9sMm5JTlRlcXM0MFB2ZXNUdFFybjNtcGsteEluZ0wzMXVYXy1OUk9VVW50clh0c3VCY0Vmd0g4M1lGWnpERTV4THVGSjZXaHZLS0NVaVI3anFraEI1NmxVYTBWY3YtdlVIWjRla1pEeWJ2SVFFNzVhdHVrU1owSVJ4WnBSNkZBaWZPUkRQcXZvZENJMmdSeW5CUUdpSjBPSXpDNWFTTWxJX0NKZGE0WXZMT2NaWEE?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
           "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Fu Chengyu to Step Down from Temasek Board",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
+          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -684,10 +684,16 @@
           "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
         },
         {
-          "title": "AVP, Index Operations",
+          "title": "VP, Credit Analyst, Alternative Credit Group",
           "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPamJ6YXFuTk5qcmgtRlV1WktoTG5tNjByUW5KaHZndTlBYXNIZHhLS2NKZkZEb1hHclNSX2pxQjBoODNuQ1A3YURTMkJtRDk2WkhmYVAwSkJCVHlmMjVfd1RGdmdMNXpVd2JQcXBqS0VqNUg4QmRPOGpYWGlfNTJiRFF3?oc=5",
-          "pubDate": "Fri, 26 Jun 2026 01:25:58 GMT"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUl6aFNYdUxPQVN1cm9Tb1ExbnJ5YVktYnVpYjRLTlg0TGFXZTBBaFUyWlg4ZWtSaWdNRHhnVDcyN1N5b2szMzlVc29GYnRSQjJJUWJzdXdJZGJaUzZ0aGZNQWxpUDRhWUlqS3NYSTBMNUplaTVoUVczQWZQNzVTVG5XMVk3U1lpczMxZlAzdEZZbUVGRnlTZ3M0VTBUNlU?oc=5",
+          "pubDate": "Sat, 27 Jun 2026 02:23:22 GMT"
+        },
+        {
+          "title": "SVP, Production Support Lead, Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdEFkUkZUcUZaV1VEUDBkX1I5VU5oc2o1ZlJnd0xYSWJFWFMydFU2M2pKcVJUX3UyTlJyMDJESktjUkl4UlVQNjFmSUdEWXlkM2VXdzhnMXludnViSlBZRjdQWWZXd2JlLW5BYXZMSm8wcS1lWW9qeU1tZkVOdFZ5NElRX0tRTVExSEZxbUZSeXpXT2FRRVVpVFRiZXVaLVpHNVVnd3FR?oc=5",
+          "pubDate": "Thu, 25 Jun 2026 06:21:40 GMT"
         },
         {
           "title": "VP, Risk Quantitative Analyst",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
           "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
-        },
-        {
-          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
-          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
         }
       ]
     },
@@ -934,6 +934,12 @@
       },
       "items": [
         {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
+        },
+        {
           "title": "Hostplus members rewarded with strong FY26 returns",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPcXFER0tvSTBDUmRPQS1hRkY4VVd3UFB4NUJCY0QyUWkydm84QmE4b3dReUJpeWU5WnZRcVJDc1gzTjN5M0VKTW9HTUltMlpzZjhXcjNTZ3FTOS15NTF0a3c5a1d4eExDWWppLVZNaWlROTQtT1VyQlRha2pybGxiNWpTVXJxNnpkRmFzRmhDeDJNT1RlbjJNX0RZNTZ4TXBNWC13bDdYYTM3YUFnRWtKQl83akN4WFl1NVRTVUlEVXhLU1FnYU9ORFZMX0c2a19CN0hyd3ZneWtudHBEMDF5aXAzSFdOc1JOUnJ5VzBYQ1QzMVhhanNHWi1PaGl3RWUzampXM3R5a0NEaFJuc05IVHp1S01tMm5Bd3Y1bXJR?oc=5",
           "pubDate": "Fri, 30 Jun 2023 07:00:00 GMT"
-        },
-        {
-          "title": "HOSTPLUS SELF-MANAGED INVEST ANNUAL REPORT",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
-          "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
         }
       ]
     },
