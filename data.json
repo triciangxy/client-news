@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T06:33:20Z",
+  "generated_at": "2026-07-20T10:14:44Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 75.1,
-      "change": -0.45000000000000284,
-      "changePct": -0.5956320317670455,
+      "price": 75.75,
+      "change": 0.20000000000000284,
+      "changePct": 0.2647253474520223,
       "currency": "HKD",
       "prevClose": 75.55,
       "dayHigh": 76.75,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 101400.0,
-      "change": -6500.0,
-      "changePct": -6.024096385542169,
+      "price": 101800.0,
+      "change": -6100.0,
+      "changePct": -5.653382761816497,
       "currency": "KRW",
       "prevClose": 107900.0,
       "dayHigh": 105800.0,
@@ -328,6 +328,18 @@
           "pubDate": "Mon, 29 Jun 2026 07:24:56 GMT"
         },
         {
+          "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
+          "source": "AIA Design",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OZUVyblNTeUdnSjNvR096TWFxVlNodVdreU5ZUXFSaENMME1RdGswSUh1V3FBYXlUdUZVel9wZ3NjZE02YzZNTjFQcVhKV1hGeG42RExuOA?oc=5",
+          "pubDate": "Mon, 17 Mar 2025 15:17:41 GMT"
+        },
+        {
+          "title": "AIA GROUP LIMITED SUSTAINABILITY REPORT 2025 SUBSECTION REPORT",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGtZOV9sdmxDRmNXVUU1Q1RpaGQ5N05UVnJuVnQ1MlpZNk5SMW5MaU1XMl9PcU42R09JWFFzd1E0ZnF4bGg2R3dMMGFZTUxtRkhJQTV3ZWNOSVAzcThNLU1tN3U4cWhPSU9jemlNTWMxWDh0dVpXQnJBamhmdWY2eklhTl85aU0wZkRYQ1Z3Z0xSTExLMG4yQkc0dzJUZFVZSGdQWmxyQ3ZFQ2c3UDQ3SUs1bkhndw?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 22:22:44 GMT"
+        },
+        {
           "title": "AIA China accelerates geographical expansion with approval to prepare a new branch in Zhejiang",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnJOVkJObjFvVFZCaFZPazFldEdpS2xVcVRPN1h0dVhOdlloc0pFNEFkZ3V1c1dIeUt6NmJ5MVRWR0JDcjJnanpxSE9IS1J1X01FR3RVVmQ2TFFpQy0tWEdfcnFSNG51OTFHMFdZN1hETVZpQ0ItU2s5a0VIOWZVbEZNTkQtYmhwM0pka1E0YWV4QQ?oc=5",
@@ -350,18 +362,6 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
           "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
-        },
-        {
-          "title": "Brisk walking: How to do it correctly, according to experts",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
-          "pubDate": "Wed, 14 Dec 2022 10:59:21 GMT"
-        },
-        {
-          "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
-          "source": "AIA Design",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
-          "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
         }
       ]
     },
@@ -544,6 +544,12 @@
           "pubDate": "Mon, 25 May 2026 05:22:44 GMT"
         },
         {
+          "title": "JAPAN POST BANK Co., Ltd.",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbGlfb2JMdEYxRFUwT1lNNURvU3RVNHFadzJ2VWFuTjU0Q0luUUNOcDBRempQTnBLSHlVTExYVzZQaFV4REJ0N2dLLUZoNHNSU2d6Yi1FSFEtYUJlanN1VkdVSkZJRDdMUmtzamNpRWpFdmpscGZRbFF2c2daaGlTS2VZMGQ2X3JXWk9R?oc=5",
+          "pubDate": "Wed, 01 Apr 2026 07:00:00 GMT"
+        },
+        {
           "title": "To Valued Customers who encounter a message at our bank ATM regarding an information update on your residence card/ period of stay-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUHo5QlpWNmdpQWhfNS1UdmJWNGoyV3ZzWEZBT3FfNzMyTm5VZjV0ci1GLVhHTU5kYnkwNFAwdGM0N3ZZUndxbEdHRGFabU5tRjJjcGdhNHlVeHRPOE1YeDNRVFUySEpNVHNsRGhLOA?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoSHgwOTJBYmNlMnJONllmUlBMbmRrckM0d1BUaEctOENhdGx0R3VvVjY5RmxrbFhRTnNWZTZoZXlscElvYnVHanZJOW8zaGJsRElqdU9KaVRKeW1sQnZDQ09FSmNYYzFsMXhqRDF5UjRqdVBQdEUxTg?oc=5",
           "pubDate": "Wed, 15 May 2024 07:00:00 GMT"
-        },
-        {
-          "title": "Annual Report 2019",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42eC11MEh0Z0tQTnBBcVJ2NlhUdEdRVG1LSlQ5d2JaYmFTbDNtTDU3alRqX1JMU05DT25TYUJxZExsNlZkcnBGYkZ2WTJEV2NrX2pDMW5ZaXBhUXF1SkRfaC1ZdE5nT2JXNm9YTEY0Wk1CWnN4Y0E?oc=5",
-          "pubDate": "Fri, 01 Sep 2006 07:00:00 GMT"
         }
       ]
     },
@@ -583,6 +583,12 @@
         "query": "site:temasek.com.sg"
       },
       "items": [
+        {
+          "title": "Our Portfolio",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRlZnaDkzb0UzSWt6VVZ4QmxDUElxSkh0ZWllaFY4UzFIOEZXUkdjZXNDTERNLVVqMFptMGI3bFgyMS1YOFJVcnVkU2ZSUnJpcHRFaHV5azNSOG94dW1sSHNYb2JDclphbVY0?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
+        },
         {
           "title": "Temasek Review 2026 Media Briefing: CEO Address Video Transcript",
           "source": "Temasek",
@@ -626,22 +632,16 @@
           "pubDate": "Thu, 09 Jul 2026 09:37:04 GMT"
         },
         {
+          "title": "Temasek Upsizes Guaranteed Global Medium Term Note Programme from US$25 billion to US$30 billion",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORkRmaGpEWXIxdEF1UkF2QUFzcWhLVm9tMDZ2TVZrQkxtbFRTT3ZjVEZ6S3lyUVgxdUJXR1RISVRnaTAyNEx5ZVZXanhlamhlZUVBNVhIcVkzd0Z2NWVNS3ctbVZMT0dacUh3ZXZuaWxCcU9zMkdFTm1WZXpzd0ItTVJ5TWtvbktjVmpnemRScEtkM1FXR3haQUVSa3owZ1JqNmxtcDZWb1ZBT3hOSmVMRXNQRWxEeTMyUmNJaEFiWkc3U3pXby1GUHJid1pOZw?oc=5",
+          "pubDate": "Mon, 20 Jul 2026 09:16:30 GMT"
+        },
+        {
           "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
           "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "AI and the Energy Transition: Enabling Efficiency while Managing Trade-offs",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
-          "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Fu Chengyu to Step Down from Temasek Board",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
-          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -684,10 +684,10 @@
           "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
         },
         {
-          "title": "VP, Credit Analyst, Alternative Credit Group",
+          "title": "AVP, Index Operations",
           "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUl6aFNYdUxPQVN1cm9Tb1ExbnJ5YVktYnVpYjRLTlg0TGFXZTBBaFUyWlg4ZWtSaWdNRHhnVDcyN1N5b2szMzlVc29GYnRSQjJJUWJzdXdJZGJaUzZ0aGZNQWxpUDRhWUlqS3NYSTBMNUplaTVoUVczQWZQNzVTVG5XMVk3U1lpczMxZlAzdEZZbUVGRnlTZ3M0VTBUNlU?oc=5",
-          "pubDate": "Sat, 27 Jun 2026 02:23:22 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPamJ6YXFuTk5qcmgtRlV1WktoTG5tNjByUW5KaHZndTlBYXNIZHhLS2NKZkZEb1hHclNSX2pxQjBoODNuQ1A3YURTMkJtRDk2WkhmYVAwSkJCVHlmMjVfd1RGdmdMNXpVd2JQcXBqS0VqNUg4QmRPOGpYWGlfNTJiRFF3?oc=5",
+          "pubDate": "Fri, 26 Jun 2026 01:25:58 GMT"
         },
         {
           "title": "SVP, Production Support Lead, Technology Group",
@@ -872,12 +872,6 @@
         {
           "title": "National Pension Service",
           "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEVJLTU5Y2h5cWpwNWc2SDRBSFNkWFo4dkQtNC1BTjB6WTlKYWRfYTJ4WGw4akpZSmhzX3RYVjVyMEhTVVo1Z2VNTGhtLUMzV01YLWhLWDJEdXN5d3J6UVVjbERIOElqWWliNlAzb0NQMThNcmNhbThDVERzV3Y0Z2t6WENyYXNNbGpZ?oc=5",
-          "pubDate": "Tue, 07 Jul 2026 22:04:25 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yeFF5OXRLMWRQRGFSdmVEUnlPZTFSWV9VN0Z1OHkyRHIzazJVbjJDUjlYb21IVEluLU1xS3ZfU2s4UmtQLWNFU3poNnk1MFBNVlNzbVBlV1p1a2tnNzhyY0JsMTV2TmZSLVNIbnNIb0NkZw?oc=5",
           "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
@@ -922,6 +916,12 @@
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
           "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
+        },
+        {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSWI5N0I4eVJVV2JSVXEzNmFjd1dhZVdSbWU3TE83S0xJazc5SFA1WXBYMnkyMGNpcDNYdUZOUllIdktZdUNvVVVxbktwMXRlYmE4X0pXQjFLT2liTF9scVc1Mjc4SllHV0ZaMDJYQXhwX2FoOWtULVFXS0czYjY0djVReWVGR0tfNGR6QVdiLWg4YlVETHc?oc=5",
+          "pubDate": "Fri, 19 Jun 2026 22:32:26 GMT"
         }
       ]
     },
