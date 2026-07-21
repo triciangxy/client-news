@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T02:52:43Z",
+  "generated_at": "2026-07-21T05:53:37Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,45 +250,45 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.6,
-      "change": 0.8499999999999943,
-      "changePct": 1.1221122112211146,
+      "price": 76.95,
+      "change": 1.2000000000000028,
+      "changePct": 1.584158415841588,
       "currency": "HKD",
       "prevClose": 75.75,
-      "dayHigh": 76.85,
+      "dayHigh": 77.1,
       "dayLow": 75.25,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103700.0,
-      "change": 1900.0,
-      "changePct": 1.8664047151277015,
+      "price": 104600.0,
+      "change": 2800.0,
+      "changePct": 2.75049115913556,
       "currency": "KRW",
       "prevClose": 101800.0,
-      "dayHigh": 104100.0,
+      "dayHigh": 105300.0,
       "dayLow": 97300.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6651.0,
-      "change": 201.0,
-      "changePct": 3.1162790697674416,
+      "price": 6684.0,
+      "change": 234.0,
+      "changePct": 3.627906976744186,
       "currency": "JPY",
       "prevClose": 6450.0,
-      "dayHigh": 6668.0,
+      "dayHigh": 6690.0,
       "dayLow": 6465.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3301.0,
-      "change": 160.0,
-      "changePct": 5.093919134033747,
+      "price": 3321.0,
+      "change": 180.0,
+      "changePct": 5.730659025787966,
       "currency": "JPY",
       "prevClose": 3141.0,
-      "dayHigh": 3312.0,
+      "dayHigh": 3323.0,
       "dayLow": 3145.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -672,6 +672,12 @@
           "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT"
         },
         {
+          "title": "Analyst/Associate, Capital Markets, Real Estate",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXZyUjFxRTJxaHV1SWJBM0xGdUczN3M1U2hGR0RQU0dOcnlDeTQyVy1Ld1B1UkJ2NFc4TS1rZUg5SndoVnBzVGNwSlNqeVQtZ1EtTHJHX25BZjJsb0pFQ0xTemhSR09IVWZkbk45MEJVMEJEVDJ3dlpsNFpFd1VLUzMxY3E4TnFDSENCdXhVQU92b01uOWZDNGxqZVZwaFlaTnZROG13?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 20:53:22 GMT"
+        },
+        {
           "title": "AVP, Talent Acquisition (2-year contract)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
           "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
-        },
-        {
-          "title": "Mark Lee",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
-          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
         }
       ]
     },
@@ -943,7 +943,7 @@
           "title": "Hostplus members rewarded with strong FY26 returns",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
-          "pubDate": "Mon, 13 Jul 2026 13:06:09 GMT"
+          "pubDate": "Tue, 21 Jul 2026 04:52:29 GMT"
         },
         {
           "title": "How to stay safe from sales tactics and scams",
