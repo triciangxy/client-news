@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T12:32:35Z",
+  "generated_at": "2026-07-21T02:52:43Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 75.75,
-      "change": 0.20000000000000284,
-      "changePct": 0.2647253474520223,
+      "price": 76.6,
+      "change": 0.8499999999999943,
+      "changePct": 1.1221122112211146,
       "currency": "HKD",
-      "prevClose": 75.55,
-      "dayHigh": 76.75,
-      "dayLow": 74.8,
+      "prevClose": 75.75,
+      "dayHigh": 76.85,
+      "dayLow": 75.25,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 101800.0,
-      "change": -6100.0,
-      "changePct": -5.653382761816497,
+      "price": 103700.0,
+      "change": 1900.0,
+      "changePct": 1.8664047151277015,
       "currency": "KRW",
-      "prevClose": 107900.0,
-      "dayHigh": 105800.0,
-      "dayLow": 100000.0,
+      "prevClose": 101800.0,
+      "dayHigh": 104100.0,
+      "dayLow": 97300.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6450.0,
-      "change": -250.0,
-      "changePct": -3.731343283582089,
+      "price": 6651.0,
+      "change": 201.0,
+      "changePct": 3.1162790697674416,
       "currency": "JPY",
-      "prevClose": 6700.0,
-      "dayHigh": 6702.0,
-      "dayLow": 6362.0,
+      "prevClose": 6450.0,
+      "dayHigh": 6668.0,
+      "dayLow": 6465.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3141.0,
-      "change": -117.0,
-      "changePct": -3.591160220994475,
+      "price": 3301.0,
+      "change": 160.0,
+      "changePct": 5.093919134033747,
       "currency": "JPY",
-      "prevClose": 3258.0,
-      "dayHigh": 3261.0,
-      "dayLow": 3096.0,
+      "prevClose": 3141.0,
+      "dayHigh": 3312.0,
+      "dayLow": 3145.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -654,9 +654,9 @@
       },
       "items": [
         {
-          "title": "Our Portfolio",
+          "title": "Who We Are",
           "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RRWpqMnJTWk1ZRlV1NHlzWFZ5aDRtZG51NU82X3ZOLWFkNHFSeGZ5SkV1Wm5ZanpsVFlhXzI4ZXd5UGJnUVdmQVVzdHJodw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nUnRlazljZkZ6bWZ2Z1ZxOGtnMkhrazY4Vy0tOFlNU1V3clliNWt0YTFHRlNaUW9yWnFQeXlrbW9JVlAzVk1qRmxn?oc=5",
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
@@ -672,12 +672,6 @@
           "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT"
         },
         {
-          "title": "Analyst/Associate, Capital Markets, Real Estate",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXZyUjFxRTJxaHV1SWJBM0xGdUczN3M1U2hGR0RQU0dOcnlDeTQyVy1Ld1B1UkJ2NFc4TS1rZUg5SndoVnBzVGNwSlNqeVQtZ1EtTHJHX25BZjJsb0pFQ0xTemhSR09IVWZkbk45MEJVMEJEVDJ3dlpsNFpFd1VLUzMxY3E4TnFDSENCdXhVQU92b01uOWZDNGxqZVZwaFlaTnZROG13?oc=5",
-          "pubDate": "Sun, 12 Jul 2026 20:53:22 GMT"
-        },
-        {
           "title": "AVP, Talent Acquisition (2-year contract)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
@@ -688,6 +682,12 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPamJ6YXFuTk5qcmgtRlV1WktoTG5tNjByUW5KaHZndTlBYXNIZHhLS2NKZkZEb1hHclNSX2pxQjBoODNuQ1A3YURTMkJtRDk2WkhmYVAwSkJCVHlmMjVfd1RGdmdMNXpVd2JQcXBqS0VqNUg4QmRPOGpYWGlfNTJiRFF3?oc=5",
           "pubDate": "Fri, 26 Jun 2026 01:25:58 GMT"
+        },
+        {
+          "title": "VP, Credit Analyst, Alternative Credit Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUl6aFNYdUxPQVN1cm9Tb1ExbnJ5YVktYnVpYjRLTlg0TGFXZTBBaFUyWlg4ZWtSaWdNRHhnVDcyN1N5b2szMzlVc29GYnRSQjJJUWJzdXdJZGJaUzZ0aGZNQWxpUDRhWUlqS3NYSTBMNUplaTVoUVczQWZQNzVTVG5XMVk3U1lpczMxZlAzdEZZbUVGRnlTZ3M0VTBUNlU?oc=5",
+          "pubDate": "Sat, 27 Jun 2026 02:23:22 GMT"
         },
         {
           "title": "SVP, Production Support Lead, Technology Group",
@@ -1031,7 +1031,7 @@
           "title": "Weekly economic report - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vc3RIZ0hFODg3eURIN0Q1SEQ0MVBpN25GdTZwbDdBSkxmTjF6ak5OcWtiZmQ0VW9nYlIxb2llb2R1VnBGZERZRkhvUXVQelVkcTg3N2VEMUFhcmdJTVdUeGdCdklvVXVKWTBsbUNIQVRLb0xQ?oc=5",
-          "pubDate": "Mon, 22 Jun 2026 01:13:04 GMT"
+          "pubDate": "Mon, 22 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
