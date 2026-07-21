@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T05:53:37Z",
+  "generated_at": "2026-07-21T08:33:00Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -255,40 +255,40 @@
       "changePct": 1.584158415841588,
       "currency": "HKD",
       "prevClose": 75.75,
-      "dayHigh": 77.1,
+      "dayHigh": 77.35,
       "dayLow": 75.25,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104600.0,
-      "change": 2800.0,
-      "changePct": 2.75049115913556,
+      "price": 104700.0,
+      "change": 2900.0,
+      "changePct": 2.848722986247544,
       "currency": "KRW",
       "prevClose": 101800.0,
-      "dayHigh": 105300.0,
+      "dayHigh": 105500.0,
       "dayLow": 97300.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6684.0,
-      "change": 234.0,
-      "changePct": 3.627906976744186,
+      "price": 6734.0,
+      "change": 284.0,
+      "changePct": 4.403100775193798,
       "currency": "JPY",
       "prevClose": 6450.0,
-      "dayHigh": 6690.0,
+      "dayHigh": 6734.0,
       "dayLow": 6465.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3321.0,
-      "change": 180.0,
-      "changePct": 5.730659025787966,
+      "price": 3348.0,
+      "change": 207.0,
+      "changePct": 6.59025787965616,
       "currency": "JPY",
       "prevClose": 3141.0,
-      "dayHigh": 3323.0,
+      "dayHigh": 3348.0,
       "dayLow": 3145.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -672,12 +672,6 @@
           "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT"
         },
         {
-          "title": "Analyst/Associate, Capital Markets, Real Estate",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXZyUjFxRTJxaHV1SWJBM0xGdUczN3M1U2hGR0RQU0dOcnlDeTQyVy1Ld1B1UkJ2NFc4TS1rZUg5SndoVnBzVGNwSlNqeVQtZ1EtTHJHX25BZjJsb0pFQ0xTemhSR09IVWZkbk45MEJVMEJEVDJ3dlpsNFpFd1VLUzMxY3E4TnFDSENCdXhVQU92b01uOWZDNGxqZVZwaFlaTnZROG13?oc=5",
-          "pubDate": "Sun, 12 Jul 2026 20:53:22 GMT"
-        },
-        {
           "title": "AVP, Talent Acquisition (2-year contract)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
@@ -712,6 +706,12 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
           "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
+        },
+        {
+          "title": "Mark Lee",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
+          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
         }
       ]
     },
