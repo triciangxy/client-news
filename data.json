@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T11:10:41Z",
+  "generated_at": "2026-07-22T02:50:29Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.95,
-      "change": 1.2000000000000028,
-      "changePct": 1.584158415841588,
+      "price": 76.75,
+      "change": -0.20000000000000284,
+      "changePct": -0.25990903183886005,
       "currency": "HKD",
-      "prevClose": 75.75,
-      "dayHigh": 77.35,
-      "dayLow": 75.25,
+      "prevClose": 76.95,
+      "dayHigh": 77.0,
+      "dayLow": 75.6,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104700.0,
-      "change": 2900.0,
-      "changePct": 2.848722986247544,
+      "price": 104400.0,
+      "change": -300.0,
+      "changePct": -0.28653295128939826,
       "currency": "KRW",
-      "prevClose": 101800.0,
-      "dayHigh": 105500.0,
-      "dayLow": 97300.0,
+      "prevClose": 104700.0,
+      "dayHigh": 107200.0,
+      "dayLow": 104200.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6734.0,
-      "change": 284.0,
-      "changePct": 4.403100775193798,
+      "price": 6864.0,
+      "change": 130.0,
+      "changePct": 1.9305019305019304,
       "currency": "JPY",
-      "prevClose": 6450.0,
-      "dayHigh": 6734.0,
-      "dayLow": 6465.0,
+      "prevClose": 6734.0,
+      "dayHigh": 6868.0,
+      "dayLow": 6708.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3348.0,
-      "change": 207.0,
-      "changePct": 6.59025787965616,
+      "price": 3446.0,
+      "change": 98.0,
+      "changePct": 2.927120669056153,
       "currency": "JPY",
-      "prevClose": 3141.0,
-      "dayHigh": 3348.0,
-      "dayLow": 3145.0,
+      "prevClose": 3348.0,
+      "dayHigh": 3458.0,
+      "dayLow": 3364.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -584,12 +584,6 @@
       },
       "items": [
         {
-          "title": "Our Portfolio",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRlZnaDkzb0UzSWt6VVZ4QmxDUElxSkh0ZWllaFY4UzFIOEZXUkdjZXNDTERNLVVqMFptMGI3bFgyMS1YOFJVcnVkU2ZSUnJpcHRFaHV5azNSOG94dW1sSHNYb2JDclphbVY0?oc=5",
-          "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
-        },
-        {
           "title": "Temasek Sustainability Report 2026",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdllPbG9wLWxtZlBTNFN3QXBxY040RlFpNHBkVmhJcGt6Zkl2Y2hNSEtTUGtXeDVIMXJ1VWxDSXVrU05xZlluUm1LUmhKZk12aGd5b3ZCN3hqSEZDZkdQZEZZRlRxQjJTRGhGSkxCSllXMDZrTUk4dklJaEZRUEhvYXk2TVVZZ0RlQ1hqZFZ4NW5fdEsweklPa0JlS09KaTlzdF9NNjNheEZibTI4MFRZYjVkWWY4dw?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORkRmaGpEWXIxdEF1UkF2QUFzcWhLVm9tMDZ2TVZrQkxtbFRTT3ZjVEZ6S3lyUVgxdUJXR1RISVRnaTAyNEx5ZVZXanhlamhlZUVBNVhIcVkzd0Z2NWVNS3ctbVZMT0dacUh3ZXZuaWxCcU9zMkdFTm1WZXpzd0ItTVJ5TWtvbktjVmpnemRScEtkM1FXR3haQUVSa3owZ1JqNmxtcDZWb1ZBT3hOSmVMRXNQRWxEeTMyUmNJaEFiWkc3U3pXby1GUHJid1pOZw?oc=5",
           "pubDate": "Mon, 20 Jul 2026 09:16:30 GMT"
+        },
+        {
+          "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
+          "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
         }
       ]
     },
@@ -943,7 +943,7 @@
           "title": "Hostplus members rewarded with strong FY26 returns",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
-          "pubDate": "Tue, 21 Jul 2026 04:52:29 GMT"
+          "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "How to stay safe from sales tactics and scams",
@@ -1028,12 +1028,6 @@
           "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT"
         },
         {
-          "title": "Weekly economic report - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vc3RIZ0hFODg3eURIN0Q1SEQ0MVBpN25GdTZwbDdBSkxmTjF6ak5OcWtiZmQ0VW9nYlIxb2llb2R1VnBGZERZRkhvUXVQelVkcTg3N2VEMUFhcmdJTVdUeGdCdklvVXVKWTBsbUNIQVRLb0xQ?oc=5",
-          "pubDate": "Mon, 22 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "TCorp Q3 FY26 Funding Update - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
+          "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
         }
       ]
     },
