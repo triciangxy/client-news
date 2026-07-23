@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T11:11:23Z",
+  "generated_at": "2026-07-23T02:56:53Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.9,
-      "change": -0.04999999999999716,
-      "changePct": -0.0649772579597104,
+      "price": 78.0,
+      "change": 1.0999999999999943,
+      "changePct": 1.4304291287386142,
       "currency": "HKD",
-      "prevClose": 76.95,
-      "dayHigh": 77.15,
-      "dayLow": 75.6,
+      "prevClose": 76.9,
+      "dayHigh": 78.8,
+      "dayLow": 77.5,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104500.0,
-      "change": -200.0,
-      "changePct": -0.19102196752626552,
+      "price": 103300.0,
+      "change": -1200.0,
+      "changePct": -1.1483253588516746,
       "currency": "KRW",
-      "prevClose": 104700.0,
-      "dayHigh": 107200.0,
-      "dayLow": 103600.0,
+      "prevClose": 104500.0,
+      "dayHigh": 104700.0,
+      "dayLow": 102900.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
       "price": 6844.0,
-      "change": 110.0,
-      "changePct": 1.6335016335016335,
+      "change": 0.0,
+      "changePct": 0.0,
       "currency": "JPY",
-      "prevClose": 6734.0,
-      "dayHigh": 6880.0,
-      "dayLow": 6708.0,
+      "prevClose": 6844.0,
+      "dayHigh": 6882.0,
+      "dayLow": 6744.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3411.0,
-      "change": 63.0,
-      "changePct": 1.881720430107527,
+      "price": 3443.0,
+      "change": 32.0,
+      "changePct": 0.9381413075344474,
       "currency": "JPY",
-      "prevClose": 3348.0,
-      "dayHigh": 3460.0,
-      "dayLow": 3364.0,
+      "prevClose": 3411.0,
+      "dayHigh": 3453.0,
+      "dayLow": 3386.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -303,6 +303,12 @@
         "query": "site:aia.com"
       },
       "items": [
+        {
+          "title": "Healthy living with Tottenham Hotspur",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWNRQV9raTlOWE41cXNjOVpRX1BEbnBEQUQzSzFEeEtTeEhnOElBWVBWOUhhSF9nOV95YjFpUDNzRnlMbC1rWTV1LVlhUFJmWFM3XzdQMDd1OE1pQ0VrT1BDUFdqZFppRmFBZGRJcUpRbHQ5N3ZzTlFIaWgtOFdzUksya085dGxPX2Z5SUFMdGVKY2tSMG1XNGxhVQ?oc=5",
+          "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
+        },
         {
           "title": "A New Lens on Ageing: Thriving in an Older Asia",
           "source": "aia.com",
@@ -346,12 +352,6 @@
           "pubDate": "Tue, 26 Nov 2024 08:00:00 GMT"
         },
         {
-          "title": "Healthy living with Tottenham Hotspur",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWNRQV9raTlOWE41cXNjOVpRX1BEbnBEQUQzSzFEeEtTeEhnOElBWVBWOUhhSF9nOV95YjFpUDNzRnlMbC1rWTV1LVlhUFJmWFM3XzdQMDd1OE1pQ0VrT1BDUFdqZFppRmFBZGRJcUpRbHQ5N3ZzTlFIaWgtOFdzUksya085dGxPX2Z5SUFMdGVKY2tSMG1XNGxhVQ?oc=5",
-          "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
-        },
-        {
           "title": "AIA Group Press Release_ENG_6 June 2025",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNGlZM29xTDRxcUg4cUduQWExdTN2MjJhUzZ1OTV2WnZiTFpoR3FzWS1GREI3ZkFzcTdSVE51eFNlTHJhUk4talpNNlVIYVlMVnBuVVUtMTJEZlJSM0ExaWkyVzI2cl9wVzI0VGJqUlFBR2l1d1daeEc1bmxnbEtqSS1zSC1sOUhzcUFfODd2bHBreHl0S2MtQU9RNXctWDg4b0tZbUpmSm1GcjRldzJvVTBMbHdHWF9GSm9lSjFZZHg?oc=5",
@@ -380,7 +380,7 @@
           "pubDate": "Mon, 22 Jul 2024 02:29:29 GMT"
         },
         {
-          "title": "Innovation Leader, Shinhan Financial Group",
+          "title": "Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
@@ -888,6 +888,12 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxNFl6bWprS0diY2VVeG9zcXZOVDZmQWMyM0t6ZHZSRUhmcHpNQUY4Z1drelhfVE5OZ1dWdG5LTzI0dEUxRWU1MURiYUYxcnZuU0VGSHE1bkxNV19fcVBtUzlnQk5lR1JMQ0cxMkJhZnQ?oc=5",
+          "pubDate": "Wed, 07 May 2025 06:38:32 GMT"
+        },
+        {
           "title": "National Pension for All People’s Happiness",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
@@ -895,33 +901,27 @@
         },
         {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         },
         {
           "title": "수탁자 책임 활동 보고서 영문 09.13(표지 앞뒤).indd",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
           "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
         },
         {
           "title": "Executive Fund Director & Chief Investment Officer",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
         },
         {
           "title": "National Pension Service Investment Management",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
           "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
         }
       ]
     },
@@ -1028,6 +1028,12 @@
           "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT"
         },
         {
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNeExhdFR4NHRYZFlUNURTNXktM0hxT2NjY080YWZseXFRZ1RNNm5ZV1VnbHlkUjJ3ZGVCREcxQUN6Z1BMSVJJWEw2ajEwVmJLdXVDcXJuZFdLOUs1S1B6MEhjNDNBRHB1emdvbzhEMW5HLThjSFlLOG1SV1A1ZlZvVFk2VVZoYmJ0SEZadmtMMGhBZUpKYWc5dFZtQ00yOXB3TDF2UHA5ZnRWNWFLSHpBNFFuSzRLNUxkMXF5dVhNa3VSaUxFOXZaY0FSelRuMnFjaXQxbzNOQTMzMGE1WDZHTGVxLVN4cUV6NFdvWVhyMmdVLUhSRTdNVV9OMGtIXzlPVWlqbEln?oc=5",
+          "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT"
+        },
+        {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXVoRFVrcmRqbmJfSGVod2VoNjNxNkhLeE5zRTNlMVpMV2w3T2llbzFYT2JuT0ZXdm1LeTY0WmFKZXdNd09FSEs1a0dncVVVSExGSjBoZC1Vdjl0REdYSVdPOUtlUlJwYm1PQXhxeUQ5TkZxWGhnbmFaa3pUM0U0NmxkYTRZV09TN2g2N2kxbFJ0bmRMQWFkUUlLZWpiaUg2NnJQR1haVkQzckZtaDBPRFYxdEx4SUhqZnZFTzFmZDhOTV9GLWJRdi0wNG8wOHc?oc=5",
           "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "TCorp Q3 FY26 Funding Update - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
-          "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
         }
       ]
     },
@@ -1092,6 +1092,12 @@
           "pubDate": "Sun, 23 Nov 2025 15:30:15 GMT"
         },
         {
+          "title": "Reports and Publications | Nippon Life Insurance Company",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
+          "pubDate": "Tue, 19 May 2026 21:33:38 GMT"
+        },
+        {
           "title": "Global Subsidiaries, Affiliates, and Representative Offices | Nippon Life Insurance Company",
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Balh0NVZTak1keXRMNVNLZllrVEIydlltalVKamFGTlFhVjE1SUdic09OY1F6SldZTi1EVmhmcEsxYXBXaEcwLURYN0pMRDd6cTY3ZmJDd0l3OVlvdTlPdUs3OFhqN2UzbnFMUDZ4N252QldvZnY4LXp3?oc=5",
@@ -1120,12 +1126,6 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1MnZuUlhnTk5nQ2RUbU9JUlUxOF9kb2V2bi1xUEZoa1o2XzFOMDEweC1GZ1hZdmNpQUVweXViRVppd3VxblFEdHYxLXZqYkhEVERIcVp1R2RzQnZ2Qk9ObEZ2RQ?oc=5",
           "pubDate": "Sun, 23 Nov 2025 22:15:14 GMT"
-        },
-        {
-          "title": "Reports and Publications | Nippon Life Insurance Company",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
-          "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
         },
         {
           "title": "Announcement of the Scheduled Date for Partial Transfer of Nippon Wealth Life’s Investment Management Functions to Enhance Nippon Life Group’s Investment Capabilities",
@@ -1174,22 +1174,22 @@
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
         },
         {
-          "title": "FWD | Erwin Canlas Salalila",
-          "source": "ace-ph.fwd.com",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBTZndJTnhaMFg2OUtnV09vN0N3cnF1QTlnTVJ6TlROYTZBY1FGRGJXbUtHZlF5OGVjWVotNEZMSE90ZEduU0NpV2xER0c?oc=5",
-          "pubDate": "Tue, 14 Jul 2026 08:49:22 GMT"
-        },
-        {
           "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
-          "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
+          "pubDate": "Fri, 10 Oct 2025 13:17:58 GMT"
         },
         {
           "title": "David Junius",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
+        },
+        {
+          "title": "Our fact sheet",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
+          "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         },
         {
           "title": "FWD FitForMe | Uncover AI-recommended coverages based on people like you!",
@@ -1256,6 +1256,12 @@
           "pubDate": "Mon, 23 May 2016 04:54:03 GMT"
         },
         {
+          "title": "Management：The Norinchukin Bank",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rcDE1MkJJS2RqVXgzaUFfeS1uUlE2UWxaQjJHdWE1U3BMZmFxblU3WFVJMzdueUxYQ3lhYWdUQVdxeU1LX2dua2ZnMnFWUXhEdEY4ZHRoc0paY3NWemFn?oc=5",
+          "pubDate": "Mon, 23 May 2016 04:54:41 GMT"
+        },
+        {
           "title": "News Release 2025：The Norinchukin Bank",
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVpTQlB4d2RWZ21Dald6bWhzMGo1Q0YxY3JCMmtSZkQwYjIyRnE3b0diV19xRG9vSjV2aUFIWjFNdjhiVXZNeHhFcWZFVDA1YkgzT1djR2ltZlFUOUVkS0VQUVZxdXl5SlVDTUNnSVJ6c19kZ0RRUTl3aVZiTTZMLWJUNUY3VEtOck5odF9QODVxUlVYLTY3Sl9od3lSV3BJMmNNeGw5UjM?oc=5",
@@ -1266,12 +1272,6 @@
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6S2w1ejBtWUxGZF84blNZZkRaYnd4VG5xNEZNUlVPTHJpaHBCNlljOGEwRjFmRWQwUXpTa3F2bDUzUEJlZVB1cTI4RmMyc0dRSjRzaW9sSjZ2MjMzTEFjYnlZZjVkU0hZeEZScE5DWWhSUEU?oc=5",
           "pubDate": "Thu, 31 Aug 2023 06:38:07 GMT"
-        },
-        {
-          "title": "Annual Report",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NTzdaYnIxdC1lQnZXZTJsaVRBeEU5bVp1OG43eEtBMnFjcDVVWFF4aDFxdmJfRWlTTlU2VGNhU0dicWJPUnhZZ0xUUHFHTE1WZFE4cGg0dG85MkVXdm9zX3NIZmhEZ21yd3BKeUstYV9xdWc?oc=5",
-          "pubDate": "Fri, 29 Aug 2025 08:30:17 GMT"
         }
       ]
     }
