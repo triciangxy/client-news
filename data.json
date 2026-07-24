@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T08:30:39Z",
+  "generated_at": "2026-07-24T11:04:37Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -374,6 +374,12 @@
       },
       "items": [
         {
+          "title": "Shinhan",
+          "source": "신한은행",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE13OUhHRDFCT0ZsdzFXOF9vTFNYUE9ULV9VT3lZbHVZUEt2LXd0NXRGVER6Q05FSnhpWjl6TUduSXpxUkJOQTNjLXNnQnU?oc=5",
+          "pubDate": "Tue, 10 Oct 2006 03:55:45 GMT"
+        },
+        {
           "title": "Shinhan Financial Group-Investor Presentations",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tVHAzWW5EdmVYdE1nd2lRZi1fTW9RaTFjb0ZQeEc0YWFVeFQtUlVhcWlHelVlWVhJZWJGdFViNHlqMHBad2xuMUJVNkM4TTdLMG9JY2dtd1dWRzhiY3FwYi1GNzZmbnlmSDhTZnp0V2JkZw?oc=5",
@@ -410,7 +416,7 @@
           "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
         },
         {
-          "title": "Shinhan Financial Group",
+          "title": "Shinhan Financial Group-Annual Report",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPVHB3M181ZTZfTS1DRGw2dmdZWHoyWGJ5eHFoUEtQWEhCV3dzNnpKdTI2WVhfZER3dXBOU3dwSFBxRldFRTJjNV8yY1lsTzZBaWVSLU5MMm9vZ29lZlpVVQ?oc=5",
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
@@ -426,12 +432,6 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
           "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
-        },
-        {
-          "title": "Shinhan Financial Group-CEO Profile",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NRTJNd0gzU1NTNGxscklZbDdVdzJya2U3S2Q1YVBGV0NObUsyZjJGNUMzaG04d0RrVmFkQTJrcGYxQWtmUEg3Uy1jamQzUXRMVzlYX2xjWlY?oc=5",
-          "pubDate": "Wed, 24 Jul 2024 03:08:20 GMT"
         }
       ]
     },
@@ -675,7 +675,7 @@
           "title": "GIC delivers steady long-term returns within its mandate and stays focused on portfolio resilience in a structurally changed world",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOOXJHMllMbzVqVWg2aVJrV2JOVWlUdTFCbkNUakNSSnF6bGt0TEJpWXVYZGV4MTMzZ3VIS1cwWVUydGRQTEZ6OGRFa3FYMmkyS0NEOVczQ1ozcHZ6NkJyWmlUU2xhbnVEeG1DMDZUNE8tQVBpRS0wRjVnT0NObUNDNUNxbTNhNnJ5TVktNDlXQkhQRy16Q2RSa19oMzc4WEJjZkFkWV9OSkpiTXo4Z19JT1lVNG9tRmNxQzRQLUlXcXMyTkZFWEtwZXhIWjVhcU1WdmRlMFlyYmFjb1BzMmo3enJrcUU1NEFudHo0dFJKZTIyS0MyMTA0b2Z4TQ?oc=5",
-          "pubDate": "Thu, 23 Jul 2026 21:03:55 GMT"
+          "pubDate": "Fri, 24 Jul 2026 02:45:52 GMT"
         },
         {
           "title": "VP, Statutory & Governance, Finance Department",
