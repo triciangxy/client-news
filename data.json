@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T05:52:16Z",
+  "generated_at": "2026-07-24T08:30:39Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.8,
-      "change": -0.7999999999999972,
-      "changePct": -1.017811704834602,
+      "price": 78.1,
+      "change": -0.5,
+      "changePct": -0.6361323155216285,
       "currency": "HKD",
       "prevClose": 78.6,
       "dayHigh": 78.2,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104200.0,
-      "change": 400.0,
-      "changePct": 0.3853564547206166,
+      "price": 104400.0,
+      "change": 600.0,
+      "changePct": 0.5780346820809248,
       "currency": "KRW",
       "prevClose": 103800.0,
       "dayHigh": 107900.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6816.0,
-      "change": -29.0,
-      "changePct": -0.42366691015339664,
+      "price": 6812.0,
+      "change": -33.0,
+      "changePct": -0.48210372534696855,
       "currency": "JPY",
       "prevClose": 6845.0,
       "dayHigh": 6859.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3427.0,
-      "change": -20.0,
-      "changePct": -0.5802146794313896,
+      "price": 3442.0,
+      "change": -5.0,
+      "changePct": -0.1450536698578474,
       "currency": "JPY",
       "prevClose": 3447.0,
       "dayHigh": 3465.0,
@@ -584,12 +584,6 @@
       },
       "items": [
         {
-          "title": "Our Leadership",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
-          "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
-        },
-        {
           "title": "Temasek Sustainability Report 2026",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdllPbG9wLWxtZlBTNFN3QXBxY040RlFpNHBkVmhJcGt6Zkl2Y2hNSEtTUGtXeDVIMXJ1VWxDSXVrU05xZlluUm1LUmhKZk12aGd5b3ZCN3hqSEZDZkdQZEZZRlRxQjJTRGhGSkxCSllXMDZrTUk4dklJaEZRUEhvYXk2TVVZZ0RlQ1hqZFZ4NW5fdEsweklPa0JlS09KaTlzdF9NNjNheEZibTI4MFRZYjVkWWY4dw?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORkRmaGpEWXIxdEF1UkF2QUFzcWhLVm9tMDZ2TVZrQkxtbFRTT3ZjVEZ6S3lyUVgxdUJXR1RISVRnaTAyNEx5ZVZXanhlamhlZUVBNVhIcVkzd0Z2NWVNS3ctbVZMT0dacUh3ZXZuaWxCcU9zMkdFTm1WZXpzd0ItTVJ5TWtvbktjVmpnemRScEtkM1FXR3haQUVSa3owZ1JqNmxtcDZWb1ZBT3hOSmVMRXNQRWxEeTMyUmNJaEFiWkc3U3pXby1GUHJid1pOZw?oc=5",
           "pubDate": "Mon, 20 Jul 2026 09:16:30 GMT"
+        },
+        {
+          "title": "Human Donor Milk Bank: When Hope Arrives in a Bottle",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
+          "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
         }
       ]
     },
@@ -702,16 +702,16 @@
           "pubDate": "Thu, 23 Jul 2026 22:19:24 GMT"
         },
         {
-          "title": "AVP, Talent Acquisition (2-year contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBSMWprU2F6bk1CdURRNlhqN2hha2J4eWhmV0FudXV0VVlTRW5CY3RMQU12OEY3WHhEZW50Tmd3MFdBQU00MUNvODFmTEN6Tl80d2JrUjRzOURzTTNfZFJTMW5wS2doUEw3RERXMm85WVBhbk5GMEZNZzlDV1BWZy12YzMwQXlIMXo4M2JWMDRaMUpyZk9ic1M0T2taNjhrV2c?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 06:22:55 GMT"
-        },
-        {
           "title": "AVP, Index Operations",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPamJ6YXFuTk5qcmgtRlV1WktoTG5tNjByUW5KaHZndTlBYXNIZHhLS2NKZkZEb1hHclNSX2pxQjBoODNuQ1A3YURTMkJtRDk2WkhmYVAwSkJCVHlmMjVfd1RGdmdMNXpVd2JQcXBqS0VqNUg4QmRPOGpYWGlfNTJiRFF3?oc=5",
           "pubDate": "Fri, 26 Jun 2026 01:25:58 GMT"
+        },
+        {
+          "title": "VP, Credit Analyst, Alternative Credit Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUl6aFNYdUxPQVN1cm9Tb1ExbnJ5YVktYnVpYjRLTlg0TGFXZTBBaFUyWlg4ZWtSaWdNRHhnVDcyN1N5b2szMzlVc29GYnRSQjJJUWJzdXdJZGJaUzZ0aGZNQWxpUDRhWUlqS3NYSTBMNUplaTVoUVczQWZQNzVTVG5XMVk3U1lpczMxZlAzdEZZbUVGRnlTZ3M0VTBUNlU?oc=5",
+          "pubDate": "Sat, 27 Jun 2026 02:23:22 GMT"
         }
       ]
     },
@@ -920,8 +920,8 @@
         {
           "title": "National Pension Service",
           "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yb21USjkzTTEyUGdJb1Z2aTFVM0ZuQ09wdVcyRWJQRXNNelU0NkZXdGpyZHU3RE50d0tTbEZwUDBPeFlvcW5MWnExdzJUajRVOWxRSzQxamdnSVhReUxJMHdWSTlWZEd0RXhaWEFFRm9jSjdHUWJkOUFQZ1pKZw?oc=5",
+          "pubDate": "Wed, 07 May 2025 04:17:34 GMT"
         }
       ]
     },
