@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T02:50:56Z",
+  "generated_at": "2026-07-24T05:52:16Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.5,
-      "change": -1.0999999999999943,
-      "changePct": -1.3994910941475756,
+      "price": 77.8,
+      "change": -0.7999999999999972,
+      "changePct": -1.017811704834602,
       "currency": "HKD",
       "prevClose": 78.6,
       "dayHigh": 78.2,
@@ -261,20 +261,20 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 102800.0,
-      "change": -1000.0,
-      "changePct": -0.9633911368015413,
+      "price": 104200.0,
+      "change": 400.0,
+      "changePct": 0.3853564547206166,
       "currency": "KRW",
       "prevClose": 103800.0,
       "dayHigh": 107900.0,
-      "dayLow": 102400.0,
+      "dayLow": 101900.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6848.0,
-      "change": 3.0,
-      "changePct": 0.04382761139517896,
+      "price": 6816.0,
+      "change": -29.0,
+      "changePct": -0.42366691015339664,
       "currency": "JPY",
       "prevClose": 6845.0,
       "dayHigh": 6859.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3448.0,
-      "change": 1.0,
-      "changePct": 0.02901073397156948,
+      "price": 3427.0,
+      "change": -20.0,
+      "changePct": -0.5802146794313896,
       "currency": "JPY",
       "prevClose": 3447.0,
       "dayHigh": 3465.0,
@@ -920,8 +920,8 @@
         {
           "title": "National Pension Service",
           "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yb21USjkzTTEyUGdJb1Z2aTFVM0ZuQ09wdVcyRWJQRXNNelU0NkZXdGpyZHU3RE50d0tTbEZwUDBPeFlvcW5MWnExdzJUajRVOWxRSzQxamdnSVhReUxJMHdWSTlWZEd0RXhaWEFFRm9jSjdHUWJkOUFQZ1pKZw?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:17:34 GMT"
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
+          "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
         }
       ]
     },
