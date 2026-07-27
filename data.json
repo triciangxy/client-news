@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T06:49:06Z",
+  "generated_at": "2026-07-27T10:44:49Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 78.3,
-      "change": 0.20000000000000284,
-      "changePct": 0.25608194622279495,
+      "price": 77.95,
+      "change": -0.14999999999999147,
+      "changePct": -0.19206145966708257,
       "currency": "HKD",
       "prevClose": 78.1,
-      "dayHigh": 78.4,
+      "dayHigh": 78.45,
       "dayLow": 76.35,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 105500.0,
-      "change": 1100.0,
-      "changePct": 1.053639846743295,
+      "price": 105000.0,
+      "change": 600.0,
+      "changePct": 0.5747126436781609,
       "currency": "KRW",
       "prevClose": 104400.0,
       "dayHigh": 105700.0,
@@ -313,7 +313,7 @@
           "title": "AIA announces winners of the AIA Healthiest Schools Competition",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2p1ZzlFUEdzMFpwbENfLTYySW1lUVVEWVZkdEkyTDRaOGdYSmpKeU1zTUFlU1NPT3ltalMwX1d3VzZDc09xemM4a2tRVzdHSXdCSTA1ZE1iaGRUQ3k0SVpwWTUwclB4OVFoRlZzTkhaY2x2bFFVQVNsTTVkZFUtOTQ2bDlORGhyLXdGX19qRW43Zw?oc=5",
-          "pubDate": "Thu, 09 Jul 2026 00:00:07 GMT"
+          "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "Insights and Views",
@@ -380,7 +380,7 @@
           "pubDate": "Mon, 22 Jul 2024 02:29:29 GMT"
         },
         {
-          "title": "Innovation Leader, Shinhan Financial Group",
+          "title": "Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
@@ -1144,6 +1144,12 @@
       },
       "items": [
         {
+          "title": "FWD | Zenda Mata Arela",
+          "source": "ace-ph.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16NmNsazMxcmFNRzVxX29OWWlyR3ZkMFZhaUxVYWhsVDNrQXUxdElNcFJheDYza1l4dHl2cHA5c3ZzQ1NSZktoRHZOMnhwalF0SHczWVZXcG94UWh1QXloekRjU2trNEU?oc=5",
+          "pubDate": "Sun, 26 Jul 2026 21:35:39 GMT"
+        },
+        {
           "title": "FWD Cube Web Portal",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93TW42RnFhaHJGSm9Pbkl5b3VQZ0phc2xodnE0VkZ4LWdCWWNPQUthMGNrVXFJQjFUZG9BVjJzdzlKcE9zWEZjZ2NJaw?oc=5",
@@ -1196,12 +1202,6 @@
           "source": "FWD FitForMe",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
           "pubDate": "Thu, 05 Dec 2024 03:07:27 GMT"
-        },
-        {
-          "title": "2025 Annual Report Chairman’s statement",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
-          "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
         }
       ]
     },
