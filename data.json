@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T03:24:48Z",
+  "generated_at": "2026-07-27T06:49:06Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,42 +250,42 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 78.05,
-      "change": -0.04999999999999716,
-      "changePct": -0.06402048655569419,
+      "price": 78.3,
+      "change": 0.20000000000000284,
+      "changePct": 0.25608194622279495,
       "currency": "HKD",
       "prevClose": 78.1,
-      "dayHigh": 78.3,
+      "dayHigh": 78.4,
       "dayLow": 76.35,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104500.0,
-      "change": 100.0,
-      "changePct": 0.09578544061302681,
+      "price": 105500.0,
+      "change": 1100.0,
+      "changePct": 1.053639846743295,
       "currency": "KRW",
       "prevClose": 104400.0,
-      "dayHigh": 105500.0,
+      "dayHigh": 105700.0,
       "dayLow": 102400.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6854.0,
-      "change": 42.0,
-      "changePct": 0.6165590135055784,
+      "price": 6881.0,
+      "change": 69.0,
+      "changePct": 1.0129183793305931,
       "currency": "JPY",
       "prevClose": 6812.0,
-      "dayHigh": 6870.0,
+      "dayHigh": 6922.0,
       "dayLow": 6776.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3393.0,
-      "change": -49.0,
-      "changePct": -1.4235909355026146,
+      "price": 3416.0,
+      "change": -26.0,
+      "changePct": -0.7553747821034282,
       "currency": "JPY",
       "prevClose": 3442.0,
       "dayHigh": 3430.0,
@@ -584,12 +584,6 @@
       },
       "items": [
         {
-          "title": "Temasek Sustainability Report 2026",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdllPbG9wLWxtZlBTNFN3QXBxY040RlFpNHBkVmhJcGt6Zkl2Y2hNSEtTUGtXeDVIMXJ1VWxDSXVrU05xZlluUm1LUmhKZk12aGd5b3ZCN3hqSEZDZkdQZEZZRlRxQjJTRGhGSkxCSllXMDZrTUk4dklJaEZRUEhvYXk2TVVZZ0RlQ1hqZFZ4NW5fdEsweklPa0JlS09KaTlzdF9NNjNheEZibTI4MFRZYjVkWWY4dw?oc=5",
-          "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "Assistant Vice President/Vice President, Organisation Development Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPME5rVHpwOHg2Z3FOTi1sUG1DUmx0cl8xbk9yRWZkWlAyWTFVQ09MNmZIZkJfS2lWMUI2aWJGUHZaTWxLQ2dBWkRLNm84WHJ1bXB5THdCdFVMSU1JTnNxc3l3aGY2SFVvVGNZMHV1YUYwVmw5YVpfNGxNbXRJaUdfTm1NN09fVGV6Yi1reU1BNFRzQnM0YXlCZllzLVg3aUVNdmtjamhyNHZCY1R0b0tBT01JaUU4bGZP?oc=5",
@@ -612,6 +606,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORkRmaGpEWXIxdEF1UkF2QUFzcWhLVm9tMDZ2TVZrQkxtbFRTT3ZjVEZ6S3lyUVgxdUJXR1RISVRnaTAyNEx5ZVZXanhlamhlZUVBNVhIcVkzd0Z2NWVNS3ctbVZMT0dacUh3ZXZuaWxCcU9zMkdFTm1WZXpzd0ItTVJ5TWtvbktjVmpnemRScEtkM1FXR3haQUVSa3owZ1JqNmxtcDZWb1ZBT3hOSmVMRXNQRWxEeTMyUmNJaEFiWkc3U3pXby1GUHJid1pOZw?oc=5",
           "pubDate": "Mon, 20 Jul 2026 09:16:30 GMT"
+        },
+        {
+          "title": "Temasek Sustainability Report 2026",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdllPbG9wLWxtZlBTNFN3QXBxY040RlFpNHBkVmhJcGt6Zkl2Y2hNSEtTUGtXeDVIMXJ1VWxDSXVrU05xZlluUm1LUmhKZk12aGd5b3ZCN3hqSEZDZkdQZEZZRlRxQjJTRGhGSkxCSllXMDZrTUk4dklJaEZRUEhvYXk2TVVZZ0RlQ1hqZFZ4NW5fdEsweklPa0JlS09KaTlzdF9NNjNheEZibTI4MFRZYjVkWWY4dw?oc=5",
+          "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Temasek Review 2026 Media Briefing: CEO Address Video Transcript",
@@ -934,6 +934,12 @@
       },
       "items": [
         {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
+        },
+        {
           "title": "Hostplus members rewarded with strong FY26 returns",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ja1NFTUJVTm5pZV9odHhQNjU0UE1zTVY5QUc1bEhiUmhKTVBoa0dob3ZBbjlORVlIeC1xYm4zdHU5TjNsZUNfaVFYSWlETm1hNzhsU1hManNDWUlsNzdrNEkzR0g2bm8?oc=5",
           "pubDate": "Wed, 03 Sep 2025 07:50:38 GMT"
-        },
-        {
-          "title": "HOSTPLUS SELF-MANAGED INVEST ANNUAL REPORT",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
-          "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
         }
       ]
     },
