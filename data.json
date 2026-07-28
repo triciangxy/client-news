@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T05:49:00Z",
+  "generated_at": "2026-07-28T08:37:50Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.3,
-      "change": -0.6500000000000057,
-      "changePct": -0.8338678640154017,
+      "price": 77.9,
+      "change": -0.04999999999999716,
+      "changePct": -0.06414368184733439,
       "currency": "HKD",
       "prevClose": 77.95,
       "dayHigh": 78.35,
-      "dayLow": 77.25,
+      "dayLow": 77.1,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 100400.0,
-      "change": -4600.0,
-      "changePct": -4.380952380952381,
+      "price": 100900.0,
+      "change": -4100.0,
+      "changePct": -3.9047619047619047,
       "currency": "KRW",
       "prevClose": 105000.0,
       "dayHigh": 105400.0,
@@ -272,24 +272,24 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6789.0,
-      "change": -92.0,
-      "changePct": -1.3370149687545414,
+      "price": 6769.0,
+      "change": -112.0,
+      "changePct": -1.627670396744659,
       "currency": "JPY",
       "prevClose": 6881.0,
       "dayHigh": 6995.0,
-      "dayLow": 6787.0,
+      "dayLow": 6769.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3268.0,
-      "change": -148.0,
-      "changePct": -4.332552693208431,
+      "price": 3256.0,
+      "change": -160.0,
+      "changePct": -4.683840749414521,
       "currency": "JPY",
       "prevClose": 3416.0,
       "dayHigh": 3371.0,
-      "dayLow": 3266.0,
+      "dayLow": 3256.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -593,7 +593,7 @@
           "title": "Temasek Upsizes Guaranteed Global Medium Term Note Programme from US$25 billion to US$30 billion",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORkRmaGpEWXIxdEF1UkF2QUFzcWhLVm9tMDZ2TVZrQkxtbFRTT3ZjVEZ6S3lyUVgxdUJXR1RISVRnaTAyNEx5ZVZXanhlamhlZUVBNVhIcVkzd0Z2NWVNS3ctbVZMT0dacUh3ZXZuaWxCcU9zMkdFTm1WZXpzd0ItTVJ5TWtvbktjVmpnemRScEtkM1FXR3haQUVSa3owZ1JqNmxtcDZWb1ZBT3hOSmVMRXNQRWxEeTMyUmNJaEFiWkc3U3pXby1GUHJid1pOZw?oc=5",
-          "pubDate": "Mon, 20 Jul 2026 09:16:30 GMT"
+          "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "Temasek Sustainability Report 2026",
@@ -620,12 +620,6 @@
           "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT"
         },
         {
-          "title": "50 by Fifty",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVzU1Z1BaQUQtRFduZUh2emNGNXdHcUs1RmhLUWdfd25Fd0QwOGlGM2ozS1VkTEU5R3JCVHlQQzhXTXRyWmlFLXd1UlBkbE12VzYtWHgxTjdIQWp1MjVlalFvMnpPWlJmaVVsQkE5bVg1QzRxdWxEXzcwbTdnaU56ZE5IcUdFV3ZSX3g0Y25jVQ?oc=5",
-          "pubDate": "Wed, 08 Jul 2026 10:36:43 GMT"
-        },
-        {
           "title": "Temasek Review 2026: Media Briefing Speaker Notes",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaVNNejZ2RHZnYTVYeG9vb2VGUmZTbzFhOHBPMUZxbTJta3E0b0gzSldCclRfVkZPVUIwS2l1WDlUV28xOVdkYXhXWjBjaHU3Y29XamhrbXE2cGNwX3VHbkFmWWg3MVNxcW5yTHJhS1lMcVN1Y3V6U1hmWWFSM2Vhc3ZVMERXUHlHNkwwa3VCQi1lQW1QVzB6VUo3NVBkMXk0anFHM1Q3Nm9LcWs?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFJxd3dteFRSbFFvY3hLdzZSUWZNZDRFWmp6T3ozdXVsMVRVazRFVVZwczhNRDB6QkxKazNCdXpsRUthMkkwMy1pNy1PazhIRmREMVg2SXN2Q1NnbWlvZEJDWU9nZHJ1TGRUUng5T2F5R24wZkJLbHVnaXYzLXJtN1B5TWIyTGp3Slk0Vkl4MGFiS2dGZmVqdjBxVXlaQmRDeXhlMkxaY0lQRTNpaWRCMlZ4cnV4Z3pFQ0VaSUN6QVR3Y1c5WFo5RXplLWlLbUE?oc=5",
           "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "AI and the Energy Transition: Enabling Efficiency while Managing Trade-offs",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
+          "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1018,12 +1018,6 @@
         {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNeExhdFR4NHRYZFlUNURTNXktM0hxT2NjY080YWZseXFRZ1RNNm5ZV1VnbHlkUjJ3ZGVCREcxQUN6Z1BMSVJJWEw2ajEwVmJLdXVDcXJuZFdLOUs1S1B6MEhjNDNBRHB1emdvbzhEMW5HLThjSFlLOG1SV1A1ZlZvVFk2VVZoYmJ0SEZadmtMMGhBZUpKYWc5dFZtQ00yOXB3TDF2UHA5ZnRWNWFLSHpBNFFuSzRLNUxkMXF5dVhNa3VSaUxFOXZaY0FSelRuMnFjaXQxbzNOQTMzMGE1WDZHTGVxLVN4cUV6NFdvWVhyMmdVLUhSRTdNVV9OMGtIXzlPVWlqbEln?oc=5",
-          "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNQzBRUmNQQnRfMWZ3Znd3a2xEbXByWjBnZkpNYVpOQVpES1lGMy1HcGFvTC1vSlhfUWtyS25MbmhJMHRuYTdFaHBZNGhtZnN3T1dwcGlDX0ZVWEttREV4Y1czSHpWY1I2dVkzcXVmZlNLNmdsS3AxWm5GWTFMNlJFWlE0SVVNLTlKY2JUcDRRUGlrZ1BBa3ZPanNhOGY1UTRPWlFDdDdIclBCeWs2QzRJdDUzRnJWRU84V3Y2SlY3VG94Y0lLYWRzZDNTWnY0ZkxpRUJUNW8zcUxTaVNjUG1xdE9udjNCanpfNDAyXzRLZ0VXRzVkejFwMWVXcV9Zck9rd0pWM25FQUtlUjBvaGIyaEM2Z2owb28?oc=5",
           "pubDate": "Thu, 23 Jul 2026 05:10:10 GMT"
         },
@@ -1062,6 +1056,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
           "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
+        },
+        {
+          "title": "TCorp economic podcast - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
