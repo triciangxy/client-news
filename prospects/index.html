@@ -863,7 +863,7 @@ function renderProspects() {
       </td>
       <td class="num">${usd(p.bankable_usd_m)}</td>
       <td class="num ${moveCls?'':''}" style="color:${moveCls==='up'?'var(--up)':moveCls==='down'?'var(--down)':'inherit'}">
-        ${p.day_move_usd_m ? (p.day_move_usd_m>0?'+':'') + usd(Math.abs(p.day_move_usd_m)).replace('US$','') : '—'}
+        ${p.day_move_usd_m ? (p.day_move_usd_m>0?'+':'−') + usd(Math.abs(p.day_move_usd_m)).replace('US$','') : '—'}
       </td>
       <td class="sig-cell">
         ${sig ? `<div class="sig-top">${esc(sigText(sig))}</div>` : '<div class="sig-top" style="color:var(--ink-faint)">—</div>'}

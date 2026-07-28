@@ -181,11 +181,21 @@ Three things about Taiwan drive the design:
 ## Coverage and its limits
 
 - TWSE (上市) only. TPEx/OTC (上櫃) issuers are not covered — adding them means
-  pointing the fetcher at the TPEx open-data host as a second source.
+  pointing the fetcher at the TPEx open-data host as a second source. Poya
+  (寶雅, 5904) was dropped from the roster for exactly this reason and is worth
+  re-adding the day TPEx coverage lands.
 - Stake percentages are **desk estimates** unless a row is marked
   *filings-verified*, which happens only when the MOPS scrape succeeds for that
   issuer. Every row links to the underlying MOPS page. **Verify before any
   client contact.**
+- **MOPS enrichment is currently not landing.** The endpoint responds, but the
+  row parser in `fetch_insiders()` matches nothing against the HTML it returns,
+  so every row is presently marked *estimate*. Fixing it means capturing one
+  live response and adjusting the table parse — that is the highest-value next
+  change, because it converts stakes and pledge ratios from estimates into
+  filing-grade numbers. The run degrades cleanly in the meantime: it stops after
+  five consecutive failures and reports the source as failed in the Methodology
+  panel.
 - Family-level rows (e.g. 王氏家族) cannot be split between members.
 - Blocks held through foundations and public-interest trusts — Formosa Plastics
   being the clearest case — are deliberately under-attributed. Do not read a

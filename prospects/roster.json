@@ -457,17 +457,6 @@
       ]
     },
     {
-      "ticker": "5904", "name_zh": "寶雅國際", "name_en": "Poya International", "sector": "Retail",
-      "principals": [
-        { "subject_id": "chen-family-poya", "name_zh": "陳建造家族", "name_en": "Chen family (Poya)", "subject_type": "family",
-          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
-          "stake_pct_est": 18.0, "stake_basis": "family aggregate",
-          "confidence": "low", "as_of": "2026-Q1", "base": "Tainan",
-          "vehicles": [], "tags": ["southern-taiwan", "retail", "high-payout", "under-covered"],
-          "note": "Tainan-based and materially under-covered by offshore private banks relative to wealth — a genuine white-space name." }
-      ]
-    },
-    {
       "ticker": "2707", "name_zh": "晶華國際酒店", "name_en": "FIH Regent Group", "sector": "Hospitality",
       "principals": [
         { "subject_id": "steven-pan", "name_zh": "潘思亮", "name_en": "Steven Pan", "subject_type": "individual",
