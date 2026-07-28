@@ -62,7 +62,12 @@ def note_source(name, ok, detail=""):
 
 
 def warn(msg):
-    diagnostics["warnings"].append(msg)
+    # Capped: a dead MOPS endpoint would otherwise write one line per issuer
+    # into data.json, which the browser has to download.
+    if len(diagnostics["warnings"]) < 20:
+        diagnostics["warnings"].append(msg)
+    elif len(diagnostics["warnings"]) == 20:
+        diagnostics["warnings"].append("… further warnings suppressed")
     print(f"  ! {msg}", file=sys.stderr)
 
 
@@ -247,6 +252,9 @@ def fetch_fx():
 
 
 MOPS_INSIDER_URL = "https://mopsov.twse.com.tw/mops/web/ajax_stapap1"
+MOPS_TIMEOUT = 12          # per request; MOPS is slow and often unreachable
+MOPS_BUDGET_S = 240        # whole-phase ceiling, so the job never runs long
+MOPS_GIVE_UP_AFTER = 5     # consecutive failures with nothing parsed yet
 
 
 def fetch_insiders(code, roc_year, month):
@@ -267,7 +275,7 @@ def fetch_insiders(code, roc_year, month):
             },
             headers={"Content-Type": "application/x-www-form-urlencoded",
                      "Accept": "text/html,application/xhtml+xml"},
-            timeout=TIMEOUT,
+            timeout=MOPS_TIMEOUT,
         )
         r.raise_for_status()
         html = r.text
@@ -650,16 +658,29 @@ def main():
             # ROC year, previous month — MOPS publishes with a lag
             prev = date.today().replace(day=1) - timedelta(days=1)
             roc_year, month = prev.year - 1911, prev.month
-            hit = 0
-            for t in tickers:
+            started, hit, misses, stopped = time.monotonic(), 0, 0, None
+            for i, t in enumerate(tickers):
+                if time.monotonic() - started > MOPS_BUDGET_S:
+                    stopped = f"budget {MOPS_BUDGET_S}s reached at issuer {i}/{len(tickers)}"
+                    break
                 rows = fetch_insiders(t, roc_year, month)
                 if rows:
                     live["insiders"][t] = rows
                     hit += 1
+                    misses = 0
+                else:
+                    misses += 1
+                    # Nothing has ever parsed and it keeps failing — the endpoint
+                    # is down or has changed shape. Stop rather than burn the job.
+                    if hit == 0 and misses >= MOPS_GIVE_UP_AFTER:
+                        stopped = f"gave up after {misses} consecutive failures"
+                        break
                 time.sleep(0.4)  # be a good citizen
-            note_source("mops:insider-holdings", hit > 0,
-                        f"{hit}/{len(tickers)} issuers with parsed insider rows "
-                        f"(ROC {roc_year}/{month:02d})")
+            detail = (f"{hit}/{len(tickers)} issuers with parsed insider rows "
+                      f"(ROC {roc_year}/{month:02d})")
+            if stopped:
+                detail += f" — {stopped}"
+            note_source("mops:insider-holdings", hit > 0, detail)
 
     companies, prospects = build(roster, live, fx_rate)
 
