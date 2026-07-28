@@ -3,6 +3,13 @@ name: Refresh Taiwan Prospect Radar
 on:
   workflow_dispatch:
 
+  # TEMPORARY — validates the fetcher against live TWSE endpoints while this
+  # branch is under review. Remove before merge; workflow_dispatch takes over
+  # once the workflow file reaches the default branch.
+  push:
+    branches: [claude/taiwan-stock-exchange-prospects-no1s4g]
+    paths: ['fetch_twse.py', 'prospects/roster.json', '.github/workflows/refresh-prospects.yml']
+
   # TWSE closes at 13:30 TPE (05:30 UTC) and publishes the daily files shortly
   # after. Run once after the close and once mid-morning for the overnight FX
   # and any late file publication. Mon-Fri only. Cron is UTC.
