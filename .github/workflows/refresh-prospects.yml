@@ -47,10 +47,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet prospects/data.json; then
+          # Stage first: on the very first run data.json is untracked, and
+          # `git diff` does not see untracked files.
+          git add prospects/data.json
+          if git diff --cached --quiet -- prospects/data.json; then
             echo "No changes to prospects/data.json"
           else
-            git add prospects/data.json
             git commit -m "chore: refresh prospects/data.json [skip ci]"
             git push
           fi
