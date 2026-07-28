@@ -1,0 +1,5306 @@
+{
+  "generated_at": "2026-07-28T10:16:14Z",
+  "mode": "live",
+  "fx": {
+    "twd_per_usd": 32.402,
+    "live": true
+  },
+  "assumptions": {
+    "note": "Every number here is an explicit, editable assumption. The UI surfaces all of them in the Methodology panel.",
+    "unlisted_uplift": {
+      "comment": "Total wealth / listed-stake value. Accounts for real estate, unlisted operating companies, cash and offshore assets typical of each archetype in Taiwan.",
+      "founder_operator": 1.45,
+      "family_office": 1.7,
+      "financial_group": 1.4,
+      "professional_exec": 1.25,
+      "property_developer": 1.85
+    },
+    "range_band_pct": 25,
+    "range_band_comment": "Net worth is shown as a range of mid ± this %, because a point estimate would be false precision.",
+    "dividend_tax_rate": 0.28,
+    "dividend_tax_comment": "Taiwan separate taxation on dividend income for high-bracket individuals (28%). Used to derive net cash from the annual dividend run-rate.",
+    "bankable_share_of_dividend": 0.6,
+    "bankable_share_comment": "Share of net dividend cash realistically available for redeployment into managed assets rather than consumed by tax, pledges, reinvestment and family distribution.",
+    "large_stake_pct_floor": 1.0,
+    "min_net_worth_usd_m": 50,
+    "min_net_worth_comment": "Subjects below this estimated net worth are retained in the data but flagged sub-threshold in the UI.",
+    "twd_per_usd_fallback": 32.5
+  },
+  "scoring": {
+    "comment": "Prospect score 0-100. Weights must sum to 100.",
+    "weights": {
+      "wealth": 40,
+      "liquidity": 30,
+      "catalyst": 20,
+      "accessibility": 10
+    },
+    "wealth_log_floor_usd_m": 50,
+    "wealth_log_ceiling_usd_m": 15000,
+    "liquidity_log_floor_usd_m": 1,
+    "liquidity_log_ceiling_usd_m": 500
+  },
+  "roster_meta": {
+    "title": "TWSE Principal Shareholder Roster",
+    "description": "Curated roster of controlling individuals and families behind TWSE-listed issuers. This file is the SLOW-MOVING layer: who holds what, and roughly how much. The fetcher multiplies these stakes against live TWSE prices and share counts to derive wealth estimates. Edit this file to extend coverage; the next scheduled run picks it up.",
+    "maintainer": "Taiwan PB desk",
+    "last_curated": "2026-07-28",
+    "verification_note": "stake_pct_est values are desk estimates aggregated from annual reports, MOPS insider filings and press reporting. They are NOT filings-grade. Verify against MOPS (link on every row) before any client-facing use.",
+    "mops_insider_url": "https://mopsov.twse.com.tw/mops/web/t146sb05?TYPEK=sii&co_id=",
+    "twse_company_url": "https://www.twse.com.tw/zh/listed/profile/company.html?code="
+  },
+  "totals": {
+    "issuers": 45,
+    "subjects": 43,
+    "subjects_priced": 42,
+    "net_worth_usd_m": 135643.2717683434,
+    "bankable_usd_m": 1067.0677600652696,
+    "above_threshold": 42
+  },
+  "companies": [
+    {
+      "ticker": "2317",
+      "name_zh": "鴻海精密工業",
+      "name_en": "Hon Hai Precision (Foxconn)",
+      "sector": "Tech Hardware",
+      "industry": "31",
+      "chairman": "劉揚偉",
+      "president": "劉揚偉",
+      "website": "https://www.honhai.com/zh-tw",
+      "price": 253.0,
+      "change": 0.5,
+      "changePct": 0.19801980198019803,
+      "turnover": 8967672916.0,
+      "shares_out": 14028648626.0,
+      "market_cap_ntd": 3549248102378.0,
+      "market_cap_usd_m": 109537.93291704216,
+      "pe": 17.97,
+      "pb": 1.99,
+      "div_yield": 2.83,
+      "dps": 7.1599,
+      "revenue_period": "11506",
+      "revenue_yoy": 52.11164672139997,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2382",
+      "name_zh": "廣達電腦",
+      "name_en": "Quanta Computer",
+      "sector": "Tech Hardware",
+      "industry": "25",
+      "chairman": "林百里",
+      "president": "梁次震",
+      "website": "www.quantatw.com",
+      "price": 322.0,
+      "change": -6.0,
+      "changePct": -1.8292682926829267,
+      "turnover": 6311832473.0,
+      "shares_out": 3862627432.0,
+      "market_cap_ntd": 1243766033104.0,
+      "market_cap_usd_m": 38385.471054379355,
+      "pe": 16.19,
+      "pb": 5.98,
+      "div_yield": 4.84,
+      "dps": 15.5848,
+      "revenue_period": "11506",
+      "revenue_yoy": 102.87247195164615,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "3008",
+      "name_zh": "大立光電",
+      "name_en": "Largan Precision",
+      "sector": "Optics",
+      "industry": "26",
+      "chairman": "林恩平",
+      "president": "黃有執",
+      "website": "www.largan.com.tw",
+      "price": 4090.0,
+      "change": 170.0,
+      "changePct": 4.336734693877551,
+      "turnover": 8920385345.0,
+      "shares_out": 130798197.0,
+      "market_cap_ntd": 534964625730.0,
+      "market_cap_usd_m": 16510.234730263564,
+      "pe": 25.53,
+      "pb": 2.9,
+      "div_yield": 1.96,
+      "dps": 80.164,
+      "revenue_period": "11506",
+      "revenue_yoy": -10.464491392393583,
+      "ex_dividend": null,
+      "principal_count": 2,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2454",
+      "name_zh": "聯發科技",
+      "name_en": "MediaTek",
+      "sector": "Semiconductors",
+      "industry": "24",
+      "chairman": "蔡明介",
+      "president": "陳冠州",
+      "website": "http://www.mediatek.com",
+      "price": 3680.0,
+      "change": -70.0,
+      "changePct": -1.866666666666667,
+      "turnover": 32995930650.0,
+      "shares_out": 1603895407.0,
+      "market_cap_ntd": 5902335097760.0,
+      "market_cap_usd_m": 182159.59193136226,
+      "pe": 58.65,
+      "pb": 15.05,
+      "div_yield": 1.45,
+      "dps": 53.36,
+      "revenue_period": "11506",
+      "revenue_yoy": 2.796444693846599,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2308",
+      "name_zh": "台達電子",
+      "name_en": "Delta Electronics",
+      "sector": "Electronics",
+      "industry": "28",
+      "chairman": "鄭平",
+      "president": "張訓海",
+      "website": "https://www.deltaww.com/zh-TW/index",
+      "price": 1755.0,
+      "change": -30.0,
+      "changePct": -1.680672268907563,
+      "turnover": 17168864775.0,
+      "shares_out": 2597543329.0,
+      "market_cap_ntd": 4558688542395.0,
+      "market_cap_usd_m": 140691.578988797,
+      "pe": 64.71,
+      "pb": 15.22,
+      "div_yield": 0.66,
+      "dps": 11.583,
+      "revenue_period": "11506",
+      "revenue_yoy": 55.42638489110967,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2881",
+      "name_zh": "富邦金融控股",
+      "name_en": "Fubon Financial Holding",
+      "sector": "Financials",
+      "industry": "17",
+      "chairman": "蔡明興",
+      "president": "韓蔚廷",
+      "website": "www.fubon.com",
+      "price": 130.0,
+      "change": 2.5,
+      "changePct": 1.9607843137254901,
+      "turnover": 2014773566.0,
+      "shares_out": 15607354952.0,
+      "market_cap_ntd": 2028956143760.0,
+      "market_cap_usd_m": 62618.23787914326,
+      "pe": 17.88,
+      "pb": 1.99,
+      "div_yield": 3.27,
+      "dps": 4.251,
+      "revenue_period": "11506",
+      "revenue_yoy": -53.64983127865604,
+      "ex_dividend": null,
+      "principal_count": 2,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2882",
+      "name_zh": "國泰金融控股",
+      "name_en": "Cathay Financial Holding",
+      "sector": "Financials",
+      "industry": "17",
+      "chairman": "蔡宏圖",
+      "president": "李長庚",
+      "website": "www.cathayholdings.com",
+      "price": 98.5,
+      "change": 1.5,
+      "changePct": 1.5463917525773196,
+      "turnover": 1554410280.0,
+      "shares_out": 16202510128.0,
+      "market_cap_ntd": 1595947247608.0,
+      "market_cap_usd_m": 49254.590692179496,
+      "pe": 14.95,
+      "pb": 1.97,
+      "div_yield": 3.55,
+      "dps": 3.4967499999999996,
+      "revenue_period": "11506",
+      "revenue_yoy": -42.044705643064496,
+      "ex_dividend": null,
+      "principal_count": 2,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2891",
+      "name_zh": "中國信託金融控股",
+      "name_en": "CTBC Financial Holding",
+      "sector": "Financials",
+      "industry": "17",
+      "chairman": "顏文隆",
+      "president": "高麗雪",
+      "website": "https://www.ctbcholding.com",
+      "price": 63.0,
+      "change": -0.6,
+      "changePct": -0.9433962264150944,
+      "turnover": 1727045176.0,
+      "shares_out": 20176888381.0,
+      "market_cap_ntd": 1271143968003.0,
+      "market_cap_usd_m": 39230.41688793902,
+      "pe": 15.18,
+      "pb": 2.25,
+      "div_yield": 3.97,
+      "dps": 2.5011,
+      "revenue_period": "11506",
+      "revenue_yoy": -17.9028438177479,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2885",
+      "name_zh": "元大金融控股",
+      "name_en": "Yuanta Financial Holding",
+      "sector": "Financials",
+      "industry": "17",
+      "chairman": "翁健",
+      "president": "黃維誠",
+      "website": "http://www.yuanta.com",
+      "price": 64.7,
+      "change": 1.6,
+      "changePct": 2.535657686212361,
+      "turnover": 1907886550.0,
+      "shares_out": 13331149946.0,
+      "market_cap_ntd": 862525401506.2001,
+      "market_cap_usd_m": 26619.51118777236,
+      "pe": 19.91,
+      "pb": 2.4,
+      "div_yield": 3.4,
+      "dps": 2.1997999999999998,
+      "revenue_period": "11506",
+      "revenue_yoy": 72.83314528275568,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2887",
+      "name_zh": "台新新光金融控股",
+      "name_en": "Taishin Shin Kong Financial Holding",
+      "sector": "Financials",
+      "industry": "17",
+      "chairman": "吳東亮",
+      "president": "林維俊",
+      "website": "https://www.tsholdings.com.tw/",
+      "price": 34.95,
+      "change": 0.8,
+      "changePct": 2.3426061493411416,
+      "turnover": 1401149037.0,
+      "shares_out": 29357487782.0,
+      "market_cap_ntd": 1026044197980.9,
+      "market_cap_usd_m": 31666.076105823715,
+      "pe": 17.13,
+      "pb": 1.53,
+      "div_yield": 3.15,
+      "dps": 1.100925,
+      "revenue_period": "11506",
+      "revenue_yoy": 329.50067645662165,
+      "ex_dividend": null,
+      "principal_count": 2,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "5871",
+      "name_zh": "中租控股",
+      "name_en": "Chailease Holding",
+      "sector": "Financials",
+      "industry": "20",
+      "chairman": "陳鳳龍",
+      "president": "陳鳳龍",
+      "website": "http://www.chaileaseholding.com/",
+      "price": 120.0,
+      "change": 0.0,
+      "changePct": 0.0,
+      "turnover": 678077311.0,
+      "shares_out": 1861421161.0,
+      "market_cap_ntd": 223370539320.0,
+      "market_cap_usd_m": 6893.726909450034,
+      "pe": 11.24,
+      "pb": 1.17,
+      "div_yield": 5.0,
+      "dps": 6.0,
+      "revenue_period": "11506",
+      "revenue_yoy": -0.8158930250374343,
+      "ex_dividend": {
+        "date": "1150729",
+        "cash": 5.8
+      },
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2327",
+      "name_zh": "國巨",
+      "name_en": "Yageo",
+      "sector": "Components",
+      "industry": "28",
+      "chairman": "陳泰銘",
+      "president": "王淡如",
+      "website": "WWW.YAGEO.COM",
+      "price": 625.0,
+      "change": -17.0,
+      "changePct": -2.64797507788162,
+      "turnover": 35162424124.0,
+      "shares_out": 2071465484.0,
+      "market_cap_ntd": 1294665927500.0,
+      "market_cap_usd_m": 39956.35848095796,
+      "pe": 49.21,
+      "pb": 7.7,
+      "div_yield": 0.96,
+      "dps": 6.0,
+      "revenue_period": "11506",
+      "revenue_yoy": 38.91396817615717,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2395",
+      "name_zh": "研華",
+      "name_en": "Advantech",
+      "sector": "Industrial Tech",
+      "industry": "25",
+      "chairman": "劉克振",
+      "president": "陳清熙、蔡淑妍、張家豪",
+      "website": "www.advantech.com",
+      "price": 577.0,
+      "change": -4.0,
+      "changePct": -0.6884681583476765,
+      "turnover": 2230038118.0,
+      "shares_out": 868254487.0,
+      "market_cap_ntd": 500982838999.0,
+      "market_cap_usd_m": 15461.478890161101,
+      "pe": 44.76,
+      "pb": 10.1,
+      "div_yield": 1.93,
+      "dps": 11.136099999999999,
+      "revenue_period": "11506",
+      "revenue_yoy": 73.39187977693179,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "9904",
+      "name_zh": "寶成工業",
+      "name_en": "Pou Chen",
+      "sector": "Consumer / Footwear",
+      "industry": "37",
+      "chairman": "吳邦治",
+      "president": "盧金柱",
+      "website": "www.pouchen.com",
+      "price": 24.3,
+      "change": -0.1,
+      "changePct": -0.4098360655737705,
+      "turnover": 296717389.0,
+      "shares_out": 2946787213.0,
+      "market_cap_ntd": 71606929275.90001,
+      "market_cap_usd_m": 2209.953992836862,
+      "pe": 6.69,
+      "pb": 0.47,
+      "div_yield": 5.35,
+      "dps": 1.30005,
+      "revenue_period": "11506",
+      "revenue_yoy": -3.256370470469612,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "9910",
+      "name_zh": "豐泰企業",
+      "name_en": "Feng Tay Enterprises",
+      "sector": "Consumer / Footwear",
+      "industry": "37",
+      "chairman": "王建弘",
+      "president": "陳昭吉",
+      "website": "www.fengtay.com",
+      "price": 69.2,
+      "change": 0.7,
+      "changePct": 1.0218978102189782,
+      "turnover": 69574021.0,
+      "shares_out": 987482831.0,
+      "market_cap_ntd": 68333811905.200005,
+      "market_cap_usd_m": 2108.938087315598,
+      "pe": 14.98,
+      "pb": 2.55,
+      "div_yield": 5.92,
+      "dps": 4.09664,
+      "revenue_period": "11506",
+      "revenue_yoy": -3.902772335072205,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "1476",
+      "name_zh": "儒鴻企業",
+      "name_en": "Eclat Textile",
+      "sector": "Textiles",
+      "industry": "04",
+      "chairman": "王樹文",
+      "president": "洪瑞廷",
+      "website": "http://www.eclat.com.tw",
+      "price": 341.5,
+      "change": 7.0,
+      "changePct": 2.092675635276532,
+      "turnover": 362863543.0,
+      "shares_out": 274367111.0,
+      "market_cap_ntd": 93696368406.5,
+      "market_cap_usd_m": 2891.6847233658414,
+      "pe": 16.52,
+      "pb": 3.41,
+      "div_yield": 4.39,
+      "dps": 14.99185,
+      "revenue_period": "11506",
+      "revenue_yoy": 14.421665767535043,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "1477",
+      "name_zh": "聚陽實業",
+      "name_en": "Makalot Industrial",
+      "sector": "Textiles",
+      "industry": "04",
+      "chairman": "周理平",
+      "president": "周心鵬",
+      "website": "www.makalot.com.tw",
+      "price": 218.0,
+      "change": 3.0,
+      "changePct": 1.3953488372093024,
+      "turnover": 168411137.0,
+      "shares_out": 246693713.0,
+      "market_cap_ntd": 53779229434.0,
+      "market_cap_usd_m": 1659.750306586013,
+      "pe": 15.74,
+      "pb": 4.14,
+      "div_yield": 6.88,
+      "dps": 14.998399999999998,
+      "revenue_period": "11506",
+      "revenue_yoy": 0.5258737649106279,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2357",
+      "name_zh": "華碩電腦",
+      "name_en": "ASUSTeK Computer",
+      "sector": "Tech Hardware",
+      "industry": "25",
+      "chairman": "施崇棠",
+      "president": "許先越/胡書賓",
+      "website": "https://www.asus.com",
+      "price": 760.0,
+      "change": -11.0,
+      "changePct": -1.4267185473411155,
+      "turnover": 2792316966.0,
+      "shares_out": 742760280.0,
+      "market_cap_ntd": 564497812800.0,
+      "market_cap_usd_m": 17421.696586630456,
+      "pe": 13.58,
+      "pb": 1.97,
+      "div_yield": 5.53,
+      "dps": 42.028,
+      "revenue_period": "11506",
+      "revenue_yoy": 55.634298936990604,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2377",
+      "name_zh": "微星科技",
+      "name_en": "Micro-Star International",
+      "sector": "Tech Hardware",
+      "industry": "25",
+      "chairman": "徐祥",
+      "president": "黃金請",
+      "website": "http://tw.msi.com/",
+      "price": 146.5,
+      "change": 0.0,
+      "changePct": 0.0,
+      "turnover": 2027314334.0,
+      "shares_out": 844856199.0,
+      "market_cap_ntd": 123771433153.5,
+      "market_cap_usd_m": 3819.87016707302,
+      "pe": 15.31,
+      "pb": 2.25,
+      "div_yield": 2.87,
+      "dps": 4.20455,
+      "revenue_period": "11506",
+      "revenue_yoy": -9.227831503970776,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2385",
+      "name_zh": "群光電子",
+      "name_en": "Chicony Electronics",
+      "sector": "Tech Hardware",
+      "industry": "28",
+      "chairman": "許崑泰",
+      "president": "呂進宗",
+      "website": "https://www.chicony.com",
+      "price": 106.0,
+      "change": -0.5,
+      "changePct": -0.4694835680751174,
+      "turnover": 237371578.0,
+      "shares_out": 765721188.0,
+      "market_cap_ntd": 81166445928.0,
+      "market_cap_usd_m": 2504.9825914449725,
+      "pe": 11.96,
+      "pb": 1.87,
+      "div_yield": 6.79,
+      "dps": 7.1974,
+      "revenue_period": "11506",
+      "revenue_yoy": -5.48446917125462,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2301",
+      "name_zh": "光寶科技",
+      "name_en": "Lite-On Technology",
+      "sector": "Tech Hardware",
+      "industry": "25",
+      "chairman": "宋明峰",
+      "president": "邱森彬",
+      "website": "http://www.liteon.com/",
+      "price": 212.0,
+      "change": -2.5,
+      "changePct": -1.1655011655011656,
+      "turnover": 2682615000.0,
+      "shares_out": 2316107763.0,
+      "market_cap_ntd": 491014845756.0,
+      "market_cap_usd_m": 15153.843767545213,
+      "pe": 31.18,
+      "pb": 5.46,
+      "div_yield": 2.36,
+      "dps": 5.0032,
+      "revenue_period": "11506",
+      "revenue_yoy": 36.97501592365457,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "3231",
+      "name_zh": "緯創資通",
+      "name_en": "Wistron",
+      "sector": "Tech Hardware",
+      "industry": "25",
+      "chairman": "林憲銘",
+      "president": "林建勳",
+      "website": "www.wistron.com",
+      "price": 177.0,
+      "change": -2.0,
+      "changePct": -1.1173184357541899,
+      "turnover": 18820900168.0,
+      "shares_out": 3180052250.0,
+      "market_cap_ntd": 562869248250.0,
+      "market_cap_usd_m": 17371.435351212887,
+      "pe": 17.75,
+      "pb": 2.96,
+      "div_yield": 3.11,
+      "dps": 5.504700000000001,
+      "revenue_period": "11506",
+      "revenue_yoy": 53.84760848458394,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2049",
+      "name_zh": "上銀科技",
+      "name_en": "Hiwin Technologies",
+      "sector": "Industrial",
+      "industry": "05",
+      "chairman": "卓文恒",
+      "president": "蔡惠卿",
+      "website": "http://www.hiwin.tw",
+      "price": 323.0,
+      "change": 10.0,
+      "changePct": 3.1948881789137378,
+      "turnover": 450106030.0,
+      "shares_out": 353792240.0,
+      "market_cap_ntd": 114274893520.0,
+      "market_cap_usd_m": 3526.78518363064,
+      "pe": 70.37,
+      "pb": 3.04,
+      "div_yield": 0.62,
+      "dps": 2.0025999999999997,
+      "revenue_period": "11506",
+      "revenue_yoy": 31.624605109229492,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "1590",
+      "name_zh": "亞德客-KY",
+      "name_en": "Airtac International",
+      "sector": "Industrial",
+      "industry": "05",
+      "chairman": "王世忠",
+      "president": "李懷文",
+      "website": "http://www.airtac.com/",
+      "price": 1440.0,
+      "change": 15.0,
+      "changePct": 1.0526315789473684,
+      "turnover": 846314120.0,
+      "shares_out": 199999998.0,
+      "market_cap_ntd": 287999997120.0,
+      "market_cap_usd_m": 8888.340137028577,
+      "pe": 31.52,
+      "pb": 5.66,
+      "div_yield": 2.02,
+      "dps": 29.088,
+      "revenue_period": "11506",
+      "revenue_yoy": 44.88326804302754,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2207",
+      "name_zh": "和泰汽車",
+      "name_en": "Hotai Motor",
+      "sector": "Autos",
+      "industry": "12",
+      "chairman": "黃南光",
+      "president": "蘇純興",
+      "website": "www.hotaimotor.com.tw",
+      "price": 498.0,
+      "change": 4.5,
+      "changePct": 0.911854103343465,
+      "turnover": 199767200.0,
+      "shares_out": 557102768.0,
+      "market_cap_ntd": 277437178464.0,
+      "market_cap_usd_m": 8562.347338559348,
+      "pe": 14.59,
+      "pb": 3.5,
+      "div_yield": 4.02,
+      "dps": 20.019599999999997,
+      "revenue_period": "11506",
+      "revenue_yoy": 48.36347796910443,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2201",
+      "name_zh": "裕隆汽車",
+      "name_en": "Yulon Motor",
+      "sector": "Autos",
+      "industry": "12",
+      "chairman": "嚴陳莉蓮",
+      "president": "許國興",
+      "website": "www.yulon-motor.com.tw",
+      "price": 27.65,
+      "change": -0.25,
+      "changePct": -0.896057347670251,
+      "turnover": 36485693.0,
+      "shares_out": 1070001251.0,
+      "market_cap_ntd": 29585534590.149998,
+      "market_cap_usd_m": 913.0774208428492,
+      "pe": 32.53,
+      "pb": 0.46,
+      "div_yield": 2.03,
+      "dps": 0.5612949999999999,
+      "revenue_period": "11506",
+      "revenue_yoy": -8.059032297438698,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2105",
+      "name_zh": "正新橡膠",
+      "name_en": "Cheng Shin Rubber",
+      "sector": "Auto Parts",
+      "industry": "11",
+      "chairman": "羅才仁",
+      "president": "羅元隆",
+      "website": "WWW.CST.COM.TW",
+      "price": 30.8,
+      "change": -0.45,
+      "changePct": -1.44,
+      "turnover": 281571661.0,
+      "shares_out": 3241415536.0,
+      "market_cap_ntd": 99835598508.8,
+      "market_cap_usd_m": 3081.1554382075183,
+      "pe": 19.01,
+      "pb": 1.18,
+      "div_yield": 5.84,
+      "dps": 1.7987199999999999,
+      "revenue_period": "11506",
+      "revenue_yoy": 15.005291377302507,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "1504",
+      "name_zh": "東元電機",
+      "name_en": "TECO Electric & Machinery",
+      "sector": "Industrial",
+      "industry": "05",
+      "chairman": "利明&#29486;",
+      "president": "高飛鳶",
+      "website": "http://www.teco.com.tw",
+      "price": 67.5,
+      "change": 1.3,
+      "changePct": 1.9637462235649545,
+      "turnover": 528109043.0,
+      "shares_out": 2376440684.0,
+      "market_cap_ntd": 160409746170.0,
+      "market_cap_usd_m": 4950.612498302574,
+      "pe": 30.0,
+      "pb": 1.88,
+      "div_yield": 2.96,
+      "dps": 1.9980000000000002,
+      "revenue_period": "11506",
+      "revenue_yoy": 0.147322247822855,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2915",
+      "name_zh": "潤泰全球",
+      "name_en": "Ruentex Industries",
+      "sector": "Conglomerate",
+      "industry": "18",
+      "chairman": "徐盛育",
+      "president": "徐志漳",
+      "website": "w8.ruentex.com.tw/",
+      "price": 51.5,
+      "change": 0.1,
+      "changePct": 0.1945525291828794,
+      "turnover": 57958218.0,
+      "shares_out": 1104318772.0,
+      "market_cap_ntd": 56872416758.0,
+      "market_cap_usd_m": 1755.213158385285,
+      "pe": 6.04,
+      "pb": 0.48,
+      "div_yield": 3.69,
+      "dps": 1.90035,
+      "revenue_period": "11506",
+      "revenue_yoy": 12.84074264300253,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "9945",
+      "name_zh": "潤泰新",
+      "name_en": "Ruentex Development",
+      "sector": "Property",
+      "industry": "20",
+      "chairman": "簡滄圳",
+      "president": "盧玉璜",
+      "website": "www.rt-develop.com.tw",
+      "price": 26.35,
+      "change": 0.25,
+      "changePct": 0.9578544061302682,
+      "turnover": 109427491.0,
+      "shares_out": 2844225086.0,
+      "market_cap_ntd": 74945331016.1,
+      "market_cap_usd_m": 2312.98472366212,
+      "pe": 7.4,
+      "pb": 0.66,
+      "div_yield": 4.17,
+      "dps": 1.098795,
+      "revenue_period": "11506",
+      "revenue_yoy": 29.566991191469633,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "5522",
+      "name_zh": "遠雄建設",
+      "name_en": "Farglory Land Development",
+      "sector": "Property",
+      "industry": "14",
+      "chairman": "趙文嘉",
+      "president": "王耀堂",
+      "website": "http://www.farglory-land.com.tw/",
+      "price": 66.5,
+      "change": 0.6,
+      "changePct": 0.9104704097116842,
+      "turnover": 21756232.0,
+      "shares_out": 781596241.0,
+      "market_cap_ntd": 51976150026.5,
+      "market_cap_usd_m": 1604.103142599222,
+      "pe": 7.03,
+      "pb": 1.09,
+      "div_yield": 8.27,
+      "dps": 5.499549999999999,
+      "revenue_period": "11506",
+      "revenue_yoy": 2513.497664900037,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2542",
+      "name_zh": "興富發建設",
+      "name_en": "Hung Sheng Construction",
+      "sector": "Property",
+      "industry": "14",
+      "chairman": "王嶠奇",
+      "president": "范華軍",
+      "website": "http://www.highwealth.com.tw/",
+      "price": 43.5,
+      "change": -0.7,
+      "changePct": -1.583710407239819,
+      "turnover": 226994383.0,
+      "shares_out": 2153083539.0,
+      "market_cap_ntd": 93659133946.5,
+      "market_cap_usd_m": 2890.5355825720635,
+      "pe": 13.38,
+      "pb": 1.66,
+      "div_yield": 9.2,
+      "dps": 4.002,
+      "revenue_period": "11506",
+      "revenue_yoy": 16.470871837166957,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2548",
+      "name_zh": "華固建設",
+      "name_en": "Huaku Development",
+      "sector": "Property",
+      "industry": "14",
+      "chairman": "鍾榮昌",
+      "president": "洪嘉昇",
+      "website": "https://www.huaku.com.tw",
+      "price": 99.4,
+      "change": 0.8,
+      "changePct": 0.8113590263691683,
+      "turnover": 69618457.0,
+      "shares_out": 319718697.0,
+      "market_cap_ntd": 31780038481.800003,
+      "market_cap_usd_m": 980.8048417319919,
+      "pe": 7.75,
+      "pb": 1.54,
+      "div_yield": 8.55,
+      "dps": 8.498700000000001,
+      "revenue_period": "11506",
+      "revenue_yoy": -88.82270725931926,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "5904",
+      "name_zh": "寶雅國際",
+      "name_en": "Poya International",
+      "sector": "Retail",
+      "industry": null,
+      "chairman": null,
+      "president": null,
+      "website": null,
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "turnover": null,
+      "shares_out": null,
+      "market_cap_ntd": null,
+      "market_cap_usd_m": 0.0,
+      "pe": null,
+      "pb": null,
+      "div_yield": null,
+      "dps": null,
+      "revenue_period": null,
+      "revenue_yoy": null,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": false,
+      "has_share_count": false
+    },
+    {
+      "ticker": "2707",
+      "name_zh": "晶華國際酒店",
+      "name_en": "FIH Regent Group",
+      "sector": "Hospitality",
+      "industry": "16",
+      "chairman": "潘思亮",
+      "president": "吳偉正",
+      "website": "https://www.silkshotelgroup.com/tw/",
+      "price": 179.5,
+      "change": 0.5,
+      "changePct": 0.27932960893854747,
+      "turnover": 28281611.0,
+      "shares_out": 127403238.0,
+      "market_cap_ntd": 22868881221.0,
+      "market_cap_usd_m": 705.7861002715882,
+      "pe": 12.82,
+      "pb": 6.46,
+      "div_yield": 5.99,
+      "dps": 10.752049999999999,
+      "revenue_period": "11506",
+      "revenue_yoy": 13.941776369250771,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2059",
+      "name_zh": "川湖科技",
+      "name_en": "King Slide Works",
+      "sector": "Components",
+      "industry": "28",
+      "chairman": "林聰吉",
+      "president": "林淑珍",
+      "website": "http://www.kingslide.com",
+      "price": 8275.0,
+      "change": 540.0,
+      "changePct": 6.98125404007757,
+      "turnover": 4255526635.0,
+      "shares_out": 95297072.0,
+      "market_cap_ntd": 788583270800.0,
+      "market_cap_usd_m": 24337.48752546139,
+      "pe": 72.94,
+      "pb": 25.01,
+      "div_yield": 0.62,
+      "dps": 51.305,
+      "revenue_period": "11506",
+      "revenue_yoy": 220.52305812021433,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "1102",
+      "name_zh": "亞洲水泥",
+      "name_en": "Asia Cement",
+      "sector": "Materials",
+      "industry": "01",
+      "chairman": "徐旭東",
+      "president": "李坤炎",
+      "website": "www.acc.com.tw",
+      "price": 33.1,
+      "change": 0.35,
+      "changePct": 1.0687022900763359,
+      "turnover": 251265618.0,
+      "shares_out": 3546562881.0,
+      "market_cap_ntd": 117391231361.1,
+      "market_cap_usd_m": 3622.962513459046,
+      "pe": 11.11,
+      "pb": 0.66,
+      "div_yield": 6.95,
+      "dps": 2.30045,
+      "revenue_period": "11506",
+      "revenue_yoy": -2.2149921444340945,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "1402",
+      "name_zh": "遠東新世紀",
+      "name_en": "Far Eastern New Century",
+      "sector": "Materials",
+      "industry": "04",
+      "chairman": "徐旭東",
+      "president": "吳高山,鄭澄宇,范欽智,李源珍",
+      "website": "www.fenc.com",
+      "price": 27.45,
+      "change": 0.1,
+      "changePct": 0.36563071297989036,
+      "turnover": 458976516.0,
+      "shares_out": 5352875227.0,
+      "market_cap_ntd": 146936424981.15,
+      "market_cap_usd_m": 4534.794919484908,
+      "pe": 17.05,
+      "pb": 0.62,
+      "div_yield": 4.55,
+      "dps": 1.248975,
+      "revenue_period": "11506",
+      "revenue_yoy": 12.062402333189342,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "4904",
+      "name_zh": "遠傳電信",
+      "name_en": "Far EasTone Telecom",
+      "sector": "Telecom",
+      "industry": "27",
+      "chairman": "徐旭東",
+      "president": "井琪",
+      "website": "www.fareastone.com.tw",
+      "price": 107.5,
+      "change": 2.0,
+      "changePct": 1.8957345971563981,
+      "turnover": 1164588236.0,
+      "shares_out": 3607705357.0,
+      "market_cap_ntd": 387828325877.5,
+      "market_cap_usd_m": 11969.27121404543,
+      "pe": 27.28,
+      "pb": 4.04,
+      "div_yield": 3.54,
+      "dps": 3.8055000000000003,
+      "revenue_period": "11506",
+      "revenue_yoy": 15.899898893854928,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "3045",
+      "name_zh": "台灣大哥大",
+      "name_en": "Taiwan Mobile",
+      "sector": "Telecom",
+      "industry": "27",
+      "chairman": "蔡明忠",
+      "president": "林之晨",
+      "website": "www.taiwanmobile.com",
+      "price": 113.5,
+      "change": 0.0,
+      "changePct": 0.0,
+      "turnover": 1128982185.0,
+      "shares_out": 3723261811.0,
+      "market_cap_ntd": 422590215548.5,
+      "market_cap_usd_m": 13042.102819224121,
+      "pe": 23.02,
+      "pb": 3.78,
+      "div_yield": 4.18,
+      "dps": 4.744299999999999,
+      "revenue_period": "11506",
+      "revenue_yoy": 6.568644827577933,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "1216",
+      "name_zh": "統一企業",
+      "name_en": "Uni-President Enterprises",
+      "sector": "Consumer Staples",
+      "industry": "02",
+      "chairman": "羅智先",
+      "president": "郭慶峰",
+      "website": "https://www.uni-president.com.tw",
+      "price": 77.1,
+      "change": -0.3,
+      "changePct": -0.3875968992248062,
+      "turnover": 1105274881.0,
+      "shares_out": 5682015421.0,
+      "market_cap_ntd": 438083388959.1,
+      "market_cap_usd_m": 13520.257668017404,
+      "pe": 20.84,
+      "pb": 3.03,
+      "div_yield": 3.89,
+      "dps": 2.99919,
+      "revenue_period": "11506",
+      "revenue_yoy": 4.598464470005653,
+      "ex_dividend": {
+        "date": "1150730",
+        "cash": 3.0
+      },
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "1301",
+      "name_zh": "台灣塑膠工業",
+      "name_en": "Formosa Plastics",
+      "sector": "Materials",
+      "industry": "03",
+      "chairman": "郭文筆",
+      "president": "林勝冠",
+      "website": "http://www.fpc.com.tw",
+      "price": 61.7,
+      "change": -1.0,
+      "changePct": -1.5948963317384368,
+      "turnover": 2320378747.0,
+      "shares_out": 6365740781.0,
+      "market_cap_ntd": 392766206187.7,
+      "market_cap_usd_m": 12121.665520267266,
+      "pe": null,
+      "pb": 1.01,
+      "div_yield": 0.81,
+      "dps": 0.49977000000000005,
+      "revenue_period": "11506",
+      "revenue_yoy": -2.686566790060689,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2603",
+      "name_zh": "長榮海運",
+      "name_en": "Evergreen Marine",
+      "sector": "Shipping",
+      "industry": "15",
+      "chairman": "張衍義",
+      "president": "吳光輝",
+      "website": "www.evergreen-marine.com",
+      "price": 203.5,
+      "change": -2.5,
+      "changePct": -1.2135922330097086,
+      "turnover": 1388066244.0,
+      "shares_out": 2165042996.0,
+      "market_cap_ntd": 440586249686.0,
+      "market_cap_usd_m": 13597.501687735325,
+      "pe": 8.89,
+      "pb": 0.76,
+      "div_yield": 7.86,
+      "dps": 15.9951,
+      "revenue_period": "11506",
+      "revenue_yoy": 30.007168433542823,
+      "ex_dividend": null,
+      "principal_count": 1,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2330",
+      "name_zh": "台灣積體電路製造",
+      "name_en": "TSMC",
+      "sector": "Semiconductors",
+      "industry": "24",
+      "chairman": "魏哲家",
+      "president": "總裁: 魏哲家",
+      "website": "https://www.tsmc.com",
+      "price": 2350.0,
+      "change": 0.0,
+      "changePct": 0.0,
+      "turnover": 67885214772.0,
+      "shares_out": 25932370067.0,
+      "market_cap_ntd": 60941069657450.0,
+      "market_cap_usd_m": 1880781.1140500586,
+      "pe": 31.59,
+      "pb": 10.34,
+      "div_yield": 0.94,
+      "dps": 22.09,
+      "revenue_period": "11506",
+      "revenue_yoy": 67.86685548491262,
+      "ex_dividend": null,
+      "principal_count": 0,
+      "has_live_price": true,
+      "has_share_count": true
+    },
+    {
+      "ticker": "2412",
+      "name_zh": "中華電信",
+      "name_en": "Chunghwa Telecom",
+      "sector": "Telecom",
+      "industry": "27",
+      "chairman": "簡志誠",
+      "president": "林榮賜",
+      "website": "https://www.cht.com.tw",
+      "price": 140.5,
+      "change": 1.5,
+      "changePct": 1.079136690647482,
+      "turnover": 3149435013.0,
+      "shares_out": 7757446545.0,
+      "market_cap_ntd": 1089921239572.5,
+      "market_cap_usd_m": 33637.468044333684,
+      "pe": 27.93,
+      "pb": 2.75,
+      "div_yield": 3.7,
+      "dps": 5.1985,
+      "revenue_period": "11506",
+      "revenue_yoy": 11.404073246826732,
+      "ex_dividend": null,
+      "principal_count": 0,
+      "has_live_price": true,
+      "has_share_count": true
+    }
+  ],
+  "prospects": [
+    {
+      "subject_id": "terry-gou",
+      "name_zh": "郭台銘",
+      "name_en": "Terry Gou",
+      "subject_type": "individual",
+      "role_zh": "創辦人",
+      "role_en": "Founder, former chairman",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [
+        "鴻元國際投資",
+        "永齡基金會"
+      ],
+      "tags": [
+        "founder",
+        "philanthropy",
+        "public-profile",
+        "succession-done"
+      ],
+      "notes": [
+        {
+          "ticker": "2317",
+          "text": "Stepped back from the chair in 2019; retains one of the largest individual stakes on the exchange. Large philanthropic vehicle (永齡) implies structured giving needs."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2317",
+          "name_zh": "鴻海精密工業",
+          "name_en": "Hon Hai Precision (Foxconn)",
+          "sector": "Tech Hardware",
+          "stake_pct": 9.5,
+          "stake_basis": "personal direct plus affiliated investment vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 1332721619.47,
+          "value_ntd": 337178569725.91003,
+          "value_usd_m": 10406.103627119006,
+          "dividend_ntd": 9542153523.243254,
+          "day_move_ntd": 666360809.735,
+          "pledge_pct": null,
+          "price": 253.0,
+          "changePct": 0.19801980198019803,
+          "div_yield": 2.83,
+          "revenue_yoy": 52.11164672139997,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 337178569725.91003,
+      "stake_value_usd_m": 10406.103627119006,
+      "net_worth_mid_ntd": 488908926102.5695,
+      "net_worth_low_usd_m": 11316.637694491918,
+      "net_worth_mid_usd_m": 15088.850259322557,
+      "net_worth_high_usd_m": 18861.0628241532,
+      "dividend_gross_ntd": 9542153523.243254,
+      "dividend_gross_usd_m": 294.49273264746785,
+      "dividend_net_usd_m": 212.03476750617685,
+      "bankable_usd_m": 127.22086050370609,
+      "day_move_ntd": 666360809.735,
+      "day_move_usd_m": 20.565422187982225,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$9.54bn gross across 1 line(s), roughly US$127m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$95.4 億元，稅後可再配置約 US$127 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$0.67bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$6.7 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Hon Hai Precision (Foxconn) monthly revenue +52% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "鴻海精密工業 月營收年增 52%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 55,
+      "score": 88.9
+    },
+    {
+      "subject_id": "daniel-tsai",
+      "name_zh": "蔡明忠",
+      "name_en": "Daniel Tsai",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "富邦建設",
+        "台灣大哥大",
+        "富邦人壽相關持股",
+        "富邦集團交叉持股"
+      ],
+      "tags": [
+        "financial-family",
+        "conflicted-onshore",
+        "multi-asset",
+        "sports-media",
+        "telecom",
+        "high-dividend",
+        "cross-holdings"
+      ],
+      "notes": [
+        {
+          "ticker": "2881",
+          "text": "Runs a competing onshore private bank — onshore mandates are structurally conflicted. Offshore booking, family governance and non-TWD diversification are the credible angles."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2881",
+          "name_zh": "富邦金融控股",
+          "name_en": "Fubon Financial Holding",
+          "sector": "Financials",
+          "stake_pct": 11.0,
+          "stake_basis": "family aggregate via Fubon group vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 1716809044.72,
+          "value_ntd": 223185175813.6,
+          "value_usd_m": 6888.006166705759,
+          "dividend_ntd": 7298155249.104721,
+          "day_move_ntd": 4292022611.8,
+          "pledge_pct": null,
+          "price": 130.0,
+          "changePct": 1.9607843137254901,
+          "div_yield": 3.27,
+          "revenue_yoy": -53.64983127865604,
+          "priced": true
+        },
+        {
+          "ticker": "3045",
+          "name_zh": "台灣大哥大",
+          "name_en": "Taiwan Mobile",
+          "sector": "Telecom",
+          "stake_pct": 4.0,
+          "stake_basis": "family aggregate via Fubon group vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 148930472.44,
+          "value_ntd": 16903608621.94,
+          "value_usd_m": 521.6841127689648,
+          "dividend_ntd": 706570840.3970919,
+          "day_move_ntd": 0.0,
+          "pledge_pct": null,
+          "price": 113.5,
+          "changePct": 0.0,
+          "div_yield": 4.18,
+          "revenue_yoy": 6.568644827577933,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.7,
+      "stake_value_ntd": 240088784435.54,
+      "stake_value_usd_m": 7409.690279474724,
+      "net_worth_mid_ntd": 408150933540.418,
+      "net_worth_low_usd_m": 9447.355106330275,
+      "net_worth_mid_usd_m": 12596.47347510703,
+      "net_worth_high_usd_m": 15745.591843883789,
+      "dividend_gross_ntd": 8004726089.501813,
+      "dividend_gross_usd_m": 247.04419756502108,
+      "dividend_net_usd_m": 177.87182224681519,
+      "bankable_usd_m": 106.7230933480891,
+      "day_move_ntd": 4292022611.8,
+      "day_move_usd_m": 132.46165705203381,
+      "pledge_pct": null,
+      "top_line_share": 0.9295943429357553,
+      "line_count": 2,
+      "flags": [
+        "estimate-only",
+        "competitor-owner"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$8.00bn gross across 2 line(s), roughly US$107m redeployable after tax",
+          "text_zh": "除息旺季 — 2 檔合計股利約 NT$80.0 億元，稅後可再配置約 US$107 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$4.29bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$42.9 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "93% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 93% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 20,
+      "score": 80.5
+    },
+    {
+      "subject_id": "barry-lam",
+      "name_zh": "林百里",
+      "name_en": "Barry Lam",
+      "subject_type": "individual",
+      "role_zh": "董事長暨創辦人",
+      "role_en": "Chairman and co-founder",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [
+        "廣輝投資",
+        "廣達文教基金會"
+      ],
+      "tags": [
+        "founder",
+        "art-collector",
+        "ai-server-cycle",
+        "succession-open"
+      ],
+      "notes": [
+        {
+          "ticker": "2382",
+          "text": "Significant art collection (Guangya collection) — art-secured lending and collection structuring are live conversations. Succession not publicly resolved."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2382",
+          "name_zh": "廣達電腦",
+          "name_en": "Quanta Computer",
+          "sector": "Tech Hardware",
+          "stake_pct": 9.0,
+          "stake_basis": "personal direct plus family vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 347636468.88,
+          "value_ntd": 111938942979.36,
+          "value_usd_m": 3454.692394894142,
+          "dividend_ntd": 5417844840.201024,
+          "day_move_ntd": -2085818813.28,
+          "pledge_pct": null,
+          "price": 322.0,
+          "changePct": -1.8292682926829267,
+          "div_yield": 4.84,
+          "revenue_yoy": 102.87247195164615,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 111938942979.36,
+      "stake_value_usd_m": 3454.692394894142,
+      "net_worth_mid_ntd": 162311467320.072,
+      "net_worth_low_usd_m": 3756.9779794473793,
+      "net_worth_mid_usd_m": 5009.303972596506,
+      "net_worth_high_usd_m": 6261.629965745633,
+      "dividend_gross_ntd": 5417844840.201024,
+      "dividend_gross_usd_m": 167.20711191287648,
+      "dividend_net_usd_m": 120.38912057727106,
+      "bankable_usd_m": 72.23347234636263,
+      "day_move_ntd": -2085818813.28,
+      "day_move_usd_m": -64.3731502154188,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$5.42bn gross across 1 line(s), roughly US$72m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$54.2 億元，稅後可再配置約 US$72 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth lost NT$2.09bn in the latest session",
+          "text_zh": "最近交易日紙上財富減少 NT$20.9 億元"
+        },
+        {
+          "kind": "succession",
+          "weight": 0.6,
+          "text_en": "Succession unresolved or contested — governance and trust structuring need",
+          "text_zh": "接班未定或有爭議，家族治理與信託架構需求"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Quanta Computer monthly revenue +103% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "廣達電腦 月營收年增 103%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 55,
+      "score": 78.5
+    },
+    {
+      "subject_id": "bruce-cheng",
+      "name_zh": "鄭崇華",
+      "name_en": "Bruce Cheng",
+      "subject_type": "individual",
+      "role_zh": "創辦人",
+      "role_en": "Founder, honorary chairman",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [
+        "台達電子文教基金會"
+      ],
+      "tags": [
+        "founder",
+        "esg-philanthropy",
+        "power-cycle",
+        "succession-partial"
+      ],
+      "notes": [
+        {
+          "ticker": "2308",
+          "text": "Strong ESG/climate philanthropy track record — impact mandates and DAF-style structures are a natural fit."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2308",
+          "name_zh": "台達電子",
+          "name_en": "Delta Electronics",
+          "sector": "Electronics",
+          "stake_pct": 5.0,
+          "stake_basis": "family aggregate incl. Delta Foundation-linked holdings",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 129877166.45,
+          "value_ntd": 227934427119.75,
+          "value_usd_m": 7034.578949439849,
+          "dividend_ntd": 1504367218.99035,
+          "day_move_ntd": -3896314993.5,
+          "pledge_pct": null,
+          "price": 1755.0,
+          "changePct": -1.680672268907563,
+          "div_yield": 0.66,
+          "revenue_yoy": 55.42638489110967,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 227934427119.75,
+      "stake_value_usd_m": 7034.578949439849,
+      "net_worth_mid_ntd": 330504919323.6375,
+      "net_worth_low_usd_m": 7650.1046075158365,
+      "net_worth_mid_usd_m": 10200.139476687782,
+      "net_worth_high_usd_m": 12750.174345859727,
+      "dividend_gross_ntd": 1504367218.99035,
+      "dividend_gross_usd_m": 46.42822106630301,
+      "dividend_net_usd_m": 33.42831916773817,
+      "bankable_usd_m": 20.056991500642894,
+      "day_move_ntd": -3896314993.5,
+      "day_move_usd_m": -120.24921281093759,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.50bn gross across 1 line(s), roughly US$20m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$15.0 億元，稅後可再配置約 US$20 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth lost NT$3.90bn in the latest session",
+          "text_zh": "最近交易日紙上財富減少 NT$39.0 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Delta Electronics monthly revenue +55% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "台達電子 月營收年增 55%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 55,
+      "score": 77.3
+    },
+    {
+      "subject_id": "richard-tsai",
+      "name_zh": "蔡明興",
+      "name_en": "Richard Tsai",
+      "subject_type": "individual",
+      "role_zh": "副董事長",
+      "role_en": "Vice chairman",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "富邦建設"
+      ],
+      "tags": [
+        "financial-family",
+        "conflicted-onshore"
+      ],
+      "notes": [
+        {
+          "ticker": "2881",
+          "text": "Brother of Daniel Tsai; same conflict profile."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2881",
+          "name_zh": "富邦金融控股",
+          "name_en": "Fubon Financial Holding",
+          "sector": "Financials",
+          "stake_pct": 9.0,
+          "stake_basis": "family aggregate via Fubon group vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 1404661945.68,
+          "value_ntd": 182606052938.4,
+          "value_usd_m": 5635.6414091228935,
+          "dividend_ntd": 5971217931.085681,
+          "day_move_ntd": 3511654864.2000003,
+          "pledge_pct": null,
+          "price": 130.0,
+          "changePct": 1.9607843137254901,
+          "div_yield": 3.27,
+          "revenue_yoy": -53.64983127865604,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.7,
+      "stake_value_ntd": 182606052938.4,
+      "stake_value_usd_m": 5635.6414091228935,
+      "net_worth_mid_ntd": 310430289995.27997,
+      "net_worth_low_usd_m": 7185.442796631688,
+      "net_worth_mid_usd_m": 9580.590395508918,
+      "net_worth_high_usd_m": 11975.737994386149,
+      "dividend_gross_ntd": 5971217931.085681,
+      "dividend_gross_usd_m": 184.28547407831866,
+      "dividend_net_usd_m": 132.68554133638943,
+      "bankable_usd_m": 79.61132480183365,
+      "day_move_ntd": 3511654864.2000003,
+      "day_move_usd_m": 108.3777194062095,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only",
+        "competitor-owner"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$5.97bn gross across 1 line(s), roughly US$80m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$59.7 億元，稅後可再配置約 US$80 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$3.51bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$35.1 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 20,
+      "score": 77.2
+    },
+    {
+      "subject_id": "tsai-hong-tu",
+      "name_zh": "蔡宏圖",
+      "name_en": "Tsai Hong-tu",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "國泰人壽相關持股",
+        "霖園集團"
+      ],
+      "tags": [
+        "financial-family",
+        "conflicted-onshore",
+        "insurance",
+        "third-generation-live"
+      ],
+      "notes": [
+        {
+          "ticker": "2882",
+          "text": "Lin Yuan (霖園) group. Same onshore conflict as Fubon; next-generation planning is the open door."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2882",
+          "name_zh": "國泰金融控股",
+          "name_en": "Cathay Financial Holding",
+          "sector": "Financials",
+          "stake_pct": 11.0,
+          "stake_basis": "family aggregate via Cathay group vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 1782276114.08,
+          "value_ntd": 175554197236.88,
+          "value_usd_m": 5418.004976139745,
+          "dividend_ntd": 6232174001.909239,
+          "day_move_ntd": 2673414171.12,
+          "pledge_pct": null,
+          "price": 98.5,
+          "changePct": 1.5463917525773196,
+          "div_yield": 3.55,
+          "revenue_yoy": -42.044705643064496,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.7,
+      "stake_value_ntd": 175554197236.88,
+      "stake_value_usd_m": 5418.004976139745,
+      "net_worth_mid_ntd": 298442135302.696,
+      "net_worth_low_usd_m": 6907.956344578172,
+      "net_worth_mid_usd_m": 9210.608459437564,
+      "net_worth_high_usd_m": 11513.260574296957,
+      "dividend_gross_ntd": 6232174001.909239,
+      "dividend_gross_usd_m": 192.3391766529609,
+      "dividend_net_usd_m": 138.48420719013185,
+      "bankable_usd_m": 83.09052431407909,
+      "day_move_ntd": 2673414171.12,
+      "day_move_usd_m": 82.5076899919758,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only",
+        "competitor-owner"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$6.23bn gross across 1 line(s), roughly US$83m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$62.3 億元，稅後可再配置約 US$83 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$2.67bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$26.7 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 20,
+      "score": 77.1
+    },
+    {
+      "subject_id": "lin-family-kingslide",
+      "name_zh": "林家（川湖）",
+      "name_en": "Lin family (King Slide)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Kaohsiung",
+      "vehicles": [],
+      "tags": [
+        "southern-taiwan",
+        "ai-server-cycle",
+        "very-high-margin",
+        "low-profile"
+      ],
+      "notes": [
+        {
+          "ticker": "2059",
+          "text": "Kaohsiung-based, extremely low public profile, outsized margins on AI server rails. Under-banked relative to wealth."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2059",
+          "name_zh": "川湖科技",
+          "name_en": "King Slide Works",
+          "sector": "Components",
+          "stake_pct": 22.0,
+          "stake_basis": "family aggregate",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 20965355.84,
+          "value_ntd": 173488319576.0,
+          "value_usd_m": 5354.247255601506,
+          "dividend_ntd": 1075627581.3712,
+          "day_move_ntd": 11321292153.6,
+          "pledge_pct": null,
+          "price": 8275.0,
+          "changePct": 6.98125404007757,
+          "div_yield": 0.62,
+          "revenue_yoy": 220.52305812021433,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 173488319576.0,
+      "stake_value_usd_m": 5354.247255601506,
+      "net_worth_mid_ntd": 294930143279.2,
+      "net_worth_low_usd_m": 6826.6652508919215,
+      "net_worth_mid_usd_m": 9102.22033452256,
+      "net_worth_high_usd_m": 11377.7754181532,
+      "dividend_gross_ntd": 1075627581.3712,
+      "dividend_gross_usd_m": 33.19633298472934,
+      "dividend_net_usd_m": 23.901359749005124,
+      "bankable_usd_m": 14.340815849403073,
+      "day_move_ntd": 11321292153.6,
+      "day_move_usd_m": 349.4010293685575,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.08bn gross across 1 line(s), roughly US$14m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$10.8 億元，稅後可再配置約 US$14 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$11.32bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$113.2 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "King Slide Works monthly revenue +221% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "川湖科技 月營收年增 221%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 70,
+      "score": 76.4
+    },
+    {
+      "subject_id": "pierre-chen",
+      "name_zh": "陳泰銘",
+      "name_en": "Pierre Chen",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman and founder",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [
+        "國巨相關投資公司"
+      ],
+      "tags": [
+        "founder",
+        "art-collector",
+        "m-and-a-active",
+        "offshore-comfortable"
+      ],
+      "notes": [
+        {
+          "ticker": "2327",
+          "text": "One of Asia's most significant private art collectors and an experienced cross-border acquirer — already sophisticated, expects institutional-grade coverage."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2327",
+          "name_zh": "國巨",
+          "name_en": "Yageo",
+          "sector": "Components",
+          "stake_pct": 11.0,
+          "stake_basis": "personal direct plus affiliated vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 227861203.24,
+          "value_ntd": 142413252025.0,
+          "value_usd_m": 4395.199432905377,
+          "dividend_ntd": 1367167219.44,
+          "day_move_ntd": -3873640455.08,
+          "pledge_pct": null,
+          "price": 625.0,
+          "changePct": -2.64797507788162,
+          "div_yield": 0.96,
+          "revenue_yoy": 38.91396817615717,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 142413252025.0,
+      "stake_value_usd_m": 4395.199432905377,
+      "net_worth_mid_ntd": 206499215436.25,
+      "net_worth_low_usd_m": 4779.779383284596,
+      "net_worth_mid_usd_m": 6373.039177712795,
+      "net_worth_high_usd_m": 7966.298972140994,
+      "dividend_gross_ntd": 1367167219.44,
+      "dividend_gross_usd_m": 42.19391455589161,
+      "dividend_net_usd_m": 30.37961848024196,
+      "bankable_usd_m": 18.227771088145175,
+      "day_move_ntd": -3873640455.08,
+      "day_move_usd_m": -119.54942457502622,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.37bn gross across 1 line(s), roughly US$18m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$13.7 億元，稅後可再配置約 US$18 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth lost NT$3.87bn in the latest session",
+          "text_zh": "最近交易日紙上財富減少 NT$38.7 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Yageo monthly revenue +39% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "國巨 月營收年增 39%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 75,
+      "score": 75.5
+    },
+    {
+      "subject_id": "kc-liu",
+      "name_zh": "劉克振",
+      "name_en": "K.C. Liu",
+      "subject_type": "individual",
+      "role_zh": "董事長暨創辦人",
+      "role_en": "Chairman and founder",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [
+        "研華投資",
+        "勵德投資"
+      ],
+      "tags": [
+        "founder",
+        "high-stake",
+        "steady-dividend",
+        "succession-open"
+      ],
+      "notes": [
+        {
+          "ticker": "2395",
+          "text": "Very high family stake in a high-multiple name — concentration risk conversation writes itself."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2395",
+          "name_zh": "研華",
+          "name_en": "Advantech",
+          "sector": "Industrial Tech",
+          "stake_pct": 22.0,
+          "stake_basis": "family aggregate via investment companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 191015987.14,
+          "value_ntd": 110216224579.78,
+          "value_usd_m": 3401.525355835442,
+          "dividend_ntd": 2127173134.3897536,
+          "day_move_ntd": -764063948.56,
+          "pledge_pct": null,
+          "price": 577.0,
+          "changePct": -0.6884681583476765,
+          "div_yield": 1.93,
+          "revenue_yoy": 73.39187977693179,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 110216224579.78,
+      "stake_value_usd_m": 3401.525355835442,
+      "net_worth_mid_ntd": 159813525640.681,
+      "net_worth_low_usd_m": 3699.1588244710433,
+      "net_worth_mid_usd_m": 4932.211765961391,
+      "net_worth_high_usd_m": 6165.264707451739,
+      "dividend_gross_ntd": 2127173134.3897536,
+      "dividend_gross_usd_m": 65.64943936762403,
+      "dividend_net_usd_m": 47.267596344689295,
+      "bankable_usd_m": 28.360557806813574,
+      "day_move_ntd": -764063948.56,
+      "day_move_usd_m": -23.580765031788157,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$2.13bn gross across 1 line(s), roughly US$28m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$21.3 億元，稅後可再配置約 US$28 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth lost NT$0.76bn in the latest session",
+          "text_zh": "最近交易日紙上財富減少 NT$7.6 億元"
+        },
+        {
+          "kind": "succession",
+          "weight": 0.6,
+          "text_en": "Succession unresolved or contested — governance and trust structuring need",
+          "text_zh": "接班未定或有爭議，家族治理與信託架構需求"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Advantech monthly revenue +73% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "研華 月營收年增 73%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 55,
+      "score": 73.8
+    },
+    {
+      "subject_id": "ma-family",
+      "name_zh": "馬志玲家族",
+      "name_en": "Ma family",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "元大集團相關投資公司"
+      ],
+      "tags": [
+        "financial-family",
+        "conflicted-onshore",
+        "second-generation-control"
+      ],
+      "notes": [
+        {
+          "ticker": "2885",
+          "text": "Second generation (馬維建 / 馬維辰) now controls. Family-level figure only; per-member split not publicly reliable."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2885",
+          "name_zh": "元大金融控股",
+          "name_en": "Yuanta Financial Holding",
+          "sector": "Financials",
+          "stake_pct": 12.0,
+          "stake_basis": "family aggregate across members and vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 1599737993.52,
+          "value_ntd": 103503048180.744,
+          "value_usd_m": 3194.3413425326835,
+          "dividend_ntd": 3519103638.1452956,
+          "day_move_ntd": 2559580789.632,
+          "pledge_pct": null,
+          "price": 64.7,
+          "changePct": 2.535657686212361,
+          "div_yield": 3.4,
+          "revenue_yoy": 72.83314528275568,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 103503048180.744,
+      "stake_value_usd_m": 3194.3413425326835,
+      "net_worth_mid_ntd": 175955181907.2648,
+      "net_worth_low_usd_m": 4072.7852117291714,
+      "net_worth_mid_usd_m": 5430.380282305561,
+      "net_worth_high_usd_m": 6787.975352881951,
+      "dividend_gross_ntd": 3519103638.1452956,
+      "dividend_gross_usd_m": 108.60760564611121,
+      "dividend_net_usd_m": 78.19747606520008,
+      "bankable_usd_m": 46.91848563912004,
+      "day_move_ntd": 2559580789.632,
+      "day_move_usd_m": 78.99453088179742,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only",
+        "competitor-owner"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$3.52bn gross across 1 line(s), roughly US$47m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$35.2 億元，稅後可再配置約 US$47 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$2.56bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$25.6 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Yuanta Financial Holding monthly revenue +73% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "元大金融控股 月營收年增 73%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 15,
+      "score": 73.0
+    },
+    {
+      "subject_id": "wang-shih-chung",
+      "name_zh": "王世忠",
+      "name_en": "Wang Shih-chung",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman and founder",
+      "archetype": "founder_operator",
+      "base": "Taipei / Shanghai",
+      "vehicles": [
+        "KY 架構境外控股公司"
+      ],
+      "tags": [
+        "high-stake",
+        "ky-structure",
+        "china-operations",
+        "already-offshore"
+      ],
+      "notes": [
+        {
+          "ticker": "1590",
+          "text": "KY (offshore-incorporated) structure — wealth is already held through non-Taiwan vehicles, which shortens the path to an offshore booking relationship."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "1590",
+          "name_zh": "亞德客-KY",
+          "name_en": "Airtac International",
+          "sector": "Industrial",
+          "stake_pct": 28.0,
+          "stake_basis": "family aggregate via offshore holding vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 55999999.44,
+          "value_ntd": 80639999193.59999,
+          "value_usd_m": 2488.7352383680013,
+          "dividend_ntd": 1628927983.71072,
+          "day_move_ntd": 839999991.5999999,
+          "pledge_pct": null,
+          "price": 1440.0,
+          "changePct": 1.0526315789473684,
+          "div_yield": 2.02,
+          "revenue_yoy": 44.88326804302754,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 80639999193.59999,
+      "stake_value_usd_m": 2488.7352383680013,
+      "net_worth_mid_ntd": 116927998830.71999,
+      "net_worth_low_usd_m": 2706.4995717252023,
+      "net_worth_mid_usd_m": 3608.6660956336023,
+      "net_worth_high_usd_m": 4510.832619542004,
+      "dividend_gross_ntd": 1628927983.71072,
+      "dividend_gross_usd_m": 50.272451815033634,
+      "dividend_net_usd_m": 36.19616530682422,
+      "bankable_usd_m": 21.717699184094535,
+      "day_move_ntd": 839999991.5999999,
+      "day_move_usd_m": 25.92432539966668,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.63bn gross across 1 line(s), roughly US$22m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$16.3 億元，稅後可再配置約 US$22 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$0.84bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$8.4 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Airtac International monthly revenue +45% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "亞德客-KY 月營收年增 45%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 75,
+      "score": 72.4
+    },
+    {
+      "subject_id": "tsai-chen-yu",
+      "name_zh": "蔡鎮宇",
+      "name_en": "Tsai Chen-yu",
+      "subject_type": "individual",
+      "role_zh": "家族股東",
+      "role_en": "Family shareholder",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "financial-family",
+        "non-operating",
+        "offshore-resident"
+      ],
+      "notes": [
+        {
+          "ticker": "2882",
+          "text": "Non-operating family shareholder — historically the more approachable branch for external managers."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2882",
+          "name_zh": "國泰金融控股",
+          "name_en": "Cathay Financial Holding",
+          "sector": "Financials",
+          "stake_pct": 5.0,
+          "stake_basis": "family aggregate, largely disengaged from management",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 810125506.4,
+          "value_ntd": 79797362380.4,
+          "value_usd_m": 2462.7295346089745,
+          "dividend_ntd": 2832806364.5041995,
+          "day_move_ntd": 1215188259.6,
+          "pledge_pct": null,
+          "price": 98.5,
+          "changePct": 1.5463917525773196,
+          "div_yield": 3.55,
+          "revenue_yoy": -42.044705643064496,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 79797362380.4,
+      "stake_value_usd_m": 2462.7295346089745,
+      "net_worth_mid_ntd": 135655516046.68,
+      "net_worth_low_usd_m": 3139.9801566264423,
+      "net_worth_mid_usd_m": 4186.640208835257,
+      "net_worth_high_usd_m": 5233.30026104407,
+      "dividend_gross_ntd": 2832806364.5041995,
+      "dividend_gross_usd_m": 87.4268984786186,
+      "dividend_net_usd_m": 62.94736690460538,
+      "bankable_usd_m": 37.768420142763226,
+      "day_move_ntd": 1215188259.6,
+      "day_move_usd_m": 37.503495450898086,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$2.83bn gross across 1 line(s), roughly US$38m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$28.3 億元，稅後可再配置約 US$38 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$1.22bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$12.2 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 50,
+      "score": 70.8
+    },
+    {
+      "subject_id": "jeffrey-koo-jr",
+      "name_zh": "辜仲諒",
+      "name_en": "Jeffrey Koo Jr.",
+      "subject_type": "family",
+      "role_zh": "辜家 / 中信慈善基金會董事長",
+      "role_en": "Koo family principal; CTBC Charity chairman",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "中信慈善基金會",
+        "宜和開發"
+      ],
+      "tags": [
+        "financial-family",
+        "conflicted-onshore",
+        "sports",
+        "complex-structure"
+      ],
+      "notes": [
+        {
+          "ticker": "2891",
+          "text": "Holdings sit largely in foundations and layered vehicles — individual attributability is weak. Treat the number as an order of magnitude."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2891",
+          "name_zh": "中國信託金融控股",
+          "name_en": "CTBC Financial Holding",
+          "sector": "Financials",
+          "stake_pct": 8.0,
+          "stake_basis": "family aggregate via charitable and investment vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 1614151070.48,
+          "value_ntd": 101691517440.24,
+          "value_usd_m": 3138.4333510351216,
+          "dividend_ntd": 4037153242.377528,
+          "day_move_ntd": -968490642.288,
+          "pledge_pct": null,
+          "price": 63.0,
+          "changePct": -0.9433962264150944,
+          "div_yield": 3.97,
+          "revenue_yoy": -17.9028438177479,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 101691517440.24,
+      "stake_value_usd_m": 3138.4333510351216,
+      "net_worth_mid_ntd": 172875579648.40802,
+      "net_worth_low_usd_m": 4001.50252256978,
+      "net_worth_mid_usd_m": 5335.336696759707,
+      "net_worth_high_usd_m": 6669.170870949632,
+      "dividend_gross_ntd": 4037153242.377528,
+      "dividend_gross_usd_m": 124.59580403609432,
+      "dividend_net_usd_m": 89.7089789059879,
+      "bankable_usd_m": 53.82538734359274,
+      "day_move_ntd": -968490642.288,
+      "day_move_usd_m": -29.889841438429723,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only",
+        "competitor-owner"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$4.04bn gross across 1 line(s), roughly US$54m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$40.4 億元，稅後可再配置約 US$54 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth lost NT$0.97bn in the latest session",
+          "text_zh": "最近交易日紙上財富減少 NT$9.7 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 15,
+      "score": 70.7
+    },
+    {
+      "subject_id": "tsai-ming-kai",
+      "name_zh": "蔡明介",
+      "name_en": "Tsai Ming-kai",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman and founder",
+      "archetype": "founder_operator",
+      "base": "Hsinchu",
+      "vehicles": [],
+      "tags": [
+        "founder",
+        "semis",
+        "hsinchu-corridor"
+      ],
+      "notes": [
+        {
+          "ticker": "2454",
+          "text": "Small percentage of a very large market cap — absolute stake value is what matters here."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2454",
+          "name_zh": "聯發科技",
+          "name_en": "MediaTek",
+          "sector": "Semiconductors",
+          "stake_pct": 2.0,
+          "stake_basis": "personal direct plus related holdings",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 32077908.14,
+          "value_ntd": 118046701955.2,
+          "value_usd_m": 3643.191838627245,
+          "dividend_ntd": 1711677178.3504,
+          "day_move_ntd": -2245453569.8,
+          "pledge_pct": null,
+          "price": 3680.0,
+          "changePct": -1.866666666666667,
+          "div_yield": 1.45,
+          "revenue_yoy": 2.796444693846599,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 118046701955.2,
+      "stake_value_usd_m": 3643.191838627245,
+      "net_worth_mid_ntd": 171167717835.03998,
+      "net_worth_low_usd_m": 3961.971124507129,
+      "net_worth_mid_usd_m": 5282.628166009505,
+      "net_worth_high_usd_m": 6603.285207511882,
+      "dividend_gross_ntd": 1711677178.3504,
+      "dividend_gross_usd_m": 52.82628166009505,
+      "dividend_net_usd_m": 38.034922795268436,
+      "bankable_usd_m": 22.82095367716106,
+      "day_move_ntd": -2245453569.8,
+      "day_move_usd_m": -69.29984475649651,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.71bn gross across 1 line(s), roughly US$23m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$17.1 億元，稅後可再配置約 US$23 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth lost NT$2.25bn in the latest session",
+          "text_zh": "最近交易日紙上財富減少 NT$22.5 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 55,
+      "score": 70.5
+    },
+    {
+      "subject_id": "chang-family-evergreen",
+      "name_zh": "張榮發家族",
+      "name_en": "Chang family (Evergreen)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "長榮國際",
+        "長榮鋼鐵",
+        "張榮發基金會"
+      ],
+      "tags": [
+        "shipping-cycle",
+        "family-dispute-history",
+        "succession-litigated",
+        "windfall-cycle"
+      ],
+      "notes": [
+        {
+          "ticker": "2603",
+          "text": "Freight-cycle windfalls produced extraordinary dividend years. Contested estate and a documented inter-branch split — several individually bankable members."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2603",
+          "name_zh": "長榮海運",
+          "name_en": "Evergreen Marine",
+          "sector": "Shipping",
+          "stake_pct": 10.0,
+          "stake_basis": "family aggregate via Evergreen group holding companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 216504299.6,
+          "value_ntd": 44058624968.6,
+          "value_usd_m": 1359.7501687735323,
+          "dividend_ntd": 3463007922.53196,
+          "day_move_ntd": -541260749.0,
+          "pledge_pct": null,
+          "price": 203.5,
+          "changePct": -1.2135922330097086,
+          "div_yield": 7.86,
+          "revenue_yoy": 30.007168433542823,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 44058624968.6,
+      "stake_value_usd_m": 1359.7501687735323,
+      "net_worth_mid_ntd": 74899662446.62,
+      "net_worth_low_usd_m": 1733.6814651862537,
+      "net_worth_mid_usd_m": 2311.575286915005,
+      "net_worth_high_usd_m": 2889.4691086437565,
+      "dividend_gross_ntd": 3463007922.53196,
+      "dividend_gross_usd_m": 106.87636326559965,
+      "dividend_net_usd_m": 76.95098155123175,
+      "bankable_usd_m": 46.170588930739044,
+      "day_move_ntd": -541260749.0,
+      "day_move_usd_m": -16.704547527930373,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$3.46bn gross across 1 line(s), roughly US$46m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$34.6 億元，稅後可再配置約 US$46 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth lost NT$0.54bn in the latest session",
+          "text_zh": "最近交易日紙上財富減少 NT$5.4 億元"
+        },
+        {
+          "kind": "succession",
+          "weight": 0.6,
+          "text_en": "Succession unresolved or contested — governance and trust structuring need",
+          "text_zh": "接班未定或有爭議，家族治理與信託架構需求"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Evergreen Marine monthly revenue +30% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "長榮海運 月營收年增 30%，下一個配息循環的獲利動能"
+        },
+        {
+          "kind": "governance",
+          "weight": 0.5,
+          "text_en": "Documented intra-family dispute — demonstrated need for formal family governance",
+          "text_zh": "有公開的家族爭議紀錄，對正式家族治理有明確需求"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 50,
+      "score": 70.4
+    },
+    {
+      "subject_id": "lin-yao-ying",
+      "name_zh": "林耀英",
+      "name_en": "Lin Yao-ying",
+      "subject_type": "individual",
+      "role_zh": "創辦人",
+      "role_en": "Founder, honorary chairman",
+      "archetype": "founder_operator",
+      "base": "Taichung",
+      "vehicles": [
+        "石安投資",
+        "茂鈺紀念基金會"
+      ],
+      "tags": [
+        "founder",
+        "central-taiwan",
+        "low-profile",
+        "high-dividend"
+      ],
+      "notes": [
+        {
+          "ticker": "3008",
+          "text": "Notoriously private Taichung family. Largan's dividend per share is among the highest on the exchange — dividend season cash is very large relative to stake."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "3008",
+          "name_zh": "大立光電",
+          "name_en": "Largan Precision",
+          "sector": "Optics",
+          "stake_pct": 12.0,
+          "stake_basis": "family aggregate via investment companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 15695783.64,
+          "value_ntd": 64195755087.600006,
+          "value_usd_m": 1981.228167631628,
+          "dividend_ntd": 1258236799.71696,
+          "day_move_ntd": 2668283218.8,
+          "pledge_pct": null,
+          "price": 4090.0,
+          "changePct": 4.336734693877551,
+          "div_yield": 1.96,
+          "revenue_yoy": -10.464491392393583,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 64195755087.600006,
+      "stake_value_usd_m": 1981.228167631628,
+      "net_worth_mid_ntd": 93083844877.02,
+      "net_worth_low_usd_m": 2154.585632299395,
+      "net_worth_mid_usd_m": 2872.78084306586,
+      "net_worth_high_usd_m": 3590.9760538323253,
+      "dividend_gross_ntd": 1258236799.71696,
+      "dividend_gross_usd_m": 38.8320720855799,
+      "dividend_net_usd_m": 27.959091901617526,
+      "bankable_usd_m": 16.775455140970518,
+      "day_move_ntd": 2668283218.8,
+      "day_move_usd_m": 82.3493370409234,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.26bn gross across 1 line(s), roughly US$17m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$12.6 億元，稅後可再配置約 US$17 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$2.67bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$26.7 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 75,
+      "score": 66.7
+    },
+    {
+      "subject_id": "thomas-wu",
+      "name_zh": "吳東亮",
+      "name_en": "Thomas Wu",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "新光集團相關投資公司"
+      ],
+      "tags": [
+        "financial-family",
+        "post-merger",
+        "conflicted-onshore",
+        "family-dispute-history"
+      ],
+      "notes": [
+        {
+          "ticker": "2887",
+          "text": "Post-merger holding structure is still settling; stake figures move. A documented history of intra-family disputes makes governance and trust structuring relevant."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2887",
+          "name_zh": "台新新光金融控股",
+          "name_en": "Taishin Shin Kong Financial Holding",
+          "sector": "Financials",
+          "stake_pct": 6.0,
+          "stake_basis": "personal and family vehicles post-merger",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 1761449266.92,
+          "value_ntd": 61562651878.854004,
+          "value_usd_m": 1899.964566349423,
+          "dividend_ntd": 1939223534.183901,
+          "day_move_ntd": 1409159413.5360003,
+          "pledge_pct": null,
+          "price": 34.95,
+          "changePct": 2.3426061493411416,
+          "div_yield": 3.15,
+          "revenue_yoy": 329.50067645662165,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 61562651878.854004,
+      "stake_value_usd_m": 1899.964566349423,
+      "net_worth_mid_ntd": 104656508194.0518,
+      "net_worth_low_usd_m": 2422.454822095514,
+      "net_worth_mid_usd_m": 3229.939762794019,
+      "net_worth_high_usd_m": 4037.424703492524,
+      "dividend_gross_ntd": 1939223534.183901,
+      "dividend_gross_usd_m": 59.84888384000682,
+      "dividend_net_usd_m": 43.09119636480491,
+      "bankable_usd_m": 25.854717818882946,
+      "day_move_ntd": 1409159413.5360003,
+      "day_move_usd_m": 43.48988993074502,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only",
+        "competitor-owner"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.94bn gross across 1 line(s), roughly US$26m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$19.4 億元，稅後可再配置約 US$26 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$1.41bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$14.1 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Taishin Shin Kong Financial Holding monthly revenue +330% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "台新新光金融控股 月營收年增 330%，下一個配息循環的獲利動能"
+        },
+        {
+          "kind": "governance",
+          "weight": 0.5,
+          "text_en": "Documented intra-family dispute — demonstrated need for formal family governance",
+          "text_zh": "有公開的家族爭議紀錄，對正式家族治理有明確需求"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 15,
+      "score": 66.4
+    },
+    {
+      "subject_id": "shin-kong-wu-family",
+      "name_zh": "吳東進家族",
+      "name_en": "Wu Tong-chin family",
+      "subject_type": "family",
+      "role_zh": "新光家族股東",
+      "role_en": "Shin Kong family shareholders",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "financial-family",
+        "post-merger",
+        "liquidity-event"
+      ],
+      "notes": [
+        {
+          "ticker": "2887",
+          "text": "Merger consideration created a genuine liquidity and reallocation moment for this branch."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2887",
+          "name_zh": "台新新光金融控股",
+          "name_en": "Taishin Shin Kong Financial Holding",
+          "sector": "Financials",
+          "stake_pct": 4.0,
+          "stake_basis": "family aggregate, diluted through the merger",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 1174299511.28,
+          "value_ntd": 41041767919.236,
+          "value_usd_m": 1266.6430442329486,
+          "dividend_ntd": 1292815689.4559338,
+          "day_move_ntd": 939439609.024,
+          "pledge_pct": null,
+          "price": 34.95,
+          "changePct": 2.3426061493411416,
+          "div_yield": 3.15,
+          "revenue_yoy": 329.50067645662165,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 41041767919.236,
+      "stake_value_usd_m": 1266.6430442329486,
+      "net_worth_mid_ntd": 69771005462.7012,
+      "net_worth_low_usd_m": 1614.9698813970094,
+      "net_worth_mid_usd_m": 2153.2931751960123,
+      "net_worth_high_usd_m": 2691.6164689950156,
+      "dividend_gross_ntd": 1292815689.4559338,
+      "dividend_gross_usd_m": 39.89925589333787,
+      "dividend_net_usd_m": 28.72746424320327,
+      "bankable_usd_m": 17.23647854592196,
+      "day_move_ntd": 939439609.024,
+      "day_move_usd_m": 28.993259953830012,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.29bn gross across 1 line(s), roughly US$17m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$12.9 億元，稅後可再配置約 US$17 百萬"
+        },
+        {
+          "kind": "event",
+          "weight": 0.8,
+          "text_en": "Recent corporate action created a realised liquidity event",
+          "text_zh": "近期公司行動帶來實現的流動性事件"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$0.94bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$9.4 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Taishin Shin Kong Financial Holding monthly revenue +330% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "台新新光金融控股 月營收年增 330%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 50,
+      "score": 65.1
+    },
+    {
+      "subject_id": "su-family-hotai",
+      "name_zh": "蘇家（和泰）",
+      "name_en": "Su family (Hotai)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "和泰產險",
+        "和潤企業相關持股"
+      ],
+      "tags": [
+        "distribution-monopoly",
+        "group-cross-holdings",
+        "high-dividend"
+      ],
+      "notes": [
+        {
+          "ticker": "2207",
+          "text": "Toyota's Taiwan distributor. Group cross-holdings (和潤 6592, 和泰產險) add materially to family wealth beyond this line."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2207",
+          "name_zh": "和泰汽車",
+          "name_en": "Hotai Motor",
+          "sector": "Autos",
+          "stake_pct": 14.0,
+          "stake_basis": "family aggregate via group holding companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 77994387.52,
+          "value_ntd": 38841204984.96,
+          "value_usd_m": 1198.7286273983088,
+          "dividend_ntd": 1561416440.3953917,
+          "day_move_ntd": 350974743.84,
+          "pledge_pct": null,
+          "price": 498.0,
+          "changePct": 0.911854103343465,
+          "div_yield": 4.02,
+          "revenue_yoy": 48.36347796910443,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 38841204984.96,
+      "stake_value_usd_m": 1198.7286273983088,
+      "net_worth_mid_ntd": 66030048474.432,
+      "net_worth_low_usd_m": 1528.3789999328435,
+      "net_worth_mid_usd_m": 2037.8386665771247,
+      "net_worth_high_usd_m": 2547.298333221406,
+      "dividend_gross_ntd": 1561416440.3953917,
+      "dividend_gross_usd_m": 48.188890821412,
+      "dividend_net_usd_m": 34.69600139141664,
+      "bankable_usd_m": 20.817600834849983,
+      "day_move_ntd": 350974743.84,
+      "day_move_usd_m": 10.831885187334114,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.56bn gross across 1 line(s), roughly US$21m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$15.6 億元，稅後可再配置約 US$21 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Hotai Motor monthly revenue +48% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "和泰汽車 月營收年增 48%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 82,
+      "accessibility_score": 50,
+      "score": 62.1
+    },
+    {
+      "subject_id": "jonney-shih",
+      "name_zh": "施崇棠",
+      "name_en": "Jonney Shih",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "founder",
+        "pc-cycle",
+        "succession-open"
+      ],
+      "notes": [],
+      "holdings": [
+        {
+          "ticker": "2357",
+          "name_zh": "華碩電腦",
+          "name_en": "ASUSTeK Computer",
+          "sector": "Tech Hardware",
+          "stake_pct": 3.0,
+          "stake_basis": "personal direct plus family vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 22282808.4,
+          "value_ntd": 16934934383.999998,
+          "value_usd_m": 522.6508975989135,
+          "dividend_ntd": 936501871.4351999,
+          "day_move_ntd": -245110892.39999998,
+          "pledge_pct": null,
+          "price": 760.0,
+          "changePct": -1.4267185473411155,
+          "div_yield": 5.53,
+          "revenue_yoy": 55.634298936990604,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.45,
+      "stake_value_ntd": 16934934383.999998,
+      "stake_value_usd_m": 522.6508975989135,
+      "net_worth_mid_ntd": 24555654856.799995,
+      "net_worth_low_usd_m": 568.3828511388185,
+      "net_worth_mid_usd_m": 757.8438015184246,
+      "net_worth_high_usd_m": 947.3047518980308,
+      "dividend_gross_ntd": 936501871.4351999,
+      "dividend_gross_usd_m": 28.90259463721992,
+      "dividend_net_usd_m": 20.80986813879834,
+      "bankable_usd_m": 12.485920883279004,
+      "day_move_ntd": -245110892.39999998,
+      "day_move_usd_m": -7.564684044194801,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.94bn gross across 1 line(s), roughly US$12m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$9.4 億元，稅後可再配置約 US$12 百萬"
+        },
+        {
+          "kind": "succession",
+          "weight": 0.6,
+          "text_en": "Succession unresolved or contested — governance and trust structuring need",
+          "text_zh": "接班未定或有爭議，家族治理與信託架構需求"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "ASUSTeK Computer monthly revenue +56% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "華碩電腦 月營收年增 56%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 55,
+      "score": 56.8
+    },
+    {
+      "subject_id": "cheng-family-hungsheng",
+      "name_zh": "鄭欽天家族",
+      "name_en": "Cheng family (Hung Sheng)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "property_developer",
+      "base": "Taipei / Kaohsiung",
+      "vehicles": [],
+      "tags": [
+        "property",
+        "high-payout",
+        "southern-taiwan",
+        "pledge-common"
+      ],
+      "notes": [
+        {
+          "ticker": "2542",
+          "text": "Developer families routinely pledge listed shares to fund projects — check the pledge column before pitching lending."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2542",
+          "name_zh": "興富發建設",
+          "name_en": "Hung Sheng Construction",
+          "sector": "Property",
+          "stake_pct": 22.0,
+          "stake_basis": "family aggregate via investment companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 473678378.58,
+          "value_ntd": 20605009468.23,
+          "value_usd_m": 635.917828165854,
+          "dividend_ntd": 1895660871.07716,
+          "day_move_ntd": -331574865.006,
+          "pledge_pct": null,
+          "price": 43.5,
+          "changePct": -1.583710407239819,
+          "div_yield": 9.2,
+          "revenue_yoy": 16.470871837166957,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.85,
+      "stake_value_ntd": 20605009468.23,
+      "stake_value_usd_m": 635.917828165854,
+      "net_worth_mid_ntd": 38119267516.2255,
+      "net_worth_low_usd_m": 882.3359865801225,
+      "net_worth_mid_usd_m": 1176.4479821068298,
+      "net_worth_high_usd_m": 1470.5599776335373,
+      "dividend_gross_ntd": 1895660871.07716,
+      "dividend_gross_usd_m": 58.50444019125856,
+      "dividend_net_usd_m": 42.123196937706155,
+      "bankable_usd_m": 25.273918162623698,
+      "day_move_ntd": -331574865.006,
+      "day_move_usd_m": -10.233160453243626,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.90bn gross across 1 line(s), roughly US$25m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$19.0 億元，稅後可再配置約 US$25 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 55.1
+    },
+    {
+      "subject_id": "chao-family-farglory",
+      "name_zh": "趙家（遠雄）",
+      "name_en": "Chao family (Farglory)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "property_developer",
+      "base": "Taipei",
+      "vehicles": [
+        "遠雄人壽相關持股",
+        "遠雄集團投資公司"
+      ],
+      "tags": [
+        "property",
+        "land-bank",
+        "legal-history",
+        "high-uplift"
+      ],
+      "notes": [
+        {
+          "ticker": "5522",
+          "text": "Developers carry the largest gap between listed stake and true wealth — land bank and unlisted project vehicles dominate. Uplift factor is set highest for this archetype."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "5522",
+          "name_zh": "遠雄建設",
+          "name_en": "Farglory Land Development",
+          "sector": "Property",
+          "stake_pct": 28.0,
+          "stake_basis": "family aggregate via group vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 218846947.48,
+          "value_ntd": 14553322007.42,
+          "value_usd_m": 449.1488799277822,
+          "dividend_ntd": 1203559730.0136337,
+          "day_move_ntd": 131308168.48799999,
+          "pledge_pct": null,
+          "price": 66.5,
+          "changePct": 0.9104704097116842,
+          "div_yield": 8.27,
+          "revenue_yoy": 2513.497664900037,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.85,
+      "stake_value_ntd": 14553322007.42,
+      "stake_value_usd_m": 449.1488799277822,
+      "net_worth_mid_ntd": 26923645713.727,
+      "net_worth_low_usd_m": 623.1940708997978,
+      "net_worth_mid_usd_m": 830.9254278663972,
+      "net_worth_high_usd_m": 1038.6567848329964,
+      "dividend_gross_ntd": 1203559730.0136337,
+      "dividend_gross_usd_m": 37.14461237002758,
+      "dividend_net_usd_m": 26.744120906419855,
+      "bankable_usd_m": 16.046472543851912,
+      "day_move_ntd": 131308168.48799999,
+      "day_move_usd_m": 4.052471097092772,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.20bn gross across 1 line(s), roughly US$16m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$12.0 億元，稅後可再配置約 US$16 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Farglory Land Development monthly revenue +2513% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "遠雄建設 月營收年增 2513%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 82,
+      "accessibility_score": 50,
+      "score": 54.5
+    },
+    {
+      "subject_id": "wang-family-fengtay",
+      "name_zh": "王秋雄家族",
+      "name_en": "Wang family (Feng Tay)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Yunlin / Taichung",
+      "vehicles": [
+        "豐泰相關投資公司"
+      ],
+      "tags": [
+        "central-taiwan",
+        "high-stake",
+        "single-customer-risk",
+        "low-profile"
+      ],
+      "notes": [
+        {
+          "ticker": "9910",
+          "text": "Long-standing Nike contract manufacturer. High family stake, low public profile — relationship-led approach required."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "9910",
+          "name_zh": "豐泰企業",
+          "name_en": "Feng Tay Enterprises",
+          "sector": "Consumer / Footwear",
+          "stake_pct": 28.0,
+          "stake_basis": "family aggregate via investment companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 276495192.68,
+          "value_ntd": 19133467333.456,
+          "value_usd_m": 590.5026644483673,
+          "dividend_ntd": 1132701266.1405952,
+          "day_move_ntd": 193546634.876,
+          "pledge_pct": null,
+          "price": 69.2,
+          "changePct": 1.0218978102189782,
+          "div_yield": 5.92,
+          "revenue_yoy": -3.902772335072205,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.7,
+      "stake_value_ntd": 19133467333.456,
+      "stake_value_usd_m": 590.5026644483673,
+      "net_worth_mid_ntd": 32526894466.875202,
+      "net_worth_low_usd_m": 752.8908971716685,
+      "net_worth_mid_usd_m": 1003.8545295622246,
+      "net_worth_high_usd_m": 1254.8181619527807,
+      "dividend_gross_ntd": 1132701266.1405952,
+      "dividend_gross_usd_m": 34.95775773534334,
+      "dividend_net_usd_m": 25.169585569447207,
+      "bankable_usd_m": 15.101751341668324,
+      "day_move_ntd": 193546634.876,
+      "day_move_usd_m": 5.973292848466144,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.13bn gross across 1 line(s), roughly US$15m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$11.3 億元，稅後可再配置約 US$15 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 75,
+      "score": 54.0
+    },
+    {
+      "subject_id": "douglas-hsu",
+      "name_zh": "徐旭東",
+      "name_en": "Douglas Hsu",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "遠東集團交叉持股"
+      ],
+      "tags": [
+        "conglomerate",
+        "cross-holdings",
+        "second-generation",
+        "complex-structure",
+        "telecom",
+        "high-dividend"
+      ],
+      "notes": [
+        {
+          "ticker": "1102",
+          "text": "Far Eastern group ownership is a dense cross-holding web; per-person attribution is the weakest part of this estimate."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "4904",
+          "name_zh": "遠傳電信",
+          "name_en": "Far EasTone Telecom",
+          "sector": "Telecom",
+          "stake_pct": 4.0,
+          "stake_basis": "family aggregate via cross-holdings",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 144308214.28,
+          "value_ntd": 15513133035.1,
+          "value_usd_m": 478.77084856181716,
+          "dividend_ntd": 549164909.44254,
+          "day_move_ntd": 288616428.56,
+          "pledge_pct": null,
+          "price": 107.5,
+          "changePct": 1.8957345971563981,
+          "div_yield": 3.54,
+          "revenue_yoy": 15.899898893854928,
+          "priced": true
+        },
+        {
+          "ticker": "1102",
+          "name_zh": "亞洲水泥",
+          "name_en": "Asia Cement",
+          "sector": "Materials",
+          "stake_pct": 9.0,
+          "stake_basis": "family aggregate via Far Eastern group cross-holdings",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 319190659.29,
+          "value_ntd": 10565210822.499,
+          "value_usd_m": 326.06662621131414,
+          "dividend_ntd": 734282152.1636806,
+          "day_move_ntd": 111716730.7515,
+          "pledge_pct": null,
+          "price": 33.1,
+          "changePct": 1.0687022900763359,
+          "div_yield": 6.95,
+          "revenue_yoy": -2.2149921444340945,
+          "priced": true
+        },
+        {
+          "ticker": "1402",
+          "name_zh": "遠東新世紀",
+          "name_en": "Far Eastern New Century",
+          "sector": "Materials",
+          "stake_pct": 7.0,
+          "stake_basis": "family aggregate via cross-holdings",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 374701265.89,
+          "value_ntd": 10285549748.6805,
+          "value_usd_m": 317.4356443639436,
+          "dividend_ntd": 467992513.5649627,
+          "day_move_ntd": 37470126.589,
+          "pledge_pct": null,
+          "price": 27.45,
+          "changePct": 0.36563071297989036,
+          "div_yield": 4.55,
+          "revenue_yoy": 12.062402333189342,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 36363893606.2795,
+      "stake_value_usd_m": 1122.273119137075,
+      "net_worth_mid_ntd": 61818619130.675156,
+      "net_worth_low_usd_m": 1430.8982268997704,
+      "net_worth_mid_usd_m": 1907.8643025330275,
+      "net_worth_high_usd_m": 2384.8303781662844,
+      "dividend_gross_ntd": 1751439575.1711833,
+      "dividend_gross_usd_m": 54.05344037933409,
+      "dividend_net_usd_m": 38.91847707312054,
+      "bankable_usd_m": 23.351086243872327,
+      "day_move_ntd": 437803285.9005,
+      "day_move_usd_m": 13.511613045506449,
+      "pledge_pct": null,
+      "top_line_share": 0.42660814056559426,
+      "line_count": 3,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.75bn gross across 3 line(s), roughly US$23m redeployable after tax",
+          "text_zh": "除息旺季 — 3 檔合計股利約 NT$17.5 億元，稅後可再配置約 US$23 百萬"
+        }
+      ],
+      "catalyst_score": 40,
+      "accessibility_score": 50,
+      "score": 53.7
+    },
+    {
+      "subject_id": "koo-family-chailease",
+      "name_zh": "辜仲立家族",
+      "name_en": "Koo Chung-li family",
+      "subject_type": "family",
+      "role_zh": "主要股東家族",
+      "role_en": "Principal shareholder family",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "中租企業相關投資公司"
+      ],
+      "tags": [
+        "financial-family",
+        "leasing",
+        "china-exposure"
+      ],
+      "notes": [
+        {
+          "ticker": "5871",
+          "text": "Verify carefully — Chailease's register is dominated by holding companies rather than named individuals."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "5871",
+          "name_zh": "中租控股",
+          "name_en": "Chailease Holding",
+          "sector": "Financials",
+          "stake_pct": 9.0,
+          "stake_basis": "family aggregate via group holding vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 167527904.49,
+          "value_ntd": 20103348538.800003,
+          "value_usd_m": 620.4354218505031,
+          "dividend_ntd": 1005167426.94,
+          "day_move_ntd": 0.0,
+          "pledge_pct": null,
+          "price": 120.0,
+          "changePct": 0.0,
+          "div_yield": 5.0,
+          "revenue_yoy": -0.8158930250374343,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 20103348538.800003,
+      "stake_value_usd_m": 620.4354218505031,
+      "net_worth_mid_ntd": 34175692515.960003,
+      "net_worth_low_usd_m": 791.0551628593914,
+      "net_worth_mid_usd_m": 1054.7402171458552,
+      "net_worth_high_usd_m": 1318.4252714323193,
+      "dividend_gross_ntd": 1005167426.94,
+      "dividend_gross_usd_m": 31.021771092525153,
+      "dividend_net_usd_m": 22.33567518661811,
+      "bankable_usd_m": 13.401405111970867,
+      "day_move_ntd": 0,
+      "day_move_usd_m": 0.0,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.01bn gross across 1 line(s), roughly US$13m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$10.1 億元，稅後可再配置約 US$13 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 51.3
+    },
+    {
+      "subject_id": "lo-family-chengshin",
+      "name_zh": "羅家（正新）",
+      "name_en": "Lo family (Cheng Shin)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Changhua",
+      "vehicles": [],
+      "tags": [
+        "central-taiwan",
+        "large-family",
+        "third-generation",
+        "earnings-pressure"
+      ],
+      "notes": [
+        {
+          "ticker": "2105",
+          "text": "Large multi-branch family in Changhua. Wide-spread ownership means many individually-bankable members."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2105",
+          "name_zh": "正新橡膠",
+          "name_en": "Cheng Shin Rubber",
+          "sector": "Auto Parts",
+          "stake_pct": 18.0,
+          "stake_basis": "family aggregate across members and vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 583454796.48,
+          "value_ntd": 17970407731.584,
+          "value_usd_m": 554.6079788773532,
+          "dividend_ntd": 1049471811.5245056,
+          "day_move_ntd": -262554658.416,
+          "pledge_pct": null,
+          "price": 30.8,
+          "changePct": -1.44,
+          "div_yield": 5.84,
+          "revenue_yoy": 15.005291377302507,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 17970407731.584,
+      "stake_value_usd_m": 554.6079788773532,
+      "net_worth_mid_ntd": 30549693143.6928,
+      "net_worth_low_usd_m": 707.1251730686254,
+      "net_worth_mid_usd_m": 942.8335640915004,
+      "net_worth_high_usd_m": 1178.5419551143757,
+      "dividend_gross_ntd": 1049471811.5245056,
+      "dividend_gross_usd_m": 32.38910596643743,
+      "dividend_net_usd_m": 23.32015629583495,
+      "bankable_usd_m": 13.992093777500969,
+      "day_move_ntd": -262554658.416,
+      "day_move_usd_m": -8.103038652428863,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$1.05bn gross across 1 line(s), roughly US$14m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$10.5 億元，稅後可再配置約 US$14 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 50.7
+    },
+    {
+      "subject_id": "raymond-soong",
+      "name_zh": "宋恭源",
+      "name_en": "Raymond Soong",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "founder",
+        "high-payout"
+      ],
+      "notes": [],
+      "holdings": [
+        {
+          "ticker": "2301",
+          "name_zh": "光寶科技",
+          "name_en": "Lite-On Technology",
+          "sector": "Tech Hardware",
+          "stake_pct": 4.0,
+          "stake_basis": "personal and family vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 92644310.52,
+          "value_ntd": 19640593830.239998,
+          "value_usd_m": 606.1537507018085,
+          "dividend_ntd": 463518014.39366394,
+          "day_move_ntd": -231610776.29999998,
+          "pledge_pct": null,
+          "price": 212.0,
+          "changePct": -1.1655011655011656,
+          "div_yield": 2.36,
+          "revenue_yoy": 36.97501592365457,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.45,
+      "stake_value_ntd": 19640593830.239998,
+      "stake_value_usd_m": 606.1537507018085,
+      "net_worth_mid_ntd": 28478861053.847996,
+      "net_worth_low_usd_m": 659.1922038882167,
+      "net_worth_mid_usd_m": 878.9229385176222,
+      "net_worth_high_usd_m": 1098.653673147028,
+      "dividend_gross_ntd": 463518014.39366394,
+      "dividend_gross_usd_m": 14.30522851656268,
+      "dividend_net_usd_m": 10.29976453192513,
+      "bankable_usd_m": 6.179858719155076,
+      "day_move_ntd": -231610776.29999998,
+      "day_move_usd_m": -7.148039512993025,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.46bn gross across 1 line(s), roughly US$6m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$4.6 億元，稅後可再配置約 US$6 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Lite-On Technology monthly revenue +37% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "光寶科技 月營收年增 37%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 82,
+      "accessibility_score": 50,
+      "score": 50.3
+    },
+    {
+      "subject_id": "tsai-family-pouchen",
+      "name_zh": "蔡其瑞家族",
+      "name_en": "Tsai family (Pou Chen)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Taichung",
+      "vehicles": [
+        "寶元投資",
+        "寶勝國際"
+      ],
+      "tags": [
+        "central-taiwan",
+        "high-stake",
+        "asean-operations",
+        "third-generation"
+      ],
+      "notes": [
+        {
+          "ticker": "9904",
+          "text": "Large ASEAN manufacturing footprint — multi-jurisdiction structuring and FX hedging needs are real."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "9904",
+          "name_zh": "寶成工業",
+          "name_en": "Pou Chen",
+          "sector": "Consumer / Footwear",
+          "stake_pct": 24.0,
+          "stake_basis": "family aggregate via Pou Chen group vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 707228931.12,
+          "value_ntd": 17185663026.216,
+          "value_usd_m": 530.3889582808469,
+          "dividend_ntd": 919432971.902556,
+          "day_move_ntd": -70722893.112,
+          "pledge_pct": null,
+          "price": 24.3,
+          "changePct": -0.4098360655737705,
+          "div_yield": 5.35,
+          "revenue_yoy": -3.256370470469612,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 17185663026.216,
+      "stake_value_usd_m": 530.3889582808469,
+      "net_worth_mid_ntd": 29215627144.5672,
+      "net_worth_low_usd_m": 676.2459218080797,
+      "net_worth_mid_usd_m": 901.6612290774397,
+      "net_worth_high_usd_m": 1127.0765363467997,
+      "dividend_gross_ntd": 919432971.902556,
+      "dividend_gross_usd_m": 28.375809268025304,
+      "dividend_net_usd_m": 20.43058267297822,
+      "bankable_usd_m": 12.25834960378693,
+      "day_move_ntd": -70722893.112,
+      "day_move_usd_m": -2.182670610209246,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.92bn gross across 1 line(s), roughly US$12m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$9.2 億元，稅後可再配置約 US$12 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 49.8
+    },
+    {
+      "subject_id": "adam-lin",
+      "name_zh": "林恩平",
+      "name_en": "Adam Lin",
+      "subject_type": "individual",
+      "role_zh": "執行長",
+      "role_en": "CEO",
+      "archetype": "founder_operator",
+      "base": "Taichung",
+      "vehicles": [],
+      "tags": [
+        "second-generation",
+        "central-taiwan"
+      ],
+      "notes": [
+        {
+          "ticker": "3008",
+          "text": "Second generation, operating role. Next-gen wealth transfer entry point."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "3008",
+          "name_zh": "大立光電",
+          "name_en": "Largan Precision",
+          "sector": "Optics",
+          "stake_pct": 3.5,
+          "stake_basis": "personal direct",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 4577936.895,
+          "value_ntd": 18723761900.55,
+          "value_usd_m": 577.8582155592247,
+          "dividend_ntd": 366985733.25078,
+          "day_move_ntd": 778249272.15,
+          "pledge_pct": null,
+          "price": 4090.0,
+          "changePct": 4.336734693877551,
+          "div_yield": 1.96,
+          "revenue_yoy": -10.464491392393583,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.45,
+      "stake_value_ntd": 18723761900.55,
+      "stake_value_usd_m": 577.8582155592247,
+      "net_worth_mid_ntd": 27149454755.797497,
+      "net_worth_low_usd_m": 628.4208094206568,
+      "net_worth_mid_usd_m": 837.8944125608758,
+      "net_worth_high_usd_m": 1047.3680157010947,
+      "dividend_gross_ntd": 366985733.25078,
+      "dividend_gross_usd_m": 11.326021024960804,
+      "dividend_net_usd_m": 8.154735137971779,
+      "bankable_usd_m": 4.892841082783066,
+      "day_move_ntd": 778249272.15,
+      "day_move_usd_m": 24.01855663693599,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.37bn gross across 1 line(s), roughly US$5m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$3.7 億元，稅後可再配置約 US$5 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$0.78bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$7.8 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 50,
+      "score": 49.6
+    },
+    {
+      "subject_id": "chuo-family",
+      "name_zh": "卓永財家族",
+      "name_en": "Chuo family",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Taichung",
+      "vehicles": [
+        "大銀微系統相關持股"
+      ],
+      "tags": [
+        "central-taiwan",
+        "machine-tools",
+        "second-generation-active",
+        "cyclical"
+      ],
+      "notes": [
+        {
+          "ticker": "2049",
+          "text": "Taichung precision-machinery cluster. Cyclical earnings mean dividend cash swings hard year to year."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2049",
+          "name_zh": "上銀科技",
+          "name_en": "Hiwin Technologies",
+          "sector": "Industrial",
+          "stake_pct": 18.0,
+          "stake_basis": "family aggregate via investment companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 63682603.2,
+          "value_ntd": 20569480833.600002,
+          "value_usd_m": 634.8213330535153,
+          "dividend_ntd": 127530781.16831999,
+          "day_move_ntd": 636826032.0,
+          "pledge_pct": null,
+          "price": 323.0,
+          "changePct": 3.1948881789137378,
+          "div_yield": 0.62,
+          "revenue_yoy": 31.624605109229492,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.7,
+      "stake_value_ntd": 20569480833.600002,
+      "stake_value_usd_m": 634.8213330535153,
+      "net_worth_mid_ntd": 34968117417.12,
+      "net_worth_low_usd_m": 809.3971996432319,
+      "net_worth_mid_usd_m": 1079.1962661909758,
+      "net_worth_high_usd_m": 1348.99533273872,
+      "dividend_gross_ntd": 127530781.16831999,
+      "dividend_gross_usd_m": 3.935892264931794,
+      "dividend_net_usd_m": 2.8338424307508916,
+      "bankable_usd_m": 1.700305458450535,
+      "day_move_ntd": 636826032.0,
+      "day_move_usd_m": 19.65391124004691,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.13bn gross across 1 line(s), roughly US$2m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$1.3 億元，稅後可再配置約 US$2 百萬"
+        },
+        {
+          "kind": "move",
+          "weight": 0.6,
+          "text_en": "Paper wealth gained NT$0.64bn in the latest session",
+          "text_zh": "最近交易日紙上財富增加 NT$6.4 億元"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Hiwin Technologies monthly revenue +32% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "上銀科技 月營收年增 32%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 100,
+      "accessibility_score": 55,
+      "score": 49.6
+    },
+    {
+      "subject_id": "hsu-kun-tai",
+      "name_zh": "許崑泰",
+      "name_en": "Hsu Kun-tai",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [
+        "群光相關投資公司"
+      ],
+      "tags": [
+        "high-stake",
+        "property-holdings",
+        "steady-dividend"
+      ],
+      "notes": [
+        {
+          "ticker": "2385",
+          "text": "Group holds substantial Taipei commercial property outside the listed entity — the uplift factor likely understates total wealth."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2385",
+          "name_zh": "群光電子",
+          "name_en": "Chicony Electronics",
+          "sector": "Tech Hardware",
+          "stake_pct": 18.0,
+          "stake_basis": "family aggregate via investment companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 137829813.84,
+          "value_ntd": 14609960267.04,
+          "value_usd_m": 450.89686646009505,
+          "dividend_ntd": 992016302.1320161,
+          "day_move_ntd": -68914906.92,
+          "pledge_pct": null,
+          "price": 106.0,
+          "changePct": -0.4694835680751174,
+          "div_yield": 6.79,
+          "revenue_yoy": -5.48446917125462,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.45,
+      "stake_value_ntd": 14609960267.04,
+      "stake_value_usd_m": 450.89686646009505,
+      "net_worth_mid_ntd": 21184442387.208,
+      "net_worth_low_usd_m": 490.3503422753534,
+      "net_worth_mid_usd_m": 653.8004563671378,
+      "net_worth_high_usd_m": 817.2505704589224,
+      "dividend_gross_ntd": 992016302.1320161,
+      "dividend_gross_usd_m": 30.615897232640457,
+      "dividend_net_usd_m": 22.043446007501128,
+      "bankable_usd_m": 13.226067604500678,
+      "day_move_ntd": -68914906.92,
+      "day_move_usd_m": -2.126872011604222,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.99bn gross across 1 line(s), roughly US$13m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$9.9 億元，稅後可再配置約 US$13 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 47.9
+    },
+    {
+      "subject_id": "samuel-yin",
+      "name_zh": "尹衍樑",
+      "name_en": "Samuel Yin",
+      "subject_type": "individual",
+      "role_zh": "總裁",
+      "role_en": "Group president",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "潤泰集團相關投資公司",
+        "唐獎教育基金會"
+      ],
+      "tags": [
+        "philanthropy",
+        "cross-holdings",
+        "prc-retail-exposure",
+        "pledge-active"
+      ],
+      "notes": [
+        {
+          "ticker": "2915",
+          "text": "Founded the Tang Prize with a very large personal endowment — has publicly committed the bulk of his wealth to philanthropy. Structured giving and endowment mandates are the entry point, not accumulation."
+        },
+        {
+          "ticker": "9945",
+          "text": "Second listed vehicle of the same principal — the platform aggregates both lines into one net worth estimate."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "9945",
+          "name_zh": "潤泰新",
+          "name_en": "Ruentex Development",
+          "sector": "Property",
+          "stake_pct": 11.0,
+          "stake_basis": "personal and family vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 312864759.46,
+          "value_ntd": 8243986411.771,
+          "value_usd_m": 254.42831960283314,
+          "dividend_ntd": 343774233.3708507,
+          "day_move_ntd": 78216189.865,
+          "pledge_pct": null,
+          "price": 26.35,
+          "changePct": 0.9578544061302682,
+          "div_yield": 4.17,
+          "revenue_yoy": 29.566991191469633,
+          "priced": true
+        },
+        {
+          "ticker": "2915",
+          "name_zh": "潤泰全球",
+          "name_en": "Ruentex Industries",
+          "sector": "Conglomerate",
+          "stake_pct": 14.0,
+          "stake_basis": "personal and family vehicles across the Ruentex group",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "medium",
+          "shares_held": 154604628.08,
+          "value_ntd": 7962138346.120001,
+          "value_usd_m": 245.7298421739399,
+          "dividend_ntd": 293802904.97182804,
+          "day_move_ntd": 15460462.808000002,
+          "pledge_pct": null,
+          "price": 51.5,
+          "changePct": 0.1945525291828794,
+          "div_yield": 3.69,
+          "revenue_yoy": 12.84074264300253,
+          "priced": true
+        }
+      ],
+      "confidence": "medium",
+      "uplift": 1.7,
+      "stake_value_ntd": 16206124757.891,
+      "stake_value_usd_m": 500.15816177677306,
+      "net_worth_mid_ntd": 27550412088.4147,
+      "net_worth_low_usd_m": 637.7016562653855,
+      "net_worth_mid_usd_m": 850.2688750205141,
+      "net_worth_high_usd_m": 1062.8360937756424,
+      "dividend_gross_ntd": 637577138.3426788,
+      "dividend_gross_usd_m": 19.677092103656527,
+      "dividend_net_usd_m": 14.167506314632698,
+      "bankable_usd_m": 8.50050378877962,
+      "day_move_ntd": 93676652.673,
+      "day_move_usd_m": 2.891076250632677,
+      "pledge_pct": null,
+      "top_line_share": 0.5086957267657021,
+      "line_count": 2,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.64bn gross across 2 line(s), roughly US$9m redeployable after tax",
+          "text_zh": "除息旺季 — 2 檔合計股利約 NT$6.4 億元，稅後可再配置約 US$9 百萬"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Ruentex Development monthly revenue +30% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "潤泰新 月營收年增 30%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 60,
+      "accessibility_score": 55,
+      "score": 47.7
+    },
+    {
+      "subject_id": "hsu-family-msi",
+      "name_zh": "徐祥家族",
+      "name_en": "Hsu family (MSI)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "New Taipei",
+      "vehicles": [],
+      "tags": [
+        "gaming-hardware",
+        "multi-founder"
+      ],
+      "notes": [
+        {
+          "ticker": "2377",
+          "text": "Multiple founding partners share control — the stake is not one household."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2377",
+          "name_zh": "微星科技",
+          "name_en": "Micro-Star International",
+          "sector": "Tech Hardware",
+          "stake_pct": 14.0,
+          "stake_basis": "aggregate across founding partners and vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 118279867.86,
+          "value_ntd": 17328000641.49,
+          "value_usd_m": 534.7818233902228,
+          "dividend_ntd": 497313618.410763,
+          "day_move_ntd": 0.0,
+          "pledge_pct": null,
+          "price": 146.5,
+          "changePct": 0.0,
+          "div_yield": 2.87,
+          "revenue_yoy": -9.227831503970776,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 17328000641.49,
+      "stake_value_usd_m": 534.7818233902228,
+      "net_worth_mid_ntd": 29457601090.533,
+      "net_worth_low_usd_m": 681.8468248225341,
+      "net_worth_mid_usd_m": 909.1290997633788,
+      "net_worth_high_usd_m": 1136.4113747042236,
+      "dividend_gross_ntd": 497313618.410763,
+      "dividend_gross_usd_m": 15.348238331299397,
+      "dividend_net_usd_m": 11.050731598535563,
+      "bankable_usd_m": 6.630438959121338,
+      "day_move_ntd": 0,
+      "day_move_usd_m": 0.0,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.50bn gross across 1 line(s), roughly US$7m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$5.0 億元，稅後可再配置約 US$7 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 46.9
+    },
+    {
+      "subject_id": "huang-family-teco",
+      "name_zh": "黃茂雄家族",
+      "name_en": "Huang family (TECO)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "東元集團相關投資公司"
+      ],
+      "tags": [
+        "control-contest-history",
+        "family-dispute-history",
+        "diversified-group"
+      ],
+      "notes": [
+        {
+          "ticker": "1504",
+          "text": "Public proxy contest between family branches (2021) — governance and trust structuring is a live, demonstrated need."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "1504",
+          "name_zh": "東元電機",
+          "name_en": "TECO Electric & Machinery",
+          "sector": "Industrial",
+          "stake_pct": 7.0,
+          "stake_basis": "family aggregate; contested between branches",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 166350847.88,
+          "value_ntd": 11228682231.9,
+          "value_usd_m": 346.5428748811802,
+          "dividend_ntd": 332368994.06424004,
+          "day_move_ntd": 216256102.244,
+          "pledge_pct": null,
+          "price": 67.5,
+          "changePct": 1.9637462235649545,
+          "div_yield": 2.96,
+          "revenue_yoy": 0.147322247822855,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 11228682231.9,
+      "stake_value_usd_m": 346.5428748811802,
+      "net_worth_mid_ntd": 19088759794.23,
+      "net_worth_low_usd_m": 441.84216547350474,
+      "net_worth_mid_usd_m": 589.1228872980063,
+      "net_worth_high_usd_m": 736.4036091225078,
+      "dividend_gross_ntd": 332368994.06424004,
+      "dividend_gross_usd_m": 10.257669096482934,
+      "dividend_net_usd_m": 7.385521749467713,
+      "bankable_usd_m": 4.431313049680627,
+      "day_move_ntd": 216256102.244,
+      "day_move_usd_m": 6.674159071785692,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.33bn gross across 1 line(s), roughly US$4m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$3.3 億元，稅後可再配置約 US$4 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "governance",
+          "weight": 0.5,
+          "text_en": "Documented intra-family dispute — demonstrated need for formal family governance",
+          "text_zh": "有公開的家族爭議紀錄，對正式家族治理有明確需求"
+        }
+      ],
+      "catalyst_score": 82,
+      "accessibility_score": 50,
+      "score": 45.9
+    },
+    {
+      "subject_id": "alex-lo",
+      "name_zh": "羅智先",
+      "name_en": "Alex Lo",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "family_office",
+      "base": "Tainan",
+      "vehicles": [
+        "統一集團相關投資公司"
+      ],
+      "tags": [
+        "southern-taiwan",
+        "consumer",
+        "group-cross-holdings",
+        "second-generation"
+      ],
+      "notes": [
+        {
+          "ticker": "1216",
+          "text": "Tainan Kao family successor line. Group cross-holdings (2912 統一超) add to the household beyond this line."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "1216",
+          "name_zh": "統一企業",
+          "name_en": "Uni-President Enterprises",
+          "sector": "Consumer Staples",
+          "stake_pct": 3.0,
+          "stake_basis": "personal and family holdings (Kao family successor line)",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 170460462.63,
+          "value_ntd": 13142501668.772999,
+          "value_usd_m": 405.60773004052214,
+          "dividend_ntd": 511243314.9152697,
+          "day_move_ntd": -51138138.789,
+          "pledge_pct": null,
+          "price": 77.1,
+          "changePct": -0.3875968992248062,
+          "div_yield": 3.89,
+          "revenue_yoy": 4.598464470005653,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 13142501668.772999,
+      "stake_value_usd_m": 405.60773004052214,
+      "net_worth_mid_ntd": 22342252836.914097,
+      "net_worth_low_usd_m": 517.1498558016657,
+      "net_worth_mid_usd_m": 689.5331410688876,
+      "net_worth_high_usd_m": 861.9164263361096,
+      "dividend_gross_ntd": 511243314.9152697,
+      "dividend_gross_usd_m": 15.778140698576312,
+      "dividend_net_usd_m": 11.360261302974942,
+      "bankable_usd_m": 6.816156781784966,
+      "day_move_ntd": -51138138.789,
+      "day_move_usd_m": -1.578240194710203,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.51bn gross across 1 line(s), roughly US$7m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$5.1 億元，稅後可再配置約 US$7 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 45.1
+    },
+    {
+      "subject_id": "simon-lin",
+      "name_zh": "林憲銘",
+      "name_en": "Simon Lin",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "professional_exec",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "ai-server-cycle",
+        "professional-founder"
+      ],
+      "notes": [
+        {
+          "ticker": "3231",
+          "text": "Also holds economic interest through Wiwynn (6669) — cross-holding value not captured here."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "3231",
+          "name_zh": "緯創資通",
+          "name_en": "Wistron",
+          "sector": "Tech Hardware",
+          "stake_pct": 1.8,
+          "stake_basis": "personal direct",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 57240940.5,
+          "value_ntd": 10131646468.5,
+          "value_usd_m": 312.685836321832,
+          "dividend_ntd": 315094205.17035,
+          "day_move_ntd": -114481881.0,
+          "pledge_pct": null,
+          "price": 177.0,
+          "changePct": -1.1173184357541899,
+          "div_yield": 3.11,
+          "revenue_yoy": 53.84760848458394,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.25,
+      "stake_value_ntd": 10131646468.5,
+      "stake_value_usd_m": 312.685836321832,
+      "net_worth_mid_ntd": 12664558085.625,
+      "net_worth_low_usd_m": 293.14297155171744,
+      "net_worth_mid_usd_m": 390.85729540229,
+      "net_worth_high_usd_m": 488.57161925286243,
+      "dividend_gross_ntd": 315094205.17035,
+      "dividend_gross_usd_m": 9.724529509608974,
+      "dividend_net_usd_m": 7.001661246918461,
+      "bankable_usd_m": 4.200996748151076,
+      "day_move_ntd": -114481881.0,
+      "day_move_usd_m": -3.533173291772113,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.32bn gross across 1 line(s), roughly US$4m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$3.2 億元，稅後可再配置約 US$4 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        },
+        {
+          "kind": "fundamental",
+          "weight": 0.5,
+          "text_en": "Wistron monthly revenue +54% YoY — earnings momentum ahead of the next dividend cycle",
+          "text_zh": "緯創資通 月營收年增 54%，下一個配息循環的獲利動能"
+        }
+      ],
+      "catalyst_score": 82,
+      "accessibility_score": 50,
+      "score": 42.7
+    },
+    {
+      "subject_id": "hung-chen-hai",
+      "name_zh": "洪鎮海",
+      "name_en": "Hung Chen-hai",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "functional-textiles",
+        "steady-dividend"
+      ],
+      "notes": [],
+      "holdings": [
+        {
+          "ticker": "1476",
+          "name_zh": "儒鴻企業",
+          "name_en": "Eclat Textile",
+          "sector": "Textiles",
+          "stake_pct": 8.0,
+          "stake_basis": "personal direct plus family holdings",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 21949368.88,
+          "value_ntd": 7495709472.5199995,
+          "value_usd_m": 231.33477786926733,
+          "dividend_ntd": 329061645.843628,
+          "day_move_ntd": 153645582.16,
+          "pledge_pct": null,
+          "price": 341.5,
+          "changePct": 2.092675635276532,
+          "div_yield": 4.39,
+          "revenue_yoy": 14.421665767535043,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.45,
+      "stake_value_ntd": 7495709472.5199995,
+      "stake_value_usd_m": 231.33477786926733,
+      "net_worth_mid_ntd": 10868778735.154,
+      "net_worth_low_usd_m": 251.5765709328282,
+      "net_worth_mid_usd_m": 335.43542791043757,
+      "net_worth_high_usd_m": 419.294284888047,
+      "dividend_gross_ntd": 329061645.843628,
+      "dividend_gross_usd_m": 10.155596748460836,
+      "dividend_net_usd_m": 7.312029658891801,
+      "bankable_usd_m": 4.38721779533508,
+      "day_move_ntd": 153645582.16,
+      "day_move_usd_m": 4.741854890438861,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.33bn gross across 1 line(s), roughly US$4m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$3.3 億元，稅後可再配置約 US$4 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 37.9
+    },
+    {
+      "subject_id": "wang-family-fpg",
+      "name_zh": "王氏家族（台塑集團）",
+      "name_en": "Wang family (Formosa Plastics Group)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [
+        "長庚醫療財團法人",
+        "公益信託王長庚社會福利基金"
+      ],
+      "tags": [
+        "foundation-controlled",
+        "structure-limited",
+        "large-family",
+        "succession-litigated"
+      ],
+      "notes": [
+        {
+          "ticker": "1301",
+          "text": "The controlling blocks sit in hospital foundations and public-interest trusts, not with individuals. Individual attributability is deliberately conservative — do not read the group's market cap as family wealth."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "1301",
+          "name_zh": "台灣塑膠工業",
+          "name_en": "Formosa Plastics",
+          "sector": "Materials",
+          "stake_pct": 2.5,
+          "stake_basis": "directly attributable family holdings only; excludes foundation and trust blocks",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 159143519.525,
+          "value_ntd": 9819155154.692501,
+          "value_usd_m": 303.0416380066817,
+          "dividend_ntd": 79535156.75300926,
+          "day_move_ntd": -159143519.525,
+          "pledge_pct": null,
+          "price": 61.7,
+          "changePct": -1.5948963317384368,
+          "div_yield": 0.81,
+          "revenue_yoy": -2.686566790060689,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 9819155154.692501,
+      "stake_value_usd_m": 303.0416380066817,
+      "net_worth_mid_ntd": 16692563762.977251,
+      "net_worth_low_usd_m": 386.3780884585192,
+      "net_worth_mid_usd_m": 515.1707846113588,
+      "net_worth_high_usd_m": 643.9634807641986,
+      "dividend_gross_ntd": 79535156.75300926,
+      "dividend_gross_usd_m": 2.454637267854122,
+      "dividend_net_usd_m": 1.7673388328549677,
+      "bankable_usd_m": 1.0604032997129806,
+      "day_move_ntd": -159143519.525,
+      "day_move_usd_m": -4.91153384127523,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only",
+        "attribution-weak"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.08bn gross across 1 line(s), roughly US$1m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$0.8 億元，稅後可再配置約 US$1 百萬"
+        },
+        {
+          "kind": "succession",
+          "weight": 0.6,
+          "text_en": "Succession unresolved or contested — governance and trust structuring need",
+          "text_zh": "接班未定或有爭議，家族治理與信託架構需求"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 86,
+      "accessibility_score": 30,
+      "score": 36.8
+    },
+    {
+      "subject_id": "chung-family-huaku",
+      "name_zh": "鍾榮昌家族",
+      "name_en": "Chung family (Huaku)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "property_developer",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "property",
+        "high-payout",
+        "taipei-prime"
+      ],
+      "notes": [],
+      "holdings": [
+        {
+          "ticker": "2548",
+          "name_zh": "華固建設",
+          "name_en": "Huaku Development",
+          "sector": "Property",
+          "stake_pct": 14.0,
+          "stake_basis": "family aggregate",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 44760617.58,
+          "value_ntd": 4449205387.452,
+          "value_usd_m": 137.31267784247885,
+          "dividend_ntd": 380407060.62714607,
+          "day_move_ntd": 35808494.064,
+          "pledge_pct": null,
+          "price": 99.4,
+          "changePct": 0.8113590263691683,
+          "div_yield": 8.55,
+          "revenue_yoy": -88.82270725931926,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.85,
+      "stake_value_ntd": 4449205387.452,
+      "stake_value_usd_m": 137.31267784247885,
+      "net_worth_mid_ntd": 8231029966.7862,
+      "net_worth_low_usd_m": 190.5213405064394,
+      "net_worth_mid_usd_m": 254.02845400858587,
+      "net_worth_high_usd_m": 317.53556751073233,
+      "dividend_gross_ntd": 380407060.62714607,
+      "dividend_gross_usd_m": 11.740233955531943,
+      "dividend_net_usd_m": 8.452968447983,
+      "bankable_usd_m": 5.071781068789799,
+      "day_move_ntd": 35808494.064,
+      "day_move_usd_m": 1.1051322160360473,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.38bn gross across 1 line(s), roughly US$5m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$3.8 億元，稅後可再配置約 US$5 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 36.6
+    },
+    {
+      "subject_id": "steven-pan",
+      "name_zh": "潘思亮",
+      "name_en": "Steven Pan",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "family_office",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "hospitality",
+        "us-educated",
+        "property-assets",
+        "offshore-comfortable"
+      ],
+      "notes": [
+        {
+          "ticker": "2707",
+          "text": "US-educated, internationally fluent — low friction for an English-language offshore relationship."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2707",
+          "name_zh": "晶華國際酒店",
+          "name_en": "FIH Regent Group",
+          "sector": "Hospitality",
+          "stake_pct": 18.0,
+          "stake_basis": "family aggregate via investment companies",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 22932582.84,
+          "value_ntd": 4116398619.78,
+          "value_usd_m": 127.04149804888587,
+          "dividend_ntd": 246572277.32482198,
+          "day_move_ntd": 11466291.42,
+          "pledge_pct": null,
+          "price": 179.5,
+          "changePct": 0.27932960893854747,
+          "div_yield": 5.99,
+          "revenue_yoy": 13.941776369250771,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 4116398619.78,
+      "stake_value_usd_m": 127.04149804888587,
+      "net_worth_mid_ntd": 6997877653.626,
+      "net_worth_low_usd_m": 161.9779100123295,
+      "net_worth_mid_usd_m": 215.97054668310597,
+      "net_worth_high_usd_m": 269.96318335388247,
+      "dividend_gross_ntd": 246572277.32482198,
+      "dividend_gross_usd_m": 7.609785733128263,
+      "dividend_net_usd_m": 5.479045727852349,
+      "bankable_usd_m": 3.28742743671141,
+      "day_move_ntd": 11466291.42,
+      "day_move_usd_m": 0.3538760391333868,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.25bn gross across 1 line(s), roughly US$3m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$2.5 億元，稅後可再配置約 US$3 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 70,
+      "score": 35.4
+    },
+    {
+      "subject_id": "chou-li-ping",
+      "name_zh": "周理平",
+      "name_en": "Chou Li-ping",
+      "subject_type": "individual",
+      "role_zh": "董事長",
+      "role_en": "Chairman",
+      "archetype": "founder_operator",
+      "base": "Taipei",
+      "vehicles": [],
+      "tags": [
+        "apparel-odm",
+        "high-payout"
+      ],
+      "notes": [],
+      "holdings": [
+        {
+          "ticker": "1477",
+          "name_zh": "聚陽實業",
+          "name_en": "Makalot Industrial",
+          "sector": "Textiles",
+          "stake_pct": 9.0,
+          "stake_basis": "personal direct plus family holdings",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 22202434.17,
+          "value_ntd": 4840130649.06,
+          "value_usd_m": 149.3775275927412,
+          "dividend_ntd": 333000988.655328,
+          "day_move_ntd": 66607302.510000005,
+          "pledge_pct": null,
+          "price": 218.0,
+          "changePct": 1.3953488372093024,
+          "div_yield": 6.88,
+          "revenue_yoy": 0.5258737649106279,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.45,
+      "stake_value_ntd": 4840130649.06,
+      "stake_value_usd_m": 149.3775275927412,
+      "net_worth_mid_ntd": 7018189441.137,
+      "net_worth_low_usd_m": 162.44806125710605,
+      "net_worth_mid_usd_m": 216.59741500947473,
+      "net_worth_high_usd_m": 270.7467687618434,
+      "dividend_gross_ntd": 333000988.655328,
+      "dividend_gross_usd_m": 10.277173898380592,
+      "dividend_net_usd_m": 7.399565206834026,
+      "bankable_usd_m": 4.439739124100415,
+      "day_move_ntd": 66607302.510000005,
+      "day_move_usd_m": 2.0556540494413924,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.33bn gross across 1 line(s), roughly US$4m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$3.3 億元，稅後可再配置約 US$4 百萬"
+        },
+        {
+          "kind": "concentration",
+          "weight": 0.55,
+          "text_en": "100% of measured wealth sits in a single listed line — concentration and hedging conversation",
+          "text_zh": "可衡量財富有 100% 集中於單一上市持股，集中度與避險議題"
+        }
+      ],
+      "catalyst_score": 62,
+      "accessibility_score": 50,
+      "score": 34.9
+    },
+    {
+      "subject_id": "yen-family",
+      "name_zh": "嚴家（裕隆）",
+      "name_en": "Yen family (Yulon)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Taipei / Miaoli",
+      "vehicles": [
+        "裕隆集團相關投資公司"
+      ],
+      "tags": [
+        "female-principal",
+        "group-restructuring",
+        "property-assets"
+      ],
+      "notes": [
+        {
+          "ticker": "2201",
+          "text": "Led by 嚴陳莉蓮 since 2018. Group holds significant land assets; listed stake understates the estate."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "2201",
+          "name_zh": "裕隆汽車",
+          "name_en": "Yulon Motor",
+          "sector": "Autos",
+          "stake_pct": 7.0,
+          "stake_basis": "family aggregate via group vehicles",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": 74900087.57,
+          "value_ntd": 2070987421.3104997,
+          "value_usd_m": 63.91541945899943,
+          "dividend_ntd": 42041044.652603135,
+          "day_move_ntd": -18725021.8925,
+          "pledge_pct": null,
+          "price": 27.65,
+          "changePct": -0.896057347670251,
+          "div_yield": 2.03,
+          "revenue_yoy": -8.059032297438698,
+          "priced": true
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 2070987421.3104997,
+      "stake_value_usd_m": 63.91541945899943,
+      "net_worth_mid_ntd": 3520678616.2278495,
+      "net_worth_low_usd_m": 81.49215981022428,
+      "net_worth_mid_usd_m": 108.65621308029904,
+      "net_worth_high_usd_m": 135.8202663503738,
+      "dividend_gross_ntd": 42041044.652603135,
+      "dividend_gross_usd_m": 1.2974830150176884,
+      "dividend_net_usd_m": 0.9341877708127354,
+      "bankable_usd_m": 0.5605126624876412,
+      "day_move_ntd": -18725021.8925,
+      "day_move_usd_m": -0.5778971017992716,
+      "pledge_pct": null,
+      "top_line_share": 1.0,
+      "line_count": 1,
+      "flags": [
+        "estimate-only"
+      ],
+      "signals": [
+        {
+          "kind": "dividend",
+          "weight": 1.0,
+          "text_en": "Dividend season — NT$0.04bn gross across 1 line(s), roughly US$1m redeployable after tax",
+          "text_zh": "除息旺季 — 1 檔合計股利約 NT$0.4 億元，稅後可再配置約 US$1 百萬"
+        }
+      ],
+      "catalyst_score": 40,
+      "accessibility_score": 50,
+      "score": 18.4
+    },
+    {
+      "subject_id": "chen-family-poya",
+      "name_zh": "陳建造家族",
+      "name_en": "Chen family (Poya)",
+      "subject_type": "family",
+      "role_zh": "創辦家族",
+      "role_en": "Founding family",
+      "archetype": "family_office",
+      "base": "Tainan",
+      "vehicles": [],
+      "tags": [
+        "southern-taiwan",
+        "retail",
+        "high-payout",
+        "under-covered"
+      ],
+      "notes": [
+        {
+          "ticker": "5904",
+          "text": "Tainan-based and materially under-covered by offshore private banks relative to wealth — a genuine white-space name."
+        }
+      ],
+      "holdings": [
+        {
+          "ticker": "5904",
+          "name_zh": "寶雅國際",
+          "name_en": "Poya International",
+          "sector": "Retail",
+          "stake_pct": 18.0,
+          "stake_basis": "family aggregate",
+          "stake_source": "curated-estimate",
+          "as_of": "2026-Q1",
+          "confidence": "low",
+          "shares_held": null,
+          "value_ntd": null,
+          "value_usd_m": 0.0,
+          "dividend_ntd": null,
+          "day_move_ntd": null,
+          "pledge_pct": null,
+          "price": null,
+          "changePct": null,
+          "div_yield": null,
+          "revenue_yoy": null,
+          "priced": false
+        }
+      ],
+      "confidence": "low",
+      "uplift": 1.7,
+      "stake_value_ntd": 0,
+      "stake_value_usd_m": 0.0,
+      "net_worth_mid_ntd": 0.0,
+      "net_worth_low_usd_m": 0.0,
+      "net_worth_mid_usd_m": 0.0,
+      "net_worth_high_usd_m": 0.0,
+      "dividend_gross_ntd": 0,
+      "dividend_gross_usd_m": 0.0,
+      "dividend_net_usd_m": 0.0,
+      "bankable_usd_m": 0.0,
+      "day_move_ntd": 0,
+      "day_move_usd_m": 0.0,
+      "pledge_pct": null,
+      "top_line_share": null,
+      "line_count": 1,
+      "flags": [
+        "no-live-price",
+        "estimate-only",
+        "sub-threshold"
+      ],
+      "signals": [],
+      "catalyst_score": 0,
+      "accessibility_score": 70,
+      "score": 7.0
+    }
+  ],
+  "diagnostics": {
+    "sources": {
+      "twse:STOCK_DAY_ALL": {
+        "ok": true,
+        "detail": "1372 rows"
+      },
+      "twse:t187ap03_L (company profile)": {
+        "ok": true,
+        "detail": "1092 rows"
+      },
+      "twse:BWIBBU_ALL (valuation)": {
+        "ok": true,
+        "detail": "1080 rows"
+      },
+      "twse:t187ap05_L (monthly revenue)": {
+        "ok": true,
+        "detail": "1082 rows"
+      },
+      "twse:TWT48U_ALL (ex-dividend)": {
+        "ok": true,
+        "detail": "125 rows"
+      },
+      "yahoo:TWD=X": {
+        "ok": true,
+        "detail": "32.402"
+      },
+      "mops:insider-holdings": {
+        "ok": false,
+        "detail": "0/45 issuers with parsed insider rows (ROC 115/06) — gave up after 5 consecutive failures"
+      }
+    },
+    "warnings": []
+  }
+}
