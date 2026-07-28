@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taiwan Prospect Radar · TWSE Principal Wealth Screen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300..700&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg-base: #0a0d14;
+    --bg-surface: #10141d;
+    --bg-elev: #161c28;
+    --bg-hover: #1d2533;
+
+    --line-faint: rgba(255,255,255,0.05);
+    --line-soft: rgba(255,255,255,0.09);
+    --line-strong: rgba(255,255,255,0.18);
+
+    --ink-bright: #f4ecd8;
+    --ink-primary: #d6cfbf;
+    --ink-secondary: #8893a6;
+    --ink-tertiary: #5c6473;
+    --ink-faint: #383f4d;
+
+    --tier-1: #f4ecd8;
+    --tier-2: #c9a866;
+    --tier-3: #88b0c9;
+    --tier-4: #5c6473;
+
+    --up:   #4ade80;
+    --down: #ff6b9d;
+    --warn: #ffb86b;
+    --alert: #e07a5f;
+    --accent: #a988d4;
+
+    --serif: 'Instrument Serif', 'Source Serif Pro', Georgia, serif;
+    --serif-tc: 'Noto Serif TC', 'PingFang TC', 'Microsoft JhengHei', serif;
+    --sans: 'Inter Tight', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+
+    --t-quick: 180ms cubic-bezier(0.4, 0, 0.2, 1);
+    --t-smooth: 420ms cubic-bezier(0.32, 0.72, 0.21, 0.99);
+  }
+
+  html { background: var(--bg-base); }
+  body {
+    font-family: var(--sans); font-weight: 380;
+    color: var(--ink-primary);
+    background:
+      radial-gradient(ellipse 70% 50% at 15% 25%, rgba(184, 138, 255, 0.05), transparent 60%),
+      radial-gradient(ellipse 60% 45% at 85% 70%, rgba(255, 149, 88, 0.04), transparent 60%),
+      var(--bg-base);
+    line-height: 1.55; min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: ''; position: fixed; inset: 0;
+    pointer-events: none; z-index: 1;
+    opacity: 0.03; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .mono { font-family: var(--mono); font-feature-settings: "tnum"; }
+  .zh { font-family: var(--serif-tc); }
+
+  /* ── header ── */
+  header.app-header {
+    position: relative; z-index: 2;
+    padding: 30px 40px 22px;
+    border-bottom: 1px solid var(--line-faint);
+    display: flex; align-items: flex-end;
+    justify-content: space-between; gap: 48px; flex-wrap: wrap;
+  }
+  .brand { display: flex; flex-direction: column; gap: 4px; max-width: 640px; }
+  .brand-line {
+    font-family: var(--mono);
+    font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--ink-tertiary);
+    display: flex; align-items: center; gap: 12px;
+  }
+  .brand-line .dot {
+    width: 7px; height: 7px; background: var(--up);
+    border-radius: 50%; box-shadow: 0 0 14px var(--up);
+    animation: pulse 2.4s ease-in-out infinite;
+  }
+  .brand-line .dot.stale { background: var(--warn); box-shadow: 0 0 14px var(--warn); }
+  .brand-line .dot.bad { background: var(--down); box-shadow: 0 0 14px var(--down); }
+  @keyframes pulse { 0%,100% { opacity:1; transform:scale(1);} 50% { opacity:.5; transform:scale(.85);} }
+  .brand-title {
+    font-family: var(--serif); font-weight: 400; font-size: 46px;
+    line-height: 1.02; letter-spacing: -0.01em;
+    color: var(--ink-bright); margin-top: 6px;
+  }
+  .brand-title em { font-style: italic; opacity: 0.94; }
+  .brand-sub { font-size: 13.5px; color: var(--ink-secondary); margin-top: 10px; }
+
+  .meta-strip { display: flex; gap: 32px; align-items: flex-end; flex-wrap: wrap; }
+  .meta-block { display: flex; flex-direction: column; gap: 3px; }
+  .meta-label {
+    font-family: var(--mono); font-size: 9.5px; font-weight: 500;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-tertiary);
+  }
+  .meta-value {
+    font-family: var(--serif); font-size: 28px; line-height: 1.02;
+    color: var(--ink-bright); font-feature-settings: "tnum";
+  }
+  .meta-value.small {
+    font-size: 13px; font-family: var(--mono); color: var(--ink-primary);
+  }
+
+  /* ── controls ── */
+  .controls {
+    position: relative; z-index: 2;
+    padding: 14px 40px;
+    display: flex; align-items: center; gap: 16px;
+    border-bottom: 1px solid var(--line-faint);
+    flex-wrap: wrap;
+  }
+  .seg {
+    display: flex; gap: 2px; background: var(--bg-surface);
+    padding: 3px; border-radius: 4px; border: 1px solid var(--line-faint);
+  }
+  .seg button {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-tertiary);
+    padding: 7px 13px; border-radius: 3px; cursor: pointer;
+    border: none; background: transparent; transition: all var(--t-quick);
+  }
+  .seg button:hover { color: var(--ink-primary); }
+  .seg button.active { color: var(--ink-bright); background: var(--bg-elev); }
+
+  .search-box {
+    flex: 1; min-width: 200px; max-width: 340px; position: relative;
+  }
+  .search-box input {
+    width: 100%; background: var(--bg-surface);
+    border: 1px solid var(--line-faint); border-radius: 4px;
+    padding: 9px 12px 9px 32px; color: var(--ink-bright);
+    font-family: var(--sans); font-size: 13px; outline: none;
+    transition: border-color var(--t-quick);
+  }
+  .search-box input:focus { border-color: var(--line-strong); }
+  .search-box input::placeholder { color: var(--ink-faint); }
+  .search-box::before {
+    content: '⌕'; position: absolute; left: 11px; top: 50%;
+    transform: translateY(-52%); color: var(--ink-tertiary); font-size: 15px;
+  }
+
+  .ghost-btn {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink-secondary);
+    background: transparent; border: 1px solid var(--line-soft);
+    padding: 8px 12px; border-radius: 4px; cursor: pointer;
+    transition: all var(--t-quick);
+  }
+  .ghost-btn:hover { color: var(--ink-bright); border-color: var(--line-strong); background: var(--bg-elev); }
+
+  .filter-row {
+    position: relative; z-index: 2;
+    padding: 10px 40px 12px; display: flex; gap: 6px; flex-wrap: wrap;
+    align-items: center; border-bottom: 1px solid var(--line-faint);
+  }
+  .filter-row .flabel {
+    font-family: var(--mono); font-size: 9px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--ink-faint); margin-right: 4px;
+  }
+  .chip {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em;
+    color: var(--ink-secondary); padding: 5px 10px; border-radius: 3px;
+    background: transparent; border: 1px solid var(--line-faint);
+    cursor: pointer; transition: all var(--t-quick); user-select: none;
+  }
+  .chip:hover { color: var(--ink-bright); background: var(--bg-hover); }
+  .chip.active { color: var(--ink-bright); background: var(--bg-elev); border-color: var(--line-strong); }
+  .chip .ct { color: var(--ink-faint); margin-left: 5px; font-size: 9px; }
+
+  /* ── caveat ── */
+  .caveat {
+    position: relative; z-index: 2;
+    margin: 16px 40px 0; padding: 11px 14px;
+    border: 1px solid rgba(255, 184, 107, 0.22);
+    border-left: 2px solid var(--warn);
+    border-radius: 0 4px 4px 0;
+    background: rgba(255, 184, 107, 0.04);
+    font-size: 12.5px; color: var(--ink-secondary);
+    display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap;
+  }
+  .caveat b { color: var(--warn); font-weight: 600; font-family: var(--mono);
+    font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; }
+
+  /* ── table ── */
+  main { position: relative; z-index: 2; padding: 20px 40px 60px; }
+  .tbl-wrap { border: 1px solid var(--line-faint); border-radius: 6px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 1080px; }
+  thead th {
+    font-family: var(--mono); font-size: 9px; font-weight: 500;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-tertiary);
+    text-align: left; padding: 12px 14px; background: var(--bg-surface);
+    border-bottom: 1px solid var(--line-soft); white-space: nowrap;
+    position: sticky; top: 0; z-index: 3; cursor: pointer; user-select: none;
+  }
+  thead th:hover { color: var(--ink-primary); }
+  thead th.num { text-align: right; }
+  thead th .dir { color: var(--ink-bright); margin-left: 4px; }
+  tbody tr {
+    border-bottom: 1px solid var(--line-faint); cursor: pointer;
+    transition: background var(--t-quick);
+  }
+  tbody tr:hover { background: var(--bg-elev); }
+  tbody tr:last-child { border-bottom: none; }
+  tbody td { padding: 13px 14px; vertical-align: middle; font-size: 13px; }
+  tbody td.num { text-align: right; font-family: var(--mono); font-feature-settings: "tnum"; }
+
+  .subj-name { color: var(--ink-bright); font-size: 15px; line-height: 1.25; }
+  .subj-name .en { color: var(--ink-secondary); font-size: 12px; margin-left: 7px; font-family: var(--sans); }
+  .subj-sub {
+    font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.1em;
+    color: var(--ink-tertiary); text-transform: uppercase; margin-top: 3px;
+    display: flex; gap: 7px; flex-wrap: wrap; align-items: center;
+  }
+  .subj-sub .sep { color: var(--ink-faint); }
+  .subj-sub .fam { color: var(--accent); }
+
+  .tick-list { display: flex; gap: 4px; flex-wrap: wrap; }
+  .tick {
+    font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.06em;
+    padding: 3px 6px; border-radius: 2px; background: var(--bg-elev);
+    border: 1px solid var(--line-faint); color: var(--ink-secondary);
+  }
+  .tick.up { color: var(--up); border-color: rgba(74,222,128,0.22); }
+  .tick.down { color: var(--down); border-color: rgba(255,107,157,0.22); }
+
+  .nw { color: var(--ink-bright); font-size: 15px; }
+  .nw-range { font-size: 9.5px; color: var(--ink-tertiary); letter-spacing: 0.06em; margin-top: 2px; }
+  .nw-bar {
+    height: 3px; background: var(--bg-hover); border-radius: 2px;
+    margin-top: 5px; position: relative; overflow: hidden; min-width: 90px;
+  }
+  .nw-bar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--tier-2); opacity: 0.8; }
+
+  .score-cell { display: flex; align-items: center; gap: 9px; justify-content: flex-end; }
+  .score-num { font-family: var(--mono); font-size: 15px; color: var(--ink-bright); }
+  .score-bar { width: 42px; height: 3px; background: var(--bg-hover); border-radius: 2px; overflow: hidden; }
+  .score-bar i { display: block; height: 100%; background: var(--tier-1); }
+  .score-bar.t2 i { background: var(--tier-2); }
+  .score-bar.t3 i { background: var(--tier-3); }
+  .score-bar.t4 i { background: var(--tier-4); }
+
+  .sig-cell { max-width: 300px; }
+  .sig-top { font-size: 12px; color: var(--ink-primary); line-height: 1.4; }
+  .sig-more {
+    font-family: var(--mono); font-size: 9px; letter-spacing: 0.14em;
+    color: var(--ink-tertiary); text-transform: uppercase; margin-top: 4px;
+  }
+
+  .flagset { display: flex; gap: 4px; flex-wrap: wrap; }
+  .flag {
+    font-family: var(--mono); font-size: 8.5px; letter-spacing: 0.12em;
+    text-transform: uppercase; padding: 2px 5px; border-radius: 2px;
+    border: 1px solid var(--line-faint); color: var(--ink-tertiary);
+  }
+  .flag.est { color: var(--warn); border-color: rgba(255,184,107,0.28); }
+  .flag.verified { color: var(--up); border-color: rgba(74,222,128,0.28); }
+  .flag.competitor { color: var(--alert); border-color: rgba(224,122,95,0.3); }
+  .flag.weak { color: var(--ink-tertiary); }
+  .flag.sub { color: var(--ink-faint); }
+
+  .empty-state {
+    padding: 60px; text-align: center; font-family: var(--mono);
+    font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-tertiary);
+  }
+
+  /* ── drawer ── */
+  .scrim {
+    position: fixed; inset: 0; background: rgba(6,8,12,0.6);
+    z-index: 40; opacity: 0; pointer-events: none; transition: opacity var(--t-smooth);
+  }
+  .scrim.open { opacity: 1; pointer-events: auto; }
+  .drawer {
+    position: fixed; top: 0; right: 0;
+    width: min(620px, 96vw); height: 100vh;
+    background: var(--bg-surface); border-left: 1px solid var(--line-soft);
+    z-index: 50; transform: translateX(100%);
+    transition: transform var(--t-smooth); overflow-y: auto;
+    box-shadow: -40px 0 60px rgba(0,0,0,0.45);
+  }
+  .drawer.open { transform: translateX(0); }
+  .drawer-inner { padding: 30px 34px 70px; }
+
+  .drawer-top {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 16px; margin-bottom: 22px;
+  }
+  .drawer-name { font-family: var(--serif-tc); font-size: 34px; font-weight: 600;
+    line-height: 1.1; color: var(--ink-bright); }
+  .drawer-name-en { font-family: var(--serif); font-size: 22px; color: var(--ink-secondary); margin-top: 2px; }
+  .drawer-role {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-tertiary); margin-top: 8px;
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+
+  .sec-title {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    margin: 30px 0 12px; display: flex; justify-content: space-between; align-items: baseline;
+    border-top: 1px solid var(--line-faint); padding-top: 16px;
+  }
+  .sec-title:first-of-type { border-top: none; padding-top: 0; }
+  .sec-title span.hint { color: var(--ink-faint); letter-spacing: 0.1em; }
+
+  .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px,1fr)); gap: 1px;
+    background: var(--line-faint); border: 1px solid var(--line-faint); border-radius: 4px; overflow: hidden; }
+  .kpi { background: var(--bg-surface); padding: 13px 14px; }
+  .kpi-label { font-family: var(--mono); font-size: 8.5px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-tertiary); }
+  .kpi-value { font-family: var(--serif); font-size: 24px; color: var(--ink-bright);
+    margin-top: 3px; font-feature-settings: "tnum"; line-height: 1.1; }
+  .kpi-value.up { color: var(--up); } .kpi-value.down { color: var(--down); }
+  .kpi-note { font-family: var(--mono); font-size: 9px; color: var(--ink-tertiary); margin-top: 3px; }
+
+  .waterfall { display: flex; flex-direction: column; gap: 8px; }
+  .wf-row { display: flex; align-items: center; gap: 12px; font-size: 12.5px; }
+  .wf-row .lbl { color: var(--ink-secondary); flex: 1; }
+  .wf-row .val { font-family: var(--mono); color: var(--ink-bright); font-feature-settings: "tnum"; }
+  .wf-row.op .lbl, .wf-row.op .val { color: var(--ink-tertiary); font-size: 11.5px; }
+  .wf-row.total { border-top: 1px solid var(--line-soft); padding-top: 9px; }
+  .wf-row.total .lbl { color: var(--ink-bright); }
+  .wf-row.total .val { font-size: 16px; }
+
+  .hold-tbl { width: 100%; border-collapse: collapse; font-size: 12px; min-width: 0; }
+  .hold-tbl th {
+    font-family: var(--mono); font-size: 8.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink-tertiary); text-align: left;
+    padding: 7px 8px; border-bottom: 1px solid var(--line-faint); font-weight: 500;
+  }
+  .hold-tbl th.num, .hold-tbl td.num { text-align: right; }
+  .hold-tbl td { padding: 9px 8px; border-bottom: 1px solid var(--line-faint); }
+  .hold-tbl td.num { font-family: var(--mono); font-feature-settings: "tnum"; }
+  .hold-tbl a { color: var(--ink-secondary); text-decoration: none; }
+  .hold-tbl a:hover { color: var(--ink-bright); }
+
+  .sig-list { display: flex; flex-direction: column; gap: 10px; }
+  .sig-item {
+    padding: 11px 13px; border-radius: 0 4px 4px 0;
+    background: rgba(255,255,255,0.018);
+    border-left: 2px solid var(--sig-color, var(--ink-faint));
+    font-size: 12.5px; line-height: 1.5; color: var(--ink-primary);
+  }
+  .sig-kind {
+    font-family: var(--mono); font-size: 8.5px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--sig-color, var(--ink-tertiary));
+    display: block; margin-bottom: 4px;
+  }
+
+  .note-block {
+    font-size: 12.5px; line-height: 1.55; color: var(--ink-secondary);
+    padding: 11px 13px; background: rgba(255,255,255,0.018);
+    border-left: 2px solid var(--line-soft); border-radius: 0 4px 4px 0; margin-bottom: 8px;
+  }
+  .note-block .src { font-family: var(--mono); font-size: 9px; letter-spacing: 0.14em;
+    color: var(--ink-faint); text-transform: uppercase; display: block; margin-bottom: 4px; }
+
+  .link-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .link-row a {
+    font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--ink-secondary); text-decoration: none;
+    border: 1px solid var(--line-faint); padding: 6px 10px; border-radius: 3px;
+    transition: all var(--t-quick);
+  }
+  .link-row a:hover { color: var(--ink-bright); border-color: var(--line-strong); background: var(--bg-elev); }
+
+  .tagset { display: flex; gap: 5px; flex-wrap: wrap; }
+  .tag {
+    font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em;
+    color: var(--ink-tertiary); border: 1px solid var(--line-faint);
+    padding: 3px 7px; border-radius: 2px;
+  }
+
+  /* ── modal ── */
+  .modal {
+    position: fixed; inset: 0; z-index: 60; display: none;
+    align-items: center; justify-content: center; padding: 24px;
+    background: rgba(6,8,12,0.72);
+  }
+  .modal.open { display: flex; }
+  .modal-card {
+    background: var(--bg-surface); border: 1px solid var(--line-soft);
+    border-radius: 6px; max-width: 780px; width: 100%;
+    max-height: 86vh; overflow-y: auto; padding: 32px 36px 40px;
+  }
+  .modal-card h2 { font-family: var(--serif); font-size: 30px; font-weight: 400;
+    color: var(--ink-bright); margin-bottom: 6px; }
+  .modal-card h3 {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    margin: 26px 0 10px; border-top: 1px solid var(--line-faint); padding-top: 16px;
+  }
+  .modal-card p { font-size: 13.5px; color: var(--ink-secondary); margin-bottom: 10px; line-height: 1.6; }
+  .modal-card code {
+    font-family: var(--mono); font-size: 12px; color: var(--ink-bright);
+    background: var(--bg-elev); padding: 2px 6px; border-radius: 3px;
+  }
+  .formula {
+    font-family: var(--mono); font-size: 12.5px; color: var(--ink-primary);
+    background: var(--bg-base); border: 1px solid var(--line-faint);
+    border-radius: 4px; padding: 14px 16px; margin: 10px 0 14px; line-height: 1.9;
+  }
+  .formula em { color: var(--tier-2); font-style: normal; }
+  .assump-tbl { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  .assump-tbl td { padding: 7px 8px; border-bottom: 1px solid var(--line-faint); color: var(--ink-secondary); }
+  .assump-tbl td:last-child { text-align: right; font-family: var(--mono); color: var(--ink-bright); }
+
+  .diag-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .diag {
+    font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.08em;
+    padding: 4px 8px; border-radius: 2px; border: 1px solid var(--line-faint);
+    color: var(--ink-tertiary);
+  }
+  .diag.ok { color: var(--up); border-color: rgba(74,222,128,0.25); }
+  .diag.bad { color: var(--down); border-color: rgba(255,107,157,0.25); }
+
+  footer.foot {
+    position: relative; z-index: 2; padding: 22px 40px 30px;
+    border-top: 1px solid var(--line-faint);
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-tertiary);
+    display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  }
+  footer.foot a { color: var(--ink-secondary); text-decoration: none; }
+  footer.foot a:hover { color: var(--ink-bright); }
+
+  @media (max-width: 720px) {
+    header.app-header, .controls, .filter-row, main, footer.foot { padding-left: 20px; padding-right: 20px; }
+    .caveat { margin-left: 20px; margin-right: 20px; }
+    .brand-title { font-size: 34px; }
+    .drawer-inner { padding: 24px 20px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="brand">
+    <div class="brand-line">
+      <span class="dot" id="status-dot"></span>
+      <span id="brand-eyebrow">Taiwan Prospect Radar · TWSE Principal Wealth Screen</span>
+    </div>
+    <h1 class="brand-title" id="brand-title">Who owns Taiwan's <em>listed wealth,</em><br>and what it is worth today</h1>
+    <p class="brand-sub" id="brand-sub">Controlling shareholders of TWSE-listed issuers, their stakes marked to the latest close, and an estimate of what sits behind them. Built for prospecting, not for pricing.</p>
+  </div>
+
+  <div class="meta-strip">
+    <div class="meta-block">
+      <div class="meta-label" data-i18n="asof">Data as of</div>
+      <div class="meta-value small" id="m-time">—</div>
+    </div>
+    <div class="meta-block">
+      <div class="meta-label" data-i18n="subjects">Subjects</div>
+      <div class="meta-value" id="m-subjects">—</div>
+    </div>
+    <div class="meta-block">
+      <div class="meta-label" data-i18n="pool">Wealth pool</div>
+      <div class="meta-value" id="m-pool">—</div>
+    </div>
+    <div class="meta-block">
+      <div class="meta-label" data-i18n="bankable">Bankable cash</div>
+      <div class="meta-value" id="m-bankable">—</div>
+    </div>
+  </div>
+</header>
+
+<section class="controls">
+  <div class="seg" id="view-seg">
+    <button data-view="prospects" class="active" data-i18n="v_prospects">Prospects</button>
+    <button data-view="issuers" data-i18n="v_issuers">Issuers</button>
+  </div>
+  <div class="search-box">
+    <input id="search" type="search" placeholder="Search name, company, ticker, vehicle…" autocomplete="off">
+  </div>
+  <div class="seg" id="lang-seg">
+    <button data-lang="en" class="active">EN</button>
+    <button data-lang="zh">中文</button>
+  </div>
+  <button class="ghost-btn" id="btn-method" data-i18n="methodology">Methodology</button>
+  <button class="ghost-btn" id="btn-export" data-i18n="export">Export CSV</button>
+</section>
+
+<section class="filter-row" id="filter-row"></section>
+
+<div class="caveat">
+  <b data-i18n="caveat_tag">Estimates</b>
+  <span id="caveat-text">Stake percentages are desk estimates unless marked <em>filings-verified</em>. Net worth is modelled from listed holdings and an archetype uplift — it is a prospecting screen, not a statement of a client's assets. Verify against MOPS before any client contact.</span>
+</div>
+
+<main>
+  <div id="table-host"><div class="empty-state" data-i18n="loading">Loading…</div></div>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer"><div class="drawer-inner" id="drawer-inner"></div></aside>
+
+<div class="modal" id="modal"><div class="modal-card" id="modal-card"></div></div>
+
+<footer class="foot">
+  <span id="foot-status">—</span>
+  <span data-i18n="foot_note">Internal prospecting tool · Public data only · Not investment advice</span>
+</footer>
+
+<script>
+/* Reads prospects/data.json, regenerated by a scheduled GitHub Action from
+   TWSE open data. No live calls from the browser, so no CORS and no key. */
+
+const I18N = {
+  en: {
+    asof:'Data as of', subjects:'Subjects', pool:'Wealth pool', bankable:'Bankable cash',
+    v_prospects:'Prospects', v_issuers:'Issuers', methodology:'Methodology', export:'Export CSV',
+    caveat_tag:'Estimates', loading:'Loading…',
+    foot_note:'Internal prospecting tool · Public data only · Not investment advice',
+    eyebrow:'Taiwan Prospect Radar · TWSE Principal Wealth Screen',
+    title:'Who owns Taiwan’s <em>listed wealth,</em><br>and what it is worth today',
+    sub:'Controlling shareholders of TWSE-listed issuers, their stakes marked to the latest close, and an estimate of what sits behind them. Built for prospecting, not for pricing.',
+    search:'Search name, company, ticker, vehicle…',
+    caveat:'Stake percentages are desk estimates unless marked filings-verified. Net worth is modelled from listed holdings and an archetype uplift — it is a prospecting screen, not a statement of a client’s assets. Verify against MOPS before any client contact.',
+    c_subject:'Subject', c_lines:'Listed lines', c_stake:'Stake value', c_nw:'Est. net worth',
+    c_cash:'Bankable cash', c_move:'Day move', c_signal:'Lead signal', c_score:'Score',
+    c_company:'Issuer', c_sector:'Sector', c_price:'Close', c_chg:'Chg', c_mcap:'Market cap',
+    c_pe:'P/E', c_yield:'Yield', c_rev:'Rev YoY', c_principals:'Principals',
+    f_sector:'Sector', f_base:'Base', f_view:'Screen', f_all:'All',
+    f_threshold:'Above US$50m', f_exclude:'Hide competitor-owned', f_verified:'Filings-verified only',
+    d_wealth:'Wealth build-up', d_holdings:'Listed holdings', d_signals:'Lead signals',
+    d_desk:'Desk notes', d_provenance:'Provenance', d_tags:'Profile',
+    w_stake:'Listed stake value at last close', w_uplift:'Unlisted uplift', w_mid:'Estimated net worth',
+    w_range:'Working range', k_nw:'Est. net worth', k_cash:'Bankable cash / yr',
+    k_score:'Prospect score', k_lines:'Listed lines',
+    no_results:'No subjects match these filters',
+    verify:'Verify on MOPS', profile:'TWSE profile',
+  },
+  zh: {
+    asof:'資料時間', subjects:'名單人數', pool:'財富總額', bankable:'可承作現金',
+    v_prospects:'潛在客戶', v_issuers:'上市公司', methodology:'估算方法', export:'匯出 CSV',
+    caveat_tag:'估算值', loading:'載入中…',
+    foot_note:'內部開發工具 · 僅使用公開資料 · 非投資建議',
+    eyebrow:'台股富裕人士雷達 · 上市公司主要股東財富評估',
+    title:'誰持有台灣的<em>上市財富，</em><br>以及今天值多少',
+    sub:'台灣證券交易所上市公司的控制股東、以最新收盤價計算的持股價值，以及其背後財富的估算。用於開發客戶，非用於評價。',
+    search:'搜尋姓名、公司、代號、投資公司…',
+    caveat:'除標示「申報資料」者外，持股比例均為研究估算值。淨值係由上市持股與類型加成推估，僅供開發名單篩選，不代表客戶實際資產。接觸客戶前請以公開資訊觀測站查核。',
+    c_subject:'對象', c_lines:'上市持股', c_stake:'持股市值', c_nw:'估計淨值',
+    c_cash:'可承作現金', c_move:'當日變動', c_signal:'切入訊號', c_score:'評分',
+    c_company:'公司', c_sector:'產業', c_price:'收盤', c_chg:'漲跌', c_mcap:'市值',
+    c_pe:'本益比', c_yield:'殖利率', c_rev:'月營收年增', c_principals:'主要股東',
+    f_sector:'產業', f_base:'據點', f_view:'篩選', f_all:'全部',
+    f_threshold:'US$50m 以上', f_exclude:'排除同業家族', f_verified:'僅申報資料',
+    d_wealth:'財富推算', d_holdings:'上市持股明細', d_signals:'切入訊號',
+    d_desk:'研究註記', d_provenance:'資料來源', d_tags:'輪廓標籤',
+    w_stake:'上市持股市值（最新收盤）', w_uplift:'非上市資產加成', w_mid:'估計淨值',
+    w_range:'合理區間', k_nw:'估計淨值', k_cash:'年度可承作現金',
+    k_score:'開發評分', k_lines:'上市持股檔數',
+    no_results:'沒有符合條件的對象',
+    verify:'公開資訊觀測站查核', profile:'證交所公司資料',
+  }
+};
+
+/* Sector and city labels live in roster.json in English; these are the display
+   translations for the 中文 view. Anything unmapped falls through untranslated. */
+const ZH_TERMS = {
+  'Tech Hardware':'電子硬體', 'Optics':'光學', 'Semiconductors':'半導體', 'Electronics':'電子零組件',
+  'Financials':'金融', 'Components':'被動元件', 'Industrial Tech':'工業電腦', 'Industrial':'機械工業',
+  'Consumer / Footwear':'消費／製鞋', 'Textiles':'紡織', 'Autos':'汽車', 'Auto Parts':'汽車零件',
+  'Conglomerate':'集團控股', 'Property':'營建地產', 'Retail':'零售', 'Hospitality':'觀光餐旅',
+  'Materials':'原物料', 'Telecom':'電信', 'Consumer Staples':'食品民生', 'Shipping':'航運',
+  'Taipei':'台北', 'New Taipei':'新北', 'Taichung':'台中', 'Tainan':'台南',
+  'Kaohsiung':'高雄', 'Hsinchu':'新竹', 'Changhua':'彰化', 'Yunlin':'雲林',
+  'Miaoli':'苗栗', 'Shanghai':'上海',
+};
+const term = (s) => (state.lang === 'zh' && ZH_TERMS[s]) ? ZH_TERMS[s] : s;
+
+const SIGNAL_COLOR = {
+  dividend: 'var(--up)', move: 'var(--tier-2)', fundamental: 'var(--tier-3)',
+  pledge: 'var(--alert)', concentration: 'var(--warn)', event: 'var(--up)',
+  succession: 'var(--accent)', governance: 'var(--accent)',
+};
+
+const state = {
+  data: null, lang: 'en', view: 'prospects', q: '',
+  sortKey: 'score', sortDir: -1,
+  sector: null, base: null,
+  onlyThreshold: false, hideCompetitor: false, onlyVerified: false,
+  selected: null,
+};
+
+const t = (k) => (I18N[state.lang][k] ?? I18N.en[k] ?? k);
+
+/* ── formatting ── */
+function usd(m) {
+  if (m == null || !isFinite(m) || m === 0) return '—';
+  const a = Math.abs(m);
+  if (a >= 1000) return `US$${(m/1000).toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1})}bn`;
+  if (a >= 1) return `US$${m.toLocaleString('en-US',{maximumFractionDigits:0})}m`;
+  return `US$${(m*1000).toLocaleString('en-US',{maximumFractionDigits:0})}k`;
+}
+function ntd(v) {
+  if (v == null || !isFinite(v) || v === 0) return '—';
+  if (state.lang === 'zh') return `NT$${(v/1e8).toLocaleString('en-US',{maximumFractionDigits:1})}億`;
+  const a = Math.abs(v);
+  if (a >= 1e9) return `NT$${(v/1e9).toLocaleString('en-US',{maximumFractionDigits:2})}bn`;
+  return `NT$${(v/1e6).toLocaleString('en-US',{maximumFractionDigits:0})}m`;
+}
+function pct(v, d=1) {
+  if (v == null || !isFinite(v)) return '—';
+  return `${v.toFixed(d)}%`;
+}
+function num(v, d=2) {
+  if (v == null || !isFinite(v)) return '—';
+  return v.toLocaleString('en-US',{minimumFractionDigits:d, maximumFractionDigits:d});
+}
+function signedPct(v) {
+  if (v == null || !isFinite(v)) return '—';
+  return `${v>0?'+':''}${v.toFixed(2)}%`;
+}
+function tierClass(score) {
+  if (score >= 75) return '';
+  if (score >= 55) return 't2';
+  if (score >= 35) return 't3';
+  return 't4';
+}
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c =>
+    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function primaryBase(p) { return p.base ? p.base.split('/')[0].trim() : null; }
+function termBase(b) { return b.split('/').map(x => term(x.trim())).join(' / '); }
+function nameOf(o) {
+  return state.lang === 'zh' ? (o.name_zh || o.name_en) : (o.name_en || o.name_zh);
+}
+function sigText(s) { return state.lang === 'zh' ? (s.text_zh || s.text_en) : s.text_en; }
+
+/* ── load ── */
+fetch('data.json?_=' + Date.now())
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { state.data = d; boot(); })
+  .catch(e => {
+    document.getElementById('table-host').innerHTML =
+      `<div class="empty-state" style="color:var(--down)">Could not load data.json — ${esc(e.message)}.
+       The refresh workflow may not have run yet.</div>`;
+  });
+
+function boot() {
+  applyLang();
+  renderMeta();
+  renderFilters();
+  render();
+  wire();
+}
+
+function wire() {
+  document.getElementById('search').addEventListener('input', e => {
+    state.q = e.target.value.trim().toLowerCase(); render();
+  });
+  document.getElementById('view-seg').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.view = b.dataset.view;
+    state.sortKey = state.view === 'prospects' ? 'score' : 'market_cap_usd_m';
+    state.sortDir = -1;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('active', x === b));
+    renderFilters(); render();
+  });
+  document.getElementById('lang-seg').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.lang = b.dataset.lang;
+    [...e.currentTarget.children].forEach(x => x.classList.toggle('active', x === b));
+    applyLang(); renderMeta(); renderFilters(); render();
+    if (state.selected) openDrawer(state.selected);
+  });
+  document.getElementById('btn-method').addEventListener('click', openMethodology);
+  document.getElementById('btn-export').addEventListener('click', exportCSV);
+  document.getElementById('scrim').addEventListener('click', closeDrawer);
+  document.getElementById('modal').addEventListener('click', e => {
+    if (e.target.id === 'modal') e.currentTarget.classList.remove('open');
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { closeDrawer(); document.getElementById('modal').classList.remove('open'); }
+  });
+}
+
+function applyLang() {
+  document.documentElement.lang = state.lang === 'zh' ? 'zh-TW' : 'en';
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.getElementById('brand-eyebrow').textContent = t('eyebrow');
+  document.getElementById('brand-title').innerHTML = t('title');
+  document.getElementById('brand-title').classList.toggle('zh', state.lang === 'zh');
+  document.getElementById('brand-sub').textContent = t('sub');
+  document.getElementById('search').placeholder = t('search');
+  document.getElementById('caveat-text').textContent = t('caveat');
+}
+
+function renderMeta() {
+  const d = state.data;
+  const dt = new Date(d.generated_at);
+  document.getElementById('m-time').textContent =
+    dt.toLocaleString(state.lang === 'zh' ? 'zh-TW' : 'en-GB',
+      { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit', timeZone:'Asia/Taipei' }) + ' TPE';
+  document.getElementById('m-subjects').textContent = d.totals.subjects;
+  document.getElementById('m-pool').textContent = usd(d.totals.net_worth_usd_m);
+  document.getElementById('m-bankable').textContent = usd(d.totals.bankable_usd_m);
+
+  const ageH = (Date.now() - dt.getTime()) / 36e5;
+  const dot = document.getElementById('status-dot');
+  dot.className = 'dot' + (ageH > 72 ? ' bad' : ageH > 30 ? ' stale' : '');
+
+  const src = d.diagnostics?.sources || {};
+  const ok = Object.values(src).filter(s => s.ok).length;
+  document.getElementById('foot-status').textContent =
+    `${d.totals.issuers} issuers · ${d.totals.subjects} subjects · ${ok}/${Object.keys(src).length} sources live`
+    + (d.mode === 'synthetic' ? ' · SYNTHETIC DATA' : '');
+}
+
+/* ── filters ── */
+function renderFilters() {
+  const d = state.data;
+  const host = document.getElementById('filter-row');
+  const sectors = [...new Set(d.companies.map(c => c.sector))].sort();
+  // Bases are recorded as "Taipei / Shanghai", "Yunlin / Taichung" etc. Group on
+  // the primary city so the filter stays a single readable row.
+  const bases = [...new Set(d.prospects.map(p => primaryBase(p)).filter(Boolean))].sort();
+
+  const chips = [];
+  chips.push(`<span class="flabel">${t('f_sector')}</span>`);
+  chips.push(`<span class="chip ${state.sector===null?'active':''}" data-f="sector" data-v="">${t('f_all')}</span>`);
+  sectors.forEach(s => {
+    const n = state.view === 'prospects'
+      ? d.prospects.filter(p => p.holdings.some(h => h.sector === s)).length
+      : d.companies.filter(c => c.sector === s).length;
+    if (!n) return;
+    chips.push(`<span class="chip ${state.sector===s?'active':''}" data-f="sector" data-v="${esc(s)}">${esc(term(s))}<span class="ct">${n}</span></span>`);
+  });
+
+  if (state.view === 'prospects') {
+    chips.push(`<span class="flabel" style="margin-left:14px">${t('f_base')}</span>`);
+    chips.push(`<span class="chip ${state.base===null?'active':''}" data-f="base" data-v="">${t('f_all')}</span>`);
+    bases.forEach(b => {
+      const n = d.prospects.filter(p => primaryBase(p) === b).length;
+      chips.push(`<span class="chip ${state.base===b?'active':''}" data-f="base" data-v="${esc(b)}">${esc(term(b))}<span class="ct">${n}</span></span>`);
+    });
+    chips.push(`<span class="flabel" style="margin-left:14px">${t('f_view')}</span>`);
+    chips.push(`<span class="chip ${state.onlyThreshold?'active':''}" data-f="threshold">${t('f_threshold')}</span>`);
+    chips.push(`<span class="chip ${state.hideCompetitor?'active':''}" data-f="competitor">${t('f_exclude')}</span>`);
+    chips.push(`<span class="chip ${state.onlyVerified?'active':''}" data-f="verified">${t('f_verified')}</span>`);
+  }
+
+  host.innerHTML = chips.join('');
+  host.onclick = e => {
+    const c = e.target.closest('.chip'); if (!c) return;
+    const f = c.dataset.f;
+    if (f === 'sector') state.sector = c.dataset.v || null;
+    else if (f === 'base') state.base = c.dataset.v || null;
+    else if (f === 'threshold') state.onlyThreshold = !state.onlyThreshold;
+    else if (f === 'competitor') state.hideCompetitor = !state.hideCompetitor;
+    else if (f === 'verified') state.onlyVerified = !state.onlyVerified;
+    renderFilters(); render();
+  };
+}
+
+/* ── selection ── */
+function visibleProspects() {
+  const min = state.data.assumptions.min_net_worth_usd_m;
+  return state.data.prospects.filter(p => {
+    if (state.sector && !p.holdings.some(h => h.sector === state.sector)) return false;
+    if (state.base && primaryBase(p) !== state.base) return false;
+    if (state.onlyThreshold && p.net_worth_mid_usd_m < min) return false;
+    if (state.hideCompetitor && p.flags.includes('competitor-owner')) return false;
+    if (state.onlyVerified && !p.flags.includes('filings-verified')) return false;
+    if (state.q) {
+      const hay = [p.name_zh, p.name_en, p.role_en, p.role_zh, p.base,
+                   ...(p.vehicles||[]), ...(p.tags||[]),
+                   ...p.holdings.flatMap(h => [h.ticker, h.name_zh, h.name_en])]
+                   .join(' ').toLowerCase();
+      if (!hay.includes(state.q)) return false;
+    }
+    return true;
+  });
+}
+
+function visibleCompanies() {
+  return state.data.companies.filter(c => {
+    if (state.sector && c.sector !== state.sector) return false;
+    if (state.q) {
+      const hay = [c.ticker, c.name_zh, c.name_en, c.sector, c.chairman].join(' ').toLowerCase();
+      if (!hay.includes(state.q)) return false;
+    }
+    return true;
+  });
+}
+
+function sortRows(rows) {
+  const k = state.sortKey, dir = state.sortDir;
+  return rows.slice().sort((a, b) => {
+    let x = a[k], y = b[k];
+    if (k === 'name') { x = nameOf(a); y = nameOf(b); }
+    if (typeof x === 'string' || typeof y === 'string')
+      return String(x ?? '').localeCompare(String(y ?? '')) * dir;
+    return ((x ?? -Infinity) - (y ?? -Infinity)) * dir;
+  });
+}
+
+/* ── render ── */
+function render() {
+  state.view === 'prospects' ? renderProspects() : renderIssuers();
+}
+
+const PROSPECT_COLS = [
+  { key:'name',              label:'c_subject' },
+  { key:'line_count',        label:'c_lines' },
+  { key:'stake_value_usd_m', label:'c_stake', num:true },
+  { key:'net_worth_mid_usd_m', label:'c_nw', num:true },
+  { key:'bankable_usd_m',    label:'c_cash', num:true },
+  { key:'day_move_usd_m',    label:'c_move', num:true },
+  { key:'catalyst_score',    label:'c_signal' },
+  { key:'score',             label:'c_score', num:true },
+];
+
+function renderProspects() {
+  const rows = sortRows(visibleProspects());
+  if (!rows.length) {
+    document.getElementById('table-host').innerHTML = `<div class="empty-state">${t('no_results')}</div>`;
+    return;
+  }
+  const maxNW = Math.max(...rows.map(r => r.net_worth_high_usd_m || 0), 1);
+
+  const head = PROSPECT_COLS.map(c =>
+    `<th class="${c.num?'num':''}" data-k="${c.key}">${t(c.label)}${
+      state.sortKey===c.key ? `<span class="dir">${state.sortDir<0?'↓':'↑'}</span>` : ''}</th>`).join('');
+
+  const body = rows.map(p => {
+    const sig = p.signals[0];
+    const barW = Math.max(2, (p.net_worth_mid_usd_m / maxNW) * 100);
+    const moveCls = p.day_move_usd_m > 0 ? 'up' : p.day_move_usd_m < 0 ? 'down' : '';
+    return `<tr data-id="${esc(p.subject_id)}">
+      <td>
+        <div class="subj-name ${state.lang==='zh'?'zh':''}">${esc(nameOf(p))}${
+          state.lang==='zh' ? '' : `<span class="en">${esc(p.name_zh)}</span>`}</div>
+        <div class="subj-sub">
+          <span>${esc(state.lang==='zh'?p.role_zh:p.role_en)}</span>
+          ${p.base?`<span class="sep">·</span><span>${esc(termBase(p.base))}</span>`:''}
+          ${p.subject_type==='family'?`<span class="sep">·</span><span class="fam">${state.lang==='zh'?'家族':'family'}</span>`:''}
+        </div>
+        <div class="flagset" style="margin-top:6px">${flagsHTML(p)}</div>
+      </td>
+      <td><div class="tick-list">${p.holdings.map(h =>
+        `<span class="tick ${h.changePct>0?'up':h.changePct<0?'down':''}">${esc(h.ticker)}</span>`).join('')}</div></td>
+      <td class="num">${usd(p.stake_value_usd_m)}</td>
+      <td class="num">
+        <div class="nw">${usd(p.net_worth_mid_usd_m)}</div>
+        <div class="nw-range">${usd(p.net_worth_low_usd_m)} – ${usd(p.net_worth_high_usd_m)}</div>
+        <div class="nw-bar"><i style="width:${barW}%"></i></div>
+      </td>
+      <td class="num">${usd(p.bankable_usd_m)}</td>
+      <td class="num ${moveCls?'':''}" style="color:${moveCls==='up'?'var(--up)':moveCls==='down'?'var(--down)':'inherit'}">
+        ${p.day_move_usd_m ? (p.day_move_usd_m>0?'+':'') + usd(Math.abs(p.day_move_usd_m)).replace('US$','') : '—'}
+      </td>
+      <td class="sig-cell">
+        ${sig ? `<div class="sig-top">${esc(sigText(sig))}</div>` : '<div class="sig-top" style="color:var(--ink-faint)">—</div>'}
+        ${p.signals.length>1 ? `<div class="sig-more">+${p.signals.length-1} ${state.lang==='zh'?'則':'more'}</div>` : ''}
+      </td>
+      <td class="num">
+        <div class="score-cell">
+          <span class="score-num">${p.score.toFixed(0)}</span>
+          <span class="score-bar ${tierClass(p.score)}"><i style="width:${p.score}%"></i></span>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('table-host').innerHTML =
+    `<div class="tbl-wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  attachTableHandlers(id => openDrawer(state.data.prospects.find(p => p.subject_id === id)));
+}
+
+function flagsHTML(p) {
+  const map = {
+    'filings-verified': ['verified', state.lang==='zh'?'申報資料':'filings-verified'],
+    'estimate-only':    ['est',      state.lang==='zh'?'估算值':'estimate'],
+    'competitor-owner': ['competitor', state.lang==='zh'?'同業家族':'competitor-owned'],
+    'attribution-weak': ['weak',     state.lang==='zh'?'歸屬不明':'attribution weak'],
+    'sub-threshold':    ['sub',      state.lang==='zh'?'低於門檻':'sub-threshold'],
+    'no-live-price':    ['est',      state.lang==='zh'?'無報價':'no price'],
+  };
+  return p.flags.map(f => map[f] ? `<span class="flag ${map[f][0]}">${map[f][1]}</span>` : '').join('');
+}
+
+const ISSUER_COLS = [
+  { key:'ticker', label:'c_company' },
+  { key:'sector', label:'c_sector' },
+  { key:'price', label:'c_price', num:true },
+  { key:'changePct', label:'c_chg', num:true },
+  { key:'market_cap_usd_m', label:'c_mcap', num:true },
+  { key:'pe', label:'c_pe', num:true },
+  { key:'div_yield', label:'c_yield', num:true },
+  { key:'revenue_yoy', label:'c_rev', num:true },
+  { key:'principal_count', label:'c_principals', num:true },
+];
+
+function renderIssuers() {
+  const rows = sortRows(visibleCompanies());
+  if (!rows.length) {
+    document.getElementById('table-host').innerHTML = `<div class="empty-state">${t('no_results')}</div>`;
+    return;
+  }
+  const head = ISSUER_COLS.map(c =>
+    `<th class="${c.num?'num':''}" data-k="${c.key}">${t(c.label)}${
+      state.sortKey===c.key ? `<span class="dir">${state.sortDir<0?'↓':'↑'}</span>` : ''}</th>`).join('');
+
+  const body = rows.map(c => {
+    const cls = c.changePct > 0 ? 'var(--up)' : c.changePct < 0 ? 'var(--down)' : 'inherit';
+    return `<tr data-id="${esc(c.ticker)}">
+      <td>
+        <div class="subj-name ${state.lang==='zh'?'zh':''}">${esc(nameOf(c))}</div>
+        <div class="subj-sub"><span>${esc(c.ticker)}</span>
+          ${c.chairman?`<span class="sep">·</span><span>${esc(c.chairman)}</span>`:''}</div>
+      </td>
+      <td style="color:var(--ink-secondary);font-size:12px">${esc(term(c.sector))}</td>
+      <td class="num">${num(c.price)}</td>
+      <td class="num" style="color:${cls}">${signedPct(c.changePct)}</td>
+      <td class="num">${usd(c.market_cap_usd_m)}</td>
+      <td class="num">${num(c.pe,1)}</td>
+      <td class="num">${pct(c.div_yield)}</td>
+      <td class="num" style="color:${c.revenue_yoy>0?'var(--up)':c.revenue_yoy<0?'var(--down)':'inherit'}">${
+        c.revenue_yoy==null?'—':signedPct(c.revenue_yoy).replace('.00','')}</td>
+      <td class="num">${c.principal_count || '—'}</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('table-host').innerHTML =
+    `<div class="tbl-wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  attachTableHandlers(ticker => {
+    const first = state.data.prospects.find(p => p.holdings.some(h => h.ticker === ticker));
+    if (first) openDrawer(first);
+  });
+}
+
+function attachTableHandlers(onRow) {
+  const host = document.getElementById('table-host');
+  host.querySelectorAll('thead th').forEach(th => {
+    th.onclick = () => {
+      const k = th.dataset.k;
+      if (state.sortKey === k) state.sortDir *= -1;
+      else { state.sortKey = k; state.sortDir = (k === 'name' || k === 'ticker' || k === 'sector') ? 1 : -1; }
+      render();
+    };
+  });
+  host.querySelectorAll('tbody tr').forEach(tr => { tr.onclick = () => onRow(tr.dataset.id); });
+}
+
+/* ── drawer ── */
+function openDrawer(p) {
+  if (!p) return;
+  state.selected = p;
+  const d = state.data;
+  const meta = d.roster_meta;
+  const zh = state.lang === 'zh';
+
+  const kpis = `
+    <div class="kpi-row">
+      <div class="kpi"><div class="kpi-label">${t('k_nw')}</div>
+        <div class="kpi-value">${usd(p.net_worth_mid_usd_m)}</div>
+        <div class="kpi-note">${usd(p.net_worth_low_usd_m)} – ${usd(p.net_worth_high_usd_m)}</div></div>
+      <div class="kpi"><div class="kpi-label">${t('k_cash')}</div>
+        <div class="kpi-value">${usd(p.bankable_usd_m)}</div>
+        <div class="kpi-note">${zh?'稅後可再配置':'after tax, redeployable'}</div></div>
+      <div class="kpi"><div class="kpi-label">${t('k_score')}</div>
+        <div class="kpi-value">${p.score.toFixed(0)}</div>
+        <div class="kpi-note">${zh?'訊號':'catalyst'} ${p.catalyst_score} · ${zh?'可及性':'access'} ${p.accessibility_score}</div></div>
+      <div class="kpi"><div class="kpi-label">${t('k_lines')}</div>
+        <div class="kpi-value">${p.line_count}</div>
+        <div class="kpi-note">${p.top_line_share!=null?`${(p.top_line_share*100).toFixed(0)}% ${zh?'集中於首檔':'in top line'}`:''}</div></div>
+    </div>`;
+
+  const waterfall = `
+    <div class="waterfall">
+      <div class="wf-row"><span class="lbl">${t('w_stake')}</span><span class="val">${ntd(p.stake_value_ntd)}</span></div>
+      <div class="wf-row op"><span class="lbl">${t('w_uplift')} · ${esc(p.archetype.replace(/_/g,' '))}</span><span class="val">× ${p.uplift.toFixed(2)}</span></div>
+      <div class="wf-row total"><span class="lbl">${t('w_mid')}</span><span class="val">${usd(p.net_worth_mid_usd_m)}</span></div>
+      <div class="wf-row op"><span class="lbl">${t('w_range')} (±${d.assumptions.range_band_pct}%)</span><span class="val">${usd(p.net_worth_low_usd_m)} – ${usd(p.net_worth_high_usd_m)}</span></div>
+    </div>
+    <div class="waterfall" style="margin-top:16px;padding-top:14px;border-top:1px solid var(--line-faint)">
+      <div class="wf-row"><span class="lbl">${zh?'年度股利（毛額）':'Annual dividend, gross'}</span><span class="val">${ntd(p.dividend_gross_ntd)}</span></div>
+      <div class="wf-row op"><span class="lbl">${zh?'股利稅':'dividend tax'} (${(d.assumptions.dividend_tax_rate*100).toFixed(0)}%)</span><span class="val">− ${usd(p.dividend_gross_usd_m - p.dividend_net_usd_m)}</span></div>
+      <div class="wf-row op"><span class="lbl">${zh?'可再配置比例':'redeployable share'} (${(d.assumptions.bankable_share_of_dividend*100).toFixed(0)}%)</span><span class="val">× ${d.assumptions.bankable_share_of_dividend}</span></div>
+      <div class="wf-row total"><span class="lbl">${t('k_cash')}</span><span class="val">${usd(p.bankable_usd_m)}</span></div>
+    </div>`;
+
+  const holdings = `
+    <table class="hold-tbl">
+      <thead><tr>
+        <th>${t('c_company')}</th><th class="num">${zh?'持股%':'Stake'}</th>
+        <th class="num">${zh?'市值':'Value'}</th><th class="num">${zh?'股利':'Dividend'}</th>
+        <th class="num">${zh?'殖利率':'Yield'}</th><th>${zh?'來源':'Source'}</th>
+      </tr></thead>
+      <tbody>${p.holdings.map(h => `
+        <tr>
+          <td><div style="color:var(--ink-bright)">${esc(zh ? h.name_zh : h.name_en)}</div>
+              <div class="mono" style="font-size:9.5px;color:var(--ink-tertiary);margin-top:2px">
+                ${esc(h.ticker)} · ${esc(term(h.sector))}${h.price?` · ${num(h.price)}`:''}
+                ${h.changePct!=null?` <span style="color:${h.changePct>0?'var(--up)':'var(--down)'}">${signedPct(h.changePct)}</span>`:''}</div></td>
+          <td class="num">${pct(h.stake_pct)}</td>
+          <td class="num">${usd(h.value_usd_m)}</td>
+          <td class="num">${h.dividend_ntd?ntd(h.dividend_ntd):'—'}</td>
+          <td class="num">${pct(h.div_yield)}</td>
+          <td><span class="flag ${h.stake_source==='mops-filing'?'verified':'est'}">${
+            h.stake_source==='mops-filing' ? (zh?'申報':'filed') : (zh?'估算':'est')}</span>
+            <div class="mono" style="font-size:9px;color:var(--ink-faint);margin-top:3px">${esc(h.as_of||'')}</div></td>
+        </tr>
+        ${h.stake_basis?`<tr><td colspan="6" style="padding-top:0;border-bottom:1px solid var(--line-faint);
+           font-size:11px;color:var(--ink-tertiary);font-style:italic">${esc(h.stake_basis)}</td></tr>`:''}
+      `).join('')}</tbody>
+    </table>`;
+
+  const signals = p.signals.length ? `<div class="sig-list">${p.signals.map(s => `
+      <div class="sig-item" style="--sig-color:${SIGNAL_COLOR[s.kind]||'var(--ink-faint)'}">
+        <span class="sig-kind">${esc(s.kind)}</span>${esc(sigText(s))}
+      </div>`).join('')}</div>`
+    : `<div class="note-block">${zh?'目前沒有觸發訊號。':'No triggered signals right now.'}</div>`;
+
+  const notes = p.notes.length ? p.notes.map(n =>
+    `<div class="note-block"><span class="src">${esc(n.ticker)}</span>${esc(n.text)}</div>`).join('') : '';
+
+  const links = p.holdings.map(h => `
+    <a href="${meta.mops_insider_url}${encodeURIComponent(h.ticker)}" target="_blank" rel="noopener">${h.ticker} ${t('verify')}</a>
+    <a href="${meta.twse_company_url}${encodeURIComponent(h.ticker)}" target="_blank" rel="noopener">${h.ticker} ${t('profile')}</a>`).join('');
+
+  document.getElementById('drawer-inner').innerHTML = `
+    <div class="drawer-top">
+      <div>
+        <div class="drawer-name">${esc(p.name_zh)}</div>
+        <div class="drawer-name-en">${esc(p.name_en)}</div>
+        <div class="drawer-role">
+          <span>${esc(zh ? p.role_zh : p.role_en)}</span>
+          ${p.base?`<span>· ${esc(termBase(p.base))}</span>`:''}
+          <span>· ${state.lang==='zh'?(p.subject_type==='family'?'家族':'個人'):esc(p.subject_type)}</span>
+        </div>
+        <div class="flagset" style="margin-top:10px">${flagsHTML(p)}</div>
+      </div>
+      <button class="ghost-btn" onclick="closeDrawer()">esc</button>
+    </div>
+    ${kpis}
+    <div class="sec-title">${t('d_wealth')}<span class="hint">FX ${num(state.data.fx.twd_per_usd,2)} TWD/USD</span></div>
+    ${waterfall}
+    <div class="sec-title">${t('d_holdings')}</div>
+    ${holdings}
+    <div class="sec-title">${t('d_signals')}</div>
+    ${signals}
+    ${notes ? `<div class="sec-title">${t('d_desk')}</div>${notes}` : ''}
+    ${p.vehicles.length || p.tags.length ? `<div class="sec-title">${t('d_tags')}</div>
+      ${p.vehicles.length?`<div class="note-block"><span class="src">${zh?'已知持股／投資載體':'known vehicles'}</span>${p.vehicles.map(esc).join(' · ')}</div>`:''}
+      <div class="tagset">${p.tags.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div>` : ''}
+    <div class="sec-title">${t('d_provenance')}</div>
+    <div class="link-row">${links}</div>
+  `;
+  document.getElementById('drawer').classList.add('open');
+  document.getElementById('scrim').classList.add('open');
+}
+
+function closeDrawer() {
+  state.selected = null;
+  document.getElementById('drawer').classList.remove('open');
+  document.getElementById('scrim').classList.remove('open');
+}
+
+/* ── methodology ── */
+function openMethodology() {
+  const d = state.data, a = d.assumptions, zh = state.lang === 'zh';
+  const src = d.diagnostics?.sources || {};
+  const upl = Object.entries(a.unlisted_uplift).filter(([k]) => k !== 'comment')
+    .map(([k,v]) => `<tr><td>${k.replace(/_/g,' ')}</td><td>× ${v}</td></tr>`).join('');
+  const w = d.scoring.weights;
+
+  document.getElementById('modal-card').innerHTML = `
+    <h2>${zh?'估算方法':'How these numbers are built'}</h2>
+    <p>${zh
+      ? '這是一套開發名單篩選工具。緩慢變動的一層（誰控制哪家公司、持股比例）由研究團隊維護；快速變動的一層（股價、股本、殖利率）每個交易日自證交所公開資料更新。淨值由兩者相乘後加上類型加成推得。'
+      : 'This is a prospecting screen. The slow layer — who controls which issuer and roughly what share — is desk-maintained. The fast layer — price, share count, dividend yield — refreshes each trading day from TWSE open data. Net worth is the product of the two, plus an archetype uplift.'}</p>
+
+    <h3>${zh?'公式':'The formula'}</h3>
+    <div class="formula">
+      <em>stake value</em> = Σ ( shares outstanding × stake % × last close )<br>
+      <em>net worth (mid)</em> = stake value × unlisted uplift<br>
+      <em>range</em> = mid ± ${a.range_band_pct}%<br>
+      <em>bankable cash</em> = Σ ( shares held × trailing DPS ) × (1 − ${a.dividend_tax_rate}) × ${a.bankable_share_of_dividend}
+    </div>
+    <p>${zh
+      ? '「上市持股價值」是唯一可直接觀察的部分。加成係數用來反映房地產、未上市公司、現金與境外資產——這是整個模型中最粗略的假設，請視為量級而非精確值。'
+      : 'Listed stake value is the only directly observable term. The uplift stands in for property, unlisted operating companies, cash and offshore assets — it is the crudest assumption in the model. Read the output as an order of magnitude, not a valuation.'}</p>
+
+    <h3>${zh?'加成係數':'Unlisted uplift by archetype'}</h3>
+    <table class="assump-tbl">${upl}</table>
+
+    <h3>${zh?'評分權重':'Prospect score weights'}</h3>
+    <table class="assump-tbl">
+      <tr><td>${zh?'財富規模（對數）':'Wealth (log-scaled)'}</td><td>${w.wealth}</td></tr>
+      <tr><td>${zh?'可承作現金（對數）':'Bankable cash (log-scaled)'}</td><td>${w.liquidity}</td></tr>
+      <tr><td>${zh?'觸發訊號':'Live catalysts'}</td><td>${w.catalyst}</td></tr>
+      <tr><td>${zh?'可及性':'Accessibility'}</td><td>${w.accessibility}</td></tr>
+    </table>
+    <p>${zh
+      ? '可及性會因對象自身經營競爭的私人銀行而下調，因低調、覆蓋不足或已使用境外架構而上調。'
+      : 'Accessibility is marked down when the subject’s own family runs a competing private bank, and marked up for low-profile, under-covered or already-offshore subjects.'}</p>
+
+    <h3>${zh?'資料來源':'Sources'}</h3>
+    <div class="diag-row">${Object.entries(src).map(([k,v]) =>
+      `<span class="diag ${v.ok?'ok':'bad'}">${esc(k)} ${v.ok?'✓':'✕'}</span>`).join('')}</div>
+    <p style="margin-top:12px">${zh
+      ? '價格與股本來自證交所 OpenAPI；內部人持股與質押比例來自公開資訊觀測站（盡力取得，取得成功時該列會標示「申報資料」）；匯率來自 Yahoo。'
+      : 'Prices and share counts come from the TWSE OpenAPI. Insider holdings and pledge ratios come from MOPS on a best-effort basis — when the scrape succeeds the row is marked filings-verified. FX from Yahoo.'}</p>
+
+    <h3>${zh?'限制':'What this is not'}</h3>
+    <p>${zh
+      ? '不含未上市公司、房地產、境外資產的直接觀察值；不含上櫃（TPEx）公司；家族層級的數字無法拆分到個別成員；以基金會或公益信託持有的股權刻意保守認列。任何客戶接觸前，請以公開資訊觀測站原始申報資料查核。'
+      : 'It does not observe unlisted companies, real estate or offshore assets directly. It does not cover TPEx (over-the-counter) issuers. Family-level figures cannot be split between members. Blocks held through foundations and public-interest trusts are deliberately under-attributed. Verify against the underlying MOPS filing before any client contact.'}</p>
+    <p style="color:var(--ink-tertiary);font-size:12px;margin-top:18px">${esc(d.roster_meta.verification_note)}</p>
+  `;
+  document.getElementById('modal').classList.add('open');
+}
+
+/* ── export ── */
+function exportCSV() {
+  const rows = state.view === 'prospects' ? sortRows(visibleProspects()) : sortRows(visibleCompanies());
+  let head, lines;
+  if (state.view === 'prospects') {
+    head = ['name_zh','name_en','role_en','base','type','lines','tickers','stake_value_usd_m',
+            'net_worth_low_usd_m','net_worth_mid_usd_m','net_worth_high_usd_m','bankable_usd_m',
+            'score','catalyst','accessibility','flags','lead_signal'];
+    lines = rows.map(p => [p.name_zh, p.name_en, p.role_en, p.base, p.subject_type, p.line_count,
+      p.holdings.map(h=>h.ticker).join(' '), p.stake_value_usd_m.toFixed(1),
+      p.net_worth_low_usd_m.toFixed(1), p.net_worth_mid_usd_m.toFixed(1), p.net_worth_high_usd_m.toFixed(1),
+      p.bankable_usd_m.toFixed(2), p.score, p.catalyst_score, p.accessibility_score,
+      p.flags.join(' '), p.signals[0] ? p.signals[0].text_en : '']);
+  } else {
+    head = ['ticker','name_zh','name_en','sector','price','changePct','market_cap_usd_m','pe','div_yield','revenue_yoy','principals'];
+    lines = rows.map(c => [c.ticker, c.name_zh, c.name_en, c.sector, c.price, c.changePct,
+      c.market_cap_usd_m ? c.market_cap_usd_m.toFixed(1) : '', c.pe, c.div_yield, c.revenue_yoy, c.principal_count]);
+  }
+  const csv = [head, ...lines].map(r => r.map(v => {
+    const s = v == null ? '' : String(v);
+    return /[",\n]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s;
+  }).join(',')).join('\n');
+
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `tw-prospects-${state.view}-${state.data.generated_at.slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+</script>
+</body>
+</html>

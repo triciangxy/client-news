@@ -1,0 +1,49 @@
+name: Refresh Taiwan Prospect Radar
+
+on:
+  workflow_dispatch:
+
+  # TWSE closes at 13:30 TPE (05:30 UTC) and publishes the daily files shortly
+  # after. Run once after the close and once mid-morning for the overnight FX
+  # and any late file publication. Mon-Fri only. Cron is UTC.
+  schedule:
+    - cron: '20 07 * * 1-5'   # 15:20 TPE — after the daily close files land
+    - cron: '30 01 * * 1-5'   # 09:30 TPE — pre-open refresh
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-prospects
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Build prospect data from TWSE open data
+        run: python fetch_twse.py
+
+      - name: Commit updated prospects/data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet prospects/data.json; then
+            echo "No changes to prospects/data.json"
+          else
+            git add prospects/data.json
+            git commit -m "chore: refresh prospects/data.json [skip ci]"
+            git push
+          fi

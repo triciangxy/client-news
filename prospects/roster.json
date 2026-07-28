@@ -1,0 +1,585 @@
+{
+  "meta": {
+    "title": "TWSE Principal Shareholder Roster",
+    "description": "Curated roster of controlling individuals and families behind TWSE-listed issuers. This file is the SLOW-MOVING layer: who holds what, and roughly how much. The fetcher multiplies these stakes against live TWSE prices and share counts to derive wealth estimates. Edit this file to extend coverage; the next scheduled run picks it up.",
+    "maintainer": "Taiwan PB desk",
+    "last_curated": "2026-07-28",
+    "verification_note": "stake_pct_est values are desk estimates aggregated from annual reports, MOPS insider filings and press reporting. They are NOT filings-grade. Verify against MOPS (link on every row) before any client-facing use.",
+    "mops_insider_url": "https://mopsov.twse.com.tw/mops/web/t146sb05?TYPEK=sii&co_id=",
+    "twse_company_url": "https://www.twse.com.tw/zh/listed/profile/company.html?code="
+  },
+
+  "assumptions": {
+    "note": "Every number here is an explicit, editable assumption. The UI surfaces all of them in the Methodology panel.",
+    "unlisted_uplift": {
+      "comment": "Total wealth / listed-stake value. Accounts for real estate, unlisted operating companies, cash and offshore assets typical of each archetype in Taiwan.",
+      "founder_operator": 1.45,
+      "family_office": 1.70,
+      "financial_group": 1.40,
+      "professional_exec": 1.25,
+      "property_developer": 1.85
+    },
+    "range_band_pct": 25,
+    "range_band_comment": "Net worth is shown as a range of mid ± this %, because a point estimate would be false precision.",
+    "dividend_tax_rate": 0.28,
+    "dividend_tax_comment": "Taiwan separate taxation on dividend income for high-bracket individuals (28%). Used to derive net cash from the annual dividend run-rate.",
+    "bankable_share_of_dividend": 0.60,
+    "bankable_share_comment": "Share of net dividend cash realistically available for redeployment into managed assets rather than consumed by tax, pledges, reinvestment and family distribution.",
+    "large_stake_pct_floor": 1.0,
+    "min_net_worth_usd_m": 50,
+    "min_net_worth_comment": "Subjects below this estimated net worth are retained in the data but flagged sub-threshold in the UI.",
+    "twd_per_usd_fallback": 32.5
+  },
+
+  "scoring": {
+    "comment": "Prospect score 0-100. Weights must sum to 100.",
+    "weights": {
+      "wealth": 40,
+      "liquidity": 30,
+      "catalyst": 20,
+      "accessibility": 10
+    },
+    "wealth_log_floor_usd_m": 50,
+    "wealth_log_ceiling_usd_m": 15000,
+    "liquidity_log_floor_usd_m": 1,
+    "liquidity_log_ceiling_usd_m": 500
+  },
+
+  "companies": [
+    {
+      "ticker": "2317", "name_zh": "鴻海精密工業", "name_en": "Hon Hai Precision (Foxconn)", "sector": "Tech Hardware",
+      "principals": [
+        { "subject_id": "terry-gou", "name_zh": "郭台銘", "name_en": "Terry Gou", "subject_type": "individual",
+          "role_zh": "創辦人", "role_en": "Founder, former chairman", "archetype": "founder_operator",
+          "stake_pct_est": 9.5, "stake_basis": "personal direct plus affiliated investment vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["鴻元國際投資", "永齡基金會"],
+          "tags": ["founder", "philanthropy", "public-profile", "succession-done"],
+          "note": "Stepped back from the chair in 2019; retains one of the largest individual stakes on the exchange. Large philanthropic vehicle (永齡) implies structured giving needs." }
+      ]
+    },
+    {
+      "ticker": "2382", "name_zh": "廣達電腦", "name_en": "Quanta Computer", "sector": "Tech Hardware",
+      "principals": [
+        { "subject_id": "barry-lam", "name_zh": "林百里", "name_en": "Barry Lam", "subject_type": "individual",
+          "role_zh": "董事長暨創辦人", "role_en": "Chairman and co-founder", "archetype": "founder_operator",
+          "stake_pct_est": 9.0, "stake_basis": "personal direct plus family vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["廣輝投資", "廣達文教基金會"],
+          "tags": ["founder", "art-collector", "ai-server-cycle", "succession-open"],
+          "note": "Significant art collection (Guangya collection) — art-secured lending and collection structuring are live conversations. Succession not publicly resolved." }
+      ]
+    },
+    {
+      "ticker": "3008", "name_zh": "大立光電", "name_en": "Largan Precision", "sector": "Optics",
+      "principals": [
+        { "subject_id": "lin-yao-ying", "name_zh": "林耀英", "name_en": "Lin Yao-ying", "subject_type": "individual",
+          "role_zh": "創辦人", "role_en": "Founder, honorary chairman", "archetype": "founder_operator",
+          "stake_pct_est": 12.0, "stake_basis": "family aggregate via investment companies",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taichung",
+          "vehicles": ["石安投資", "茂鈺紀念基金會"],
+          "tags": ["founder", "central-taiwan", "low-profile", "high-dividend"],
+          "note": "Notoriously private Taichung family. Largan's dividend per share is among the highest on the exchange — dividend season cash is very large relative to stake." },
+        { "subject_id": "adam-lin", "name_zh": "林恩平", "name_en": "Adam Lin", "subject_type": "individual",
+          "role_zh": "執行長", "role_en": "CEO", "archetype": "founder_operator",
+          "stake_pct_est": 3.5, "stake_basis": "personal direct",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taichung",
+          "vehicles": [], "tags": ["second-generation", "central-taiwan"],
+          "note": "Second generation, operating role. Next-gen wealth transfer entry point." }
+      ]
+    },
+    {
+      "ticker": "2454", "name_zh": "聯發科技", "name_en": "MediaTek", "sector": "Semiconductors",
+      "principals": [
+        { "subject_id": "tsai-ming-kai", "name_zh": "蔡明介", "name_en": "Tsai Ming-kai", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman and founder", "archetype": "founder_operator",
+          "stake_pct_est": 2.0, "stake_basis": "personal direct plus related holdings",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Hsinchu",
+          "vehicles": [], "tags": ["founder", "semis", "hsinchu-corridor"],
+          "note": "Small percentage of a very large market cap — absolute stake value is what matters here." }
+      ]
+    },
+    {
+      "ticker": "2308", "name_zh": "台達電子", "name_en": "Delta Electronics", "sector": "Electronics",
+      "principals": [
+        { "subject_id": "bruce-cheng", "name_zh": "鄭崇華", "name_en": "Bruce Cheng", "subject_type": "individual",
+          "role_zh": "創辦人", "role_en": "Founder, honorary chairman", "archetype": "founder_operator",
+          "stake_pct_est": 5.0, "stake_basis": "family aggregate incl. Delta Foundation-linked holdings",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["台達電子文教基金會"],
+          "tags": ["founder", "esg-philanthropy", "power-cycle", "succession-partial"],
+          "note": "Strong ESG/climate philanthropy track record — impact mandates and DAF-style structures are a natural fit." }
+      ]
+    },
+    {
+      "ticker": "2881", "name_zh": "富邦金融控股", "name_en": "Fubon Financial Holding", "sector": "Financials",
+      "principals": [
+        { "subject_id": "daniel-tsai", "name_zh": "蔡明忠", "name_en": "Daniel Tsai", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 11.0, "stake_basis": "family aggregate via Fubon group vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["富邦建設", "台灣大哥大", "富邦人壽相關持股"],
+          "tags": ["financial-family", "conflicted-onshore", "multi-asset", "sports-media"],
+          "note": "Runs a competing onshore private bank — onshore mandates are structurally conflicted. Offshore booking, family governance and non-TWD diversification are the credible angles." },
+        { "subject_id": "richard-tsai", "name_zh": "蔡明興", "name_en": "Richard Tsai", "subject_type": "individual",
+          "role_zh": "副董事長", "role_en": "Vice chairman", "archetype": "family_office",
+          "stake_pct_est": 9.0, "stake_basis": "family aggregate via Fubon group vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["富邦建設"], "tags": ["financial-family", "conflicted-onshore"],
+          "note": "Brother of Daniel Tsai; same conflict profile." }
+      ]
+    },
+    {
+      "ticker": "2882", "name_zh": "國泰金融控股", "name_en": "Cathay Financial Holding", "sector": "Financials",
+      "principals": [
+        { "subject_id": "tsai-hong-tu", "name_zh": "蔡宏圖", "name_en": "Tsai Hong-tu", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 11.0, "stake_basis": "family aggregate via Cathay group vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["國泰人壽相關持股", "霖園集團"],
+          "tags": ["financial-family", "conflicted-onshore", "insurance", "third-generation-live"],
+          "note": "Lin Yuan (霖園) group. Same onshore conflict as Fubon; next-generation planning is the open door." },
+        { "subject_id": "tsai-chen-yu", "name_zh": "蔡鎮宇", "name_en": "Tsai Chen-yu", "subject_type": "individual",
+          "role_zh": "家族股東", "role_en": "Family shareholder", "archetype": "family_office",
+          "stake_pct_est": 5.0, "stake_basis": "family aggregate, largely disengaged from management",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["financial-family", "non-operating", "offshore-resident"],
+          "note": "Non-operating family shareholder — historically the more approachable branch for external managers." }
+      ]
+    },
+    {
+      "ticker": "2891", "name_zh": "中國信託金融控股", "name_en": "CTBC Financial Holding", "sector": "Financials",
+      "principals": [
+        { "subject_id": "jeffrey-koo-jr", "name_zh": "辜仲諒", "name_en": "Jeffrey Koo Jr.", "subject_type": "family",
+          "role_zh": "辜家 / 中信慈善基金會董事長", "role_en": "Koo family principal; CTBC Charity chairman", "archetype": "family_office",
+          "stake_pct_est": 8.0, "stake_basis": "family aggregate via charitable and investment vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["中信慈善基金會", "宜和開發"],
+          "tags": ["financial-family", "conflicted-onshore", "sports", "complex-structure"],
+          "note": "Holdings sit largely in foundations and layered vehicles — individual attributability is weak. Treat the number as an order of magnitude." }
+      ]
+    },
+    {
+      "ticker": "2885", "name_zh": "元大金融控股", "name_en": "Yuanta Financial Holding", "sector": "Financials",
+      "principals": [
+        { "subject_id": "ma-family", "name_zh": "馬志玲家族", "name_en": "Ma family", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 12.0, "stake_basis": "family aggregate across members and vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["元大集團相關投資公司"],
+          "tags": ["financial-family", "conflicted-onshore", "second-generation-control"],
+          "note": "Second generation (馬維建 / 馬維辰) now controls. Family-level figure only; per-member split not publicly reliable." }
+      ]
+    },
+    {
+      "ticker": "2887", "name_zh": "台新新光金融控股", "name_en": "Taishin Shin Kong Financial Holding", "sector": "Financials",
+      "principals": [
+        { "subject_id": "thomas-wu", "name_zh": "吳東亮", "name_en": "Thomas Wu", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 6.0, "stake_basis": "personal and family vehicles post-merger",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["新光集團相關投資公司"],
+          "tags": ["financial-family", "post-merger", "conflicted-onshore", "family-dispute-history"],
+          "note": "Post-merger holding structure is still settling; stake figures move. A documented history of intra-family disputes makes governance and trust structuring relevant." },
+        { "subject_id": "shin-kong-wu-family", "name_zh": "吳東進家族", "name_en": "Wu Tong-chin family", "subject_type": "family",
+          "role_zh": "新光家族股東", "role_en": "Shin Kong family shareholders", "archetype": "family_office",
+          "stake_pct_est": 4.0, "stake_basis": "family aggregate, diluted through the merger",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["financial-family", "post-merger", "liquidity-event"],
+          "note": "Merger consideration created a genuine liquidity and reallocation moment for this branch." }
+      ]
+    },
+    {
+      "ticker": "5871", "name_zh": "中租控股", "name_en": "Chailease Holding", "sector": "Financials",
+      "principals": [
+        { "subject_id": "koo-family-chailease", "name_zh": "辜仲立家族", "name_en": "Koo Chung-li family", "subject_type": "family",
+          "role_zh": "主要股東家族", "role_en": "Principal shareholder family", "archetype": "family_office",
+          "stake_pct_est": 9.0, "stake_basis": "family aggregate via group holding vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["中租企業相關投資公司"],
+          "tags": ["financial-family", "leasing", "china-exposure"],
+          "note": "Verify carefully — Chailease's register is dominated by holding companies rather than named individuals." }
+      ]
+    },
+    {
+      "ticker": "2327", "name_zh": "國巨", "name_en": "Yageo", "sector": "Components",
+      "principals": [
+        { "subject_id": "pierre-chen", "name_zh": "陳泰銘", "name_en": "Pierre Chen", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman and founder", "archetype": "founder_operator",
+          "stake_pct_est": 11.0, "stake_basis": "personal direct plus affiliated vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["國巨相關投資公司"],
+          "tags": ["founder", "art-collector", "m-and-a-active", "offshore-comfortable"],
+          "note": "One of Asia's most significant private art collectors and an experienced cross-border acquirer — already sophisticated, expects institutional-grade coverage." }
+      ]
+    },
+    {
+      "ticker": "2395", "name_zh": "研華", "name_en": "Advantech", "sector": "Industrial Tech",
+      "principals": [
+        { "subject_id": "kc-liu", "name_zh": "劉克振", "name_en": "K.C. Liu", "subject_type": "individual",
+          "role_zh": "董事長暨創辦人", "role_en": "Chairman and founder", "archetype": "founder_operator",
+          "stake_pct_est": 22.0, "stake_basis": "family aggregate via investment companies",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["研華投資", "勵德投資"],
+          "tags": ["founder", "high-stake", "steady-dividend", "succession-open"],
+          "note": "Very high family stake in a high-multiple name — concentration risk conversation writes itself." }
+      ]
+    },
+    {
+      "ticker": "9904", "name_zh": "寶成工業", "name_en": "Pou Chen", "sector": "Consumer / Footwear",
+      "principals": [
+        { "subject_id": "tsai-family-pouchen", "name_zh": "蔡其瑞家族", "name_en": "Tsai family (Pou Chen)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 24.0, "stake_basis": "family aggregate via Pou Chen group vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taichung",
+          "vehicles": ["寶元投資", "寶勝國際"],
+          "tags": ["central-taiwan", "high-stake", "asean-operations", "third-generation"],
+          "note": "Large ASEAN manufacturing footprint — multi-jurisdiction structuring and FX hedging needs are real." }
+      ]
+    },
+    {
+      "ticker": "9910", "name_zh": "豐泰企業", "name_en": "Feng Tay Enterprises", "sector": "Consumer / Footwear",
+      "principals": [
+        { "subject_id": "wang-family-fengtay", "name_zh": "王秋雄家族", "name_en": "Wang family (Feng Tay)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 28.0, "stake_basis": "family aggregate via investment companies",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Yunlin / Taichung",
+          "vehicles": ["豐泰相關投資公司"],
+          "tags": ["central-taiwan", "high-stake", "single-customer-risk", "low-profile"],
+          "note": "Long-standing Nike contract manufacturer. High family stake, low public profile — relationship-led approach required." }
+      ]
+    },
+    {
+      "ticker": "1476", "name_zh": "儒鴻企業", "name_en": "Eclat Textile", "sector": "Textiles",
+      "principals": [
+        { "subject_id": "hung-chen-hai", "name_zh": "洪鎮海", "name_en": "Hung Chen-hai", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "founder_operator",
+          "stake_pct_est": 8.0, "stake_basis": "personal direct plus family holdings",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["functional-textiles", "steady-dividend"],
+          "note": "" }
+      ]
+    },
+    {
+      "ticker": "1477", "name_zh": "聚陽實業", "name_en": "Makalot Industrial", "sector": "Textiles",
+      "principals": [
+        { "subject_id": "chou-li-ping", "name_zh": "周理平", "name_en": "Chou Li-ping", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "founder_operator",
+          "stake_pct_est": 9.0, "stake_basis": "personal direct plus family holdings",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["apparel-odm", "high-payout"],
+          "note": "" }
+      ]
+    },
+    {
+      "ticker": "2357", "name_zh": "華碩電腦", "name_en": "ASUSTeK Computer", "sector": "Tech Hardware",
+      "principals": [
+        { "subject_id": "jonney-shih", "name_zh": "施崇棠", "name_en": "Jonney Shih", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "founder_operator",
+          "stake_pct_est": 3.0, "stake_basis": "personal direct plus family vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["founder", "pc-cycle", "succession-open"],
+          "note": "" }
+      ]
+    },
+    {
+      "ticker": "2377", "name_zh": "微星科技", "name_en": "Micro-Star International", "sector": "Tech Hardware",
+      "principals": [
+        { "subject_id": "hsu-family-msi", "name_zh": "徐祥家族", "name_en": "Hsu family (MSI)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 14.0, "stake_basis": "aggregate across founding partners and vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "New Taipei",
+          "vehicles": [], "tags": ["gaming-hardware", "multi-founder"],
+          "note": "Multiple founding partners share control — the stake is not one household." }
+      ]
+    },
+    {
+      "ticker": "2385", "name_zh": "群光電子", "name_en": "Chicony Electronics", "sector": "Tech Hardware",
+      "principals": [
+        { "subject_id": "hsu-kun-tai", "name_zh": "許崑泰", "name_en": "Hsu Kun-tai", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "founder_operator",
+          "stake_pct_est": 18.0, "stake_basis": "family aggregate via investment companies",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["群光相關投資公司"],
+          "tags": ["high-stake", "property-holdings", "steady-dividend"],
+          "note": "Group holds substantial Taipei commercial property outside the listed entity — the uplift factor likely understates total wealth." }
+      ]
+    },
+    {
+      "ticker": "2301", "name_zh": "光寶科技", "name_en": "Lite-On Technology", "sector": "Tech Hardware",
+      "principals": [
+        { "subject_id": "raymond-soong", "name_zh": "宋恭源", "name_en": "Raymond Soong", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "founder_operator",
+          "stake_pct_est": 4.0, "stake_basis": "personal and family vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["founder", "high-payout"],
+          "note": "" }
+      ]
+    },
+    {
+      "ticker": "3231", "name_zh": "緯創資通", "name_en": "Wistron", "sector": "Tech Hardware",
+      "principals": [
+        { "subject_id": "simon-lin", "name_zh": "林憲銘", "name_en": "Simon Lin", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "professional_exec",
+          "stake_pct_est": 1.8, "stake_basis": "personal direct",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["ai-server-cycle", "professional-founder"],
+          "note": "Also holds economic interest through Wiwynn (6669) — cross-holding value not captured here." }
+      ]
+    },
+    {
+      "ticker": "2049", "name_zh": "上銀科技", "name_en": "Hiwin Technologies", "sector": "Industrial",
+      "principals": [
+        { "subject_id": "chuo-family", "name_zh": "卓永財家族", "name_en": "Chuo family", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 18.0, "stake_basis": "family aggregate via investment companies",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taichung",
+          "vehicles": ["大銀微系統相關持股"],
+          "tags": ["central-taiwan", "machine-tools", "second-generation-active", "cyclical"],
+          "note": "Taichung precision-machinery cluster. Cyclical earnings mean dividend cash swings hard year to year." }
+      ]
+    },
+    {
+      "ticker": "1590", "name_zh": "亞德客-KY", "name_en": "Airtac International", "sector": "Industrial",
+      "principals": [
+        { "subject_id": "wang-shih-chung", "name_zh": "王世忠", "name_en": "Wang Shih-chung", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman and founder", "archetype": "founder_operator",
+          "stake_pct_est": 28.0, "stake_basis": "family aggregate via offshore holding vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei / Shanghai",
+          "vehicles": ["KY 架構境外控股公司"],
+          "tags": ["high-stake", "ky-structure", "china-operations", "already-offshore"],
+          "note": "KY (offshore-incorporated) structure — wealth is already held through non-Taiwan vehicles, which shortens the path to an offshore booking relationship." }
+      ]
+    },
+    {
+      "ticker": "2207", "name_zh": "和泰汽車", "name_en": "Hotai Motor", "sector": "Autos",
+      "principals": [
+        { "subject_id": "su-family-hotai", "name_zh": "蘇家（和泰）", "name_en": "Su family (Hotai)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 14.0, "stake_basis": "family aggregate via group holding companies",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["和泰產險", "和潤企業相關持股"],
+          "tags": ["distribution-monopoly", "group-cross-holdings", "high-dividend"],
+          "note": "Toyota's Taiwan distributor. Group cross-holdings (和潤 6592, 和泰產險) add materially to family wealth beyond this line." }
+      ]
+    },
+    {
+      "ticker": "2201", "name_zh": "裕隆汽車", "name_en": "Yulon Motor", "sector": "Autos",
+      "principals": [
+        { "subject_id": "yen-family", "name_zh": "嚴家（裕隆）", "name_en": "Yen family (Yulon)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 7.0, "stake_basis": "family aggregate via group vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei / Miaoli",
+          "vehicles": ["裕隆集團相關投資公司"],
+          "tags": ["female-principal", "group-restructuring", "property-assets"],
+          "note": "Led by 嚴陳莉蓮 since 2018. Group holds significant land assets; listed stake understates the estate." }
+      ]
+    },
+    {
+      "ticker": "2105", "name_zh": "正新橡膠", "name_en": "Cheng Shin Rubber", "sector": "Auto Parts",
+      "principals": [
+        { "subject_id": "lo-family-chengshin", "name_zh": "羅家（正新）", "name_en": "Lo family (Cheng Shin)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 18.0, "stake_basis": "family aggregate across members and vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Changhua",
+          "vehicles": [], "tags": ["central-taiwan", "large-family", "third-generation", "earnings-pressure"],
+          "note": "Large multi-branch family in Changhua. Wide-spread ownership means many individually-bankable members." }
+      ]
+    },
+    {
+      "ticker": "1504", "name_zh": "東元電機", "name_en": "TECO Electric & Machinery", "sector": "Industrial",
+      "principals": [
+        { "subject_id": "huang-family-teco", "name_zh": "黃茂雄家族", "name_en": "Huang family (TECO)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 7.0, "stake_basis": "family aggregate; contested between branches",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["東元集團相關投資公司"],
+          "tags": ["control-contest-history", "family-dispute-history", "diversified-group"],
+          "note": "Public proxy contest between family branches (2021) — governance and trust structuring is a live, demonstrated need." }
+      ]
+    },
+    {
+      "ticker": "2915", "name_zh": "潤泰全球", "name_en": "Ruentex Industries", "sector": "Conglomerate",
+      "principals": [
+        { "subject_id": "samuel-yin", "name_zh": "尹衍樑", "name_en": "Samuel Yin", "subject_type": "individual",
+          "role_zh": "總裁", "role_en": "Group president", "archetype": "family_office",
+          "stake_pct_est": 14.0, "stake_basis": "personal and family vehicles across the Ruentex group",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["潤泰集團相關投資公司", "唐獎教育基金會"],
+          "tags": ["philanthropy", "cross-holdings", "prc-retail-exposure", "pledge-active"],
+          "note": "Founded the Tang Prize with a very large personal endowment — has publicly committed the bulk of his wealth to philanthropy. Structured giving and endowment mandates are the entry point, not accumulation." }
+      ]
+    },
+    {
+      "ticker": "9945", "name_zh": "潤泰新", "name_en": "Ruentex Development", "sector": "Property",
+      "principals": [
+        { "subject_id": "samuel-yin", "name_zh": "尹衍樑", "name_en": "Samuel Yin", "subject_type": "individual",
+          "role_zh": "總裁", "role_en": "Group president", "archetype": "family_office",
+          "stake_pct_est": 11.0, "stake_basis": "personal and family vehicles",
+          "confidence": "medium", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["潤泰集團相關投資公司"],
+          "tags": ["philanthropy", "cross-holdings"],
+          "note": "Second listed vehicle of the same principal — the platform aggregates both lines into one net worth estimate." }
+      ]
+    },
+    {
+      "ticker": "5522", "name_zh": "遠雄建設", "name_en": "Farglory Land Development", "sector": "Property",
+      "principals": [
+        { "subject_id": "chao-family-farglory", "name_zh": "趙家（遠雄）", "name_en": "Chao family (Farglory)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "property_developer",
+          "stake_pct_est": 28.0, "stake_basis": "family aggregate via group vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["遠雄人壽相關持股", "遠雄集團投資公司"],
+          "tags": ["property", "land-bank", "legal-history", "high-uplift"],
+          "note": "Developers carry the largest gap between listed stake and true wealth — land bank and unlisted project vehicles dominate. Uplift factor is set highest for this archetype." }
+      ]
+    },
+    {
+      "ticker": "2542", "name_zh": "興富發建設", "name_en": "Hung Sheng Construction", "sector": "Property",
+      "principals": [
+        { "subject_id": "cheng-family-hungsheng", "name_zh": "鄭欽天家族", "name_en": "Cheng family (Hung Sheng)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "property_developer",
+          "stake_pct_est": 22.0, "stake_basis": "family aggregate via investment companies",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei / Kaohsiung",
+          "vehicles": [], "tags": ["property", "high-payout", "southern-taiwan", "pledge-common"],
+          "note": "Developer families routinely pledge listed shares to fund projects — check the pledge column before pitching lending." }
+      ]
+    },
+    {
+      "ticker": "2548", "name_zh": "華固建設", "name_en": "Huaku Development", "sector": "Property",
+      "principals": [
+        { "subject_id": "chung-family-huaku", "name_zh": "鍾榮昌家族", "name_en": "Chung family (Huaku)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "property_developer",
+          "stake_pct_est": 14.0, "stake_basis": "family aggregate",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["property", "high-payout", "taipei-prime"],
+          "note": "" }
+      ]
+    },
+    {
+      "ticker": "5904", "name_zh": "寶雅國際", "name_en": "Poya International", "sector": "Retail",
+      "principals": [
+        { "subject_id": "chen-family-poya", "name_zh": "陳建造家族", "name_en": "Chen family (Poya)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 18.0, "stake_basis": "family aggregate",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Tainan",
+          "vehicles": [], "tags": ["southern-taiwan", "retail", "high-payout", "under-covered"],
+          "note": "Tainan-based and materially under-covered by offshore private banks relative to wealth — a genuine white-space name." }
+      ]
+    },
+    {
+      "ticker": "2707", "name_zh": "晶華國際酒店", "name_en": "FIH Regent Group", "sector": "Hospitality",
+      "principals": [
+        { "subject_id": "steven-pan", "name_zh": "潘思亮", "name_en": "Steven Pan", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 18.0, "stake_basis": "family aggregate via investment companies",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": [], "tags": ["hospitality", "us-educated", "property-assets", "offshore-comfortable"],
+          "note": "US-educated, internationally fluent — low friction for an English-language offshore relationship." }
+      ]
+    },
+    {
+      "ticker": "2059", "name_zh": "川湖科技", "name_en": "King Slide Works", "sector": "Components",
+      "principals": [
+        { "subject_id": "lin-family-kingslide", "name_zh": "林家（川湖）", "name_en": "Lin family (King Slide)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 22.0, "stake_basis": "family aggregate",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Kaohsiung",
+          "vehicles": [], "tags": ["southern-taiwan", "ai-server-cycle", "very-high-margin", "low-profile"],
+          "note": "Kaohsiung-based, extremely low public profile, outsized margins on AI server rails. Under-banked relative to wealth." }
+      ]
+    },
+    {
+      "ticker": "1102", "name_zh": "亞洲水泥", "name_en": "Asia Cement", "sector": "Materials",
+      "principals": [
+        { "subject_id": "douglas-hsu", "name_zh": "徐旭東", "name_en": "Douglas Hsu", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 9.0, "stake_basis": "family aggregate via Far Eastern group cross-holdings",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["遠東集團交叉持股"],
+          "tags": ["conglomerate", "cross-holdings", "second-generation", "complex-structure"],
+          "note": "Far Eastern group ownership is a dense cross-holding web; per-person attribution is the weakest part of this estimate." }
+      ]
+    },
+    {
+      "ticker": "1402", "name_zh": "遠東新世紀", "name_en": "Far Eastern New Century", "sector": "Materials",
+      "principals": [
+        { "subject_id": "douglas-hsu", "name_zh": "徐旭東", "name_en": "Douglas Hsu", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 7.0, "stake_basis": "family aggregate via cross-holdings",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["遠東集團交叉持股"],
+          "tags": ["conglomerate", "cross-holdings"],
+          "note": "" }
+      ]
+    },
+    {
+      "ticker": "4904", "name_zh": "遠傳電信", "name_en": "Far EasTone Telecom", "sector": "Telecom",
+      "principals": [
+        { "subject_id": "douglas-hsu", "name_zh": "徐旭東", "name_en": "Douglas Hsu", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 4.0, "stake_basis": "family aggregate via cross-holdings",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["遠東集團交叉持股"],
+          "tags": ["conglomerate", "telecom", "high-dividend"],
+          "note": "" }
+      ]
+    },
+    {
+      "ticker": "3045", "name_zh": "台灣大哥大", "name_en": "Taiwan Mobile", "sector": "Telecom",
+      "principals": [
+        { "subject_id": "daniel-tsai", "name_zh": "蔡明忠", "name_en": "Daniel Tsai", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 4.0, "stake_basis": "family aggregate via Fubon group vehicles",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["富邦集團交叉持股"],
+          "tags": ["telecom", "high-dividend", "cross-holdings"],
+          "note": "" }
+      ]
+    },
+    {
+      "ticker": "1216", "name_zh": "統一企業", "name_en": "Uni-President Enterprises", "sector": "Consumer Staples",
+      "principals": [
+        { "subject_id": "alex-lo", "name_zh": "羅智先", "name_en": "Alex Lo", "subject_type": "individual",
+          "role_zh": "董事長", "role_en": "Chairman", "archetype": "family_office",
+          "stake_pct_est": 3.0, "stake_basis": "personal and family holdings (Kao family successor line)",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Tainan",
+          "vehicles": ["統一集團相關投資公司"],
+          "tags": ["southern-taiwan", "consumer", "group-cross-holdings", "second-generation"],
+          "note": "Tainan Kao family successor line. Group cross-holdings (2912 統一超) add to the household beyond this line." }
+      ]
+    },
+    {
+      "ticker": "1301", "name_zh": "台灣塑膠工業", "name_en": "Formosa Plastics", "sector": "Materials",
+      "principals": [
+        { "subject_id": "wang-family-fpg", "name_zh": "王氏家族（台塑集團）", "name_en": "Wang family (Formosa Plastics Group)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 2.5, "stake_basis": "directly attributable family holdings only; excludes foundation and trust blocks",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["長庚醫療財團法人", "公益信託王長庚社會福利基金"],
+          "tags": ["foundation-controlled", "structure-limited", "large-family", "succession-litigated"],
+          "note": "The controlling blocks sit in hospital foundations and public-interest trusts, not with individuals. Individual attributability is deliberately conservative — do not read the group's market cap as family wealth." }
+      ]
+    },
+    {
+      "ticker": "2603", "name_zh": "長榮海運", "name_en": "Evergreen Marine", "sector": "Shipping",
+      "principals": [
+        { "subject_id": "chang-family-evergreen", "name_zh": "張榮發家族", "name_en": "Chang family (Evergreen)", "subject_type": "family",
+          "role_zh": "創辦家族", "role_en": "Founding family", "archetype": "family_office",
+          "stake_pct_est": 10.0, "stake_basis": "family aggregate via Evergreen group holding companies",
+          "confidence": "low", "as_of": "2026-Q1", "base": "Taipei",
+          "vehicles": ["長榮國際", "長榮鋼鐵", "張榮發基金會"],
+          "tags": ["shipping-cycle", "family-dispute-history", "succession-litigated", "windfall-cycle"],
+          "note": "Freight-cycle windfalls produced extraordinary dividend years. Contested estate and a documented inter-branch split — several individually bankable members." }
+      ]
+    },
+    {
+      "ticker": "2330", "name_zh": "台灣積體電路製造", "name_en": "TSMC", "sector": "Semiconductors",
+      "principals": []
+    },
+    {
+      "ticker": "2412", "name_zh": "中華電信", "name_en": "Chunghwa Telecom", "sector": "Telecom",
+      "principals": []
+    }
+  ]
+}
