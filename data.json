@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T02:49:51Z",
+  "generated_at": "2026-07-29T05:54:34Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,45 +250,45 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 78.5,
-      "change": 0.5999999999999943,
-      "changePct": 0.7702182284980671,
+      "price": 77.95,
+      "change": 0.04999999999999716,
+      "changePct": 0.06418485237483589,
       "currency": "HKD",
       "prevClose": 77.9,
       "dayHigh": 79.3,
-      "dayLow": 78.3,
+      "dayLow": 77.85,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 100300.0,
-      "change": 140.0,
-      "changePct": 0.13977635782747602,
+      "price": 98300.0,
+      "change": -1860.0,
+      "changePct": -1.8570287539936101,
       "currency": "KRW",
       "prevClose": 100160.0,
       "dayHigh": 103600.0,
-      "dayLow": 98200.0,
+      "dayLow": 95700.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6732.0,
-      "change": -37.0,
-      "changePct": -0.5466095435071651,
+      "price": 6821.0,
+      "change": 52.0,
+      "changePct": 0.7682080070911509,
       "currency": "JPY",
       "prevClose": 6769.0,
-      "dayHigh": 6772.0,
+      "dayHigh": 6824.0,
       "dayLow": 6646.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3182.0,
-      "change": -74.0,
-      "changePct": -2.272727272727273,
+      "price": 3234.0,
+      "change": -22.0,
+      "changePct": -0.6756756756756757,
       "currency": "JPY",
       "prevClose": 3256.0,
-      "dayHigh": 3227.0,
+      "dayHigh": 3235.0,
       "dayLow": 3134.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -690,6 +690,12 @@
           "pubDate": "Wed, 22 Jul 2026 04:32:44 GMT"
         },
         {
+          "title": "Associate, Securities Operations (Contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX2JLVHN5dnF6TFJoUy1vczhCMFZIQ2V0UmpxbTdlYTY3U3Z4THRmM0hfenc3VzhMdUF5QTRmMV85SXMxaHJUdmwwOElnZzVZOXN5ajRXWDJ2RkkzeFhhRzlmN3RMWndXZTFWQ3dTYklpd3hCbkRNcTZYZFJjNHJVSFpVc2p3LUlmMW5iZkFaNnlPVmJpSW52Zk9hZ2h3TFlGSUJzWA?oc=5",
+          "pubDate": "Wed, 29 Jul 2026 03:20:49 GMT"
+        },
+        {
           "title": "Report on the Management of the Government’s Portfolio for the Year 2025/26",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXZwcjE3TjlGQlN1OE5RZm04TlNRczVidW0yNm51eTRYYUEwUlNIa0Y4WFhrRzlUWGZJWmhpc3ZzWTJvODdTcWdxQzdZSFBHdS1FaVNRcldndXR2WGhqM0xNSUswNkZoY21WREY3ejhUcWZkcThLQm1qeWFaR0RRQlJ4WFRVd2JFMEdfdm84dFFCSHh2R3NCcWZ2bDJHNk9WSFNGQkNWTlVkazBWQkR0akVwSTB6dw?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8za1FCbWg3bVlHaWoyNG5OWEVTQWM2RG1vWVJCUkhXbXhGY0F0TExfZEE5RE9tS0tNUjNTR3NaR2ZKbkF2S0x5dFRkemxSV3ZvSWdLTEFjYzJMZDFGU3BEcGxLTHloVUFXZUhKR01WSnJuQXd6ZlJnTFdybG5iZw?oc=5",
           "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Three Questions with… Sam Kim, Chief Operating Officer",
-          "source": "blog.gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZUsxcXdCTlgwdnpyc1lfR19KTzkyeGloTTc5eVBPREx0V3NTUmZRNkVxbGFvc0J1czZmSkpBY1ZWdmhWbWIxbzJ5RDlrU3dxRTE2emlSRnRCWGJ6QTEtdjNYaDFyMDR5d1pIazBKdDk1Q3VuUnM2X184NGJibFlXdEk4azNIWmJuaEJHT0diRdIBnwFBVV95cUxPLXY4Y25RalpJZVNjb0l3dTM2N0NZcWZpX3FWTndBa0p6SGM0Y2hBVE0ycTlPaVFFb2pRRWVUOFVSZGJkV0g1TEoxcm9paUwyYWoteml4OVM0bl84N0lIeHN5MlAycEctUUJBR2RpaldCNk9hai1TdzVQUWRZamlRRjNTaF9Wa3RHdzFjMnJyM04wbnZQdkRsQmp5ZkRWVnc?oc=5",
-          "pubDate": "Fri, 24 Jul 2026 09:23:28 GMT"
         }
       ]
     },
