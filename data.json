@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T05:54:34Z",
+  "generated_at": "2026-07-29T08:44:24Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,13 +250,13 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.95,
-      "change": 0.04999999999999716,
-      "changePct": 0.06418485237483589,
+      "price": 78.15,
+      "change": 0.25,
+      "changePct": 0.32092426187419765,
       "currency": "HKD",
       "prevClose": 77.9,
       "dayHigh": 79.3,
-      "dayLow": 77.85,
+      "dayLow": 77.3,
       "marketState": "",
       "exchange": "HKSE"
     },
@@ -272,23 +272,23 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 6821.0,
-      "change": 52.0,
-      "changePct": 0.7682080070911509,
+      "price": 6842.0,
+      "change": 73.0,
+      "changePct": 1.0784458561087311,
       "currency": "JPY",
       "prevClose": 6769.0,
-      "dayHigh": 6824.0,
+      "dayHigh": 6846.0,
       "dayLow": 6646.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3234.0,
-      "change": -22.0,
-      "changePct": -0.6756756756756757,
+      "price": 3216.0,
+      "change": -40.0,
+      "changePct": -1.2285012285012284,
       "currency": "JPY",
       "prevClose": 3256.0,
-      "dayHigh": 3235.0,
+      "dayHigh": 3241.0,
       "dayLow": 3134.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -320,12 +320,6 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2p1ZzlFUEdzMFpwbENfLTYySW1lUVVEWVZkdEkyTDRaOGdYSmpKeU1zTUFlU1NPT3ltalMwX1d3VzZDc09xemM4a2tRVzdHSXdCSTA1ZE1iaGRUQ3k0SVpwWTUwclB4OVFoRlZzTkhaY2x2bFFVQVNsTTVkZFUtOTQ2bDlORGhyLXdGX19qRW43Zw?oc=5",
           "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Insights and Views",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBONml3Q3dzdTRueU4zelp4NXFaOVVjUkF2THl5MHhSRWpTMHl6R2FhajA5UFQ4Q0lfWnpnclhmS2N3UGdvb0RIbzg4U2IzajBmejFHQTRCak82eTRUNXdFUTQ0SFo?oc=5",
-          "pubDate": "Mon, 29 Jun 2026 07:24:56 GMT"
         },
         {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
@@ -362,6 +356,12 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
           "pubDate": "Wed, 14 Dec 2022 10:59:21 GMT"
+        },
+        {
+          "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
+          "source": "AIA Design",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
+          "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
         }
       ]
     },
@@ -708,10 +708,10 @@
           "pubDate": "Tue, 28 Jul 2026 11:56:59 GMT"
         },
         {
-          "title": "GIC Senior Leadership Appointments",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8za1FCbWg3bVlHaWoyNG5OWEVTQWM2RG1vWVJCUkhXbXhGY0F0TExfZEE5RE9tS0tNUjNTR3NaR2ZKbkF2S0x5dFRkemxSV3ZvSWdLTEFjYzJMZDFGU3BEcGxLTHloVUFXZUhKR01WSnJuQXd6ZlJnTFdybG5iZw?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT"
+          "title": "Three Questions with… Sam Kim, Chief Operating Officer",
+          "source": "blog.gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZUsxcXdCTlgwdnpyc1lfR19KTzkyeGloTTc5eVBPREx0V3NTUmZRNkVxbGFvc0J1czZmSkpBY1ZWdmhWbWIxbzJ5RDlrU3dxRTE2emlSRnRCWGJ6QTEtdjNYaDFyMDR5d1pIazBKdDk1Q3VuUnM2X184NGJibFlXdEk4azNIWmJuaEJHT0diRdIBnwFBVV95cUxPLXY4Y25RalpJZVNjb0l3dTM2N0NZcWZpX3FWTndBa0p6SGM0Y2hBVE0ycTlPaVFFb2pRRWVUOFVSZGJkV0g1TEoxcm9paUwyYWoteml4OVM0bl84N0lIeHN5MlAycEctUUJBR2RpaldCNk9hai1TdzVQUWRZamlRRjNTaF9Wa3RHdzFjMnJyM04wbnZQdkRsQmp5ZkRWVnc?oc=5",
+          "pubDate": "Fri, 24 Jul 2026 09:23:28 GMT"
         }
       ]
     },
