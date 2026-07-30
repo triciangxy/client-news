@@ -50,15 +50,18 @@ jobs:
         if: ${{ inputs.selftest != true }}
         run: python fetch_twse.py ${{ inputs.codes && format('--codes {0}', inputs.codes) || '' }}
 
-      - name: Commit updated twse.json
+      - name: Commit updated index + board shards
         if: ${{ inputs.selftest != true }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet twse.json; then
-            echo "No changes to twse.json"
+          # twse.json carries prices and changes every run; the twse/ shards
+          # carry holdings and pay, so only the boards that actually moved
+          # get committed.
+          git add -A twse.json twse/
+          if git diff --cached --quiet; then
+            echo "No changes"
           else
-            git add twse.json
-            git commit -m "chore: refresh twse.json [skip ci]"
+            git commit -m "chore: refresh TWSE director data [skip ci]"
             git push
           fi

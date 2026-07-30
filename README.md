@@ -79,8 +79,9 @@ Open your Pages URL — you should see the dashboard with live data.
 
 ## The prospect screener (`prospects.html`)
 
-Pick a listed company, get every director on the board sized in one table. Two
-components, both from public exchange disclosure:
+Search any listed company by code, English name or Chinese name, click in, and get
+every director on that board sized in one table. Two components, both from public
+exchange disclosure:
 
 ```
 estimated net worth  =  shares held × share price × (1 − stake discount)
@@ -95,16 +96,52 @@ board into a note.
 The **quick estimate** panel at the bottom runs the same two lines on figures you type
 in, for a prospect whose company isn't in the feed.
 
+Arrow keys and Enter work in the search box, and opening a company sets the URL hash
+(`prospects.html#2317`), so you can bookmark a board or paste it to a colleague.
+
+### Connecting it to TWSE — one-time setup
+
+The browser can't call TWSE directly (no CORS headers on their endpoints, and this is a
+static site with no server). So the fetch runs on GitHub Actions and commits the result
+back to the repo, exactly like the news dashboard already does. **No API key or account
+is needed** — TWSE open data is public and unauthenticated.
+
+1. Make sure Actions can push: **Settings → Actions → General → Workflow permissions →
+   Read and write permissions**. This is the same setting the news job needs, so if the
+   dashboard is already refreshing, you're done.
+2. Go to **Actions → Refresh TWSE Director Data → Run workflow**, tick **selftest**, and
+   run it. This writes nothing — it just prints which TWSE dataset answered for each
+   role. Check the log shows real row counts rather than zeros.
+3. Run it again with **selftest** unticked. It fetches the whole market and commits
+   `twse.json` plus the `twse/` shards.
+4. Open `prospects.html`. The amber sample-data banner disappears once a real index is
+   committed.
+
+After that it refreshes itself weekdays at 06:00 UTC (14:00 Taipei, after the 13:30
+close). Use the **codes** input to run against a short list while testing, e.g.
+`2317,2330,2454`.
+
 ### Where the data comes from
 
-`fetch_twse.py` runs on GitHub Actions and pulls from the Taiwan Stock Exchange's open
-data service: daily closing prices, company basic data, director and supervisor
-shareholdings, and director remuneration. It writes `twse.json`, which the page reads.
+`fetch_twse.py` pulls four things from the Taiwan Stock Exchange's open data service:
+daily closing prices, company basic data, director and supervisor shareholdings, and
+director remuneration.
 
 TWSE renumbers its datasets from time to time, so the fetcher resolves them at runtime
 from the service's own API index — preferred IDs first, then a keyword match on the
-Chinese dataset title. Run the workflow with **selftest** ticked to print which dataset
-answered for each role without writing anything.
+Chinese dataset title. That's what **selftest** reports on, and it's the first thing to
+check if the tables come back empty.
+
+Output is deliberately split in two, because the whole market is ~1,000 boards:
+
+| File | Contents | Changes |
+|---|---|---|
+| `twse.json` | Light index of every company: code, names, price, market cap, director count | Every run — prices move |
+| `twse/<code>.json` | One board: each director's holdings and pay | Rarely — holdings are monthly, pay annual |
+
+The page loads the index once (~200 KB for the full market) and fetches a board only
+when you open it. Keeping price out of the shards is what stops a daily refresh from
+rewriting a thousand files and bloating the repo.
 
 Two things to know when reading the output:
 
@@ -118,14 +155,23 @@ Two things to know when reading the output:
 
 Both limitations bias the estimate *down*, which is the right direction for a screen.
 
-### Adding companies
-
-Edit `DEFAULT_CODES` at the top of `fetch_twse.py`, or run the workflow manually with
-a **codes** input like `2317,2330,2454`. Codes are TWSE listing codes.
-
-Until the first successful run commits a `twse.json`, the page shows clearly-labelled
+Until the first successful run commits a real `twse.json`, the page shows clearly-labelled
 synthetic sample data so the layout is still usable — an amber banner says so, and every
 name in it is invented.
+
+### Running it locally
+
+```bash
+pip install requests
+python fetch_twse.py --selftest            # what resolved, writes nothing
+python fetch_twse.py --limit 50            # first 50 companies, quick
+python fetch_twse.py --codes 2317,2330     # named companies only
+python fetch_twse.py --fixture             # synthetic market, no network
+python -m http.server 8000                 # then open localhost:8000/prospects.html
+```
+
+Serve over HTTP rather than opening the file directly — `fetch()` can't read
+`twse.json` from a `file://` URL, and the page will silently fall back to sample data.
 
 ## The Source of Wealth estimator (`wealth.html`)
 

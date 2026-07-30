@@ -97,6 +97,46 @@
   button.act:hover, button.act:focus-visible { color: var(--ink-bright); border-color: var(--line-strong); background: var(--bg-hover); }
   :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
+  /* search */
+  .searchbar { padding: 20px 40px 4px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+  .sf { position: relative; flex: 1; min-width: 280px; max-width: 620px; }
+  #q {
+    width: 100%; background: var(--bg-surface); border: 1px solid var(--line-soft);
+    border-radius: 4px; padding: 12px 14px; color: var(--ink-bright);
+    font-family: var(--sans); font-size: 14.5px; transition: border-color var(--t-quick);
+  }
+  #q::placeholder { color: var(--ink-faint); }
+  #q:focus { outline: none; border-color: var(--line-strong); background: var(--bg-elev); }
+  .sf-hint { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-tertiary); }
+  .results {
+    position: absolute; z-index: 20; top: calc(100% + 5px); left: 0; right: 0;
+    background: var(--bg-elev); border: 1px solid var(--line-strong);
+    border-radius: 4px; box-shadow: 0 18px 50px rgba(0,0,0,0.55);
+    max-height: 340px; overflow-y: auto; padding: 4px;
+  }
+  .result {
+    display: grid; grid-template-columns: 62px 1fr auto; gap: 12px; align-items: center;
+    padding: 9px 11px; border-radius: 3px; cursor: pointer;
+  }
+  .result[aria-selected="true"], .result:hover { background: var(--bg-hover); }
+  .result .code { font-family: var(--mono); font-size: 12px; color: var(--gold); }
+  .result .nm { font-size: 13px; color: var(--ink-bright); line-height: 1.3; }
+  .result .zh { font-size: 11px; color: var(--ink-tertiary); }
+  .result .rt { text-align: right; font-family: var(--mono); font-size: 10.5px; color: var(--ink-secondary); white-space: nowrap; }
+  .result mark { background: rgba(201,168,102,0.24); color: var(--ink-bright); border-radius: 2px; }
+  .no-hits { padding: 14px 12px; font-size: 12.5px; color: var(--ink-tertiary); }
+
+  .start { padding: 56px 0 30px; max-width: 62ch; }
+  .start h2 { font-family: var(--serif); font-size: 24px; color: var(--ink-bright); font-weight: 400; margin-bottom: 8px; }
+  .start p { font-size: 13px; color: var(--ink-secondary); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+  .chip {
+    font-family: var(--mono); font-size: 11px; color: var(--ink-secondary);
+    border: 1px solid var(--line-soft); border-radius: 3px; padding: 7px 11px;
+    background: transparent; cursor: pointer; transition: all var(--t-quick);
+  }
+  .chip:hover, .chip:focus-visible { color: var(--ink-bright); border-color: var(--line-strong); background: var(--bg-hover); }
+
   main { padding: 26px 40px 80px; }
   .co-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 18px; }
   .co-name { font-family: var(--serif); font-size: 30px; color: var(--ink-bright); line-height: 1.1; }
@@ -196,11 +236,17 @@
 
 <div class="banner" id="banner" hidden></div>
 
-<div class="assume">
-  <div class="ai">
-    <label for="co">Company</label>
-    <select id="co"></select>
+<div class="searchbar">
+  <div class="sf">
+    <input type="text" id="q" autocomplete="off" spellcheck="false"
+           role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list"
+           placeholder="Search listed companies — code, English or Chinese name">
+    <div class="results" id="results" role="listbox" hidden></div>
   </div>
+  <div class="sf-hint" id="sf-hint"></div>
+</div>
+
+<div class="assume">
   <div class="ai">
     <label for="years">Years on board</label>
     <input type="text" id="years" value="12" inputmode="numeric">
@@ -258,37 +304,21 @@
      accumulated pay   = annual remuneration x years served x savings rate
 
    Anything more detailed belongs in wealth.html once they are a client.
+
+   Data loads in two stages so the whole market stays searchable without a
+   multi-megabyte download: twse.json is a light index of every listed company,
+   and a board is fetched from twse/<code>.json only when you open it.
    ===================================================================== */
 
-/* Sample board data so the page works before the TWSE feed lands, and in any
-   context where twse.json cannot be fetched. Obviously synthetic. */
-const FIXTURE = {
-  generated_at: null,
-  source: 'FIXTURE — synthetic sample data, not from TWSE',
-  currency: 'TWD',
-  fixture: true,
-  companies: [
-    { code:'9101', name:'示範精密股份有限公司', nameEn:'Demo Precision Co Ltd',
-      price:212.5, sharesOutstanding:1380000000, marketCap:293250000000, pe:14.8, pb:2.1, yield:3.4,
-      directors:[
-        { name:'示範-董事長', title:'董事長', shares:96600000, pay:62000000, payBasis:'band midpoint' },
-        { name:'示範-副董事長', title:'副董事長', shares:41400000, pay:38000000, payBasis:'band midpoint' },
-        { name:'示範-總經理', title:'董事兼總經理', shares:13800000, pay:28500000, payBasis:'disclosed' },
-        { name:'示範-董事', title:'董事', shares:4140000, pay:9500000, payBasis:'band midpoint' },
-        { name:'示範-獨立董事', title:'獨立董事', shares:0, pay:3200000, payBasis:'band midpoint' },
-      ] },
-    { code:'9102', name:'示範電子股份有限公司', nameEn:'Demo Electronics Co Ltd',
-      price:88.0, sharesOutstanding:3200000000, marketCap:281600000000, pe:11.2, pb:1.3, yield:5.1,
-      directors:[
-        { name:'示範-創辦人', title:'董事長', shares:224000000, pay:48000000, payBasis:'band midpoint' },
-        { name:'示範-執行副總', title:'董事', shares:32000000, pay:21000000, payBasis:'disclosed' },
-        { name:'示範-監察人', title:'監察人', shares:6400000, pay:4800000, payBasis:'band midpoint' },
-      ] },
-  ],
-};
+/* Sample market so the page works before the TWSE feed lands, and anywhere
+   twse.json cannot be fetched. Obviously synthetic — every name is invented. */
+const FALLBACK = {"index":{"source":"FIXTURE — synthetic sample data, not from TWSE","currency":"TWD","fixture":true,"companies":[{"code":"9100","name":"示範精密股份有限公司 9100","nameEn":"Demo Precision Co 9100","price":453.39,"marketCap":415305240000.0,"pe":23.9,"sharesOutstanding":916000000,"directors":7},{"code":"9101","name":"示範電子股份有限公司 9101","nameEn":"Demo Electronics Co 9101","price":294.88,"marketCap":976937440000.0,"pe":14.8,"sharesOutstanding":3313000000,"directors":6},{"code":"9102","name":"示範半導體股份有限公司 9102","nameEn":"Demo Semiconductor Co 9102","price":225.26,"marketCap":800348780000.0,"pe":9.3,"sharesOutstanding":3553000000,"directors":6},{"code":"9103","name":"示範化學股份有限公司 9103","nameEn":"Demo Chemical Co 9103","price":413.52,"marketCap":248525520000.0,"pe":12.8,"sharesOutstanding":601000000,"directors":6},{"code":"9104","name":"示範金融股份有限公司 9104","nameEn":"Demo Financial Co 9104","price":252.09,"marketCap":940547790000.0,"pe":24.3,"sharesOutstanding":3731000000,"directors":5},{"code":"9105","name":"示範紡織股份有限公司 9105","nameEn":"Demo Textile Co 9105","price":438.24,"marketCap":1407188640000.0,"pe":30.0,"sharesOutstanding":3211000000,"directors":5},{"code":"9106","name":"示範鋼鐵股份有限公司 9106","nameEn":"Demo Steel Co 9106","price":225.6,"marketCap":92947200000.0,"pe":16.0,"sharesOutstanding":412000000,"directors":7},{"code":"9107","name":"示範光電股份有限公司 9107","nameEn":"Demo Optical Co 9107","price":101.27,"marketCap":311810330000.0,"pe":24.8,"sharesOutstanding":3079000000,"directors":6},{"code":"9108","name":"示範電信股份有限公司 9108","nameEn":"Demo Telecom Co 9108","price":419.31,"marketCap":807171750000.0,"pe":27.3,"sharesOutstanding":1925000000,"directors":4},{"code":"9109","name":"示範海運股份有限公司 9109","nameEn":"Demo Marine Co 9109","price":533.29,"marketCap":1424950880000.0,"pe":20.8,"sharesOutstanding":2672000000,"directors":6},{"code":"9110","name":"示範精密股份有限公司 9110","nameEn":"Demo Precision Co 9110","price":601.47,"marketCap":2291600700000.0,"pe":28.2,"sharesOutstanding":3810000000,"directors":7},{"code":"9111","name":"示範電子股份有限公司 9111","nameEn":"Demo Electronics Co 9111","price":428.42,"marketCap":186791120000.0,"pe":9.9,"sharesOutstanding":436000000,"directors":7}]},"shards":{"9100":{"directors":[{"name":"示範-9100-1","title":"董事長","shares":49991372,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9100-2","title":"副董事長","shares":35918574,"pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9100-3","title":"董事兼總經理","shares":6315732,"pay":9500000,"payBasis":"disclosed"},{"name":"示範-9100-4","title":"董事","shares":5123385,"pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9100-5","title":"董事","shares":2827119,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9100-6","title":"監察人","shares":739495,"pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9100-7","title":"獨立董事","shares":0,"pay":21000000,"payBasis":"disclosed"}]},"9101":{"directors":[{"name":"示範-9101-1","title":"董事長","shares":204537974,"pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9101-2","title":"副董事長","shares":152999331,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9101-3","title":"董事兼總經理","shares":25970528,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9101-4","title":"董事","shares":8410970,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9101-5","title":"董事","shares":7938948,"pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9101-6","title":"監察人","shares":4542927,"pay":38000000,"payBasis":"disclosed"}]},"9102":{"directors":[{"name":"示範-9102-1","title":"董事長","shares":282660361,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9102-2","title":"副董事長","shares":58517268,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9102-3","title":"董事兼總經理","shares":28683051,"pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9102-4","title":"董事","shares":20220002,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9102-6","title":"監察人","shares":5248849,"pay":62000000,"payBasis":"disclosed"},{"name":"示範-9102-7","title":"獨立董事","shares":0,"pay":9500000,"payBasis":"disclosed"}]},"9103":{"directors":[{"name":"示範-9103-1","title":"董事長","shares":60379960,"pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9103-2","title":"副董事長","shares":24331903,"pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9103-3","title":"董事兼總經理","shares":7014970,"pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9103-4","title":"董事","shares":1909856,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9103-5","title":"董事","shares":1107054,"pay":21000000,"payBasis":"disclosed"},{"name":"示範-9103-6","title":"監察人","shares":427899,"pay":38000000,"payBasis":"disclosed"}]},"9104":{"directors":[{"name":"示範-9104-1","title":"董事長","shares":371733993,"pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9104-2","title":"副董事長","shares":118635791,"pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9104-3","title":"董事兼總經理","shares":39752070,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9104-4","title":"董事","shares":13211465,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9104-6","title":"監察人","shares":4630648,"pay":3200000,"payBasis":"disclosed"}]},"9105":{"directors":[{"name":"示範-9105-1","title":"董事長","shares":165938823,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9105-2","title":"副董事長","shares":104811516,"pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9105-3","title":"董事兼總經理","shares":32047260,"pay":38000000,"payBasis":"disclosed"},{"name":"示範-9105-4","title":"董事","shares":11736147,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9105-5","title":"董事","shares":5293847,"pay":38000000,"payBasis":"disclosed"}]},"9106":{"directors":[{"name":"示範-9106-1","title":"董事長","shares":24644230,"pay":38000000,"payBasis":"disclosed"},{"name":"示範-9106-2","title":"副董事長","shares":18777199,"pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9106-3","title":"董事兼總經理","shares":2456783,"pay":21000000,"payBasis":"disclosed"},{"name":"示範-9106-4","title":"董事","shares":1173429,"pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9106-5","title":"董事","shares":686607,"pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9106-6","title":"監察人","shares":352205,"pay":21000000,"payBasis":"disclosed"},{"name":"示範-9106-7","title":"獨立董事","shares":0,"pay":21000000,"payBasis":"disclosed"}]},"9107":{"directors":[{"name":"示範-9107-1","title":"董事長","shares":147810349,"pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9107-2","title":"副董事長","shares":92746761,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9107-3","title":"董事兼總經理","shares":20468318,"pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9107-4","title":"董事","shares":10967357,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9107-6","title":"監察人","shares":1544398,"pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9107-7","title":"獨立董事","shares":0,"pay":4800000,"payBasis":"disclosed"}]},"9108":{"directors":[{"name":"示範-9108-1","title":"董事長","shares":105969515,"pay":38000000,"payBasis":"disclosed"},{"name":"示範-9108-2","title":"副董事長","shares":53485733,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9108-3","title":"董事兼總經理","shares":9665577,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9108-4","title":"董事","shares":7600106,"pay":3200000,"payBasis":"band midpoint"}]},"9109":{"directors":[{"name":"示範-9109-1","title":"董事長","shares":179746185,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9109-2","title":"副董事長","shares":88732483,"pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9109-3","title":"董事兼總經理","shares":25228015,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9109-4","title":"董事","shares":9451816,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9109-5","title":"董事","shares":6019250,"pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9109-7","title":"獨立董事","shares":0,"pay":38000000,"payBasis":"band midpoint"}]},"9110":{"directors":[{"name":"示範-9110-1","title":"董事長","shares":424587566,"pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9110-2","title":"副董事長","shares":73661934,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9110-3","title":"董事兼總經理","shares":47284051,"pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9110-4","title":"董事","shares":18174836,"pay":21000000,"payBasis":"disclosed"},{"name":"示範-9110-5","title":"董事","shares":8074650,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9110-6","title":"監察人","shares":3682334,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9110-7","title":"獨立董事","shares":0,"pay":9500000,"payBasis":"disclosed"}]},"9111":{"directors":[{"name":"示範-9111-1","title":"董事長","shares":27021647,"pay":4800000,"payBasis":"disclosed"},{"name":"示範-9111-2","title":"副董事長","shares":20319318,"pay":28500000,"payBasis":"disclosed"},{"name":"示範-9111-3","title":"董事兼總經理","shares":5324625,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9111-4","title":"董事","shares":1047835,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9111-5","title":"董事","shares":832181,"pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9111-6","title":"監察人","shares":450226,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9111-7","title":"獨立董事","shares":0,"pay":3200000,"payBasis":"band midpoint"}]}}};
 
-let DATA = FIXTURE;
+let INDEX = FALLBACK.index;
+let SHARDS = { ...FALLBACK.shards };
+let current = null;                 // merged {…index entry, directors:[…]}
 let sortKey = 'est', sortDir = -1;
+let hi = -1;                        // highlighted search result
 
 const $ = id => document.getElementById(id);
 const num = v => { const n = parseFloat(String(v ?? '').replace(/[,\s]/g, '')); return isFinite(n) ? n : 0; };
@@ -324,22 +354,119 @@ function assumptions() {
 /** The whole model, in one place. Returns USD millions. */
 function estimate(director, company, a) {
   const toUsdM = twd => twd / a.fx / 1e6;
-  const stakeTwd = (director.shares || 0) * (company.price || 0);
-  const stake = toUsdM(stakeTwd) * (1 - a.disc);
+  const stake = toUsdM((director.shares || 0) * (company.price || 0)) * (1 - a.disc);
   const payAccum = toUsdM((director.pay || 0) * a.years * a.save);
-  return { stake, payAccum, total: stake + payAccum, stakeTwd };
+  return { stake, payAccum, total: stake + payAccum };
 }
 
-function currentCompany() {
-  return DATA.companies.find(c => c.code === $('co').value) || DATA.companies[0];
+/* ---------------------- search ---------------------- */
+
+function score(c, q) {
+  const code = String(c.code), en = (c.nameEn || '').toLowerCase(), zh = c.name || '';
+  if (code === q) return 0;
+  if (code.startsWith(q)) return 1;
+  if (en.startsWith(q)) return 2;
+  if (zh.startsWith(q)) return 2;
+  if (en.includes(q)) return 3;
+  if (zh.includes(q)) return 3;
+  return 99;
 }
+
+function search(q) {
+  q = q.trim().toLowerCase();
+  if (!q) return [];
+  return INDEX.companies
+    .map(c => ({ c, s: score(c, q) }))
+    .filter(x => x.s < 99)
+    .sort((x, y) => x.s - y.s || (y.c.marketCap || 0) - (x.c.marketCap || 0))
+    .slice(0, 8)
+    .map(x => x.c);
+}
+
+function mark(text, q) {
+  const t = String(text ?? '');
+  const i = t.toLowerCase().indexOf(q.toLowerCase());
+  if (!q || i < 0) return esc(t);
+  return esc(t.slice(0, i)) + '<mark>' + esc(t.slice(i, i + q.length)) + '</mark>' + esc(t.slice(i + q.length));
+}
+
+function renderResults() {
+  const q = $('q').value.trim();
+  const box = $('results');
+  const hits = search(q);
+  if (!q) { box.hidden = true; $('q').setAttribute('aria-expanded', 'false'); return; }
+  box.hidden = false;
+  $('q').setAttribute('aria-expanded', 'true');
+  if (!hits.length) {
+    box.innerHTML = `<div class="no-hits">No listed company matches “${esc(q)}”. Try the code, e.g. 2317.</div>`;
+    return;
+  }
+  const a = assumptions();
+  box.innerHTML = hits.map((c, i) => `
+    <div class="result" role="option" data-code="${esc(c.code)}" aria-selected="${i === hi}">
+      <span class="code">${mark(c.code, q)}</span>
+      <span><span class="nm">${mark(c.nameEn || c.name, q)}</span><br><span class="zh">${mark(c.name, q)}</span></span>
+      <span class="rt">${c.directors || 0} directors<br>USD ${usd((c.marketCap || 0) / a.fx / 1e6)}</span>
+    </div>`).join('');
+  box.querySelectorAll('.result').forEach(el => {
+    el.addEventListener('mousedown', ev => { ev.preventDefault(); openCompany(el.dataset.code); });
+  });
+}
+
+function moveHi(delta) {
+  const n = $('results').querySelectorAll('.result').length;
+  if (!n) return;
+  hi = (hi + delta + n) % n;
+  renderResults();
+  const el = $('results').querySelectorAll('.result')[hi];
+  if (el) el.scrollIntoView({ block: 'nearest' });
+}
+
+/* ---------------------- open a board ---------------------- */
+
+async function openCompany(code) {
+  const entry = INDEX.companies.find(c => String(c.code) === String(code));
+  if (!entry) return;
+  $('q').value = '';
+  $('results').hidden = true;
+  hi = -1;
+
+  let shard = SHARDS[code];
+  if (!shard) {
+    $('board').innerHTML = `<div class="empty">Loading board for ${esc(code)}…</div>`;
+    const dir = INDEX.shardDir || 'twse';
+    try {
+      const r = await fetch(`${dir}/${code}.json`, { cache: 'no-store' });
+      if (!r.ok) throw new Error(String(r.status));
+      shard = await r.json();
+      SHARDS[code] = shard;
+    } catch (err) {
+      $('board').innerHTML = `<div class="empty">No board on file for ${esc(entry.nameEn || entry.name)} (${esc(code)}).<br>
+        <span style="color:var(--ink-faint)">Its directors weren't in the last TWSE fetch — the disclosure may not cover this company.</span></div>`;
+      return;
+    }
+  }
+  current = { ...entry, directors: shard.directors || [] };
+  if (location.hash.slice(1) !== String(code)) history.replaceState(null, '', '#' + code);
+  render();
+}
+
+/* ---------------------- render ---------------------- */
 
 function render() {
-  const co = currentCompany();
-  const a = assumptions();
   const host = $('board');
-  if (!co) { host.innerHTML = '<div class="empty">No companies in the feed.</div>'; return; }
+  if (!current) {
+    host.innerHTML = `<div class="start">
+      <h2>Search for a company to size its board.</h2>
+      <p>Every director's estimated net worth, from what their shareholding is worth today and what their board pay has accumulated to. Type a TWSE code or a company name above.</p>
+      <div class="chips">${INDEX.companies.slice(0, 6).map(c =>
+        `<button class="chip" data-code="${esc(c.code)}">${esc(c.nameEn || c.name)}</button>`).join('')}</div>
+    </div>`;
+    host.querySelectorAll('.chip').forEach(el => { el.onclick = () => openCompany(el.dataset.code); });
+    return;
+  }
 
+  const co = current, a = assumptions();
   const rows = (co.directors || []).map(d => ({ d, e: estimate(d, co, a) }));
   const key = r => ({ name: r.d.name, shares: r.d.shares || 0, stake: r.e.stake,
                       pay: r.d.pay || 0, accum: r.e.payAccum, est: r.e.total }[sortKey]);
@@ -351,7 +478,7 @@ function render() {
   const boardTotal = rows.reduce((s, r) => s + r.e.total, 0);
   const mcapUsd = (co.marketCap || 0) / a.fx / 1e6;
   const insiderPct = co.sharesOutstanding
-    ? (co.directors.reduce((s, d) => s + (d.shares || 0), 0) / co.sharesOutstanding) * 100 : 0;
+    ? ((co.directors || []).reduce((s, d) => s + (d.shares || 0), 0) / co.sharesOutstanding) * 100 : 0;
 
   const th = (k, label, cls) =>
     `<th class="${cls || ''}" data-sort="${k}"${sortKey === k ? ` aria-sort="${sortDir < 0 ? 'descending' : 'ascending'}"` : ''}>${label}</th>`;
@@ -440,26 +567,23 @@ function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
 }
 
-function fillCompanies() {
-  $('co').innerHTML = DATA.companies
-    .map(c => `<option value="${esc(c.code)}">${esc(c.nameEn || c.name)} · ${esc(c.code)}</option>`).join('');
-}
-
 function stamp() {
-  const gen = DATA.generated_at ? new Date(DATA.generated_at).toLocaleString('en-GB',
+  const gen = INDEX.generated_at ? new Date(INDEX.generated_at).toLocaleString('en-GB',
     { day:'numeric', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' }) : 'not yet run';
-  $('stamp').innerHTML = `<div><b>Source</b> ${esc((DATA.source || '').split('(')[0].trim())}</div>
+  $('stamp').innerHTML = `<div><b>Source</b> ${esc((INDEX.source || '').split('(')[0].trim())}</div>
                           <div><b>Fetched</b> ${esc(gen)}</div>
-                          <div><b>Companies</b> ${DATA.companies.length}</div>`;
-  if (DATA.fixture) {
+                          <div><b>Companies</b> ${INDEX.companies.length}</div>`;
+  $('sf-hint').textContent = `${INDEX.companies.length.toLocaleString('en-US')} companies indexed`;
+  if (INDEX.fixture) {
     const b = $('banner');
     b.hidden = false;
-    b.innerHTML = `<span><b>Sample data.</b> The TWSE feed hasn't been fetched into <code>twse.json</code> yet, so this is showing synthetic figures to demonstrate the layout. Every name and number below is invented.</span>`;
+    b.innerHTML = `<span><b>Sample data.</b> The TWSE feed hasn't been fetched into <code>twse.json</code> yet, so this is showing a synthetic market to demonstrate the layout. Every name and number is invented.</span>`;
   }
 }
 
 $('btn-copy').onclick = () => {
-  const co = currentCompany(), a = assumptions();
+  if (!current) return;
+  const co = current, a = assumptions();
   const lines = [`${co.nameEn || co.name} (TWSE ${co.code}) — indicative director wealth, USD m`,
                  `Assumptions: ${a.years}y board tenure, ${num($('save').value)}% savings rate, ${num($('disc').value)}% stake discount, ${a.fx} TWD/USD`, ''];
   (co.directors || []).forEach(d => {
@@ -471,16 +595,35 @@ $('btn-copy').onclick = () => {
           () => { $('btn-copy').textContent = 'Copy blocked'; setTimeout(() => $('btn-copy').textContent = 'Copy table', 1600); });
 };
 
+$('q').addEventListener('input', () => { hi = -1; renderResults(); });
+$('q').addEventListener('keydown', ev => {
+  if (ev.key === 'ArrowDown') { ev.preventDefault(); moveHi(1); }
+  else if (ev.key === 'ArrowUp') { ev.preventDefault(); moveHi(-1); }
+  else if (ev.key === 'Enter') {
+    const els = $('results').querySelectorAll('.result');
+    const el = els[hi >= 0 ? hi : 0];
+    if (el) { ev.preventDefault(); openCompany(el.dataset.code); }
+  } else if (ev.key === 'Escape') { $('q').value = ''; renderResults(); }
+});
+$('q').addEventListener('blur', () => setTimeout(() => { $('results').hidden = true; }, 120));
+$('q').addEventListener('focus', renderResults);
+
 ['years','save','disc','fx'].forEach(id => $(id).addEventListener('input', () => { render(); renderQuick(); }));
 ['q-shares','q-price','q-pay','q-years'].forEach(id => $(id).addEventListener('input', renderQuick));
-$('co').addEventListener('change', render);
+window.addEventListener('hashchange', () => { const c = location.hash.slice(1); if (c) openCompany(c); });
 
-/* Prefer the committed feed; fall back to the fixture so the page is never blank. */
+/* Prefer the committed index; fall back to the sample market so the page is
+   never blank. Shards are then fetched per company on open(). */
 fetch('twse.json', { cache: 'no-store' })
   .then(r => r.ok ? r.json() : Promise.reject(new Error(String(r.status))))
-  .then(d => { if (d && Array.isArray(d.companies) && d.companies.length) DATA = d; })
-  .catch(() => { /* fixture stays */ })
-  .finally(() => { fillCompanies(); stamp(); render(); renderQuick(); });
+  .then(d => { if (d && Array.isArray(d.companies) && d.companies.length) { INDEX = d; SHARDS = {}; } })
+  .catch(() => { /* fallback stays */ })
+  .finally(() => {
+    stamp();
+    const c = location.hash.slice(1);
+    if (c) openCompany(c); else render();
+    renderQuick();
+  });
 </script>
 </body>
 </html>

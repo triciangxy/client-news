@@ -16,16 +16,31 @@ on the Chinese title. Preferred IDs are tried first; the keyword match is the
 fallback that survives a renumbering. Run with --selftest to see exactly which
 dataset answered for each role.
 
+Output is split in two, because the whole market is ~1,000 boards:
+
+  twse.json        a light index of every listed company — code, names, price,
+                   market cap, director count. Prices move daily, so this is the
+                   file that changes on every run. ~150 KB.
+  twse/<code>.json one shard per company with its board: holdings and pay.
+                   Holdings are disclosed monthly and pay annually, so these
+                   shards rarely change and git only commits the ones that did.
+
+Keeping price out of the shards is what stops a daily refresh from rewriting a
+thousand files and bloating the repo.
+
 Usage:
-  python fetch_twse.py                 # fetch and write twse.json
+  python fetch_twse.py                 # fetch, write twse.json + twse/*.json
   python fetch_twse.py --selftest      # fetch, report resolution, write nothing
-  python fetch_twse.py --fixture       # write a demo twse.json with no network
+  python fetch_twse.py --fixture       # write demo data with no network
+  python fetch_twse.py --limit 50      # first 50 companies only, for a quick run
   python fetch_twse.py --codes 2317,2330,2454
 """
 
 import argparse
 import json
+import os
 import re
+import shutil
 import sys
 from datetime import datetime, timezone
 
@@ -36,8 +51,11 @@ INDEX_URLS = [f"{BASE}/swagger.json", f"{BASE}/openapi.json", "https://openapi.t
 UA = "Mozilla/5.0 (compatible; ClientPulse-SoW/1.0; +https://github.com)"
 TIMEOUT = 40
 
-# Companies to publish. Codes are TWSE listing codes.
-DEFAULT_CODES = ["2317", "2330", "2454", "2412", "1301", "2882", "2881", "1216"]
+# By default every company the price dataset returns is published. --codes
+# narrows it; these are only the fallback when the price dataset is unavailable.
+FALLBACK_CODES = ["2317", "2330", "2454", "2412", "1301", "2882", "2881", "1216"]
+
+SHARD_DIR = "twse"
 
 # ── Dataset roles ─────────────────────────────────────────────────────────
 # `prefer` is tried first; `keywords` (all must appear in the dataset's title or
@@ -202,7 +220,7 @@ def index_by_code(rows):
 
 # ── build ─────────────────────────────────────────────────────────────────
 
-def build(codes):
+def build(codes=None, limit=None):
     log("Resolving TWSE datasets:")
     index = load_index()
     data, how = {}, {}
@@ -215,8 +233,18 @@ def build(codes):
     holds = index_by_code(data["holdings"])
     pays = index_by_code(data["remuneration"])
 
+    # Publish the whole market by default — the search box needs every company,
+    # not a hand-kept roster.
+    if codes:
+        universe = list(codes)
+    else:
+        universe = sorted(set(prices) | set(infos)) or list(FALLBACK_CODES)
+    if limit:
+        universe = universe[:limit]
+    log(f"\nBuilding {len(universe)} companies:")
+
     companies = []
-    for code in codes:
+    for code in universe:
         price_row = (prices.get(code) or [{}])[0]
         val_row = (vals.get(code) or [{}])[0]
         info_row = (infos.get(code) or [{}])[0]
@@ -271,8 +299,9 @@ def build(codes):
             "yield": to_num(pick(val_row, "yield")),
             "directors": sorted(directors, key=lambda d: -(d["shares"] or 0)),
         })
-        d = companies[-1]
-        log(f"  {code}: price={d['price']} shares={d['sharesOutstanding']} directors={len(d['directors'])}")
+
+    log(f"  built {len(companies)} companies, "
+        f"{sum(len(c['directors']) for c in companies)} director rows")
 
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -283,11 +312,107 @@ def build(codes):
     }
 
 
-def fixture():
-    """A small, obviously-synthetic payload so the UI is usable with no network.
+# ── output: light index + one shard per company ───────────────────────────
 
-    Figures are invented. Replace by running the fetcher for real.
+def write_output(payload, out_path, shard_dir):
+    """Split the payload into a searchable index and per-company board shards."""
+    companies = payload["companies"]
+
+    if os.path.isdir(shard_dir):
+        shutil.rmtree(shard_dir)                 # drop delisted companies
+    os.makedirs(shard_dir, exist_ok=True)
+
+    written = 0
+    for c in companies:
+        if not c["directors"]:
+            continue
+        # Price deliberately stays out of the shard: it moves daily, and a shard
+        # that changes daily would rewrite ~1,000 files on every run.
+        shard = {
+            "code": c["code"], "name": c["name"], "nameEn": c["nameEn"],
+            "sharesOutstanding": c["sharesOutstanding"],
+            "directors": c["directors"],
+        }
+        with open(os.path.join(shard_dir, f"{c['code']}.json"), "w", encoding="utf-8") as fh:
+            json.dump(shard, fh, ensure_ascii=False, separators=(",", ":"))
+        written += 1
+
+    index = {
+        "generated_at": payload["generated_at"],
+        "source": payload["source"],
+        "currency": payload["currency"],
+        "fixture": payload.get("fixture", False),
+        "resolution": payload.get("resolution", {}),
+        "shardDir": shard_dir,
+        "companies": [{
+            "code": c["code"], "name": c["name"], "nameEn": c["nameEn"],
+            "price": c["price"], "marketCap": c["marketCap"], "pe": c["pe"],
+            "sharesOutstanding": c["sharesOutstanding"],
+            "directors": len(c["directors"]),
+        } for c in companies],
+    }
+    with open(out_path, "w", encoding="utf-8") as fh:
+        json.dump(index, fh, ensure_ascii=False, separators=(",", ":"))
+
+    size_kb = os.path.getsize(out_path) / 1024
+    log(f"  wrote {out_path} ({len(index['companies'])} companies, {size_kb:.0f} KB) "
+        f"and {written} shards in {shard_dir}/")
+    return written
+
+
+def fixture(count=60):
+    """An obviously-synthetic market so search and drill-in work with no network.
+
+    Every name and figure is invented. Replace by running the fetcher for real.
     """
+    import random
+    rng = random.Random(20260730)
+
+    sectors = ["Precision", "Electronics", "Semiconductor", "Chemical", "Financial",
+               "Textile", "Steel", "Optical", "Telecom", "Marine"]
+    zh = ["精密", "電子", "半導體", "化學", "金融", "紡織", "鋼鐵", "光電", "電信", "海運"]
+    titles = [("董事長", 0.07), ("副董事長", 0.03), ("董事兼總經理", 0.01),
+              ("董事", 0.004), ("董事", 0.002), ("監察人", 0.001), ("獨立董事", 0.0)]
+
+    companies = []
+    for i in range(count):
+        s = i % len(sectors)
+        code = str(9100 + i)
+        price = round(rng.uniform(18, 640), 2)
+        shares = rng.randrange(200, 4000) * 1_000_000
+        directors = []
+        for n, (title, frac) in enumerate(titles):
+            if n >= 4 and rng.random() < 0.3:
+                continue
+            held = int(shares * frac * rng.uniform(0.5, 1.6))
+            pay = rng.choice([3_200_000, 4_800_000, 9_500_000, 21_000_000,
+                              28_500_000, 38_000_000, 62_000_000])
+            directors.append({
+                "name": f"示範-{code}-{n + 1}", "title": title, "shares": held,
+                "pay": pay, "payBasis": rng.choice(["band midpoint", "disclosed"]),
+            })
+        companies.append({
+            "code": code,
+            "name": f"示範{zh[s]}股份有限公司 {code}",
+            "nameEn": f"Demo {sectors[s]} Co {code}",
+            "price": price, "sharesOutstanding": shares,
+            "marketCap": price * shares,
+            "pe": round(rng.uniform(7, 32), 1), "pb": round(rng.uniform(0.6, 4.2), 1),
+            "yield": round(rng.uniform(0, 7), 1),
+            "directors": sorted(directors, key=lambda d: -d["shares"]),
+        })
+
+    return {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "source": "FIXTURE — synthetic sample data, not from TWSE",
+        "currency": "TWD",
+        "fixture": True,
+        "resolution": {},
+        "companies": companies,
+    }
+
+
+def _legacy_fixture():
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": "FIXTURE — synthetic sample data, not from TWSE",
@@ -333,19 +458,20 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--selftest", action="store_true", help="report dataset resolution, write nothing")
     ap.add_argument("--fixture", action="store_true", help="write synthetic sample data, no network")
-    ap.add_argument("--codes", help="comma-separated TWSE codes")
+    ap.add_argument("--codes", help="comma-separated TWSE codes (default: whole market)")
+    ap.add_argument("--limit", type=int, help="cap the number of companies, for a quick run")
     ap.add_argument("--out", default="twse.json")
+    ap.add_argument("--shard-dir", default=SHARD_DIR)
     args = ap.parse_args()
 
     if args.fixture:
-        payload = fixture()
-        with open(args.out, "w", encoding="utf-8") as fh:
-            json.dump(payload, fh, ensure_ascii=False, indent=1)
-        print(f"wrote {args.out} (fixture)")
+        payload = fixture(args.limit or 60)
+        write_output(payload, args.out, args.shard_dir)
+        print(f"wrote {args.out} + {args.shard_dir}/ (fixture)")
         return 0
 
-    codes = [c.strip() for c in args.codes.split(",")] if args.codes else DEFAULT_CODES
-    payload = build(codes)
+    codes = [c.strip() for c in args.codes.split(",")] if args.codes else None
+    payload = build(codes, args.limit)
 
     filled = sum(1 for c in payload["companies"] if c["directors"])
     priced = sum(1 for c in payload["companies"] if c["price"])
@@ -363,12 +489,11 @@ def main():
         return 0
 
     if not priced and not filled:
-        log("ERROR: nothing resolved — leaving the existing twse.json untouched")
+        log("ERROR: nothing resolved — leaving the existing data untouched")
         return 1
 
-    with open(args.out, "w", encoding="utf-8") as fh:
-        json.dump(payload, fh, ensure_ascii=False, indent=1)
-    print(f"wrote {args.out}")
+    write_output(payload, args.out, args.shard_dir)
+    print(f"wrote {args.out} + {args.shard_dir}/")
     return 0
 
 
