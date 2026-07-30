@@ -93,13 +93,22 @@ position can't be sold at the screen price. The savings rate (default 40%) turns
 earned into wealth retained. Sort by any column, and **Copy table** lifts the whole
 board into a note.
 
-**Years on board is read from the filing, not assumed.** TWSE discloses 初次選任日期
-(date first elected) for each director, so a founder on the board since 1986 accumulates
-over 40 years while an independent director appointed in 2020 accumulates over six. The
-column shows the year, and the **tenure fallback** in the assumptions bar applies only to
-the rows where no date is disclosed — those are greyed and labelled. First-elected is
-used in preference to 選任日期, which resets on re-election and would make a
-thirty-year founder look like a three-year appointee.
+**Years on board is read from the filing — there is no tenure assumption.** TWSE
+discloses 初次選任日期 (date first elected) for each director, so a founder on the board
+since 1986 accumulates over 40 years while an independent director appointed in 2020
+accumulates over six. First-elected is used in preference to 選任日期, which resets on
+re-election and would make a thirty-year founder look like a three-year appointee.
+
+Where no date is disclosed the pay component is **dropped rather than guessed**: that row
+reports stake value only, is flagged `!`, and the note says how many rows are affected.
+It is understated by whatever their board pay has accumulated to, which is the safe
+direction — but check those rows by hand before you act on them.
+
+**Every figure links back to its source.** Under the company name are click-throughs to
+the MOPS/TWSE pages behind the numbers — company profile, director holdings, director
+remuneration, price history — so any figure can be checked against the exchange in one
+click. The URL templates live in a single `SOURCE_LINKS` constant at the top of the
+script block in `prospects.html`; if the exchange moves a page, fix it there.
 
 The **quick estimate** panel at the bottom runs the same two lines on figures you type
 in, for a prospect whose company isn't in the feed.

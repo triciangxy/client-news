@@ -141,6 +141,14 @@
   .co-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 18px; }
   .co-name { font-family: var(--serif); font-size: 30px; color: var(--ink-bright); line-height: 1.1; }
   .co-meta { font-size: 12px; color: var(--ink-secondary); margin-top: 3px; }
+  .sources { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 9px; }
+  .sources a {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--ink-tertiary); text-decoration: none;
+    border-bottom: 1px solid var(--line-soft); padding-bottom: 1px;
+    transition: color var(--t-quick), border-color var(--t-quick);
+  }
+  .sources a:hover, .sources a:focus-visible { color: var(--gold); border-color: rgba(201,168,102,0.5); }
   .co-stats { display: flex; gap: 26px; flex-wrap: wrap; }
   .cs { text-align: right; }
   .cs .l { font-family: var(--mono); font-size: 9px; letter-spacing: 0.13em; text-transform: uppercase; color: var(--ink-tertiary); }
@@ -249,11 +257,6 @@
 
 <div class="assume">
   <div class="ai">
-    <label for="years">Tenure fallback</label>
-    <input type="text" id="years" value="12" inputmode="numeric">
-    <span class="why">years, when undisclosed</span>
-  </div>
-  <div class="ai">
     <label for="save">Savings rate</label>
     <input type="text" id="save" value="40" inputmode="decimal">
     <span class="why">% of pay retained</span>
@@ -315,6 +318,23 @@
    twse.json cannot be fetched. Obviously synthetic — every name is invented. */
 const FALLBACK = {"index":{"source":"FIXTURE — synthetic sample data, not from TWSE","currency":"TWD","fixture":true,"companies":[{"code":"9100","name":"示範精密股份有限公司 9100","nameEn":"Demo Precision Co 9100","price":453.39,"marketCap":415305240000.0,"pe":10.1,"sharesOutstanding":916000000,"directors":6},{"code":"9101","name":"示範電子股份有限公司 9101","nameEn":"Demo Electronics Co 9101","price":412.77,"marketCap":1220560890000.0,"pe":23.4,"sharesOutstanding":2957000000,"directors":7},{"code":"9102","name":"示範半導體股份有限公司 9102","nameEn":"Demo Semiconductor Co 9102","price":524.7,"marketCap":518928300000.00006,"pe":12.9,"sharesOutstanding":989000000,"directors":6},{"code":"9103","name":"示範化學股份有限公司 9103","nameEn":"Demo Chemical Co 9103","price":467.85,"marketCap":910436100000.0,"pe":12.2,"sharesOutstanding":1946000000,"directors":6},{"code":"9104","name":"示範金融股份有限公司 9104","nameEn":"Demo Financial Co 9104","price":383.19,"marketCap":703153650000.0,"pe":28.8,"sharesOutstanding":1835000000,"directors":5},{"code":"9105","name":"示範紡織股份有限公司 9105","nameEn":"Demo Textile Co 9105","price":566.32,"marketCap":889688720000.0001,"pe":17.6,"sharesOutstanding":1571000000,"directors":6},{"code":"9106","name":"示範鋼鐵股份有限公司 9106","nameEn":"Demo Steel Co 9106","price":237.64,"marketCap":437257600000.0,"pe":16.5,"sharesOutstanding":1840000000,"directors":7},{"code":"9107","name":"示範光電股份有限公司 9107","nameEn":"Demo Optical Co 9107","price":64.85,"marketCap":48118699999.99999,"pe":27.4,"sharesOutstanding":742000000,"directors":7},{"code":"9108","name":"示範電信股份有限公司 9108","nameEn":"Demo Telecom Co 9108","price":70.55,"marketCap":128048250000.0,"pe":20.7,"sharesOutstanding":1815000000,"directors":7},{"code":"9109","name":"示範海運股份有限公司 9109","nameEn":"Demo Marine Co 9109","price":286.18,"marketCap":696848300000.0,"pe":7.2,"sharesOutstanding":2435000000,"directors":7},{"code":"9110","name":"示範精密股份有限公司 9110","nameEn":"Demo Precision Co 9110","price":47.47,"marketCap":30285860000.0,"pe":14.7,"sharesOutstanding":638000000,"directors":4},{"code":"9111","name":"示範電子股份有限公司 9111","nameEn":"Demo Electronics Co 9111","price":209.74,"marketCap":98787540000.0,"pe":27.8,"sharesOutstanding":471000000,"directors":5}]},"shards":{"9100":{"directors":[{"name":"示範-9100-1","title":"董事長","shares":49991372,"since":"1986-07-18","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9100-2","title":"副董事長","shares":18947197,"since":"2003-08-27","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9100-3","title":"董事兼總經理","shares":5296519,"since":"1992-06-07","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9100-4","title":"董事","shares":3457655,"since":null,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9100-5","title":"董事","shares":1708022,"since":"2020-12-16","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9100-7","title":"獨立董事","shares":0,"since":"2016-06-19","pay":4800000,"payBasis":"disclosed"}]},"9101":{"directors":[{"name":"示範-9101-1","title":"董事長","shares":247286720,"since":"1996-11-23","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9101-2","title":"副董事長","shares":52521026,"since":"1999-06-08","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9101-3","title":"董事兼總經理","shares":16233752,"since":"2004-05-09","pay":28500000,"payBasis":"disclosed"},{"name":"示範-9101-4","title":"董事","shares":15930250,"since":"2020-04-20","pay":4800000,"payBasis":"disclosed"},{"name":"示範-9101-5","title":"董事","shares":7025842,"since":null,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9101-6","title":"監察人","shares":2992145,"since":"2015-09-04","pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9101-7","title":"獨立董事","shares":0,"since":"2023-05-15","pay":28500000,"payBasis":"disclosed"}]},"9102":{"directors":[{"name":"示範-9102-1","title":"董事長","shares":94605049,"since":"1993-08-13","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9102-2","title":"副董事長","shares":38755813,"since":null,"pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9102-3","title":"董事兼總經理","shares":10537335,"since":"2000-06-04","pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9102-4","title":"董事","shares":2473604,"since":null,"pay":21000000,"payBasis":"disclosed"},{"name":"示範-9102-6","title":"監察人","shares":682823,"since":"2008-11-02","pay":38000000,"payBasis":"disclosed"},{"name":"示範-9102-7","title":"獨立董事","shares":0,"since":"2022-06-13","pay":3200000,"payBasis":"disclosed"}]},"9103":{"directors":[{"name":"示範-9103-1","title":"董事長","shares":86502209,"since":"2004-06-27","pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9103-2","title":"副董事長","shares":32796279,"since":"1986-12-11","pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9103-3","title":"董事兼總經理","shares":11604127,"since":"1994-11-17","pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9103-4","title":"董事","shares":9348930,"since":"2023-04-18","pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9103-5","title":"董事","shares":4053589,"since":"2023-07-12","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9103-7","title":"獨立董事","shares":0,"since":"2013-04-15","pay":4800000,"payBasis":"band midpoint"}]},"9104":{"directors":[{"name":"示範-9104-1","title":"董事長","shares":92852156,"since":null,"pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9104-2","title":"副董事長","shares":82491566,"since":null,"pay":4800000,"payBasis":"disclosed"},{"name":"示範-9104-3","title":"董事兼總經理","shares":23510172,"since":"2004-07-09","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9104-4","title":"董事","shares":9606355,"since":null,"pay":21000000,"payBasis":"disclosed"},{"name":"示範-9104-7","title":"獨立董事","shares":0,"since":null,"pay":3200000,"payBasis":"band midpoint"}]},"9105":{"directors":[{"name":"示範-9105-1","title":"董事長","shares":128000087,"since":"1985-12-01","pay":4800000,"payBasis":"disclosed"},{"name":"示範-9105-2","title":"副董事長","shares":74660165,"since":"1997-10-10","pay":28500000,"payBasis":"disclosed"},{"name":"示範-9105-3","title":"董事兼總經理","shares":17119246,"since":"1989-10-09","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9105-4","title":"董事","shares":8295789,"since":"2021-10-28","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9105-6","title":"監察人","shares":2104939,"since":"2020-11-20","pay":38000000,"payBasis":"disclosed"},{"name":"示範-9105-7","title":"獨立董事","shares":0,"since":null,"pay":3200000,"payBasis":"band midpoint"}]},"9106":{"directors":[{"name":"示範-9106-1","title":"董事長","shares":115072899,"since":"2001-03-17","pay":38000000,"payBasis":"disclosed"},{"name":"示範-9106-2","title":"副董事長","shares":63969919,"since":"1986-04-11","pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9106-3","title":"董事兼總經理","shares":21542079,"since":null,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9106-4","title":"董事","shares":6585240,"since":"2011-07-24","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9106-5","title":"董事","shares":2480925,"since":"2023-09-06","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9106-6","title":"監察人","shares":998025,"since":null,"pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9106-7","title":"獨立董事","shares":0,"since":"2008-01-01","pay":21000000,"payBasis":"band midpoint"}]},"9107":{"directors":[{"name":"示範-9107-1","title":"董事長","shares":29993431,"since":"1998-01-15","pay":38000000,"payBasis":"disclosed"},{"name":"示範-9107-2","title":"副董事長","shares":28521246,"since":null,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9107-3","title":"董事兼總經理","shares":4603235,"since":"1985-07-05","pay":38000000,"payBasis":"disclosed"},{"name":"示範-9107-4","title":"董事","shares":2969217,"since":"2011-05-13","pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9107-6","title":"監察人","shares":1160768,"since":"2020-05-18","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9107-5","title":"董事","shares":975085,"since":null,"pay":9500000,"payBasis":"disclosed"},{"name":"示範-9107-7","title":"獨立董事","shares":0,"since":"2017-12-24","pay":62000000,"payBasis":"disclosed"}]},"9108":{"directors":[{"name":"示範-9108-1","title":"董事長","shares":84185854,"since":"1991-03-22","pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9108-2","title":"副董事長","shares":67507062,"since":null,"pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9108-3","title":"董事兼總經理","shares":21088992,"since":"2002-12-26","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9108-4","title":"董事","shares":8905247,"since":null,"pay":62000000,"payBasis":"disclosed"},{"name":"示範-9108-5","title":"董事","shares":4311296,"since":"2019-05-08","pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9108-6","title":"監察人","shares":1970765,"since":"2009-01-11","pay":3200000,"payBasis":"disclosed"},{"name":"示範-9108-7","title":"獨立董事","shares":0,"since":null,"pay":28500000,"payBasis":"disclosed"}]},"9109":{"directors":[{"name":"示範-9109-1","title":"董事長","shares":110460572,"since":"1989-11-20","pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9109-2","title":"副董事長","shares":37020744,"since":"1987-03-26","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9109-3","title":"董事兼總經理","shares":31394696,"since":null,"pay":21000000,"payBasis":"disclosed"},{"name":"示範-9109-4","title":"董事","shares":13299546,"since":"2018-02-09","pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9109-5","title":"董事","shares":4124235,"since":"2011-07-15","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9109-6","title":"監察人","shares":3102708,"since":"2011-05-13","pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9109-7","title":"獨立董事","shares":0,"since":null,"pay":9500000,"payBasis":"disclosed"}]},"9110":{"directors":[{"name":"示範-9110-2","title":"副董事長","shares":30020854,"since":"2001-05-08","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9110-1","title":"董事長","shares":22789570,"since":"1997-10-05","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9110-3","title":"董事兼總經理","shares":3216838,"since":"1988-03-15","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9110-4","title":"董事","shares":1873760,"since":"2018-01-18","pay":38000000,"payBasis":"band midpoint"}]},"9111":{"directors":[{"name":"示範-9111-1","title":"董事長","shares":24625098,"since":"1990-09-08","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9111-2","title":"副董事長","shares":10233373,"since":"1999-10-03","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9111-3","title":"董事兼總經理","shares":5669854,"since":"1991-08-23","pay":3200000,"payBasis":"disclosed"},{"name":"示範-9111-4","title":"董事","shares":2094516,"since":"2021-02-22","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9111-5","title":"董事","shares":1497083,"since":"2019-07-21","pay":38000000,"payBasis":"band midpoint"}]}}};
 
+/* Click-through to the exchange page behind each figure, so any number in the
+   table can be checked against the source in one click.
+
+   These URL patterns are MOPS/TWSE's public pages keyed by company code. If the
+   exchange moves a page, fix the template here — it is the only place they
+   appear. {code} is substituted with the TWSE listing code. */
+const SOURCE_LINKS = [
+  { label: 'Company profile',
+    url: 'https://mops.twse.com.tw/mops/web/t05st03?TYPEK=sii&co_id={code}' },
+  { label: 'Director holdings',
+    url: 'https://mops.twse.com.tw/mops/web/t16sn02?TYPEK=sii&co_id={code}' },
+  { label: 'Director remuneration',
+    url: 'https://mops.twse.com.tw/mops/web/t100sb15?TYPEK=sii&co_id={code}' },
+  { label: 'Price & trading',
+    url: 'https://www.twse.com.tw/zh/trading/historical/stock-day.html?stockNo={code}' },
+];
+
 let INDEX = FALLBACK.index;
 let SHARDS = { ...FALLBACK.shards };
 let current = null;                 // merged {…index entry, directors:[…]}
@@ -345,7 +365,6 @@ const tierOf = v => TIERS.find(t => v >= t.min);
 
 function assumptions() {
   return {
-    years: num($('years').value) || 0,
     save: pct($('save').value),
     disc: pct($('disc').value),
     fx: num($('fx').value) || 1,
@@ -355,22 +374,22 @@ function assumptions() {
 const THIS_YEAR = new Date().getFullYear();
 
 /**
- * Tenure comes from the filing where TWSE discloses it (初次選任日期, date first
- * elected). The assumption in the bar is only a fallback for the rows that
- * don't carry one.
+ * Tenure comes from the filing (初次選任日期, date first elected) or not at all.
+ * Where TWSE discloses no date the pay component is dropped rather than guessed,
+ * so that row reports stake value only — understated, and marked as such.
  */
-function tenureOf(director, a) {
+function tenureOf(director) {
   const y = director.since ? new Date(director.since).getFullYear() : NaN;
   if (isFinite(y) && y > 1900 && y <= THIS_YEAR) {
     return { years: Math.max(1, THIS_YEAR - y), since: y, disclosed: true };
   }
-  return { years: a.years, since: null, disclosed: false };
+  return { years: 0, since: null, disclosed: false };
 }
 
 /** The whole model, in one place. Returns USD millions. */
 function estimate(director, company, a) {
   const toUsdM = twd => twd / a.fx / 1e6;
-  const t = tenureOf(director, a);
+  const t = tenureOf(director);
   const stake = toUsdM((director.shares || 0) * (company.price || 0)) * (1 - a.disc);
   const payAccum = toUsdM((director.pay || 0) * t.years * a.save);
   return { stake, payAccum, total: stake + payAccum, tenure: t };
@@ -506,6 +525,8 @@ function render() {
       <div>
         <div class="co-name">${esc(co.nameEn || co.name)}</div>
         <div class="co-meta">${esc(co.name)} · TWSE ${esc(co.code)}${co.price ? ' · TWD ' + co.price.toFixed(2) : ''}</div>
+        <div class="sources">${SOURCE_LINKS.map(l =>
+          `<a href="${esc(l.url.replace('{code}', co.code))}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join('')}</div>
       </div>
       <div class="co-stats">
         <div class="cs"><div class="l">Market cap</div><div class="v">USD ${usd(mcapUsd)}</div></div>
@@ -534,12 +555,12 @@ function render() {
           <td><div class="who">${esc(d.name)}</div><div class="role">${esc(d.title || '—')}</div></td>
           <td class="num">${e.tenure.disclosed
               ? `${e.tenure.years}y<div class="role">since ${e.tenure.since}</div>`
-              : `<span class="assumed">${e.tenure.years}y</span><div class="role">not disclosed</div>`}</td>
+              : `<span class="assumed">—</span><div class="role">not disclosed</div>`}</td>
           <td class="num">${d.shares ? grp(d.shares) : '—'}</td>
           <td class="num">${usd(e.stake)}</td>
           <td class="num">${d.pay ? grp(d.pay / 1e6) + 'M' : '—'}${d.payBasis === 'band midpoint' ? ' <span class="flag" title="MOPS discloses this as a band; midpoint used">~</span>' : ''}</td>
-          <td class="num">${usd(e.payAccum)}</td>
-          <td class="num est">${usd(e.total)}</td>
+          <td class="num">${e.tenure.disclosed ? usd(e.payAccum) : '<span class="assumed">—</span>'}</td>
+          <td class="num est">${usd(e.total)}${e.tenure.disclosed ? '' : ' <span class="flag" title="Stake only — no election date disclosed, so board pay is not counted">!</span>'}</td>
           <td class="num"><div class="split" title="${sPct.toFixed(0)}% stake / ${(100 - sPct).toFixed(0)}% pay">
             <i class="s" style="width:${sPct.toFixed(1)}%"></i><i class="p" style="width:${(100 - sPct).toFixed(1)}%"></i></div></td>
           <td><span class="badge ${t.cls}">${t.label}</span></td>
@@ -551,15 +572,17 @@ function render() {
       <span><i style="background:var(--stake)"></i>Shareholding</span>
       <span><i style="background:var(--pay)"></i>Accumulated pay</span>
       <span style="color:var(--warn)">~ pay disclosed as a band, midpoint used</span>
-      <span style="color:var(--ink-faint)">greyed tenure = not disclosed, fallback used</span>
+      <span style="color:var(--warn)">! no election date disclosed — stake only, pay not counted</span>
     </div>
 
     <div class="note">All figures in USD, converted at ${a.fx} TWD. Stake value is the holding at
       today's close less a <b>${num($('disc').value)}% discount</b> — a board-sized position cannot be
       sold at the screen price. Accumulated pay runs from each director's <b>disclosed election
       date</b> at a <b>${num($('save').value)}% savings rate</b>, so it is what's likely retained,
-      not what was earned; the ${a.years}-year fallback applies only to the
-      ${rows.filter(r => !r.e.tenure.disclosed).length} row(s) where TWSE discloses no date.
+      not what was earned.${rows.some(r => !r.e.tenure.disclosed)
+        ? ` ${rows.filter(r => !r.e.tenure.disclosed).length} row(s) carry no election date; those show
+            <b>stake value only</b> and are understated by whatever their board pay has accumulated to.`
+        : ''}
       This deliberately ignores inherited wealth, property, holdings in other companies and borrowings
       against the stake — it sizes what the filings show, nothing more.</div>`;
 
@@ -578,7 +601,7 @@ function renderQuick() {
   const shares = num($('q-shares').value);
   const price = num($('q-price').value);
   const pay = num($('q-pay').value);
-  const years = num($('q-years').value) || a.years;
+  const years = num($('q-years').value);
   if (!shares && !pay) { $('q-out').textContent = '—'; $('q-split').textContent = ''; return; }
   const stake = (shares * price) / a.fx / 1e6 * (1 - a.disc);
   const accum = (pay * years * a.save) / a.fx / 1e6;
@@ -610,11 +633,13 @@ $('btn-copy').onclick = () => {
   if (!current) return;
   const co = current, a = assumptions();
   const lines = [`${co.nameEn || co.name} (TWSE ${co.code}) — indicative director wealth, USD m`,
-                 `Assumptions: tenure from filings (${a.years}y where undisclosed), ${num($('save').value)}% savings rate, ${num($('disc').value)}% stake discount, ${a.fx} TWD/USD`, ''];
+                 `Assumptions: tenure from filings, ${num($('save').value)}% savings rate, ${num($('disc').value)}% stake discount, ${a.fx} TWD/USD`, ''];
   (co.directors || []).forEach(d => {
     const e = estimate(d, co, a);
-    lines.push(`${d.name} (${d.title || '—'}, ${e.tenure.years}y${e.tenure.disclosed ? '' : ' est'}): `
-             + `${usd(e.total)}  [stake ${usd(e.stake)} + pay ${usd(e.payAccum)}]`);
+    lines.push(e.tenure.disclosed
+      ? `${d.name} (${d.title || '—'}, ${e.tenure.years}y since ${e.tenure.since}): `
+        + `${usd(e.total)}  [stake ${usd(e.stake)} + pay ${usd(e.payAccum)}]`
+      : `${d.name} (${d.title || '—'}, tenure not disclosed): ${usd(e.total)}  [stake only]`);
   });
   navigator.clipboard.writeText(lines.join('\n'))
     .then(() => { $('btn-copy').textContent = 'Copied'; setTimeout(() => $('btn-copy').textContent = 'Copy table', 1600); },
@@ -634,7 +659,7 @@ $('q').addEventListener('keydown', ev => {
 $('q').addEventListener('blur', () => setTimeout(() => { $('results').hidden = true; }, 120));
 $('q').addEventListener('focus', renderResults);
 
-['years','save','disc','fx'].forEach(id => $(id).addEventListener('input', () => { render(); renderQuick(); }));
+['save','disc','fx'].forEach(id => $(id).addEventListener('input', () => { render(); renderQuick(); }));
 ['q-shares','q-price','q-pay','q-years'].forEach(id => $(id).addEventListener('input', renderQuick));
 window.addEventListener('hashchange', () => { const c = location.hash.slice(1); if (c) openCompany(c); });
 
