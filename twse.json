@@ -1,0 +1,91 @@
+{
+ "generated_at": "2026-07-30T14:25:12Z",
+ "source": "FIXTURE — synthetic sample data, not from TWSE",
+ "currency": "TWD",
+ "fixture": true,
+ "resolution": {},
+ "companies": [
+  {
+   "code": "9101",
+   "name": "示範精密股份有限公司",
+   "nameEn": "Demo Precision Co Ltd",
+   "price": 212.5,
+   "sharesOutstanding": 1380000000,
+   "marketCap": 293250000000,
+   "pe": 14.8,
+   "pb": 2.1,
+   "yield": 3.4,
+   "directors": [
+    {
+     "name": "示範-董事長",
+     "title": "董事長",
+     "shares": 96600000,
+     "pay": 62000000,
+     "payBasis": "band midpoint"
+    },
+    {
+     "name": "示範-副董事長",
+     "title": "副董事長",
+     "shares": 41400000,
+     "pay": 38000000,
+     "payBasis": "band midpoint"
+    },
+    {
+     "name": "示範-總經理",
+     "title": "董事兼總經理",
+     "shares": 13800000,
+     "pay": 28500000,
+     "payBasis": "disclosed"
+    },
+    {
+     "name": "示範-董事",
+     "title": "董事",
+     "shares": 4140000,
+     "pay": 9500000,
+     "payBasis": "band midpoint"
+    },
+    {
+     "name": "示範-獨立董事",
+     "title": "獨立董事",
+     "shares": 0,
+     "pay": 3200000,
+     "payBasis": "band midpoint"
+    }
+   ]
+  },
+  {
+   "code": "9102",
+   "name": "示範電子股份有限公司",
+   "nameEn": "Demo Electronics Co Ltd",
+   "price": 88.0,
+   "sharesOutstanding": 3200000000,
+   "marketCap": 281600000000,
+   "pe": 11.2,
+   "pb": 1.3,
+   "yield": 5.1,
+   "directors": [
+    {
+     "name": "示範-創辦人",
+     "title": "董事長",
+     "shares": 224000000,
+     "pay": 48000000,
+     "payBasis": "band midpoint"
+    },
+    {
+     "name": "示範-執行副總",
+     "title": "董事",
+     "shares": 32000000,
+     "pay": 21000000,
+     "payBasis": "disclosed"
+    },
+    {
+     "name": "示範-監察人",
+     "title": "監察人",
+     "shares": 6400000,
+     "pay": 4800000,
+     "payBasis": "band midpoint"
+    }
+   ]
+  }
+ ]
+}
