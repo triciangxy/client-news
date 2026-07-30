@@ -202,13 +202,25 @@
   }
   .icon-btn:hover { color: var(--down); border-color: rgba(255,107,157,0.4); }
   .seg-head {
-    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 26px; gap: 6px;
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 28px 26px; gap: 6px;
     font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em;
     text-transform: uppercase; color: var(--ink-tertiary); margin-bottom: 5px;
   }
   .seg-row {
-    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 26px; gap: 6px;
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 28px 26px; gap: 6px;
     margin-bottom: 6px; align-items: center;
+  }
+  input.seg-aud {
+    appearance: none; width: 16px; height: 16px; margin: 0 auto; padding: 0;
+    background: var(--bg-elev); border: 1px solid var(--line-soft);
+    border-radius: 3px; cursor: pointer; position: relative;
+    transition: all var(--t-quick);
+  }
+  input.seg-aud:checked { background: rgba(201,168,102,0.22); border-color: rgba(201,168,102,0.55); }
+  input.seg-aud:checked::after {
+    content: '✓'; position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; color: var(--gold);
   }
   .seg-row input { padding: 6px 7px; font-size: 11px; text-align: center; }
   .seg-row input.auto { color: var(--ink-secondary); }
@@ -405,7 +417,8 @@
     <p class="brand-sub">A defensible, line-by-line net worth estimate for directors and controlling shareholders of listed companies — built from the annual report, using the desk's standard accumulated-income methodology.</p>
   </div>
   <div class="actions">
-    <button class="act primary" id="btn-example">Worked example</button>
+    <button class="act primary" id="btn-listed">Listed example</button>
+    <button class="act" id="btn-example">Memo example</button>
     <button class="act" id="btn-new">New case</button>
     <button class="act" id="btn-save">Save</button>
     <button class="act" id="btn-load">Saved ▾</button>
@@ -563,10 +576,12 @@ const DEFAULT_ASSUMPTIONS = {
 
 const THIS_YEAR = new Date().getFullYear();
 
+const blankSegment = () => ({ from: '', to: '', own: '', years: '', auto: true, audited: false });
+
 const blankPrincipal = () => ({
   name: '', role: '',
-  segments: [{ from: '', to: '', own: '', years: '', auto: true }],
-  currentOwn: '', stakeBasis: 'book', audited: false, other: '',
+  segments: [blankSegment()],
+  currentOwn: '', stakeBasis: 'book', other: '',
 });
 
 /* How a principal's *current* holding is valued on top of accumulated income.
@@ -655,13 +670,21 @@ function computePrincipal(p, co, a) {
     const span = segSpan(seg);
     const years = segYears(seg, a.recognition);
     const own = pct(seg.own);
-    return { ...seg, span, years, own, amount: distributable * years * own };
+    return { ...seg, span, years, own, audited: !!seg.audited, amount: distributable * years * own };
   });
   const gross = segs.reduce((s, x) => s + x.amount, 0);
 
-  const afterInflation = gross * (1 - pct(a.inflation));
-  const prudenceRate = p.audited ? 0 : pct(a.prudence);
-  const afterPrudence = afterInflation * (1 - prudenceRate);
+  // The prudence discount is a statement-quality haircut, so it belongs to the
+  // period, not the person. A director of a listed company typically has audited
+  // accounts from the IPO onward and unaudited ones before it — only the latter
+  // are discounted.
+  const inflationFactor = 1 - pct(a.inflation);
+  const grossAudited = segs.reduce((s, x) => s + (x.audited ? x.amount : 0), 0);
+  const grossUnaudited = gross - grossAudited;
+  const afterInflation = gross * inflationFactor;
+  const prudenceRate = pct(a.prudence);
+  const afterPrudence = (grossAudited * inflationFactor)
+                      + (grossUnaudited * inflationFactor * (1 - prudenceRate));
 
   const currentOwn = pct(p.currentOwn);
   const basis = STAKE_BASIS[p.stakeBasis] ? p.stakeBasis : 'book';
@@ -682,7 +705,8 @@ function computePrincipal(p, co, a) {
   };
 
   return {
-    distributable, segs, gross, afterInflation, prudenceRate, afterPrudence,
+    distributable, segs, gross, grossAudited, grossUnaudited,
+    afterInflation, prudenceRate, afterPrudence,
     equityShare, subtotal, afterTax, other, total, currentOwn, lenses, basis,
   };
 }
@@ -717,10 +741,13 @@ function waterfallRows(r, a, p) {
        `USD ${usdM(r.distributable)} distributable × credited years × ownership`);
   push(`Inflation haircut (${num(a.inflation)}%)`, -(r.gross - r.afterInflation), 'deduct',
        `× ${(100 - num(a.inflation))}%`);
-  if (r.prudenceRate > 0) {
-    push(`Prudence discount (${Math.round(r.prudenceRate * 100)}%)`,
-         -(r.afterInflation - r.afterPrudence), 'deduct',
-         `× ${Math.round((1 - r.prudenceRate) * 100)}% — statements unaudited`);
+  const prudenceDelta = r.afterInflation - r.afterPrudence;
+  if (prudenceDelta > 1e-6) {
+    const mixed = r.grossAudited > 0;
+    push(`Prudence discount (${num(a.prudence)}%${mixed ? ' on unaudited years' : ''})`,
+         -prudenceDelta, 'deduct',
+         mixed ? `unaudited periods only × ${100 - num(a.prudence)}%`
+               : `× ${100 - num(a.prudence)}% — statements unaudited`);
   }
   if (r.equityShare) {
     push(STAKE_BASIS[r.basis].label, r.equityShare, 'add',
@@ -762,18 +789,25 @@ function narrative(st, co, results) {
         ? `Taking the growth of the business and expenses into consideration, we discount ${discounted} of the ${s.span} years conservatively and estimate that wealth was accumulated over ${s.years} years.`
         : `We credit the full ${s.span} year${s.span === 1 ? '' : 's'} of this period.`;
       paras.push(
-        `Period ${s.from} – ${s.to}: ${who} held ${(s.own * 100).toFixed(0)}% ownership. ` +
+        `Period ${s.from} – ${s.to}: ${who} held ${(s.own * 100).toFixed(0)}% ownership` +
+        `${s.audited ? ', with audited financial statements available for the period' : ''}. ` +
         `${basisSentence} ` +
         `${who} should have generated net income of USD ${usdM(s.amount)} (USD ${usdM(r.distributable)} × ${s.years} years × ${(s.own * 100).toFixed(0)}% ownership).`
       );
     });
 
     if (r.gross > 0) {
+      const keep = 100 - num(a.prudence);
+      let prudenceSentence;
+      if (r.grossUnaudited <= 1e-6) {
+        prudenceSentence = ` Audited financial statements are available across the whole period, so no further prudence discount is applied, giving USD ${usdM(r.afterPrudence)}.`;
+      } else if (r.grossAudited > 0) {
+        prudenceSentence = ` To be prudent we would further discount ${num(a.prudence)}% of the USD ${usdM(r.grossUnaudited * (1 - pct(a.inflation)))} accumulated over the unaudited periods, while carrying the USD ${usdM(r.grossAudited * (1 - pct(a.inflation)))} from audited periods at full value, giving USD ${usdM(r.afterPrudence)}.`;
+      } else {
+        prudenceSentence = ` To be prudent we would further discount ${num(a.prudence)}% as we do not have the audited financial statements for the period: USD ${usdM(r.afterInflation)} × ${keep}% = USD ${usdM(r.afterPrudence)}.`;
+      }
       paras.push(
-        `Considering the ${num(a.inflation)}% inflation rate, the accumulated income is USD ${usdM(r.afterInflation)}.` +
-        (r.prudenceRate > 0
-          ? ` To be prudent we would further discount ${Math.round(r.prudenceRate * 100)}% as we do not have the audited financial statements for the period: USD ${usdM(r.afterInflation)} × ${Math.round((1 - r.prudenceRate) * 100)}% = USD ${usdM(r.afterPrudence)}.`
-          : ` Audited financial statements are available for the period, so no further prudence discount is applied.`)
+        `Considering the ${num(a.inflation)}% inflation rate, the accumulated income is USD ${usdM(r.afterInflation)}.` + prudenceSentence
       );
     }
 
@@ -854,7 +888,7 @@ function render() {
       <div class="pres-head">
         <div>
           <div class="pres-name">${esc(p.name || 'Principal ' + (i + 1))}</div>
-          <div class="pres-role">${esc(p.role || '—')}${p.audited ? ' · audited statements on file' : ''}</div>
+          <div class="pres-role">${esc(p.role || '—')}${auditNote(r)}</div>
         </div>
         <div class="pres-fig">
           <div class="l">Estimated net worth</div>
@@ -888,6 +922,14 @@ function render() {
                                              () => toast('Copy blocked by browser'));
   };
   bindTooltips();
+}
+
+/** Says which ownership periods carry audited statements, for the result header. */
+function auditNote(r) {
+  const aud = r.segs.filter(s => s.audited && s.amount > 0);
+  if (!aud.length) return '';
+  const all = aud.length === r.segs.filter(s => s.amount > 0).length;
+  return ' · audited statements ' + (all ? 'throughout' : 'for ' + aud.map(s => `${s.from}–${s.to}`).join(', '));
 }
 
 function effectiveHaircut(results) {
@@ -983,7 +1025,7 @@ function renderPrincipals() {
         <input type="text" data-bind="principals.${i}.currentOwn" placeholder="Current ownership %" value="${esc(p.currentOwn)}">
       </div>
 
-      <div class="seg-head"><span>From</span><span>To</span><span>Own %</span><span>Yrs credited</span><span></span></div>
+      <div class="seg-head"><span>From</span><span>To</span><span>Own %</span><span>Yrs credited</span><span title="Audited statements available for this period">Aud</span><span></span></div>
       ${p.segments.map((s, j) => `
         <div class="seg-row">
           <input type="text" data-bind="principals.${i}.segments.${j}.from" value="${esc(s.from)}" placeholder="1972">
@@ -992,9 +1034,12 @@ function renderPrincipals() {
           <input type="text" class="${s.auto ? 'auto' : ''}" data-bind="principals.${i}.segments.${j}.years"
                  data-years="1" value="${esc(s.auto ? segYears(s, S.a.recognition) || '' : s.years)}"
                  title="${s.auto ? 'Auto from the recognition ratio — type to override' : 'Manual override'}">
+          <input type="checkbox" class="seg-aud" data-bind="principals.${i}.segments.${j}.audited" ${s.audited ? 'checked' : ''}
+                 title="Audited statements available — waives the prudence discount for this period">
           <button class="icon-btn" data-act="del-seg" data-i="${i}" data-j="${j}" title="Remove period">×</button>
         </div>`).join('')}
       <button class="add-btn" style="margin:4px 0 12px" data-act="add-seg" data-i="${i}">+ Add ownership period</button>
+      <p class="mini-note" style="margin-top:-4px">Tick <b>Aud</b> for periods covered by audited statements — typically everything from the IPO onward. The prudence discount only bites on the periods left unticked.</p>
 
       <div class="field"><label>Value their current holding at</label>
         <select data-bind="principals.${i}.stakeBasis">
@@ -1003,7 +1048,6 @@ function renderPrincipals() {
           <option value="none"${p.stakeBasis === 'none' ? ' selected' : ''}>Exclude — no current holding</option>
         </select>
       </div>
-      <label class="switch"><input type="checkbox" data-bind="principals.${i}.audited" ${p.audited ? 'checked' : ''}><span><b>Audited statements available</b> — waives the prudence discount</span></label>
       <div class="field" style="margin:4px 0 0"><label>Other observed assets (USD m)</label>
         <input type="text" data-bind="principals.${i}.other" value="${esc(p.other)}" placeholder="e.g. disclosed property">
       </div>
@@ -1124,7 +1168,8 @@ document.getElementById('btn-new').onclick = () => {
   if (!confirm('Clear the current case?')) return;
   S = blankState(); rebuildAll();
 };
-document.getElementById('btn-example').onclick = () => { S = workedExample(); rebuildAll(); toast('Worked example loaded'); };
+document.getElementById('btn-example').onclick = () => { S = workedExample(); rebuildAll(); toast('Memo example loaded'); };
+document.getElementById('btn-listed').onclick = () => { S = listedExample(); rebuildAll(); toast('Listed example loaded'); };
 document.getElementById('btn-print').onclick = () => window.print();
 
 document.getElementById('btn-export').onclick = () => {
@@ -1182,10 +1227,14 @@ function migrate(obj) {
   st.principals = (obj.principals && obj.principals.length ? obj.principals : [blankPrincipal()])
     .map(p => {
       const merged = { ...blankPrincipal(), ...p,
-        segments: (p.segments && p.segments.length ? p.segments : [{ from:'', to:'', own:'', years:'', auto:true }]) };
+        segments: (p.segments && p.segments.length ? p.segments : [blankSegment()])
+          .map(s => ({ ...blankSegment(), ...s })) };
       // Pre-stakeBasis cases carried an includeEquity boolean instead.
       if (!STAKE_BASIS[p.stakeBasis]) merged.stakeBasis = p.includeEquity === false ? 'none' : 'book';
+      // `audited` used to live on the principal; it now belongs to each period.
+      if (p.audited !== undefined) merged.segments.forEach(s => { s.audited = s.audited || !!p.audited; });
       delete merged.includeEquity;
+      delete merged.audited;
       return merged;
     });
   return st;
@@ -1245,14 +1294,51 @@ function workedExample() {
     a: { ...DEFAULT_ASSUMPTIONS },
     principals: [
       { name: 'Jimmy', role: 'Founder — interest transferred Jan 2019',
-        segments: [{ from:'1972', to:'2018', own:'50', years:'22', auto:false }],
-        currentOwn: '0', stakeBasis: 'none', audited: false, other: '' },
+        segments: [{ from:'1972', to:'2018', own:'50', years:'22', auto:false, audited:false }],
+        currentOwn: '0', stakeBasis: 'none', other: '' },
       { name: 'Grace', role: 'Sole owner from Jan 2019',
         segments: [
-          { from:'1972', to:'2018', own:'50', years:'22', auto:false },
-          { from:'2019', to:'2022', own:'100', years:'4', auto:false },
+          { from:'1972', to:'2018', own:'50', years:'22', auto:false, audited:false },
+          { from:'2019', to:'2022', own:'100', years:'4', auto:false, audited:false },
         ],
-        currentOwn: '100', stakeBasis: 'book', audited: false, other: '' },
+        currentOwn: '100', stakeBasis: 'book', other: '' },
+    ],
+  });
+}
+
+/* An illustrative listed name, to show the workflow this tool is actually for:
+   a director of a listed company, where accounts are audited from the IPO
+   onward and the current stake can be marked to market. Figures and people are
+   invented — it is a template, not a real company or a real person. */
+function listedExample() {
+  return migrate({
+    co: {
+      name: 'Meridian Components (illustrative)', ticker: 'ILLUS.TW',
+      ccy: 'USD', fx: 1, units: '1000000',
+      founded: '1995', fy: '2025',
+      revenue: '1240', profit: '148', equity: '890', mcap: '2600', dividend: '44',
+      history: [
+        { year:'2021', revenue:'980',  profit:'104' },
+        { year:'2022', revenue:'1145', profit:'137' },
+        { year:'2023', revenue:'1210', profit:'129' },
+        { year:'2024', revenue:'1330', profit:'166' },
+        { year:'2025', revenue:'1535', profit:'204' },
+      ],
+    },
+    a: { ...DEFAULT_ASSUMPTIONS },
+    principals: [
+      { name: 'Chairman', role: 'Co-founder & chairman · IPO 2011',
+        segments: [
+          { from:'1995', to:'2010', own:'45', years:'', auto:true, audited:false },
+          { from:'2011', to:'2025', own:'32', years:'', auto:true, audited:true },
+        ],
+        currentOwn: '28', stakeBasis: 'market', other: '' },
+      { name: 'Managing Director', role: 'Co-founder · non-controlling',
+        segments: [
+          { from:'1995', to:'2010', own:'20', years:'', auto:true, audited:false },
+          { from:'2011', to:'2025', own:'14', years:'', auto:true, audited:true },
+        ],
+        currentOwn: '11', stakeBasis: 'market', other: '' },
     ],
   });
 }
@@ -1263,7 +1349,7 @@ function workedExample() {
   const sel = document.getElementById('ccy-select');
   sel.innerHTML = Object.keys(CCY).map(c => `<option value="${c}">${c}</option>`).join('');
   bindInputs(document.querySelector('.pane-input'));
-  S = workedExample();     // land on a completed case rather than an empty form
+  S = listedExample();     // land on the case this tool is actually for
   rebuildAll();
 })();
 </script>

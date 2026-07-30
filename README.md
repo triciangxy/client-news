@@ -70,8 +70,15 @@ Open your Pages URL — you should see the dashboard with live data.
 ## The Source of Wealth estimator (`wealth.html`)
 
 Open `<your-pages-url>/wealth.html`. It is a single static page — no data feed, no
-workflow, nothing to deploy beyond the file itself. It loads with the desk's worked
-example already filled in, so you can see a completed case before entering your own.
+workflow, nothing to deploy beyond the file itself. Two examples ship with it, so you
+can see a completed case before entering your own:
+
+- **Listed example** — the case this tool is built for: a chairman and a co-founder of
+  an illustrative listed manufacturer, accounts audited from the 2011 IPO onward, both
+  stakes marked to market. Loads by default. The company and the people are invented.
+- **Memo example** — the desk's original reference case (the family manufacturer with a
+  2019 transfer between spouses), anonymised, for checking the methodology against the
+  written memo.
 
 **Scope:** directors and controlling shareholders of *listed* companies, where an
 audited annual report gives you a defensible net profit and equity figure to work from.
@@ -87,7 +94,7 @@ language, so any number in the file can be traced back to an input:
 | Distributable profit | Net profit less what the business retains | 40% retained |
 | Gross accumulation | Distributable × credited years × ownership %, per ownership period | — |
 | Inflation haircut | Erosion of the real value of historic earnings | 20% |
-| Prudence discount | Applied where audited statements are unavailable for the period | 60% |
+| Prudence discount | Applied **only to periods without audited statements** | 60% |
 | Current holding | Their share of book equity — or market cap for a disclosed listed stake | book equity |
 | Tax & personal expenses | Final haircut on everything accumulated | 20% |
 | Other observed assets | Added after the discounts, not subject to them | — |
@@ -99,6 +106,13 @@ is a suggestion: type over the credited-years box on any period to fix it manual
 
 **Ownership periods** handle transfers. A founder holding 50% until 2018 and a spouse
 holding 100% from 2019 are two cards, the second with two periods.
+
+**The prudence discount is per period, not per person** — tick **Aud** on each period
+covered by audited statements. This matters for the listed names this tool is for: a
+director who took the company public in 2011 has audited accounts from 2011 onward and
+unaudited ones before it, and only the pre-IPO years should carry the 60% haircut.
+Discounting the audited years too understates the prospect badly, which is the most
+common way this methodology goes wrong on a listed name.
 
 **The sensitivity band** under the headline is not a multiplier on the answer — it is
 the whole model re-run with the recognition ratio and prudence discount flexed, so the
@@ -117,8 +131,11 @@ is the thing to resolve before the meeting, not after.
    millions), then enter net profit and total equity straight off the annual report.
 3. Use a through-cycle average net profit, not a peak year. The profit history table
    computes one for you.
-4. Add a principal per individual, with an ownership period per holding change.
-5. Read the waterfall, then **Copy text** to lift the draft memo language into the
+4. Add a principal per individual, with an ownership period per holding change, and
+   tick **Aud** on the periods covered by audited statements.
+5. For a current listed stake, set "value their current holding at" to **market cap** —
+   book equity understates a disclosed holding in a listed name, often heavily.
+6. Read the waterfall, then **Copy text** to lift the draft memo language into the
    source-of-wealth section of the call report.
 
 ### Saving and sharing
