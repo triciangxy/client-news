@@ -96,6 +96,11 @@ ALIASES = {
     "person":   ["姓名", "Name", "職稱姓名", "PersonName"],
     "title":    ["職稱", "Title", "身分別"],
     "shares":   ["目前持股", "持股數", "本月持有股數", "所持股數", "Shares", "選任時持股"],
+    # Tenure is disclosed — no need to assume it. 初次選任 (first elected) is the
+    # one that matters; 選任日期 is the current term and understates a long-serving
+    # director who has been re-elected.
+    "first_elected": ["初次選任日期", "初次當選日期", "初次選任日", "FirstElectedDate"],
+    "elected":  ["選任日期", "當選日期", "到職日期", "就任日期", "ElectedDate", "任期起始日"],
     "pay":      ["酬金總額", "領取報酬總額", "個人酬金", "酬金", "Remuneration", "總酬金"],
     "pay_band": ["酬金級距", "級距", "RemunerationRange"],
 }
@@ -152,6 +157,44 @@ def to_num(v):
         return float(s)
     except ValueError:
         return None
+
+
+def parse_date(v):
+    """Normalise a TWSE date to YYYY-MM-DD.
+
+    Taiwan filings mix the ROC calendar with the Gregorian one: '1090615' is ROC
+    year 109 = 2020. Anything that lands before 1911 is therefore an ROC year and
+    gets shifted; a real Gregorian date passes through untouched.
+    """
+    if v is None:
+        return None
+    s = str(v).strip()
+    if not s or s in ("-", "0"):
+        return None
+
+    parts = re.findall(r"\d+", s)
+    if len(parts) >= 3:
+        y, m, d = int(parts[0]), int(parts[1]), int(parts[2])
+    elif len(parts) == 1:
+        digits = parts[0]
+        if len(digits) == 8:                      # 20200615
+            y, m, d = int(digits[:4]), int(digits[4:6]), int(digits[6:])
+        elif len(digits) == 7:                    # 1090615 (ROC)
+            y, m, d = int(digits[:3]), int(digits[3:5]), int(digits[5:])
+        elif len(digits) == 6:                    # 990101 (ROC, 2-digit year)
+            y, m, d = int(digits[:2]), int(digits[2:4]), int(digits[4:])
+        elif len(digits) in (3, 4):               # year only
+            y, m, d = int(digits), 1, 1
+        else:
+            return None
+    else:
+        return None
+
+    if y < 1911:
+        y += 1911                                 # ROC -> Gregorian
+    if not (1900 <= y <= 2100 and 1 <= m <= 12 and 1 <= d <= 31):
+        return None
+    return f"{y:04d}-{m:02d}-{d:02d}"
 
 
 def band_midpoint(text):
@@ -264,6 +307,9 @@ def build(codes=None, limit=None):
                 "name": str(person).strip(),
                 "title": str(pick(row, "title") or "").strip(),
                 "shares": to_num(pick(row, "shares")) or 0,
+                # Prefer first-elected: 選任日期 resets on re-election and would
+                # make a 30-year founder look like a 3-year appointee.
+                "since": parse_date(pick(row, "first_elected")) or parse_date(pick(row, "elected")),
                 "pay": None,
                 "payBasis": None,
             })
@@ -277,11 +323,16 @@ def build(codes=None, limit=None):
             target = by_name.get(person)
             if target is None and person:
                 target = {"name": person, "title": str(pick(row, "title") or "").strip(),
-                          "shares": 0, "pay": None, "payBasis": None}
+                          "shares": 0, "since": None, "pay": None, "payBasis": None}
                 directors.append(target)
                 by_name[person] = target
             if target is None:
                 continue
+            # The pay dataset sometimes carries an election date the holdings
+            # dataset omits.
+            if not target.get("since"):
+                target["since"] = (parse_date(pick(row, "first_elected"))
+                                   or parse_date(pick(row, "elected")))
             if exact:
                 target["pay"], target["payBasis"] = exact, "disclosed"
             elif band:
@@ -387,8 +438,14 @@ def fixture(count=60):
             held = int(shares * frac * rng.uniform(0.5, 1.6))
             pay = rng.choice([3_200_000, 4_800_000, 9_500_000, 21_000_000,
                               28_500_000, 38_000_000, 62_000_000])
+            # Founders sit longer than independent directors. One in six rows is
+            # left without a date, so the "not disclosed" path stays visible.
+            first_year = rng.randint(1985, 2005) if n < 3 else rng.randint(2008, 2023)
+            since = None if rng.random() < 0.16 else \
+                f"{first_year}-{rng.randint(1, 12):02d}-{rng.randint(1, 28):02d}"
             directors.append({
                 "name": f"示範-{code}-{n + 1}", "title": title, "shares": held,
+                "since": since,
                 "pay": pay, "payBasis": rng.choice(["band midpoint", "disclosed"]),
             })
         companies.append({

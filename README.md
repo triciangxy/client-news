@@ -93,6 +93,14 @@ position can't be sold at the screen price. The savings rate (default 40%) turns
 earned into wealth retained. Sort by any column, and **Copy table** lifts the whole
 board into a note.
 
+**Years on board is read from the filing, not assumed.** TWSE discloses 初次選任日期
+(date first elected) for each director, so a founder on the board since 1986 accumulates
+over 40 years while an independent director appointed in 2020 accumulates over six. The
+column shows the year, and the **tenure fallback** in the assumptions bar applies only to
+the rows where no date is disclosed — those are greyed and labelled. First-elected is
+used in preference to 選任日期, which resets on re-election and would make a
+thirty-year founder look like a three-year appointee.
+
 The **quick estimate** panel at the bottom runs the same two lines on figures you type
 in, for a prospect whose company isn't in the feed.
 
@@ -149,6 +157,8 @@ Two things to know when reading the output:
   director pay in brackets (級距). Those rows are marked `~` in the table and use the
   band midpoint; the top band is open-ended and is floored at its lower bound, so the
   genuinely large earners are understated.
+- **Dates come in the ROC calendar.** Filings write 2020 as 109. The fetcher normalises
+  both calendars, treating anything before 1911 as an ROC year.
 - **Shareholdings are the director's own registered holding.** Shares held through
   family members, investment vehicles or nominees are disclosed separately and are not
   captured here, so a controlling family's true position is often larger than it looks.
