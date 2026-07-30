@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T05:43:27Z",
+  "generated_at": "2026-07-30T08:30:31Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 79.2,
-      "change": 1.0499999999999972,
-      "changePct": 1.3435700575815703,
+      "price": 79.65,
+      "change": 1.5,
+      "changePct": 1.9193857965451053,
       "currency": "HKD",
       "prevClose": 78.15,
       "dayHigh": 80.15,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 101000.0,
-      "change": 2700.0,
-      "changePct": 2.746693794506612,
+      "price": 100800.0,
+      "change": 2500.0,
+      "changePct": 2.5432349949135302,
       "currency": "KRW",
       "prevClose": 98300.0,
       "dayHigh": 104800.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1669.5,
-      "change": -41.0,
-      "changePct": -2.39695995323005,
+      "price": 1672.0,
+      "change": -38.5,
+      "changePct": -2.2508038585209005,
       "currency": "JPY",
       "prevClose": 1710.5,
       "dayHigh": 1705.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3119.0,
-      "change": -97.0,
-      "changePct": -3.016169154228856,
+      "price": 3110.0,
+      "change": -106.0,
+      "changePct": -3.296019900497513,
       "currency": "JPY",
       "prevClose": 3216.0,
       "dayHigh": 3165.0,
@@ -1162,12 +1162,6 @@
           "pubDate": "Wed, 22 Jul 2026 15:19:09 GMT"
         },
         {
-          "title": "- FWD Group",
-          "source": "",
-          "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9rS0Z2RWtTQTc5QXhvUDA1REFiNVJxRUpmaEcyNkkzaW9ycFhhaWtWZzAtWlNWOXl2S0RSZ3NB?oc=5",
-          "pubDate": "Tue, 30 Jun 2026 06:44:44 GMT"
-        },
-        {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
@@ -1202,6 +1196,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
+        },
+        {
+          "title": "Our fact sheet",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
+          "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         }
       ]
     },
