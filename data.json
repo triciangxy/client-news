@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T02:34:28Z",
+  "generated_at": "2026-07-30T05:43:27Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 79.65,
-      "change": 1.5,
-      "changePct": 1.9193857965451053,
+      "price": 79.2,
+      "change": 1.0499999999999972,
+      "changePct": 1.3435700575815703,
       "currency": "HKD",
       "prevClose": 78.15,
       "dayHigh": 80.15,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103600.0,
-      "change": 5300.0,
-      "changePct": 5.391658189216684,
+      "price": 101000.0,
+      "change": 2700.0,
+      "changePct": 2.746693794506612,
       "currency": "KRW",
       "prevClose": 98300.0,
       "dayHigh": 104800.0,
@@ -272,20 +272,20 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1679.5,
-      "change": -31.0,
-      "changePct": -1.8123355743934522,
+      "price": 1669.5,
+      "change": -41.0,
+      "changePct": -2.39695995323005,
       "currency": "JPY",
       "prevClose": 1710.5,
       "dayHigh": 1705.0,
-      "dayLow": 1662.0,
+      "dayLow": 1659.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3136.0,
-      "change": -80.0,
-      "changePct": -2.4875621890547266,
+      "price": 3119.0,
+      "change": -97.0,
+      "changePct": -3.016169154228856,
       "currency": "JPY",
       "prevClose": 3216.0,
       "dayHigh": 3165.0,
@@ -303,12 +303,6 @@
         "query": "site:aia.com"
       },
       "items": [
-        {
-          "title": "Healthy living with Tottenham Hotspur",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWNRQV9raTlOWE41cXNjOVpRX1BEbnBEQUQzSzFEeEtTeEhnOElBWVBWOUhhSF9nOV95YjFpUDNzRnlMbC1rWTV1LVlhUFJmWFM3XzdQMDd1OE1pQ0VrT1BDUFdqZFppRmFBZGRJcUpRbHQ5N3ZzTlFIaWgtOFdzUksya085dGxPX2Z5SUFMdGVKY2tSMG1XNGxhVQ?oc=5",
-          "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
-        },
         {
           "title": "A New Lens on Ageing: Thriving in an Older Asia",
           "source": "aia.com",
@@ -338,6 +332,12 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnJOVkJObjFvVFZCaFZPazFldEdpS2xVcVRPN1h0dVhOdlloc0pFNEFkZ3V1c1dIeUt6NmJ5MVRWR0JDcjJnanpxSE9IS1J1X01FR3RVVmQ2TFFpQy0tWEdfcnFSNG51OTFHMFdZN1hETVZpQ0ItU2s5a0VIOWZVbEZNTkQtYmhwM0pka1E0YWV4QQ?oc=5",
           "pubDate": "Tue, 26 Nov 2024 08:00:00 GMT"
+        },
+        {
+          "title": "Healthy living with Tottenham Hotspur",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWNRQV9raTlOWE41cXNjOVpRX1BEbnBEQUQzSzFEeEtTeEhnOElBWVBWOUhhSF9nOV95YjFpUDNzRnlMbC1rWTV1LVlhUFJmWFM3XzdQMDd1OE1pQ0VrT1BDUFdqZFppRmFBZGRJcUpRbHQ5N3ZzTlFIaWgtOFdzUksya085dGxPX2Z5SUFMdGVKY2tSMG1XNGxhVQ?oc=5",
+          "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
           "title": "AIA Group Press Release_ENG_6 June 2025",
@@ -1151,55 +1151,55 @@
         },
         {
           "title": "Our internship programme",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nREd2QlZnMnBlOGZRbnVwUXFSLUtEWm1qc2dpNEg2RmpnUWY3SnBhdHRkdjlLemhrQi1paHM4V2ozSkVKbEJxVE9nc1NHenE4aXJQQVNSNmxyTkp6VVBWOHByYw?oc=5",
           "pubDate": "Mon, 27 Jul 2026 11:17:30 GMT"
         },
         {
           "title": "FWD Cube Web Portal",
-          "source": "web-portal.cube-id.fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93TW42RnFhaHJGSm9Pbkl5b3VQZ0phc2xodnE0VkZ4LWdCWWNPQUthMGNrVXFJQjFUZG9BVjJzdzlKcE9zWEZjZ2NJaw?oc=5",
           "pubDate": "Wed, 22 Jul 2026 15:19:09 GMT"
         },
         {
-          "title": "- click.my.fwd.com",
+          "title": "- FWD Group",
           "source": "",
           "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9rS0Z2RWtTQTc5QXhvUDA1REFiNVJxRUpmaEcyNkkzaW9ycFhhaWtWZzAtWlNWOXl2S0RSZ3NB?oc=5",
           "pubDate": "Tue, 30 Jun 2026 06:44:44 GMT"
         },
         {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
           "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Code of Ethics and Business Conduct v3",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGh1ODRnSnVCWlN5bFB5R2lHTXBsaFNxWUN6dXVITFhUMVNaVFBmejdyLWIyVVBnZkFvQXViTlRFQkthejhqOHhVcGpBd1kzZi02amE4NDNXTE1aazYwZkp2NWhWLXNUbk5NSGgzSVpnRUVMdnNrZ0Y3d0RmWUsycmc4Nkp3U0V5b1RqOEV0ZUN5djBsR0hjbXNrVnlZcVpWQllORFZhb1lFQllMSnB4eGdFRFdlZ1VMYWZLYVgxYTdjTGRXMUVmRlhzUHk?oc=5",
           "pubDate": "Fri, 04 Aug 2023 11:47:59 GMT"
         },
         {
           "title": "FWD Group 2025 annual results announcement Analyst briefing presentation script 16 March 2026 Slide 2 – Disclaimer Business Hi",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVnd0QTFzNWJyVl96anphTkNEMUV6MklrcS1wU1JYbm5RR0U4cXEwMm1mSGIxcVVscXlYSXVMelVDZ1FTWmFtOTNiT2xDUmZxQ0NaY0FpZkQydmRmbEFZSmJwYmpjU25rVUxwUEhFN2lia1RWOERSZlItNUpwSFh6OW5yOGtLZ1dOWWdCZ3JXNkZzOVVXLTB5a1BENTdHY2E3c05iNHNKNklMS3JiTk9xVnRhamE0b2JaQTV1cnMwc3VyLUtMNEJSUUZLSm4ydjlscXZTTDdSWHBfcWh2YzFnSW9EWmctRjBINUh3OHFrYXdoVEU0VVpz?oc=5",
           "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
         },
         {
           "title": "FWD Group collaborates with Yale School of Management to offer exclusive bespoke learning programme for Bancassurance and IFA partners",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3lPUngxa2owYnVVS3dZVUxGOXhpOTVuamQ3azJOLWtPdWVPVkN4OC1DZHhiUUtaZlRWMFJqOVNzTE9QamROQkhFc1RCdW95bmlOZ1NFdFotVi1wVk1MdEMtN01QWUZzWTNOVzFBRUN1YXYwdzFEWV9JUjVIOXF5MGI1UWRoa0E?oc=5",
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
         },
         {
           "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
           "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
         },
         {
           "title": "David Junius",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
         }
