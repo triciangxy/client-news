@@ -4,10 +4,11 @@ on:
   # Manual trigger from the Actions tab
   workflow_dispatch:
     inputs:
-      selftest:
-        description: 'Report dataset resolution only, write nothing'
-        type: boolean
-        default: false
+      mode:
+        description: 'What to run'
+        type: choice
+        options: [full, selftest, columns]
+        default: full
       codes:
         description: 'Comma-separated TWSE codes (blank = default roster)'
         type: string
@@ -46,12 +47,18 @@ jobs:
       - name: Report dataset resolution
         run: python fetch_twse.py --selftest ${{ inputs.codes && format('--codes {0}', inputs.codes) || '' }}
 
+      # Prints each dataset's real column names. The alias tables are guesses
+      # until this has run against live TWSE at least once.
+      - name: Print dataset columns
+        if: ${{ inputs.mode == 'columns' }}
+        run: python fetch_twse.py --columns
+
       - name: Fetch director holdings + remuneration
-        if: ${{ inputs.selftest != true }}
+        if: ${{ inputs.mode == 'full' }}
         run: python fetch_twse.py ${{ inputs.codes && format('--codes {0}', inputs.codes) || '' }}
 
       - name: Commit updated index + board shards
-        if: ${{ inputs.selftest != true }}
+        if: ${{ inputs.mode == 'full' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

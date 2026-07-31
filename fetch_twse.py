@@ -57,6 +57,32 @@ FALLBACK_CODES = ["2317", "2330", "2454", "2412", "1301", "2882", "2881", "1216"
 
 SHARD_DIR = "twse"
 
+# t187ap03_L gives 產業別 as a numeric code, not a name.
+INDUSTRY = {
+    "01": "Cement", "02": "Food", "03": "Plastics", "04": "Textiles",
+    "05": "Electric machinery", "06": "Electrical & cable", "08": "Glass & ceramics",
+    "09": "Paper & pulp", "10": "Steel & iron", "11": "Rubber", "12": "Automobile",
+    "14": "Building materials", "15": "Shipping & transport", "16": "Tourism",
+    "17": "Financials", "18": "Trading & retail", "19": "Conglomerate", "20": "Other",
+    "21": "Chemicals", "22": "Biotech & healthcare", "23": "Oil, gas & electricity",
+    "24": "Semiconductors", "25": "Computers & peripherals", "26": "Optoelectronics",
+    "27": "Communications & networking", "28": "Electronic components",
+    "29": "Electronic distribution", "30": "Information services",
+    "31": "Other electronics", "32": "Cultural & creative", "33": "Agri-technology",
+    "34": "E-commerce", "35": "Green energy", "36": "Digital cloud",
+    "37": "Sports & leisure", "38": "Household goods",
+}
+
+# 內部人 rows carry a role in 職稱. Three things matter:
+#   - 法人代表人  a person REPRESENTING a corporate or state shareholder. The shares
+#                 are the institution's, not theirs. Counting them as personal
+#                 wealth is how a state fund ends up looking like the richest
+#                 individual on the board.
+#   - 本人        the person's own holding — what we actually want.
+#   - the seniority implied by the title, used to rank a board.
+REP_MARKERS = ("法人代表", "代表人")
+BOARD_TITLES = ("董事長", "副董事長", "常務董事", "董事", "獨立董事", "監察人", "大股東")
+
 # ── Dataset roles ─────────────────────────────────────────────────────────
 # `prefer` is tried first; `keywords` (all must appear in the dataset's title or
 # path) is how we re-find a dataset that has been renumbered.
@@ -307,21 +333,38 @@ def build(codes=None, limit=None):
         # so share count is capital / 10 unless the dataset gave a share count.
         shares_out = capital / 10 if capital and capital > 1e8 else capital
 
-        directors = []
+        # One person can appear several times — 魏哲家 is filed as both 董事長本人
+        # and 總經理本人 with the same shares. Summing the rows double-counts, so
+        # merge by name and keep the largest holding.
+        merged = {}
         for row in holds.get(code, []):
             person = pick(row, "person")
             if not person:
                 continue
-            directors.append({
-                "name": str(person).strip(),
-                "title": str(pick(row, "title") or "").strip(),
-                "shares": to_num(pick(row, "shares")) or 0,
-                # Prefer first-elected: 選任日期 resets on re-election and would
-                # make a 30-year founder look like a 3-year appointee.
-                "since": parse_date(pick(row, "first_elected")) or parse_date(pick(row, "elected")),
-                "pay": None,
-                "payBasis": None,
-            })
+            name = str(person).strip()
+            title = str(pick(row, "title") or "").strip()
+            rec = merged.get(name)
+            if rec is None:
+                rec = {
+                    "name": name, "title": title, "titles": [],
+                    "shares": 0, "since": None, "pay": None, "payBasis": None,
+                    "isRep": any(m in title for m in REP_MARKERS),
+                    "onBoard": any(t in title for t in BOARD_TITLES),
+                }
+                merged[name] = rec
+            if title and title not in rec["titles"]:
+                rec["titles"].append(title)
+            rec["shares"] = max(rec["shares"], to_num(pick(row, "shares")) or 0)
+            rec["isRep"] = rec["isRep"] or any(m in title for m in REP_MARKERS)
+            rec["onBoard"] = rec["onBoard"] or any(t in title for t in BOARD_TITLES)
+            rec["since"] = rec["since"] or parse_date(pick(row, "first_elected")) \
+                                        or parse_date(pick(row, "elected"))
+
+        directors = []
+        for rec in merged.values():
+            rec["title"] = " / ".join(rec["titles"]) or rec["title"]
+            rec.pop("titles", None)
+            directors.append(rec)
 
         # Attach remuneration by name where the pay dataset covers this company.
         by_name = {d["name"]: d for d in directors}
@@ -348,16 +391,21 @@ def build(codes=None, limit=None):
                 target["pay"], target["payBasis"] = band, "band midpoint"
 
         div_row = (divs.get(code) or [{}])[0]
-        board = holds.get(code, [])
-        with_holdings = sum(1 for d in directors if (d["shares"] or 0) > 0)
-        top = max(directors, key=lambda d: d["shares"] or 0, default=None)
+        people = [d for d in directors if not d["isRep"]]
+        reps = [d for d in directors if d["isRep"]]
+        with_holdings = sum(1 for d in people if (d["shares"] or 0) > 0)
+        top = max(people, key=lambda d: d["shares"] or 0, default=None)
 
         companies.append({
             "code": code,
-            "industry": (pick(info_row, "industry") or "") or None,
+            "industry": INDUSTRY.get(str(pick(info_row, "industry") or "").strip().zfill(2)),
+            "industryCode": (pick(info_row, "industry") or None),
+            # Institutional representatives are excluded from personal wealth but
+            # counted, so the page can say how many were set aside and why.
+            "repCount": len(reps),
             "dps": to_num(pick(div_row, "dps")),
             # Coverage denominator: how many of the board actually disclose a holding.
-            "boardSize": len(board) or len(directors),
+            "boardSize": len(people),
             "withHoldings": with_holdings,
             "topHolder": ({"name": top["name"], "title": top["title"], "shares": top["shares"]}
                           if top and (top["shares"] or 0) > 0 else None),
@@ -404,7 +452,7 @@ def write_output(payload, out_path, shard_dir):
             "code": c["code"], "name": c["name"], "nameEn": c["nameEn"],
             "sharesOutstanding": c["sharesOutstanding"],
             "dps": c.get("dps"), "boardSize": c.get("boardSize"),
-            "withHoldings": c.get("withHoldings"),
+            "withHoldings": c.get("withHoldings"), "repCount": c.get("repCount"),
             "directors": c["directors"],
         }
         with open(os.path.join(shard_dir, f"{c['code']}.json"), "w", encoding="utf-8") as fh:
@@ -424,6 +472,7 @@ def write_output(payload, out_path, shard_dir):
             "sharesOutstanding": c["sharesOutstanding"],
             "industry": c.get("industry"), "dps": c.get("dps"),
             "boardSize": c.get("boardSize"), "withHoldings": c.get("withHoldings"),
+            "repCount": c.get("repCount"),
             "topHolder": c.get("topHolder"),
             "directors": len(c["directors"]),
         } for c in companies],
@@ -544,15 +593,39 @@ def _legacy_fixture():
     }
 
 
+def columns():
+    """Print the real field names each dataset returns.
+
+    The alias tables are guesses until this has been run once against live TWSE;
+    election date, pay and dividend-per-share all came back empty on the first
+    real fetch, which means the column is named something not in ALIASES.
+    """
+    index = load_index()
+    for role, spec in ROLES.items():
+        rows, _ = fetch_role(role, spec, index)
+        print(f"\n=== {role} ({len(rows)} rows)")
+        if not rows:
+            print("   (no rows)")
+            continue
+        print("   columns:", ", ".join(sorted(rows[0].keys())))
+        for sample in rows[:2]:
+            print("   sample:", json.dumps(sample, ensure_ascii=False)[:400])
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--selftest", action="store_true", help="report dataset resolution, write nothing")
+    ap.add_argument("--columns", action="store_true", help="print each dataset's real field names, write nothing")
     ap.add_argument("--fixture", action="store_true", help="write synthetic sample data, no network")
     ap.add_argument("--codes", help="comma-separated TWSE codes (default: whole market)")
     ap.add_argument("--limit", type=int, help="cap the number of companies, for a quick run")
     ap.add_argument("--out", default="twse.json")
     ap.add_argument("--shard-dir", default=SHARD_DIR)
     args = ap.parse_args()
+
+    if args.columns:
+        return columns()
 
     if args.fixture:
         payload = fixture(args.limit or 60)
