@@ -186,6 +186,7 @@
   .gaps ul { margin: 0; padding-left: 17px; }
   .rowflags { font-family: var(--mono); font-size: 9px; color: var(--warn); margin-top: 4px; cursor: help; }
   td.banked { color: var(--stake) !important; }
+  .pledge { color: var(--warn); }
   .method { margin-top: 18px; max-width: 96ch; }
   .method summary {
     font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
@@ -318,11 +319,6 @@
 
 <div class="assume">
   <div class="ai">
-    <label for="save">Savings rate</label>
-    <input type="text" id="save" value="40" inputmode="decimal">
-    <span class="why">% of pay retained</span>
-  </div>
-  <div class="ai">
     <label for="disc">Stake discount</label>
     <input type="text" id="disc" value="20" inputmode="decimal">
     <span class="why">% off screen price</span>
@@ -359,10 +355,10 @@
   <section class="quick">
     <div class="sec-title">Quick estimate — anyone not in the feed</div>
     <div class="quick-grid">
-      <div class="ai"><label for="q-shares">Shares held</label><input type="text" id="q-shares" placeholder="12,000,000" inputmode="numeric"></div>
+      <div class="ai"><label for="q-shares">Own shares</label><input type="text" id="q-shares" placeholder="12,000,000" inputmode="numeric"></div>
       <div class="ai"><label for="q-price">Share price (TWD)</label><input type="text" id="q-price" placeholder="212.5" inputmode="decimal"></div>
-      <div class="ai"><label for="q-pay">Annual pay (TWD)</label><input type="text" id="q-pay" placeholder="45,000,000" inputmode="decimal"></div>
-      <div class="ai"><label for="q-years">Years on board</label><input type="text" id="q-years" placeholder="12" inputmode="numeric"></div>
+      <div class="ai"><label for="q-pay">Related-party shares</label><input type="text" id="q-pay" placeholder="8,000,000" inputmode="numeric"></div>
+      <div class="ai"><label for="q-years">Pledged shares</label><input type="text" id="q-years" placeholder="0" inputmode="numeric"></div>
       <div class="quick-out"><span class="v" id="q-out">—</span><span class="why" id="q-split"></span></div>
     </div>
     <div class="note">Runs the same arithmetic on figures you type in — for a prospect whose company isn't in the feed, or to sanity-check a number a colleague has quoted you.</div>
@@ -394,7 +390,7 @@
 
 /* Sample market so the page works before the TWSE feed lands, and anywhere
    twse.json cannot be fetched. Obviously synthetic — every name is invented. */
-const FALLBACK = {"index":{"source":"FIXTURE — synthetic sample data, not from TWSE","currency":"TWD","fixture":true,"companies":[{"code":"9100","name":"示範精密股份有限公司 9100","nameEn":"Demo Precision Co 9100","price":453.39,"marketCap":415305240000.0,"pe":7.1,"sharesOutstanding":916000000,"industry":"Precision","dps":null,"boardSize":8,"withHoldings":5,"topHolder":{"name":"示範-9100-1","title":"董事長","shares":49991372},"directors":6},{"code":"9101","name":"示範電子股份有限公司 9101","nameEn":"Demo Electronics Co 9101","price":410.81,"marketCap":898441470000.0,"pe":15.1,"sharesOutstanding":2187000000,"industry":"Electronics","dps":3.44,"boardSize":10,"withHoldings":6,"topHolder":{"name":"示範-9101-1","title":"董事長","shares":138747528},"directors":7},{"code":"9102","name":"示範半導體股份有限公司 9102","nameEn":"Demo Semiconductor Co 9102","price":215.89,"marketCap":424223850000.0,"pe":14.4,"sharesOutstanding":1965000000,"industry":"Semiconductor","dps":null,"boardSize":7,"withHoldings":6,"topHolder":{"name":"示範-9102-1","title":"董事長","shares":103819038},"directors":6},{"code":"9103","name":"示範化學股份有限公司 9103","nameEn":"Demo Chemical Co 9103","price":76.26,"marketCap":301989600000.0,"pe":7.0,"sharesOutstanding":3960000000,"industry":"Chemical","dps":null,"boardSize":7,"withHoldings":6,"topHolder":{"name":"示範-9103-1","title":"董事長","shares":305745527},"directors":7},{"code":"9104","name":"示範金融股份有限公司 9104","nameEn":"Demo Financial Co 9104","price":121.23,"marketCap":89467740000.0,"pe":20.8,"sharesOutstanding":738000000,"industry":"Financial","dps":2.4,"boardSize":7,"withHoldings":6,"topHolder":{"name":"示範-9104-1","title":"董事長","shares":59078144},"directors":6},{"code":"9105","name":"示範紡織股份有限公司 9105","nameEn":"Demo Textile Co 9105","price":601.47,"marketCap":2291600700000.0,"pe":16.1,"sharesOutstanding":3810000000,"industry":"Textile","dps":1.59,"boardSize":10,"withHoldings":6,"topHolder":{"name":"示範-9105-1","title":"董事長","shares":424587566},"directors":7},{"code":"9106","name":"示範鋼鐵股份有限公司 9106","nameEn":"Demo Steel Co 9106","price":26.27,"marketCap":24483640000.0,"pe":25.9,"sharesOutstanding":932000000,"industry":"Steel","dps":3.6,"boardSize":7,"withHoldings":5,"topHolder":{"name":"示範-9106-1","title":"董事長","shares":76545458},"directors":6},{"code":"9107","name":"示範光電股份有限公司 9107","nameEn":"Demo Optical Co 9107","price":240.65,"marketCap":365306700000.0,"pe":22.9,"sharesOutstanding":1518000000,"industry":"Optical","dps":4.79,"boardSize":7,"withHoldings":6,"topHolder":{"name":"示範-9107-1","title":"董事長","shares":166230818},"directors":7},{"code":"9108","name":"示範電信股份有限公司 9108","nameEn":"Demo Telecom Co 9108","price":214.52,"marketCap":381631080000.0,"pe":27.2,"sharesOutstanding":1779000000,"industry":"Telecom","dps":6.33,"boardSize":10,"withHoldings":6,"topHolder":{"name":"示範-9108-1","title":"董事長","shares":184125662},"directors":7},{"code":"9109","name":"示範海運股份有限公司 9109","nameEn":"Demo Marine Co 9109","price":268.67,"marketCap":594029370000.0,"pe":12.6,"sharesOutstanding":2211000000,"industry":"Marine","dps":2.77,"boardSize":6,"withHoldings":5,"topHolder":{"name":"示範-9109-1","title":"董事長","shares":189495043},"directors":6},{"code":"9110","name":"示範精密股份有限公司 9110","nameEn":"Demo Precision Co 9110","price":505.48,"marketCap":1243480800000.0,"pe":16.1,"sharesOutstanding":2460000000,"industry":"Precision","dps":7.01,"boardSize":7,"withHoldings":5,"topHolder":{"name":"示範-9110-1","title":"董事長","shares":130225737},"directors":5},{"code":"9111","name":"示範電子股份有限公司 9111","nameEn":"Demo Electronics Co 9111","price":591.01,"marketCap":229311880000.0,"pe":19.8,"sharesOutstanding":388000000,"industry":"Electronics","dps":7.04,"boardSize":6,"withHoldings":5,"topHolder":{"name":"示範-9111-1","title":"董事長","shares":40154149},"directors":6},{"code":"9112","name":"示範半導體股份有限公司 9112","nameEn":"Demo Semiconductor Co 9112","price":594.29,"marketCap":157486850000.0,"pe":13.6,"sharesOutstanding":265000000,"industry":"Semiconductor","dps":7.88,"boardSize":8,"withHoldings":6,"topHolder":{"name":"示範-9112-1","title":"董事長","shares":29004370},"directors":6},{"code":"9113","name":"示範化學股份有限公司 9113","nameEn":"Demo Chemical Co 9113","price":344.39,"marketCap":196302300000.0,"pe":13.9,"sharesOutstanding":570000000,"industry":"Chemical","dps":null,"boardSize":9,"withHoldings":6,"topHolder":{"name":"示範-9113-1","title":"董事長","shares":58146931},"directors":7}]},"shards":{"9100":{"directors":[{"name":"示範-9100-1","title":"董事長","shares":49991372,"since":"1986-07-18","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9100-2","title":"副董事長","shares":18947197,"since":"2003-08-27","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9100-3","title":"董事兼總經理","shares":5296519,"since":"1992-06-07","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9100-4","title":"董事","shares":3457655,"since":null,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9100-5","title":"董事","shares":1708022,"since":"2020-12-16","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9100-7","title":"獨立董事","shares":0,"since":"2016-06-19","pay":4800000,"payBasis":"disclosed"}],"dps":null,"boardSize":8,"withHoldings":5},"9101":{"directors":[{"name":"示範-9101-1","title":"董事長","shares":138747528,"since":null,"pay":62000000,"payBasis":"disclosed"},{"name":"示範-9101-2","title":"副董事長","shares":85343985,"since":"1995-10-20","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9101-3","title":"董事兼總經理","shares":12006498,"since":"2004-05-09","pay":28500000,"payBasis":"disclosed"},{"name":"示範-9101-4","title":"董事","shares":11782028,"since":"2020-04-20","pay":4800000,"payBasis":"disclosed"},{"name":"示範-9101-5","title":"董事","shares":5196319,"since":null,"pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9101-6","title":"監察人","shares":2212993,"since":"2015-09-04","pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9101-7","title":"獨立董事","shares":0,"since":"2023-05-15","pay":28500000,"payBasis":"disclosed"}],"dps":3.44,"boardSize":10,"withHoldings":6},"9102":{"directors":[{"name":"示範-9102-1","title":"董事長","shares":103819038,"since":"1999-05-24","pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9102-2","title":"副董事長","shares":62481728,"since":"1988-02-16","pay":3200000,"payBasis":"disclosed"},{"name":"示範-9102-3","title":"董事兼總經理","shares":16083593,"since":null,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9102-4","title":"董事","shares":9755265,"since":null,"pay":3200000,"payBasis":"band midpoint"},{"name":"示範-9102-5","title":"董事","shares":5474207,"since":"2014-12-17","pay":3200000,"payBasis":"disclosed"},{"name":"示範-9102-6","title":"監察人","shares":2823814,"since":"2022-06-13","pay":3200000,"payBasis":"disclosed"}],"dps":null,"boardSize":7,"withHoldings":6},"9103":{"directors":[{"name":"示範-9103-1","title":"董事長","shares":305745527,"since":null,"pay":62000000,"payBasis":"disclosed"},{"name":"示範-9103-2","title":"副董事長","shares":66194114,"since":"1995-04-03","pay":28500000,"payBasis":"disclosed"},{"name":"示範-9103-3","title":"董事兼總經理","shares":56282953,"since":"1998-09-03","pay":4800000,"payBasis":"disclosed"},{"name":"示範-9103-4","title":"董事","shares":16497458,"since":"2014-06-06","pay":28500000,"payBasis":"disclosed"},{"name":"示範-9103-5","title":"董事","shares":9316361,"since":"2015-06-12","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9103-6","title":"監察人","shares":2457683,"since":"2012-03-28","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9103-7","title":"獨立董事","shares":0,"since":null,"pay":4800000,"payBasis":"disclosed"}],"dps":null,"boardSize":7,"withHoldings":6},"9104":{"directors":[{"name":"示範-9104-1","title":"董事長","shares":59078144,"since":"2004-07-09","pay":38000000,"payBasis":"disclosed"},{"name":"示範-9104-2","title":"副董事長","shares":28976117,"since":null,"pay":21000000,"payBasis":"disclosed"},{"name":"示範-9104-3","title":"董事兼總經理","shares":3705556,"since":"1988-01-07","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9104-4","title":"董事","shares":3001253,"since":null,"pay":4800000,"payBasis":"disclosed"},{"name":"示範-9104-5","title":"董事","shares":2358897,"since":"2008-12-01","pay":4800000,"payBasis":"disclosed"},{"name":"示範-9104-6","title":"監察人","shares":807666,"since":"2014-10-16","pay":9500000,"payBasis":"band midpoint"}],"dps":2.4,"boardSize":7,"withHoldings":6},"9105":{"directors":[{"name":"示範-9105-1","title":"董事長","shares":424587566,"since":null,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9105-2","title":"副董事長","shares":141852153,"since":"1987-07-16","pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9105-3","title":"董事兼總經理","shares":33033218,"since":"1986-02-15","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9105-5","title":"董事","shares":11002461,"since":"2019-02-20","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9105-4","title":"董事","shares":10955945,"since":"2023-03-17","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9105-6","title":"監察人","shares":5736044,"since":"2010-02-27","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9105-7","title":"獨立董事","shares":0,"since":"2013-08-21","pay":38000000,"payBasis":"band midpoint"}],"dps":1.59,"boardSize":10,"withHoldings":6},"9106":{"directors":[{"name":"示範-9106-1","title":"董事長","shares":76545458,"since":"1994-01-13","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9106-2","title":"副董事長","shares":15304327,"since":"2002-07-25","pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9106-3","title":"董事兼總經理","shares":5789592,"since":null,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9106-4","title":"董事","shares":3511657,"since":"2008-12-25","pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9106-5","title":"董事","shares":1175727,"since":null,"pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9106-7","title":"獨立董事","shares":0,"since":"2014-12-21","pay":21000000,"payBasis":"disclosed"}],"dps":3.6,"boardSize":7,"withHoldings":5},"9107":{"directors":[{"name":"示範-9107-1","title":"董事長","shares":166230818,"since":"1997-05-18","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9107-2","title":"副董事長","shares":51664090,"since":"2000-10-18","pay":4800000,"payBasis":"disclosed"},{"name":"示範-9107-3","title":"董事兼總經理","shares":21182559,"since":null,"pay":9500000,"payBasis":"disclosed"},{"name":"示範-9107-4","title":"董事","shares":4023427,"since":"2014-03-22","pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9107-5","title":"董事","shares":2137446,"since":"2014-03-18","pay":3200000,"payBasis":"disclosed"},{"name":"示範-9107-6","title":"監察人","shares":1797024,"since":"2012-01-18","pay":4800000,"payBasis":"disclosed"},{"name":"示範-9107-7","title":"獨立董事","shares":0,"since":"2019-05-08","pay":21000000,"payBasis":"band midpoint"}],"dps":4.79,"boardSize":7,"withHoldings":6},"9108":{"directors":[{"name":"示範-9108-1","title":"董事長","shares":184125662,"since":"2005-01-11","pay":9500000,"payBasis":"disclosed"},{"name":"示範-9108-2","title":"副董事長","shares":58846829,"since":null,"pay":3200000,"payBasis":"disclosed"},{"name":"示範-9108-3","title":"董事兼總經理","shares":23895076,"since":"1999-03-08","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9108-5","title":"董事","shares":5542010,"since":"2009-07-26","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9108-4","title":"董事","shares":3606291,"since":"2010-03-26","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9108-6","title":"監察人","shares":2646822,"since":null,"pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9108-7","title":"獨立董事","shares":0,"since":"2011-07-15","pay":21000000,"payBasis":"disclosed"}],"dps":6.33,"boardSize":10,"withHoldings":6},"9109":{"directors":[{"name":"示範-9109-1","title":"董事長","shares":189495043,"since":"1995-02-01","pay":3200000,"payBasis":"disclosed"},{"name":"示範-9109-2","title":"副董事長","shares":33776630,"since":"2005-01-17","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9109-4","title":"董事","shares":13871705,"since":"2016-01-03","pay":28500000,"payBasis":"disclosed"},{"name":"示範-9109-3","title":"董事兼總經理","shares":11282521,"since":"1997-10-05","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9109-6","title":"監察人","shares":2208301,"since":"2013-12-11","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9109-7","title":"獨立董事","shares":0,"since":"2022-05-18","pay":3200000,"payBasis":"disclosed"}],"dps":2.77,"boardSize":6,"withHoldings":5},"9110":{"directors":[{"name":"示範-9110-1","title":"董事長","shares":130225737,"since":null,"pay":9500000,"payBasis":"disclosed"},{"name":"示範-9110-2","title":"副董事長","shares":101838428,"since":null,"pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9110-3","title":"董事兼總經理","shares":29613251,"since":"1991-08-23","pay":3200000,"payBasis":"disclosed"},{"name":"示範-9110-4","title":"董事","shares":10939513,"since":"2021-02-22","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9110-5","title":"董事","shares":7819163,"since":"2019-07-21","pay":38000000,"payBasis":"band midpoint"}],"dps":7.01,"boardSize":7,"withHoldings":5},"9111":{"directors":[{"name":"示範-9111-1","title":"董事長","shares":40154149,"since":"2000-12-23","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9111-2","title":"副董事長","shares":5821060,"since":"2005-01-01","pay":62000000,"payBasis":"band midpoint"},{"name":"示範-9111-3","title":"董事兼總經理","shares":4151372,"since":"2001-07-20","pay":3200000,"payBasis":"disclosed"},{"name":"示範-9111-4","title":"董事","shares":2084759,"since":"2013-02-11","pay":21000000,"payBasis":"band midpoint"},{"name":"示範-9111-6","title":"監察人","shares":401473,"since":"2020-03-17","pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9111-7","title":"獨立董事","shares":0,"since":"2021-09-06","pay":3200000,"payBasis":"band midpoint"}],"dps":7.04,"boardSize":6,"withHoldings":5},"9112":{"directors":[{"name":"示範-9112-1","title":"董事長","shares":29004370,"since":"1992-10-06","pay":28500000,"payBasis":"band midpoint"},{"name":"示範-9112-2","title":"副董事長","shares":5093202,"since":"2003-01-21","pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9112-3","title":"董事兼總經理","shares":2561848,"since":"1996-05-24","pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9112-4","title":"董事","shares":1031820,"since":"2009-05-08","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9112-5","title":"董事","shares":600505,"since":"2018-09-24","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9112-6","title":"監察人","shares":168984,"since":null,"pay":4800000,"payBasis":"disclosed"}],"dps":7.88,"boardSize":8,"withHoldings":6},"9113":{"directors":[{"name":"示範-9113-1","title":"董事長","shares":58146931,"since":"2000-12-24","pay":62000000,"payBasis":"disclosed"},{"name":"示範-9113-2","title":"副董事長","shares":10504714,"since":"1986-10-07","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9113-3","title":"董事兼總經理","shares":5617678,"since":"1990-11-12","pay":38000000,"payBasis":"band midpoint"},{"name":"示範-9113-4","title":"董事","shares":3428228,"since":"2019-06-15","pay":9500000,"payBasis":"band midpoint"},{"name":"示範-9113-5","title":"董事","shares":692573,"since":"2013-11-14","pay":21000000,"payBasis":"disclosed"},{"name":"示範-9113-6","title":"監察人","shares":321890,"since":"2023-01-07","pay":4800000,"payBasis":"band midpoint"},{"name":"示範-9113-7","title":"獨立董事","shares":0,"since":"2012-09-07","pay":38000000,"payBasis":"band midpoint"}],"dps":null,"boardSize":9,"withHoldings":6}}};
+const FALLBACK = {"index":{"source":"FIXTURE — synthetic sample data, not from TWSE","currency":"TWD","fixture":true,"companies":[{"code":"9100","name":"示範精密股份有限公司 9100","nameEn":"Demo Precision Co 9100","price":453.39,"marketCap":415305240000.0,"pe":20.4,"sharesOutstanding":916000000,"industry":"Precision","dps":null,"avgBoardPay":5883929,"chairman":"示範-9100-1","listedOn":"2014-07-15","founded":"1974-07-01","boardSize":10,"withHoldings":6,"repCount":3,"topHolder":{"name":"示範-9100-1","title":"董事長","shares":49991372},"directors":7},{"code":"9101","name":"示範電子股份有限公司 9101","nameEn":"Demo Electronics Co 9101","price":79.15,"marketCap":55959050000.00001,"pe":19.5,"sharesOutstanding":707000000,"industry":"Electronics","dps":3.0,"avgBoardPay":37004856,"chairman":"示範-9101-1","listedOn":"1992-05-15","founded":"1977-07-01","boardSize":9,"withHoldings":5,"repCount":1,"topHolder":{"name":"示範-9101-1","title":"董事長","shares":76184092},"directors":6},{"code":"9102","name":"示範半導體股份有限公司 9102","nameEn":"Demo Semiconductor Co 9102","price":570.62,"marketCap":1934972420000.0,"pe":27.4,"sharesOutstanding":3391000000,"industry":"Semiconductor","dps":6.53,"avgBoardPay":19463777,"chairman":"示範-9102-1","listedOn":"2007-02-15","founded":"1984-08-01","boardSize":7,"withHoldings":4,"repCount":3,"topHolder":{"name":"示範-9102-1","title":"董事長","shares":348706999},"directors":5},{"code":"9103","name":"示範化學股份有限公司 9103","nameEn":"Demo Chemical Co 9103","price":191.05,"marketCap":219325400000.0,"pe":11.2,"sharesOutstanding":1148000000,"industry":"Chemical","dps":1.56,"avgBoardPay":1918621,"chairman":"示範-9103-1","listedOn":"1993-09-15","founded":"1983-09-01","boardSize":9,"withHoldings":6,"repCount":0,"topHolder":{"name":"示範-9103-1","title":"董事長","shares":117686405},"directors":6},{"code":"9104","name":"示範金融股份有限公司 9104","nameEn":"Demo Financial Co 9104","price":558.53,"marketCap":1749874490000.0,"pe":22.3,"sharesOutstanding":3133000000,"industry":"Financial","dps":2.73,"avgBoardPay":35420322,"chairman":"示範-9104-1","listedOn":"1998-06-15","founded":"1971-08-01","boardSize":10,"withHoldings":6,"repCount":2,"topHolder":{"name":"示範-9104-1","title":"董事長","shares":148517964},"directors":7},{"code":"9105","name":"示範紡織股份有限公司 9105","nameEn":"Demo Textile Co 9105","price":122.93,"marketCap":491105350000.0,"pe":25.4,"sharesOutstanding":3995000000,"industry":"Textile","dps":8.17,"avgBoardPay":12637419,"chairman":"示範-9105-1","listedOn":"1998-05-15","founded":"1986-07-01","boardSize":7,"withHoldings":5,"repCount":2,"topHolder":{"name":"示範-9105-2","title":"副董事長","shares":187640192},"directors":5},{"code":"9106","name":"示範鋼鐵股份有限公司 9106","nameEn":"Demo Steel Co 9106","price":396.21,"marketCap":82015470000.0,"pe":21.2,"sharesOutstanding":207000000,"industry":"Steel","dps":5.12,"avgBoardPay":37476683,"chairman":"示範-9106-1","listedOn":"1998-07-15","founded":"1977-04-01","boardSize":10,"withHoldings":6,"repCount":1,"topHolder":{"name":"示範-9106-1","title":"董事長","shares":8355435},"directors":7},{"code":"9107","name":"示範光電股份有限公司 9107","nameEn":"Demo Optical Co 9107","price":635.48,"marketCap":133450800000.0,"pe":19.8,"sharesOutstanding":210000000,"industry":"Optical","dps":1.04,"avgBoardPay":37987634,"chairman":"示範-9107-1","listedOn":"2002-07-15","founded":"1982-09-01","boardSize":5,"withHoldings":4,"repCount":3,"topHolder":{"name":"示範-9107-1","title":"董事長","shares":9185801},"directors":4},{"code":"9108","name":"示範電信股份有限公司 9108","nameEn":"Demo Telecom Co 9108","price":235.91,"marketCap":281440630000.0,"pe":19.5,"sharesOutstanding":1193000000,"industry":"Telecom","dps":2.49,"avgBoardPay":12377712,"chairman":"示範-9108-1","listedOn":"2015-01-15","founded":"1985-03-01","boardSize":8,"withHoldings":6,"repCount":3,"topHolder":{"name":"示範-9108-1","title":"董事長","shares":73137954},"directors":6},{"code":"9109","name":"示範海運股份有限公司 9109","nameEn":"Demo Marine Co 9109","price":35.24,"marketCap":138246520000.0,"pe":11.9,"sharesOutstanding":3923000000,"industry":"Marine","dps":null,"avgBoardPay":10611624,"chairman":"示範-9109-1","listedOn":"1990-05-15","founded":"1987-03-01","boardSize":10,"withHoldings":6,"repCount":3,"topHolder":{"name":"示範-9109-1","title":"董事長","shares":404961110},"directors":7},{"code":"9110","name":"示範精密股份有限公司 9110","nameEn":"Demo Precision Co 9110","price":263.0,"marketCap":482868000000.0,"pe":31.7,"sharesOutstanding":1836000000,"industry":"Precision","dps":7.93,"avgBoardPay":28046159,"chairman":"示範-9110-1","listedOn":"2009-07-15","founded":"1969-04-01","boardSize":7,"withHoldings":5,"repCount":1,"topHolder":{"name":"示範-9110-1","title":"董事長","shares":135361864},"directors":6},{"code":"9111","name":"示範電子股份有限公司 9111","nameEn":"Demo Electronics Co 9111","price":556.0,"marketCap":1953784000000.0,"pe":29.5,"sharesOutstanding":3514000000,"industry":"Electronics","dps":2.55,"avgBoardPay":9282382,"chairman":"示範-9111-1","listedOn":"2005-09-15","founded":"1961-02-01","boardSize":7,"withHoldings":6,"repCount":0,"topHolder":{"name":"示範-9111-1","title":"董事長","shares":156874496},"directors":7},{"code":"9112","name":"示範半導體股份有限公司 9112","nameEn":"Demo Semiconductor Co 9112","price":249.51,"marketCap":636250500000.0,"pe":26.7,"sharesOutstanding":2550000000,"industry":"Semiconductor","dps":null,"avgBoardPay":13139081,"chairman":"示範-9112-1","listedOn":"2015-04-15","founded":"1962-07-01","boardSize":8,"withHoldings":5,"repCount":0,"topHolder":{"name":"示範-9112-1","title":"董事長","shares":138725169},"directors":5},{"code":"9113","name":"示範化學股份有限公司 9113","nameEn":"Demo Chemical Co 9113","price":185.2,"marketCap":696166800000.0,"pe":10.6,"sharesOutstanding":3759000000,"industry":"Chemical","dps":null,"avgBoardPay":34895771,"chairman":"示範-9113-1","listedOn":"2014-04-15","founded":"1981-01-01","boardSize":7,"withHoldings":6,"repCount":0,"topHolder":{"name":"示範-9113-1","title":"董事長","shares":298638298},"directors":7}]},"shards":{"9100":{"directors":[{"name":"示範-9100-1","title":"董事長","shares":49991372,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9100-2","title":"副董事長","shares":35918574,"pledged":7183714,"related":86204577,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9100-3","title":"董事兼總經理","shares":10552776,"pledged":0,"related":25326662,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9100-4","title":"董事","shares":3162289,"pledged":1423030,"related":7589493,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9100-5","title":"董事","shares":1633160,"pledged":734922,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9100-6","title":"監察人","shares":1413559,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9100-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":null,"avgBoardPay":5883929,"boardSize":10,"withHoldings":6,"repCount":3,"dividendYear":null},"9101":{"directors":[{"name":"示範-9101-1","title":"董事長","shares":76184092,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9101-2","title":"副董事長","shares":16626468,"pledged":7481910,"related":19951761,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9101-3","title":"董事兼總經理","shares":4487289,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9101-4","title":"董事","shares":2516638,"pledged":1761646,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9101-5","title":"董事","shares":1938937,"pledged":1357255,"related":2326724,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9101-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":3.0,"avgBoardPay":37004856,"boardSize":9,"withHoldings":5,"repCount":1,"dividendYear":null},"9102":{"directors":[{"name":"示範-9102-1","title":"董事長","shares":348706999,"pledged":69741399,"related":104612099,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9102-2","title":"副董事長","shares":94168171,"pledged":65917719,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9102-3","title":"董事兼總經理","shares":46613664,"pledged":9322732,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9102-4","title":"董事","shares":19467406,"pledged":3893481,"related":46721774,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9102-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":6.53,"avgBoardPay":19463777,"boardSize":7,"withHoldings":4,"repCount":3,"dividendYear":null},"9103":{"directors":[{"name":"示範-9103-1","title":"董事長","shares":117686405,"pledged":23537281,"related":141223686,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9103-2","title":"副董事長","shares":40240018,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9103-3","title":"董事兼總經理","shares":12167773,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9103-4","title":"董事","shares":4892562,"pledged":0,"related":5871074,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9103-5","title":"董事","shares":2033767,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9103-6","title":"監察人","shares":1424814,"pledged":0,"related":427444,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":1.56,"avgBoardPay":1918621,"boardSize":9,"withHoldings":6,"repCount":0,"dividendYear":null},"9104":{"directors":[{"name":"示範-9104-1","title":"董事長","shares":148517964,"pledged":103962574,"related":178221556,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9104-2","title":"副董事長","shares":59685381,"pledged":0,"related":143244914,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9104-3","title":"董事兼總經理","shares":47305141,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9104-5","title":"董事","shares":8067726,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9104-4","title":"董事","shares":7040133,"pledged":1408026,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9104-6","title":"監察人","shares":4452891,"pledged":0,"related":5343469,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9104-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":2.73,"avgBoardPay":35420322,"boardSize":10,"withHoldings":6,"repCount":2,"dividendYear":null},"9105":{"directors":[{"name":"示範-9105-2","title":"副董事長","shares":187640192,"pledged":0,"related":450336460,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9105-1","title":"董事長","shares":173558357,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9105-3","title":"董事兼總經理","shares":29411241,"pledged":20587868,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9105-4","title":"董事","shares":11635888,"pledged":5236149,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9105-6","title":"監察人","shares":3752277,"pledged":750455,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":8.17,"avgBoardPay":12637419,"boardSize":7,"withHoldings":5,"repCount":2,"dividendYear":null},"9106":{"directors":[{"name":"示範-9106-1","title":"董事長","shares":8355435,"pledged":0,"related":10026522,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9106-2","title":"副董事長","shares":3526005,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9106-3","title":"董事兼總經理","shares":2104537,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9106-5","title":"董事","shares":660371,"pledged":0,"related":1584890,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9106-4","title":"董事","shares":541802,"pledged":0,"related":1300324,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9106-6","title":"監察人","shares":103772,"pledged":46697,"related":124526,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9106-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":5.12,"avgBoardPay":37476683,"boardSize":10,"withHoldings":6,"repCount":1,"dividendYear":null},"9107":{"directors":[{"name":"示範-9107-1","title":"董事長","shares":9185801,"pledged":6430060,"related":22045922,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9107-2","title":"副董事長","shares":8441196,"pledged":5908837,"related":10129435,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9107-3","title":"董事兼總經理","shares":2600673,"pledged":1820471,"related":6241615,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9107-4","title":"董事","shares":797027,"pledged":557918,"related":1912864,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":1.04,"avgBoardPay":37987634,"boardSize":5,"withHoldings":4,"repCount":3,"dividendYear":null},"9108":{"directors":[{"name":"示範-9108-1","title":"董事長","shares":73137954,"pledged":0,"related":175531089,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9108-2","title":"副董事長","shares":50813859,"pledged":35569701,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9108-3","title":"董事兼總經理","shares":17960896,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9108-4","title":"董事","shares":4857967,"pledged":0,"related":1457390,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9108-5","title":"董事","shares":2277047,"pledged":1593932,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9108-6","title":"監察人","shares":1231926,"pledged":0,"related":2956622,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":2.49,"avgBoardPay":12377712,"boardSize":8,"withHoldings":6,"repCount":3,"dividendYear":null},"9109":{"directors":[{"name":"示範-9109-1","title":"董事長","shares":404961110,"pledged":283472777,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9109-2","title":"副董事長","shares":108270213,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9109-3","title":"董事兼總經理","shares":30822606,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9109-5","title":"董事","shares":11157165,"pledged":2231433,"related":13388598,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9109-4","title":"董事","shares":9061550,"pledged":6343085,"related":10873860,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9109-6","title":"監察人","shares":2814761,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9109-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":null,"avgBoardPay":10611624,"boardSize":10,"withHoldings":6,"repCount":3,"dividendYear":null},"9110":{"directors":[{"name":"示範-9110-1","title":"董事長","shares":135361864,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9110-3","title":"董事兼總經理","shares":28721982,"pledged":12924891,"related":34466378,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9110-2","title":"副董事長","shares":27674657,"pledged":0,"related":8302397,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9110-4","title":"董事","shares":8926733,"pledged":0,"related":21424159,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9110-6","title":"監察人","shares":1902978,"pledged":0,"related":4567147,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9110-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":7.93,"avgBoardPay":28046159,"boardSize":7,"withHoldings":5,"repCount":1,"dividendYear":null},"9111":{"directors":[{"name":"示範-9111-1","title":"董事長","shares":156874496,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9111-2","title":"副董事長","shares":98351813,"pledged":0,"related":236044351,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9111-3","title":"董事兼總經理","shares":19313933,"pledged":8691269,"related":46353439,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9111-4","title":"董事","shares":12773035,"pledged":5747865,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9111-5","title":"董事","shares":10127355,"pledged":0,"related":24305652,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9111-6","title":"監察人","shares":5443032,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9111-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":2.55,"avgBoardPay":9282382,"boardSize":7,"withHoldings":6,"repCount":0,"dividendYear":null},"9112":{"directors":[{"name":"示範-9112-1","title":"董事長","shares":138725169,"pledged":0,"related":332940405,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9112-2","title":"副董事長","shares":66140302,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9112-3","title":"董事兼總經理","shares":26244106,"pledged":5248821,"related":31492927,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9112-4","title":"董事","shares":13700380,"pledged":0,"related":16440456,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9112-5","title":"董事","shares":3296215,"pledged":0,"related":7910916,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":null,"avgBoardPay":13139081,"boardSize":8,"withHoldings":5,"repCount":0,"dividendYear":null},"9113":{"directors":[{"name":"示範-9113-1","title":"董事長","shares":298638298,"pledged":0,"related":358365957,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9113-2","title":"副董事長","shares":145692266,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9113-3","title":"董事兼總經理","shares":54835688,"pledged":10967137,"related":16450706,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9113-4","title":"董事","shares":13154133,"pledged":9207893,"related":15784959,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9113-5","title":"董事","shares":4639241,"pledged":0,"related":1391772,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9113-6","title":"監察人","shares":3910257,"pledged":782051,"related":0,"isRep":false,"isCorporate":false,"onBoard":true},{"name":"示範-9113-7","title":"獨立董事","shares":0,"pledged":0,"related":0,"isRep":false,"isCorporate":false,"onBoard":true}],"dps":null,"avgBoardPay":34895771,"boardSize":7,"withHoldings":6,"repCount":0,"dividendYear":null}}};
 
 /* Click-through to the exchange page behind each figure, so any number in the
    table can be checked against the source in one click.
@@ -443,62 +439,55 @@ const tierOf = v => TIERS.find(t => v >= t.min);
 
 function assumptions() {
   return {
-    save: pct($('save').value),
     disc: pct($('disc').value),
     fx: num($('fx').value) || 1,
   };
 }
 
-const THIS_YEAR = new Date().getFullYear();
-
 /**
- * Tenure comes from the filing (初次選任日期, date first elected) or not at all.
- * Where TWSE discloses no date the pay component is dropped rather than guessed,
- * so that row reports stake value only — understated, and marked as such.
- */
-function tenureOf(director) {
-  const y = director.since ? new Date(director.since).getFullYear() : NaN;
-  if (isFinite(y) && y > 1900 && y <= THIS_YEAR) {
-    return { years: Math.max(1, THIS_YEAR - y), since: y, disclosed: true };
-  }
-  return { years: 0, since: null, disclosed: false };
-}
-
-/**
- * Two measures, kept apart on purpose.
+ * Every input below is a disclosed figure. Nothing is inferred from tenure,
+ * because TWSE publishes no election date — the holdings dataset carries only
+ * 選任時持股 (shares at election), never the date.
  *
- *   holding   what the stake is worth on screen today — paper wealth
- *   banked    cash that has actually reached them: dividends received over their
- *             tenure, plus cumulative board pay
- *
- * A founder sitting on USD 2bn of stock who has never taken a dividend is a very
- * different call from one who has banked USD 300m, and a single blended number
- * hides that. The estimate below combines them, but both stay visible.
+ *   own        目前持股 — the insider's own registered holding
+ *   related    內部人關係人目前持股合計 — spouse, minor children and controlled
+ *              vehicles, filed as one combined figure
+ *   pledged    設質股數 — shares posted as loan collateral. Still owned, but
+ *              already borrowed against, so not spendable wealth
+ *   dividend   DPS x household shares, for the disclosed dividend year
+ *   boardPay   company-level MEAN across the board. Never an individual's pay —
+ *              TWSE does not publish per-person remuneration.
  */
-function estimate(director, company, a) {
+function assess(d, co, a) {
   const toUsdM = twd => twd / a.fx / 1e6;
-  const t = tenureOf(director);
-  const shares = director.shares || 0;
+  const price = co.price || 0;
+  const own = d.shares || 0;
+  const related = d.related || 0;
+  const pledged = d.pledged || 0;
+  const household = own + related;
 
-  const holding = toUsdM(shares * (company.price || 0));
-  const marketable = holding * (1 - a.disc);
+  const ownValue = toUsdM(own * price);
+  const relatedValue = toUsdM(related * price);
+  const householdValue = ownValue + relatedValue;
+  const pledgedValue = toUsdM(pledged * price);
+  const pledgeRatio = own > 0 ? pledged / own : 0;
 
-  // Dividends need both a payout figure and a tenure to run it over.
-  const divCum = (company.dps && t.disclosed) ? toUsdM(company.dps * shares * t.years) : 0;
-  const payCum = t.disclosed ? toUsdM((director.pay || 0) * t.years) : 0;
-  const banked = divCum + payCum;
-  const retained = banked * a.save;
+  const dividend = co.dps ? toUsdM(co.dps * household) : 0;
+  const boardPay = (d.onBoard && co.avgBoardPay) ? toUsdM(co.avgBoardPay) : 0;
 
   return {
-    holding, marketable, divCum, payCum, banked, retained,
-    total: marketable + retained,
-    tenure: t,
-    // Everything the advisor should know before quoting the number.
+    own, related, pledged, household,
+    ownValue, relatedValue, householdValue, pledgedValue, pledgeRatio,
+    dividend, boardPay, annualIncome: dividend + boardPay,
+    // The sizing figure: household stake less the discount for a position that
+    // cannot be sold at the screen price.
+    sized: householdValue * (1 - a.disc),
     flags: [
-      !t.disclosed && 'no election date — dividends and pay not counted',
-      director.payBasis === 'band midpoint' && 'pay is a disclosure band, midpoint used',
-      company.dps && t.disclosed && 'dividends estimated from latest DPS × tenure',
-      !company.dps && shares > 0 && 'no dividend data — cash banked understated',
+      pledgeRatio >= 0.3 && `${(pledgeRatio * 100).toFixed(0)}% of their own holding is pledged`,
+      related > own * 2 && 'most of the household holding sits with related parties',
+      !co.dps && own > 0 && 'company declared no cash dividend',
+      boardPay > 0 && 'board pay is the company average, not their own',
+      d.isRep && 'nominee for an institution — shares are not personally held',
     ].filter(Boolean),
   };
 }
@@ -603,19 +592,19 @@ function render() {
   if (!current) { renderGrid(); return; }
 
   const co = current, a = assumptions();
-  const rows = (co.directors || []).map(d => ({ d, e: estimate(d, co, a) }));
-  const key = r => ({ name: r.d.name, tenure: r.e.tenure.years,
-                      pctHeld: r.d.shares || 0, holding: r.e.holding,
-                      div: r.e.divCum, accum: r.e.payCum,
-                      banked: r.e.banked, est: r.e.total }[sortKey]);
+  const rows = (co.directors || []).map(d => ({ d, e: assess(d, co, a) }));
+  const key = r => ({ name: r.d.name, own: r.e.ownValue, related: r.e.relatedValue,
+                      household: r.e.householdValue, pledged: r.e.pledgedValue,
+                      income: r.e.annualIncome, est: r.e.sized }[sortKey]);
   rows.sort((x, y) => {
     const kx = key(x), ky = key(y);
     return (typeof kx === 'string' ? kx.localeCompare(ky) : kx - ky) * sortDir;
   });
 
-  const boardTotal = rows.reduce((s, r) => s + r.e.total, 0);
-  const boardHolding = rows.reduce((s, r) => s + r.e.holding, 0);
-  const boardBanked = rows.reduce((s, r) => s + r.e.banked, 0);
+  const boardTotal = rows.reduce((s, r) => s + r.e.sized, 0);
+  const boardHolding = rows.reduce((s, r) => s + r.e.householdValue, 0);
+  const boardPledged = rows.reduce((s, r) => s + r.e.pledgedValue, 0);
+  const boardIncome = rows.reduce((s, r) => s + r.e.annualIncome, 0);
   const gaps = [...new Set(rows.flatMap(r => r.e.flags))];
   const cover = (co.withHoldings != null && co.boardSize)
     ? `${co.withHoldings} of ${co.boardSize} board members disclose a holding`
@@ -638,43 +627,45 @@ function render() {
       <div class="co-stats">
         <div class="cs"><div class="l">Market cap</div><div class="v">USD ${usd(mcapUsd)}</div></div>
         <div class="cs"><div class="l">Board holds</div><div class="v">${insiderPct.toFixed(1)}%</div></div>
-        <div class="cs"><div class="l">Board on paper</div><div class="v">USD ${usd(boardHolding)}</div></div>
-        <div class="cs"><div class="l">Board banked</div><div class="v">USD ${usd(boardBanked)}</div></div>
+        <div class="cs"><div class="l">Household stake</div><div class="v">USD ${usd(boardHolding)}</div></div>
+        <div class="cs"><div class="l">Pledged</div><div class="v">USD ${usd(boardPledged)}</div></div>
+        <div class="cs"><div class="l">Annual income</div><div class="v">USD ${usd(boardIncome)}</div></div>
       </div>
     </div>
     <div class="coverage">
-      <span><b>${esc(cover)}</b> — anyone holding through family members, investment vehicles or nominees is disclosed separately and is not captured here, so a controlling family's real position is usually larger.</span>
-      ${co.dps ? `<span>Dividends per share ${co.dps} TWD, applied across each director's disclosed tenure.</span>`
-               : `<span class="warn-txt">No dividend-per-share data for this company — cash banked counts salary only and is understated.</span>`}
+      <span><b>${esc(cover)}</b>${co.repCount ? ` · ${co.repCount} nominee or corporate row(s) held out of personal wealth — those shares belong to an institution` : ''}</span>
+      <span>Related-party holdings (spouse, minor children, controlled vehicles) are disclosed as one combined figure and are included in the household stake.</span>
+      ${co.dps ? `<span>Cash dividend ${co.dps} TWD per share${co.dividendYear ? ` (FY${co.dividendYear})` : ''}.</span>`
+               : `<span class="warn-txt">No cash dividend declared — annual income counts board pay only.</span>`}
+      ${co.avgBoardPay ? `<span class="warn-txt">Board pay shown is the company average of ${grp(co.avgBoardPay)} TWD per director. TWSE does not publish per-person remuneration.</span>` : ''}
     </div>
 
     <div class="table-scroll"><table class="dir">
       <thead><tr>
-        ${th('name', 'Director')}
-        ${th('tenure', 'On board', 'num')}
-        ${th('pctHeld', 'Holding %', 'num')}
-        ${th('holding', 'Holding value', 'num')}
-        ${th('div', 'Dividends', 'num')}
-        ${th('accum', 'Salary', 'num')}
-        ${th('banked', 'Cash banked', 'num')}
-        ${th('est', 'Est. net worth', 'num')}
+        ${th('name', 'Insider')}
+        ${th('own', 'Own holding', 'num')}
+        ${th('related', 'Related parties', 'num')}
+        ${th('household', 'Household stake', 'num')}
+        ${th('pledged', 'Pledged', 'num')}
+        ${th('income', 'Annual income', 'num')}
+        ${th('est', 'Sized wealth', 'num')}
         <th>Tier · notes</th>
       </tr></thead>
       <tbody>${rows.map(({ d, e }) => {
-        const t = tierOf(e.total);
+        const t = tierOf(e.sized);
         return `<tr>
           <td><div class="who">${esc(d.name)}</div><div class="role">${esc(d.title || '—')}</div></td>
-          <td class="num">${e.tenure.disclosed
-              ? `${e.tenure.years}y<div class="role">since ${e.tenure.since}</div>`
-              : `<span class="assumed">—</span><div class="role">not disclosed</div>`}</td>
-          <td class="num">${d.shares && co.sharesOutstanding
-              ? ((d.shares / co.sharesOutstanding) * 100).toFixed(2) + '%'
-              : (d.shares ? grp(d.shares) + ' sh' : '—')}<div class="role">${d.shares ? grp(d.shares) + ' shares' : ''}</div></td>
-          <td class="num">${usd(e.holding)}</td>
-          <td class="num">${e.divCum ? usd(e.divCum) : '<span class="assumed">—</span>'}</td>
-          <td class="num">${e.payCum ? usd(e.payCum) : '<span class="assumed">—</span>'}${d.payBasis === 'band midpoint' ? ' <span class="flag" title="Disclosed as a band; midpoint used">~</span>' : ''}</td>
-          <td class="num banked">${e.banked ? usd(e.banked) : '<span class="assumed">—</span>'}</td>
-          <td class="num est">${usd(e.total)}</td>
+          <td class="num">${e.own ? usd(e.ownValue) : '<span class="assumed">—</span>'}
+              <div class="role">${e.own ? grp(e.own) + ' sh' + (co.sharesOutstanding ? ' · ' + ((e.own / co.sharesOutstanding) * 100).toFixed(2) + '%' : '') : ''}</div></td>
+          <td class="num">${e.related ? usd(e.relatedValue) : '<span class="assumed">—</span>'}
+              <div class="role">${e.related ? grp(e.related) + ' sh' : ''}</div></td>
+          <td class="num banked">${usd(e.householdValue)}</td>
+          <td class="num">${e.pledged
+              ? `<span class="pledge">${usd(e.pledgedValue)}</span><div class="role">${(e.pledgeRatio * 100).toFixed(0)}% of own</div>`
+              : '<span class="assumed">—</span>'}</td>
+          <td class="num">${e.annualIncome ? usd(e.annualIncome) : '<span class="assumed">—</span>'}
+              <div class="role">${e.dividend ? 'div ' + usd(e.dividend) : ''}${e.dividend && e.boardPay ? ' · ' : ''}${e.boardPay ? 'pay ' + usd(e.boardPay) : ''}</div></td>
+          <td class="num est">${usd(e.sized)}</td>
           <td><span class="badge ${t.cls}">${t.label}</span>${e.flags.length
               ? `<div class="rowflags" title="${esc(e.flags.join(' · '))}">${e.flags.length} note${e.flags.length === 1 ? '' : 's'}</div>` : ''}</td>
         </tr>`;
@@ -686,13 +677,14 @@ function render() {
 
     <details class="method"><summary>How each column is built</summary>
       <dl>
-        <dt>Holding value</dt><dd>Disclosed shares × today's close. Paper wealth, undiscounted — what the filing says they own.</dd>
-        <dt>Dividends</dt><dd>Dividend per share × their shares × years on the board. An estimate: it applies the latest DPS across the whole tenure rather than each year's actual payout.</dd>
-        <dt>Salary</dt><dd>Disclosed annual remuneration × years on the board. Where MOPS gives a band rather than a figure, the midpoint is used and the row is marked <b>~</b>; the top band is open-ended, so the biggest earners are understated.</dd>
-        <dt>Cash banked</dt><dd>Dividends + salary. Money that has actually reached them, as opposed to stock they still hold.</dd>
-        <dt>Est. net worth</dt><dd>Holding × ${100 - num($('disc').value)}% + cash banked × ${num($('save').value)}%. The stake is discounted because a board-sized position cannot be sold at the screen price; banked cash is reduced to what is likely retained after tax and living costs.</dd>
+        <dt>Own holding</dt><dd>目前持股 × today's close — the insider's own registered shares.</dd>
+        <dt>Related parties</dt><dd>內部人關係人目前持股合計 × close. Spouse, minor children and controlled vehicles, filed as one combined figure. Not broken out per person.</dd>
+        <dt>Household stake</dt><dd>Own + related. The position the family actually controls.</dd>
+        <dt>Pledged</dt><dd>設質股數 × close — shares posted as loan collateral. Still owned, but already borrowed against, so treat them as encumbered rather than spendable.</dd>
+        <dt>Annual income</dt><dd>Cash dividend per share × household shares, plus board pay. <b>Board pay is the company-wide average per director</b> — TWSE publishes only 董事酬金-合計 and 平均每位董事酬金, never an individual's figure.</dd>
+        <dt>Sized wealth</dt><dd>Household stake × ${100 - num($('disc').value)}%. The only judgement in the table: a board-sized position cannot be sold at the screen price.</dd>
       </dl>
-      <p>All figures in USD at ${a.fx} TWD. This sizes what the filings show and nothing else — no inherited wealth, no property, no holdings in other companies, no borrowings against the stake.</p>
+      <p>All figures in USD at ${a.fx} TWD, from TWSE open data. Every column above is a disclosed figure — there is no tenure assumption, because TWSE publishes no election date. This does not capture inherited wealth, property, holdings in other listed companies, or the size of any loan secured on the pledged shares.</p>
     </details>`;
 
   host.querySelectorAll('th[data-sort]').forEach(el => {
@@ -710,6 +702,8 @@ function topWealth(c, a) {
   if (!c.topHolder || !c.price) return 0;
   return (c.topHolder.shares * c.price) / a.fx / 1e6;
 }
+
+const fmtPay = v => v ? grp(v / 1e6) + 'M TWD' : null;
 
 function filtered() {
   const a = assumptions();
@@ -794,17 +788,18 @@ function exportCsv(list, a) {
 
 function renderQuick() {
   const a = assumptions();
-  const shares = num($('q-shares').value);
+  const own = num($('q-shares').value);
   const price = num($('q-price').value);
-  const pay = num($('q-pay').value);
-  const years = num($('q-years').value);
-  if (!shares && !pay) { $('q-out').textContent = '—'; $('q-split').textContent = ''; return; }
-  const stake = (shares * price) / a.fx / 1e6 * (1 - a.disc);
-  const accum = (pay * years * a.save) / a.fx / 1e6;
-  const total = stake + accum;
-  const t = tierOf(total);
-  $('q-out').textContent = 'USD ' + usd(total);
-  $('q-split').innerHTML = `<span class="badge ${t.cls}">${t.label}</span> &nbsp;${usd(stake)} stake + ${usd(accum)} pay`;
+  const related = num($('q-pay').value);
+  const pledged = num($('q-years').value);
+  if (!own && !related) { $('q-out').textContent = '—'; $('q-split').textContent = ''; return; }
+  const household = (own + related) * price / a.fx / 1e6;
+  const sized = household * (1 - a.disc);
+  const pledgedV = pledged * price / a.fx / 1e6;
+  const t = tierOf(sized);
+  $('q-out').textContent = 'USD ' + usd(sized);
+  $('q-split').innerHTML = `<span class="badge ${t.cls}">${t.label}</span> &nbsp;household ${usd(household)}`
+    + (pledgedV ? ` · ${usd(pledgedV)} pledged` : '');
 }
 
 function esc(s) {
@@ -829,13 +824,13 @@ $('btn-copy').onclick = () => {
   if (!current) return;
   const co = current, a = assumptions();
   const lines = [`${co.nameEn || co.name} (TWSE ${co.code}) — indicative director wealth, USD m`,
-                 `Assumptions: tenure from filings, ${num($('save').value)}% savings rate, ${num($('disc').value)}% stake discount, ${a.fx} TWD/USD`, ''];
+                 `All figures disclosed to TWSE. ${num($('disc').value)}% stake discount, ${a.fx} TWD/USD.`, ''];
   (co.directors || []).forEach(d => {
-    const e = estimate(d, co, a);
-    lines.push(e.tenure.disclosed
-      ? `${d.name} (${d.title || '—'}, ${e.tenure.years}y since ${e.tenure.since}): `
-        + `${usd(e.total)}  [stake ${usd(e.stake)} + pay ${usd(e.payAccum)}]`
-      : `${d.name} (${d.title || '—'}, tenure not disclosed): ${usd(e.total)}  [stake only]`);
+    const e = assess(d, co, a);
+    lines.push(`${d.name} (${d.title || '—'}): sized ${usd(e.sized)}  `
+      + `[own ${usd(e.ownValue)} + related ${usd(e.relatedValue)}`
+      + (e.pledged ? `, ${(e.pledgeRatio * 100).toFixed(0)}% pledged` : '')
+      + (e.annualIncome ? `, income ${usd(e.annualIncome)}/yr` : '') + ']');
   });
   navigator.clipboard.writeText(lines.join('\n'))
     .then(() => { $('btn-copy').textContent = 'Copied'; setTimeout(() => $('btn-copy').textContent = 'Copy table', 1600); },
@@ -855,7 +850,7 @@ $('q').addEventListener('keydown', ev => {
 $('q').addEventListener('blur', () => setTimeout(() => { $('results').hidden = true; }, 120));
 $('q').addEventListener('focus', renderResults);
 
-['save','disc','fx'].forEach(id => $(id).addEventListener('input', () => { render(); renderQuick(); }));
+['disc','fx'].forEach(id => $(id).addEventListener('input', () => { render(); renderQuick(); }));
 ['f-industry','f-band','f-sort'].forEach(id => $(id).addEventListener('change', () => { if (!current) renderGrid(); }));
 $('btn-home').onclick = () => { current = null; history.replaceState(null, '', location.pathname); render(); };
 ['q-shares','q-price','q-pay','q-years'].forEach(id => $(id).addEventListener('input', renderQuick));

@@ -551,23 +551,28 @@ def fixture(count=60):
             if n >= 4 and rng.random() < 0.3:
                 continue
             held = int(shares * frac * rng.uniform(0.5, 1.6))
-            pay = rng.choice([3_200_000, 4_800_000, 9_500_000, 21_000_000,
-                              28_500_000, 38_000_000, 62_000_000])
             # Founders sit longer than independent directors. One in six rows is
             # left without a date, so the "not disclosed" path stays visible.
-            first_year = rng.randint(1985, 2005) if n < 3 else rng.randint(2008, 2023)
-            since = None if rng.random() < 0.16 else \
-                f"{first_year}-{rng.randint(1, 12):02d}-{rng.randint(1, 28):02d}"
+            pledged = int(held * rng.choice([0, 0, 0, 0.2, 0.45, 0.7])) if held else 0
+            related = int(held * rng.choice([0, 0, 0.3, 1.2, 2.4])) if held else 0
             directors.append({
                 "name": f"示範-{code}-{n + 1}", "title": title, "shares": held,
-                "since": since,
-                "pay": pay, "payBasis": rng.choice(["band midpoint", "disclosed"]),
+                "pledged": pledged, "related": related,
+                "isRep": False, "isCorporate": False,
+                "onBoard": any(t in title for t in BOARD_TITLES),
             })
         top = max(directors, key=lambda d: d["shares"], default=None)
         companies.append({
             "code": code,
             "industry": sectors[s],
             "dps": round(rng.uniform(0, 9), 2) if rng.random() > 0.25 else None,
+            "dividendYear": "114",
+            "avgBoardPay": rng.randrange(1_500_000, 40_000_000),
+            "boardPayTotal": rng.randrange(20_000_000, 400_000_000),
+            "chairman": f"示範-{code}-1", "president": f"示範-{code}-3",
+            "listedOn": f"{rng.randint(1990, 2022)}-0{rng.randint(1,9)}-15",
+            "founded": f"{rng.randint(1960, 1995)}-0{rng.randint(1,9)}-01",
+            "repCount": rng.randint(0, 3),
             "boardSize": len(directors) + rng.randint(0, 3),
             "withHoldings": sum(1 for d in directors if d["shares"] > 0),
             "topHolder": ({"name": top["name"], "title": top["title"], "shares": top["shares"]}
