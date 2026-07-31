@@ -44,6 +44,12 @@ jobs:
       # TWSE renames datasets periodically. This prints which dataset answered
       # for each role, so a silent schema drift shows up in the log rather than
       # as quietly-empty tables on the page.
+      # Exercises build() against stub datasets shaped like the live column
+      # dump. Three market-wide runs died on NameError/KeyError before this
+      # existed, each costing four minutes of fetching to discover.
+      - name: Test the build path offline
+        run: python test_fetch_twse.py
+
       - name: Report dataset resolution
         run: python fetch_twse.py --selftest ${{ inputs.codes && format('--codes {0}', inputs.codes) || '' }}
 

@@ -360,6 +360,11 @@ def build(codes=None, limit=None):
         # totals and a board average. Pay is carried on the company record and
         # labelled as an average wherever it is shown.
 
+        # Most recent declared dividend year for this code, and the company's
+        # board-remuneration row.
+        div_row = max(divs.get(code) or [{}], key=lambda r: to_num(pick(r, "div_year")) or 0)
+        pay_row = (pays.get(code) or [{}])[0]
+
         people = [d for d in directors if not d["isRep"] and not d["isCorporate"]]
         reps = [d for d in directors if d["isRep"] or d["isCorporate"]]
         with_holdings = sum(1 for d in people if (d["shares"] or 0) > 0)
