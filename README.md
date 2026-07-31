@@ -116,7 +116,51 @@ in, for a prospect whose company isn't in the feed.
 Arrow keys and Enter work in the search box, and opening a company sets the URL hash
 (`prospects.html#2317`), so you can bookmark a board or paste it to a colleague.
 
-### Connecting it to TWSE — one-time setup
+### Two ways to deploy
+
+| | GitHub Pages | Cloudflare Worker |
+|---|---|---|
+| Public URL | `<user>.github.io/client-news/prospects.html` | `pb-sow.<subdomain>.workers.dev` |
+| Data freshness | Last scheduled Action run | Live, on request |
+| Needs | Nothing beyond this repo | A free Cloudflare account |
+| How TWSE is reached | GitHub Action fetches and commits JSON | Worker fetches server-side per request |
+
+Both are public URLs anyone can open — no account, no login, nothing to install.
+
+**Why the difference matters.** A browser can't call TWSE: their endpoints send no
+CORS headers, so the request is blocked before it leaves the page. Static hosting has
+no server to get around that, which is why the Pages build routes the fetch through a
+scheduled GitHub Action that commits JSON into the repo.
+
+A Cloudflare Worker *is* a server. It calls TWSE directly, per request, and hands the
+result back as same-origin JSON — no scheduled job, no committed data, always current.
+That is the whole trick behind any "it pulls live from the regulator's site" demo you'll
+see on a `*.workers.dev` URL.
+
+The page tries both and degrades cleanly: `/api/twse/index` (live Worker) → `twse.json`
+(committed snapshot) → built-in sample data. The header says which tier answered.
+
+#### Deploying the Worker
+
+```bash
+npm install -g wrangler
+wrangler login          # opens a browser, free account is enough
+wrangler deploy         # prints your public URL
+```
+
+`wrangler.toml` serves the repo's static files and routes `/api/*` to `worker.js`.
+Endpoints:
+
+| Route | Returns |
+|---|---|
+| `/api/twse/health` | Which TWSE dataset answered for each role, and row counts |
+| `/api/twse/index` | Light index of every listed company |
+| `/api/twse/company/<code>` | One board: holdings, pay, election dates |
+
+**Open `/api/twse/health` first.** It is the selftest, in a browser, against live TWSE —
+it tells you whether the dataset IDs still resolve and how many rows each returned.
+
+### Connecting it to TWSE via GitHub Actions
 
 The browser can't call TWSE directly (no CORS headers on their endpoints, and this is a
 static site with no server). So the fetch runs on GitHub Actions and commits the result
