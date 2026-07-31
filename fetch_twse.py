@@ -158,21 +158,6 @@ ALIASES = {
 CORPORATE_MARKERS = ("公司", "銀行", "基金", "投資", "實業", "控股", "企業", "集團",
                      "協會", "管理會", "信託", "保險", "有限", "合夥", "財團法人")
 
-# MOPS discloses most individual pay as a band rather than a figure. Midpoints
-# in NT$; the top band is open-ended so it is floored at its lower bound.
-BANDS = [
-    (r"未達?\s*1[,，]?000", 500_000),
-    (r"1[,，]?000.*?2[,，]?000", 1_500_000),
-    (r"2[,，]?000.*?3[,，]?500", 2_750_000),
-    (r"3[,，]?500.*?5[,，]?000", 4_250_000),
-    (r"5[,，]?000.*?1[,，]?0000", 7_500_000),
-    (r"1[,，]?0000.*?1[,，]?5000", 12_500_000),
-    (r"1[,，]?5000.*?3[,，]?0000", 22_500_000),
-    (r"3[,，]?0000.*?5[,，]?0000", 40_000_000),
-    (r"5[,，]?0000.*?1[,，]?00000", 75_000_000),
-    (r"1[,，]?00000\s*以上", 100_000_000),
-]
-
 session = requests.Session()
 session.headers.update({"User-Agent": UA, "Accept": "application/json"})
 
@@ -196,7 +181,7 @@ def get_json(url):
 
 def pick(row, key):
     """Read a value from a TWSE row by whichever alias that dataset happens to use."""
-    for alias in ALIASES[key]:
+    for alias in ALIASES.get(key, ()):
         if alias in row and row[alias] not in (None, "", "-"):
             return row[alias]
     return None
@@ -248,21 +233,6 @@ def parse_date(v):
     if not (1900 <= y <= 2100 and 1 <= m <= 12 and 1 <= d <= 31):
         return None
     return f"{y:04d}-{m:02d}-{d:02d}"
-
-
-def band_midpoint(text):
-    """Turn a MOPS remuneration band into a usable NT$ figure."""
-    if not text:
-        return None
-    s = str(text)
-    for pattern, midpoint in BANDS:
-        if re.search(pattern, s):
-            return midpoint
-    nums = [to_num(n) for n in re.findall(r"[\d,]{4,}", s)]
-    nums = [n for n in nums if n]
-    if len(nums) >= 2:
-        return (nums[0] + nums[1]) / 2 * 1000       # bands are quoted in NT$ thousands
-    return nums[0] * 1000 if nums else None
 
 
 # ── dataset resolution ────────────────────────────────────────────────────
@@ -386,36 +356,10 @@ def build(codes=None, limit=None):
             rec.pop("titles", None)
             directors.append(rec)
 
-        # Attach remuneration by name where the pay dataset covers this company.
-        by_name = {d["name"]: d for d in directors}
-        for row in pays.get(code, []):
-            person = str(pick(row, "person") or "").strip()
-            exact = to_num(pick(row, "pay"))
-            band = band_midpoint(pick(row, "pay_band"))
-            target = by_name.get(person)
-            if target is None and person:
-                target = {"name": person, "title": str(pick(row, "title") or "").strip(),
-                          "shares": 0, "since": None, "pay": None, "payBasis": None}
-                directors.append(target)
-                by_name[person] = target
-            if target is None:
-                continue
-            # The pay dataset sometimes carries an election date the holdings
-            # dataset omits.
-            if not target.get("since"):
-                target["since"] = (parse_date(pick(row, "first_elected"))
-                                   or parse_date(pick(row, "elected")))
-            if exact:
-                target["pay"], target["payBasis"] = exact, "disclosed"
-            elif band:
-                target["pay"], target["payBasis"] = band, "band midpoint"
+        # No per-person remuneration join: TWSE publishes only company-level
+        # totals and a board average. Pay is carried on the company record and
+        # labelled as an average wherever it is shown.
 
-        div_rows = divs.get(code) or [{}]
-        # Prefer the most recent dividend year for this code.
-        div_row = max(div_rows, key=lambda r: to_num(pick(r, "div_year")) or 0)
-        pay_row = (pays.get(code) or [{}])[0]
-        # A natural person: not a nominee for an institution, and not a company
-        # sitting on the board in its own name.
         people = [d for d in directors if not d["isRep"] and not d["isCorporate"]]
         reps = [d for d in directors if d["isRep"] or d["isCorporate"]]
         with_holdings = sum(1 for d in people if (d["shares"] or 0) > 0)
@@ -594,68 +538,6 @@ def fixture(count=60):
         "resolution": {},
         "companies": companies,
     }
-
-
-def _legacy_fixture():
-    return {
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": "FIXTURE — synthetic sample data, not from TWSE",
-        "currency": "TWD",
-        "fixture": True,
-        "resolution": {},
-        "companies": [
-            {
-                "code": "9101", "name": "示範精密股份有限公司", "nameEn": "Demo Precision Co Ltd",
-                "price": 212.5, "sharesOutstanding": 1_380_000_000,
-                "marketCap": 293_250_000_000, "pe": 14.8, "pb": 2.1, "yield": 3.4,
-                "directors": [
-                    {"name": "示範-董事長", "title": "董事長", "shares": 96_600_000,
-                     "pay": 62_000_000, "payBasis": "band midpoint"},
-                    {"name": "示範-副董事長", "title": "副董事長", "shares": 41_400_000,
-                     "pay": 38_000_000, "payBasis": "band midpoint"},
-                    {"name": "示範-總經理", "title": "董事兼總經理", "shares": 13_800_000,
-                     "pay": 28_500_000, "payBasis": "disclosed"},
-                    {"name": "示範-董事", "title": "董事", "shares": 4_140_000,
-                     "pay": 9_500_000, "payBasis": "band midpoint"},
-                    {"name": "示範-獨立董事", "title": "獨立董事", "shares": 0,
-                     "pay": 3_200_000, "payBasis": "band midpoint"},
-                ],
-            },
-            {
-                "code": "9102", "name": "示範電子股份有限公司", "nameEn": "Demo Electronics Co Ltd",
-                "price": 88.0, "sharesOutstanding": 3_200_000_000,
-                "marketCap": 281_600_000_000, "pe": 11.2, "pb": 1.3, "yield": 5.1,
-                "directors": [
-                    {"name": "示範-創辦人", "title": "董事長", "shares": 224_000_000,
-                     "pay": 48_000_000, "payBasis": "band midpoint"},
-                    {"name": "示範-執行副總", "title": "董事", "shares": 32_000_000,
-                     "pay": 21_000_000, "payBasis": "disclosed"},
-                    {"name": "示範-監察人", "title": "監察人", "shares": 6_400_000,
-                     "pay": 4_800_000, "payBasis": "band midpoint"},
-                ],
-            },
-        ],
-    }
-
-
-def columns():
-    """Print the real field names each dataset returns.
-
-    The alias tables are guesses until this has been run once against live TWSE;
-    election date, pay and dividend-per-share all came back empty on the first
-    real fetch, which means the column is named something not in ALIASES.
-    """
-    index = load_index()
-    for role, spec in ROLES.items():
-        rows, _ = fetch_role(role, spec, index)
-        print(f"\n=== {role} ({len(rows)} rows)")
-        if not rows:
-            print("   (no rows)")
-            continue
-        print("   columns:", ", ".join(sorted(rows[0].keys())))
-        for sample in rows[:2]:
-            print("   sample:", json.dumps(sample, ensure_ascii=False)[:400])
-    return 0
 
 
 def main():
