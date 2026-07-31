@@ -81,6 +81,12 @@ ROLES = {
         "prefer": ["/opendata/t187ap28_L", "/opendata/t187ap29_L"],
         "keywords": [["董事", "酬金"], ["董監", "酬金"], ["酬金"]],
     },
+    # Dividends turn a paper stake into cash actually received, which is the
+    # distinction that matters most for a private bank.
+    "dividend": {
+        "prefer": ["/opendata/t187ap45_L", "/exchangeReport/TWT49U"],
+        "keywords": [["股利", "分派"], ["除權息"], ["股利"]],
+    },
 }
 
 # TWSE column names drift between datasets and over time; map by alias.
@@ -102,6 +108,8 @@ ALIASES = {
     "first_elected": ["初次選任日期", "初次當選日期", "初次選任日", "FirstElectedDate"],
     "elected":  ["選任日期", "當選日期", "到職日期", "就任日期", "ElectedDate", "任期起始日"],
     "pay":      ["酬金總額", "領取報酬總額", "個人酬金", "酬金", "Remuneration", "總酬金"],
+    "industry": ["產業別", "industry", "公司產業別", "Industry"],
+    "dps":      ["股利", "每股股利", "現金股利", "每股配息", "DividendPerShare"],
     "pay_band": ["酬金級距", "級距", "RemunerationRange"],
 }
 
@@ -275,6 +283,7 @@ def build(codes=None, limit=None):
     infos = index_by_code(data["company"])
     holds = index_by_code(data["holdings"])
     pays = index_by_code(data["remuneration"])
+    divs = index_by_code(data["dividend"])
 
     # Publish the whole market by default — the search box needs every company,
     # not a hand-kept roster.
@@ -338,8 +347,20 @@ def build(codes=None, limit=None):
             elif band:
                 target["pay"], target["payBasis"] = band, "band midpoint"
 
+        div_row = (divs.get(code) or [{}])[0]
+        board = holds.get(code, [])
+        with_holdings = sum(1 for d in directors if (d["shares"] or 0) > 0)
+        top = max(directors, key=lambda d: d["shares"] or 0, default=None)
+
         companies.append({
             "code": code,
+            "industry": (pick(info_row, "industry") or "") or None,
+            "dps": to_num(pick(div_row, "dps")),
+            # Coverage denominator: how many of the board actually disclose a holding.
+            "boardSize": len(board) or len(directors),
+            "withHoldings": with_holdings,
+            "topHolder": ({"name": top["name"], "title": top["title"], "shares": top["shares"]}
+                          if top and (top["shares"] or 0) > 0 else None),
             "name": (pick(info_row, "name") or pick(price_row, "name") or code),
             "nameEn": pick(info_row, "name_en"),
             "price": price,
@@ -382,6 +403,8 @@ def write_output(payload, out_path, shard_dir):
         shard = {
             "code": c["code"], "name": c["name"], "nameEn": c["nameEn"],
             "sharesOutstanding": c["sharesOutstanding"],
+            "dps": c.get("dps"), "boardSize": c.get("boardSize"),
+            "withHoldings": c.get("withHoldings"),
             "directors": c["directors"],
         }
         with open(os.path.join(shard_dir, f"{c['code']}.json"), "w", encoding="utf-8") as fh:
@@ -399,6 +422,9 @@ def write_output(payload, out_path, shard_dir):
             "code": c["code"], "name": c["name"], "nameEn": c["nameEn"],
             "price": c["price"], "marketCap": c["marketCap"], "pe": c["pe"],
             "sharesOutstanding": c["sharesOutstanding"],
+            "industry": c.get("industry"), "dps": c.get("dps"),
+            "boardSize": c.get("boardSize"), "withHoldings": c.get("withHoldings"),
+            "topHolder": c.get("topHolder"),
             "directors": len(c["directors"]),
         } for c in companies],
     }
@@ -448,8 +474,15 @@ def fixture(count=60):
                 "since": since,
                 "pay": pay, "payBasis": rng.choice(["band midpoint", "disclosed"]),
             })
+        top = max(directors, key=lambda d: d["shares"], default=None)
         companies.append({
             "code": code,
+            "industry": sectors[s],
+            "dps": round(rng.uniform(0, 9), 2) if rng.random() > 0.25 else None,
+            "boardSize": len(directors) + rng.randint(0, 3),
+            "withHoldings": sum(1 for d in directors if d["shares"] > 0),
+            "topHolder": ({"name": top["name"], "title": top["title"], "shares": top["shares"]}
+                          if top and top["shares"] > 0 else None),
             "name": f"示範{zh[s]}股份有限公司 {code}",
             "nameEn": f"Demo {sectors[s]} Co {code}",
             "price": price, "sharesOutstanding": shares,
