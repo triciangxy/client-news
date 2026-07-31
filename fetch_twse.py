@@ -154,9 +154,24 @@ ALIASES = {
 }
 
 # 姓名 sometimes holds a company, not a person: a corporate shareholder can sit
-# on the board in its own name, with a 法人代表人 acting for it.
+# on the board in its own name, with a 法人代表人 acting for it. Offshore
+# vehicles file under English names, and state bodies under 委員會 / 基金會.
 CORPORATE_MARKERS = ("公司", "銀行", "基金", "投資", "實業", "控股", "企業", "集團",
-                     "協會", "管理會", "信託", "保險", "有限", "合夥", "財團法人")
+                     "協會", "管理會", "信託", "保險", "有限", "合夥", "財團法人",
+                     "委員會", "基金會", "事務所", "合作社", "商會", "工會", "社團")
+
+# Word-boundary matching, so a person surnamed Cooper is not read as "Co".
+CORPORATE_EN = re.compile(
+    r"\b(ltd|limited|inc|incorporated|corp|corporation|company|co|holdings?|"
+    r"llc|l\.l\.c|llp|l\.l\.p|lp|l\.p|plc|pte|gmbh|sarl|s\.a|n\.v|b\.v|"
+    r"fund|capital|ventures?|partners|associates|trust|group|investments?)\b\.?",
+    re.IGNORECASE)
+
+
+def is_corporate(name):
+    """True when 姓名 holds an entity rather than a natural person."""
+    n = str(name or "")
+    return any(m in n for m in CORPORATE_MARKERS) or bool(CORPORATE_EN.search(n))
 
 session = requests.Session()
 session.headers.update({"User-Agent": UA, "Accept": "application/json"})
@@ -338,7 +353,7 @@ def build(codes=None, limit=None):
                     "name": name, "title": title, "titles": [],
                     "shares": 0, "pledged": 0, "related": 0,
                     "isRep": any(m in title for m in REP_MARKERS),
-                    "isCorporate": any(m in name for m in CORPORATE_MARKERS),
+                    "isCorporate": is_corporate(name),
                     "onBoard": any(t in title for t in BOARD_TITLES),
                 }
                 merged[name] = rec

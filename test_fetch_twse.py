@@ -92,6 +92,17 @@ def main():
     check("repCount counts what was set aside", co["repCount"], 2)
     check("top holder is a natural person", co["topHolder"]["name"], "王小明")
 
+    print("\nentity vs person classification:")
+    for n in ["嘉利實業股份有限公司", "Pearl Place Holdings Limited", "Monster Holding Co.,Ltd.",
+              "SVIC No.45 New Technology Business Investment L.L.P.", "國軍退除役官兵輔導委員會",
+              "AGI Holding Co.,Ltd."]:
+        check(f"entity: {n[:34]}", ft.is_corporate(n), True)
+    # Real filings carry parenthetical rare-character notations and romanised
+    # names; those are people and must not be swept up.
+    for n in ["張安平", "王小明", "許（清爭）心", "洪麗(宓冉)", "張良（人予）",
+              "Ｃｈｕｎｇ　Ｃｈｉｅｈ　Ｋｕｏ", "CHCHIN JONG HWA秦榮華", "Cooper Hsu"]:
+        check(f"person: {n[:30]}", ft.is_corporate(n), False)
+
     print("\nedge cases:")
     check("ROC date", ft.parse_date("1090615"), "2020-06-15")
     check("Gregorian date", ft.parse_date("20200615"), "2020-06-15")
