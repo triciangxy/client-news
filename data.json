@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T06:29:54Z",
+  "generated_at": "2026-07-31T09:26:04Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 79.3,
-      "change": -0.3500000000000085,
-      "changePct": -0.43942247332078904,
+      "price": 79.25,
+      "change": -0.4000000000000057,
+      "changePct": -0.5021971123666109,
       "currency": "HKD",
       "prevClose": 79.65,
-      "dayHigh": 79.45,
+      "dayHigh": 79.55,
       "dayLow": 78.35,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 101200.0,
-      "change": 400.0,
-      "changePct": 0.3968253968253968,
+      "price": 100700.0,
+      "change": -100.0,
+      "changePct": -0.0992063492063492,
       "currency": "KRW",
       "prevClose": 100800.0,
       "dayHigh": 101800.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1663.0,
-      "change": -9.0,
-      "changePct": -0.5382775119617225,
+      "price": 1654.0,
+      "change": -18.0,
+      "changePct": -1.076555023923445,
       "currency": "JPY",
       "prevClose": 1672.0,
       "dayHigh": 1693.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3130.0,
-      "change": 20.0,
-      "changePct": 0.6430868167202572,
+      "price": 3111.0,
+      "change": 1.0,
+      "changePct": 0.03215434083601286,
       "currency": "JPY",
       "prevClose": 3110.0,
       "dayHigh": 3157.0,
@@ -661,7 +661,7 @@
         },
         {
           "title": "Associate, Real Estate, China - Executive Assistant",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWlSaTYxXy1ULVZjNThEY21iREZTaTJaQkdNNkVweDZzN2JHbVlYSlhuNU1jX0N3cWktdktScnNYdXBhSVNWZDBldTBOcG9iRUNnMFgxQ21UdmpoTlNxdG9EMEV1TVZiSVNYMjVYZWU1aDI4NWZReHEzbjk0Nl8tekRGSlJxSXdfS184U3dObl9PR0U3NGFvUVljMExac0YxbExMandJMEM?oc=5",
           "pubDate": "Wed, 29 Jul 2026 09:19:26 GMT"
         },
@@ -679,7 +679,7 @@
         },
         {
           "title": "Associate, Securities Operations (Contract)",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX2JLVHN5dnF6TFJoUy1vczhCMFZIQ2V0UmpxbTdlYTY3U3Z4THRmM0hfenc3VzhMdUF5QTRmMV85SXMxaHJUdmwwOElnZzVZOXN5ajRXWDJ2RkkzeFhhRzlmN3RMWndXZTFWQ3dTYklpd3hCbkRNcTZYZFJjNHJVSFpVc2p3LUlmMW5iZkFaNnlPVmJpSW52Zk9hZ2h3TFlGSUJzWA?oc=5",
           "pubDate": "Wed, 29 Jul 2026 03:20:49 GMT"
         },
@@ -691,13 +691,13 @@
         },
         {
           "title": "AVP/VP, Red Team Specialist, Cyber Security Assurance & Defence, Technology Group",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaDI0Y3Q3cXpMcnRKM0VocmJ1a1hhS1JtX1RCWWVka0ZhVFRVMXdmNVg4S1h2YzhIWTYxeTdndVlKM1hyanl6ZDdvUkJNZFc5S0lsOEdaYjhMY0RSN3NmRGVJZlR1RGNBWnlpSVBrM0ZIMzVwQVVWYzFWZjRxVkJDRjM0Y3ZsOXpHUW9jWHhvYzJSalVCekp0MS1EUUtXM3ZoM0NIR1pvTWswSVZFMlF5TGtxTkRHbnBybW50Q2R3bmJmRHhnMW9ZYnpYeElHUG93TmZmbm9B?oc=5",
           "pubDate": "Tue, 28 Jul 2026 11:56:59 GMT"
         },
         {
           "title": "AVP, Ansible Automation Platform & AIOps Developer, Technology Group",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLUV0TllfV2dtaXFPZXFMa0dxWnlNVDlUU0dQRUotYmE0QnlUT2o4T0MzWGNLNEtDb3hjc3pGekhaOGpfdzdwdGFhWVVTVUpCWTYwaE9vNkYwem82bFhoOWxPQlNsTUZKWG10bVZ4dE9OdUFCV2dBU2ozbk14YWFmU2JwbFhyc2dfMjRfd2VRQUFiOFBsbzlTQTlNSjdBYTZ4dTBXZlh3OEQzUDQzaXdDT3Q1bnpDUmNhNHpLaGlZLXlwYWc?oc=5",
           "pubDate": "Wed, 29 Jul 2026 09:19:27 GMT"
         },
@@ -865,61 +865,61 @@
       "items": [
         {
           "title": "2024 National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53N1dMMktnZ1pkVGstcjBheGxKQ1BXUjhsU0owR2JSVWlwWWdaVFZrVUl5MkNnNF9URDhwUlk0TGNGUjZ0bnpTaENQWHc1ZFJEWVZ4TmRkYnJOVHVpUWh6aVRjQUlFa3M1MXVXVzE1VjBqVVVI?oc=5",
           "pubDate": "Thu, 13 Mar 2025 07:00:00 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEVJLTU5Y2h5cWpwNWc2SDRBSFNkWFo4dkQtNC1BTjB6WTlKYWRfYTJ4WGw4akpZSmhzX3RYVjVyMEhTVVo1Z2VNTGhtLUMzV01YLWhLWDJEdXN5d3J6UVVjbERIOElqWWliNlAzb0NQMThNcmNhbThDVERzV3Y0Z2t6WENyYXNNbGpZ?oc=5",
           "pubDate": "Tue, 07 Jul 2026 22:04:25 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yeFF5OXRLMWRQRGFSdmVEUnlPZTFSWV9VN0Z1OHkyRHIzazJVbjJDUjlYb21IVEluLU1xS3ZfU2s4UmtQLWNFU3poNnk1MFBNVlNzbVBlV1p1a2tnNzhyY0JsMTV2TmZSLVNIbnNIb0NkZw?oc=5",
           "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGYzTFR4cUZmUVI2ODJuUXBMeWNUOFlsOXBCV0pUbnhrajdWU2F4bmhxMHBhREo1MVpZUndnX3lPcFlZaHozRUxxcy1MX3JfZHAtbkZ4eG1SQmt6UGhFeUxCYXdxYnBOVldfV1RkbkJ6ajI3Nnk0U2wzNUpFSE1DWlJTMTNnYzYz?oc=5",
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
-          "source": "기금운용본부",
+          "source": "fund.nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         },
         {
           "title": "수탁자 책임 활동 보고서 영문 09.13(표지 앞뒤).indd",
-          "source": "기금운용본부",
+          "source": "fund.nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
           "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
         },
         {
           "title": "Executive Fund Director & Chief Investment Officer",
-          "source": "기금운용본부",
+          "source": "fund.nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
         },
         {
           "title": "National Pension Service Investment Management",
-          "source": "기금운용본부",
+          "source": "fund.nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
           "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yb21USjkzTTEyUGdJb1Z2aTFVM0ZuQ09wdVcyRWJQRXNNelU0NkZXdGpyZHU3RE50d0tTbEZwUDBPeFlvcW5MWnExdzJUajRVOWxRSzQxamdnSVhReUxJMHdWSTlWZEd0RXhaWEFFRm9jSjdHUWJkOUFQZ1pKZw?oc=5",
           "pubDate": "Wed, 07 May 2025 04:17:34 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
           "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
         }
@@ -933,6 +933,12 @@
         "query": "site:hostplus.com.au"
       },
       "items": [
+        {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
+        },
         {
           "title": "Hostplus members rewarded with strong FY26 returns",
           "source": "Hostplus",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
           "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
-        },
-        {
-          "title": "Review -",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSHF4cUh5aV9IWVAwX0FDU05xNnZxOWtDNzN2NEJOcnQ5LVVqWGM1NjZadm1BNmNhTjF3RXJjOU4tQkpSS1pxVGMwYjlpdWROS20wa0VGRnpyeExfZXZpMWRELTc1ME9STnNvNXE5WXdWdjM0RjJmTUFNaFo4V0lBZnhUTnJUUk9lYkxvbzBPeHJKRExxaUhHYjRkdWFONmRJdWM1NkdJRzQ0RGpzZWc0UUNZWi04MENsLUdyUTQwbndPcWpuYXloV3Axc05MelcxcEMyQ3VfUF9wOVFaaTZsRQ?oc=5",
-          "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
         }
       ]
     },
