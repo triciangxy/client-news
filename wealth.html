@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Source of Wealth · Pre-Meeting Wealth Estimator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300..700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg-base: #0a0d14;
+    --bg-surface: #10141d;
+    --bg-elev: #161c28;
+    --bg-hover: #1d2533;
+
+    --line-faint: rgba(255,255,255,0.05);
+    --line-soft: rgba(255,255,255,0.09);
+    --line-strong: rgba(255,255,255,0.18);
+
+    --ink-bright: #f4ecd8;
+    --ink-primary: #d6cfbf;
+    --ink-secondary: #8893a6;
+    --ink-tertiary: #5c6473;
+    --ink-faint: #383f4d;
+
+    /* Chart roles. Deduction/addition are the site's own --down/--up tokens.
+       Validated on the #10141d surface: CVD dE 8.8 (deutan), normal-vision 36.3,
+       both >= 3:1 contrast. They sit above the dark lightness band on purpose —
+       the lightness gap is what buys the CVD separation, and every bar carries a
+       direct value label and row name, so identity never rests on hue alone. */
+    --w-deduct: #ff6b9d;
+    --w-add:    #4ade80;
+    --w-total:  #f4ecd8;
+    --w-lens:   #88b0c9;
+
+    --up:   #4ade80;
+    --down: #ff6b9d;
+    --warn: #ffb86b;
+    --gold: #c9a866;
+
+    --serif: 'Instrument Serif', 'Source Serif Pro', Georgia, serif;
+    --sans: 'Inter Tight', system-ui, -apple-system, sans-serif;
+    --mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+
+    --t-quick: 180ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  html { background: var(--bg-base); }
+  body {
+    font-family: var(--sans); font-weight: 380;
+    color: var(--ink-primary);
+    background:
+      radial-gradient(ellipse 70% 50% at 15% 25%, rgba(184, 138, 255, 0.05), transparent 60%),
+      radial-gradient(ellipse 60% 45% at 85% 70%, rgba(255, 149, 88, 0.04), transparent 60%),
+      var(--bg-base);
+    line-height: 1.55; min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- header ---------- */
+  header.app-header {
+    padding: 26px 40px 20px;
+    border-bottom: 1px solid var(--line-faint);
+    display: flex; align-items: flex-end;
+    justify-content: space-between; gap: 40px; flex-wrap: wrap;
+  }
+  .brand { display: flex; flex-direction: column; max-width: 640px; }
+  .brand-line {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--ink-tertiary);
+    display: flex; align-items: center; gap: 12px;
+  }
+  .brand-line .dot {
+    width: 7px; height: 7px; background: var(--gold); border-radius: 50%;
+    box-shadow: 0 0 14px var(--gold);
+  }
+  .brand-line a { color: var(--ink-tertiary); text-decoration: none; border-bottom: 1px solid var(--line-soft); }
+  .brand-line a:hover { color: var(--ink-primary); }
+  .brand-title {
+    font-family: var(--serif); font-weight: 400; font-size: 42px;
+    line-height: 1.04; letter-spacing: -0.01em;
+    color: var(--ink-bright); margin-top: 8px;
+  }
+  .brand-title em { font-style: italic; opacity: 0.94; }
+  .brand-sub { font-size: 13px; color: var(--ink-secondary); margin-top: 8px; max-width: 560px; }
+
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  button.act {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.09em; text-transform: uppercase;
+    color: var(--ink-secondary);
+    background: transparent; border: 1px solid var(--line-soft);
+    border-radius: 3px; padding: 8px 13px; cursor: pointer;
+    transition: all var(--t-quick);
+  }
+  button.act:hover { color: var(--ink-bright); border-color: var(--line-strong); background: var(--bg-hover); }
+  button.act.primary { color: var(--gold); border-color: rgba(201,168,102,0.4); }
+  button.act.primary:hover { background: rgba(201,168,102,0.1); }
+  button.act.danger:hover { color: var(--down); border-color: rgba(255,107,157,0.4); }
+
+  /* ---------- layout ---------- */
+  .workspace {
+    display: grid; grid-template-columns: minmax(380px, 460px) 1fr;
+    gap: 0; align-items: start;
+  }
+  .pane-input {
+    border-right: 1px solid var(--line-faint);
+    padding: 0 0 80px;
+    max-height: calc(100vh - 108px); overflow-y: auto;
+    position: sticky; top: 0;
+  }
+  .pane-output { padding: 26px 40px 90px; min-width: 0; }
+
+  /* ---------- input sections ---------- */
+  .sec { border-bottom: 1px solid var(--line-faint); }
+  .sec-head {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; padding: 15px 26px; cursor: pointer; user-select: none;
+    transition: background var(--t-quick);
+  }
+  .sec-head:hover { background: var(--bg-surface); }
+  .sec-title {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-primary);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .sec-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 18px; height: 18px; border-radius: 2px;
+    background: var(--bg-elev); color: var(--ink-tertiary);
+    font-size: 9.5px; border: 1px solid var(--line-faint);
+  }
+  .sec-chev { color: var(--ink-tertiary); font-size: 11px; transition: transform var(--t-quick); }
+  .sec.collapsed .sec-chev { transform: rotate(-90deg); }
+  .sec.collapsed .sec-body { display: none; }
+  .sec-body { padding: 4px 26px 24px; }
+
+  .field { margin-bottom: 13px; }
+  .field label, .flabel {
+    display: block; font-size: 11px; letter-spacing: 0.03em;
+    color: var(--ink-secondary); margin-bottom: 5px;
+  }
+  .field .hint { font-size: 10.5px; color: var(--ink-tertiary); margin-top: 4px; line-height: 1.45; }
+  input[type=text], input[type=number], select, textarea {
+    width: 100%; background: var(--bg-surface);
+    border: 1px solid var(--line-soft); border-radius: 3px;
+    padding: 8px 10px; color: var(--ink-bright);
+    font-family: var(--mono); font-size: 12px; font-weight: 400;
+    transition: border-color var(--t-quick), background var(--t-quick);
+  }
+  input:focus, select:focus, textarea:focus {
+    outline: none; border-color: var(--line-strong); background: var(--bg-elev);
+  }
+  input::placeholder { color: var(--ink-faint); }
+  select { cursor: pointer; }
+  .row { display: grid; gap: 10px; }
+  .row.c2 { grid-template-columns: 1fr 1fr; }
+  .row.c3 { grid-template-columns: 1fr 1fr 1fr; }
+  .row.c4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+  .switch { display: flex; align-items: flex-start; gap: 9px; margin-bottom: 11px; cursor: pointer; }
+  .switch input { appearance: none; width: 32px; height: 18px; flex: 0 0 32px;
+    background: var(--bg-elev); border: 1px solid var(--line-soft); border-radius: 10px;
+    position: relative; cursor: pointer; margin-top: 1px; transition: all var(--t-quick); }
+  .switch input::after { content: ''; position: absolute; top: 2px; left: 2px;
+    width: 12px; height: 12px; border-radius: 50%; background: var(--ink-tertiary);
+    transition: all var(--t-quick); }
+  .switch input:checked { background: rgba(201,168,102,0.22); border-color: rgba(201,168,102,0.5); }
+  .switch input:checked::after { left: 16px; background: var(--gold); }
+  .switch span { font-size: 11.5px; color: var(--ink-secondary); line-height: 1.4; }
+  .switch span b { color: var(--ink-primary); font-weight: 500; }
+
+  .assume-row {
+    display: grid; grid-template-columns: 1fr 78px; gap: 10px;
+    align-items: center; margin-bottom: 12px;
+  }
+  .assume-row .an { font-size: 11.5px; color: var(--ink-primary); }
+  .assume-row .ad { font-size: 10.5px; color: var(--ink-tertiary); line-height: 1.4; margin-top: 2px; }
+  .suffix { position: relative; }
+  .suffix input { padding-right: 24px; text-align: right; }
+  .suffix::after {
+    content: '%'; position: absolute; right: 9px; top: 50%; transform: translateY(-50%);
+    font-family: var(--mono); font-size: 11px; color: var(--ink-tertiary); pointer-events: none;
+  }
+
+  /* ---------- principal cards ---------- */
+  .pcard {
+    border: 1px solid var(--line-soft); border-radius: 4px;
+    background: var(--bg-surface); padding: 14px; margin-bottom: 14px;
+  }
+  .pcard-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  .pcard-head input { flex: 1; }
+  .icon-btn {
+    background: transparent; border: 1px solid var(--line-soft); border-radius: 3px;
+    color: var(--ink-tertiary); width: 26px; height: 26px; flex: 0 0 26px;
+    cursor: pointer; font-size: 14px; line-height: 1; transition: all var(--t-quick);
+  }
+  .icon-btn:hover { color: var(--down); border-color: rgba(255,107,157,0.4); }
+  .seg-head {
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 28px 26px; gap: 6px;
+    font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--ink-tertiary); margin-bottom: 5px;
+  }
+  .seg-row {
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 28px 26px; gap: 6px;
+    margin-bottom: 6px; align-items: center;
+  }
+  input.seg-aud {
+    appearance: none; width: 16px; height: 16px; margin: 0 auto; padding: 0;
+    background: var(--bg-elev); border: 1px solid var(--line-soft);
+    border-radius: 3px; cursor: pointer; position: relative;
+    transition: all var(--t-quick);
+  }
+  input.seg-aud:checked { background: rgba(201,168,102,0.22); border-color: rgba(201,168,102,0.55); }
+  input.seg-aud:checked::after {
+    content: '✓'; position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; color: var(--gold);
+  }
+  .seg-row input { padding: 6px 7px; font-size: 11px; text-align: center; }
+  .seg-row input.auto { color: var(--ink-secondary); }
+  .mini-note { font-size: 10.5px; color: var(--ink-tertiary); margin: 6px 0 10px; line-height: 1.45; }
+  .add-btn {
+    width: 100%; background: transparent; border: 1px dashed var(--line-soft);
+    border-radius: 3px; color: var(--ink-tertiary); padding: 8px;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+    text-transform: uppercase; cursor: pointer; transition: all var(--t-quick);
+  }
+  .add-btn:hover { color: var(--ink-primary); border-color: var(--line-strong); }
+
+  /* ---------- output ---------- */
+  .out-block { margin-bottom: 34px; }
+  .out-title {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-tertiary);
+    padding-bottom: 9px; border-bottom: 1px solid var(--line-faint); margin-bottom: 18px;
+    display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  }
+
+  .hero { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .hero-num {
+    font-family: var(--sans); font-weight: 600; font-size: 52px;
+    line-height: 1; letter-spacing: -0.025em; color: var(--ink-bright);
+  }
+  .hero-cap { font-size: 12.5px; color: var(--ink-secondary); }
+  .hero-band { font-family: var(--mono); font-size: 11.5px; color: var(--ink-tertiary); }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px; background: var(--line-faint); border: 1px solid var(--line-faint); border-radius: 4px; overflow: hidden; margin-top: 20px; }
+  .tile { background: var(--bg-surface); padding: 15px 16px; }
+  .tile-label { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-tertiary); }
+  .tile-value { font-family: var(--sans); font-weight: 600; font-size: 24px; letter-spacing: -0.02em; color: var(--ink-bright); margin-top: 5px; line-height: 1.1; }
+  .tile-sub { font-size: 11px; color: var(--ink-secondary); margin-top: 4px; }
+
+  .badge {
+    display: inline-block; font-family: var(--mono); font-size: 9.5px;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 3px 8px; border-radius: 2px; border: 1px solid;
+  }
+  .badge.t4 { color: var(--gold); border-color: rgba(201,168,102,0.45); background: rgba(201,168,102,0.08); }
+  .badge.t3 { color: #a988d4; border-color: rgba(169,136,212,0.45); background: rgba(169,136,212,0.08); }
+  .badge.t2 { color: var(--w-lens); border-color: rgba(136,176,201,0.45); background: rgba(136,176,201,0.08); }
+  .badge.t1 { color: var(--ink-secondary); border-color: var(--line-soft); }
+
+  /* principal result block */
+  .pres { border: 1px solid var(--line-faint); border-radius: 5px; background: var(--bg-surface); margin-bottom: 20px; overflow: hidden; }
+  .pres-head { padding: 16px 20px; border-bottom: 1px solid var(--line-faint); display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-wrap: wrap; }
+  .pres-name { font-family: var(--serif); font-size: 26px; color: var(--ink-bright); line-height: 1.1; }
+  .pres-role { font-size: 11.5px; color: var(--ink-secondary); margin-top: 2px; }
+  .pres-fig { text-align: right; }
+  .pres-fig .v { font-family: var(--sans); font-weight: 600; font-size: 30px; letter-spacing: -0.02em; color: var(--ink-bright); line-height: 1; }
+  .pres-fig .l { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.13em; text-transform: uppercase; color: var(--ink-tertiary); margin-bottom: 5px; }
+  .pres-fig .b { font-family: var(--mono); font-size: 11px; color: var(--ink-secondary); margin-top: 6px; }
+  .pres-body { padding: 18px 20px 20px; }
+
+  /* waterfall */
+  .wf { margin-bottom: 6px; }
+  .wf-row { display: grid; grid-template-columns: 190px 1fr 96px; gap: 12px; align-items: center; padding: 3px 0; }
+  .wf-label { font-size: 11.5px; color: var(--ink-secondary); text-align: right; line-height: 1.3; }
+  .wf-track { position: relative; height: 22px; }
+  .wf-track::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: var(--line-faint); }
+  .wf-bar { position: absolute; top: 2px; height: 18px; border-radius: 0; cursor: default; }
+  .wf-bar.add { background: var(--w-add); border-radius: 0 4px 4px 0; }
+  .wf-bar.deduct { background: var(--w-deduct); border-radius: 4px 0 0 4px; }
+  .wf-bar.total { background: var(--w-total); border-radius: 0 4px 4px 0; }
+  .wf-bar.base { background: var(--w-add); border-radius: 0 4px 4px 0; }
+  .wf-val { font-family: var(--mono); font-size: 11px; color: var(--ink-primary); text-align: right; font-variant-numeric: tabular-nums; }
+  .wf-row.is-total .wf-label { color: var(--ink-bright); font-weight: 500; }
+  .wf-row.is-total .wf-val { color: var(--ink-bright); }
+  .wf-connect { position: absolute; top: 0; bottom: -6px; width: 1px; background: var(--line-soft); }
+  .wf-legend { display: flex; gap: 16px; flex-wrap: wrap; margin: 12px 0 0 202px; }
+  .wf-legend span { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-tertiary); display: flex; align-items: center; gap: 6px; }
+  .wf-legend i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+
+  /* tables */
+  table.calc { width: 100%; border-collapse: collapse; font-size: 12px; }
+  table.calc th {
+    font-family: var(--mono); font-size: 9.5px; font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-tertiary);
+    text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line-soft);
+  }
+  table.calc th.num, table.calc td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.calc td { padding: 8px 10px; border-bottom: 1px solid var(--line-faint); color: var(--ink-secondary); vertical-align: top; }
+  table.calc td.num { font-family: var(--mono); color: var(--ink-primary); white-space: nowrap; }
+  table.calc td.formula { font-family: var(--mono); font-size: 10.5px; color: var(--ink-tertiary); }
+  table.calc tr.sub td { color: var(--ink-bright); font-weight: 500; background: rgba(255,255,255,0.018); }
+  table.calc tr:last-child td { border-bottom: none; }
+
+  /* lens bars — single series, magnitude only */
+  .lens { display: grid; grid-template-columns: 200px 1fr 96px; gap: 12px; align-items: center; padding: 5px 0; }
+  .lens-label { font-size: 11.5px; color: var(--ink-secondary); text-align: right; }
+  .lens-track { position: relative; height: 18px; }
+  .lens-bar { position: absolute; left: 0; top: 3px; height: 12px; background: var(--w-lens); border-radius: 0 4px 4px 0; }
+  .lens-bar.primary { background: var(--w-total); }
+  .lens-val { font-family: var(--mono); font-size: 11px; color: var(--ink-primary); text-align: right; font-variant-numeric: tabular-nums; }
+
+  /* narrative */
+  .narr {
+    background: var(--bg-surface); border: 1px solid var(--line-faint);
+    border-radius: 5px; padding: 20px 22px;
+    font-size: 13px; line-height: 1.72; color: var(--ink-primary);
+    white-space: pre-wrap; font-family: var(--sans);
+  }
+  .narr h4 { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin: 16px 0 6px; font-weight: 500; }
+  .narr h4:first-child { margin-top: 0; }
+
+  .note {
+    font-size: 11.5px; color: var(--ink-tertiary); line-height: 1.6;
+    border-left: 2px solid var(--line-soft); padding-left: 12px; margin-top: 14px;
+  }
+  .empty { color: var(--ink-tertiary); font-size: 13px; padding: 40px 0; text-align: center; }
+
+  .tooltip {
+    position: fixed; z-index: 50; pointer-events: none; opacity: 0;
+    background: var(--bg-elev); border: 1px solid var(--line-strong);
+    border-radius: 4px; padding: 8px 11px; font-size: 11.5px;
+    color: var(--ink-primary); box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    transition: opacity 120ms; max-width: 260px;
+  }
+  .tooltip b { color: var(--ink-bright); font-weight: 500; }
+  .tooltip .m { font-family: var(--mono); font-size: 11px; }
+
+  footer.foot {
+    padding: 20px 40px 40px; border-top: 1px solid var(--line-faint);
+    font-size: 11px; color: var(--ink-tertiary);
+    display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+  }
+
+  .toast {
+    position: fixed; bottom: 26px; left: 50%; transform: translateX(-50%) translateY(12px);
+    background: var(--bg-elev); border: 1px solid var(--line-strong); border-radius: 4px;
+    padding: 10px 18px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em;
+    color: var(--ink-bright); opacity: 0; pointer-events: none;
+    transition: all 220ms; z-index: 60;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  @media (max-width: 1100px) {
+    .workspace { grid-template-columns: 1fr; }
+    .pane-input { position: static; max-height: none; border-right: none; border-bottom: 1px solid var(--line-soft); }
+    .pane-output { padding: 24px 22px 70px; }
+    header.app-header { padding: 22px 22px 18px; }
+    .wf-row, .lens { grid-template-columns: 120px 1fr 84px; }
+    .wf-legend { margin-left: 132px; }
+    .brand-title { font-size: 34px; }
+  }
+  @media (max-width: 620px) {
+    .wf-row, .lens { grid-template-columns: 92px 1fr 76px; }
+    .wf-legend { margin-left: 0; }
+    .wf-label, .lens-label { font-size: 10.5px; }
+    .table-scroll { overflow-x: auto; }
+  }
+
+  .print-head { display: none; }
+
+  @media print {
+    html, body { background: #fff; color: #111; }
+    .print-head {
+      display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+      font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase;
+      color: #555 !important; border-bottom: 1px solid #ccc;
+      padding-bottom: 8px; margin-bottom: 22px;
+    }
+    /* .print-head replaces the on-screen masthead entirely. */
+    header.app-header, .pane-input, footer.foot, .no-print, .tooltip, .toast { display: none !important; }
+    .workspace { display: block; }
+    .pane-output { padding: 0; }
+    .pres, .narr, .tiles, .tile { background: #fff !important; border-color: #ccc !important; }
+    .pres-name, .hero-num, .tile-value, .pres-fig .v, .out-title, .narr,
+    .wf-val, .lens-val, table.calc td.num { color: #111 !important; }
+    .wf-label, .lens-label, .tile-label, .tile-sub, .pres-role, .pres-fig .b,
+    .hero-cap, .hero-band, .note, table.calc td, table.calc th { color: #555 !important; }
+    /* The running-total mark is cream on the dark surface — invisible on paper. */
+    .wf-bar.total, .lens-bar.primary { background: #9aa0a6 !important; }
+    .wf-legend i { border: 1px solid #999; }
+    .narr h4 { color: #8a6d1f !important; }
+    .badge { color: #555 !important; border-color: #bbb !important; background: #fff !important; }
+    .out-title, table.calc th, table.calc td { border-color: #ddd !important; }
+    .out-block, .pres { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="brand">
+    <div class="brand-line">
+      <span class="dot"></span>
+      <span>Source of Wealth · Pre-Meeting Estimator</span>
+      <a href="index.html">← Client Pulse</a>
+      <a href="prospects.html">← Prospect screener</a>
+    </div>
+    <h1 class="brand-title">What is this prospect <em>actually</em> worth?</h1>
+    <p class="brand-sub">A defensible, line-by-line net worth estimate for directors and controlling shareholders of listed companies — built from the annual report, using the desk's standard accumulated-income methodology.</p>
+  </div>
+  <div class="actions">
+    <button class="act primary" id="btn-listed">Listed example</button>
+    <button class="act" id="btn-example">Memo example</button>
+    <button class="act" id="btn-new">New case</button>
+    <button class="act" id="btn-save">Save</button>
+    <button class="act" id="btn-load">Saved ▾</button>
+    <button class="act" id="btn-export">Export</button>
+    <button class="act" id="btn-import">Import</button>
+    <button class="act" id="btn-print">Print / PDF</button>
+  </div>
+</header>
+
+<div class="workspace">
+
+  <!-- ================= INPUT PANE ================= -->
+  <section class="pane pane-input">
+
+    <div class="sec" id="sec-co">
+      <div class="sec-head"><span class="sec-title"><span class="sec-num">1</span>Subject company &amp; financials</span><span class="sec-chev">▾</span></div>
+      <div class="sec-body">
+        <div class="row c2">
+          <div class="field"><label>Company name</label><input type="text" data-bind="co.name" placeholder="e.g. Formosa Precision Ltd"></div>
+          <div class="field"><label>Ticker / exchange</label><input type="text" data-bind="co.ticker" placeholder="e.g. 2317.TW"></div>
+        </div>
+        <div class="row c3">
+          <div class="field"><label>Reporting currency</label><select data-bind="co.ccy" id="ccy-select"></select></div>
+          <div class="field"><label>FX per 1 USD</label><input type="text" data-bind="co.fx" inputmode="decimal"></div>
+          <div class="field"><label>Figures entered in</label>
+            <select data-bind="co.units">
+              <option value="1">Units</option>
+              <option value="1000">Thousands</option>
+              <option value="1000000">Millions</option>
+            </select>
+          </div>
+        </div>
+        <p class="hint" style="margin:-6px 0 14px;color:var(--ink-tertiary);font-size:10.5px">FX rates are indicative starting points — overwrite with your desk rate before the meeting.</p>
+
+        <div class="row c2">
+          <div class="field"><label>Year founded</label><input type="text" data-bind="co.founded" inputmode="numeric" placeholder="1972"></div>
+          <div class="field"><label>Latest reported FY</label><input type="text" data-bind="co.fy" inputmode="numeric" placeholder="2025"></div>
+        </div>
+
+        <div class="field"><label>Average net revenue <span style="color:var(--ink-faint)">(context only)</span></label><input type="text" data-bind="co.revenue" inputmode="decimal" placeholder="306"></div>
+        <div class="field">
+          <label>Average annual net profit <span style="color:var(--gold)">— drives the estimate</span></label>
+          <input type="text" data-bind="co.profit" inputmode="decimal" placeholder="31.59">
+          <p class="hint">Use a through-cycle average, not a peak year. Add a profit history below to compute one.</p>
+        </div>
+        <div class="row c2">
+          <div class="field"><label>Total equity / net assets</label><input type="text" data-bind="co.equity" inputmode="decimal" placeholder="574.23"></div>
+          <div class="field"><label>Market cap <span style="color:var(--ink-faint)">(optional)</span></label><input type="text" data-bind="co.mcap" inputmode="decimal"></div>
+        </div>
+        <div class="field"><label>Annual dividend paid by company <span style="color:var(--ink-faint)">(optional, total pool)</span></label><input type="text" data-bind="co.dividend" inputmode="decimal"></div>
+
+        <div style="margin-top:18px">
+          <div class="flabel" style="display:flex;justify-content:space-between;align-items:center">
+            <span>Profit history <span style="color:var(--ink-faint)">(optional)</span></span>
+            <button class="act" style="padding:5px 9px" id="btn-apply-avg">Apply average</button>
+          </div>
+          <div class="seg-head" style="grid-template-columns:1fr 1fr 1fr 26px"><span>Year</span><span>Revenue</span><span>Net profit</span><span></span></div>
+          <div id="hist-rows"></div>
+          <button class="add-btn" id="btn-add-hist">+ Add year</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec" id="sec-as">
+      <div class="sec-head"><span class="sec-title"><span class="sec-num">2</span>Methodology assumptions</span><span class="sec-chev">▾</span></div>
+      <div class="sec-body">
+        <p class="mini-note">Desk defaults are pre-filled. Every one of these is a deliberate haircut — move them only when you can justify it in the file.</p>
+
+        <div class="assume-row">
+          <div><div class="an">Retained earnings</div><div class="ad">Share of net profit kept in the business, not extractable by owners.</div></div>
+          <div class="suffix"><input type="text" data-bind="a.retention" inputmode="decimal"></div>
+        </div>
+        <div class="assume-row">
+          <div><div class="an">Year recognition</div><div class="ad">Share of each ownership span actually credited. 48% ≈ discounting 24 of 46 years.</div></div>
+          <div class="suffix"><input type="text" data-bind="a.recognition" inputmode="decimal"></div>
+        </div>
+        <div class="assume-row">
+          <div><div class="an">Inflation haircut</div><div class="ad">Erosion of the real value of historic earnings.</div></div>
+          <div class="suffix"><input type="text" data-bind="a.inflation" inputmode="decimal"></div>
+        </div>
+        <div class="assume-row">
+          <div><div class="an">Prudence discount</div><div class="ad">Applied where audited statements are unavailable for the period.</div></div>
+          <div class="suffix"><input type="text" data-bind="a.prudence" inputmode="decimal"></div>
+        </div>
+        <div class="assume-row">
+          <div><div class="an">Tax &amp; personal expenses</div><div class="ad">Final haircut on everything accumulated.</div></div>
+          <div class="suffix"><input type="text" data-bind="a.tax" inputmode="decimal"></div>
+        </div>
+
+        <div style="margin-top:18px">
+          <label class="switch"><input type="checkbox" data-bind="a.equityToPrudence"><span><b>Apply the prudence discount to book equity too</b> — off by default: the balance sheet is audited, the historic earnings usually are not.</span></label>
+          <label class="switch"><input type="checkbox" data-bind="a.showLenses"><span><b>Show cross-check lenses</b> — book equity, market stake and cumulative dividends alongside the primary estimate.</span></label>
+        </div>
+        <button class="act" id="btn-reset-a" style="width:100%;margin-top:6px">Reset to desk defaults</button>
+      </div>
+    </div>
+
+    <div class="sec" id="sec-p">
+      <div class="sec-head"><span class="sec-title"><span class="sec-num">3</span>Principals</span><span class="sec-chev">▾</span></div>
+      <div class="sec-body">
+        <p class="mini-note">One card per individual. Ownership segments capture transfers — e.g. a founder holding 50% until 2018, a spouse holding 100% from 2019.</p>
+        <div id="p-cards"></div>
+        <button class="add-btn" id="btn-add-p">+ Add principal</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ================= OUTPUT PANE ================= -->
+  <section class="pane pane-output" id="out"></section>
+</div>
+
+<footer class="foot">
+  <span>Estimates only — indicative pre-meeting sizing built from public filings and stated assumptions. Not a substitute for documented source-of-wealth verification under KYC/AML policy.</span>
+  <span>Everything you type stays in this browser. Nothing is uploaded.</span>
+</footer>
+
+<div class="tooltip" id="tip"></div>
+<div class="toast" id="toast"></div>
+<input type="file" id="file-in" accept="application/json" style="display:none">
+
+<script>
+/* =====================================================================
+   Source of Wealth estimator.
+
+   The model is the desk's accumulated-income methodology, expressed as an
+   ordered waterfall so every number in the memo can be pointed at:
+
+     distributable profit  = net profit x (1 - retained earnings)
+     gross accumulation    = distributable x recognised years x ownership%
+     - inflation haircut
+     - prudence discount   (unless audited statements exist for the period)
+     + share of book equity
+     - tax & personal expenses
+     + other observed assets
+
+   Everything is client-side. No network calls, no storage beyond localStorage.
+   ===================================================================== */
+
+const CCY = {
+  USD:1, TWD:32.5, HKD:7.82, SGD:1.34, CNY:7.15, JPY:155, KRW:1370,
+  EUR:0.92, GBP:0.78, INR:84, MYR:4.4, THB:34.5, IDR:16200,
+  AUD:1.52, PHP:58, VND:25400, CHF:0.88, AED:3.67,
+};
+
+const DEFAULT_ASSUMPTIONS = {
+  retention: 40,      // % of net profit retained in the business
+  recognition: 48,    // % of each ownership span credited (22 of 46 years)
+  inflation: 20,      // % haircut for inflation
+  prudence: 60,       // % haircut where statements are unaudited
+  tax: 20,            // % haircut for tax and personal expenses
+  equityToPrudence: false,
+  showLenses: true,
+};
+
+const THIS_YEAR = new Date().getFullYear();
+
+const blankSegment = () => ({ from: '', to: '', own: '', years: '', auto: true, audited: false });
+
+const blankPrincipal = () => ({
+  name: '', role: '',
+  segments: [blankSegment()],
+  currentOwn: '', stakeBasis: 'book', other: '',
+});
+
+/* How a principal's *current* holding is valued on top of accumulated income.
+   Book is the prudent default; market is the honest one for a listed name
+   where the stake is disclosed and liquid. */
+const STAKE_BASIS = {
+  book:   { label: 'Share of book equity',   source: co => co.equity },
+  market: { label: 'Market value of stake',  source: co => co.mcap },
+  none:   { label: 'Current holding excluded', source: () => 0 },
+};
+
+const blankState = () => ({
+  co: { name:'', ticker:'', ccy:'USD', fx:1, units:'1000000', founded:'', fy:String(THIS_YEAR-1),
+        revenue:'', profit:'', equity:'', mcap:'', dividend:'', history:[] },
+  a: { ...DEFAULT_ASSUMPTIONS },
+  principals: [ blankPrincipal() ],
+});
+
+let S = blankState();
+
+/* ---------------------- numbers & formatting ---------------------- */
+
+const num = v => {
+  if (v === null || v === undefined) return 0;
+  const n = parseFloat(String(v).replace(/[,  ]/g, ''));
+  return isFinite(n) ? n : 0;
+};
+const pct = v => num(v) / 100;
+
+function usdM(v) {
+  if (!isFinite(v)) return '—';
+  const a = Math.abs(v);
+  if (a >= 1000) return (v / 1000).toFixed(2) + 'B';
+  if (a >= 10)   return v.toFixed(1) + 'M';
+  return v.toFixed(2) + 'M';
+}
+const money = v => 'USD ' + usdM(v);
+const grp = v => isFinite(v) ? v.toLocaleString('en-US', { maximumFractionDigits: 0 }) : '—';
+
+const TIERS = [
+  { min: 100, label: 'Key UHNW', cls: 't4' },
+  { min: 30,  label: 'UHNW',     cls: 't4' },
+  { min: 5,   label: 'VHNW',     cls: 't3' },
+  { min: 1,   label: 'HNW',      cls: 't2' },
+  { min: -1e9,label: 'Sub-threshold', cls: 't1' },
+];
+const tierOf = v => TIERS.find(t => v >= t.min);
+
+/* ---------------------- the model ---------------------- */
+
+/** Company-level figures converted to USD millions. */
+function companyUsd(st) {
+  const fx = num(st.co.fx) || 1;
+  const unit = num(st.co.units) || 1;
+  const conv = raw => (num(raw) * unit) / fx / 1e6;   // -> USD millions
+  return {
+    fx, unit,
+    revenue: conv(st.co.revenue),
+    profit: conv(st.co.profit),
+    equity: conv(st.co.equity),
+    mcap: conv(st.co.mcap),
+    dividend: conv(st.co.dividend),
+  };
+}
+
+function segSpan(seg) {
+  const f = num(seg.from), t = num(seg.to);
+  if (!f || !t || t < f) return 0;
+  return t - f + 1;
+}
+function segYears(seg, recognition) {
+  if (!seg.auto && seg.years !== '' && seg.years !== null) return num(seg.years);
+  const span = segSpan(seg);
+  return span ? Math.max(1, Math.round(span * pct(recognition))) : 0;
+}
+
+/**
+ * Runs the waterfall for one principal.
+ * `a` is the assumption set — the sensitivity band re-runs this with tweaked
+ * assumptions rather than applying an arbitrary multiplier to the answer.
+ */
+function computePrincipal(p, co, a) {
+  const distributable = co.profit * (1 - pct(a.retention));
+
+  const segs = p.segments.map(seg => {
+    const span = segSpan(seg);
+    const years = segYears(seg, a.recognition);
+    const own = pct(seg.own);
+    return { ...seg, span, years, own, audited: !!seg.audited, amount: distributable * years * own };
+  });
+  const gross = segs.reduce((s, x) => s + x.amount, 0);
+
+  // The prudence discount is a statement-quality haircut, so it belongs to the
+  // period, not the person. A director of a listed company typically has audited
+  // accounts from the IPO onward and unaudited ones before it — only the latter
+  // are discounted.
+  const inflationFactor = 1 - pct(a.inflation);
+  const grossAudited = segs.reduce((s, x) => s + (x.audited ? x.amount : 0), 0);
+  const grossUnaudited = gross - grossAudited;
+  const afterInflation = gross * inflationFactor;
+  const prudenceRate = pct(a.prudence);
+  const afterPrudence = (grossAudited * inflationFactor)
+                      + (grossUnaudited * inflationFactor * (1 - prudenceRate));
+
+  const currentOwn = pct(p.currentOwn);
+  const basis = STAKE_BASIS[p.stakeBasis] ? p.stakeBasis : 'book';
+  let equityShare = STAKE_BASIS[basis].source(co) * currentOwn;
+  if (equityShare && a.equityToPrudence) equityShare *= (1 - prudenceRate);
+
+  const subtotal = afterPrudence + equityShare;
+  const afterTax = subtotal * (1 - pct(a.tax));
+  const other = num(p.other);
+  const total = afterTax + other;
+
+  // Cross-check lenses — independent of the accumulated-income path.
+  const totalCreditedYears = segs.reduce((s, x) => s + x.years * x.own, 0);
+  const lenses = {
+    bookEquity: co.equity * currentOwn,
+    marketStake: co.mcap * currentOwn,
+    dividends: co.dividend * totalCreditedYears,
+  };
+
+  return {
+    distributable, segs, gross, grossAudited, grossUnaudited,
+    afterInflation, prudenceRate, afterPrudence,
+    equityShare, subtotal, afterTax, other, total, currentOwn, lenses, basis,
+  };
+}
+
+/** Conservative / base / upper by re-running the model, not by fudging the output. */
+function band(p, co, a) {
+  const low = computePrincipal(p, co, {
+    ...a,
+    recognition: num(a.recognition) * 0.75,
+    prudence: Math.min(90, num(a.prudence) + 10),
+  }).total;
+  const high = computePrincipal(p, co, {
+    ...a,
+    recognition: Math.min(100, num(a.recognition) * 1.3),
+    prudence: Math.max(0, num(a.prudence) - 20),
+  }).total;
+  return { low, high };
+}
+
+/* ---------------------- waterfall rows ---------------------- */
+
+function waterfallRows(r, a, p) {
+  const rows = [];
+  let running = 0;
+  const push = (label, delta, kind, formula) => {
+    const from = running;
+    running += delta;
+    rows.push({ label, delta, kind, from, to: running, formula });
+  };
+
+  push('Gross accumulated income', r.gross, 'base',
+       `USD ${usdM(r.distributable)} distributable × credited years × ownership`);
+  push(`Inflation haircut (${num(a.inflation)}%)`, -(r.gross - r.afterInflation), 'deduct',
+       `× ${(100 - num(a.inflation))}%`);
+  const prudenceDelta = r.afterInflation - r.afterPrudence;
+  if (prudenceDelta > 1e-6) {
+    const mixed = r.grossAudited > 0;
+    push(`Prudence discount (${num(a.prudence)}%${mixed ? ' on unaudited years' : ''})`,
+         -prudenceDelta, 'deduct',
+         mixed ? `unaudited periods only × ${100 - num(a.prudence)}%`
+               : `× ${100 - num(a.prudence)}% — statements unaudited`);
+  }
+  if (r.equityShare) {
+    push(STAKE_BASIS[r.basis].label, r.equityShare, 'add',
+         `${r.basis === 'market' ? 'market cap' : 'book equity'} × ${(r.currentOwn * 100).toFixed(1)}% current ownership`);
+  }
+  rows.push({ label: 'Sub-total before tax', total: r.subtotal, kind: 'subtotal' });
+  push(`Tax & personal expenses (${num(a.tax)}%)`, -(r.subtotal - r.afterTax), 'deduct',
+       `× ${(100 - num(a.tax))}%`);
+  if (r.other) push('Other observed assets', r.other, 'add', 'entered manually, post-discount');
+  rows.push({ label: 'Estimated net worth', total: r.total, kind: 'total' });
+  return rows;
+}
+
+/* ---------------------- narrative memo ---------------------- */
+
+function narrative(st, co, results) {
+  const a = st.a;
+  const name = st.co.name || 'the company';
+  const ccy = st.co.ccy;
+  const unit = num(st.co.units) || 1;
+  const out = [];
+
+  const fyLabel = st.co.fy ? ` (FY${st.co.fy})` : '';
+  let intro = `As per the financial report provided${fyLabel}, the average net revenue is USD ${usdM(co.revenue)} and net profit is USD ${usdM(co.profit)}. ` +
+    `Considering ${num(a.retention)}% for retained earnings, that would account to (USD ${usdM(co.profit)} × ${100 - num(a.retention)}%) USD ${usdM(co.profit * (1 - pct(a.retention)))}.`;
+  if (st.co.founded) {
+    const age = THIS_YEAR - num(st.co.founded);
+    intro += ` The business has been established for ${age} years since ${st.co.founded}.`;
+  }
+  out.push({ h: 'Basis', t: intro });
+
+  results.forEach(({ p, r }) => {
+    const who = p.name || 'The principal';
+    const paras = [];
+
+    r.segs.filter(s => s.amount > 0).forEach(s => {
+      const discounted = s.span - s.years;
+      const basisSentence = discounted > 0
+        ? `Taking the growth of the business and expenses into consideration, we discount ${discounted} of the ${s.span} years conservatively and estimate that wealth was accumulated over ${s.years} years.`
+        : `We credit the full ${s.span} year${s.span === 1 ? '' : 's'} of this period.`;
+      paras.push(
+        `Period ${s.from} – ${s.to}: ${who} held ${(s.own * 100).toFixed(0)}% ownership` +
+        `${s.audited ? ', with audited financial statements available for the period' : ''}. ` +
+        `${basisSentence} ` +
+        `${who} should have generated net income of USD ${usdM(s.amount)} (USD ${usdM(r.distributable)} × ${s.years} years × ${(s.own * 100).toFixed(0)}% ownership).`
+      );
+    });
+
+    if (r.gross > 0) {
+      const keep = 100 - num(a.prudence);
+      let prudenceSentence;
+      if (r.grossUnaudited <= 1e-6) {
+        prudenceSentence = ` Audited financial statements are available across the whole period, so no further prudence discount is applied, giving USD ${usdM(r.afterPrudence)}.`;
+      } else if (r.grossAudited > 0) {
+        prudenceSentence = ` To be prudent we would further discount ${num(a.prudence)}% of the USD ${usdM(r.grossUnaudited * (1 - pct(a.inflation)))} accumulated over the unaudited periods, while carrying the USD ${usdM(r.grossAudited * (1 - pct(a.inflation)))} from audited periods at full value, giving USD ${usdM(r.afterPrudence)}.`;
+      } else {
+        prudenceSentence = ` To be prudent we would further discount ${num(a.prudence)}% as we do not have the audited financial statements for the period: USD ${usdM(r.afterInflation)} × ${keep}% = USD ${usdM(r.afterPrudence)}.`;
+      }
+      paras.push(
+        `Considering the ${num(a.inflation)}% inflation rate, the accumulated income is USD ${usdM(r.afterInflation)}.` + prudenceSentence
+      );
+    }
+
+    if (r.equityShare) {
+      const isMkt = r.basis === 'market';
+      const localRaw = num(isMkt ? st.co.mcap : st.co.equity) * unit;
+      paras.push(
+        isMkt
+          ? `${possessive(name)} market capitalisation is ${ccy} ${grp(localRaw)} (USD ${usdM(co.mcap)}), and ${who} currently holds ${(r.currentOwn * 100).toFixed(0)}%; ` +
+            `hence USD ${usdM(r.equityShare)} of listed holding is added to ${possessive(who)} total assets.`
+          : `As per the provided balance sheet, ${possessive(name)} group equity value is ${ccy} ${grp(localRaw)} ` +
+            `(USD ${usdM(co.equity)}), and ${who} currently holds ${(r.currentOwn * 100).toFixed(0)}%; ` +
+            `hence USD ${usdM(r.equityShare)} of business valuation is added to ${possessive(who)} total assets.`
+      );
+    }
+
+    paras.push(
+      `Considering ${num(a.tax)}% discount for taxes and personal expenses, the total assets of ${who} are ` +
+      `(USD ${usdM(r.subtotal)} × ${100 - num(a.tax)}%) = USD ${usdM(r.afterTax)}.` +
+      (r.other ? ` Adding USD ${usdM(r.other)} of other observed assets, the estimated total is USD ${usdM(r.total)}.` : '')
+    );
+
+    out.push({ h: who, t: paras.join('\n\n') });
+  });
+
+  const household = results.reduce((s, x) => s + x.r.total, 0);
+  if (results.length > 1) {
+    out.push({ h: 'Household', t: `Combined estimated wealth across ${results.length} principals: USD ${usdM(household)}.` });
+  }
+  return out;
+}
+
+/* ---------------------- rendering: results ---------------------- */
+
+function render() {
+  const out = document.getElementById('out');
+  const co = companyUsd(S);
+
+  if (!co.profit && !co.equity) {
+    out.innerHTML = `<div class="empty">Enter the company's average net profit to begin.<br>
+      <span style="color:var(--ink-faint)">Or load the worked example from the header to see a completed case.</span></div>`;
+    return;
+  }
+
+  const results = S.principals.map(p => ({ p, r: computePrincipal(p, co, S.a), b: band(p, co, S.a) }));
+  const household = results.reduce((s, x) => s + x.r.total, 0);
+  const hLow = results.reduce((s, x) => s + x.b.low, 0);
+  const hHigh = results.reduce((s, x) => s + x.b.high, 0);
+  const tier = tierOf(household);
+
+  let html = `<div class="print-head">
+    <span>Source of wealth — indicative estimate${S.co.name ? ' · ' + esc(S.co.name) : ''}${S.co.ticker && S.co.ticker !== '—' ? ' (' + esc(S.co.ticker) + ')' : ''}</span>
+    <span>Prepared ${new Date().toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' })} · internal use only</span>
+  </div>`;
+
+  /* --- headline --- */
+  html += `<div class="out-block">
+    <div class="out-title"><span>Estimated wealth${S.co.name ? ' · ' + esc(S.co.name) : ''}</span>
+      <span class="badge ${tier.cls}">${tier.label}</span></div>
+    <div class="hero">
+      <span class="hero-num">${money(household)}</span>
+      <span class="hero-cap">${results.length > 1 ? 'combined across ' + results.length + ' principals' : 'estimated net worth'}</span>
+    </div>
+    <div class="hero-band" style="margin-top:8px">Sensitivity band ${money(hLow)} — ${money(hHigh)} &nbsp;·&nbsp; conservative and upper cases re-run the model with the recognition ratio and prudence discount flexed</div>
+    <div class="tiles">
+      <div class="tile"><div class="tile-label">Distributable profit</div><div class="tile-value">${money(co.profit * (1 - pct(S.a.retention)))}</div><div class="tile-sub">per year, after ${num(S.a.retention)}% retention</div></div>
+      <div class="tile"><div class="tile-label">Company net profit</div><div class="tile-value">${money(co.profit)}</div><div class="tile-sub">${S.co.ccy} ${grp(num(S.co.profit) * num(S.co.units))}${S.co.fy ? ' · FY' + esc(S.co.fy) : ''}</div></div>
+      <div class="tile"><div class="tile-label">Group equity</div><div class="tile-value">${money(co.equity)}</div><div class="tile-sub">${S.co.ccy} ${grp(num(S.co.equity) * num(S.co.units))} book value</div></div>
+      <div class="tile"><div class="tile-label">Total haircut applied</div><div class="tile-value">${effectiveHaircut(results)}%</div><div class="tile-sub">gross accumulation → final estimate</div></div>
+    </div>
+  </div>`;
+
+  /* --- per principal --- */
+  results.forEach(({ p, r, b }, i) => {
+    const t = tierOf(r.total);
+    const rows = waterfallRows(r, S.a, p);
+    html += `<div class="out-block pres">
+      <div class="pres-head">
+        <div>
+          <div class="pres-name">${esc(p.name || 'Principal ' + (i + 1))}</div>
+          <div class="pres-role">${esc(p.role || '—')}${auditNote(r)}</div>
+        </div>
+        <div class="pres-fig">
+          <div class="l">Estimated net worth</div>
+          <div class="v">${money(r.total)}</div>
+          <div class="b">${usdM(b.low)} — ${usdM(b.high)} &nbsp;<span class="badge ${t.cls}">${t.label}</span></div>
+        </div>
+      </div>
+      <div class="pres-body">
+        ${waterfallHtml(rows)}
+        <div class="table-scroll" style="margin-top:22px">${stepTable(rows)}</div>
+        ${S.a.showLenses ? lensHtml(r) : ''}
+      </div>
+    </div>`;
+  });
+
+  /* --- narrative --- */
+  const narr = narrative(S, co, results);
+  html += `<div class="out-block">
+    <div class="out-title"><span>Draft memo language</span>
+      <button class="act no-print" id="btn-copy">Copy text</button></div>
+    <div class="narr" id="narr-body">${narr.map(s => `<h4>${esc(s.h)}</h4>${esc(s.t)}`).join('')}</div>
+    <div class="note">Written in the desk's house style so it can drop straight into the source-of-wealth section of the call report. Check every figure against the filing before it leaves your hands.</div>
+  </div>`;
+
+  out.innerHTML = html;
+
+  const copy = document.getElementById('btn-copy');
+  if (copy) copy.onclick = () => {
+    const text = narr.map(s => s.h.toUpperCase() + '\n' + s.t).join('\n\n');
+    navigator.clipboard.writeText(text).then(() => toast('Memo text copied'),
+                                             () => toast('Copy blocked by browser'));
+  };
+  bindTooltips();
+}
+
+/** Says which ownership periods carry audited statements, for the result header. */
+function auditNote(r) {
+  const aud = r.segs.filter(s => s.audited && s.amount > 0);
+  if (!aud.length) return '';
+  const all = aud.length === r.segs.filter(s => s.amount > 0).length;
+  return ' · audited statements ' + (all ? 'throughout' : 'for ' + aud.map(s => `${s.from}–${s.to}`).join(', '));
+}
+
+function effectiveHaircut(results) {
+  const gross = results.reduce((s, x) => s + x.r.gross + x.r.equityShare, 0);
+  const net = results.reduce((s, x) => s + x.r.total - x.r.other, 0);
+  if (!gross) return '—';
+  return (100 - (net / gross) * 100).toFixed(0);
+}
+
+function waterfallHtml(rows) {
+  const peak = Math.max(...rows.map(r => Math.max(r.from || 0, r.to || 0, r.total || 0)), 1);
+  const x = v => (v / peak) * 100;
+
+  const bars = rows.map(r => {
+    if (r.kind === 'subtotal' || r.kind === 'total') {
+      const w = x(r.total);
+      return `<div class="wf-row is-total">
+        <div class="wf-label">${esc(r.label)}</div>
+        <div class="wf-track"><div class="wf-bar total" style="left:0;width:${w.toFixed(2)}%"
+             data-tip="${esc(r.label)}|${money(r.total)}|running total"></div></div>
+        <div class="wf-val">${usdM(r.total)}</div></div>`;
+    }
+    const lo = Math.min(r.from, r.to), hi = Math.max(r.from, r.to);
+    // 2px surface gap keeps a step from touching the running-total edge beside it
+    const left = x(lo), width = Math.max(x(hi) - x(lo), 0.4);
+    const cls = r.kind === 'deduct' ? 'deduct' : (r.kind === 'base' ? 'base' : 'add');
+    const sign = r.delta < 0 ? '−' : '+';
+    return `<div class="wf-row">
+      <div class="wf-label">${esc(r.label)}</div>
+      <div class="wf-track">
+        <div class="wf-bar ${cls}" style="left:calc(${left.toFixed(2)}% + 1px);width:calc(${width.toFixed(2)}% - 2px)"
+             data-tip="${esc(r.label)}|${sign}${usdM(Math.abs(r.delta))}|runs to ${money(r.to)}${r.formula ? ' · ' + esc(r.formula) : ''}"></div>
+      </div>
+      <div class="wf-val">${sign}${usdM(Math.abs(r.delta))}</div></div>`;
+  }).join('');
+
+  return `<div class="wf">${bars}</div>
+    <div class="wf-legend">
+      <span><i style="background:var(--w-add)"></i>Adds</span>
+      <span><i style="background:var(--w-deduct)"></i>Deducts</span>
+      <span><i style="background:var(--w-total)"></i>Running total</span>
+    </div>`;
+}
+
+function stepTable(rows) {
+  const body = rows.map(r => {
+    if (r.kind === 'subtotal' || r.kind === 'total') {
+      return `<tr class="sub"><td>${esc(r.label)}</td><td class="formula"></td><td class="num">${money(r.total)}</td></tr>`;
+    }
+    const sign = r.delta < 0 ? '−' : '+';
+    return `<tr><td>${esc(r.label)}</td><td class="formula">${esc(r.formula || '')}</td>
+      <td class="num">${sign} ${usdM(Math.abs(r.delta))}</td></tr>`;
+  }).join('');
+  return `<table class="calc">
+    <thead><tr><th>Step</th><th>Basis</th><th class="num">Amount (USD)</th></tr></thead>
+    <tbody>${body}</tbody></table>`;
+}
+
+function lensHtml(r) {
+  const items = [
+    { k: 'Primary estimate — accumulated income', v: r.total, primary: true },
+    { k: 'Share of book equity', v: r.lenses.bookEquity },
+    { k: 'Market value of stake', v: r.lenses.marketStake },
+    { k: 'Cumulative dividends received', v: r.lenses.dividends },
+  ].filter(i => i.primary || i.v > 0);
+  if (items.length < 2) return '';
+  const peak = Math.max(...items.map(i => i.v), 1);
+  return `<div style="margin-top:26px">
+    <div class="out-title" style="font-size:9.5px;margin-bottom:12px">Cross-check lenses</div>
+    ${items.map(i => `<div class="lens">
+      <div class="lens-label">${esc(i.k)}</div>
+      <div class="lens-track"><div class="lens-bar ${i.primary ? 'primary' : ''}" style="width:${((i.v / peak) * 100).toFixed(2)}%"
+           data-tip="${esc(i.k)}|${money(i.v)}|independent of the accumulated-income path"></div></div>
+      <div class="lens-val">${usdM(i.v)}</div></div>`).join('')}
+    <div class="note">${r.lenses.marketStake > 0
+      ? 'A primary estimate far below the market value of a disclosed stake usually means the recognition ratio is too harsh — or that most of the wealth sits in the listed holding rather than in extracted earnings.'
+      : 'These lenses are computed independently of the accumulated-income path. Where they diverge sharply, say which one the file relies on and why.'}</div>
+  </div>`;
+}
+
+/* ---------------------- rendering: inputs ---------------------- */
+
+function renderPrincipals() {
+  const host = document.getElementById('p-cards');
+  host.innerHTML = S.principals.map((p, i) => `
+    <div class="pcard" data-p="${i}">
+      <div class="pcard-head">
+        <input type="text" data-bind="principals.${i}.name" placeholder="Name" value="${esc(p.name)}">
+        <button class="icon-btn" data-act="del-p" data-i="${i}" title="Remove principal">×</button>
+      </div>
+      <div class="row c2" style="margin-bottom:12px">
+        <input type="text" data-bind="principals.${i}.role" placeholder="Role, e.g. Chairman" value="${esc(p.role)}">
+        <input type="text" data-bind="principals.${i}.currentOwn" placeholder="Current ownership %" value="${esc(p.currentOwn)}">
+      </div>
+
+      <div class="seg-head"><span>From</span><span>To</span><span>Own %</span><span>Yrs credited</span><span title="Audited statements available for this period">Aud</span><span></span></div>
+      ${p.segments.map((s, j) => `
+        <div class="seg-row">
+          <input type="text" data-bind="principals.${i}.segments.${j}.from" value="${esc(s.from)}" placeholder="1972">
+          <input type="text" data-bind="principals.${i}.segments.${j}.to" value="${esc(s.to)}" placeholder="2018">
+          <input type="text" data-bind="principals.${i}.segments.${j}.own" value="${esc(s.own)}" placeholder="50">
+          <input type="text" class="${s.auto ? 'auto' : ''}" data-bind="principals.${i}.segments.${j}.years"
+                 data-years="1" value="${esc(s.auto ? segYears(s, S.a.recognition) || '' : s.years)}"
+                 title="${s.auto ? 'Auto from the recognition ratio — type to override' : 'Manual override'}">
+          <input type="checkbox" class="seg-aud" data-bind="principals.${i}.segments.${j}.audited" ${s.audited ? 'checked' : ''}
+                 title="Audited statements available — waives the prudence discount for this period">
+          <button class="icon-btn" data-act="del-seg" data-i="${i}" data-j="${j}" title="Remove period">×</button>
+        </div>`).join('')}
+      <button class="add-btn" style="margin:4px 0 12px" data-act="add-seg" data-i="${i}">+ Add ownership period</button>
+      <p class="mini-note" style="margin-top:-4px">Tick <b>Aud</b> for periods covered by audited statements — typically everything from the IPO onward. The prudence discount only bites on the periods left unticked.</p>
+
+      <div class="field"><label>Value their current holding at</label>
+        <select data-bind="principals.${i}.stakeBasis">
+          <option value="book"${p.stakeBasis === 'book' ? ' selected' : ''}>Book equity — prudent default</option>
+          <option value="market"${p.stakeBasis === 'market' ? ' selected' : ''}>Market cap — disclosed listed stake</option>
+          <option value="none"${p.stakeBasis === 'none' ? ' selected' : ''}>Exclude — no current holding</option>
+        </select>
+      </div>
+      <div class="field" style="margin:4px 0 0"><label>Other observed assets (USD m)</label>
+        <input type="text" data-bind="principals.${i}.other" value="${esc(p.other)}" placeholder="e.g. disclosed property">
+      </div>
+    </div>`).join('');
+  bindInputs(host);
+}
+
+function renderHistory() {
+  const host = document.getElementById('hist-rows');
+  host.innerHTML = S.co.history.map((h, i) => `
+    <div class="seg-row" style="grid-template-columns:1fr 1fr 1fr 26px">
+      <input type="text" data-bind="co.history.${i}.year" value="${esc(h.year)}" placeholder="2024">
+      <input type="text" data-bind="co.history.${i}.revenue" value="${esc(h.revenue)}" placeholder="306">
+      <input type="text" data-bind="co.history.${i}.profit" value="${esc(h.profit)}" placeholder="31.6">
+      <button class="icon-btn" data-act="del-hist" data-i="${i}">×</button>
+    </div>`).join('');
+  bindInputs(host);
+}
+
+/* ---------------------- state binding ---------------------- */
+
+function getPath(obj, path) { return path.split('.').reduce((o, k) => (o == null ? o : o[k]), obj); }
+function setPath(obj, path, val) {
+  const keys = path.split('.');
+  const last = keys.pop();
+  const target = keys.reduce((o, k) => o[k], obj);
+  target[last] = val;
+}
+
+function bindInputs(root) {
+  root.querySelectorAll('[data-bind]').forEach(el => {
+    if (el.dataset.bound) return;
+    el.dataset.bound = '1';
+    const path = el.dataset.bind;
+    const handler = () => {
+      setPath(S, path, el.type === 'checkbox' ? el.checked : el.value);
+      // A typed value in the credited-years box switches that segment off auto.
+      if (el.dataset.years) {
+        const segPath = path.replace(/\.years$/, '');
+        setPath(S, segPath + '.auto', el.value === '');
+        el.classList.toggle('auto', el.value === '');
+      }
+      if (path === 'co.ccy') { S.co.fx = CCY[el.value] ?? 1; hydrate(); }
+      if (path === 'a.recognition') refreshAutoYears();
+      render();
+    };
+    el.addEventListener('input', handler);
+    el.addEventListener('change', handler);
+  });
+}
+
+function refreshAutoYears() {
+  document.querySelectorAll('[data-years]').forEach(el => {
+    const segPath = el.dataset.bind.replace(/\.years$/, '');
+    const seg = getPath(S, segPath);
+    if (seg && seg.auto) el.value = segYears(seg, S.a.recognition) || '';
+  });
+}
+
+function hydrate() {
+  document.querySelectorAll('.pane-input [data-bind]').forEach(el => {
+    if (el.closest('#p-cards') || el.closest('#hist-rows')) return;
+    const v = getPath(S, el.dataset.bind);
+    if (el.type === 'checkbox') el.checked = !!v;
+    else el.value = v ?? '';
+  });
+}
+
+function rebuildAll() {
+  hydrate();
+  renderPrincipals();
+  renderHistory();
+  render();
+}
+
+/* ---------------------- interactions ---------------------- */
+
+document.addEventListener('click', e => {
+  const head = e.target.closest('.sec-head');
+  if (head) { head.parentElement.classList.toggle('collapsed'); return; }
+
+  const btn = e.target.closest('[data-act]');
+  if (!btn) return;
+  const i = +btn.dataset.i, j = +btn.dataset.j;
+  switch (btn.dataset.act) {
+    case 'del-p':
+      if (S.principals.length > 1) S.principals.splice(i, 1); else S.principals[0] = blankPrincipal();
+      renderPrincipals(); render(); break;
+    case 'add-seg':
+      S.principals[i].segments.push({ from:'', to:'', own:'', years:'', auto:true });
+      renderPrincipals(); render(); break;
+    case 'del-seg':
+      if (S.principals[i].segments.length > 1) S.principals[i].segments.splice(j, 1);
+      renderPrincipals(); render(); break;
+    case 'del-hist':
+      S.co.history.splice(i, 1); renderHistory(); render(); break;
+  }
+});
+
+document.getElementById('btn-add-p').onclick = () => {
+  S.principals.push(blankPrincipal()); renderPrincipals(); render();
+};
+document.getElementById('btn-add-hist').onclick = () => {
+  S.co.history.push({ year:'', revenue:'', profit:'' }); renderHistory();
+};
+document.getElementById('btn-apply-avg').onclick = () => {
+  const rows = S.co.history.filter(h => num(h.profit) || num(h.revenue));
+  if (!rows.length) return toast('Add at least one year first');
+  const avg = k => rows.reduce((s, h) => s + num(h[k]), 0) / rows.length;
+  S.co.revenue = avg('revenue').toFixed(2);
+  S.co.profit = avg('profit').toFixed(2);
+  hydrate(); render(); toast(`Averaged ${rows.length} years`);
+};
+document.getElementById('btn-reset-a').onclick = () => {
+  S.a = { ...DEFAULT_ASSUMPTIONS }; refreshAutoYears(); hydrate(); render(); toast('Assumptions reset');
+};
+document.getElementById('btn-new').onclick = () => {
+  if (!confirm('Clear the current case?')) return;
+  S = blankState(); rebuildAll();
+};
+document.getElementById('btn-example').onclick = () => { S = workedExample(); rebuildAll(); toast('Memo example loaded'); };
+document.getElementById('btn-listed').onclick = () => { S = listedExample(); rebuildAll(); toast('Listed example loaded'); };
+document.getElementById('btn-print').onclick = () => window.print();
+
+document.getElementById('btn-export').onclick = () => {
+  const blob = new Blob([JSON.stringify(S, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = (S.co.name || 'source-of-wealth').replace(/[^\w-]+/g, '-').toLowerCase() + '.json';
+  a.click(); URL.revokeObjectURL(a.href);
+};
+document.getElementById('btn-import').onclick = () => document.getElementById('file-in').click();
+document.getElementById('file-in').onchange = e => {
+  const f = e.target.files[0]; if (!f) return;
+  f.text().then(t => {
+    try { S = migrate(JSON.parse(t)); rebuildAll(); toast('Case imported'); }
+    catch (err) { toast('Could not read that file'); }
+  });
+  e.target.value = '';
+};
+
+const LS_KEY = 'sow.cases.v1';
+const loadCases = () => { try { return JSON.parse(localStorage.getItem(LS_KEY)) || []; } catch { return []; } };
+
+document.getElementById('btn-save').onclick = () => {
+  const name = prompt('Save case as:', S.co.name || 'Untitled case');
+  if (!name) return;
+  const cases = loadCases().filter(c => c.name !== name);
+  cases.unshift({ name, saved: new Date().toISOString(), state: S });
+  localStorage.setItem(LS_KEY, JSON.stringify(cases.slice(0, 40)));
+  toast('Saved locally');
+};
+document.getElementById('btn-load').onclick = () => {
+  const cases = loadCases();
+  if (!cases.length) return toast('No saved cases yet');
+  const pick = prompt('Open which case?\n\n' + cases.map((c, i) =>
+    `${i + 1}. ${c.name}  (${c.saved.slice(0, 10)})`).join('\n') + '\n\nEnter a number, or "d" + number to delete.');
+  if (!pick) return;
+  const del = /^d/i.test(pick.trim());
+  const idx = parseInt(pick.replace(/\D+/g, ''), 10) - 1;
+  if (!(idx >= 0 && idx < cases.length)) return toast('No such case');
+  if (del) {
+    cases.splice(idx, 1);
+    localStorage.setItem(LS_KEY, JSON.stringify(cases));
+    return toast('Case deleted');
+  }
+  S = migrate(cases[idx].state); rebuildAll(); toast('Case opened');
+};
+
+/** Fills in anything a saved or imported file predates, so old cases still open. */
+function migrate(obj) {
+  const base = blankState();
+  const st = { ...base, ...obj };
+  st.co = { ...base.co, ...(obj.co || {}) };
+  st.co.history = st.co.history || [];
+  st.a = { ...DEFAULT_ASSUMPTIONS, ...(obj.a || {}) };
+  st.principals = (obj.principals && obj.principals.length ? obj.principals : [blankPrincipal()])
+    .map(p => {
+      const merged = { ...blankPrincipal(), ...p,
+        segments: (p.segments && p.segments.length ? p.segments : [blankSegment()])
+          .map(s => ({ ...blankSegment(), ...s })) };
+      // Pre-stakeBasis cases carried an includeEquity boolean instead.
+      if (!STAKE_BASIS[p.stakeBasis]) merged.stakeBasis = p.includeEquity === false ? 'none' : 'book';
+      // `audited` used to live on the principal; it now belongs to each period.
+      if (p.audited !== undefined) merged.segments.forEach(s => { s.audited = s.audited || !!p.audited; });
+      delete merged.includeEquity;
+      delete merged.audited;
+      return merged;
+    });
+  return st;
+}
+
+/* ---------------------- tooltip ---------------------- */
+
+function bindTooltips() {
+  const tip = document.getElementById('tip');
+  document.querySelectorAll('[data-tip]').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      const [a, b, c] = el.dataset.tip.split('|');
+      tip.innerHTML = `<b>${a}</b><div class="m">${b}</div>${c ? `<div style="color:var(--ink-tertiary);margin-top:3px">${c}</div>` : ''}`;
+      tip.style.opacity = '1';
+    });
+    el.addEventListener('mousemove', ev => {
+      const pad = 14;
+      let x = ev.clientX + pad, y = ev.clientY + pad;
+      if (x + 280 > window.innerWidth) x = ev.clientX - 280;
+      tip.style.left = x + 'px'; tip.style.top = y + 'px';
+    });
+    el.addEventListener('mouseleave', () => { tip.style.opacity = '0'; });
+  });
+}
+
+let toastTimer;
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+const possessive = s => String(s) + (/s$/i.test(String(s)) ? "'" : "'s");
+
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c =>
+    ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+}
+
+/* ---------------------- worked example ---------------------- */
+
+/* The desk's reference case, anonymised as it appears in the training memo:
+   a family-owned manufacturer, founder holding 50% until a 2019 transfer to
+   his spouse, who then holds 100%. Figures are the memo's own. */
+function workedExample() {
+  return migrate({
+    co: {
+      name: 'XX Holdings', ticker: '—', ccy: 'TWD', fx: 31.5, units: '1',
+      founded: '1972', fy: '2022',
+      revenue: '9639000000',      // ≈ USD 306m
+      profit: '995085000',        // ≈ USD 31.59m
+      equity: '574231798',
+      mcap: '', dividend: '',
+      history: [],
+    },
+    a: { ...DEFAULT_ASSUMPTIONS },
+    principals: [
+      { name: 'Jimmy', role: 'Founder — interest transferred Jan 2019',
+        segments: [{ from:'1972', to:'2018', own:'50', years:'22', auto:false, audited:false }],
+        currentOwn: '0', stakeBasis: 'none', other: '' },
+      { name: 'Grace', role: 'Sole owner from Jan 2019',
+        segments: [
+          { from:'1972', to:'2018', own:'50', years:'22', auto:false, audited:false },
+          { from:'2019', to:'2022', own:'100', years:'4', auto:false, audited:false },
+        ],
+        currentOwn: '100', stakeBasis: 'book', other: '' },
+    ],
+  });
+}
+
+/* An illustrative listed name, to show the workflow this tool is actually for:
+   a director of a listed company, where accounts are audited from the IPO
+   onward and the current stake can be marked to market. Figures and people are
+   invented — it is a template, not a real company or a real person. */
+function listedExample() {
+  return migrate({
+    co: {
+      name: 'Meridian Components (illustrative)', ticker: 'ILLUS.TW',
+      ccy: 'USD', fx: 1, units: '1000000',
+      founded: '1995', fy: '2025',
+      revenue: '1240', profit: '148', equity: '890', mcap: '2600', dividend: '44',
+      history: [
+        { year:'2021', revenue:'980',  profit:'104' },
+        { year:'2022', revenue:'1145', profit:'137' },
+        { year:'2023', revenue:'1210', profit:'129' },
+        { year:'2024', revenue:'1330', profit:'166' },
+        { year:'2025', revenue:'1535', profit:'204' },
+      ],
+    },
+    a: { ...DEFAULT_ASSUMPTIONS },
+    principals: [
+      { name: 'Chairman', role: 'Co-founder & chairman · IPO 2011',
+        segments: [
+          { from:'1995', to:'2010', own:'45', years:'', auto:true, audited:false },
+          { from:'2011', to:'2025', own:'32', years:'', auto:true, audited:true },
+        ],
+        currentOwn: '28', stakeBasis: 'market', other: '' },
+      { name: 'Managing Director', role: 'Co-founder · non-controlling',
+        segments: [
+          { from:'1995', to:'2010', own:'20', years:'', auto:true, audited:false },
+          { from:'2011', to:'2025', own:'14', years:'', auto:true, audited:true },
+        ],
+        currentOwn: '11', stakeBasis: 'market', other: '' },
+    ],
+  });
+}
+
+/* ---------------------- boot ---------------------- */
+
+(function init() {
+  const sel = document.getElementById('ccy-select');
+  sel.innerHTML = Object.keys(CCY).map(c => `<option value="${c}">${c}</option>`).join('');
+  bindInputs(document.querySelector('.pane-input'));
+  S = listedExample();     // land on the case this tool is actually for
+  rebuildAll();
+})();
+</script>
+</body>
+</html>

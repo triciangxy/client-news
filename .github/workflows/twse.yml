@@ -1,0 +1,67 @@
+name: Refresh TWSE Director Data
+
+on:
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+    inputs:
+      selftest:
+        description: 'Report dataset resolution only, write nothing'
+        type: boolean
+        default: false
+      codes:
+        description: 'Comma-separated TWSE codes (blank = default roster)'
+        type: string
+        default: ''
+
+  # Weekdays at 06:00 UTC (14:00 Taipei) — after the TWSE close at 13:30.
+  schedule:
+    - cron: '0 6 * * 1-5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-twse
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      # TWSE renames datasets periodically. This prints which dataset answered
+      # for each role, so a silent schema drift shows up in the log rather than
+      # as quietly-empty tables on the page.
+      - name: Report dataset resolution
+        run: python fetch_twse.py --selftest ${{ inputs.codes && format('--codes {0}', inputs.codes) || '' }}
+
+      - name: Fetch director holdings + remuneration
+        if: ${{ inputs.selftest != true }}
+        run: python fetch_twse.py ${{ inputs.codes && format('--codes {0}', inputs.codes) || '' }}
+
+      - name: Commit updated index + board shards
+        if: ${{ inputs.selftest != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # twse.json carries prices and changes every run; the twse/ shards
+          # carry holdings and pay, so only the boards that actually moved
+          # get committed.
+          git add -A twse.json twse/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: refresh TWSE director data [skip ci]"
+            git push
+          fi

@@ -1,0 +1,23 @@
+# Cloudflare Worker deployment.
+#
+#   npm install -g wrangler
+#   wrangler login
+#   wrangler deploy
+#
+# That publishes to https://<name>.<your-subdomain>.workers.dev — a public URL
+# anyone can open, no GitHub account and no Claude session needed.
+
+name = "pb-sow"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Serve the repo's static files (prospects.html, wealth.html, index.html, and the
+# committed twse.json fallback) straight from the Worker. The API routes in
+# worker.js are matched first; anything else falls through to these.
+[assets]
+directory = "."
+binding = "ASSETS"
+not_found_handling = "404-page"
+
+[observability]
+enabled = true

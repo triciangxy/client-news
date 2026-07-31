@@ -90,6 +90,12 @@
     box-shadow: 0 0 14px var(--up);
     animation: pulse 2.4s ease-in-out infinite;
   }
+  .brand-line a {
+    color: var(--ink-tertiary); text-decoration: none;
+    border-bottom: 1px solid var(--line-soft);
+    transition: color var(--t-quick), border-color var(--t-quick);
+  }
+  .brand-line a:hover { color: var(--ink-primary); border-color: var(--line-strong); }
   @keyframes pulse {
     0%, 100% { opacity: 1; transform: scale(1); }
     50% { opacity: 0.5; transform: scale(0.85); }
@@ -564,6 +570,8 @@
     <div class="brand-line">
       <span class="dot"></span>
       <span>Client Pulse · Key Client Tracker</span>
+      <a href="prospects.html">Prospect screener →</a>
+      <a href="wealth.html">Full estimator →</a>
     </div>
     <h1 class="brand-title">Key client <em>signals,</em><br>at a glance</h1>
     <p class="brand-sub">Hybrid news sourcing &mdash; exchange filings for listed names, official RSS where published, and domain-filtered news for the rest. Every headline traceable to its source.</p>
