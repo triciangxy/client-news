@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T03:15:24Z",
+  "generated_at": "2026-07-31T06:29:54Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 79.0,
-      "change": -0.6500000000000057,
-      "changePct": -0.8160703075957385,
+      "price": 79.3,
+      "change": -0.3500000000000085,
+      "changePct": -0.43942247332078904,
       "currency": "HKD",
       "prevClose": 79.65,
-      "dayHigh": 79.25,
+      "dayHigh": 79.45,
       "dayLow": 78.35,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 100600.0,
-      "change": -200.0,
-      "changePct": -0.1984126984126984,
+      "price": 101200.0,
+      "change": 400.0,
+      "changePct": 0.3968253968253968,
       "currency": "KRW",
       "prevClose": 100800.0,
       "dayHigh": 101800.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1660.5,
-      "change": -11.5,
-      "changePct": -0.687799043062201,
+      "price": 1663.0,
+      "change": -9.0,
+      "changePct": -0.5382775119617225,
       "currency": "JPY",
       "prevClose": 1672.0,
       "dayHigh": 1693.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3131.0,
-      "change": 21.0,
-      "changePct": 0.67524115755627,
+      "price": 3130.0,
+      "change": 20.0,
+      "changePct": 0.6430868167202572,
       "currency": "JPY",
       "prevClose": 3110.0,
       "dayHigh": 3157.0,
@@ -374,6 +374,12 @@
       },
       "items": [
         {
+          "title": "- 신한은행",
+          "source": "",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5COUFZOFZ0Y2dJNjI0SEtwWkZFWW43MTR3bVczTEJRZEM1ZmJlR00wVWN1MEhORWV6T3dpRDJJSlpnclJ6bS1IY19HRzE1ZEZfTlNSUGVYRQ?oc=5",
+          "pubDate": "Fri, 15 Nov 2013 18:04:40 GMT"
+        },
+        {
           "title": "Shinhan Financial Group-Investor Presentations",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tVHAzWW5EdmVYdE1nd2lRZi1fTW9RaTFjb0ZQeEc0YWFVeFQtUlVhcWlHelVlWVhJZWJGdFViNHlqMHBad2xuMUJVNkM4TTdLMG9JY2dtd1dWRzhiY3FwYi1GNzZmbnlmSDhTZnp0V2JkZw?oc=5",
@@ -426,12 +432,6 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX252WTYyZUl3bGE2UzJrY3ZaSExsdzRVdWRmS2hGUUg5dE4tZEgxMlF3b3hBWVV0U1Rwc0JLVUtlMTRwZlVETDZNaV83dzZrR2RhSjUyNEhHek9LY1N5SXhYY3V3ZEZqaE9zZk80cGF3YTllSncxY0djbnVmdUtSdDJFcGpZanBpWEVlOHR0Q3d5TU1FVGc0?oc=5",
           "pubDate": "Mon, 16 Sep 2024 01:17:42 GMT"
-        },
-        {
-          "title": "Diversity and Inclusion",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWN6cHZmR2gyaTEzeHAzVlk5azhZVVJXZjY3MldsTkRkRVJhUUxUTTEzV0VadVdEWVlRaTVhVFZ6UkhqYTVhekc1LVp4bkRrUWF1bGdHMEFYM1BhOVBlUUN1VEpDTFFqei1ERjJnT0lEREh1dm5SNXp6OC1tYktxdXlHMXBub1NpUERCUGVickl5SDF4TWc?oc=5",
-          "pubDate": "Tue, 20 May 2025 20:30:48 GMT"
         }
       ]
     },
@@ -661,7 +661,7 @@
         },
         {
           "title": "Associate, Real Estate, China - Executive Assistant",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWlSaTYxXy1ULVZjNThEY21iREZTaTJaQkdNNkVweDZzN2JHbVlYSlhuNU1jX0N3cWktdktScnNYdXBhSVNWZDBldTBOcG9iRUNnMFgxQ21UdmpoTlNxdG9EMEV1TVZiSVNYMjVYZWU1aDI4NWZReHEzbjk0Nl8tekRGSlJxSXdfS184U3dObl9PR0U3NGFvUVljMExac0YxbExMandJMEM?oc=5",
           "pubDate": "Wed, 29 Jul 2026 09:19:26 GMT"
         },
@@ -679,7 +679,7 @@
         },
         {
           "title": "Associate, Securities Operations (Contract)",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX2JLVHN5dnF6TFJoUy1vczhCMFZIQ2V0UmpxbTdlYTY3U3Z4THRmM0hfenc3VzhMdUF5QTRmMV85SXMxaHJUdmwwOElnZzVZOXN5ajRXWDJ2RkkzeFhhRzlmN3RMWndXZTFWQ3dTYklpd3hCbkRNcTZYZFJjNHJVSFpVc2p3LUlmMW5iZkFaNnlPVmJpSW52Zk9hZ2h3TFlGSUJzWA?oc=5",
           "pubDate": "Wed, 29 Jul 2026 03:20:49 GMT"
         },
@@ -691,13 +691,13 @@
         },
         {
           "title": "AVP/VP, Red Team Specialist, Cyber Security Assurance & Defence, Technology Group",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaDI0Y3Q3cXpMcnRKM0VocmJ1a1hhS1JtX1RCWWVka0ZhVFRVMXdmNVg4S1h2YzhIWTYxeTdndVlKM1hyanl6ZDdvUkJNZFc5S0lsOEdaYjhMY0RSN3NmRGVJZlR1RGNBWnlpSVBrM0ZIMzVwQVVWYzFWZjRxVkJDRjM0Y3ZsOXpHUW9jWHhvYzJSalVCekp0MS1EUUtXM3ZoM0NIR1pvTWswSVZFMlF5TGtxTkRHbnBybW50Q2R3bmJmRHhnMW9ZYnpYeElHUG93TmZmbm9B?oc=5",
           "pubDate": "Tue, 28 Jul 2026 11:56:59 GMT"
         },
         {
           "title": "AVP, Ansible Automation Platform & AIOps Developer, Technology Group",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLUV0TllfV2dtaXFPZXFMa0dxWnlNVDlUU0dQRUotYmE0QnlUT2o4T0MzWGNLNEtDb3hjc3pGekhaOGpfdzdwdGFhWVVTVUpCWTYwaE9vNkYwem82bFhoOWxPQlNsTUZKWG10bVZ4dE9OdUFCV2dBU2ozbk14YWFmU2JwbFhyc2dfMjRfd2VRQUFiOFBsbzlTQTlNSjdBYTZ4dTBXZlh3OEQzUDQzaXdDT3Q1bnpDUmNhNHpLaGlZLXlwYWc?oc=5",
           "pubDate": "Wed, 29 Jul 2026 09:19:27 GMT"
         },
