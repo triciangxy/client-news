@@ -570,15 +570,17 @@ def main():
 
     filled = sum(1 for c in payload["companies"] if c["directors"])
     priced = sum(1 for c in payload["companies"] if c["price"])
-    paid = sum(1 for c in payload["companies"] for d in c["directors"] if d["pay"])
+    pledged = sum(1 for c in payload["companies"] for d in c["directors"] if d.get("pledged"))
+    related = sum(1 for c in payload["companies"] for d in c["directors"] if d.get("related"))
     log("")
     log(f"SUMMARY  companies={len(payload['companies'])} priced={priced} "
-        f"with_directors={filled} directors_with_pay={paid}")
+        f"with_directors={filled} rows_pledged={pledged} rows_with_related={related}")
 
     if args.selftest:
         print(json.dumps({"resolution": payload["resolution"],
                           "priced": priced, "with_directors": filled,
-                          "directors_with_pay": paid}, ensure_ascii=False, indent=1))
+                          "rows_pledged": pledged,
+                          "rows_with_related": related}, ensure_ascii=False, indent=1))
         # A resolution report is the point of --selftest; a thin result is a
         # finding to act on, not a reason to fail the step.
         return 0

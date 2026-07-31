@@ -9,6 +9,7 @@ fetch layer makes the whole path testable in a second instead of four minutes.
     python test_fetch_twse.py
 """
 
+import os
 import sys
 
 import fetch_twse as ft
@@ -96,6 +97,27 @@ def main():
     check("Gregorian date", ft.parse_date("20200615"), "2020-06-15")
     check("junk date rejected", ft.parse_date("abc"), None)
     check("unknown alias does not raise", ft.pick({"x": 1}, "no_such_key"), None)
+
+    # Run the real CLI entrypoint too. build() passing is not enough: a summary
+    # line in main() referencing a removed field crashed a market-wide run that
+    # build()-only tests waved through.
+    print("\nCLI entrypoint:")
+    import tempfile, io, contextlib
+    with tempfile.TemporaryDirectory() as tmp:
+        out = os.path.join(tmp, "twse.json")
+        shard_dir = os.path.join(tmp, "twse")
+        for argv in (["fetch_twse.py", "--selftest"],
+                     ["fetch_twse.py", "--out", out, "--shard-dir", shard_dir]):
+            saved = sys.argv
+            sys.argv = argv
+            try:
+                with contextlib.redirect_stdout(io.StringIO()):
+                    rc = ft.main()
+            finally:
+                sys.argv = saved
+            check(f"main() {argv[1]} exits 0", rc, 0)
+        check("index written", os.path.exists(out), True)
+        check("shard written", os.path.exists(os.path.join(shard_dir, "1101.json")), True)
 
     print()
     if failures:
