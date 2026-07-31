@@ -110,7 +110,7 @@ ROLES = {
     # Dividends turn a paper stake into cash actually received, which is the
     # distinction that matters most for a private bank.
     "dividend": {
-        "prefer": ["/opendata/t187ap45_L", "/exchangeReport/TWT49U"],
+        "prefer": ["/opendata/t187ap45_L"],
         "keywords": [["股利", "分派"], ["除權息"], ["股利"]],
     },
 }
@@ -127,17 +127,36 @@ ALIASES = {
     "yield":    ["DividendYield", "殖利率(%)", "殖利率"],
     "person":   ["姓名", "Name", "職稱姓名", "PersonName"],
     "title":    ["職稱", "Title", "身分別"],
-    "shares":   ["目前持股", "持股數", "本月持有股數", "所持股數", "Shares", "選任時持股"],
-    # Tenure is disclosed — no need to assume it. 初次選任 (first elected) is the
-    # one that matters; 選任日期 is the current term and understates a long-serving
-    # director who has been re-elected.
-    "first_elected": ["初次選任日期", "初次當選日期", "初次選任日", "FirstElectedDate"],
-    "elected":  ["選任日期", "當選日期", "到職日期", "就任日期", "ElectedDate", "任期起始日"],
-    "pay":      ["酬金總額", "領取報酬總額", "個人酬金", "酬金", "Remuneration", "總酬金"],
+    # Note the trailing space in "選任時持股 " — that is how TWSE ships it.
+    "shares":   ["目前持股", "持股數", "本月持有股數", "所持股數", "Shares", "選任時持股 ", "選任時持股"],
+    # Shares the insider has pledged as loan collateral. Encumbered stock is not
+    # spendable wealth and often means borrowing has already happened against it.
+    "pledged":  ["設質股數"],
+    "pledge_pct": ["設質股數佔持股比例"],
+    # Holdings of the insider's related parties — spouse, minor children and
+    # controlled vehicles, filed as one combined figure.
+    "related":  ["內部人關係人目前持股合計"],
+    "related_pledged": ["內部人關係人設質股數"],
     "industry": ["產業別", "industry", "公司產業別", "Industry"],
-    "dps":      ["股利", "每股股利", "現金股利", "每股配息", "DividendPerShare"],
-    "pay_band": ["酬金級距", "級距", "RemunerationRange"],
+    # Remuneration is company-level only. This is the mean across the board, not
+    # any individual's pay.
+    "avg_pay":  ["平均每位董事酬金-董事酬金"],
+    "board_pay_total": ["董事酬金-合計"],
+    # Cash dividend per share, declared for the year.
+    "dps":      ["股東配發-盈餘分配之現金股利(元/股)"],
+    "dps_legal": ["股東配發-法定盈餘公積發放之現金(元/股)"],
+    "dps_capital": ["股東配發-資本公積發放之現金(元/股)"],
+    "div_year": ["股利年度"],
+    "chairman": ["董事長"],
+    "president": ["總經理"],
+    "listed_on": ["上市日期"],
+    "founded":  ["成立日期"],
 }
+
+# 姓名 sometimes holds a company, not a person: a corporate shareholder can sit
+# on the board in its own name, with a 法人代表人 acting for it.
+CORPORATE_MARKERS = ("公司", "銀行", "基金", "投資", "實業", "控股", "企業", "集團",
+                     "協會", "管理會", "信託", "保險", "有限", "合夥", "財團法人")
 
 # MOPS discloses most individual pay as a band rather than a figure. Midpoints
 # in NT$; the top band is open-ended so it is floored at its lower bound.
@@ -347,18 +366,19 @@ def build(codes=None, limit=None):
             if rec is None:
                 rec = {
                     "name": name, "title": title, "titles": [],
-                    "shares": 0, "since": None, "pay": None, "payBasis": None,
+                    "shares": 0, "pledged": 0, "related": 0,
                     "isRep": any(m in title for m in REP_MARKERS),
+                    "isCorporate": any(m in name for m in CORPORATE_MARKERS),
                     "onBoard": any(t in title for t in BOARD_TITLES),
                 }
                 merged[name] = rec
             if title and title not in rec["titles"]:
                 rec["titles"].append(title)
             rec["shares"] = max(rec["shares"], to_num(pick(row, "shares")) or 0)
+            rec["pledged"] = max(rec["pledged"], to_num(pick(row, "pledged")) or 0)
+            rec["related"] = max(rec["related"], to_num(pick(row, "related")) or 0)
             rec["isRep"] = rec["isRep"] or any(m in title for m in REP_MARKERS)
             rec["onBoard"] = rec["onBoard"] or any(t in title for t in BOARD_TITLES)
-            rec["since"] = rec["since"] or parse_date(pick(row, "first_elected")) \
-                                        or parse_date(pick(row, "elected"))
 
         directors = []
         for rec in merged.values():
@@ -390,9 +410,14 @@ def build(codes=None, limit=None):
             elif band:
                 target["pay"], target["payBasis"] = band, "band midpoint"
 
-        div_row = (divs.get(code) or [{}])[0]
-        people = [d for d in directors if not d["isRep"]]
-        reps = [d for d in directors if d["isRep"]]
+        div_rows = divs.get(code) or [{}]
+        # Prefer the most recent dividend year for this code.
+        div_row = max(div_rows, key=lambda r: to_num(pick(r, "div_year")) or 0)
+        pay_row = (pays.get(code) or [{}])[0]
+        # A natural person: not a nominee for an institution, and not a company
+        # sitting on the board in its own name.
+        people = [d for d in directors if not d["isRep"] and not d["isCorporate"]]
+        reps = [d for d in directors if d["isRep"] or d["isCorporate"]]
         with_holdings = sum(1 for d in people if (d["shares"] or 0) > 0)
         top = max(people, key=lambda d: d["shares"] or 0, default=None)
 
@@ -403,7 +428,17 @@ def build(codes=None, limit=None):
             # Institutional representatives are excluded from personal wealth but
             # counted, so the page can say how many were set aside and why.
             "repCount": len(reps),
-            "dps": to_num(pick(div_row, "dps")),
+            # Total cash per share: earnings + legal reserve + capital surplus.
+            "dps": round(sum(to_num(pick(div_row, k)) or 0
+                             for k in ("dps", "dps_legal", "dps_capital")), 4) or None,
+            "dividendYear": pick(div_row, "div_year"),
+            # Company-level mean across the board — never an individual's pay.
+            "avgBoardPay": to_num(pick(pay_row, "avg_pay")),
+            "boardPayTotal": to_num(pick(pay_row, "board_pay_total")),
+            "chairman": pick(info_row, "chairman"),
+            "president": pick(info_row, "president"),
+            "listedOn": parse_date(pick(info_row, "listed_on")),
+            "founded": parse_date(pick(info_row, "founded")),
             # Coverage denominator: how many of the board actually disclose a holding.
             "boardSize": len(people),
             "withHoldings": with_holdings,
@@ -451,7 +486,10 @@ def write_output(payload, out_path, shard_dir):
         shard = {
             "code": c["code"], "name": c["name"], "nameEn": c["nameEn"],
             "sharesOutstanding": c["sharesOutstanding"],
-            "dps": c.get("dps"), "boardSize": c.get("boardSize"),
+            "dps": c.get("dps"), "dividendYear": c.get("dividendYear"),
+            "avgBoardPay": c.get("avgBoardPay"), "boardPayTotal": c.get("boardPayTotal"),
+            "chairman": c.get("chairman"), "listedOn": c.get("listedOn"),
+            "founded": c.get("founded"), "boardSize": c.get("boardSize"),
             "withHoldings": c.get("withHoldings"), "repCount": c.get("repCount"),
             "directors": c["directors"],
         }
@@ -471,6 +509,8 @@ def write_output(payload, out_path, shard_dir):
             "price": c["price"], "marketCap": c["marketCap"], "pe": c["pe"],
             "sharesOutstanding": c["sharesOutstanding"],
             "industry": c.get("industry"), "dps": c.get("dps"),
+            "avgBoardPay": c.get("avgBoardPay"), "chairman": c.get("chairman"),
+            "listedOn": c.get("listedOn"), "founded": c.get("founded"),
             "boardSize": c.get("boardSize"), "withHoldings": c.get("withHoldings"),
             "repCount": c.get("repCount"),
             "topHolder": c.get("topHolder"),
