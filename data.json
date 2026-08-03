@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T06:44:37Z",
+  "generated_at": "2026-08-03T10:44:55Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 101800.0,
-      "change": 1100.0,
-      "changePct": 1.0923535253227408,
+      "price": 102700.0,
+      "change": 2000.0,
+      "changePct": 1.9860973187686197,
       "currency": "KRW",
       "prevClose": 100700.0,
       "dayHigh": 103200.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1618.5,
-      "change": -35.5,
-      "changePct": -2.146311970979444,
+      "price": 1626.5,
+      "change": -27.5,
+      "changePct": -1.6626360338573156,
       "currency": "JPY",
       "prevClose": 1654.0,
       "dayHigh": 1646.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3118.0,
-      "change": 7.0,
-      "changePct": 0.22500803600128574,
+      "price": 3102.0,
+      "change": -9.0,
+      "changePct": -0.28929604628736744,
       "currency": "JPY",
       "prevClose": 3111.0,
       "dayHigh": 3123.0,
@@ -888,6 +888,12 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxNFl6bWprS0diY2VVeG9zcXZOVDZmQWMyM0t6ZHZSRUhmcHpNQUY4Z1drelhfVE5OZ1dWdG5LTzI0dEUxRWU1MURiYUYxcnZuU0VGSHE1bkxNV19fcVBtUzlnQk5lR1JMQ0cxMkJhZnQ?oc=5",
+          "pubDate": "Wed, 07 May 2025 06:38:32 GMT"
+        },
+        {
           "title": "National Pension for All People’s Happiness",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IZkRWMEJNQUhqclU4SFc3QW8zc0dHa1BpQjR5X2Vrc0w4ODdfMW5ES1VXblFEeWozZXN3Z21Mc0lzZDcwM2t3a1pneG1NamxxNEU1ZExtTThhUE1pNGRwdVg4S2J5RVBBdUFfb0JB?oc=5",
@@ -916,12 +922,6 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
           "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yb21USjkzTTEyUGdJb1Z2aTFVM0ZuQ09wdVcyRWJQRXNNelU0NkZXdGpyZHU3RE50d0tTbEZwUDBPeFlvcW5MWnExdzJUajRVOWxRSzQxamdnSVhReUxJMHdWSTlWZEd0RXhaWEFFRm9jSjdHUWJkOUFQZ1pKZw?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:17:34 GMT"
         }
       ]
     },
