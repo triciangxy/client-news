@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:16:14Z",
+  "generated_at": "2026-08-03T06:44:37Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 78.2,
-      "change": -1.0499999999999972,
-      "changePct": -1.3249211356466841,
+      "price": 78.55,
+      "change": -0.7000000000000028,
+      "changePct": -0.8832807570977954,
       "currency": "HKD",
       "prevClose": 79.25,
       "dayHigh": 79.3,
-      "dayLow": 77.85,
+      "dayLow": 77.8,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 102000.0,
-      "change": 1300.0,
-      "changePct": 1.2909632571996028,
+      "price": 101800.0,
+      "change": 1100.0,
+      "changePct": 1.0923535253227408,
       "currency": "KRW",
       "prevClose": 100700.0,
       "dayHigh": 103200.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1582.0,
-      "change": -72.0,
-      "changePct": -4.353083434099154,
+      "price": 1618.5,
+      "change": -35.5,
+      "changePct": -2.146311970979444,
       "currency": "JPY",
       "prevClose": 1654.0,
       "dayHigh": 1646.5,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3014.0,
-      "change": -97.0,
-      "changePct": -3.11796849887496,
+      "price": 3118.0,
+      "change": 7.0,
+      "changePct": 0.22500803600128574,
       "currency": "JPY",
       "prevClose": 3111.0,
-      "dayHigh": 3112.0,
+      "dayHigh": 3123.0,
       "dayLow": 2978.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -1156,6 +1156,12 @@
           "pubDate": "Sat, 01 Aug 2026 23:30:59 GMT"
         },
         {
+          "title": "FWD | YONG PEI LING",
+          "source": "ace-ib.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYY21aZDNYN3o0MExkQWNtVnI1a3EzVXY4Tk9vcFlLWU5FWXFuMk85WjQ1YlZXV183bnNKZVdnRVZmNjdDazB4X0hxdXBDZ1g1cDdaRWhBN2VCRFlaRHRPc19haEd0RllrSFE?oc=5",
+          "pubDate": "Sun, 02 Aug 2026 21:32:07 GMT"
+        },
+        {
           "title": "Our internship programme",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zNURlUGZwbTJnWG12RFpMUW9LZDN5WXlYQVIwR2tlVDQzMGx4WmdtRjd6bngtVmpmbjlJNnFtWUJQZmk1Tlc1R1owalBBYnM4eFJSRXZtbmZETXY0Z3pjSW93OVA5bXc?oc=5",
@@ -1196,12 +1202,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
-        },
-        {
-          "title": "Our fact sheet",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
-          "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         }
       ]
     },
