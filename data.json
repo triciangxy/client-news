@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T08:40:28Z",
+  "generated_at": "2026-08-04T11:25:45Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -666,6 +666,12 @@
           "pubDate": "Thu, 23 Jul 2026 22:19:24 GMT"
         },
         {
+          "title": "AVP/VP, Business Manager, Investment Insights Group",
+          "source": "careers.gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWNWUmJJeW92VzU0OVh2YUdNVERGeE1HX3VuVTZyWkdMVDJSSS1WQWk1WHFid1l3WGo2dEtPeXJ0bEx3WExyMGJUZUszblZ0RUt3TTVXemN2SERuQ3dkRXRPeFU3MXNJam52bE1fekRDaVc1cWFLeHJQQUN5bmhlZ1VNR3BjY2NyWGVNcTA0dUxvVUVlcENsbGNxMEJ5aHZVb2VaRkZFMW9RODQ?oc=5",
+          "pubDate": "Mon, 03 Aug 2026 13:39:21 GMT"
+        },
+        {
           "title": "GIC Senior Leadership Appointments",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8za1FCbWg3bVlHaWoyNG5OWEVTQWM2RG1vWVJCUkhXbXhGY0F0TExfZEE5RE9tS0tNUjNTR3NaR2ZKbkF2S0x5dFRkemxSV3ZvSWdLTEFjYzJMZDFGU3BEcGxLTHloVUFXZUhKR01WSnJuQXd6ZlJnTFdybG5iZw?oc=5",
@@ -673,7 +679,7 @@
         },
         {
           "title": "Portfolio Manager, Treasury, Balance Sheet Management Group",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU1sOG81UkNhRTNhMHRGTDU2dFVRWjdVODMyUG5KbkwtMHdvZHJmY29DWUJDTlNPRkFaSVNucDk2cGh1OUQzZmVRakd5Nkhva19LaHJzNkIxWG80aTYtMWFMcXAtaC13YzI4SFhIVXR3RWY1RTNPNkJmSTEzTEpPVGptQ2F6SlFnLTNtQ0JMX21QOUlLLVQtWXVRQ25UMzRGZzlQLWRzcndTbEowRzRhWmdrVmVnX28?oc=5",
           "pubDate": "Wed, 08 Jul 2026 23:39:09 GMT"
         },
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
           "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
-        },
-        {
-          "title": "Carsten Stendevad",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
-          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
         }
       ]
     },
@@ -1262,16 +1262,16 @@
           "pubDate": "Thu, 31 Aug 2017 03:09:08 GMT"
         },
         {
+          "title": "[The Norinchukin Bank] 2025",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGo1Um8xXzA0RGlpSW9YQWQyOElpa1ZrRXBEWWtHcUFkZmp1dTZYS002dnBWLTEzRUdCV0JEakRaVFU4WFZVN0YxMFk0NzhnckdvWndHOW1DT2Y0OFFsTDlOQzNPTjJXSmRZcUM1aktXZFBZdlNXdTNodURaZ2I3QmhmQktab290bU1YWU5JZkRBMlVzZ1E?oc=5",
+          "pubDate": "Sat, 20 Sep 2025 01:37:06 GMT"
+        },
+        {
           "title": "News Release 2025：The Norinchukin Bank",
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVpTQlB4d2RWZ21Dald6bWhzMGo1Q0YxY3JCMmtSZkQwYjIyRnE3b0diV19xRG9vSjV2aUFIWjFNdjhiVXZNeHhFcWZFVDA1YkgzT1djR2ltZlFUOUVkS0VQUVZxdXl5SlVDTUNnSVJ6c19kZ0RRUTl3aVZiTTZMLWJUNUY3VEtOck5odF9QODVxUlVYLTY3Sl9od3lSV3BJMmNNeGw5UjM?oc=5",
           "pubDate": "Fri, 06 Jun 2025 07:00:00 GMT"
-        },
-        {
-          "title": "The Norinchukin Bank Sustainable Finance",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6S2w1ejBtWUxGZF84blNZZkRaYnd4VG5xNEZNUlVPTHJpaHBCNlljOGEwRjFmRWQwUXpTa3F2bDUzUEJlZVB1cTI4RmMyc0dRSjRzaW9sSjZ2MjMzTEFjYnlZZjVkU0hZeEZScE5DWWhSUEU?oc=5",
-          "pubDate": "Thu, 31 Aug 2023 06:38:07 GMT"
         }
       ]
     }
