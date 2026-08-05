@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T05:47:54Z",
+  "generated_at": "2026-08-05T08:39:32Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.3,
-      "change": -0.75,
-      "changePct": -0.9609224855861628,
+      "price": 77.75,
+      "change": -0.29999999999999716,
+      "changePct": -0.38436899423446147,
       "currency": "HKD",
       "prevClose": 78.05,
       "dayHigh": 78.05,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1659.0,
-      "change": 28.0,
-      "changePct": 1.7167381974248928,
+      "price": 1661.0,
+      "change": 30.0,
+      "changePct": 1.8393623543838136,
       "currency": "JPY",
       "prevClose": 1631.0,
       "dayHigh": 1666.5,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3166.0,
-      "change": 71.0,
-      "changePct": 2.294022617124394,
+      "price": 3200.0,
+      "change": 105.0,
+      "changePct": 3.392568659127625,
       "currency": "JPY",
       "prevClose": 3095.0,
-      "dayHigh": 3180.0,
+      "dayHigh": 3200.0,
       "dayLow": 3081.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -584,32 +584,26 @@
       },
       "items": [
         {
-          "title": "Our Leadership",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
-          "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
-        },
-        {
           "title": "Associate/Senior Associate (12 months contract), Data Management (Data Sourcing Business Analyst)",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSFFZSkF3aHpSdjZpUFB3TUFVOVFwbTJNcEtmUWZfNDRLUkNZSXNHWm8tTGhUZi1mS0ttQWpxcGJLdG1mTmxCdkJTVlF2V0ZNVjluWnIwUDhScElKcXdyZU9YTXRzRlE3WTQ0RDUyQldLT2FKd25jQ0lnUkh6aEwxQmRoNDB5LU1zTkUtaFllVTRPLTFBRXAxZl9sWW11Q25VMlN3WE8ybnFTcDZfajNrQi0yb1J0RkNwVF9VX0c0R04xQzFsbFEzQnZZZE01eGdvWUEzemdNY1N3Sy1tTFJNcQ?oc=5",
           "pubDate": "Wed, 29 Jul 2026 18:48:40 GMT"
         },
         {
           "title": "Campus Recruitment Event - Temasek Countrywide Networking Event (Singapore) - Wed 2 September 2026",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUE56RHRrdlFnNkhEZWhnaG9CSFgzVjVkN3lrdWdqZld1Q0FVTlFmcVFLaXFQMGpEOTlGWVgxMkVmYjVPZ3ZVUG1jQmhsbFRoUHZadzVIQ1dtV3NGZGVpWXJ0MlNZYlpaVGUyc24tX2ZLNHBVTmRiRVlXSmYtV2hwcDFlbHFtTE1GaXNPZWc5QmphN2FHVGhCd3QwNldQTFM1MkNqWV9OdGxWVVIwNnpDTDdTZ3BJc094V2toa1NRU295RGpjS0VuMTZCVjBJT3pXZjhtNldZaEphYy1wSGZHRS1vaw?oc=5",
           "pubDate": "Tue, 04 Aug 2026 05:44:54 GMT"
         },
         {
           "title": "Senior Associate/Assistant Vice President, AI Product Manager Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRUJ5czdWcVJmblFpYkZEckNobUNlLXBZN2RhdGk1MnlrVWkzcWhDemtjSkMyaXl1MHpMYjg2a3ZkUUduMXhpS3VhSmo2TC13YjFjLTFxdTAzeFNtbWlqaktmVHBMVnBzazNKNm15Y0NBNktmbEVnckNiTHlrNzlENFhlNkZHMzhYSXFmVHdzNHRtTmJyM0twWV9BTVhDeDI1akszT0lVZkJIUkFCdDA4R0hINA?oc=5",
           "pubDate": "Thu, 30 Jul 2026 17:27:59 GMT"
         },
         {
           "title": "Associate/Senior Associate (12 months LOA cover), Institutional Relations Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVmVXT0JxWU5MaVdXcHhpUE9KX19MN19nck82VHFzVlBzRTZTNEJjT2d0dU1BUFBEbmRxcmFIWF82SnRMLTdVMFZLX3lpcVM2Smh1bXh4NTQtclRDNmpzN3F2dGROWHJ3ZXA4MkpWTVY5bmVzM3oxQlU3MjRRZUZzZ3FlZWRSbHpneUtIYTBPRVpqYmw1U3hkc3h2YXg3NTR5X1VxMURFNXpYSmc4MjBQYzRkcVAyOFp0WnNzMEhCRW9jekxrQk5XMA?oc=5",
           "pubDate": "Wed, 29 Jul 2026 17:27:14 GMT"
         },
@@ -633,7 +627,7 @@
         },
         {
           "title": "Senior Associate/Assistant Vice President, AI Fluency - Adoption and Change Management Specialist",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGxlWTdDc2o1eXhDcnh1UFJXQXJwZE1DeTIySHhaMHUycEZ2R2NtXzM4eURlU3E0NDFmVkhsbmZzVmhiN3cwOEZVV2hWSWhpMEI4SkxLdFc2Tk9Iak40QV9VMm55WEFMcEVuUy0yS205OFFGbWNsS29UOXFMTnJ3T3pON0pvcTFDREhZcS1xbUdFVkJmSFBKMGFxVVcyOWtyX0VteHF0dDZ5Z1kxS1JsZEs3SGpucElQTzZ4eVpXY2VGMTN6cFMtRWJNak1OQUE3RkRjMGJWR0R5TEhXNWFzTw?oc=5",
           "pubDate": "Fri, 17 Jul 2026 03:58:06 GMT"
         },
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUkxIN0xJTVNMSklsYVJ0SlFIOXY1ZGM4dlpzZnV4Y3ktSVdZUDVPZ2ZMTlh3d0hxdVgwcWdjWENvdjNuR2p1Yklybi1TWVFGdHJkYWdha1R5YWp1SzNZWTZnUDJOQndoZWdNdkJrV3hkNkVfZGtYWVBvejdGV1U0b09sMWY4ZTBYS25LU2FfbGdrSUYydURuTkdhSTEyTkZfdXM5NVhsWHlzT3RGbW81UA?oc=5",
           "pubDate": "Wed, 08 Jul 2026 07:01:17 GMT"
+        },
+        {
+          "title": "Temasek’s Net Portfolio Value Grows to S$518 billion, up S$49 billion from Last Year",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQWVUUlBWSkdfVnl1SDYyOXY0bTRheDZJOGR6eTV6ckNic2tpbktZSDNUbl8zZDlnU29wTWJXUDNVeWN4Vm1KaXMwNjVoWnFlRWluamNOSVd1LXBsVHkzeFVIU045U2tweVEwb21wOHdsc05adWpYVXhsYTItMkdLTzFYbkViTFpaNEJaZTNUZXZCYVdfRUtta3BnSkZubW9sYmU3ZS1qTlh0T05ZMWQ5SjBLSHVPY3pTMjlBNTVRZ29OMjJtdVk3ZVNpUFg?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT"
         }
       ]
     },
@@ -794,6 +794,12 @@
       },
       "items": [
         {
+          "title": "Press Releases",
+          "source": "한국투자공사/KIC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOGtzQzVFdG5Lb1JxX01hV3FtYTlIeTRoYS1LMTI0Rnd1azhaTm5vcEFtU3F3bnFzcmNzOThJZ2lkclFseDJhX1VSSjJMWTVpQXltR29rcEM5WEU?oc=5",
+          "pubDate": "Tue, 18 May 2021 07:00:00 GMT"
+        },
+        {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
@@ -846,12 +852,6 @@
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Ca2pUOElDNW9yX1ZLeE5KM1VyU3FoQktBUmszNHhiNzZQS19lcExYRU9qekozcE9tUllaQ1pIa3NGNlVfTTNQTkxTaUM?oc=5",
           "pubDate": "Sun, 22 Jun 2025 09:03:18 GMT"
-        },
-        {
-          "title": "뉴욕지사 투자운용인력 현지채용 공고 | 채용공고│채용│ 채용",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1taUNpM0RfQmlJYlN5em55WVVqYXBmT1pNWm8xdHhOa1RfcS02NjBfd0w1M3FtVWtjdHg1blZINFJxbVc3VkpxaVh5VFd2VjM0RlA2V3h2WQ?oc=5",
-          "pubDate": "Tue, 25 Jul 2017 07:00:00 GMT"
         }
       ]
     },
@@ -1010,12 +1010,6 @@
           "pubDate": "Sat, 01 Aug 2026 14:04:53 GMT"
         },
         {
-          "title": "Weekly economic report",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vRmRfM3g1VGVPT2ZsMVp6THNzVDJQVG43ejhac2FUaWhWWkJqS3dfMzhKYVEwMnZYeWVwbzhMUzZpVWc0NnFadjdJb2xPcWZOM2VTb05hTlJYZHVEMDRwdjczRGdLUWhXbEhEb2RyQQ?oc=5",
-          "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT"
-        },
-        {
           "title": "Market announcement",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONnFNNHhXamZvdTBHSDg4TTEzRVpGc3BWZTl1bDN1LXVyN3FpSWVSaUF2MHVRM2lkbExHVm9ub1p4ZGg2blU1NjVmMDJyWnlHbHd2YzJsZnpQNHFnWl94cGwwNEJub1RwbjBXYV9uOHRHcVdMbHBYNUlkdFF1V25GS2FyMk94UThYTllDcUpwX2NnM1F2SnJyX2FscjJxTi1ZbEZHOGZSaUR5a2tFYlJ5Vl9ld2ZBMjd2WDZkSFQ4eDhUSGU5Um1BOA?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
           "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
+        },
+        {
+          "title": "TCorp economic podcast",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
