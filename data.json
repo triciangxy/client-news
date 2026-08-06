@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T05:51:14Z",
+  "generated_at": "2026-08-06T08:40:10Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.15,
-      "change": -6.599999999999994,
-      "changePct": -8.488745980707387,
+      "price": 73.15,
+      "change": -4.599999999999994,
+      "changePct": -5.916398713826359,
       "currency": "HKD",
       "prevClose": 77.75,
       "dayHigh": 73.7,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107800.0,
-      "change": 4200.0,
-      "changePct": 4.054054054054054,
+      "price": 107400.0,
+      "change": 3800.0,
+      "changePct": 3.667953667953668,
       "currency": "KRW",
       "prevClose": 103600.0,
       "dayHigh": 107900.0,
@@ -277,18 +277,18 @@
       "changePct": 1.0836845273931366,
       "currency": "JPY",
       "prevClose": 1661.0,
-      "dayHigh": 1686.5,
+      "dayHigh": 1687.0,
       "dayLow": 1646.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3235.0,
-      "change": 35.0,
-      "changePct": 1.09375,
+      "price": 3232.0,
+      "change": 32.0,
+      "changePct": 1.0,
       "currency": "JPY",
       "prevClose": 3200.0,
-      "dayHigh": 3239.0,
+      "dayHigh": 3246.0,
       "dayLow": 3185.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -661,7 +661,7 @@
         },
         {
           "title": "AVP/VP, Business Manager, Investment Insights Group",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWNWUmJJeW92VzU0OVh2YUdNVERGeE1HX3VuVTZyWkdMVDJSSS1WQWk1WHFid1l3WGo2dEtPeXJ0bEx3WExyMGJUZUszblZ0RUt3TTVXemN2SERuQ3dkRXRPeFU3MXNJam52bE1fekRDaVc1cWFLeHJQQUN5bmhlZ1VNR3BjY2NyWGVNcTA0dUxvVUVlcENsbGNxMEJ5aHZVb2VaRkZFMW9RODQ?oc=5",
           "pubDate": "Mon, 03 Aug 2026 13:39:21 GMT"
         },
@@ -673,7 +673,7 @@
         },
         {
           "title": "Portfolio Manager, Treasury, Balance Sheet Management Group",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU1sOG81UkNhRTNhMHRGTDU2dFVRWjdVODMyUG5KbkwtMHdvZHJmY29DWUJDTlNPRkFaSVNucDk2cGh1OUQzZmVRakd5Nkhva19LaHJzNkIxWG80aTYtMWFMcXAtaC13YzI4SFhIVXR3RWY1RTNPNkJmSTEzTEpPVGptQ2F6SlFnLTNtQ0JMX21QOUlLLVQtWXVRQ25UMzRGZzlQLWRzcndTbEowRzRhWmdrVmVnX28?oc=5",
           "pubDate": "Wed, 08 Jul 2026 23:39:09 GMT"
         },
