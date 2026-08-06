@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T02:45:25Z",
+  "generated_at": "2026-08-06T05:51:14Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.65,
-      "change": -6.099999999999994,
-      "changePct": -7.845659163987132,
+      "price": 71.15,
+      "change": -6.599999999999994,
+      "changePct": -8.488745980707387,
       "currency": "HKD",
       "prevClose": 77.75,
       "dayHigh": 73.7,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 106200.0,
-      "change": 2600.0,
-      "changePct": 2.5096525096525095,
+      "price": 107800.0,
+      "change": 4200.0,
+      "changePct": 4.054054054054054,
       "currency": "KRW",
       "prevClose": 103600.0,
       "dayHigh": 107900.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1674.0,
-      "change": 13.0,
-      "changePct": 0.78266104756171,
+      "price": 1679.0,
+      "change": 18.0,
+      "changePct": 1.0836845273931366,
       "currency": "JPY",
       "prevClose": 1661.0,
       "dayHigh": 1686.5,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3212.0,
-      "change": 12.0,
-      "changePct": 0.375,
+      "price": 3235.0,
+      "change": 35.0,
+      "changePct": 1.09375,
       "currency": "JPY",
       "prevClose": 3200.0,
-      "dayHigh": 3237.0,
+      "dayHigh": 3239.0,
       "dayLow": 3185.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -317,7 +317,7 @@
         },
         {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
-          "source": "design.aia.com",
+          "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OZUVyblNTeUdnSjNvR096TWFxVlNodVdreU5ZUXFSaENMME1RdGswSUh1V3FBYXlUdUZVel9wZ3NjZE02YzZNTjFQcVhKV1hGeG42RExuOA?oc=5",
           "pubDate": "Mon, 17 Mar 2025 15:17:41 GMT"
         },
@@ -353,7 +353,7 @@
         },
         {
           "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
-          "source": "design.aia.com",
+          "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
         },
@@ -661,7 +661,7 @@
         },
         {
           "title": "AVP/VP, Business Manager, Investment Insights Group",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWNWUmJJeW92VzU0OVh2YUdNVERGeE1HX3VuVTZyWkdMVDJSSS1WQWk1WHFid1l3WGo2dEtPeXJ0bEx3WExyMGJUZUszblZ0RUt3TTVXemN2SERuQ3dkRXRPeFU3MXNJam52bE1fekRDaVc1cWFLeHJQQUN5bmhlZ1VNR3BjY2NyWGVNcTA0dUxvVUVlcENsbGNxMEJ5aHZVb2VaRkZFMW9RODQ?oc=5",
           "pubDate": "Mon, 03 Aug 2026 13:39:21 GMT"
         },
@@ -673,7 +673,7 @@
         },
         {
           "title": "Portfolio Manager, Treasury, Balance Sheet Management Group",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU1sOG81UkNhRTNhMHRGTDU2dFVRWjdVODMyUG5KbkwtMHdvZHJmY29DWUJDTlNPRkFaSVNucDk2cGh1OUQzZmVRakd5Nkhva19LaHJzNkIxWG80aTYtMWFMcXAtaC13YzI4SFhIVXR3RWY1RTNPNkJmSTEzTEpPVGptQ2F6SlFnLTNtQ0JMX21QOUlLLVQtWXVRQ25UMzRGZzlQLWRzcndTbEowRzRhWmdrVmVnX28?oc=5",
           "pubDate": "Wed, 08 Jul 2026 23:39:09 GMT"
         },
@@ -1162,6 +1162,12 @@
           "pubDate": "Sun, 02 Aug 2026 21:32:07 GMT"
         },
         {
+          "title": "FWD | MOHAMMAD NOOR BIN ABDUL MAJID",
+          "source": "ace-ib.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96cGlrYzl2T3dETVc4THc0N0M0RlFNclhkX1ppM3pEVXlFaVZKWUpHN1NPaVJzYjV4UFpXdWRFSE9TaXVCN3MxWU9lSkl4Y0FZblZnQWVlc2hWckJFMDktWlhzWEJUYkt1VERtYlJReTlucm54REt1X2Z3aExWb2c?oc=5",
+          "pubDate": "Wed, 05 Aug 2026 04:29:43 GMT"
+        },
+        {
           "title": "Our internship programme",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zNURlUGZwbTJnWG12RFpMUW9LZDN5WXlYQVIwR2tlVDQzMGx4WmdtRjd6bngtVmpmbjlJNnFtWUJQZmk1Tlc1R1owalBBYnM4eFJSRXZtbmZETXY0Z3pjSW93OVA5bXc?oc=5",
@@ -1190,12 +1196,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3lPUngxa2owYnVVS3dZVUxGOXhpOTVuamQ3azJOLWtPdWVPVkN4OC1DZHhiUUtaZlRWMFJqOVNzTE9QamROQkhFc1RCdW95bmlOZ1NFdFotVi1wVk1MdEMtN01QWUZzWTNOVzFBRUN1YXYwdzFEWV9JUjVIOXF5MGI1UWRoa0E?oc=5",
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
-        },
-        {
-          "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
-          "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
         },
         {
           "title": "David Junius",
