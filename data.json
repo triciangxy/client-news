@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T02:46:25Z",
+  "generated_at": "2026-08-07T04:56:19Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.65,
-      "change": -0.5,
-      "changePct": -0.683526999316473,
+      "price": 73.55,
+      "change": 0.3999999999999915,
+      "changePct": 0.5468215994531668,
       "currency": "HKD",
       "prevClose": 73.15,
-      "dayHigh": 73.05,
+      "dayHigh": 73.9,
       "dayLow": 72.1,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 109400.0,
-      "change": 2000.0,
-      "changePct": 1.86219739292365,
+      "price": 109000.0,
+      "change": 1600.0,
+      "changePct": 1.48975791433892,
       "currency": "KRW",
       "prevClose": 107400.0,
       "dayHigh": 110300.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1694.0,
-      "change": 15.0,
-      "changePct": 0.8933889219773675,
+      "price": 1692.5,
+      "change": 13.5,
+      "changePct": 0.8040500297796307,
       "currency": "JPY",
       "prevClose": 1679.0,
       "dayHigh": 1703.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3224.0,
-      "change": -8.0,
-      "changePct": -0.24752475247524752,
+      "price": 3196.0,
+      "change": -36.0,
+      "changePct": -1.1138613861386137,
       "currency": "JPY",
       "prevClose": 3232.0,
       "dayHigh": 3232.0,
@@ -375,61 +375,61 @@
       "items": [
         {
           "title": "Shinhan Financial Group-Investor Presentations",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tVHAzWW5EdmVYdE1nd2lRZi1fTW9RaTFjb0ZQeEc0YWFVeFQtUlVhcWlHelVlWVhJZWJGdFViNHlqMHBad2xuMUJVNkM4TTdLMG9JY2dtd1dWRzhiY3FwYi1GNzZmbnlmSDhTZnp0V2JkZw?oc=5",
           "pubDate": "Mon, 22 Jul 2024 02:29:29 GMT"
         },
         {
           "title": "Innovation Leader, Shinhan Financial Group",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
         },
         {
           "title": "Shinhan Financial Group-SEC Filing | Form 6-K",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85RXkxWTc4aVYzTHhyaXJFMjkwb2E5aUR6MmlacU03U3lMQkplN0RjMlN5cmw2STZfYVlVS05GeVJfYURkbTE1RUk1djJMVk5UN21VSjY3LVFTS3BFdUJ3?oc=5",
           "pubDate": "Fri, 26 Jul 2024 11:25:57 GMT"
         },
         {
           "title": "ESG DATA PACK",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcE9vZG1Gb3JUT0hwUGRXYURMVnJTRDdvUkkzREtjTFVFaEo5V2MwVG1jRGxIODFoWDlYckJnTFFTQWt0V1MxYzNYZUI2S1dydDZkZ3pRa09relN0c0hhNFU2SE83Zks4LU1JZTdIQUZZeHh2Z0N2WEJJNGttY1hYYlgzaHJKTjREcTBicTQzam9ZQmM0Umk2eXZIS2JrakY1bWFVazRBRk43andoTlE?oc=5",
           "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
         },
         {
           "title": "Shinhan Financial Group-Investor Relations",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
           "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
         },
         {
           "title": "PowerPoint 프레젠테이션",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY1dFdmZKUDBDbDJ6cjBjdnk0OWVtY21nREZPUDBzb01SbXVZTTZUb2NKTkp0YktGeEV4dkxLLVBhXzRUc2tEdmY3TlpIRzJ3OVlYbnN5ckRjYXhaaUdkblFrU1NpcFktQ2NPcUZfMlZBWko4MFRFSXVmYWlqWi1IQ2pTY2ZVQUF0X1Q0akFTYzBCSUNPNUJr?oc=5",
           "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
         },
         {
           "title": "Shinhan Financial Group-Annual Report",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPVHB3M181ZTZfTS1DRGw2dmdZWHoyWGJ5eHFoUEtQWEhCV3dzNnpKdTI2WVhfZER3dXBOU3dwSFBxRldFRTJjNV8yY1lsTzZBaWVSLU5MMm9vZ29lZlpVVQ?oc=5",
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
         },
         {
           "title": "Private Financial Holding Company (2009-2001)",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xSzNjdHVoYnJDWEJLdGE1UnZZRkJ1WS1iMTIwazl0QS1vQUxzMGVKa3ZhNGt4ei1WX1NqY3hmSTlxTGQ2SWNtTzJyb2lWTmljQjJPc1ZnczV2Q29s?oc=5",
           "pubDate": "Mon, 29 Jul 2024 02:43:19 GMT"
         },
         {
           "title": "Diversity Report",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU2hhUFVrX0FKc2dUZUtxcGttNEpmZXdEcEpzZC1QZGpOSHZUQXl4UUk5MnFNNFY1VlNtS3FzZmhIaVlaX1NxNDVfOW1OMHYwUWEyM3ZJSG1RcVFVdzBsbFA0YjhFZDFZdkFsZnJDajN0OVpoYnl1LTlDcjFiWHlfV0QyWGZlRmc2UkxNNkZNV1pndmloQk00?oc=5",
           "pubDate": "Fri, 01 Nov 2024 06:38:02 GMT"
         },
         {
           "title": "Diversity and Inclusion",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWN6cHZmR2gyaTEzeHAzVlk5azhZVVJXZjY3MldsTkRkRVJhUUxUTTEzV0VadVdEWVlRaTVhVFZ6UkhqYTVhekc1LVp4bkRrUWF1bGdHMEFYM1BhOVBlUUN1VEpDTFFqei1ERjJnT0lEREh1dm5SNXp6OC1tYktxdXlHMXBub1NpUERCUGVickl5SDF4TWc?oc=5",
           "pubDate": "Tue, 20 May 2025 20:30:48 GMT"
         }
@@ -443,12 +443,6 @@
         "query": "site:smtg.jp OR site:smtb.jp"
       },
       "items": [
-        {
-          "title": "Sustainability Report",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdktvS3R5UTZLWjgtNWktNFZTRkVSeXVWb1Vnclp3Q0VQOTgxa0czcVI2cklRX09KM1N6Mmx6WmpfZFVtblZQMTJBVWZkWDRzNFF1T1NsT0xhZ0toUEhDbS1GYVZlcU5VVzNhU1RNVkR2RzdyUEhtN0NTMU9MZ09GdEJNVll1cTVSbFhmQnp3dzNGeTRrZjB2bzFsTDJrNEZfNmww?oc=5",
-          "pubDate": "Tue, 15 Apr 2025 04:49:36 GMT"
-        },
         {
           "title": "Reports (Sustainability) | Sustainability | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
@@ -502,6 +496,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CQ2U4RWJaV2UzdXBwRVltbXJrQUdWNlU2anZkWlBLWUQ5V0dNamlGNm1mNGhld25sMmU2R3dkTnNJelJhN3FqeDJHZUhqVjhJam9Xd0pidUQ5THA5VjI0?oc=5",
           "pubDate": "Mon, 24 Feb 2025 07:53:11 GMT"
+        },
+        {
+          "title": "Covered Bond Valuation Investor Report",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEaUlPdkl4WVBaeHhUb05FTFVhMjVBaXB2S2YzQk1adTZzRWxqVHVRNkdycXd6NWc5Y3V5ZVpLTW5LSTRkRnlQY2liT29BTHNrSm1rMGw5dVFEUmZtazgyR1B4OElnUVozQkJsaGdmZVc?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 09:00:24 GMT"
         }
       ]
     },
@@ -585,31 +585,31 @@
       "items": [
         {
           "title": "Associate/Senior Associate (12 months contract), Data Management (Data Sourcing Business Analyst)",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSFFZSkF3aHpSdjZpUFB3TUFVOVFwbTJNcEtmUWZfNDRLUkNZSXNHWm8tTGhUZi1mS0ttQWpxcGJLdG1mTmxCdkJTVlF2V0ZNVjluWnIwUDhScElKcXdyZU9YTXRzRlE3WTQ0RDUyQldLT2FKd25jQ0lnUkh6aEwxQmRoNDB5LU1zTkUtaFllVTRPLTFBRXAxZl9sWW11Q25VMlN3WE8ybnFTcDZfajNrQi0yb1J0RkNwVF9VX0c0R04xQzFsbFEzQnZZZE01eGdvWUEzemdNY1N3Sy1tTFJNcQ?oc=5",
           "pubDate": "Wed, 29 Jul 2026 18:48:40 GMT"
         },
         {
           "title": "Campus Recruitment Event - Temasek Countrywide Networking Event (Singapore) - Wed 2 September 2026",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUE56RHRrdlFnNkhEZWhnaG9CSFgzVjVkN3lrdWdqZld1Q0FVTlFmcVFLaXFQMGpEOTlGWVgxMkVmYjVPZ3ZVUG1jQmhsbFRoUHZadzVIQ1dtV3NGZGVpWXJ0MlNZYlpaVGUyc24tX2ZLNHBVTmRiRVlXSmYtV2hwcDFlbHFtTE1GaXNPZWc5QmphN2FHVGhCd3QwNldQTFM1MkNqWV9OdGxWVVIwNnpDTDdTZ3BJc094V2toa1NRU295RGpjS0VuMTZCVjBJT3pXZjhtNldZaEphYy1wSGZHRS1vaw?oc=5",
           "pubDate": "Tue, 04 Aug 2026 05:44:54 GMT"
         },
         {
           "title": "Senior Associate/Assistant Vice President, AI Product Manager Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRUJ5czdWcVJmblFpYkZEckNobUNlLXBZN2RhdGk1MnlrVWkzcWhDemtjSkMyaXl1MHpMYjg2a3ZkUUduMXhpS3VhSmo2TC13YjFjLTFxdTAzeFNtbWlqaktmVHBMVnBzazNKNm15Y0NBNktmbEVnckNiTHlrNzlENFhlNkZHMzhYSXFmVHdzNHRtTmJyM0twWV9BTVhDeDI1akszT0lVZkJIUkFCdDA4R0hINA?oc=5",
           "pubDate": "Thu, 30 Jul 2026 17:27:59 GMT"
         },
         {
           "title": "Associate/Senior Associate (12 months LOA cover), Institutional Relations Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVmVXT0JxWU5MaVdXcHhpUE9KX19MN19nck82VHFzVlBzRTZTNEJjT2d0dU1BUFBEbmRxcmFIWF82SnRMLTdVMFZLX3lpcVM2Smh1bXh4NTQtclRDNmpzN3F2dGROWHJ3ZXA4MkpWTVY5bmVzM3oxQlU3MjRRZUZzZ3FlZWRSbHpneUtIYTBPRVpqYmw1U3hkc3h2YXg3NTR5X1VxMURFNXpYSmc4MjBQYzRkcVAyOFp0WnNzMEhCRW9jekxrQk5XMA?oc=5",
           "pubDate": "Wed, 29 Jul 2026 17:27:14 GMT"
         },
         {
           "title": "Vice President, Portfolio Risk Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMWU4Sy10eEJNYk1JNGo2ZDdoZ2tyWVlwckhPQlhZRXRSa203a2FJMUZ1cWpuSDdDV3RWa1VGZ2xMZFhWOTdaeTRoLVpScTB2M3UtamRpMnc5MUZCRExuRDIxeUpWLXFSbXBjWFJ2aVh4TTdXb0tZWlVzdG0tMjRjQjNUNHlaRFRPYXJn?oc=5",
           "pubDate": "Tue, 04 Aug 2026 05:44:38 GMT"
         },
@@ -633,7 +633,7 @@
         },
         {
           "title": "Senior Associate/Assistant Vice President, AI Fluency - Adoption and Change Management Specialist",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGxlWTdDc2o1eXhDcnh1UFJXQXJwZE1DeTIySHhaMHUycEZ2R2NtXzM4eURlU3E0NDFmVkhsbmZzVmhiN3cwOEZVV2hWSWhpMEI4SkxLdFc2Tk9Iak40QV9VMm55WEFMcEVuUy0yS205OFFGbWNsS29UOXFMTnJ3T3pON0pvcTFDREhZcS1xbUdFVkJmSFBKMGFxVVcyOWtyX0VteHF0dDZ5Z1kxS1JsZEs3SGpucElQTzZ4eVpXY2VGMTN6cFMtRWJNak1OQUE3RkRjMGJWR0R5TEhXNWFzTw?oc=5",
           "pubDate": "Fri, 17 Jul 2026 03:58:06 GMT"
         },
@@ -655,7 +655,7 @@
       "items": [
         {
           "title": "AVP/VP, Business Manager, Investment Insights Group",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWNWUmJJeW92VzU0OVh2YUdNVERGeE1HX3VuVTZyWkdMVDJSSS1WQWk1WHFid1l3WGo2dEtPeXJ0bEx3WExyMGJUZUszblZ0RUt3TTVXemN2SERuQ3dkRXRPeFU3MXNJam52bE1fekRDaVc1cWFLeHJQQUN5bmhlZ1VNR3BjY2NyWGVNcTA0dUxvVUVlcENsbGNxMEJ5aHZVb2VaRkZFMW9RODQ?oc=5",
           "pubDate": "Mon, 03 Aug 2026 13:39:21 GMT"
         },
@@ -667,7 +667,7 @@
         },
         {
           "title": "Portfolio Manager, Treasury, Balance Sheet Management Group",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU1sOG81UkNhRTNhMHRGTDU2dFVRWjdVODMyUG5KbkwtMHdvZHJmY29DWUJDTlNPRkFaSVNucDk2cGh1OUQzZmVRakd5Nkhva19LaHJzNkIxWG80aTYtMWFMcXAtaC13YzI4SFhIVXR3RWY1RTNPNkJmSTEzTEpPVGptQ2F6SlFnLTNtQ0JMX21QOUlLLVQtWXVRQ25UMzRGZzlQLWRzcndTbEowRzRhWmdrVmVnX28?oc=5",
           "pubDate": "Wed, 08 Jul 2026 23:39:09 GMT"
         },
@@ -709,7 +709,7 @@
         },
         {
           "title": "Associate, Vendor Operations Administrator, Technology Group (1 Year Contract)",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEhoa01hWTUtazJEZ1pTNVg0SDg1bGlnaG1wdW9MOGxhemtKNXBiSjRXS0dPb0tnbGpWNDZpZ0JjRVNfT1FPTEdFN0RYSkZFYWs1WjhIb0l5UU51eWtBb2NnU3plXzBnVV9wUWdBMzVUR2JVRXJYNEx4VVJXTFFuX2dpdUZVMFZ0NXBXckY1cVp1RHpWX0hNczI2NExIeXFWVzRaZkQtaWZSYjZTTk5WZG9yelR2eHJqeWhBcjBQVGVCMDQ1aGhIaTJzWEFMY0pqdEtla3hR?oc=5",
           "pubDate": "Mon, 15 Jun 2026 15:19:27 GMT"
         }
