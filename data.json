@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T05:55:44Z",
+  "generated_at": "2026-08-10T07:47:13Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 106200.0,
-      "change": -3800.0,
-      "changePct": -3.4545454545454546,
+      "price": 106400.0,
+      "change": -3600.0,
+      "changePct": -3.272727272727273,
       "currency": "KRW",
       "prevClose": 110000.0,
       "dayHigh": 108900.0,
@@ -272,20 +272,20 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1685.5,
-      "change": 5.0,
-      "changePct": 0.2975304968759298,
+      "price": 1678.5,
+      "change": -2.0,
+      "changePct": -0.11901219875037192,
       "currency": "JPY",
       "prevClose": 1680.5,
-      "dayHigh": 1687.0,
+      "dayHigh": 1688.5,
       "dayLow": 1660.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3074.0,
-      "change": -114.0,
-      "changePct": -3.5759096612296113,
+      "price": 3087.0,
+      "change": -101.0,
+      "changePct": -3.168130489335006,
       "currency": "JPY",
       "prevClose": 3188.0,
       "dayHigh": 3197.0,
@@ -556,12 +556,6 @@
           "pubDate": "Sun, 25 Feb 2018 19:58:30 GMT"
         },
         {
-          "title": "ESG Investment and Financing | JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5bnRSbkF3dkc5bXJuV0tKdG1rRjBPd3hPblIyMDRFVkRjb0xub0l2RWh4dXBYY3AtZGNfdU1ZbFpmdlkxM2ZKWXNLaDVqdGxmNWhvMURSbkRzMGlYUU5ibUlHdFVUeGVYcG9kVjQtQWV2WnBXRzZSeElhbnBBM2s?oc=5",
-          "pubDate": "Thu, 12 Jan 2023 17:40:53 GMT"
-        },
-        {
           "title": "ANNUAL REPORT",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ybGsxTXg1Q0lNSUtZTEhoSnRpVXQ3amZXVG51YUV1SlFYeW5fSlFvVmw5WEt4UEFaM0t5RTh5REo1NXBiVmx0Y2ZBdGU5TVRKMEstc21pa2s3eGZQOWpyLV9KUHBSZW93Wk5TVjRwRTk1Si1ORUtiNGQ2LVVvQQ?oc=5",
@@ -572,6 +566,12 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ01TeUdJcmhoZUNLZFk5X0pacXlHNzVuOEZiNWR5VWE2QVpjdERHY0dQSklzNFE0SngtYThqSlFKNEEwNUxnaEhBYTY2dlF5ZS1mbEtXMDE2elhMUFdhSlY4a2taX3JILTZVcnpqUGE5bkwtZGMzdGxqaUlVd1BQQjh3?oc=5",
           "pubDate": "Wed, 07 Apr 2021 01:46:45 GMT"
+        },
+        {
+          "title": "External Assessments and Endorsement of Initiatives",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LcnJrRHNpd1lUU0RYQVgzbjhWY3lEdHQ4Q3JEZzk3WGF6Q19sREVqRWxzVDVGUTRUdVlzZGNDaUpxZDE3Z3dNTEw4dlZoOEdzdkMxV3pVNC0yaHZGNm1fdGN4UjhlSkRGOVU5NHdtYw?oc=5",
+          "pubDate": "Fri, 10 Dec 2021 11:47:32 GMT"
         }
       ]
     },
@@ -795,63 +795,63 @@
       "items": [
         {
           "title": "2 April 2012",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8ySHBuZTVEYngzUEFqVU8tUElvaUhxUWdUNFprYnE4NUdOV2NVWEJzc2JKZjN6cl90RmI5SDZQQko3R0NOcWdteW9QaElKUkZuU2NKckYwSVRiY09aVk9WbVEwVVJXSDBfUFpRUkNwc0F2ejN4TWRMNG1B?oc=5",
           "pubDate": "Mon, 02 Apr 2012 07:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOGtzQzVFdG5Lb1JxX01hV3FtYTlIeTRoYS1LMTI0Rnd1azhaTm5vcEFtU3F3bnFzcmNzOThJZ2lkclFseDJhX1VSSjJMWTVpQXltR29rcEM5WEU?oc=5",
           "pubDate": "Tue, 18 May 2021 07:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:21:28 GMT"
         },
         {
           "title": "Benchmark │ Our Portfolio │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MzNRUTdUS3luTkxmZWVTc1JnaTdTMERod01JTGIzWmhtN3MySThvUkhPeXl3OV96c21XLXgyM0o5aUJzek5QOVI1NDIwaXZ2Sm16SmtQY05BcU5zNG9nZHp3?oc=5",
           "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
         },
         {
+          "title": "Untitled",
+          "source": "kic.kr",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
+          "pubDate": "Fri, 12 Sep 2025 17:18:18 GMT"
+        },
+        {
           "title": "Press Releases",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
           "pubDate": "Fri, 28 Feb 2025 08:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
         },
         {
           "title": "PRESS RELEASE",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
           "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
         },
         {
           "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
           "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
         },
         {
           "title": "2018 Annual Report | Reports │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KV3RwY3dBZEh4S25QRmczTXpYbW9NMGpEZWpUeDI2clhGSEVvT2pNOFVhTjFJYzFSWkVybVJEYWYtYm05WnhqX0JxN0dyZw?oc=5",
           "pubDate": "Thu, 30 May 2019 07:00:00 GMT"
-        },
-        {
-          "title": "Client Privacy Notice│ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Ca2pUOElDNW9yX1ZLeE5KM1VyU3FoQktBUmszNHhiNzZQS19lcExYRU9qekozcE9tUllaQ1pIa3NGNlVfTTNQTkxTaUM?oc=5",
-          "pubDate": "Sun, 22 Jun 2025 09:03:18 GMT"
         }
       ]
     },
@@ -934,6 +934,12 @@
       },
       "items": [
         {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
+        },
+        {
           "title": "Hostplus members rewarded with strong FY26 returns",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbVhWNFVTbmZqanMtaVpnOWJzWGxzX0d4V0xXY0UxbjRZekRFeFhQTGRVQ3JlMV90a1FCN3hOZTlLRmhncG5DZlZyRUkzWW9tQ3VOWlJ2ZURtbzN2bUZFQ2VxODl2S09meEVfZGRxdlByaTAtZjNPWTByRU1zeDk1VmNGc1MtLWhQTE52ei1hZHlEZkk?oc=5",
           "pubDate": "Fri, 29 May 2026 19:06:18 GMT"
-        },
-        {
-          "title": "Indexed Defensive",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOalFwTUhnU2lwenROOGlzYmNWUlFQekxSZlQ0MHByaXB1ZTRjRW9EQzhYbnh3Uld2R0pGdHR0dExaVm4ybzJJaFR3XzVsUUcwMTNLY2ZlZnBhMU5DYWh5NnBSMUUtMVROYWZVLWxlTVJPT2Jmb2FZQjJibEg5WkRGRWxtN2RpLTNYX2RaTlNZTEgzOGdWSmtINDl1QVM4cGpaeUNCY0JBdU1Md1J3eTQzdzZPVHBUdHRnUkpuNGxBekZiUFVoSndTVFB3?oc=5",
-          "pubDate": "Mon, 29 Sep 2025 19:16:46 GMT"
         }
       ]
     },
@@ -1086,12 +1086,6 @@
           "pubDate": "Thu, 29 Jun 2023 16:16:45 GMT"
         },
         {
-          "title": "Reports and Publications | Nippon Life Insurance Company",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
-          "pubDate": "Tue, 19 May 2026 21:33:38 GMT"
-        },
-        {
           "title": "Global Subsidiaries, Affiliates, and Representative Offices | Nippon Life Insurance Company",
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Balh0NVZTak1keXRMNVNLZllrVEIydlltalVKamFGTlFhVjE1SUdic09OY1F6SldZTi1EVmhmcEsxYXBXaEcwLURYN0pMRDd6cTY3ZmJDd0l3OVlvdTlPdUs3OFhqN2UzbnFMUDZ4N252QldvZnY4LXp3?oc=5",
@@ -1120,6 +1114,12 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1MnZuUlhnTk5nQ2RUbU9JUlUxOF9kb2V2bi1xUEZoa1o2XzFOMDEweC1GZ1hZdmNpQUVweXViRVppd3VxblFEdHYxLXZqYkhEVERIcVp1R2RzQnZ2Qk9ObEZ2RQ?oc=5",
           "pubDate": "Sun, 23 Nov 2025 22:15:14 GMT"
+        },
+        {
+          "title": "Reports and Publications | Nippon Life Insurance Company",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
+          "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
         },
         {
           "title": "Announcement of the Scheduled Date for Partial Transfer of Nippon Wealth Life’s Investment Management Functions to Enhance Nippon Life Group’s Investment Capabilities",
@@ -1214,12 +1214,6 @@
       },
       "items": [
         {
-          "title": "Sustainability：The Norinchukin Bank",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YRHR2UjFvaE11TTZUZnV5NmxlY1FUR3pUUUlLSEZWTEluNkZTSnpSMXA5Ynl0cFphb3g1Qzg2UWJxOS1kdF9mRy1Ra3Z0Uk9icVh1akFpcnFSQQ?oc=5",
-          "pubDate": "Wed, 01 Sep 2021 12:15:00 GMT"
-        },
-        {
           "title": "Corporate Outline：The Norinchukin Bank",
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDUUhnekJiOXAtLXZ5RlBrc3p6aGtzZ09xRHVTclpaOG1PUUY5Zmh5Y01ER1h6QVJzTjhuYi12ekpFdFlVeHN4cktLVXBQQXBOMWplMjJVRE1qMm1EZ2c?oc=5",
@@ -1254,6 +1248,12 @@
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LWWNpbk1XSGh1Zm93a01IMk1sa29TTHExSUtkMGxzZWlzdkxpZzZBdXljTjBqZEYzalZ5dVVpUGpqa0liQWlxLXh0OTlFZw?oc=5",
           "pubDate": "Mon, 23 May 2016 04:54:03 GMT"
+        },
+        {
+          "title": "Sustainability：The Norinchukin Bank",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YRHR2UjFvaE11TTZUZnV5NmxlY1FUR3pUUUlLSEZWTEluNkZTSnpSMXA5Ynl0cFphb3g1Qzg2UWJxOS1kdF9mRy1Ra3Z0Uk9icVh1akFpcnFSQQ?oc=5",
+          "pubDate": "Wed, 01 Sep 2021 12:15:00 GMT"
         },
         {
           "title": "News Release 2025：The Norinchukin Bank",
