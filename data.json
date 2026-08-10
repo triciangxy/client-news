@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:47:13Z",
+  "generated_at": "2026-08-10T09:25:09Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.45,
-      "change": 0.29999999999999716,
-      "changePct": 0.404585300067427,
+      "price": 74.5,
+      "change": 0.3499999999999943,
+      "changePct": 0.47201618341199497,
       "currency": "HKD",
       "prevClose": 74.15,
       "dayHigh": 75.4,
@@ -456,12 +456,6 @@
           "pubDate": "Sun, 23 Feb 2025 18:14:49 GMT"
         },
         {
-          "title": "Notice regarding Change of Directors and Executive Officers in Sumitomo Mitsui Trust Group and Sumitomo Mitsui Trust Bank",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QcDJsU0tINWRKb09oUjF5WjlOaXdQbTZMREYzdElxVWlnU0R5WE1tX05aM2lVQU9PWkZ2YkRXSTBhbnp6bl9uRFJ2TXBlUjh0SnBHaUY3VkRYMVpzQ1VkdkpESy1jVXY5enItVmVjT2tOM2MzZ1dfd1d2QQ?oc=5",
-          "pubDate": "Thu, 26 Feb 2026 08:00:00 GMT"
-        },
-        {
           "title": "Management Strategy | Company information | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oX2dOdGlRN3NiSTZpS0s4eDhpdXNzdU9GQThmSHRtaDNjeV9aalc5YkxYQjJ0elhhY0tDZDVpZTFxMEdhcE43Z2FncV9WSVV4Ym5TVExKVG0?oc=5",
@@ -502,6 +496,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEaUlPdkl4WVBaeHhUb05FTFVhMjVBaXB2S2YzQk1adTZzRWxqVHVRNkdycXd6NWc5Y3V5ZVpLTW5LSTRkRnlQY2liT29BTHNrSm1rMGw5dVFEUmZtazgyR1B4OElnUVozQkJsaGdmZVc?oc=5",
           "pubDate": "Mon, 24 Feb 2025 09:00:24 GMT"
+        },
+        {
+          "title": "SuMi TRUST Covered Bond",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LMm92aFVjUGNpejlpbl9CaU5iRHVGaTRxa0l2TXdWQW1wMEFxalI3SklhMnNia2ZTaTFIaUVVTlVXTXFDUjBEM2diRTdzdmFndUdKSWQ0V1lTODhVR2UwZm4wRWczTDJVOFE?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 09:05:22 GMT"
         }
       ]
     },
