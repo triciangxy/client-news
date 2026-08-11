@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:28:22Z",
+  "generated_at": "2026-08-11T07:47:45Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.15,
-      "change": -1.3499999999999943,
-      "changePct": -1.812080536912744,
+      "price": 72.95,
+      "change": -1.5499999999999972,
+      "changePct": -2.080536912751674,
       "currency": "HKD",
       "prevClose": 74.5,
       "dayHigh": 74.45,
-      "dayLow": 73.05,
+      "dayLow": 72.8,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104700.0,
-      "change": -1700.0,
-      "changePct": -1.5977443609022555,
+      "price": 104500.0,
+      "change": -1900.0,
+      "changePct": -1.7857142857142856,
       "currency": "KRW",
       "prevClose": 106400.0,
       "dayHigh": 106700.0,
@@ -544,12 +544,6 @@
           "pubDate": "Sun, 25 Feb 2018 23:43:44 GMT"
         },
         {
-          "title": "Quick Guide to “Yucho International Remittance”",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yM2IwMFZETGpPbi1hRXFTaEYxZ0FyNXZhRjkwODgwQUFTbmYzSXJrRDdQVUxIRVdEUTVfWU5sZHFnRHBrZURGTVRuYWdlVE0wVlBlOFFSNURtU3NPakRpMjB1Z1k0VHdlM0dLaW1ZelJIb2c?oc=5",
-          "pubDate": "Fri, 31 Jul 2026 02:39:08 GMT"
-        },
-        {
           "title": "ESG Investment and Financing | JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5bnRSbkF3dkc5bXJuV0tKdG1rRjBPd3hPblIyMDRFVkRjb0xub0l2RWh4dXBYY3AtZGNfdU1ZbFpmdlkxM2ZKWXNLaDVqdGxmNWhvMURSbkRzMGlYUU5ibUlHdFVUeGVYcG9kVjQtQWV2WnBXRzZSeElhbnBBM2s?oc=5",
@@ -572,6 +566,12 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83eVBSbVBKT0NwMmQxaGxJV3ZYWDRDaFgtRFBCZGl6SUdscFNtZE1tLVQ3YzEyQTlZOVAwX1NTQ0RzU3R2bFVoXzNnT3U2SVdIV1JHdHZNU3c1UzVPVGM1V0pLMjZEZw?oc=5",
           "pubDate": "Sun, 25 Feb 2018 19:58:30 GMT"
+        },
+        {
+          "title": "External Assessments and Endorsement of Initiatives",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LcnJrRHNpd1lUU0RYQVgzbjhWY3lEdHQ4Q3JEZzk3WGF6Q19sREVqRWxzVDVGUTRUdVlzZGNDaUpxZDE3Z3dNTEw4dlZoOEdzdkMxV3pVNC0yaHZGNm1fdGN4UjhlSkRGOVU5NHdtYw?oc=5",
+          "pubDate": "Fri, 10 Dec 2021 11:47:32 GMT"
         }
       ]
     },
@@ -585,7 +585,7 @@
       "items": [
         {
           "title": "Associate (12 months contract), Organisation & People (AI & Data Analytics) Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU3A1R2I2WXJObFZoVWJaWnJSczNvQndkRXUxMjlRdUxVcEtGT3JCeDAxTjhGSFoyUm1qckNPakx6czhwaU1lUVNoc3VhVlBXU0FZQzFyb3FrRE1ZTkxzWUQ1clhyN3JQa2I0UEJRVi1ETjNkRm1uX0tGaUREMzlma3V2MUVrWGpaNzlvSVlzU1RqNEViVEVPUHhsRG9iUF9jcC1YUjZYdHd0WlVGRFhOUVRoUlNCSmlwNTRkOVJzaW05VlRIclI1bUdSTFItWFdoTlE?oc=5",
           "pubDate": "Wed, 05 Aug 2026 14:13:45 GMT"
         },
@@ -597,25 +597,25 @@
         },
         {
           "title": "Campus Recruitment Event - Temasek Countrywide Networking Event (Singapore) - Wed 2 September 2026",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUE56RHRrdlFnNkhEZWhnaG9CSFgzVjVkN3lrdWdqZld1Q0FVTlFmcVFLaXFQMGpEOTlGWVgxMkVmYjVPZ3ZVUG1jQmhsbFRoUHZadzVIQ1dtV3NGZGVpWXJ0MlNZYlpaVGUyc24tX2ZLNHBVTmRiRVlXSmYtV2hwcDFlbHFtTE1GaXNPZWc5QmphN2FHVGhCd3QwNldQTFM1MkNqWV9OdGxWVVIwNnpDTDdTZ3BJc094V2toa1NRU295RGpjS0VuMTZCVjBJT3pXZjhtNldZaEphYy1wSGZHRS1vaw?oc=5",
           "pubDate": "Tue, 04 Aug 2026 05:44:54 GMT"
         },
         {
           "title": "Vice President, Portfolio Risk Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMWU4Sy10eEJNYk1JNGo2ZDdoZ2tyWVlwckhPQlhZRXRSa203a2FJMUZ1cWpuSDdDV3RWa1VGZ2xMZFhWOTdaeTRoLVpScTB2M3UtamRpMnc5MUZCRExuRDIxeUpWLXFSbXBjWFJ2aVh4TTdXb0tZWlVzdG0tMjRjQjNUNHlaRFRPYXJn?oc=5",
           "pubDate": "Tue, 04 Aug 2026 05:44:38 GMT"
         },
         {
           "title": "Senior Associate/Assistant Vice President, AI Fluency - Adoption and Change Management Specialist",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGxlWTdDc2o1eXhDcnh1UFJXQXJwZE1DeTIySHhaMHUycEZ2R2NtXzM4eURlU3E0NDFmVkhsbmZzVmhiN3cwOEZVV2hWSWhpMEI4SkxLdFc2Tk9Iak40QV9VMm55WEFMcEVuUy0yS205OFFGbWNsS29UOXFMTnJ3T3pON0pvcTFDREhZcS1xbUdFVkJmSFBKMGFxVVcyOWtyX0VteHF0dDZ5Z1kxS1JsZEs3SGpucElQTzZ4eVpXY2VGMTN6cFMtRWJNak1OQUE3RkRjMGJWR0R5TEhXNWFzTw?oc=5",
           "pubDate": "Fri, 17 Jul 2026 03:58:06 GMT"
         },
         {
           "title": "Temasek Summer Internship Programme 2027 - Investment Group (Singapore) Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1I0TEg3TXZUN0lFQk5WbXdsWWdQcDQ2VnZuMGxtQ29VZGtHWERDSDQweTRfSFQ3SjBDWGliaWNuMDViRzdlSVFUSTg2YXB0T3ZFbjV1dFBWdHcwMklDb3ZoU0t4MGFDNWdPVzFQeWppbWVLVHNKRWt4ZGdmVDFHQlVXQ2hjdGpFckZqZWhXX0VpUHVnVnFXclR3V1JuYnZtbFZ4NjZqNW43SWstbDBnYnA3eGNEVkVrTXhqY09qcDVkQQ?oc=5",
           "pubDate": "Fri, 17 Jul 2026 04:44:01 GMT"
         },
@@ -653,6 +653,12 @@
         "query": "site:gic.com.sg"
       },
       "items": [
+        {
+          "title": "Who We Are",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nUnRlazljZkZ6bWZ2Z1ZxOGtnMkhrazY4Vy0tOFlNU1V3clliNWt0YTFHRlNaUW9yWnFQeXlrbW9JVlAzVk1qRmxn?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
+        },
         {
           "title": "Associate, Treasury & Cash Operations, Finance Department (Contract)",
           "source": "gic.careers",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdE0ybmFIWGoxRm8wR3VCeU1pSmFwV2poWW5PQzRkVElKeGhiMmFUSXZ3cFBXWTZtaFRtNGNwS1JGOVVReW1PSld3ZmN5eVR6ZV93QVlqcll6N3FKLXhzYkJyNVc4V1daZmk2Q0FRZGN0NmlQd2gxRVgwMU9kT1pHVmRoU2xIbFh1QjVvWXBqX3BJT0JkRXVIYXBTemU0bjBNU2M1ZWtub1VGcG9vM1h2YQ?oc=5",
           "pubDate": "Tue, 15 Oct 2019 07:00:00 GMT"
-        },
-        {
-          "title": "Associate/AVP, Data Scientist, Internal Audit Department",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR080bzgyWlBJZFBXelFXTmtaaHBPS0dEeFBuekgxQVBvdTlVaXpsaTFqRFRUX09Vem1JbDhJOWV1OHFRb0J2UHExa296OHRma0pSSzNLNmJqVVBzMGNpa3VZUF9PMnVkcHlNakMyUVkxZXFkdzkxbFFHdnlOcDFoRWpJX3JlejROUGpFcVBoMTZzMnVLZWhkMjlPbmwySzRtTlNSVUJMZ3RteTJWYVZTZ2xB?oc=5",
-          "pubDate": "Thu, 06 Aug 2026 18:40:32 GMT"
         }
       ]
     },
