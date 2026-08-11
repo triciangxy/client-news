@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T03:47:01Z",
+  "generated_at": "2026-08-11T05:11:33Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.35,
-      "change": -1.1500000000000057,
-      "changePct": -1.543624161073833,
+      "price": 73.2,
+      "change": -1.2999999999999972,
+      "changePct": -1.744966442953016,
       "currency": "HKD",
       "prevClose": 74.5,
       "dayHigh": 74.45,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 105550.0,
-      "change": -850.0,
-      "changePct": -0.7988721804511277,
+      "price": 104800.0,
+      "change": -1600.0,
+      "changePct": -1.5037593984962405,
       "currency": "KRW",
       "prevClose": 106400.0,
       "dayHigh": 106700.0,
@@ -544,6 +544,12 @@
           "pubDate": "Sun, 25 Feb 2018 23:43:44 GMT"
         },
         {
+          "title": "Quick Guide to “Yucho International Remittance”",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yM2IwMFZETGpPbi1hRXFTaEYxZ0FyNXZhRjkwODgwQUFTbmYzSXJrRDdQVUxIRVdEUTVfWU5sZHFnRHBrZURGTVRuYWdlVE0wVlBlOFFSNURtU3NPakRpMjB1Z1k0VHdlM0dLaW1ZelJIb2c?oc=5",
+          "pubDate": "Fri, 31 Jul 2026 02:39:08 GMT"
+        },
+        {
           "title": "ESG Investment and Financing | JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5bnRSbkF3dkc5bXJuV0tKdG1rRjBPd3hPblIyMDRFVkRjb0xub0l2RWh4dXBYY3AtZGNfdU1ZbFpmdlkxM2ZKWXNLaDVqdGxmNWhvMURSbkRzMGlYUU5ibUlHdFVUeGVYcG9kVjQtQWV2WnBXRzZSeElhbnBBM2s?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83eVBSbVBKT0NwMmQxaGxJV3ZYWDRDaFgtRFBCZGl6SUdscFNtZE1tLVQ3YzEyQTlZOVAwX1NTQ0RzU3R2bFVoXzNnT3U2SVdIV1JHdHZNU3c1UzVPVGM1V0pLMjZEZw?oc=5",
           "pubDate": "Sun, 25 Feb 2018 19:58:30 GMT"
-        },
-        {
-          "title": "External Assessments and Endorsement of Initiatives",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LcnJrRHNpd1lUU0RYQVgzbjhWY3lEdHQ4Q3JEZzk3WGF6Q19sREVqRWxzVDVGUTRUdVlzZGNDaUpxZDE3Z3dNTEw4dlZoOEdzdkMxV3pVNC0yaHZGNm1fdGN4UjhlSkRGOVU5NHdtYw?oc=5",
-          "pubDate": "Fri, 10 Dec 2021 11:47:32 GMT"
         }
       ]
     },
