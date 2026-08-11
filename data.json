@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T07:47:45Z",
+  "generated_at": "2026-08-11T08:59:56Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,13 +250,13 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.95,
-      "change": -1.5499999999999972,
-      "changePct": -2.080536912751674,
+      "price": 72.85,
+      "change": -1.6500000000000057,
+      "changePct": -2.2147651006711486,
       "currency": "HKD",
       "prevClose": 74.5,
       "dayHigh": 74.45,
-      "dayLow": 72.8,
+      "dayLow": 72.75,
       "marketState": "",
       "exchange": "HKSE"
     },
@@ -585,7 +585,7 @@
       "items": [
         {
           "title": "Associate (12 months contract), Organisation & People (AI & Data Analytics) Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU3A1R2I2WXJObFZoVWJaWnJSczNvQndkRXUxMjlRdUxVcEtGT3JCeDAxTjhGSFoyUm1qckNPakx6czhwaU1lUVNoc3VhVlBXU0FZQzFyb3FrRE1ZTkxzWUQ1clhyN3JQa2I0UEJRVi1ETjNkRm1uX0tGaUREMzlma3V2MUVrWGpaNzlvSVlzU1RqNEViVEVPUHhsRG9iUF9jcC1YUjZYdHd0WlVGRFhOUVRoUlNCSmlwNTRkOVJzaW05VlRIclI1bUdSTFItWFdoTlE?oc=5",
           "pubDate": "Wed, 05 Aug 2026 14:13:45 GMT"
         },
@@ -597,25 +597,25 @@
         },
         {
           "title": "Campus Recruitment Event - Temasek Countrywide Networking Event (Singapore) - Wed 2 September 2026",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUE56RHRrdlFnNkhEZWhnaG9CSFgzVjVkN3lrdWdqZld1Q0FVTlFmcVFLaXFQMGpEOTlGWVgxMkVmYjVPZ3ZVUG1jQmhsbFRoUHZadzVIQ1dtV3NGZGVpWXJ0MlNZYlpaVGUyc24tX2ZLNHBVTmRiRVlXSmYtV2hwcDFlbHFtTE1GaXNPZWc5QmphN2FHVGhCd3QwNldQTFM1MkNqWV9OdGxWVVIwNnpDTDdTZ3BJc094V2toa1NRU295RGpjS0VuMTZCVjBJT3pXZjhtNldZaEphYy1wSGZHRS1vaw?oc=5",
           "pubDate": "Tue, 04 Aug 2026 05:44:54 GMT"
         },
         {
           "title": "Vice President, Portfolio Risk Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMWU4Sy10eEJNYk1JNGo2ZDdoZ2tyWVlwckhPQlhZRXRSa203a2FJMUZ1cWpuSDdDV3RWa1VGZ2xMZFhWOTdaeTRoLVpScTB2M3UtamRpMnc5MUZCRExuRDIxeUpWLXFSbXBjWFJ2aVh4TTdXb0tZWlVzdG0tMjRjQjNUNHlaRFRPYXJn?oc=5",
           "pubDate": "Tue, 04 Aug 2026 05:44:38 GMT"
         },
         {
           "title": "Senior Associate/Assistant Vice President, AI Fluency - Adoption and Change Management Specialist",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGxlWTdDc2o1eXhDcnh1UFJXQXJwZE1DeTIySHhaMHUycEZ2R2NtXzM4eURlU3E0NDFmVkhsbmZzVmhiN3cwOEZVV2hWSWhpMEI4SkxLdFc2Tk9Iak40QV9VMm55WEFMcEVuUy0yS205OFFGbWNsS29UOXFMTnJ3T3pON0pvcTFDREhZcS1xbUdFVkJmSFBKMGFxVVcyOWtyX0VteHF0dDZ5Z1kxS1JsZEs3SGpucElQTzZ4eVpXY2VGMTN6cFMtRWJNak1OQUE3RkRjMGJWR0R5TEhXNWFzTw?oc=5",
           "pubDate": "Fri, 17 Jul 2026 03:58:06 GMT"
         },
         {
           "title": "Temasek Summer Internship Programme 2027 - Investment Group (Singapore) Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1I0TEg3TXZUN0lFQk5WbXdsWWdQcDQ2VnZuMGxtQ29VZGtHWERDSDQweTRfSFQ3SjBDWGliaWNuMDViRzdlSVFUSTg2YXB0T3ZFbjV1dFBWdHcwMklDb3ZoU0t4MGFDNWdPVzFQeWppbWVLVHNKRWt4ZGdmVDFHQlVXQ2hjdGpFckZqZWhXX0VpUHVnVnFXclR3V1JuYnZtbFZ4NjZqNW43SWstbDBnYnA3eGNEVkVrTXhqY09qcDVkQQ?oc=5",
           "pubDate": "Fri, 17 Jul 2026 04:44:01 GMT"
         },
