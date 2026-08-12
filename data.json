@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:39:48Z",
+  "generated_at": "2026-08-12T09:13:21Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -380,7 +380,7 @@
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
         },
         {
-          "title": "Shinhan Financial Group",
+          "title": "Shinhan Financial Group-SEC Filing | Form 6-K",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85RXkxWTc4aVYzTHhyaXJFMjkwb2E5aUR6MmlacU03U3lMQkplN0RjMlN5cmw2STZfYVlVS05GeVJfYURkbTE1RUk1djJMVk5UN21VSjY3LVFTS3BFdUJ3?oc=5",
           "pubDate": "Fri, 26 Jul 2024 11:25:57 GMT"
@@ -556,12 +556,6 @@
           "pubDate": "Sun, 25 Feb 2018 19:58:30 GMT"
         },
         {
-          "title": "External Assessments and Endorsement of Initiatives",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LcnJrRHNpd1lUU0RYQVgzbjhWY3lEdHQ4Q3JEZzk3WGF6Q19sREVqRWxzVDVGUTRUdVlzZGNDaUpxZDE3Z3dNTEw4dlZoOEdzdkMxV3pVNC0yaHZGNm1fdGN4UjhlSkRGOVU5NHdtYw?oc=5",
-          "pubDate": "Fri, 10 Dec 2021 11:47:32 GMT"
-        },
-        {
           "title": "Complying with the TCFD Recommendations | JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYVR6RnlTbVlTZEpST1lLU2pIWVMyVnduSlA2cGplZGtBZmQtdDBFZ3MyRE1XZVpKZVVJTndfTEo2UkxpX2VoR1NPVnp0OFByZklFdmtoNG9GTGxHNV9FSVJCbFRtWW9FaWdJRHhIMWl2OEVaU015QWpfNkNHeUFkb1VR?oc=5",
@@ -572,6 +566,12 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWHJoTTBaZTVuVG5xVVJ4RTVVc3lmYWZhT2I2dFVPYXN5MkZ0c0QtaFpDQUFnanpvSDhfR2lKWGZzX192Ri0xVWJhLVNxaEpHUzBZUXFHZHZ1VmVPU0dkdEdQYTZ6RngtS2lwRzQtcG1uNS10czdtS0FQSW56cWoyUkt3?oc=5",
           "pubDate": "Fri, 21 Sep 2018 08:39:23 GMT"
+        },
+        {
+          "title": "ESG Data | JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50TC1ZemRnRENkZl9nX3QxbG1LNUhzMzA3VEw2UUpVdHh0RjE5N0hZS0xHRE9EaW41dmhkTXRfUkNnNExBUG42QkVpcmxlTU1IUFBKSGlDY1MwZGdDcXRjNVJjQ1lQb1pyaUN6QlBIRDh0U25M?oc=5",
+          "pubDate": "Wed, 26 Jan 2022 17:51:59 GMT"
         }
       ]
     },
@@ -614,18 +614,6 @@
           "pubDate": "Tue, 11 Aug 2026 11:46:21 GMT"
         },
         {
-          "title": "Project Intern, Workplace Transformation & Administration (Jan - Jun 2027) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOeDZBRXJONDBCRWpwZ0k1MGFvdFRReHdKalktUWFZWGlHanVhWGU5cTU3NHoyc2NjRjhwckpGSjNvNkRXcWI5MkRzNXJiVm9PYlNubmNRbjFEeENKa0RQRmpST2NlVTZCZDltc0VtSWgzTnR5em5VbXRGWEVubks0TU1qSDBLdnl6UW01cUFuOFRjOWJmVkZyZTJMS2VZUHJycWFNSGlXVXItSHR4c3VFX1hFRkJzZGtwRC03YmwwMFRxYlRseE45UnY0NmVXLVlRaXpGTnpNTHA3UGJ2d0ZtbWltX2tnMHg0XzlTZFBsWnd0VzJBclhvMXRoU2hjZEVPR3c?oc=5",
-          "pubDate": "Tue, 11 Aug 2026 10:51:21 GMT"
-        },
-        {
-          "title": "Data Engineer Intern, Technology (Jan - Jun 2027) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2w4VDFOVDJiaGhSQVZ3OWtCSThVcVp5LW83NVhuOHVOWUVNSkxjNEtJQVgxdnNBTnhyTWJOMGVLU0pZdVZiMGxzOXFmWHVvLWY1UFFjbTlib1NEYmJDVEdpZGgybF9UcVNnWmw1b0JYTUJUaUc0SU5tek1iaXQxR2htUUZESUJfYWZvRko3V1VZOThoZnNjbHdDT0p0TkJMVkRzTVpvOA?oc=5",
-          "pubDate": "Tue, 11 Aug 2026 23:40:00 GMT"
-        },
-        {
           "title": "Campus Recruitment Event - Temasek Countrywide Networking Event (Singapore) - Wed 2 September 2026",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUE56RHRrdlFnNkhEZWhnaG9CSFgzVjVkN3lrdWdqZld1Q0FVTlFmcVFLaXFQMGpEOTlGWVgxMkVmYjVPZ3ZVUG1jQmhsbFRoUHZadzVIQ1dtV3NGZGVpWXJ0MlNZYlpaVGUyc24tX2ZLNHBVTmRiRVlXSmYtV2hwcDFlbHFtTE1GaXNPZWc5QmphN2FHVGhCd3QwNldQTFM1MkNqWV9OdGxWVVIwNnpDTDdTZ3BJc094V2toa1NRU295RGpjS0VuMTZCVjBJT3pXZjhtNldZaEphYy1wSGZHRS1vaw?oc=5",
@@ -638,10 +626,22 @@
           "pubDate": "Mon, 03 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "Off-Cycle Intern, Portfolio Strategy & Risk Group, PSRGO Partnerships (Jan - Jun 2027) Job Details",
+          "title": "Vice President, Portfolio Risk Job Details",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNNHcwUlZNU2NIOE9SUGU2MTFnSms0NUtkdm9IQXlYSW41NldkaTNFMUpKcmZZUXpYMnZNMi0zUi1vZHdISV9jX0RCRk1HaVZwbUdTdGhSVFNKMHhDR3dvYVdZZ1k1Qk5adnFVbzcweG9vcDVGc2ZOT1ZHM282VEFnTmtfeXJlckxlaUpEdXE3Sy1KUDlNdWZqVWVaeDd4cVU4MXBZOV9UaUYyXzg4a0RKTEZmaGNTRG5hbzNwcEpwVjE3U1ZmYmIxNjBYRFpuZ0p3bjB6WW9RNl9GaVBLVHhPVkt5czRqSzlLazZNVWwxOHR6X012Tk5EbW1pT1Q2X3pzRS01SHFvb2pSS2M3VmxkVDR3WEk?oc=5",
-          "pubDate": "Tue, 11 Aug 2026 13:33:02 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMWU4Sy10eEJNYk1JNGo2ZDdoZ2tyWVlwckhPQlhZRXRSa203a2FJMUZ1cWpuSDdDV3RWa1VGZ2xMZFhWOTdaeTRoLVpScTB2M3UtamRpMnc5MUZCRExuRDIxeUpWLXFSbXBjWFJ2aVh4TTdXb0tZWlVzdG0tMjRjQjNUNHlaRFRPYXJn?oc=5",
+          "pubDate": "Tue, 04 Aug 2026 05:44:38 GMT"
+        },
+        {
+          "title": "Temasek prices S$750 million Temasek Bond",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM2RDc3RITy14ZDhUckhXV2lKN0dvbm5nd0FxcXlxNkU3RnlsdFVrOTF0ZGY5czVHRktQSnJNSUYtaXpiWDVqb3hNV2RReEQwZG5Da1FEOUhVaUZaTG9CTk9Hcmo0WVB1ZXpDTUxYdlNVM2trcExGSHRRNHE4a2NmYW9rRGFxSUtHR0xNNHV5TTF5dFRMQXhXbVNpSE9rQXBiakRtRFk4Z0MtdTM4X3pN?oc=5",
+          "pubDate": "Mon, 03 Aug 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Off-Cycle Intern, Portfolio Strategy & Risk Group, PSRGO Portfolio Construction (Jan - Jun 2027)",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQcG9jZ0FFSFVGSC03MGVtRzVvdDhjR0otRW94NlZJWDRhU25rQXBSX3otNm5vRHR1YjBTQlJVUjBOakpEa3RiZGdiNXBIOEpsSENObEZqbEFSQUdvSXc5SGoxY1lyWEc0LXZDWXJqc1dBaEtrNk43RDVqMF8wWG1GdkNrZGlzYWs2WVY3TWMxMF95TGFXT25FUWVsUzJBTVJUdlppYnRvZGZ6SG80ajNDQWk5WGdGc2V4ZjdCNEx2WGRpdXJJZTFiZldQeXZBbm1TX045RzhvdXYtS0RlZ0RXZ0l4a0U0QU1u?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 17:21:20 GMT"
         }
       ]
     },
@@ -660,6 +660,12 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
+          "title": "Portfolio Manager, Commodities, Global Macro",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVk10TkJLc3VKNEVqRl95MlZnYklMTmQ3UFNUb205VjNHdkNJbHp5VG5MR0RsNTZBd3dVRDJFdGcxU0dnUFFKOWVucUNLQ2x5RjhyNGlTZXVNNlRTdVM1dUt0S1I0dXAwVW1PcHhfdXRXTG9QTmFfdW1aOWl2b3pNZzJIbVpQbEtFLWdTRU1XOU5LTlg0dW9tM1otQ1pZNExHVkg5OVdmOUhMSmVYUGN3VU5neUljOG9IX3dWMnpnc2U2U2Y5OE9wek5MUzQ3S0JUTmxCNXkyUnJGZXYwdVZtaTJxMTJVekNiejRZSQ?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 02:00:08 GMT"
+        },
+        {
           "title": "Associate, Treasury & Cash Operations, Finance Department (Contract)",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcndhQW1HOE9aMmV5d2ZSLTVicWRHQjFMTi03b21qRW9XLUZudFQ1ek9xUG1JS1VRVFNZN1RVSlMxTnNYVUd1cndlTEo4d01FQkpmc00tQTZSRzljNTc2blZoaTRqaS1zazFMTzBaR2NzLW9UMEhNalVWbTkyMUJVMkFNVDZfMHBnQnhySXR5SGotV21FMlU4SDljc205Rzl2ejJ5Tm9MVEdwY29tNzJxU1FJbktXOWhLcnRkaFotU3FzclRUR2NzNQ?oc=5",
@@ -676,6 +682,12 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclAzY1dDNXZPQTByVzhFZXFvUi1PTW5VZXc1ZmNRbFJ3ajNDQUswaG9DQ3gzOVRBTmlycmw1TWt4YkJfeXVTbDgzS01rMHFFdmtfa0tqMlkyd1lMOG83TE5RbXFqUHlkdHo4Wk1kTndzZ0NlR2ZGQkNzdWM5SXY2YjNIbV9LS3plVWtrMTdlTlZKUmNVb1pDZ2Z1MEViNjZC?oc=5",
           "pubDate": "Tue, 11 Aug 2026 10:55:55 GMT"
+        },
+        {
+          "title": "Associate/AVP, Category Manager (1-year contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVXUzRmg2WWYxTHcyc1pmMjRXeTdfeXZ4TVpPVEJvVnRJMlFhYWRYMlZDOGx0ZE5uQ2dYdXRDa0NuTTNwWC13SHZwN3RDRjhFRHFMSnJjTE4yekgzSGhYeG1wbDNQMFMtTUxSV1hBMGlMbmFDRDZySHdkeV9mYTVfSndPamZHUTh1MDdVX0tEeHQ3dmoyVWhhNkhpY0t1cGN4RERqeGdudEQyaGs?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 12:42:27 GMT"
         },
         {
           "title": "AVP/VP, Business Manager, Investment Insights Group",
@@ -700,18 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
           "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
-        },
-        {
-          "title": "Boon Chin Hau",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
-          "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
-        },
-        {
-          "title": "Deepak Parekh",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         }
       ]
     },
@@ -935,61 +935,61 @@
       "items": [
         {
           "title": "Home",
-          "source": "Hostplus",
+          "source": "mol.hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
           "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
           "title": "Hostplus members rewarded with strong FY26 returns",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
           "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "How to stay safe from sales tactics and scams",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
           "pubDate": "Mon, 10 Nov 2025 05:13:00 GMT"
         },
         {
           "title": "Indexed balanced",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWpfVWxUZTZLSjZBaWZuTi0xdVc4QnJPRkJNTG1aek03dGdTWi1qZjFVbVIxbE5TcmhPMVhJYTEzdHZESkk1aFpHUkxoVjJkNVAxV1E5RVp0dFJ2YUREdDFuWVVoYi1pSUdrUjk5aHpvQzhRdm5vSmhfdXhVS1QzaFN1bDdzME9oQzA3NDRzT0d6U2pHSEx3eXR6OGw3LTV5OHNCRnRhbWZZR3Z0amR6MXRCQ0tiR0puZ1lSd04tbzI3dmd2b084Rg?oc=5",
           "pubDate": "Mon, 29 Sep 2025 20:08:55 GMT"
         },
         {
           "title": "GOVERNMENT SUPER CO-CONTRIBUTION",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXJCQWZMSXd2VE5DSDFxVTlZZklFVERtYXdGa1MwNFVHRmJPRkl2U3QxTnFtV2Q0OTg5UzhOUndLcFhhaHpSa0VuQlJkUS13eHJ3OWhsT056NW1sLWpXSmlIbEZwVDBZYzhseWt5R3NhNnpkaWdwNUl0QVNFOHhIbkZmbDZvLUdzNVoxdXQtQWl4NDRZRUZrSHB4b1B0WHRkWTdEMmZ4X1V3YmZkVUJ1WW1rNzRCQ2U5cmZralBvX2dNUUgyWi1xZlBxQzZiRVFRSHJxUWZ1TGY4RzA?oc=5",
           "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "Meet our trusted Financial Advisers",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
           "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
         },
         {
           "title": "Try SuperSmart",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ja1NFTUJVTm5pZV9odHhQNjU0UE1zTVY5QUc1bEhiUmhKTVBoa0dob3ZBbjlORVlIeC1xYm4zdHU5TjNsZUNfaVFYSWlETm1hNzhsU1hManNDWUlsNzdrNEkzR0g2bm8?oc=5",
           "pubDate": "Wed, 03 Sep 2025 07:50:38 GMT"
         },
         {
           "title": "Pension end of year performance December 2025",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
           "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
         },
         {
           "title": "Understanding market declines",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbVhWNFVTbmZqanMtaVpnOWJzWGxzX0d4V0xXY0UxbjRZekRFeFhQTGRVQ3JlMV90a1FCN3hOZTlLRmhncG5DZlZyRUkzWW9tQ3VOWlJ2ZURtbzN2bUZFQ2VxODl2S09meEVfZGRxdlByaTAtZjNPWTByRU1zeDk1VmNGc1MtLWhQTE52ei1hZHlEZkk?oc=5",
           "pubDate": "Fri, 29 May 2026 19:06:18 GMT"
         },
         {
           "title": "Indexed Defensive",
-          "source": "Hostplus",
+          "source": "hostplus.com.au",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOalFwTUhnU2lwenROOGlzYmNWUlFQekxSZlQ0MHByaXB1ZTRjRW9EQzhYbnh3Uld2R0pGdHR0dExaVm4ybzJJaFR3XzVsUUcwMTNLY2ZlZnBhMU5DYWh5NnBSMUUtMVROYWZVLWxlTVJPT2Jmb2FZQjJibEg5WkRGRWxtN2RpLTNYX2RaTlNZTEgzOGdWSmtINDl1QVM4cGpaeUNCY0JBdU1Md1J3eTQzdzZPVHBUdHRnUkpuNGxBekZiUFVoSndTVFB3?oc=5",
           "pubDate": "Mon, 29 Sep 2025 19:16:46 GMT"
         }
@@ -1020,6 +1020,12 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5wbUZSaTh1bEExMmJsMEkwcnlUUGo2NDFSOU1GZk5PSHI2MXd3azFKMFY2b29seWMzTFNpNlFoNGp2Tzg5NXRnYTdOcHpZU0FoR3J2NGczSEhqYzktUmN4eQ?oc=5",
           "pubDate": "Fri, 07 Aug 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Market announcement",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPRE5KSGdaNTZBbUhTNkJaRzY5UkNKbG5yX0hFQWFaSDVEVVhOdkF1TTZQTzBQRnZBNTJ4RGxsNVBfUUx4WEQ1dGduSlVXaTRwcndCbVp3N2IwYVNNUGtGMXBDQXJwb0ZjRmJJOXZWdHFDMW9lRHNoSXB5ejN3cTRfMzYwQy1UY2ViZXhvOVdYM212ZVJOV0VVbDRGTTZ6SmlHbnpnaUttV2FTdzR6aVJ3WXNkbDJVdTVIZ19TenVPdFdhYmVuSXg5WU1JX0JDVDZ2Z1N3X1dZQVhUT1p0M0pLQnpJLWRVb0wtQ1Z6R09Zb29fMTd1YWxGNTlEOV85WTNPZGlDZXo1YWZtRWplM3VTQ3hHeF9adjFRdXBlRXBDYkVzaVAyNm5jNEhJU0o?oc=5",
+          "pubDate": "Wed, 12 Aug 2026 07:40:51 GMT"
         },
         {
           "title": "Market announcement",
@@ -1056,12 +1062,6 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLUd6SDNaYlJEbnBKdmdzU1ZMT1NIMGM5RUFud0hNamY0SW9CTUF4RnU5TEQ0d2x5SGRWSThOSmFJZGJ3R2I3QUNhZzl2RVFWTzVvQzNtb2JHUXg2LWxnV29TcmdYWDRkZjZsUllSWWxIclkwZTZGTHU3WWx5UWVBd3FZUUhhTlgwYVlfSjFWek56UzU2a3c?oc=5",
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Weekly economic report",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vc3RIZ0hFODg3eURIN0Q1SEQ0MVBpN25GdTZwbDdBSkxmTjF6ak5OcWtiZmQ0VW9nYlIxb2llb2R1VnBGZERZRkhvUXVQelVkcTg3N2VEMUFhcmdJTVdUeGdCdklvVXVKWTBsbUNIQVRLb0xQ?oc=5",
-          "pubDate": "Mon, 22 Jun 2026 07:00:00 GMT"
         }
       ]
     },
