@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T05:56:22Z",
+  "generated_at": "2026-08-12T07:39:48Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.75,
-      "change": -0.09999999999999432,
-      "changePct": -0.13726835964309447,
+      "price": 72.65,
+      "change": -0.19999999999998863,
+      "changePct": -0.27453671928618895,
       "currency": "HKD",
       "prevClose": 72.85,
       "dayHigh": 73.0,
@@ -261,13 +261,13 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104100.0,
-      "change": -400.0,
-      "changePct": -0.3827751196172249,
+      "price": 103800.0,
+      "change": -700.0,
+      "changePct": -0.6698564593301436,
       "currency": "KRW",
       "prevClose": 104500.0,
       "dayHigh": 107900.0,
-      "dayLow": 103800.0,
+      "dayLow": 103700.0,
       "marketState": "",
       "exchange": "KSE"
     },
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3146.0,
-      "change": 59.0,
-      "changePct": 1.9112406867508906,
+      "price": 3142.0,
+      "change": 55.0,
+      "changePct": 1.7816650469711692,
       "currency": "JPY",
       "prevClose": 3087.0,
-      "dayHigh": 3149.0,
+      "dayHigh": 3150.0,
       "dayLow": 3086.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -602,6 +602,30 @@
           "pubDate": "Sun, 09 Aug 2026 03:22:48 GMT"
         },
         {
+          "title": "Automation Intern, Financial Management (Jan - Jun 2027) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMXJkRDFRYUJyX3dnNEpCdy1pbnh3QXVlYWJURkpwWElWMFJfd1pjR2tmTldLWUhSelBOOHJYTTFJeXNqQVpxdVgyTTRYWV9OWnlyYU5DdXJzTHJfTTJzSTQ1RDY4d2JIbmh1WXM0TzlTc1QtYUFQb2pGYjdacjBQY19yVFhYam51ZEdmaS1EU3RNQndHOXZ1UVAtVlhiRXpXUmFzQWIwdWo1cHZFZ0ZjdQ?oc=5",
+          "pubDate": "Wed, 12 Aug 2026 00:22:48 GMT"
+        },
+        {
+          "title": "Finance Intern, Financial Close & Consolidation (Jan - Jun 2027) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMDQ3SEpPM1QySWxqR21QX1QyLWJ3QVhHbkdNUzJ5OGZlSkgwUHlyYkt3aGpKTGxKdzE1OC16U3lueWRSUldzTmJCczZuVXBKWnhXcVRfM01iRGpQT1ZBOGFPUDItcGhYMmlzZU5sWlJwVVJSWEhWa0x2MVhpdV8tWFJ2UVBoS1BxaTVZaU9odUZFaUQzSkk5MGdmMVZ3UUlINXQ4OENyMGczcVJGYTdqejZJZXFZaGE0U3dn?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 11:46:21 GMT"
+        },
+        {
+          "title": "Project Intern, Workplace Transformation & Administration (Jan - Jun 2027) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOeDZBRXJONDBCRWpwZ0k1MGFvdFRReHdKalktUWFZWGlHanVhWGU5cTU3NHoyc2NjRjhwckpGSjNvNkRXcWI5MkRzNXJiVm9PYlNubmNRbjFEeENKa0RQRmpST2NlVTZCZDltc0VtSWgzTnR5em5VbXRGWEVubks0TU1qSDBLdnl6UW01cUFuOFRjOWJmVkZyZTJMS2VZUHJycWFNSGlXVXItSHR4c3VFX1hFRkJzZGtwRC03YmwwMFRxYlRseE45UnY0NmVXLVlRaXpGTnpNTHA3UGJ2d0ZtbWltX2tnMHg0XzlTZFBsWnd0VzJBclhvMXRoU2hjZEVPR3c?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 10:51:21 GMT"
+        },
+        {
+          "title": "Data Engineer Intern, Technology (Jan - Jun 2027) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2w4VDFOVDJiaGhSQVZ3OWtCSThVcVp5LW83NVhuOHVOWUVNSkxjNEtJQVgxdnNBTnhyTWJOMGVLU0pZdVZiMGxzOXFmWHVvLWY1UFFjbTlib1NEYmJDVEdpZGgybF9UcVNnWmw1b0JYTUJUaUc0SU5tek1iaXQxR2htUUZESUJfYWZvRko3V1VZOThoZnNjbHdDT0p0TkJMVkRzTVpvOA?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 23:40:00 GMT"
+        },
+        {
           "title": "Campus Recruitment Event - Temasek Countrywide Networking Event (Singapore) - Wed 2 September 2026",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUE56RHRrdlFnNkhEZWhnaG9CSFgzVjVkN3lrdWdqZld1Q0FVTlFmcVFLaXFQMGpEOTlGWVgxMkVmYjVPZ3ZVUG1jQmhsbFRoUHZadzVIQ1dtV3NGZGVpWXJ0MlNZYlpaVGUyc24tX2ZLNHBVTmRiRVlXSmYtV2hwcDFlbHFtTE1GaXNPZWc5QmphN2FHVGhCd3QwNldQTFM1MkNqWV9OdGxWVVIwNnpDTDdTZ3BJc094V2toa1NRU295RGpjS0VuMTZCVjBJT3pXZjhtNldZaEphYy1wSGZHRS1vaw?oc=5",
@@ -614,34 +638,10 @@
           "pubDate": "Mon, 03 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "Vice President, Portfolio Risk Job Details",
+          "title": "Off-Cycle Intern, Portfolio Strategy & Risk Group, PSRGO Partnerships (Jan - Jun 2027) Job Details",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMWU4Sy10eEJNYk1JNGo2ZDdoZ2tyWVlwckhPQlhZRXRSa203a2FJMUZ1cWpuSDdDV3RWa1VGZ2xMZFhWOTdaeTRoLVpScTB2M3UtamRpMnc5MUZCRExuRDIxeUpWLXFSbXBjWFJ2aVh4TTdXb0tZWlVzdG0tMjRjQjNUNHlaRFRPYXJn?oc=5",
-          "pubDate": "Tue, 04 Aug 2026 05:44:38 GMT"
-        },
-        {
-          "title": "Temasek prices S$750 million Temasek Bond",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM2RDc3RITy14ZDhUckhXV2lKN0dvbm5nd0FxcXlxNkU3RnlsdFVrOTF0ZGY5czVHRktQSnJNSUYtaXpiWDVqb3hNV2RReEQwZG5Da1FEOUhVaUZaTG9CTk9Hcmo0WVB1ZXpDTUxYdlNVM2trcExGSHRRNHE4a2NmYW9rRGFxSUtHR0xNNHV5TTF5dFRMQXhXbVNpSE9rQXBiakRtRFk4Z0MtdTM4X3pN?oc=5",
-          "pubDate": "Mon, 03 Aug 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Senior Associate/Assistant Vice President, AI Fluency - Adoption and Change Management Specialist",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRGxlWTdDc2o1eXhDcnh1UFJXQXJwZE1DeTIySHhaMHUycEZ2R2NtXzM4eURlU3E0NDFmVkhsbmZzVmhiN3cwOEZVV2hWSWhpMEI4SkxLdFc2Tk9Iak40QV9VMm55WEFMcEVuUy0yS205OFFGbWNsS29UOXFMTnJ3T3pON0pvcTFDREhZcS1xbUdFVkJmSFBKMGFxVVcyOWtyX0VteHF0dDZ5Z1kxS1JsZEs3SGpucElQTzZ4eVpXY2VGMTN6cFMtRWJNak1OQUE3RkRjMGJWR0R5TEhXNWFzTw?oc=5",
-          "pubDate": "Fri, 17 Jul 2026 03:58:06 GMT"
-        },
-        {
-          "title": "Temasek Summer Internship Programme 2027 - Investment Group (Singapore) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1I0TEg3TXZUN0lFQk5WbXdsWWdQcDQ2VnZuMGxtQ29VZGtHWERDSDQweTRfSFQ3SjBDWGliaWNuMDViRzdlSVFUSTg2YXB0T3ZFbjV1dFBWdHcwMklDb3ZoU0t4MGFDNWdPVzFQeWppbWVLVHNKRWt4ZGdmVDFHQlVXQ2hjdGpFckZqZWhXX0VpUHVnVnFXclR3V1JuYnZtbFZ4NjZqNW43SWstbDBnYnA3eGNEVkVrTXhqY09qcDVkQQ?oc=5",
-          "pubDate": "Fri, 17 Jul 2026 04:44:01 GMT"
-        },
-        {
-          "title": "Temasek Upsizes Guaranteed Global Medium Term Note Programme from US$25 billion to US$30 billion",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORkRmaGpEWXIxdEF1UkF2QUFzcWhLVm9tMDZ2TVZrQkxtbFRTT3ZjVEZ6S3lyUVgxdUJXR1RISVRnaTAyNEx5ZVZXanhlamhlZUVBNVhIcVkzd0Z2NWVNS3ctbVZMT0dacUh3ZXZuaWxCcU9zMkdFTm1WZXpzd0ItTVJ5TWtvbktjVmpnemRScEtkM1FXR3haQUVSa3owZ1JqNmxtcDZWb1ZBT3hOSmVMRXNQRWxEeTMyUmNJaEFiWkc3U3pXby1GUHJid1pOZw?oc=5",
-          "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNNHcwUlZNU2NIOE9SUGU2MTFnSms0NUtkdm9IQXlYSW41NldkaTNFMUpKcmZZUXpYMnZNMi0zUi1vZHdISV9jX0RCRk1HaVZwbUdTdGhSVFNKMHhDR3dvYVdZZ1k1Qk5adnFVbzcweG9vcDVGc2ZOT1ZHM282VEFnTmtfeXJlckxlaUpEdXE3Sy1KUDlNdWZqVWVaeDd4cVU4MXBZOV9UaUYyXzg4a0RKTEZmaGNTRG5hbzNwcEpwVjE3U1ZmYmIxNjBYRFpuZ0p3bjB6WW9RNl9GaVBLVHhPVkt5czRqSzlLazZNVWwxOHR6X012Tk5EbW1pT1Q2X3pzRS01SHFvb2pSS2M3VmxkVDR3WEk?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 13:33:02 GMT"
         }
       ]
     },
@@ -672,10 +672,10 @@
           "pubDate": "Tue, 11 Aug 2026 12:11:26 GMT"
         },
         {
-          "title": "Associate/AVP, Category Manager (1-year contract)",
+          "title": "Associate/AVP, Physical Climate Risk Specialist",
           "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVXUzRmg2WWYxTHcyc1pmMjRXeTdfeXZ4TVpPVEJvVnRJMlFhYWRYMlZDOGx0ZE5uQ2dYdXRDa0NuTTNwWC13SHZwN3RDRjhFRHFMSnJjTE4yekgzSGhYeG1wbDNQMFMtTUxSV1hBMGlMbmFDRDZySHdkeV9mYTVfSndPamZHUTh1MDdVX0tEeHQ3dmoyVWhhNkhpY0t1cGN4RERqeGdudEQyaGs?oc=5",
-          "pubDate": "Tue, 11 Aug 2026 12:42:27 GMT"
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclAzY1dDNXZPQTByVzhFZXFvUi1PTW5VZXc1ZmNRbFJ3ajNDQUswaG9DQ3gzOVRBTmlycmw1TWt4YkJfeXVTbDgzS01rMHFFdmtfa0tqMlkyd1lMOG83TE5RbXFqUHlkdHo4Wk1kTndzZ0NlR2ZGQkNzdWM5SXY2YjNIbV9LS3plVWtrMTdlTlZKUmNVb1pDZ2Z1MEViNjZC?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 10:55:55 GMT"
         },
         {
           "title": "AVP/VP, Business Manager, Investment Insights Group",
@@ -882,6 +882,12 @@
           "pubDate": "Mon, 01 Nov 2010 07:00:00 GMT"
         },
         {
+          "title": "National Pension Service Investment Management > Publications > Press Releases",
+          "source": "국민연금기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWE1KTkVaUE1WcmZVVExxR1Z3UkRrYWhoYlM1SXNqRjE1cVhZbklOS0xBSjREeHdOUjljNkVZQ0t1RWR5Wk1kV3pCTk1HSWI2QXgtV1hIdUJiLXJEVGFrYXBrTTl4al9xR1dNdXZuUjdEOTVaMTZCdlQ1SFdFUmM?oc=5",
+          "pubDate": "Wed, 07 May 2025 03:20:37 GMT"
+        },
+        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -916,12 +922,6 @@
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
           "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxNFl6bWprS0diY2VVeG9zcXZOVDZmQWMyM0t6ZHZSRUhmcHpNQUY4Z1drelhfVE5OZ1dWdG5LTzI0dEUxRWU1MURiYUYxcnZuU0VGSHE1bkxNV19fcVBtUzlnQk5lR1JMQ0cxMkJhZnQ?oc=5",
-          "pubDate": "Wed, 07 May 2025 06:38:32 GMT"
         }
       ]
     },
@@ -1022,6 +1022,12 @@
           "pubDate": "Fri, 07 Aug 2026 07:00:00 GMT"
         },
         {
+          "title": "Market announcement",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONnFNNHhXamZvdTBHSDg4TTEzRVpGc3BWZTl1bDN1LXVyN3FpSWVSaUF2MHVRM2lkbExHVm9ub1p4ZGg2blU1NjVmMDJyWnlHbHd2YzJsZnpQNHFnWl94cGwwNEJub1RwbjBXYV9uOHRHcVdMbHBYNUlkdFF1V25GS2FyMk94UThYTllDcUpwX2NnM1F2SnJyX2FscjJxTi1ZbEZHOGZSaUR5a2tFYlJ5Vl9ld2ZBMjd2WDZkSFQ4eDhUSGU5Um1BOA?oc=5",
+          "pubDate": "Fri, 31 Jul 2026 07:00:00 GMT"
+        },
+        {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vc3RIZ0hFODg3eURIN0Q1SEQ0MVBpN25GdTZwbDdBSkxmTjF6ak5OcWtiZmQ0VW9nYlIxb2llb2R1VnBGZERZRkhvUXVQelVkcTg3N2VEMUFhcmdJTVdUeGdCdklvVXVKWTBsbUNIQVRLb0xQ?oc=5",
           "pubDate": "Mon, 22 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "TCorp prices a A$2.5 billion 5.25% 17 October 2034 benchmark bond new issue",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3pENmFzOGx5RFJjcmppbFJmQ19PQVpXa1QxV1c2VExWUWN5OWI3ZDllN3RtSHRrWjdJbmRIWFJNMW96Q2JPVmE2TllCS1hGekxBa3hqLXJiWXc0NkhuMWVDdmtEdDA2MC1rYXFOZndYWUlya0RVbktTMzRoa2pKT0lDWmo3UzF2VnNvT3BrRms4M2ZqdmNyRk5vNjBhZjQ?oc=5",
-          "pubDate": "Mon, 25 May 2026 12:20:40 GMT"
         }
       ]
     },
