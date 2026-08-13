@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T04:25:49Z",
+  "generated_at": "2026-08-13T05:58:27Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.65,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 72.55,
+      "change": -0.10000000000000853,
+      "changePct": -0.13764624913972268,
       "currency": "HKD",
       "prevClose": 72.65,
-      "dayHigh": 72.7,
+      "dayHigh": 72.85,
       "dayLow": 71.5,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 106500.0,
-      "change": 2700.0,
-      "changePct": 2.601156069364162,
+      "price": 106000.0,
+      "change": 2200.0,
+      "changePct": 2.119460500963391,
       "currency": "KRW",
       "prevClose": 103800.0,
       "dayHigh": 108300.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1727.0,
-      "change": 22.0,
-      "changePct": 1.2903225806451613,
+      "price": 1744.5,
+      "change": 39.5,
+      "changePct": 2.3167155425219943,
       "currency": "JPY",
       "prevClose": 1705.0,
       "dayHigh": 1753.0,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3177.0,
-      "change": 35.0,
-      "changePct": 1.1139401654996817,
+      "price": 3209.0,
+      "change": 67.0,
+      "changePct": 2.132399745385105,
       "currency": "JPY",
       "prevClose": 3142.0,
-      "dayHigh": 3210.0,
+      "dayHigh": 3220.0,
       "dayLow": 3142.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -632,16 +632,16 @@
           "pubDate": "Wed, 12 Aug 2026 00:22:48 GMT"
         },
         {
+          "title": "Off-Cycle Intern, Workplace Transformation & Administration (Jan - Jun 2027) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNy12TDBCOUVpYmJuRzVoS2VDTm5fby1mbW9OVTIzeFhkY3ptaV9DVzY4MWphZVJRdUxJeGpvUmlDNmZLUC1pOGN5dWhQTUFXZnlUS2t1NkNuN2xDTnE1bnRCS1FtckFVcWljRUN5U3ltY0lGV0xUV3ZJZzJRZWVzdEJCcW5VZVlsUzNneXBKTy02QXJtMWcxREpoYm1RNnJCSnpVZlB0eTJRaXNpQVFoU1Y4NzJZU0RSWS1CVkRIZHdlaXU3U01NRzJYYw?oc=5",
+          "pubDate": "Wed, 12 Aug 2026 05:49:04 GMT"
+        },
+        {
           "title": "Finance Intern, Financial Close & Consolidation (Jan - Jun 2027) Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMDQ3SEpPM1QySWxqR21QX1QyLWJ3QVhHbkdNUzJ5OGZlSkgwUHlyYkt3aGpKTGxKdzE1OC16U3lueWRSUldzTmJCczZuVXBKWnhXcVRfM01iRGpQT1ZBOGFPUDItcGhYMmlzZU5sWlJwVVJSWEhWa0x2MVhpdV8tWFJ2UVBoS1BxaTVZaU9odUZFaUQzSkk5MGdmMVZ3UUlINXQ4OENyMGczcVJGYTdqejZJZXFZaGE0U3dn?oc=5",
           "pubDate": "Tue, 11 Aug 2026 11:46:21 GMT"
-        },
-        {
-          "title": "Project Intern, Workplace Transformation & Administration (Jan - Jun 2027) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOeDZBRXJONDBCRWpwZ0k1MGFvdFRReHdKalktUWFZWGlHanVhWGU5cTU3NHoyc2NjRjhwckpGSjNvNkRXcWI5MkRzNXJiVm9PYlNubmNRbjFEeENKa0RQRmpST2NlVTZCZDltc0VtSWgzTnR5em5VbXRGWEVubks0TU1qSDBLdnl6UW01cUFuOFRjOWJmVkZyZTJMS2VZUHJycWFNSGlXVXItSHR4c3VFX1hFRkJzZGtwRC03YmwwMFRxYlRseE45UnY0NmVXLVlRaXpGTnpNTHA3UGJ2d0ZtbWltX2tnMHg0XzlTZFBsWnd0VzJBclhvMXRoU2hjZEVPR3c?oc=5",
-          "pubDate": "Tue, 11 Aug 2026 10:51:21 GMT"
         }
       ]
     },
