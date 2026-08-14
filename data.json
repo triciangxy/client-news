@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T04:22:28Z",
+  "generated_at": "2026-08-14T05:56:43Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -256,14 +256,14 @@
       "currency": "HKD",
       "prevClose": 72.55,
       "dayHigh": 72.0,
-      "dayLow": 70.9,
+      "dayLow": 70.8,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107200.0,
-      "change": 600.0,
-      "changePct": 0.5628517823639775,
+      "price": 107500.0,
+      "change": 900.0,
+      "changePct": 0.8442776735459663,
       "currency": "KRW",
       "prevClose": 106600.0,
       "dayHigh": 108000.0,
@@ -272,20 +272,20 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1747.5,
-      "change": -5.5,
-      "changePct": -0.31374786081003997,
+      "price": 1730.0,
+      "change": -23.0,
+      "changePct": -1.3120365088419852,
       "currency": "JPY",
       "prevClose": 1753.0,
       "dayHigh": 1767.0,
-      "dayLow": 1738.0,
+      "dayLow": 1728.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3283.0,
-      "change": 60.0,
-      "changePct": 1.8616196090598822,
+      "price": 3266.0,
+      "change": 43.0,
+      "changePct": 1.3341607198262488,
       "currency": "JPY",
       "prevClose": 3223.0,
       "dayHigh": 3332.0,
@@ -1144,6 +1144,12 @@
       },
       "items": [
         {
+          "title": "FWD | NAVAN A/L VANKU",
+          "source": "ace-ib.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5WbG5OeVJEd0dNVEFJb05yUU5Sd2xhTXRCSzFBTnF5R1FrQWN3Mk1pRFQ2UkFUM3hiMXlUTFExbEV0ZXBIUVd5V0FZUWxGVkJiT3VEUzlvUDVqcmE0cjZzdzZyejhuajRGbE5N?oc=5",
+          "pubDate": "Thu, 13 Aug 2026 07:01:58 GMT"
+        },
+        {
           "title": "FWD | MOHAMMAD NOOR BIN ABDUL MAJID",
           "source": "ace-ib.fwd.com",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96cGlrYzl2T3dETVc4THc0N0M0RlFNclhkX1ppM3pEVXlFaVZKWUpHN1NPaVJzYjV4UFpXdWRFSE9TaXVCN3MxWU9lSkl4Y0FZblZnQWVlc2hWckJFMDktWlhzWEJUYkt1VERtYlJReTlucm54REt1X2Z3aExWb2c?oc=5",
@@ -1196,12 +1202,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
           "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "FWD Vendor Code of Ethics and Business Conduct",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
-          "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
         }
       ]
     },
