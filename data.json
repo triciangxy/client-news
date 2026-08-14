@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:40:25Z",
+  "generated_at": "2026-08-14T09:09:09Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,13 +250,13 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 70.6,
-      "change": -1.9500000000000028,
-      "changePct": -2.687801516195731,
+      "price": 70.4,
+      "change": -2.1499999999999915,
+      "changePct": -2.963473466574764,
       "currency": "HKD",
       "prevClose": 72.55,
       "dayHigh": 72.0,
-      "dayLow": 70.5,
+      "dayLow": 70.2,
       "marketState": "",
       "exchange": "HKSE"
     },
@@ -375,61 +375,61 @@
       "items": [
         {
           "title": "Innovation Leader, Shinhan Financial Group",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
         },
         {
           "title": "Shinhan Financial Group-SEC Filing | Form 6-K",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85RXkxWTc4aVYzTHhyaXJFMjkwb2E5aUR6MmlacU03U3lMQkplN0RjMlN5cmw2STZfYVlVS05GeVJfYURkbTE1RUk1djJMVk5UN21VSjY3LVFTS3BFdUJ3?oc=5",
           "pubDate": "Fri, 26 Jul 2024 11:25:57 GMT"
         },
         {
           "title": "ESG DATA PACK",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcE9vZG1Gb3JUT0hwUGRXYURMVnJTRDdvUkkzREtjTFVFaEo5V2MwVG1jRGxIODFoWDlYckJnTFFTQWt0V1MxYzNYZUI2S1dydDZkZ3pRa09relN0c0hhNFU2SE83Zks4LU1JZTdIQUZZeHh2Z0N2WEJJNGttY1hYYlgzaHJKTjREcTBicTQzam9ZQmM0Umk2eXZIS2JrakY1bWFVazRBRk43andoTlE?oc=5",
           "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
         },
         {
           "title": "Shinhan Financial Group-Investor Relations",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
           "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
         },
         {
           "title": "PowerPoint 프레젠테이션",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY1dFdmZKUDBDbDJ6cjBjdnk0OWVtY21nREZPUDBzb01SbXVZTTZUb2NKTkp0YktGeEV4dkxLLVBhXzRUc2tEdmY3TlpIRzJ3OVlYbnN5ckRjYXhaaUdkblFrU1NpcFktQ2NPcUZfMlZBWko4MFRFSXVmYWlqWi1IQ2pTY2ZVQUF0X1Q0akFTYzBCSUNPNUJr?oc=5",
           "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
         },
         {
           "title": "Ethics at Shinhan",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPVHB3M181ZTZfTS1DRGw2dmdZWHoyWGJ5eHFoUEtQWEhCV3dzNnpKdTI2WVhfZER3dXBOU3dwSFBxRldFRTJjNV8yY1lsTzZBaWVSLU5MMm9vZ29lZlpVVQ?oc=5",
           "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
         },
         {
           "title": "Private Financial Holding Company (2009-2001)",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xSzNjdHVoYnJDWEJLdGE1UnZZRkJ1WS1iMTIwazl0QS1vQUxzMGVKa3ZhNGt4ei1WX1NqY3hmSTlxTGQ2SWNtTzJyb2lWTmljQjJPc1ZnczV2Q29s?oc=5",
           "pubDate": "Mon, 29 Jul 2024 02:43:19 GMT"
         },
         {
           "title": "Shinhan Financial Group-Investor Presentations",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tVHAzWW5EdmVYdE1nd2lRZi1fTW9RaTFjb0ZQeEc0YWFVeFQtUlVhcWlHelVlWVhJZWJGdFViNHlqMHBad2xuMUJVNkM4TTdLMG9JY2dtd1dWRzhiY3FwYi1GNzZmbnlmSDhTZnp0V2JkZw?oc=5",
           "pubDate": "Mon, 22 Jul 2024 02:29:29 GMT"
         },
         {
           "title": "Diversity Report",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU2hhUFVrX0FKc2dUZUtxcGttNEpmZXdEcEpzZC1QZGpOSHZUQXl4UUk5MnFNNFY1VlNtS3FzZmhIaVlaX1NxNDVfOW1OMHYwUWEyM3ZJSG1RcVFVdzBsbFA0YjhFZDFZdkFsZnJDajN0OVpoYnl1LTlDcjFiWHlfV0QyWGZlRmc2UkxNNkZNV1pndmloQk00?oc=5",
           "pubDate": "Fri, 01 Nov 2024 06:38:02 GMT"
         },
         {
           "title": "Diversity and Inclusion",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWN6cHZmR2gyaTEzeHAzVlk5azhZVVJXZjY3MldsTkRkRVJhUUxUTTEzV0VadVdEWVlRaTVhVFZ6UkhqYTVhekc1LVp4bkRrUWF1bGdHMEFYM1BhOVBlUUN1VEpDTFFqei1ERjJnT0lEREh1dm5SNXp6OC1tYktxdXlHMXBub1NpUERCUGVickl5SDF4TWc?oc=5",
           "pubDate": "Tue, 20 May 2025 20:30:48 GMT"
         }
@@ -786,74 +786,8 @@
       ]
     },
     "KIC": {
-      "source": {
-        "type": "domain-news",
-        "label": "kic.kr",
-        "kind": "google-news",
-        "query": "site:kic.kr"
-      },
-      "items": [
-        {
-          "title": "2 April 2012",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8ySHBuZTVEYngzUEFqVU8tUElvaUhxUWdUNFprYnE4NUdOV2NVWEJzc2JKZjN6cl90RmI5SDZQQko3R0NOcWdteW9QaElKUkZuU2NKckYwSVRiY09aVk9WbVEwVVJXSDBfUFpRUkNwc0F2ejN4TWRMNG1B?oc=5",
-          "pubDate": "Mon, 02 Apr 2012 07:00:00 GMT"
-        },
-        {
-          "title": "Press Releases",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOGtzQzVFdG5Lb1JxX01hV3FtYTlIeTRoYS1LMTI0Rnd1azhaTm5vcEFtU3F3bnFzcmNzOThJZ2lkclFseDJhX1VSSjJMWTVpQXltR29rcEM5WEU?oc=5",
-          "pubDate": "Tue, 18 May 2021 07:00:00 GMT"
-        },
-        {
-          "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 05:21:28 GMT"
-        },
-        {
-          "title": "Benchmark │ Our Portfolio │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MzNRUTdUS3luTkxmZWVTc1JnaTdTMERod01JTGIzWmhtN3MySThvUkhPeXl3OV96c21XLXgyM0o5aUJzek5QOVI1NDIwaXZ2Sm16SmtQY05BcU5zNG9nZHp3?oc=5",
-          "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
-        },
-        {
-          "title": "Untitled",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
-          "pubDate": "Fri, 12 Sep 2025 17:18:18 GMT"
-        },
-        {
-          "title": "Press Releases",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
-          "pubDate": "Fri, 28 Feb 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Announcements",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUc2hBZkJ1R2JfWTZkMlJkalhsODVBR2otU3BNNk5pV3I1QlpfWlRIVlp6Tnp0Vk5NWWlxRGZpZ1lFMXBBdWpRd3ZLVEtfUjdRTFdseWdVNXJwRWRmMDhKbkdvc3Q0dw?oc=5",
-          "pubDate": "Fri, 19 Dec 2014 08:00:00 GMT"
-        },
-        {
-          "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
-        },
-        {
-          "title": "PRESS RELEASE",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
-          "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
-        },
-        {
-          "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
-          "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
-        }
-      ]
+      "source": null,
+      "items": []
     },
     "NPS": {
       "source": {
