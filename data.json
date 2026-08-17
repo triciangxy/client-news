@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:36:26Z",
+  "generated_at": "2026-08-17T06:59:19Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,12 +250,12 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.15,
-      "change": 2.75,
-      "changePct": 3.90625,
+      "price": 73.25,
+      "change": 2.8499999999999943,
+      "changePct": 4.048295454545446,
       "currency": "HKD",
       "prevClose": 70.4,
-      "dayHigh": 73.25,
+      "dayHigh": 73.4,
       "dayLow": 70.7,
       "marketState": "",
       "exchange": "HKSE"
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3274.0,
-      "change": -1.0,
-      "changePct": -0.03053435114503817,
+      "price": 3277.0,
+      "change": 2.0,
+      "changePct": 0.06106870229007634,
       "currency": "JPY",
       "prevClose": 3275.0,
       "dayHigh": 3333.0,
@@ -305,7 +305,7 @@
       "items": [
         {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
-          "source": "design.aia.com",
+          "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OZUVyblNTeUdnSjNvR096TWFxVlNodVdreU5ZUXFSaENMME1RdGswSUh1V3FBYXlUdUZVel9wZ3NjZE02YzZNTjFQcVhKV1hGeG42RExuOA?oc=5",
           "pubDate": "Mon, 17 Mar 2025 15:17:41 GMT"
         },
@@ -347,7 +347,7 @@
         },
         {
           "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
-          "source": "design.aia.com",
+          "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
         },
@@ -374,7 +374,7 @@
       },
       "items": [
         {
-          "title": "Innovation Leader, Shinhan Financial Group",
+          "title": "Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
@@ -422,16 +422,16 @@
           "pubDate": "Fri, 01 Nov 2024 06:38:02 GMT"
         },
         {
+          "title": "Diversity and Inclusion",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWN6cHZmR2gyaTEzeHAzVlk5azhZVVJXZjY3MldsTkRkRVJhUUxUTTEzV0VadVdEWVlRaTVhVFZ6UkhqYTVhekc1LVp4bkRrUWF1bGdHMEFYM1BhOVBlUUN1VEpDTFFqei1ERjJnT0lEREh1dm5SNXp6OC1tYktxdXlHMXBub1NpUERCUGVickl5SDF4TWc?oc=5",
+          "pubDate": "Tue, 20 May 2025 20:30:48 GMT"
+        },
+        {
           "title": "Shinhan Financial Group-CEO Profile",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NRTJNd0gzU1NTNGxscklZbDdVdzJya2U3S2Q1YVBGV0NObUsyZjJGNUMzaG04d0RrVmFkQTJrcGYxQWtmUEg3Uy1jamQzUXRMVzlYX2xjWlY?oc=5",
           "pubDate": "Wed, 24 Jul 2024 03:08:20 GMT"
-        },
-        {
-          "title": "Ethics at Shinhan",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LRVNJSjVSY2xYaTBMQzVieVNxVUFYaUVfa2ZrdmwxalhYclIyYVVFUktZcE0xMFRzSlNyWkRyR1hVR0RzT1BTUGhLZkJzLXdP?oc=5",
-          "pubDate": "Sat, 27 Jul 2024 19:37:36 GMT"
         }
       ]
     },
@@ -935,61 +935,61 @@
       "items": [
         {
           "title": "How to stay safe from sales tactics and scams",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
           "pubDate": "Mon, 10 Nov 2025 05:13:00 GMT"
         },
         {
           "title": "Indexed balanced",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWpfVWxUZTZLSjZBaWZuTi0xdVc4QnJPRkJNTG1aek03dGdTWi1qZjFVbVIxbE5TcmhPMVhJYTEzdHZESkk1aFpHUkxoVjJkNVAxV1E5RVp0dFJ2YUREdDFuWVVoYi1pSUdrUjk5aHpvQzhRdm5vSmhfdXhVS1QzaFN1bDdzME9oQzA3NDRzT0d6U2pHSEx3eXR6OGw3LTV5OHNCRnRhbWZZR3Z0amR6MXRCQ0tiR0puZ1lSd04tbzI3dmd2b084Rg?oc=5",
           "pubDate": "Mon, 29 Sep 2025 20:08:55 GMT"
         },
         {
           "title": "GOVERNMENT SUPER CO-CONTRIBUTION",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXJCQWZMSXd2VE5DSDFxVTlZZklFVERtYXdGa1MwNFVHRmJPRkl2U3QxTnFtV2Q0OTg5UzhOUndLcFhhaHpSa0VuQlJkUS13eHJ3OWhsT056NW1sLWpXSmlIbEZwVDBZYzhseWt5R3NhNnpkaWdwNUl0QVNFOHhIbkZmbDZvLUdzNVoxdXQtQWl4NDRZRUZrSHB4b1B0WHRkWTdEMmZ4X1V3YmZkVUJ1WW1rNzRCQ2U5cmZralBvX2dNUUgyWi1xZlBxQzZiRVFRSHJxUWZ1TGY4RzA?oc=5",
           "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "Meet our trusted Financial Advisers",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
           "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
         },
         {
           "title": "Try SuperSmart",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ja1NFTUJVTm5pZV9odHhQNjU0UE1zTVY5QUc1bEhiUmhKTVBoa0dob3ZBbjlORVlIeC1xYm4zdHU5TjNsZUNfaVFYSWlETm1hNzhsU1hManNDWUlsNzdrNEkzR0g2bm8?oc=5",
           "pubDate": "Wed, 03 Sep 2025 07:50:38 GMT"
         },
         {
           "title": "Pension end of year performance December 2025",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
           "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
         },
         {
           "title": "Understanding market declines",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbVhWNFVTbmZqanMtaVpnOWJzWGxzX0d4V0xXY0UxbjRZekRFeFhQTGRVQ3JlMV90a1FCN3hOZTlLRmhncG5DZlZyRUkzWW9tQ3VOWlJ2ZURtbzN2bUZFQ2VxODl2S09meEVfZGRxdlByaTAtZjNPWTByRU1zeDk1VmNGc1MtLWhQTE52ei1hZHlEZkk?oc=5",
           "pubDate": "Fri, 29 May 2026 19:06:18 GMT"
         },
         {
           "title": "Retirement Bonus",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
           "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
         },
         {
           "title": "CEO Message: Cyber Security Update",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
           "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
         },
         {
           "title": "Hostplus Investment performance July - Sept 24",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObjUyMDh5OGFFQmRPSVB3YUMtX29yb1FCcDNTcTlydWY0dmxPdmtSOVJHcnMwMk5CRmFldWNyajN6WmE3SG9GM1ZZR1FJUFBMWkQybml5dnpXakM1LXFGUGM0WGptVHNwckNHQUo2TWpFdUFpZkRuRW81a0dqWEFLOWpYUndiWkpvN0V1ZVlDOWFtN1lPMkduYjI3ekdPUjhGU2VfODNBMGxOa21qU1BwUXAzNXItVk0?oc=5",
           "pubDate": "Thu, 14 Nov 2024 08:00:00 GMT"
         }
