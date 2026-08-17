@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:23:05Z",
+  "generated_at": "2026-08-17T02:42:36Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,13 +250,13 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 70.2,
-      "change": -0.20000000000000284,
-      "changePct": -0.2840909090909131,
+      "price": 72.8,
+      "change": 2.3999999999999915,
+      "changePct": 3.409090909090897,
       "currency": "HKD",
       "prevClose": 70.4,
-      "dayHigh": 72.0,
-      "dayLow": 70.2,
+      "dayHigh": 72.9,
+      "dayLow": 70.7,
       "marketState": "",
       "exchange": "HKSE"
     },
@@ -272,20 +272,20 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1732.5,
-      "change": -4.5,
-      "changePct": -0.2590673575129534,
+      "price": 1726.5,
+      "change": -10.5,
+      "changePct": -0.6044905008635579,
       "currency": "JPY",
       "prevClose": 1737.0,
       "dayHigh": 1750.0,
-      "dayLow": 1725.5,
+      "dayLow": 1724.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3298.0,
-      "change": 23.0,
-      "changePct": 0.7022900763358778,
+      "price": 3281.0,
+      "change": 6.0,
+      "changePct": 0.183206106870229,
       "currency": "JPY",
       "prevClose": 3275.0,
       "dayHigh": 3333.0,
@@ -422,16 +422,16 @@
           "pubDate": "Fri, 01 Nov 2024 06:38:02 GMT"
         },
         {
-          "title": "Diversity and Inclusion",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWN6cHZmR2gyaTEzeHAzVlk5azhZVVJXZjY3MldsTkRkRVJhUUxUTTEzV0VadVdEWVlRaTVhVFZ6UkhqYTVhekc1LVp4bkRrUWF1bGdHMEFYM1BhOVBlUUN1VEpDTFFqei1ERjJnT0lEREh1dm5SNXp6OC1tYktxdXlHMXBub1NpUERCUGVickl5SDF4TWc?oc=5",
-          "pubDate": "Tue, 20 May 2025 20:30:48 GMT"
-        },
-        {
           "title": "Shinhan Financial Group-CEO Profile",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NRTJNd0gzU1NTNGxscklZbDdVdzJya2U3S2Q1YVBGV0NObUsyZjJGNUMzaG04d0RrVmFkQTJrcGYxQWtmUEg3Uy1jamQzUXRMVzlYX2xjWlY?oc=5",
           "pubDate": "Wed, 24 Jul 2024 03:08:20 GMT"
+        },
+        {
+          "title": "Ethics at Shinhan",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LRVNJSjVSY2xYaTBMQzVieVNxVUFYaUVfa2ZrdmwxalhYclIyYVVFUktZcE0xMFRzSlNyWkRyR1hVR0RzT1BTUGhLZkJzLXdP?oc=5",
+          "pubDate": "Sat, 27 Jul 2024 19:37:36 GMT"
         }
       ]
     },
@@ -1052,16 +1052,16 @@
           "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Market announcement – non-benchmark bond line reclassification",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkdVX0ZtMHhIelNFbzFXX0g5WGlSa3ZwUW9rX0EtQVo5SndVZTEwZ1lZdlpoWEhqZVVuYTBsQWxQZm9ReU9Vb1N2dERGY2RqX1BUUG5IbkJ4dnQzUjlIWGhGRTZxT2lxbUdxdmdyaVlkNnJMWWJWbDB5MDBQMmt1Z3U5ZllabUx4TUtwU2Q2YVhQZDlsd3NpU1gzbDFlaUZkeHlaNGRYWS0?oc=5",
-          "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT"
-        },
-        {
           "title": "Fireside Chat with Rob Kenna, Chief Executive TCorp",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLUd6SDNaYlJEbnBKdmdzU1ZMT1NIMGM5RUFud0hNamY0SW9CTUF4RnU5TEQ0d2x5SGRWSThOSmFJZGJ3R2I3QUNhZzl2RVFWTzVvQzNtb2JHUXg2LWxnV29TcmdYWDRkZjZsUllSWWxIclkwZTZGTHU3WWx5UWVBd3FZUUhhTlgwYVlfSjFWek56UzU2a3c?oc=5",
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Investor update from TCorp’s Funding and Investor Relations team",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaHVvWC1YTkN2clRDUlZ3QnF5d2I0Yjh1akZBUk1DdHlZRmFUTHBhVE5sTVJneXRXMXYwa09xX0V3XzRuQ25xMWh3QWM3UllNWHpGRzVaeXVLV2FwWGxWQ3lFNGE3Rk9USkxYZWFBYkp3ZzdHS1JkQlRJTUN3MnFJaHM5eWQxMVVHWjFkNDRLaXZxNTh5Y01nZHJvVXdsWmZlNS1MUWdqcw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
