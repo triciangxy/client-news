@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T02:37:06Z",
+  "generated_at": "2026-08-18T03:46:48Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.8,
-      "change": -1.6000000000000085,
-      "changePct": -2.1798365122615917,
+      "price": 71.75,
+      "change": -1.6500000000000057,
+      "changePct": -2.2479564032697623,
       "currency": "HKD",
       "prevClose": 73.4,
       "dayHigh": 72.65,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1751.5,
-      "change": 23.0,
-      "changePct": 1.3306334972519527,
+      "price": 1744.5,
+      "change": 16.0,
+      "changePct": 0.9256580850448365,
       "currency": "JPY",
       "prevClose": 1728.5,
       "dayHigh": 1762.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3353.0,
-      "change": 76.0,
-      "changePct": 2.3191943851083305,
+      "price": 3337.0,
+      "change": 60.0,
+      "changePct": 1.83094293561184,
       "currency": "JPY",
       "prevClose": 3277.0,
       "dayHigh": 3360.0,
@@ -305,7 +305,7 @@
       "items": [
         {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
-          "source": "design.aia.com",
+          "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OZUVyblNTeUdnSjNvR096TWFxVlNodVdreU5ZUXFSaENMME1RdGswSUh1V3FBYXlUdUZVel9wZ3NjZE02YzZNTjFQcVhKV1hGeG42RExuOA?oc=5",
           "pubDate": "Mon, 17 Mar 2025 15:17:41 GMT"
         },
@@ -347,7 +347,7 @@
         },
         {
           "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
-          "source": "design.aia.com",
+          "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
         },
@@ -474,12 +474,6 @@
           "pubDate": "Mon, 24 Feb 2025 01:55:44 GMT"
         },
         {
-          "title": "Financial Data | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12WlRZRVNPenhUQUpuUnBMRjRQOGdxMGw0cmw1UVY3UXlvLVNkV2VybGY5dWZ4UUxnbklPdVVtNUdvWWhja2Y0LW5BUEtfaTlQM0FRV3NYWFdwX1U?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 07:47:31 GMT"
-        },
-        {
           "title": "Investor Relations | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TQ2VydlZHQWZZNXc4bzFRVDB4aGdpWEw5djl0NE56WHIzaUdyZlNmQld6LXF5dUd4dHZKTjc5N2JHdUY3ejltY1NCY1RyZw?oc=5",
@@ -502,6 +496,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZjVZOGM0RVQ2TUVkRVRVSDB6eHFhSTlNRmJ0SzZCMDFZLWFkeF9aMTRDRm0zYUhEUUNxN2xxVXZrMXJYOXRHamE5ZHdqX29VbVhJbFhucmdBTDhIZjduYg?oc=5",
           "pubDate": "Mon, 24 Feb 2025 02:05:00 GMT"
+        },
+        {
+          "title": "IR Presentation Materials | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFbVlxbERPQy1OZlpna296TGJMRjB1RWc4dkdNTWRBaFVaRjJtN2ppWGlydjk4QW9Ld1hJNjBYdnpNaG5wbVg4SEItaTIzVFJla2lBWVVYN2tHRExTSnNIdmczdUc1QTdC?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 01:44:06 GMT"
         }
       ]
     },
@@ -538,6 +538,12 @@
           "pubDate": "Fri, 15 May 2026 11:08:46 GMT"
         },
         {
+          "title": "Japan Post Bank Debit Application Method (Website Version)",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
+          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
+        },
+        {
           "title": "Management Philosophy-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDM3X0xROFk2QV9HblVNWjBiZklFV1RlSl9LNS1MUFpjT0Zjb3Z1aFdTMmd3cVpaSFk1ZGhSdVhlT0pWOUtxc2M4R3p5dG1pUTVTZjJhUXd0SVE4QXhWZmZocmNCNUh3N3l1Vjl0ZmljNkk3SEpkclk3ZEk3VTRGM2JvYTk?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYVR6RnlTbVlTZEpST1lLU2pIWVMyVnduSlA2cGplZGtBZmQtdDBFZ3MyRE1XZVpKZVVJTndfTEo2UkxpX2VoR1NPVnp0OFByZklFdmtoNG9GTGxHNV9FSVJCbFRtWW9FaWdJRHhIMWl2OEVaU015QWpfNkNHeUFkb1VR?oc=5",
           "pubDate": "Thu, 12 Jan 2023 17:41:17 GMT"
-        },
-        {
-          "title": "Management Strategy-JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWHJoTTBaZTVuVG5xVVJ4RTVVc3lmYWZhT2I2dFVPYXN5MkZ0c0QtaFpDQUFnanpvSDhfR2lKWGZzX192Ri0xVWJhLVNxaEpHUzBZUXFHZHZ1VmVPU0dkdEdQYTZ6RngtS2lwRzQtcG1uNS10czdtS0FQSW56cWoyUkt3?oc=5",
-          "pubDate": "Fri, 21 Sep 2018 08:39:23 GMT"
         }
       ]
     },
@@ -603,31 +603,31 @@
         },
         {
           "title": "AI/Data Analytics Intern, Non-Executive Talent (Jan - Jun 2027) Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSWN0WmNCaERzb3BwRi1UY1I2MFZDd1dNb011RkJwZy1UOUZnMTJKWDhJWVRJZkRlRmlubE9hSFB5anZFR3hTY3FhTF9zbDJvelR3c19UMGRpNFdKU1RGeVNQZFc4Q2hnZFMzXzM1UEZzajRfSUNhRVBNZEYwNndNVmlMVmU1WU5Jb3ZCX0xFeXpvbktiV3A3dGFFMlBjdDVuOUU4NGlFNG5ndHVDa0dMX3h3YWVWSWRY?oc=5",
           "pubDate": "Tue, 11 Aug 2026 23:46:54 GMT"
         },
         {
           "title": "RPA & GenAI Automation Intern, Operations (Jan - Jun 2027) Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWIwWkNPemRCZDNMY3A4NHdMOXRscWg0Zk9KUHVJYnd4ejNfU09IRzdHSUhFbVhOanFfSVZMOEo1NU9TYlpoSU52OUxMM3NHR1BGejJ0T1B3TzBuS2ViQVFnRzJnRTJUQWFJc0FWc2Y4WXk1VW9LWFA0dmxvTkJCX2NnNFZsTjViMTRydGVqZHJPSmt2ZXZpOXdMdzJHdVdUOGtPUHBaWnlCZmZjY2R0WUdCNA?oc=5",
           "pubDate": "Tue, 11 Aug 2026 17:24:36 GMT"
         },
         {
           "title": "AI & Automation Intern, Procurement (Jan - Jun 2027) Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb1FvT25XQjJPU2h2UFcwOE1XdzlINDlzM1BpZ2E0ZGpyWGNCWTZlcWdYSmhFVGgyU0x6N0QtQ2UxLVFseDFxYVZBcWxVUVBVSVpNUU5Bc2NhaHU0TE16c0k4Qk4xdkpNTndwdXhtc3Y3VFkxX01sbGJ1TVFRTnJtY0x6M3d5bV9nRWdYeXViXzctWlhxdmRpLTQzOE9TdWVYNDVUeDAyTG5KUEk?oc=5",
           "pubDate": "Wed, 12 Aug 2026 01:29:52 GMT"
         },
         {
           "title": "Vice President Agentic AI Platform Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbmxSYmNtOVcwdVdsb1k5Q2RtbERzUXF0ek5zaFNETVNCbVQyUzBOS1EtRUtpd0F6ZVZydFNNRVlobVJtUUZadzNfMVBXdFVtS05GcUstbDBLM0lFcC1BUnZUVzJQcnNRVGFIM2I1OGl4Q0VmLWdEcC1XMG51TkNrd001cGw3SDZzRlhiZVZ6cFpCNU9xX0U0WHBSLVZtMTlTdjFKX055SjMtUjJUQlE0U0IxdFYtTVBiVkU4MmhRQzh3WU05SV9v?oc=5",
           "pubDate": "Sun, 16 Aug 2026 02:35:44 GMT"
         },
         {
           "title": "Associate (12 months contract), Organisation & People (AI & Data Analytics) Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU3A1R2I2WXJObFZoVWJaWnJSczNvQndkRXUxMjlRdUxVcEtGT3JCeDAxTjhGSFoyUm1qckNPakx6czhwaU1lUVNoc3VhVlBXU0FZQzFyb3FrRE1ZTkxzWUQ1clhyN3JQa2I0UEJRVi1ETjNkRm1uX0tGaUREMzlma3V2MUVrWGpaNzlvSVlzU1RqNEViVEVPUHhsRG9iUF9jcC1YUjZYdHd0WlVGRFhOUVRoUlNCSmlwNTRkOVJzaW05VlRIclI1bUdSTFItWFdoTlE?oc=5",
           "pubDate": "Wed, 05 Aug 2026 14:13:45 GMT"
         },
@@ -639,7 +639,7 @@
         },
         {
           "title": "Automation Intern, Financial Management (Jan - Jun 2027) Job Details",
-          "source": "jobs.temasek.com.sg",
+          "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMXJkRDFRYUJyX3dnNEpCdy1pbnh3QXVlYWJURkpwWElWMFJfd1pjR2tmTldLWUhSelBOOHJYTTFJeXNqQVpxdVgyTTRYWV9OWnlyYU5DdXJzTHJfTTJzSTQ1RDY4d2JIbmh1WXM0TzlTc1QtYUFQb2pGYjdacjBQY19yVFhYam51ZEdmaS1EU3RNQndHOXZ1UVAtVlhiRXpXUmFzQWIwdWo1cHZFZ0ZjdQ?oc=5",
           "pubDate": "Wed, 12 Aug 2026 00:22:48 GMT"
         }
@@ -882,6 +882,12 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
+          "title": "National Pension Service Investment Management > Publications > Press Releases",
+          "source": "기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWE1KTkVaUE1WcmZVVExxR1Z3UkRrYWhoYlM1SXNqRjE1cVhZbklOS0xBSjREeHdOUjljNkVZQ0t1RWR5Wk1kV3pCTk1HSWI2QXgtV1hIdUJiLXJEVGFrYXBrTTl4al9xR1dNdXZuUjdEOTVaMTZCdlQ1SFdFUmM?oc=5",
+          "pubDate": "Wed, 07 May 2025 03:20:37 GMT"
+        },
+        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -916,12 +922,6 @@
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkUDJ0eWJDT19TWUhDQ0V6LUl1ZHNOY1U5alp4d3dhOXQ2VGxsdzRGOGlWVjR2dm5JTm1UX3U3MlZIN0NVRWxOTlBNM3FOVmowMTAtaVRsMEVnV2tzc0o5SlRYVXBGLUlXRE95Zm9mOA?oc=5",
           "pubDate": "Wed, 07 May 2025 04:17:17 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmNDUzRVNzVtUDJyVUlOSXpTWlBSckRqSUxVbWU3OW51aUdQY1k0eTNpSEpid25nM0x0UjFzMlhHanBqUi1IVmRUUVVZNHBHaWhJYXE0VUJtTDBONlpJYkpLS0Y1RjZqZlU3SFNIMGhLQTZfOHJLRkVJWlgteFN1ZzdnRDVjQ3M?oc=5",
-          "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
         }
       ]
     },
@@ -1034,6 +1034,12 @@
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
+          "title": "Galuwa Recreation Centre",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkdFlrcGRJdDRjV28wMDBKSk16RmhzcHJCbGpfTUFBRkxlMjloaFBVZkxsV2gzM1l5M1ppbEZ2WVFUaU83WGEzaVEzbEdhTzhlLXpCVkp6Z2EwOVdwdlNn?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
+        },
+        {
           "title": "TCorp Q3 FY26 Funding Update",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
@@ -1055,12 +1061,6 @@
           "title": "How Sydney became a global pacesetter for marathons",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObDlLem85cEJUMTdyQnAyYVNZSmNqTmdmOXJBY0UtNUE0dTNvOXFZcWl1Yk1NR241VnZkWWV0bFVJaTNXeGJRc1kxcFBCQVNxR2lfeXFScEpncFVfUERlb3c0MkJsckZlekhpb2Qza0FfMG5wYXdhaVJHWnBaelpseUlzYw?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Financing renewable energy project connections",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jQW90Zy12UGNMcFRDTmpQTU5zeEdTUG9GZklLdDVydWtHd0J4X0V5dG9vcVVmdWw2SE5OUU5wOEg3ZnRkbFpBMnB4bzA4c25HWUp1S1dVei1fRXE2cTUyYnVkQkZOWHdyLWN1ODlqVnRCamF6ZkEyc3c3dHY?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         }
       ]
@@ -1150,12 +1150,6 @@
           "pubDate": "Thu, 13 Aug 2026 07:01:58 GMT"
         },
         {
-          "title": "Our internship programme",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zNURlUGZwbTJnWG12RFpMUW9LZDN5WXlYQVIwR2tlVDQzMGx4WmdtRjd6bngtVmpmbjlJNnFtWUJQZmk1Tlc1R1owalBBYnM4eFJSRXZtbmZETXY0Z3pjSW93OVA5bXc?oc=5",
-          "pubDate": "Tue, 28 Jul 2026 01:13:26 GMT"
-        },
-        {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
@@ -1202,6 +1196,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
           "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
+        },
+        {
+          "title": "Craig Tunstall",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
+          "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
         }
       ]
     },
