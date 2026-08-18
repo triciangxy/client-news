@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:19:57Z",
+  "generated_at": "2026-08-18T02:37:06Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 70.2,
-      "change": -3.200000000000003,
-      "changePct": -4.359673024523164,
+      "price": 71.8,
+      "change": -1.6000000000000085,
+      "changePct": -2.1798365122615917,
       "currency": "HKD",
       "prevClose": 73.4,
-      "dayHigh": 73.75,
-      "dayLow": 70.7,
+      "dayHigh": 72.65,
+      "dayLow": 71.55,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 105300.0,
-      "change": -2100.0,
-      "changePct": -1.9553072625698324,
+      "price": 105700.0,
+      "change": -1700.0,
+      "changePct": -1.5828677839851024,
       "currency": "KRW",
       "prevClose": 107400.0,
       "dayHigh": 106700.0,
@@ -272,23 +272,23 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1753.0,
-      "change": 24.5,
-      "changePct": 1.417413942724906,
+      "price": 1751.5,
+      "change": 23.0,
+      "changePct": 1.3306334972519527,
       "currency": "JPY",
       "prevClose": 1728.5,
-      "dayHigh": 1759.5,
+      "dayHigh": 1762.0,
       "dayLow": 1732.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3336.0,
-      "change": 59.0,
-      "changePct": 1.8004272200183093,
+      "price": 3353.0,
+      "change": 76.0,
+      "changePct": 2.3191943851083305,
       "currency": "JPY",
       "prevClose": 3277.0,
-      "dayHigh": 3356.0,
+      "dayHigh": 3360.0,
       "dayLow": 3268.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -590,6 +590,12 @@
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
+          "title": "Our Portfolio",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRlZnaDkzb0UzSWt6VVZ4QmxDUElxSkh0ZWllaFY4UzFIOEZXUkdjZXNDTERNLVVqMFptMGI3bFgyMS1YOFJVcnVkU2ZSUnJpcHRFaHV5azNSOG94dW1sSHNYb2JDclphbVY0?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
+        },
+        {
           "title": "About Us",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWcTFrVzFnaEhHaUtWLXUyWHJMNWFTRmQ3TFowZUlGNzBrdUo5eDBRM2s2UEpRRXNwbHV1YlZ3ZVZfOFo2S0VnVE1ZeGgzUjQ?oc=5",
@@ -636,12 +642,6 @@
           "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMXJkRDFRYUJyX3dnNEpCdy1pbnh3QXVlYWJURkpwWElWMFJfd1pjR2tmTldLWUhSelBOOHJYTTFJeXNqQVpxdVgyTTRYWV9OWnlyYU5DdXJzTHJfTTJzSTQ1RDY4d2JIbmh1WXM0TzlTc1QtYUFQb2pGYjdacjBQY19yVFhYam51ZEdmaS1EU3RNQndHOXZ1UVAtVlhiRXpXUmFzQWIwdWo1cHZFZ0ZjdQ?oc=5",
           "pubDate": "Wed, 12 Aug 2026 00:22:48 GMT"
-        },
-        {
-          "title": "Off-Cycle Intern, Workplace Transformation & Administration (Jan - Jun 2027) Job Details",
-          "source": "jobs.temasek.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNy12TDBCOUVpYmJuRzVoS2VDTm5fby1mbW9OVTIzeFhkY3ptaV9DVzY4MWphZVJRdUxJeGpvUmlDNmZLUC1pOGN5dWhQTUFXZnlUS2t1NkNuN2xDTnE1bnRCS1FtckFVcWljRUN5U3ltY0lGV0xUV3ZJZzJRZWVzdEJCcW5VZVlsUzNneXBKTy02QXJtMWcxREpoYm1RNnJCSnpVZlB0eTJRaXNpQVFoU1Y4NzJZU0RSWS1CVkRIZHdlaXU3U01NRzJYYw?oc=5",
-          "pubDate": "Wed, 12 Aug 2026 05:49:04 GMT"
         }
       ]
     },
@@ -876,6 +876,12 @@
           "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
         {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGYzTFR4cUZmUVI2ODJuUXBMeWNUOFlsOXBCV0pUbnhrajdWU2F4bmhxMHBhREo1MVpZUndnX3lPcFlZaHozRUxxcy1MX3JfZHAtbkZ4eG1SQmt6UGhFeUxCYXdxYnBOVldfV1RkbkJ6ajI3Nnk0U2wzNUpFSE1DWlJTMTNnYzYz?oc=5",
+          "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
+        },
+        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -916,12 +922,6 @@
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmNDUzRVNzVtUDJyVUlOSXpTWlBSckRqSUxVbWU3OW51aUdQY1k0eTNpSEpid25nM0x0UjFzMlhHanBqUi1IVmRUUVVZNHBHaWhJYXE0VUJtTDBONlpJYkpLS0Y1RjZqZlU3SFNIMGhLQTZfOHJLRkVJWlgteFN1ZzdnRDVjQ3M?oc=5",
           "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
-        },
-        {
-          "title": "National Pension Service Investment Management > How We Invest > Risk Management",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tdlVTem4wbkxvTERmM3REdmlaZ1dFVU5FTDJTbms2VGpaZ21wdUhZYTIzZ3duU1hDYWFCdk1uaGpFUm13eGRmZ19JSkNUMWo4QUZoaFlGd1pBRGJrMlhnWk96X0RaRURod2pzbHRB?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:20:12 GMT"
         }
       ]
     },
