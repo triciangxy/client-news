@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T01:21:32Z",
+  "generated_at": "2026-08-19T02:39:57Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 75.4,
-      "change": 2.8500000000000085,
-      "changePct": 3.928325292901459,
+      "price": 72.45,
+      "change": -0.09999999999999432,
+      "changePct": -0.13783597518951662,
       "currency": "HKD",
       "prevClose": 72.55,
-      "dayHigh": 72.65,
-      "dayLow": 71.55,
+      "dayHigh": 73.0,
+      "dayLow": 72.15,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103800.0,
-      "change": -2700.0,
-      "changePct": -2.535211267605634,
+      "price": 104000.0,
+      "change": -2500.0,
+      "changePct": -2.3474178403755865,
       "currency": "KRW",
       "prevClose": 106500.0,
       "dayHigh": 105500.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1707.0,
-      "change": -27.0,
-      "changePct": -1.5570934256055362,
+      "price": 1695.5,
+      "change": -38.5,
+      "changePct": -2.2202998846597466,
       "currency": "JPY",
       "prevClose": 1734.0,
       "dayHigh": 1724.0,
@@ -283,13 +283,13 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3230.0,
-      "change": -102.0,
-      "changePct": -3.061224489795918,
+      "price": 3178.0,
+      "change": -154.0,
+      "changePct": -4.621848739495799,
       "currency": "JPY",
       "prevClose": 3332.0,
       "dayHigh": 3289.0,
-      "dayLow": 3187.0,
+      "dayLow": 3177.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -532,16 +532,16 @@
           "pubDate": "Tue, 04 Jan 2022 08:00:00 GMT"
         },
         {
-          "title": "Japan Post Bank Debit Application Method (Website Version)",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
-          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
-        },
-        {
           "title": "Press Release \"Financial Results for the Fiscal Year Ended March 31, 2026\"-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ROWZ5a1lLUkczSHhRTGZrYWVBUEx2RFNYbl9MT1o4ejRHR3FBRGN5M0Q0V1hQb3E3V2p1Nko5cXRNb2NqYW9Xcy1jVHN0WGFKaks2YUxPaWI4WWhVc1hPMzd5ZlVfcEFydFBhNDIzVlY3NTBSUU82QnhLUQ?oc=5",
           "pubDate": "Fri, 15 May 2026 11:08:46 GMT"
+        },
+        {
+          "title": "Japan Post Bank Debit Application Method (Website Version)",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
+          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
         },
         {
           "title": "Management Philosophy-JAPAN POST BANK",
