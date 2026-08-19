@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T04:38:55Z",
+  "generated_at": "2026-08-19T05:32:44Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.3,
-      "change": -0.25,
-      "changePct": -0.34458993797381116,
+      "price": 72.1,
+      "change": -0.45000000000000284,
+      "changePct": -0.620261888352864,
       "currency": "HKD",
       "prevClose": 72.55,
       "dayHigh": 73.0,
-      "dayLow": 72.1,
+      "dayLow": 72.0,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103500.0,
-      "change": -3000.0,
-      "changePct": -2.8169014084507045,
+      "price": 104700.0,
+      "change": -1800.0,
+      "changePct": -1.6901408450704223,
       "currency": "KRW",
       "prevClose": 106500.0,
       "dayHigh": 105500.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1687.5,
-      "change": -46.5,
-      "changePct": -2.6816608996539792,
+      "price": 1690.5,
+      "change": -43.5,
+      "changePct": -2.508650519031142,
       "currency": "JPY",
       "prevClose": 1734.0,
       "dayHigh": 1724.0,
@@ -283,13 +283,13 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3160.0,
-      "change": -172.0,
-      "changePct": -5.162064825930372,
+      "price": 3162.0,
+      "change": -170.0,
+      "changePct": -5.1020408163265305,
       "currency": "JPY",
       "prevClose": 3332.0,
       "dayHigh": 3289.0,
-      "dayLow": 3157.0,
+      "dayLow": 3156.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -1256,6 +1256,12 @@
           "pubDate": "Mon, 23 May 2016 04:54:03 GMT"
         },
         {
+          "title": "[The Norinchukin Bank] 2025",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGo1Um8xXzA0RGlpSW9YQWQyOElpa1ZrRXBEWWtHcUFkZmp1dTZYS002dnBWLTEzRUdCV0JEakRaVFU4WFZVN0YxMFk0NzhnckdvWndHOW1DT2Y0OFFsTDlOQzNPTjJXSmRZcUM1aktXZFBZdlNXdTNodURaZ2I3QmhmQktab290bU1YWU5JZkRBMlVzZ1E?oc=5",
+          "pubDate": "Sat, 20 Sep 2025 01:37:06 GMT"
+        },
+        {
           "title": "News Release 2025：The Norinchukin Bank",
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTVpTQlB4d2RWZ21Dald6bWhzMGo1Q0YxY3JCMmtSZkQwYjIyRnE3b0diV19xRG9vSjV2aUFIWjFNdjhiVXZNeHhFcWZFVDA1YkgzT1djR2ltZlFUOUVkS0VQUVZxdXl5SlVDTUNnSVJ6c19kZ0RRUTl3aVZiTTZMLWJUNUY3VEtOck5odF9QODVxUlVYLTY3Sl9od3lSV3BJMmNNeGw5UjM?oc=5",
@@ -1266,12 +1272,6 @@
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SOWJIYTNKRGNOaVRXWlNSZndINDVaanQzYURfUDMtSzdlcktwVjZKVE94THJUdDAyblBKR2dhejZHT3E0MTVjanM5RUFkak11YUd6Y3NLcUoxVHVnRHhUdw?oc=5",
           "pubDate": "Wed, 15 Aug 2018 02:48:58 GMT"
-        },
-        {
-          "title": "The Norinchukin Bank Sustainable Finance",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6S2w1ejBtWUxGZF84blNZZkRaYnd4VG5xNEZNUlVPTHJpaHBCNlljOGEwRjFmRWQwUXpTa3F2bDUzUEJlZVB1cTI4RmMyc0dRSjRzaW9sSjZ2MjMzTEFjYnlZZjVkU0hZeEZScE5DWWhSUEU?oc=5",
-          "pubDate": "Thu, 31 Aug 2023 06:38:07 GMT"
         }
       ]
     }
