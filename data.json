@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T01:21:21Z",
+  "generated_at": "2026-08-20T02:38:50Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,31 +250,31 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.0,
-      "change": -1.0,
-      "changePct": -1.36986301369863,
+      "price": 71.65,
+      "change": -1.3499999999999943,
+      "changePct": -1.8493150684931428,
       "currency": "HKD",
       "prevClose": 73.0,
-      "dayHigh": 73.25,
-      "dayLow": 72.0,
+      "dayHigh": 74.3,
+      "dayLow": 71.2,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103200.0,
-      "change": -1800.0,
-      "changePct": -1.7142857142857144,
+      "price": 103400.0,
+      "change": -1600.0,
+      "changePct": -1.5238095238095237,
       "currency": "KRW",
       "prevClose": 105000.0,
       "dayHigh": 105200.0,
-      "dayLow": 102700.0,
+      "dayLow": 102200.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1696.5,
-      "change": 8.0,
-      "changePct": 0.47379330766952915,
+      "price": 1686.0,
+      "change": -2.5,
+      "changePct": -0.14806040864672787,
       "currency": "JPY",
       "prevClose": 1688.5,
       "dayHigh": 1702.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3147.0,
-      "change": -26.0,
-      "changePct": -0.8194138039710053,
+      "price": 3127.0,
+      "change": -46.0,
+      "changePct": -1.4497321147179325,
       "currency": "JPY",
       "prevClose": 3173.0,
       "dayHigh": 3161.0,
@@ -985,7 +985,7 @@
           "title": "Retirement Bonus",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
-          "pubDate": "Mon, 10 Nov 2025 05:29:22 GMT"
+          "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
         },
         {
           "title": "CEO Message: Cyber Security Update",
@@ -1168,12 +1168,6 @@
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
         },
         {
-          "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
-          "pubDate": "Fri, 10 Oct 2025 07:00:00 GMT"
-        },
-        {
           "title": "David Junius",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
@@ -1202,6 +1196,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
           "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
+        },
+        {
+          "title": "Craig Tunstall",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
+          "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
         }
       ]
     },
