@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:48:51Z",
+  "generated_at": "2026-08-20T04:38:57Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 102800.0,
-      "change": -2200.0,
-      "changePct": -2.0952380952380953,
+      "price": 102300.0,
+      "change": -2700.0,
+      "changePct": -2.571428571428571,
       "currency": "KRW",
       "prevClose": 105000.0,
       "dayHigh": 105200.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1680.0,
-      "change": -8.5,
-      "changePct": -0.5034053893988748,
+      "price": 1683.0,
+      "change": -5.5,
+      "changePct": -0.32573289902280134,
       "currency": "JPY",
       "prevClose": 1688.5,
       "dayHigh": 1702.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3121.0,
-      "change": -52.0,
-      "changePct": -1.6388276079420105,
+      "price": 3126.0,
+      "change": -47.0,
+      "changePct": -1.4812480302552788,
       "currency": "JPY",
       "prevClose": 3173.0,
       "dayHigh": 3161.0,
@@ -935,61 +935,61 @@
       "items": [
         {
           "title": "Home",
-          "source": "mol.hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
           "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
           "title": "How to stay safe from sales tactics and scams",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
           "pubDate": "Mon, 10 Nov 2025 05:13:00 GMT"
         },
         {
           "title": "Indexed balanced",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWpfVWxUZTZLSjZBaWZuTi0xdVc4QnJPRkJNTG1aek03dGdTWi1qZjFVbVIxbE5TcmhPMVhJYTEzdHZESkk1aFpHUkxoVjJkNVAxV1E5RVp0dFJ2YUREdDFuWVVoYi1pSUdrUjk5aHpvQzhRdm5vSmhfdXhVS1QzaFN1bDdzME9oQzA3NDRzT0d6U2pHSEx3eXR6OGw3LTV5OHNCRnRhbWZZR3Z0amR6MXRCQ0tiR0puZ1lSd04tbzI3dmd2b084Rg?oc=5",
           "pubDate": "Mon, 29 Sep 2025 20:08:55 GMT"
         },
         {
           "title": "GOVERNMENT SUPER CO-CONTRIBUTION",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXJCQWZMSXd2VE5DSDFxVTlZZklFVERtYXdGa1MwNFVHRmJPRkl2U3QxTnFtV2Q0OTg5UzhOUndLcFhhaHpSa0VuQlJkUS13eHJ3OWhsT056NW1sLWpXSmlIbEZwVDBZYzhseWt5R3NhNnpkaWdwNUl0QVNFOHhIbkZmbDZvLUdzNVoxdXQtQWl4NDRZRUZrSHB4b1B0WHRkWTdEMmZ4X1V3YmZkVUJ1WW1rNzRCQ2U5cmZralBvX2dNUUgyWi1xZlBxQzZiRVFRSHJxUWZ1TGY4RzA?oc=5",
           "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "Meet our trusted Financial Advisers",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
           "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
         },
         {
           "title": "Try SuperSmart",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ja1NFTUJVTm5pZV9odHhQNjU0UE1zTVY5QUc1bEhiUmhKTVBoa0dob3ZBbjlORVlIeC1xYm4zdHU5TjNsZUNfaVFYSWlETm1hNzhsU1hManNDWUlsNzdrNEkzR0g2bm8?oc=5",
           "pubDate": "Wed, 03 Sep 2025 07:50:38 GMT"
         },
         {
           "title": "Pension end of year performance December 2025",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
           "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
         },
         {
           "title": "Understanding market declines",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbVhWNFVTbmZqanMtaVpnOWJzWGxzX0d4V0xXY0UxbjRZekRFeFhQTGRVQ3JlMV90a1FCN3hOZTlLRmhncG5DZlZyRUkzWW9tQ3VOWlJ2ZURtbzN2bUZFQ2VxODl2S09meEVfZGRxdlByaTAtZjNPWTByRU1zeDk1VmNGc1MtLWhQTE52ei1hZHlEZkk?oc=5",
           "pubDate": "Fri, 29 May 2026 19:06:18 GMT"
         },
         {
           "title": "Retirement Bonus",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
           "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
         },
         {
           "title": "CEO Message: Cyber Security Update",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
           "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
         }
@@ -1022,12 +1022,6 @@
           "pubDate": "Tue, 18 Aug 2026 11:52:33 GMT"
         },
         {
-          "title": "Market announcement",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPRE5KSGdaNTZBbUhTNkJaRzY5UkNKbG5yX0hFQWFaSDVEVVhOdkF1TTZQTzBQRnZBNTJ4RGxsNVBfUUx4WEQ1dGduSlVXaTRwcndCbVp3N2IwYVNNUGtGMXBDQXJwb0ZjRmJJOXZWdHFDMW9lRHNoSXB5ejN3cTRfMzYwQy1UY2ViZXhvOVdYM212ZVJOV0VVbDRGTTZ6SmlHbnpnaUttV2FTdzR6aVJ3WXNkbDJVdTVIZ19TenVPdFdhYmVuSXg5WU1JX0JDVDZ2Z1N3X1dZQVhUT1p0M0pLQnpJLWRVb0wtQ1Z6R09Zb29fMTd1YWxGNTlEOV85WTNPZGlDZXo1YWZtRWplM3VTQ3hHeF9adjFRdXBlRXBDYkVzaVAyNm5jNEhJU0o?oc=5",
-          "pubDate": "Wed, 12 Aug 2026 07:40:51 GMT"
-        },
-        {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
@@ -1050,6 +1044,12 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Galuwa Recreation Centre",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkdFlrcGRJdDRjV28wMDBKSk16RmhzcHJCbGpfTUFBRkxlMjloaFBVZkxsV2gzM1l5M1ppbEZ2WVFUaU83WGEzaVEzbEdhTzhlLXpCVkp6Z2EwOVdwdlNn?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         },
         {
           "title": "TCorp economic podcast",
