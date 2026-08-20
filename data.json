@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T06:50:02Z",
+  "generated_at": "2026-08-20T07:42:15Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.7,
-      "change": -0.29999999999999716,
-      "changePct": -0.4109589041095852,
+      "price": 72.65,
+      "change": -0.3499999999999943,
+      "changePct": -0.47945205479451275,
       "currency": "HKD",
       "prevClose": 73.0,
       "dayHigh": 74.3,
@@ -303,6 +303,12 @@
         "query": "site:aia.com"
       },
       "items": [
+        {
+          "title": "Results and Reports",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TYlAySGszR1k1b0h3T040UllUdWpHZG5vLW42c0pzelc2WDVVTi0wbnppRHZkVHhMTXFkcHhvWkNIU09VLUk3SUMzSVFHTFFSb3d0YWhHeVozalFhdXBDX1Y1czJBaWNxNVBqVjBRMWY1Q3ZXQ2drOWFyOUI?oc=5",
+          "pubDate": "Sat, 02 Jul 2022 13:36:48 GMT"
+        },
         {
           "title": "AIA delivers strong first half results in 2026",
           "source": "aia.com",
@@ -356,12 +362,6 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
           "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
-        },
-        {
-          "title": "Brisk walking: How to do it correctly, according to experts",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
-          "pubDate": "Wed, 14 Dec 2022 10:59:21 GMT"
         }
       ]
     },
@@ -532,12 +532,6 @@
           "pubDate": "Tue, 04 Jan 2022 08:00:00 GMT"
         },
         {
-          "title": "Japan Post Bank Debit Application Method (Website Version)",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
-          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
-        },
-        {
           "title": "Press Release \"Financial Results for the Fiscal Year Ended March 31, 2026\"-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ROWZ5a1lLUkczSHhRTGZrYWVBUEx2RFNYbl9MT1o4ejRHR3FBRGN5M0Q0V1hQb3E3V2p1Nko5cXRNb2NqYW9Xcy1jVHN0WGFKaks2YUxPaWI4WWhVc1hPMzd5ZlVfcEFydFBhNDIzVlY3NTBSUU82QnhLUQ?oc=5",
@@ -572,6 +566,12 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYVR6RnlTbVlTZEpST1lLU2pIWVMyVnduSlA2cGplZGtBZmQtdDBFZ3MyRE1XZVpKZVVJTndfTEo2UkxpX2VoR1NPVnp0OFByZklFdmtoNG9GTGxHNV9FSVJCbFRtWW9FaWdJRHhIMWl2OEVaU015QWpfNkNHeUFkb1VR?oc=5",
           "pubDate": "Thu, 12 Jan 2023 17:41:17 GMT"
+        },
+        {
+          "title": "Management Strategy-JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWHJoTTBaZTVuVG5xVVJ4RTVVc3lmYWZhT2I2dFVPYXN5MkZ0c0QtaFpDQUFnanpvSDhfR2lKWGZzX192Ri0xVWJhLVNxaEpHUzBZUXFHZHZ1VmVPU0dkdEdQYTZ6RngtS2lwRzQtcG1uNS10czdtS0FQSW56cWoyUkt3?oc=5",
+          "pubDate": "Fri, 21 Sep 2018 08:39:23 GMT"
         }
       ]
     },
