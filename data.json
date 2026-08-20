@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:38:57Z",
+  "generated_at": "2026-08-20T05:33:16Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.05,
-      "change": -0.9500000000000028,
-      "changePct": -1.3013698630137025,
+      "price": 72.6,
+      "change": -0.4000000000000057,
+      "changePct": -0.5479452054794599,
       "currency": "HKD",
       "prevClose": 73.0,
       "dayHigh": 74.3,
@@ -261,20 +261,20 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 102300.0,
-      "change": -2700.0,
-      "changePct": -2.571428571428571,
+      "price": 101900.0,
+      "change": -3100.0,
+      "changePct": -2.9523809523809526,
       "currency": "KRW",
       "prevClose": 105000.0,
       "dayHigh": 105200.0,
-      "dayLow": 102200.0,
+      "dayLow": 101600.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1683.0,
-      "change": -5.5,
-      "changePct": -0.32573289902280134,
+      "price": 1686.0,
+      "change": -2.5,
+      "changePct": -0.14806040864672787,
       "currency": "JPY",
       "prevClose": 1688.5,
       "dayHigh": 1702.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3126.0,
-      "change": -47.0,
-      "changePct": -1.4812480302552788,
+      "price": 3123.0,
+      "change": -50.0,
+      "changePct": -1.575795776867318,
       "currency": "JPY",
       "prevClose": 3173.0,
       "dayHigh": 3161.0,
@@ -585,61 +585,61 @@
       "items": [
         {
           "title": "Careers",
-          "source": "Temasek",
+          "source": "temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWTTZzaEtNNUJkQUI4T0lVbGtWSGg3bFRGODZ2eURTNnBfTTVHd2tON3M1a3U3cnV3ZHZoRGtzTjVVazExcU5ySElUQXdlczJFRHZCRFVSVTJTdw?oc=5",
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
           "title": "About Us",
-          "source": "Temasek",
+          "source": "temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWcTFrVzFnaEhHaUtWLXUyWHJMNWFTRmQ3TFowZUlGNzBrdUo5eDBRM2s2UEpRRXNwbHV1YlZ3ZVZfOFo2S0VnVE1ZeGgzUjQ?oc=5",
           "pubDate": "Tue, 30 Nov 2021 20:45:33 GMT"
         },
         {
           "title": "AI/Data Analytics Intern, Non-Executive Talent (Jan - Jun 2027) Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSWN0WmNCaERzb3BwRi1UY1I2MFZDd1dNb011RkJwZy1UOUZnMTJKWDhJWVRJZkRlRmlubE9hSFB5anZFR3hTY3FhTF9zbDJvelR3c19UMGRpNFdKU1RGeVNQZFc4Q2hnZFMzXzM1UEZzajRfSUNhRVBNZEYwNndNVmlMVmU1WU5Jb3ZCX0xFeXpvbktiV3A3dGFFMlBjdDVuOUU4NGlFNG5ndHVDa0dMX3h3YWVWSWRY?oc=5",
           "pubDate": "Tue, 11 Aug 2026 23:46:54 GMT"
         },
         {
           "title": "RPA & GenAI Automation Intern, Operations (Jan - Jun 2027) Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVWIwWkNPemRCZDNMY3A4NHdMOXRscWg0Zk9KUHVJYnd4ejNfU09IRzdHSUhFbVhOanFfSVZMOEo1NU9TYlpoSU52OUxMM3NHR1BGejJ0T1B3TzBuS2ViQVFnRzJnRTJUQWFJc0FWc2Y4WXk1VW9LWFA0dmxvTkJCX2NnNFZsTjViMTRydGVqZHJPSmt2ZXZpOXdMdzJHdVdUOGtPUHBaWnlCZmZjY2R0WUdCNA?oc=5",
           "pubDate": "Tue, 11 Aug 2026 17:24:36 GMT"
         },
         {
           "title": "AI & Automation Intern, Procurement (Jan - Jun 2027) Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb1FvT25XQjJPU2h2UFcwOE1XdzlINDlzM1BpZ2E0ZGpyWGNCWTZlcWdYSmhFVGgyU0x6N0QtQ2UxLVFseDFxYVZBcWxVUVBVSVpNUU5Bc2NhaHU0TE16c0k4Qk4xdkpNTndwdXhtc3Y3VFkxX01sbGJ1TVFRTnJtY0x6M3d5bV9nRWdYeXViXzctWlhxdmRpLTQzOE9TdWVYNDVUeDAyTG5KUEk?oc=5",
           "pubDate": "Wed, 12 Aug 2026 01:29:52 GMT"
         },
         {
           "title": "Director, AI Strategic Programme Office Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSHF5amNtbmpTaFpUaWZTenVYUm9tcXFCN2ZvNzNQTjlQZXIzSGM5R2Zlc19YcE4tTUV3dkxUckNJMGVreFBvejdvLXVZN0ZUMnc2SkxvYnUzcDRTbFlLWDNhSWJLN1FGeWw3eUtnTmdpLWlQZ0NWM1BzdGhQNFVPNzVBT212ZVFwdEZXeGphdWlaQ0ItT0JB?oc=5",
           "pubDate": "Tue, 18 Aug 2026 04:01:43 GMT"
         },
         {
           "title": "Vice President Agentic AI Platform Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbmxSYmNtOVcwdVdsb1k5Q2RtbERzUXF0ek5zaFNETVNCbVQyUzBOS1EtRUtpd0F6ZVZydFNNRVlobVJtUUZadzNfMVBXdFVtS05GcUstbDBLM0lFcC1BUnZUVzJQcnNRVGFIM2I1OGl4Q0VmLWdEcC1XMG51TkNrd001cGw3SDZzRlhiZVZ6cFpCNU9xX0U0WHBSLVZtMTlTdjFKX055SjMtUjJUQlE0U0IxdFYtTVBiVkU4MmhRQzh3WU05SV9v?oc=5",
           "pubDate": "Sun, 16 Aug 2026 02:35:44 GMT"
         },
         {
           "title": "Associate (12 months contract), Organisation & People (AI & Data Analytics) Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU3A1R2I2WXJObFZoVWJaWnJSczNvQndkRXUxMjlRdUxVcEtGT3JCeDAxTjhGSFoyUm1qckNPakx6czhwaU1lUVNoc3VhVlBXU0FZQzFyb3FrRE1ZTkxzWUQ1clhyN3JQa2I0UEJRVi1ETjNkRm1uX0tGaUREMzlma3V2MUVrWGpaNzlvSVlzU1RqNEViVEVPUHhsRG9iUF9jcC1YUjZYdHd0WlVGRFhOUVRoUlNCSmlwNTRkOVJzaW05VlRIclI1bUdSTFItWFdoTlE?oc=5",
           "pubDate": "Wed, 05 Aug 2026 14:13:45 GMT"
         },
         {
           "title": "Decarbonising Rice: Transforming Rice Farming for Farmers and the Planet",
-          "source": "Temasek",
+          "source": "temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR1lkNjE0ZTZVUmtuZko3TW9STl90TTRta01Xb3BzMC1Bak0xbW1uUFh2N21MQzJVa3dYczV4andKejdXNWlkcDBqdVlBOVExc2FEbmRwdWRJM2JhY3gxcVN3LTZsbm92V0hHZ1IzMjVMZ0lPbmNhNTN5NnNkYVhoU2hwQ3pmZFIzYktNMkU1RHQxMnJiV3BoNVcwdl8xLXdKVDZFbW9OZUVSMlZpSU1rWkxVTkJhZlVyWEJhN2kxdlBSNUN5MjRSWk96U1QzdS1N?oc=5",
           "pubDate": "Mon, 10 Aug 2026 07:00:00 GMT"
         },
         {
           "title": "Automation Intern, Financial Management (Jan - Jun 2027) Job Details",
-          "source": "Temasek",
+          "source": "jobs.temasek.com.sg",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMXJkRDFRYUJyX3dnNEpCdy1pbnh3QXVlYWJURkpwWElWMFJfd1pjR2tmTldLWUhSelBOOHJYTTFJeXNqQVpxdVgyTTRYWV9OWnlyYU5DdXJzTHJfTTJzSTQ1RDY4d2JIbmh1WXM0TzlTc1QtYUFQb2pGYjdacjBQY19yVFhYam51ZEdmaS1EU3RNQndHOXZ1UVAtVlhiRXpXUmFzQWIwdWo1cHZFZ0ZjdQ?oc=5",
           "pubDate": "Wed, 12 Aug 2026 00:22:48 GMT"
         }
@@ -655,25 +655,25 @@
       "items": [
         {
           "title": "AVP, Investment Finance, Americas",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZjF1YzlDaUFRNEg0MjZtTjRlNHZDWklDZXhiNnJxUDdQdWZzMVVhNlFuZV9uX1dfQk5wdnJJeXNpRXdXZ25Pa2hMeUxCdWRpcjRKekx2UFZKZ3VYaW9RdnM4Nkx0WjkyMk5RNnRacHd6ZmdRU1NoejZTWkFxUlNRcU4zcGlBdzBKcFRCb1Bn?oc=5",
           "pubDate": "Sat, 15 Aug 2026 06:21:23 GMT"
         },
         {
           "title": "Portfolio Manager, Commodities, Global Macro",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVk10TkJLc3VKNEVqRl95MlZnYklMTmQ3UFNUb205VjNHdkNJbHp5VG5MR0RsNTZBd3dVRDJFdGcxU0dnUFFKOWVucUNLQ2x5RjhyNGlTZXVNNlRTdVM1dUt0S1I0dXAwVW1PcHhfdXRXTG9QTmFfdW1aOWl2b3pNZzJIbVpQbEtFLWdTRU1XOU5LTlg0dW9tM1otQ1pZNExHVkg5OVdmOUhMSmVYUGN3VU5neUljOG9IX3dWMnpnc2U2U2Y5OE9wek5MUzQ3S0JUTmxCNXkyUnJGZXYwdVZtaTJxMTJVekNiejRZSQ?oc=5",
           "pubDate": "Tue, 11 Aug 2026 02:00:08 GMT"
         },
         {
           "title": "AVP/VP, Incident and Problem Management, Technology Group",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQallrazJWVlgwaVFFX0g1UlRqcG9HdW1BVEpNby1JQ09lT3RLY2lHTmdMNUFWdnBtZjUzYlk4eTAyaXlobXNUU0stWlN4RXZwTHJSSHJjMUtreDJmY1g3ZXhleXRhMjhEa1FCRmkxMHJKaUFMTmQ3a1B4dVhxZlRYamFLWmRHejNHN3RkSEFtbFpSYko1SHE3Q293N1dCYXktMG9RVWh5VWkwVW1FN01KZlB3OA?oc=5",
           "pubDate": "Thu, 13 Aug 2026 10:43:05 GMT"
         },
         {
           "title": "Associate/AVP, Physical Climate Risk Specialist",
-          "source": "gic.careers",
+          "source": "careers.gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclAzY1dDNXZPQTByVzhFZXFvUi1PTW5VZXc1ZmNRbFJ3ajNDQUswaG9DQ3gzOVRBTmlycmw1TWt4YkJfeXVTbDgzS01rMHFFdmtfa0tqMlkyd1lMOG83TE5RbXFqUHlkdHo4Wk1kTndzZ0NlR2ZGQkNzdWM5SXY2YjNIbV9LS3plVWtrMTdlTlZKUmNVb1pDZ2Z1MEViNjZC?oc=5",
           "pubDate": "Tue, 11 Aug 2026 10:55:55 GMT"
         },
