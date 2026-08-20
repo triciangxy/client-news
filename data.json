@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:42:15Z",
+  "generated_at": "2026-08-20T08:40:54Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.65,
-      "change": -0.3499999999999943,
-      "changePct": -0.47945205479451275,
+      "price": 72.75,
+      "change": -0.25,
+      "changePct": -0.3424657534246575,
       "currency": "HKD",
       "prevClose": 73.0,
       "dayHigh": 74.3,
