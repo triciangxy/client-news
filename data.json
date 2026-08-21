@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:24:53Z",
+  "generated_at": "2026-08-21T02:45:35Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,42 +250,42 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 75.15,
-      "change": 2.4000000000000057,
-      "changePct": 3.2989690721649563,
+      "price": 74.35,
+      "change": 1.5999999999999943,
+      "changePct": 2.1993127147766245,
       "currency": "HKD",
       "prevClose": 72.75,
-      "dayHigh": 74.3,
-      "dayLow": 71.2,
+      "dayHigh": 74.4,
+      "dayLow": 73.4,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 102700.0,
-      "change": 1600.0,
-      "changePct": 1.582591493570722,
+      "price": 103700.0,
+      "change": 2600.0,
+      "changePct": 2.571711177052423,
       "currency": "KRW",
       "prevClose": 101100.0,
-      "dayHigh": 103700.0,
+      "dayHigh": 104300.0,
       "dayLow": 101000.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1694.0,
-      "change": 3.5,
-      "changePct": 0.2070393374741201,
+      "price": 1700.0,
+      "change": 9.5,
+      "changePct": 0.5619639160011831,
       "currency": "JPY",
       "prevClose": 1690.5,
-      "dayHigh": 1702.0,
+      "dayHigh": 1702.5,
       "dayLow": 1684.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3131.0,
-      "change": 11.0,
-      "changePct": 0.3525641025641026,
+      "price": 3136.0,
+      "change": 16.0,
+      "changePct": 0.5128205128205128,
       "currency": "JPY",
       "prevClose": 3120.0,
       "dayHigh": 3144.0,
@@ -672,12 +672,6 @@
           "pubDate": "Thu, 13 Aug 2026 10:43:05 GMT"
         },
         {
-          "title": "Associate/AVP, Physical Climate Risk Specialist",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclAzY1dDNXZPQTByVzhFZXFvUi1PTW5VZXc1ZmNRbFJ3ajNDQUswaG9DQ3gzOVRBTmlycmw1TWt4YkJfeXVTbDgzS01rMHFFdmtfa0tqMlkyd1lMOG83TE5RbXFqUHlkdHo4Wk1kTndzZ0NlR2ZGQkNzdWM5SXY2YjNIbV9LS3plVWtrMTdlTlZKUmNVb1pDZ2Z1MEViNjZC?oc=5",
-          "pubDate": "Tue, 11 Aug 2026 10:55:55 GMT"
-        },
-        {
           "title": "Beyond the Hype: Investing in AI Value",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb2tZcXFxQk1xZTI1dFFoVzdSRUNoeElqMWhCYmFibmx5OVhKTzNuM2tDVDFkU25ReWdDMERRQy1DOUJ4S25zQVRKaExucFBpd2JuR3k1RHBPeDdQemZONExhYWpZSHhBLUppMFUwQU9CR1JrQW1KMndPU0VwTTVFX1BhdGw3aEJQM2Vr?oc=5",
@@ -712,6 +706,12 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
           "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
+        },
+        {
+          "title": "Deepak Parekh",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         }
       ]
     },
