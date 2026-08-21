@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T04:40:27Z",
+  "generated_at": "2026-08-21T05:34:48Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.7,
-      "change": 1.9500000000000028,
-      "changePct": 2.6804123711340244,
+      "price": 74.9,
+      "change": 2.1500000000000057,
+      "changePct": 2.9553264604811074,
       "currency": "HKD",
       "prevClose": 72.75,
       "dayHigh": 75.1,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103600.0,
-      "change": 2500.0,
-      "changePct": 2.472799208704253,
+      "price": 103800.0,
+      "change": 2700.0,
+      "changePct": 2.6706231454005933,
       "currency": "KRW",
       "prevClose": 101100.0,
       "dayHigh": 104700.0,
@@ -272,23 +272,23 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1705.0,
-      "change": 14.5,
-      "changePct": 0.857734398107069,
+      "price": 1713.5,
+      "change": 23.0,
+      "changePct": 1.3605442176870748,
       "currency": "JPY",
       "prevClose": 1690.5,
-      "dayHigh": 1706.5,
+      "dayHigh": 1715.0,
       "dayLow": 1684.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3151.0,
-      "change": 31.0,
-      "changePct": 0.9935897435897435,
+      "price": 3164.0,
+      "change": 44.0,
+      "changePct": 1.4102564102564104,
       "currency": "JPY",
       "prevClose": 3120.0,
-      "dayHigh": 3156.0,
+      "dayHigh": 3170.0,
       "dayLow": 3110.0,
       "marketState": "",
       "exchange": "Tokyo"
