@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:32:58Z",
+  "generated_at": "2026-08-21T01:24:53Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.75,
-      "change": -0.25,
-      "changePct": -0.3424657534246575,
+      "price": 75.15,
+      "change": 2.4000000000000057,
+      "changePct": 3.2989690721649563,
       "currency": "HKD",
-      "prevClose": 73.0,
+      "prevClose": 72.75,
       "dayHigh": 74.3,
       "dayLow": 71.2,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 101100.0,
-      "change": -3900.0,
-      "changePct": -3.7142857142857144,
+      "price": 102700.0,
+      "change": 1600.0,
+      "changePct": 1.582591493570722,
       "currency": "KRW",
-      "prevClose": 105000.0,
-      "dayHigh": 105200.0,
-      "dayLow": 101100.0,
+      "prevClose": 101100.0,
+      "dayHigh": 103700.0,
+      "dayLow": 101000.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1690.5,
-      "change": 2.0,
-      "changePct": 0.11844832691738229,
+      "price": 1694.0,
+      "change": 3.5,
+      "changePct": 0.2070393374741201,
       "currency": "JPY",
-      "prevClose": 1688.5,
-      "dayHigh": 1702.5,
-      "dayLow": 1675.5,
+      "prevClose": 1690.5,
+      "dayHigh": 1702.0,
+      "dayLow": 1684.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3120.0,
-      "change": -53.0,
-      "changePct": -1.6703435234793569,
+      "price": 3131.0,
+      "change": 11.0,
+      "changePct": 0.3525641025641026,
       "currency": "JPY",
-      "prevClose": 3173.0,
-      "dayHigh": 3161.0,
-      "dayLow": 3112.0,
+      "prevClose": 3120.0,
+      "dayHigh": 3144.0,
+      "dayLow": 3110.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -334,12 +334,6 @@
           "pubDate": "Mon, 17 Mar 2025 15:17:41 GMT"
         },
         {
-          "title": "Can a bedtime routine alleviate stress?",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnBsWmdkRlVtak5iZmNtRjQtZ3YzNVVJZ3U4eVpPdnQ5aHJaWHEwV09VZHFhUlFVUjRELU55RkduY1llR1ZlSHg1M2RkZ0FkdkFxZzFXblhmbjJJMmw3bmpKYzZhdlVDNmpiQkZWN2lkcmZ3bGJ1bVhULUFDalNuVmhTSFlRVWVjb3NsY294YlRBZDhSaHc?oc=5",
-          "pubDate": "Wed, 15 May 2024 16:36:37 GMT"
-        },
-        {
           "title": "How to recognise social anxiety disorder: Causes, symptoms and treatments",
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRGI0MGsxVFZQLUIwMnR5UEZJTUZnNFEzLVdoM3pzZVlGRVRWTVNucVJUNTB6clBHMDVCX3dzZ3NLNGNQVEVkMlpHNzFPcG5BSHJ6TE4tQU5SRGJKVVppbF9sTUk5N1dKZVlTeVZtLTFHSE9CR0NvaWlBdThaRjRGU0pBNGJHa3ZVejMwcnJoRXZYQXN0?oc=5",
@@ -362,6 +356,12 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
           "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
+        },
+        {
+          "title": "Brisk walking: How to do it correctly, according to experts",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
+          "pubDate": "Wed, 14 Dec 2022 10:59:21 GMT"
         }
       ]
     },
@@ -386,7 +386,7 @@
           "pubDate": "Fri, 26 Jul 2024 11:25:57 GMT"
         },
         {
-          "title": "Shinhan Financial Group-Investor Relations",
+          "title": "Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
           "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
@@ -468,6 +468,12 @@
           "pubDate": "Sun, 23 Feb 2025 22:59:49 GMT"
         },
         {
+          "title": "IR Presentation Materials | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFbVlxbERPQy1OZlpna296TGJMRjB1RWc4dkdNTWRBaFVaRjJtN2ppWGlydjk4QW9Ld1hJNjBYdnpNaG5wbVg4SEItaTIzVFJla2lBWVVYN2tHRExTSnNIdmczdUc1QTdC?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 01:44:06 GMT"
+        },
+        {
           "title": "Directors and Executive Officers | Company information | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oTHVkSjNtQl9jT3VZQ2lMWG9tbUktTVQxSmhRMkxTSnM2dWVCckJONFU1cTg1cWV2Nm1CRlh2eXZxZEJVcnRaVUdXZUtPU0l1R2JUX0JyNA?oc=5",
@@ -496,12 +502,6 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZjVZOGM0RVQ2TUVkRVRVSDB6eHFhSTlNRmJ0SzZCMDFZLWFkeF9aMTRDRm0zYUhEUUNxN2xxVXZrMXJYOXRHamE5ZHdqX29VbVhJbFhucmdBTDhIZjduYg?oc=5",
           "pubDate": "Mon, 24 Feb 2025 02:05:00 GMT"
-        },
-        {
-          "title": "IR Presentation Materials | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFbVlxbERPQy1OZlpna296TGJMRjB1RWc4dkdNTWRBaFVaRjJtN2ppWGlydjk4QW9Ld1hJNjBYdnpNaG5wbVg4SEItaTIzVFJla2lBWVVYN2tHRExTSnNIdmczdUc1QTdC?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 01:44:06 GMT"
         }
       ]
     },
@@ -590,10 +590,16 @@
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
-          "title": "About Us",
+          "title": "Our Leadership",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWcTFrVzFnaEhHaUtWLXUyWHJMNWFTRmQ3TFowZUlGNzBrdUo5eDBRM2s2UEpRRXNwbHV1YlZ3ZVZfOFo2S0VnVE1ZeGgzUjQ?oc=5",
-          "pubDate": "Tue, 30 Nov 2021 20:45:33 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
+        },
+        {
+          "title": "Our Portfolio",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRlZnaDkzb0UzSWt6VVZ4QmxDUElxSkh0ZWllaFY4UzFIOEZXUkdjZXNDTERNLVVqMFptMGI3bFgyMS1YOFJVcnVkU2ZSUnJpcHRFaHV5azNSOG94dW1sSHNYb2JDclphbVY0?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
         },
         {
           "title": "AI/Data Analytics Intern, Non-Executive Talent (Jan - Jun 2027) Job Details",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSm1McEJhWnVoeTdoNXdZT0tYWDdnSmJzRExIc1dHaXctLVNtbXRzZTQyUkJ2LTIyM05TT19hWkRTSWRWNVBwLW5vbV9EM2I1OUV4bHFZRXdUNkJMRDRNMVBRUnpVUmtpNm5aWU5WaldWZE82cXVlQnk2QzRES0Jpa2RqY3ZOb2h5SEs2cUNFd2xTcUtnMGdqMFBrVUE3dExvcVJtVUtqX0ZpMXM4N2s4dzEtVkVkZw?oc=5",
           "pubDate": "Thu, 20 Aug 2026 09:06:55 GMT"
-        },
-        {
-          "title": "Decarbonising Rice: Transforming Rice Farming for Farmers and the Planet",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR1lkNjE0ZTZVUmtuZko3TW9STl90TTRta01Xb3BzMC1Bak0xbW1uUFh2N21MQzJVa3dYczV4andKejdXNWlkcDBqdVlBOVExc2FEbmRwdWRJM2JhY3gxcVN3LTZsbm92V0hHZ1IzMjVMZ0lPbmNhNTN5NnNkYVhoU2hwQ3pmZFIzYktNMkU1RHQxMnJiV3BoNVcwdl8xLXdKVDZFbW9OZUVSMlZpSU1rWkxVTkJhZlVyWEJhN2kxdlBSNUN5MjRSWk96U1QzdS1N?oc=5",
-          "pubDate": "Mon, 10 Aug 2026 07:00:00 GMT"
         }
       ]
     },
@@ -678,6 +678,12 @@
           "pubDate": "Tue, 11 Aug 2026 10:55:55 GMT"
         },
         {
+          "title": "Beyond the Hype: Investing in AI Value",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb2tZcXFxQk1xZTI1dFFoVzdSRUNoeElqMWhCYmFibmx5OVhKTzNuM2tDVDFkU25ReWdDMERRQy1DOUJ4S25zQVRKaExucFBpd2JuR3k1RHBPeDdQemZONExhYWpZSHhBLUppMFUwQU9CR1JrQW1KMndPU0VwTTVFX1BhdGw3aEJQM2Vr?oc=5",
+          "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT"
+        },
+        {
           "title": "Tightening Constraints, Widening Outcomes, Enduring Purpose",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQnRiQWNld00wZGNYZnlSbEVEM01YNjJSUmNwTVhRUC1qaWZmd0ZObFlDT01oaFBtM1VkVjIzV3kwbmhGRG1lMVpoZzNfM1l1UEw0MzIzbHRxYlJhTWRzMTNiYkNBN3ZSb1BMMzZrbmtBVkJkbUp4U19RS2JGS0RNdHhGVDB3ZzJMNWtiREN1X0dUb2c?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
           "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
-        },
-        {
-          "title": "Deepak Parekh",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         }
       ]
     },
@@ -818,6 +818,12 @@
           "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
         },
         {
+          "title": "KIC 2023 Annual Report",
+          "source": "한국투자공사/KIC",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMVdJc2Q3dnEwd3RYQ2lScnh3b0UtNXNzM29oM0I1c0sySV9qX3NVRnBlX0E2U0laYlFOc3o2eHBKUmlVdXBCLU9nUlN4Yy1nRzFVNkpnQ1lxNTRTWVVZ?oc=5",
+          "pubDate": "Sat, 16 May 2026 08:26:24 GMT"
+        },
+        {
           "title": "Untitled",
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
@@ -846,12 +852,6 @@
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
           "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
-        },
-        {
-          "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
-          "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
         }
       ]
     },
@@ -1004,62 +1004,62 @@
       },
       "items": [
         {
-          "title": "TCorp announces an increase to the 2.00% 20 March 2031 Benchmark bond and 4.75% 20 September 2035 Benchmark Sustainability bond via Yieldbroker tender",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMlBkWFBEUnN0WkRrRU9saS15MjI4T1IydS1HTW5Xa3Y5VGhPZTFGeVpkWl8zNW0wTm5uZXRYWllFZXBreF9xRkxRQlZqWWZQQm9Zb0pYMnF3LUhzaTY5N3BId3JabERDWDZkeWxJVU1MXzVWZzV3UGE1YnpNQnJUOV8xMGV0UTU1VlV2NGJmQVRxcnJrNFAxUzBRVFhqNlc4a3EtaksxZlF5WGFsVTB5cnBFZ19WVllwNWpmcDhoRUdOZ2Z4SUwxMFFGQ3ZqRll2N01sUERsLXNVSHZhYWxqSHZtajlFNDZ6TnJ2dTlOYU5YYzMtUk5NVUZLcTZFS3hBOXlLcTBiNnFCS1U?oc=5",
-          "pubDate": "Sat, 15 Aug 2026 05:04:18 GMT"
-        },
-        {
-          "title": "Weekly bonds outstanding - 14 August 2026",
-          "source": "TCorp",
+          "title": "Weekly bonds outstanding - 14 August 2026 - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56WEtPOUhCVUVQeWEtc0xsV3o3amhsTUotUWwwSjloMmxLWXlTSEFjeVNxZXdqQmZVVzJSem92ekRKQ1lnU1UyNjFRR002RDI1MDVnSzBHVG5KR2h2QlhXblV3?oc=5",
           "pubDate": "Tue, 18 Aug 2026 18:12:45 GMT"
         },
         {
-          "title": "2026; Weekly Archives",
-          "source": "TCorp",
+          "title": "2026; Weekly Archives - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rOFZiMHBIQVhTTXU0cTh3bXlxSmxrLWgwQVZVel8xazk3Rl91UlEzUmhyb3ZHRTZPT2JUT0lrZm1ta1NPOTlwTW41LTkwaHJuQzM4?oc=5",
           "pubDate": "Tue, 18 Aug 2026 11:52:33 GMT"
         },
         {
-          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
-          "source": "TCorp",
+          "title": "TCorp announces an increase to the 2.00% 20 March 2031 Benchmark bond and 4.75% 20 September 2035 Benchmark Sustainability bond via Yieldbroker tender - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMlBkWFBEUnN0WkRrRU9saS15MjI4T1IydS1HTW5Xa3Y5VGhPZTFGeVpkWl8zNW0wTm5uZXRYWllFZXBreF9xRkxRQlZqWWZQQm9Zb0pYMnF3LUhzaTY5N3BId3JabERDWDZkeWxJVU1MXzVWZzV3UGE1YnpNQnJUOV8xMGV0UTU1VlV2NGJmQVRxcnJrNFAxUzBRVFhqNlc4a3EtaksxZlF5WGFsVTB5cnBFZ19WVllwNWpmcDhoRUdOZ2Z4SUwxMFFGQ3ZqRll2N01sUERsLXNVSHZhYWxqSHZtajlFNDZ6TnJ2dTlOYU5YYzMtUk5NVUZLcTZFS3hBOXlLcTBiNnFCS1U?oc=5",
+          "pubDate": "Sat, 15 Aug 2026 05:04:18 GMT"
+        },
+        {
+          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
           "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "TCorp appoints General Manager, Financial Markets",
-          "source": "TCorp",
+          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
           "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
-          "source": "TCorp",
+          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblVWTGNJdVMyOHVJQjNVc08xdUdObTZ1YlhtZkpSdGkySDQtZU5WMmp0bm85ZnVUZXpiTHg0QnFhQ2hSelMtQVAxdDR3S0Z4LUROUC1QdFljUHkwVGdLQ0VjbjZ6Mmx5QjFKN0l4RnFrOURoNGJQZmMzazB3TDJHbGlJZ2NrV3dwU09YajJDMDE1MlJCbEJRWkZYdF9hN2Z6MjVPVGxyZzNsUExfVzk3cUJJNTIxNkwybkpj?oc=5",
           "pubDate": "Mon, 23 Feb 2026 01:03:21 GMT"
         },
         {
-          "title": "Market announcement",
-          "source": "TCorp",
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Galuwa Recreation Centre",
-          "source": "TCorp",
+          "title": "Galuwa Recreation Centre - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkdFlrcGRJdDRjV28wMDBKSk16RmhzcHJCbGpfTUFBRkxlMjloaFBVZkxsV2gzM1l5M1ppbEZ2WVFUaU83WGEzaVEzbEdhTzhlLXpCVkp6Z2EwOVdwdlNn?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         },
         {
-          "title": "TCorp economic podcast",
-          "source": "TCorp",
+          "title": "TCorp economic podcast - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
           "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Market announcement – non-benchmark bond line reclassification",
-          "source": "TCorp",
+          "title": "Market announcement – non-benchmark bond line reclassification - TCorp",
+          "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkdVX0ZtMHhIelNFbzFXX0g5WGlSa3ZwUW9rX0EtQVo5SndVZTEwZ1lZdlpoWEhqZVVuYTBsQWxQZm9ReU9Vb1N2dERGY2RqX1BUUG5IbkJ4dnQzUjlIWGhGRTZxT2lxbUdxdmdyaVlkNnJMWWJWbDB5MDBQMmt1Z3U5ZllabUx4TUtwU2Q2YVhQZDlsd3NpU1gzbDFlaUZkeHlaNGRYWS0?oc=5",
           "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT"
         }
@@ -1116,6 +1116,12 @@
           "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
         },
         {
+          "title": "Announcement of the Scheduled Date for Partial Transfer of Nippon Wealth Life’s Investment Management Functions to Enhance Nippon Life Group’s Investment Capabilities",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SeUtVWUx2Uk5QZ0hxNzJubWM4VHl5Slg3a0pDWTRPRFYxaGFTOENoUU5SRDFtc2lpSzN1TkkxbEJYNWJLTmdRQnROM2V0cGNVckF2cFVuOFd0WGdBOVlJ?oc=5",
+          "pubDate": "Fri, 07 Mar 2025 08:00:00 GMT"
+        },
+        {
           "title": "About Us | Nippon Life Insurance Company",
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJSjFuODQ1RTc2bkF0UXdBTXFVQjZNTnhoT05mTEJUcVhfSmNUTGMtOWZ1clQ1TnZxRHI0c1NWLUxzc1NIRVgzQ2NlSE0yT1k?oc=5",
@@ -1126,12 +1132,6 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHRkVlbmhzVFI5bFFEZW5meGFoMWh3Yl9UaTBObTVZRFlsV2d6N0JKbGhXOUNhbjl5cHY4RkdnM2gzRmpYSmpkaFhZdk9zdw?oc=5",
           "pubDate": "Thu, 29 Jun 2023 12:10:19 GMT"
-        },
-        {
-          "title": "Major Responsible Investment Methods | Sustainability | Nippon Life Insurance Company",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZZHA2aU1tcGJmVDBLb0FmR2ZPZzB6bDZ0RjNNVS1kdm9qM21fWVdxbGVOSkFNcnJ6NDhBYjlJYWxZZlpaLWxFOU9od2tuSmc2QXc4OE56R002cXN5S3l1U2pDVGZzbWROd1U0MjJPVQ?oc=5",
-          "pubDate": "Thu, 29 Jun 2023 10:29:29 GMT"
         }
       ]
     },
@@ -1143,6 +1143,12 @@
         "query": "site:fwd.com"
       },
       "items": [
+        {
+          "title": "FWD | YONG PEI LING",
+          "source": "ace-ib.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0YndJWkN6WVVKRWljaUwzSkVXX2ZHcWhCOC1PRGdjXzV4RF9DUElkaEVQbEJFTVZfQUFZc1B2OTdEUFB0UUtzanZuS0xOakZOU2syczFybTZNcHhMXzJYZ0VfQTc?oc=5",
+          "pubDate": "Thu, 20 Aug 2026 04:06:04 GMT"
+        },
         {
           "title": "FWD | NAVAN A/L VANKU",
           "source": "ace-ib.fwd.com",
@@ -1196,12 +1202,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
           "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
-        },
-        {
-          "title": "Craig Tunstall",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
-          "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
         }
       ]
     },
