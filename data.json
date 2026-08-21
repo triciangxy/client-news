@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:34:48Z",
+  "generated_at": "2026-08-21T06:51:02Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.9,
-      "change": 2.1500000000000057,
-      "changePct": 2.9553264604811074,
+      "price": 74.65,
+      "change": 1.9000000000000057,
+      "changePct": 2.6116838487972585,
       "currency": "HKD",
       "prevClose": 72.75,
       "dayHigh": 75.1,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103800.0,
-      "change": 2700.0,
-      "changePct": 2.6706231454005933,
+      "price": 104100.0,
+      "change": 3000.0,
+      "changePct": 2.967359050445104,
       "currency": "KRW",
       "prevClose": 101100.0,
       "dayHigh": 104700.0,
@@ -272,20 +272,20 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1713.5,
-      "change": 23.0,
-      "changePct": 1.3605442176870748,
+      "price": 1715.5,
+      "change": 25.0,
+      "changePct": 1.4788524105294292,
       "currency": "JPY",
       "prevClose": 1690.5,
-      "dayHigh": 1715.0,
+      "dayHigh": 1715.5,
       "dayLow": 1684.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3164.0,
-      "change": 44.0,
-      "changePct": 1.4102564102564104,
+      "price": 3151.0,
+      "change": 31.0,
+      "changePct": 0.9935897435897435,
       "currency": "JPY",
       "prevClose": 3120.0,
       "dayHigh": 3170.0,
@@ -660,22 +660,10 @@
           "pubDate": "Sat, 15 Aug 2026 06:21:23 GMT"
         },
         {
-          "title": "Portfolio Manager, Commodities, Global Macro",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVk10TkJLc3VKNEVqRl95MlZnYklMTmQ3UFNUb205VjNHdkNJbHp5VG5MR0RsNTZBd3dVRDJFdGcxU0dnUFFKOWVucUNLQ2x5RjhyNGlTZXVNNlRTdVM1dUt0S1I0dXAwVW1PcHhfdXRXTG9QTmFfdW1aOWl2b3pNZzJIbVpQbEtFLWdTRU1XOU5LTlg0dW9tM1otQ1pZNExHVkg5OVdmOUhMSmVYUGN3VU5neUljOG9IX3dWMnpnc2U2U2Y5OE9wek5MUzQ3S0JUTmxCNXkyUnJGZXYwdVZtaTJxMTJVekNiejRZSQ?oc=5",
-          "pubDate": "Tue, 11 Aug 2026 02:00:08 GMT"
-        },
-        {
           "title": "AVP/VP, Incident and Problem Management, Technology Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQallrazJWVlgwaVFFX0g1UlRqcG9HdW1BVEpNby1JQ09lT3RLY2lHTmdMNUFWdnBtZjUzYlk4eTAyaXlobXNUU0stWlN4RXZwTHJSSHJjMUtreDJmY1g3ZXhleXRhMjhEa1FCRmkxMHJKaUFMTmQ3a1B4dVhxZlRYamFLWmRHejNHN3RkSEFtbFpSYko1SHE3Q293N1dCYXktMG9RVWh5VWkwVW1FN01KZlB3OA?oc=5",
           "pubDate": "Thu, 13 Aug 2026 10:43:05 GMT"
-        },
-        {
-          "title": "Associate/AVP, Physical Climate Risk Specialist",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclAzY1dDNXZPQTByVzhFZXFvUi1PTW5VZXc1ZmNRbFJ3ajNDQUswaG9DQ3gzOVRBTmlycmw1TWt4YkJfeXVTbDgzS01rMHFFdmtfa0tqMlkyd1lMOG83TE5RbXFqUHlkdHo4Wk1kTndzZ0NlR2ZGQkNzdWM5SXY2YjNIbV9LS3plVWtrMTdlTlZKUmNVb1pDZ2Z1MEViNjZC?oc=5",
-          "pubDate": "Tue, 11 Aug 2026 10:55:55 GMT"
         },
         {
           "title": "Beyond the Hype: Investing in AI Value",
@@ -712,6 +700,18 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
           "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
+        },
+        {
+          "title": "Deepak Parekh",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
+        },
+        {
+          "title": "Carsten Stendevad",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
+          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
         }
       ]
     },
@@ -934,12 +934,6 @@
       },
       "items": [
         {
-          "title": "Home",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
-          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
-        },
-        {
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
@@ -992,6 +986,12 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
           "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Hostplus Investment performance July - Sept 24",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObjUyMDh5OGFFQmRPSVB3YUMtX29yb1FCcDNTcTlydWY0dmxPdmtSOVJHcnMwMk5CRmFldWNyajN6WmE3SG9GM1ZZR1FJUFBMWkQybml5dnpXakM1LXFGUGM0WGptVHNwckNHQUo2TWpFdUFpZkRuRW81a0dqWEFLOWpYUndiWkpvN0V1ZVlDOWFtN1lPMkduYjI3ekdPUjhGU2VfODNBMGxOa21qU1BwUXAzNXItVk0?oc=5",
+          "pubDate": "Thu, 14 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -1046,6 +1046,12 @@
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
+          "title": "Galuwa Recreation Centre - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkdFlrcGRJdDRjV28wMDBKSk16RmhzcHJCbGpfTUFBRkxlMjloaFBVZkxsV2gzM1l5M1ppbEZ2WVFUaU83WGEzaVEzbEdhTzhlLXpCVkp6Z2EwOVdwdlNn?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
+        },
+        {
           "title": "TCorp economic podcast - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkdVX0ZtMHhIelNFbzFXX0g5WGlSa3ZwUW9rX0EtQVo5SndVZTEwZ1lZdlpoWEhqZVVuYTBsQWxQZm9ReU9Vb1N2dERGY2RqX1BUUG5IbkJ4dnQzUjlIWGhGRTZxT2lxbUdxdmdyaVlkNnJMWWJWbDB5MDBQMmt1Z3U5ZllabUx4TUtwU2Q2YVhQZDlsd3NpU1gzbDFlaUZkeHlaNGRYWS0?oc=5",
           "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT"
-        },
-        {
-          "title": "How Sydney became a global pacesetter for marathons - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObDlLem85cEJUMTdyQnAyYVNZSmNqTmdmOXJBY0UtNUE0dTNvOXFZcWl1Yk1NR241VnZkWWV0bFVJaTNXeGJRc1kxcFBCQVNxR2lfeXFScEpncFVfUERlb3c0MkJsckZlekhpb2Qza0FfMG5wYXdhaVJHWnBaelpseUlzYw?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         }
       ]
     },
