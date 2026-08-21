@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T02:45:35Z",
+  "generated_at": "2026-08-21T03:51:46Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,45 +250,45 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.35,
-      "change": 1.5999999999999943,
-      "changePct": 2.1993127147766245,
+      "price": 74.75,
+      "change": 2.0,
+      "changePct": 2.7491408934707904,
       "currency": "HKD",
       "prevClose": 72.75,
-      "dayHigh": 74.4,
+      "dayHigh": 75.1,
       "dayLow": 73.4,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103700.0,
-      "change": 2600.0,
-      "changePct": 2.571711177052423,
+      "price": 104600.0,
+      "change": 3500.0,
+      "changePct": 3.4619188921859543,
       "currency": "KRW",
       "prevClose": 101100.0,
-      "dayHigh": 104300.0,
+      "dayHigh": 104700.0,
       "dayLow": 101000.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1700.0,
-      "change": 9.5,
-      "changePct": 0.5619639160011831,
+      "price": 1702.0,
+      "change": 11.5,
+      "changePct": 0.6802721088435374,
       "currency": "JPY",
       "prevClose": 1690.5,
-      "dayHigh": 1702.5,
+      "dayHigh": 1704.5,
       "dayLow": 1684.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3136.0,
-      "change": 16.0,
-      "changePct": 0.5128205128205128,
+      "price": 3138.0,
+      "change": 18.0,
+      "changePct": 0.576923076923077,
       "currency": "JPY",
       "prevClose": 3120.0,
-      "dayHigh": 3144.0,
+      "dayHigh": 3145.0,
       "dayLow": 3110.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -672,6 +672,12 @@
           "pubDate": "Thu, 13 Aug 2026 10:43:05 GMT"
         },
         {
+          "title": "Associate/AVP, Physical Climate Risk Specialist",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclAzY1dDNXZPQTByVzhFZXFvUi1PTW5VZXc1ZmNRbFJ3ajNDQUswaG9DQ3gzOVRBTmlycmw1TWt4YkJfeXVTbDgzS01rMHFFdmtfa0tqMlkyd1lMOG83TE5RbXFqUHlkdHo4Wk1kTndzZ0NlR2ZGQkNzdWM5SXY2YjNIbV9LS3plVWtrMTdlTlZKUmNVb1pDZ2Z1MEViNjZC?oc=5",
+          "pubDate": "Tue, 11 Aug 2026 10:55:55 GMT"
+        },
+        {
           "title": "Beyond the Hype: Investing in AI Value",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb2tZcXFxQk1xZTI1dFFoVzdSRUNoeElqMWhCYmFibmx5OVhKTzNuM2tDVDFkU25ReWdDMERRQy1DOUJ4S25zQVRKaExucFBpd2JuR3k1RHBPeDdQemZONExhYWpZSHhBLUppMFUwQU9CR1JrQW1KMndPU0VwTTVFX1BhdGw3aEJQM2Vr?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
           "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
-        },
-        {
-          "title": "Deepak Parekh",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         }
       ]
     },
@@ -888,12 +888,6 @@
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         },
         {
-          "title": "수탁자 책임 활동 보고서 영문 09.13(표지 앞뒤).indd",
-          "source": "국민연금기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
-          "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
-        },
-        {
           "title": "Executive Fund Director & Chief Investment Officer",
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
@@ -922,6 +916,12 @@
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmNDUzRVNzVtUDJyVUlOSXpTWlBSckRqSUxVbWU3OW51aUdQY1k0eTNpSEpid25nM0x0UjFzMlhHanBqUi1IVmRUUVVZNHBHaWhJYXE0VUJtTDBONlpJYkpLS0Y1RjZqZlU3SFNIMGhLQTZfOHJLRkVJWlgteFN1ZzdnRDVjQ3M?oc=5",
           "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
+        },
+        {
+          "title": "National Pension Service Investment Management > How We Invest > Risk Management",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tdlVTem4wbkxvTERmM3REdmlaZ1dFVU5FTDJTbms2VGpaZ21wdUhZYTIzZ3duU1hDYWFCdk1uaGpFUm13eGRmZ19JSkNUMWo4QUZoaFlGd1pBRGJrMlhnWk96X0RaRURod2pzbHRB?oc=5",
+          "pubDate": "Wed, 07 May 2025 04:20:12 GMT"
         }
       ]
     },
@@ -1046,12 +1046,6 @@
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Galuwa Recreation Centre - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkdFlrcGRJdDRjV28wMDBKSk16RmhzcHJCbGpfTUFBRkxlMjloaFBVZkxsV2gzM1l5M1ppbEZ2WVFUaU83WGEzaVEzbEdhTzhlLXpCVkp6Z2EwOVdwdlNn?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
-        },
-        {
           "title": "TCorp economic podcast - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkdVX0ZtMHhIelNFbzFXX0g5WGlSa3ZwUW9rX0EtQVo5SndVZTEwZ1lZdlpoWEhqZVVuYTBsQWxQZm9ReU9Vb1N2dERGY2RqX1BUUG5IbkJ4dnQzUjlIWGhGRTZxT2lxbUdxdmdyaVlkNnJMWWJWbDB5MDBQMmt1Z3U5ZllabUx4TUtwU2Q2YVhQZDlsd3NpU1gzbDFlaUZkeHlaNGRYWS0?oc=5",
           "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT"
+        },
+        {
+          "title": "How Sydney became a global pacesetter for marathons - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObDlLem85cEJUMTdyQnAyYVNZSmNqTmdmOXJBY0UtNUE0dTNvOXFZcWl1Yk1NR241VnZkWWV0bFVJaTNXeGJRc1kxcFBCQVNxR2lfeXFScEpncFVfUERlb3c0MkJsckZlekhpb2Qza0FfMG5wYXdhaVJHWnBaelpseUlzYw?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         }
       ]
     },
