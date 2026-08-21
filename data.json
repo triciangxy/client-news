@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T03:51:46Z",
+  "generated_at": "2026-08-21T04:40:27Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.75,
-      "change": 2.0,
-      "changePct": 2.7491408934707904,
+      "price": 74.7,
+      "change": 1.9500000000000028,
+      "changePct": 2.6804123711340244,
       "currency": "HKD",
       "prevClose": 72.75,
       "dayHigh": 75.1,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104600.0,
-      "change": 3500.0,
-      "changePct": 3.4619188921859543,
+      "price": 103600.0,
+      "change": 2500.0,
+      "changePct": 2.472799208704253,
       "currency": "KRW",
       "prevClose": 101100.0,
       "dayHigh": 104700.0,
@@ -272,23 +272,23 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1702.0,
-      "change": 11.5,
-      "changePct": 0.6802721088435374,
+      "price": 1705.0,
+      "change": 14.5,
+      "changePct": 0.857734398107069,
       "currency": "JPY",
       "prevClose": 1690.5,
-      "dayHigh": 1704.5,
+      "dayHigh": 1706.5,
       "dayLow": 1684.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3138.0,
-      "change": 18.0,
-      "changePct": 0.576923076923077,
+      "price": 3151.0,
+      "change": 31.0,
+      "changePct": 0.9935897435897435,
       "currency": "JPY",
       "prevClose": 3120.0,
-      "dayHigh": 3145.0,
+      "dayHigh": 3156.0,
       "dayLow": 3110.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -303,12 +303,6 @@
         "query": "site:aia.com"
       },
       "items": [
-        {
-          "title": "Results and Reports",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TYlAySGszR1k1b0h3T040UllUdWpHZG5vLW42c0pzelc2WDVVTi0wbnppRHZkVHhMTXFkcHhvWkNIU09VLUk3SUMzSVFHTFFSb3d0YWhHeVozalFhdXBDX1Y1czJBaWNxNVBqVjBRMWY1Q3ZXQ2drOWFyOUI?oc=5",
-          "pubDate": "Sat, 02 Jul 2022 13:36:48 GMT"
-        },
         {
           "title": "AIA delivers strong first half results in 2026",
           "source": "aia.com",
@@ -362,6 +356,12 @@
           "source": "aia.com",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
           "pubDate": "Wed, 14 Dec 2022 10:59:21 GMT"
+        },
+        {
+          "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
+          "source": "AIA Design",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
+          "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
         }
       ]
     },
@@ -882,6 +882,12 @@
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
+          "title": "National Pension Service Investment Management > Publications > Press Releases",
+          "source": "국민연금기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWE1KTkVaUE1WcmZVVExxR1Z3UkRrYWhoYlM1SXNqRjE1cVhZbklOS0xBSjREeHdOUjljNkVZQ0t1RWR5Wk1kV3pCTk1HSWI2QXgtV1hIdUJiLXJEVGFrYXBrTTl4al9xR1dNdXZuUjdEOTVaMTZCdlQ1SFdFUmM?oc=5",
+          "pubDate": "Wed, 07 May 2025 03:20:37 GMT"
+        },
+        {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
@@ -916,12 +922,6 @@
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmNDUzRVNzVtUDJyVUlOSXpTWlBSckRqSUxVbWU3OW51aUdQY1k0eTNpSEpid25nM0x0UjFzMlhHanBqUi1IVmRUUVVZNHBHaWhJYXE0VUJtTDBONlpJYkpLS0Y1RjZqZlU3SFNIMGhLQTZfOHJLRkVJWlgteFN1ZzdnRDVjQ3M?oc=5",
           "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
-        },
-        {
-          "title": "National Pension Service Investment Management > How We Invest > Risk Management",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tdlVTem4wbkxvTERmM3REdmlaZ1dFVU5FTDJTbms2VGpaZ21wdUhZYTIzZ3duU1hDYWFCdk1uaGpFUm13eGRmZ19JSkNUMWo4QUZoaFlGd1pBRGJrMlhnWk96X0RaRURod2pzbHRB?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:20:12 GMT"
         }
       ]
     },
@@ -1116,12 +1116,6 @@
           "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
         },
         {
-          "title": "Announcement of the Scheduled Date for Partial Transfer of Nippon Wealth Life’s Investment Management Functions to Enhance Nippon Life Group’s Investment Capabilities",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SeUtVWUx2Uk5QZ0hxNzJubWM4VHl5Slg3a0pDWTRPRFYxaGFTOENoUU5SRDFtc2lpSzN1TkkxbEJYNWJLTmdRQnROM2V0cGNVckF2cFVuOFd0WGdBOVlJ?oc=5",
-          "pubDate": "Fri, 07 Mar 2025 08:00:00 GMT"
-        },
-        {
           "title": "About Us | Nippon Life Insurance Company",
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJSjFuODQ1RTc2bkF0UXdBTXFVQjZNTnhoT05mTEJUcVhfSmNUTGMtOWZ1clQ1TnZxRHI0c1NWLUxzc1NIRVgzQ2NlSE0yT1k?oc=5",
@@ -1132,6 +1126,12 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHRkVlbmhzVFI5bFFEZW5meGFoMWh3Yl9UaTBObTVZRFlsV2d6N0JKbGhXOUNhbjl5cHY4RkdnM2gzRmpYSmpkaFhZdk9zdw?oc=5",
           "pubDate": "Thu, 29 Jun 2023 12:10:19 GMT"
+        },
+        {
+          "title": "Major Responsible Investment Methods | Sustainability | Nippon Life Insurance Company",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZZHA2aU1tcGJmVDBLb0FmR2ZPZzB6bDZ0RjNNVS1kdm9qM21fWVdxbGVOSkFNcnJ6NDhBYjlJYWxZZlpaLWxFOU9od2tuSmc2QXc4OE56R002cXN5S3l1U2pDVGZzbWROd1U0MjJPVQ?oc=5",
+          "pubDate": "Thu, 29 Jun 2023 10:29:29 GMT"
         }
       ]
     },
