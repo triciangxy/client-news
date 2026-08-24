@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T02:47:01Z",
+  "generated_at": "2026-08-24T03:55:48Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.7,
-      "change": -0.45000000000000284,
-      "changePct": -0.5988023952095846,
+      "price": 74.6,
+      "change": -0.5500000000000114,
+      "changePct": -0.7318695941450584,
       "currency": "HKD",
       "prevClose": 75.15,
       "dayHigh": 75.7,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1714.0,
-      "change": -1.5,
-      "changePct": -0.08743806470416789,
+      "price": 1712.5,
+      "change": -3.0,
+      "changePct": -0.17487612940833577,
       "currency": "JPY",
       "prevClose": 1715.5,
       "dayHigh": 1735.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3154.0,
-      "change": 3.0,
-      "changePct": 0.0952078705172961,
+      "price": 3163.0,
+      "change": 12.0,
+      "changePct": 0.3808314820691844,
       "currency": "JPY",
       "prevClose": 3151.0,
       "dayHigh": 3165.0,
@@ -934,64 +934,64 @@
       },
       "items": [
         {
-          "title": "Hostplus welcomes consumer protection & financial advice reforms",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV0lGV1I3MVZrckNCam1SRlVhODZvcnBFc3cyMDB1U2pZVlUtcndjRkJWQ1ZEMG43MUI4NVUwX1p4U1N2X2RkdjlZMHJWQ2lnUFdYZHd5Q2NmRlYtMnVfbXEyejlKSy1aR0NDV29ORlpfWC1KMjN0clV2aHlLcm1JVHdSSWQ1bHc4M3RBXzRRb003ZzdLYXhSSGZPV3lMb3dMdkE?oc=5",
-          "pubDate": "Wed, 19 Aug 2026 07:00:00 GMT"
-        },
-        {
-          "title": "How to stay safe from sales tactics and scams",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
-          "pubDate": "Mon, 10 Nov 2025 05:13:00 GMT"
-        },
-        {
-          "title": "Indexed balanced",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWpfVWxUZTZLSjZBaWZuTi0xdVc4QnJPRkJNTG1aek03dGdTWi1qZjFVbVIxbE5TcmhPMVhJYTEzdHZESkk1aFpHUkxoVjJkNVAxV1E5RVp0dFJ2YUREdDFuWVVoYi1pSUdrUjk5aHpvQzhRdm5vSmhfdXhVS1QzaFN1bDdzME9oQzA3NDRzT0d6U2pHSEx3eXR6OGw3LTV5OHNCRnRhbWZZR3Z0amR6MXRCQ0tiR0puZ1lSd04tbzI3dmd2b084Rg?oc=5",
-          "pubDate": "Mon, 29 Sep 2025 20:08:55 GMT"
-        },
-        {
-          "title": "Meet our trusted Financial Advisers",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
-          "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
-        },
-        {
-          "title": "Try SuperSmart",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Ja1NFTUJVTm5pZV9odHhQNjU0UE1zTVY5QUc1bEhiUmhKTVBoa0dob3ZBbjlORVlIeC1xYm4zdHU5TjNsZUNfaVFYSWlETm1hNzhsU1hManNDWUlsNzdrNEkzR0g2bm8?oc=5",
-          "pubDate": "Wed, 03 Sep 2025 07:50:38 GMT"
-        },
-        {
-          "title": "Pension end of year performance December 2025",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
-          "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
-        },
-        {
-          "title": "Understanding market declines",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbVhWNFVTbmZqanMtaVpnOWJzWGxzX0d4V0xXY0UxbjRZekRFeFhQTGRVQ3JlMV90a1FCN3hOZTlLRmhncG5DZlZyRUkzWW9tQ3VOWlJ2ZURtbzN2bUZFQ2VxODl2S09meEVfZGRxdlByaTAtZjNPWTByRU1zeDk1VmNGc1MtLWhQTE52ei1hZHlEZkk?oc=5",
-          "pubDate": "Fri, 29 May 2026 19:06:18 GMT"
-        },
-        {
           "title": "Retirement Bonus",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
           "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "CEO Message: Cyber Security Update",
+          "title": "Hostplus Statement on Cyber Incident",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
-          "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qbS12elhfelJ3ZnRBeVZPc0dhMERNaFNoMEZraWZERVZtUDM3aWNiRkJrVlk5MU92R01LWngzTlRyaTRDZEpZLXh3RmlLc1ZXbl9HQ0dfekhsYW9CSURwZ0N3R2NYWkFMcE12SzhkY0JxNVJKTUlBR1hNNEZlN1E?oc=5",
+          "pubDate": "Fri, 04 Apr 2025 07:00:00 GMT"
         },
         {
-          "title": "Hostplus Investment performance July - Sept 24",
+          "title": "Hostplus members rewarded with strong FY26 returns",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObjUyMDh5OGFFQmRPSVB3YUMtX29yb1FCcDNTcTlydWY0dmxPdmtSOVJHcnMwMk5CRmFldWNyajN6WmE3SG9GM1ZZR1FJUFBMWkQybml5dnpXakM1LXFGUGM0WGptVHNwckNHQUo2TWpFdUFpZkRuRW81a0dqWEFLOWpYUndiWkpvN0V1ZVlDOWFtN1lPMkduYjI3ekdPUjhGU2VfODNBMGxOa21qU1BwUXAzNXItVk0?oc=5",
-          "pubDate": "Thu, 14 Nov 2024 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
+          "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Lifecycle",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNGJWd2ZPNzVOOGVkR09EeGozcTZVYlRGZHFIeVBGcklFeGFzQ1htbFRjQXpuLWVWUUJyR1o2bjYwdkFMYTFIenAzYS1NWnktX0dUbVNNMnZ0XzNDYTFoTVk3cGt2TG5rMFllVnpTTHBGUV8yU0taY1JlcjIwM1RwdlM1SWNPellkaWF4dEpHRC1TUnlJS1RIQjc2RVlhWTdyVHNkRHlZV0xDVUJvejBn?oc=5",
+          "pubDate": "Mon, 29 Sep 2025 17:52:34 GMT"
+        },
+        {
+          "title": "Request to transfer into Hostplus.",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQl95ZEhLQ3JMRW51SVpQc1hpSk96R0Y3VGNGR0t5QjZieFIwbXdHLUliaXlhMy1jWjJJS05fck1UTzY5eWNPVTlnWHl0TWpRMmdXR2dPZEtVX3JXOVBLUXVlaUFRSlBfM0JMamtsQlpJclg3Q3lFcFRzaWJjaTZCd2VjRkdUTG94ZU1QeF8wamZJaVA0ZDBjVUQ3ZXRMMW9oWVRsOVFuQzAxSE04SlVacUR1eTBUNHdZWmxHdnVaMXlFcVk?oc=5",
+          "pubDate": "Thu, 06 Nov 2025 10:11:09 GMT"
+        },
+        {
+          "title": "Hostplus Executive",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPay11eG9XdTItdzFMaUpoRG5NWXZVT2lmTEpiOGdybXhQY2JfWDBiNm5FTHllaFRJZ19Jd2RmcF81RmVab0sxWVlxenRzNjhaVWFpMlJDbGZPY05ma2lNQW82NFJtdC1lZy1XenRrOTc1MUszdGdNSlNTS3ZhUGlfQlRWUnQ1UjFqejVBZXJnaTU2SzF4UXdyZQ?oc=5",
+          "pubDate": "Wed, 07 Dec 2022 05:03:54 GMT"
+        },
+        {
+          "title": "Low fee super",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNelVpeUszMVdGV2FTZkl5R3dSbGFWRzNLZmNTdlhycGxtbVBBemtrdlN1dTJsV21MMmpPczhYNEQ2WHVUVFUya1dkVWV2aEpPRjF1VjFCWjZPNUlPNk9nbmtoWVYtSldxMjVPQS16c1p3SDY1VEZaZmh4RWZFY0oyWUpn?oc=5",
+          "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
+        },
+        {
+          "title": "Contact Hostplus",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKVFBQNk5lc2l2Z0NUTTZSMnJnUVY1djdfVEc1NHdMOERHUEs1QTN5Wnd1NmNMbEk0bjFaM0tLQUFQeURRWVJtekExYWtSQlN5Njd3MFBn?oc=5",
+          "pubDate": "Tue, 06 Dec 2022 21:04:05 GMT"
+        },
+        {
+          "title": "Indexed High Growth",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblRQU2hWc2p2OUo2YlM0Ry1FZ0hxVlloVENqek1oaDdHRHZENnl3cVR1Sm9kOTcycmtmaWlySjZUbmFLU0tzZlRUNF8zS2FNU1FsOWlzUnI3ZS1OOUt3ZHJqMUJWa0lpanE0LU9yWkJxenlFb1VCOGpvOXd4MnhsMXNpUHF2NzRwMXY2ZENQNzFjVm1yRS1YcTlRMW41TnVIVVR1dzlmVjJuWklPUlp5cFdKempYWm4tejkta3RUMS1LY0pVZUZ3ZlpjSlc?oc=5",
+          "pubDate": "Mon, 29 Sep 2025 20:14:04 GMT"
         }
       ]
     },
@@ -1014,18 +1014,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMlBkWFBEUnN0WkRrRU9saS15MjI4T1IydS1HTW5Xa3Y5VGhPZTFGeVpkWl8zNW0wTm5uZXRYWllFZXBreF9xRkxRQlZqWWZQQm9Zb0pYMnF3LUhzaTY5N3BId3JabERDWDZkeWxJVU1MXzVWZzV3UGE1YnpNQnJUOV8xMGV0UTU1VlV2NGJmQVRxcnJrNFAxUzBRVFhqNlc4a3EtaksxZlF5WGFsVTB5cnBFZ19WVllwNWpmcDhoRUdOZ2Z4SUwxMFFGQ3ZqRll2N01sUERsLXNVSHZhYWxqSHZtajlFNDZ6TnJ2dTlOYU5YYzMtUk5NVUZLcTZFS3hBOXlLcTBiNnFCS1U?oc=5",
           "pubDate": "Sat, 15 Aug 2026 05:04:18 GMT"
-        },
-        {
-          "title": "Reducing fuel price volatility for NSW trains and buses - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWGctS3JOUGlwZnBpUE1jMy16ZkdUZWVzbERTUUduaV96OFlNMThYbFNvNW5SZHZOYVd4ZHNIaGV3LVlVOEtjM3hUQkplZDBoQ3MydUo5dDFXN0ZRcnZDTmVQVXdOS0o3MGs2emRSQ0NhX2NGTkR4bTNLNWFaX2Q5MnhqM3FiOXRh?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Urunga Sewage Treatment Plant upgrade - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95MDZfR2NNY1AwRWlFbFMwOU1LMFl2RVIzU1VPWE5iallSeUt3bmdvLWhLcWlOaUFjdXNlS3ZndjBFVXpoQ29UdTFnendJRlAtdDYtOG9jcU9kNDY3SmlNTEdHRjc3ZG1mSm1EVVRlOUg?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         },
         {
           "title": "TCorp appoints General Manager, Financial Markets - TCorp",
@@ -1062,6 +1050,18 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jQW90Zy12UGNMcFRDTmpQTU5zeEdTUG9GZklLdDVydWtHd0J4X0V5dG9vcVVmdWw2SE5OUU5wOEg3ZnRkbFpBMnB4bzA4c25HWUp1S1dVei1fRXE2cTUyYnVkQkZOWHdyLWN1ODlqVnRCamF6ZkEyc3c3dHY?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Gunnedah Regional Saleyards redevelopment - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPUjVlLXdEdWh2UEtNZVd0Y2ZpLVFfd2xDTXdlU0RyRDZjeHJDQ01od2lqWGU5aDFNMlVsdVJoOHBjRDQ1UGVOZUFHT3hQb29JMVdwUU56SjQ3Q3JlTlRpd2JJQ1l2ZjFudzlHLVVvcmhpdXZWM0E?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Fireside Chat with Rob Kenna, Chief Executive TCorp - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLUd6SDNaYlJEbnBKdmdzU1ZMT1NIMGM5RUFud0hNamY0SW9CTUF4RnU5TEQ0d2x5SGRWSThOSmFJZGJ3R2I3QUNhZzl2RVFWTzVvQzNtb2JHUXg2LWxnV29TcmdYWDRkZjZsUllSWWxIclkwZTZGTHU3WWx5UWVBd3FZUUhhTlgwYVlfSjFWek56UzU2a3c?oc=5",
+          "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
         }
       ]
     },
