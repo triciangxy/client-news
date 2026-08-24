@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T05:39:53Z",
+  "generated_at": "2026-08-24T07:02:18Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.75,
-      "change": -0.4000000000000057,
-      "changePct": -0.5322687957418571,
+      "price": 74.7,
+      "change": -0.45000000000000284,
+      "changePct": -0.5988023952095846,
       "currency": "HKD",
       "prevClose": 75.15,
       "dayHigh": 75.7,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 103500.0,
-      "change": -600.0,
-      "changePct": -0.5763688760806917,
+      "price": 103300.0,
+      "change": -800.0,
+      "changePct": -0.7684918347742555,
       "currency": "KRW",
       "prevClose": 104100.0,
       "dayHigh": 104200.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1710.5,
-      "change": -5.0,
-      "changePct": -0.2914602156805596,
+      "price": 1702.0,
+      "change": -13.5,
+      "changePct": -0.7869425823375109,
       "currency": "JPY",
       "prevClose": 1715.5,
       "dayHigh": 1735.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3164.0,
-      "change": 13.0,
-      "changePct": 0.4125674389082831,
+      "price": 3151.0,
+      "change": 0.0,
+      "changePct": 0.0,
       "currency": "JPY",
       "prevClose": 3151.0,
       "dayHigh": 3168.0,
@@ -602,12 +602,6 @@
           "pubDate": "Mon, 10 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "Associate/Senior Associate, Investment Review Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMHFJZElZV3VWeTZLR0tDeV9oYjZDNVJ0ak5VRnNDRUZGVkJqNVdoa3BObnh1a3hUTy1YUlJpQWZ5QmpSeDJTRURtRUllSHFIZWtsRjBCcFZEV0E5TnRILTk2TEV6N1R5SWJhVzZlU3RZMnVoeWVUdS1WZU9jVFdtY0ttaHhWaEttN1RhVmFFT0FPRi1pV2pRTXN2dHViZw?oc=5",
-          "pubDate": "Mon, 17 Aug 2026 14:20:27 GMT"
-        },
-        {
           "title": "Temasek Announces New Board Appointment",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFcyRXVkbWJmZnRqZ1Ryc1YtMEVGS2NuVDFsNFZvUGc0djhqSUpTMzJsNjl4d2tWSy01OTI4UVA5T1NHcDdadi16NlhqS2lROExtT25Qb2lPR1hhR3l4X29reWdJT2tJc3MzN0RrRnF0bVZjQ3lrTV93UjdZaUNmT1p0dzdXbFNpUkNvdmp2eW8wNEYxSlZhNU1uenZyOXVEUGtlYnphZVc1cnZh?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
           "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Fu Chengyu to Step Down from Temasek Board",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
+          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -934,6 +934,12 @@
       },
       "items": [
         {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
+        },
+        {
           "title": "Hostplus welcomes consumer protection & financial advice reforms",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV0lGV1I3MVZrckNCam1SRlVhODZvcnBFc3cyMDB1U2pZVlUtcndjRkJWQ1ZEMG43MUI4NVUwX1p4U1N2X2RkdjlZMHJWQ2lnUFdYZHd5Q2NmRlYtMnVfbXEyejlKSy1aR0NDV29ORlpfWC1KMjN0clV2aHlLcm1JVHdSSWQ1bHc4M3RBXzRRb003ZzdLYXhSSGZPV3lMb3dMdkE?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
           "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "title": "CEO Message: Cyber Security Update",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
-          "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
         }
       ]
     },
@@ -1020,12 +1020,6 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMlBkWFBEUnN0WkRrRU9saS15MjI4T1IydS1HTW5Xa3Y5VGhPZTFGeVpkWl8zNW0wTm5uZXRYWllFZXBreF9xRkxRQlZqWWZQQm9Zb0pYMnF3LUhzaTY5N3BId3JabERDWDZkeWxJVU1MXzVWZzV3UGE1YnpNQnJUOV8xMGV0UTU1VlV2NGJmQVRxcnJrNFAxUzBRVFhqNlc4a3EtaksxZlF5WGFsVTB5cnBFZ19WVllwNWpmcDhoRUdOZ2Z4SUwxMFFGQ3ZqRll2N01sUERsLXNVSHZhYWxqSHZtajlFNDZ6TnJ2dTlOYU5YYzMtUk5NVUZLcTZFS3hBOXlLcTBiNnFCS1U?oc=5",
           "pubDate": "Sat, 15 Aug 2026 05:04:18 GMT"
-        },
-        {
-          "title": "Urunga Sewage Treatment Plant upgrade",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95MDZfR2NNY1AwRWlFbFMwOU1LMFl2RVIzU1VPWE5iallSeUt3bmdvLWhLcWlOaUFjdXNlS3ZndjBFVXpoQ29UdTFnendJRlAtdDYtOG9jcU9kNDY3SmlNTEdHRjc3ZG1mSm1EVVRlOUg?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         },
         {
           "title": "TCorp appoints General Manager, Financial Markets",
@@ -1061,6 +1055,12 @@
           "title": "Financing renewable energy project connections",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jQW90Zy12UGNMcFRDTmpQTU5zeEdTUG9GZklLdDVydWtHd0J4X0V5dG9vcVVmdWw2SE5OUU5wOEg3ZnRkbFpBMnB4bzA4c25HWUp1S1dVei1fRXE2cTUyYnVkQkZOWHdyLWN1ODlqVnRCamF6ZkEyc3c3dHY?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Gunnedah Regional Saleyards redevelopment",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPUjVlLXdEdWh2UEtNZVd0Y2ZpLVFfd2xDTXdlU0RyRDZjeHJDQ01od2lqWGU5aDFNMlVsdVJoOHBjRDQ1UGVOZUFHT3hQb29JMVdwUU56SjQ3Q3JlTlRpd2JJQ1l2ZjFudzlHLVVvcmhpdXZWM0E?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         }
       ]
@@ -1144,18 +1144,6 @@
       },
       "items": [
         {
-          "title": "FWD | YONG PEI LING",
-          "source": "ace-ib.fwd.com",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0YndJWkN6WVVKRWljaUwzSkVXX2ZHcWhCOC1PRGdjXzV4RF9DUElkaEVQbEJFTVZfQUFZc1B2OTdEUFB0UUtzanZuS0xOakZOU2syczFybTZNcHhMXzJYZ0VfQTc?oc=5",
-          "pubDate": "Thu, 20 Aug 2026 04:06:04 GMT"
-        },
-        {
-          "title": "Our internship programme",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zNURlUGZwbTJnWG12RFpMUW9LZDN5WXlYQVIwR2tlVDQzMGx4WmdtRjd6bngtVmpmbjlJNnFtWUJQZmk1Tlc1R1owalBBYnM4eFJSRXZtbmZETXY0Z3pjSW93OVA5bXc?oc=5",
-          "pubDate": "Tue, 28 Jul 2026 01:13:26 GMT"
-        },
-        {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
@@ -1174,34 +1162,46 @@
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
         },
         {
-          "title": "Our fact sheet",
+          "title": "Huynh Thanh Phong | Group CEO",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
-          "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVdjByVVNtOU01X1FLS2JZTHJicjJDcFlTTVZkVGVGNVNZZUdYemgxWEVMRG11REtVdm9XenIwTFNDNXRrMHVxaTZUOXVRcGNnMHRuUkVsTnVmc1l1aDZoTUN5Mm8xNGZIdG5v?oc=5",
+          "pubDate": "Wed, 06 May 2026 02:56:35 GMT"
         },
         {
-          "title": "FWD FitForMe | Uncover AI-recommended coverages based on people like you!",
-          "source": "FWD FitForMe",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
-          "pubDate": "Thu, 05 Dec 2024 03:07:27 GMT"
+          "title": "Binayak Dutta",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NODJ6ZENWbkV6cnFaeUVyVTZkVGpHSV82OS00MXZEWEN5dFkycmZETGJsUDE0aWN6M0tmQ3BxZ1ZMWUUxMkJ1UEZTdlZmWnBUMVl2VjlIcmgxMDhsTnN2SVIyNUY3dw?oc=5",
+          "pubDate": "Wed, 06 May 2026 03:25:59 GMT"
         },
         {
-          "title": "2025 Annual Report Chairman’s statement",
+          "title": "Lee Yen Ho",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
-          "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SeHpPUTBrTm5kbk4yVWhma3FLejg2THpvSnlnYjJVZFU4ZzJxMm5BWnJ3V0t3MG93OTNYUXhUQjAwM0VGV2g0WFZsZTV6aU9NUU9jYnBhQ1JBcWhUaXV1clpn?oc=5",
+          "pubDate": "Wed, 06 May 2026 00:31:51 GMT"
         },
         {
-          "title": "FWD Vendor Code of Ethics and Business Conduct",
+          "title": "FWD Group appoints Martin Zingg to Board of Directors",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
-          "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPenVBdFZ0aC1BYzNZblE3RUdTRnF2MTZvU09Vamk5and0aGsxQU5fZlIxZk9EWGNiWWVBY1BpOTN4MDhlN1d4Y3gzdGRWVUdkZ1VORUkwSTRMaWlKTVdpeWV2MzRzN1hGYm5sSkpQdEVWUG91VElpRUFEbW5FekpyOVJFT0s0UU9QMzdaSEp0cVBfem9ES0IySldQYmdTdndvRzAw?oc=5",
+          "pubDate": "Fri, 29 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Craig Tunstall",
+          "title": "Ken Lau",
           "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
-          "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UNjh6Q3JVajVlRjZ6d29YdFBrbURyaHZPVGpkTXdlNjQyZXhSTzRRcWY4Wjl6b3RtUzlvYUlZMm1ScThfZHdDVGlnVE03Smo0Nms4QnJzNkM1WEdiNkE?oc=5",
+          "pubDate": "Wed, 06 May 2026 02:20:07 GMT"
+        },
+        {
+          "title": "Tsuyoshi Ijichi named Incoming Representative Director, President and Chief Executive Officer, FWD Japan",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb25US2ptbl9ieTlrQUR6NlNsNFpJY1k4T1BQRDNyR1hCSWZKQjVLY2VuMTNiN0RiX09KeF9TS0R2dFI3TzJ4V0UzVmxmcW80ZWh0QnkxZFQ0VU5jNU1TbWFKN3pqLW40UW5VS1V4Y3NKNXB0QW0zeW1MYjhUdWlaZXJPei1USC1CalhiQnNZQ1p3d2x3cHcwR2R6aEpKQUZNVS1UbnNfYm5SZGtsQVg3b1hXc2tKNUYtZDJZZkN5c2k1aUlRZU9jSHlhUVdQckxYd0Y2d0hrRWRWeC1RZnVtdmlCWVE?oc=5",
+          "pubDate": "Tue, 07 Jan 2025 18:25:09 GMT"
+        },
+        {
+          "title": "Sid Sankaran | Group CFO & Group COO",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Mb1p2YVNaeWh1dllZbjB1WmpybEFpTDZJS3VNSC01Sy1iNFk1cjVlRUNzOUJ1Z2x6aWhFbW9lOU5YMkNnN3RwclpRaXo1TFBaT1FpYlZvMS1LV0FGR0FaRFdVMzU?oc=5",
+          "pubDate": "Wed, 06 May 2026 01:55:03 GMT"
         }
       ]
     },
