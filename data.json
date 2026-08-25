@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T02:40:26Z",
+  "generated_at": "2026-08-25T03:50:30Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.85,
-      "change": -0.75,
-      "changePct": -1.0053619302949064,
+      "price": 73.9,
+      "change": -0.6999999999999886,
+      "changePct": -0.938337801608564,
       "currency": "HKD",
       "prevClose": 74.6,
       "dayHigh": 75.75,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107300.0,
-      "change": 4000.0,
-      "changePct": 3.8722168441432716,
+      "price": 107400.0,
+      "change": 4100.0,
+      "changePct": 3.969022265246854,
       "currency": "KRW",
       "prevClose": 103300.0,
       "dayHigh": 107500.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1716.0,
-      "change": 14.0,
-      "changePct": 0.8225616921269095,
+      "price": 1725.5,
+      "change": 23.5,
+      "changePct": 1.3807285546415982,
       "currency": "JPY",
       "prevClose": 1702.0,
       "dayHigh": 1728.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3170.0,
-      "change": 19.0,
-      "changePct": 0.6029831799428753,
+      "price": 3180.0,
+      "change": 29.0,
+      "changePct": 0.9203427483338623,
       "currency": "JPY",
       "prevClose": 3151.0,
       "dayHigh": 3191.0,
@@ -660,58 +660,58 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
-          "title": "AVP/VP, Incident and Business Continuity Management, Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSXdQdEhPMGduNElRRXlrdHdrMEJGMWxzTDNMOVY1MWx6WW0zQTVPUjd6NElXLW13b0RTOGJOSE5ybXptYzd4R0R3UV9NbzRicFZHQkhhc1NFTVhtaURpTWVFUmYxVWZqMWprUmZRQUtqMmUxZzFpTzduanZLTHFUa2UzVWpCbjZYbHd6bkhzLVBBSThCLWlSVjBJNTZHUzR0OE5VRW1ZcGlTcENrV3NoOWNsNkdGT182MlBGNHJ6NTJybjQ?oc=5",
-          "pubDate": "Sun, 23 Aug 2026 04:25:31 GMT"
-        },
-        {
-          "title": "AVP/VP, AI Engineer, Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUENkUkxxNU12a1p4S09ORHNVcEpnTzV1T1VWV2t2UmNDbUd2dG9WWkxnZlBJQ1FfeDlDMGFCVWJrelZ1ai12Ml9fa04tRC1XZllub1FxTGFsWUZSUXVjOEYyVHNEeTZBUHRZbGVXWm5mMDhPMWxRLVZ3VFBmWFZNc2VpcWI3RWVFRTdVcktuSVQwc2VyNktIMg?oc=5",
-          "pubDate": "Sun, 23 Aug 2026 04:23:11 GMT"
-        },
-        {
-          "title": "VP/SVP, Risk & Controls Officer (Infrastructure), Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWlg4VUZ4OWpjanZPa2pvQkJKUnc4dDJOM0RFZTIwWVdSWW5PeExpVWdiMFo1SEFoNDRFN2FBM29Uc2xLR3ZRRUFiNEhVVWZUSjFfWlVPY3hpWVpkRkkyOTA5VFlCUVpZUXZ6VUlraHBQclZiejFtbnBkbU9OVW8wcTQxRVZfZjRGWHJXUk9wZ0puLWg5a1Y5YmNJWk5TdEJTM05jZ0luaGRSRDFVQ2d1d3o1c2pUVFFPcFVsb2ZNM2YzbHlx?oc=5",
-          "pubDate": "Mon, 24 Aug 2026 12:38:35 GMT"
-        },
-        {
-          "title": "GIC acquires 25.1% stake in Lendlease International Towers Sydney Trust",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
-          "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
-        },
-        {
-          "title": "Mark Lee",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
-          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
-        },
-        {
-          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
-          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
-        },
-        {
           "title": "Boon Chin Hau",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
           "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
         },
         {
-          "title": "Deepak Parekh",
+          "title": "Elaine Chan",
           "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJOS13c2k3dEtlWTFlQ3hCMm9hTnlnWGt3VUNKS213NnR5b0t1VGJCZGFtclpRb0ZoRDhTOTVrN3N6Z2tJN1lWOFFOYnM1SHowbnpGa3RFdXNvUWFtS24yVU1tSEpySUlBUHF5Mnh3?oc=5",
+          "pubDate": "Wed, 15 Jun 2022 09:22:22 GMT"
         },
         {
-          "title": "Carsten Stendevad",
+          "title": "Macro Outlook",
           "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
-          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oS192S21oc1dTMlBwdC1RN2tnUjIteTFaQURpbExCdUpXNktDWkhpMnBkXzNlZm9PNm1FM3NQcjNzaWJ2RFJyYTBqdTBWUzJyNE5GWnMwTkQ4ellY?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
+        },
+        {
+          "title": "Pankaj Sood",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pNDFmTlpkY0hVdHpnLUNleGhhNVoxeDVZaXRIOW1mdGQ3SnF2ZTIyZ3RSOTZXM1FGa1hUSUlkZG5kdndSWC1Xa2daUkpEMzM4MlIwbUtvVmVxbUxHTjgxc2dXODdmMjFIdDVNUXdR?oc=5",
+          "pubDate": "Wed, 03 Aug 2022 13:10:57 GMT"
+        },
+        {
+          "title": "Contact Us",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmR3hPX3JzX0hkM0txcVBzUkpwVHdvdkpIaGhHMDlCUnhKMW9sMDFGb2MyZVkyZ1BkYW5DLWJxeTBXOHJtcnlsU0Z3?oc=5",
+          "pubDate": "Wed, 21 Mar 2018 22:23:30 GMT"
+        },
+        {
+          "title": "Dr Prakash Kannan",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Jb2paLWJnSzh5QlRBWW00UTdJOWFNUlBkUGhUN3pYeVZfZk5kRzlEVmNDRjlJOUhiNWdQNTZIX1lSMFozN0ROdmVIcHBuR2NudnU5MEZyOEtURk5WcW1zenFnZVlWQjhNb1BIUlFDZFpGRXk0dXc?oc=5",
+          "pubDate": "Mon, 08 Jul 2024 09:40:12 GMT"
+        },
+        {
+          "title": "Yap Siao Teng",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55OExMZDY3OURwdGZ0R1QzdlRIeVRJZW9yd3ZuZmRIODhJVXV1VDZnZnJkam9SWG9MdU5SSGhKOEFyZ2l6bnZvV3Vzd2Y2OTBZdHgtNG9Vb3JFVmRsdDJ4R1dWWk80TlYyR2xpaFNfd08?oc=5",
+          "pubDate": "Fri, 24 Jun 2022 12:14:26 GMT"
+        },
+        {
+          "title": "Mark Ong",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uVGpfdF9CTUtORV9XNFR1SnYzcC1NeXJpdmhXYXUtX0ZXSk5FbG90ZXBpdzZiTEtlbUZJUnFVcGtKS3BBT2xEcUxOM0hPa21VNTFGTTcyWm1fLXpuTWhtbGQwSHZRNEVzaWc?oc=5",
+          "pubDate": "Tue, 14 Jun 2022 14:25:38 GMT"
+        },
+        {
+          "title": "Liew Tzu Mi",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5paVFRVnZBclpTLVdpYlFTODlnTHpGLVNNdlg2S1JQRnJYSDk1MnZxNmp6aXhrNVNRQklDMkZLUkNYUFVzSGxwVmpOUmE0RFpfTzlHbWkwaXJhV0FmVy01djdROE15RlJpdHZsZUh1c3AxUXdtYUE?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:37:26 GMT"
         }
       ]
     },
@@ -1144,6 +1144,12 @@
       },
       "items": [
         {
+          "title": "FWD | YONG PEI LING",
+          "source": "ace-ib.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0YndJWkN6WVVKRWljaUwzSkVXX2ZHcWhCOC1PRGdjXzV4RF9DUElkaEVQbEJFTVZfQUFZc1B2OTdEUFB0UUtzanZuS0xOakZOU2syczFybTZNcHhMXzJYZ0VfQTc?oc=5",
+          "pubDate": "Thu, 20 Aug 2026 04:06:04 GMT"
+        },
+        {
           "title": "Our internship programme",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zNURlUGZwbTJnWG12RFpMUW9LZDN5WXlYQVIwR2tlVDQzMGx4WmdtRjd6bngtVmpmbjlJNnFtWUJQZmk1Tlc1R1owalBBYnM4eFJSRXZtbmZETXY0Z3pjSW93OVA5bXc?oc=5",
@@ -1196,12 +1202,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
           "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
-        },
-        {
-          "title": "Latest announcements & exchange notices",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vYjVZbHA5a3ZDTzVOZUJkVDlGRHMzM1g1U1paa0lQY25hME9ULWZlemtWaUJoSXZsOEt1bFdsVGtQNmdXbHRhRmVmc25xN1ljUzU3WVpTSWJkeDFlYnhPQzh5S2Q?oc=5",
-          "pubDate": "Sat, 22 Nov 2025 13:18:43 GMT"
         }
       ]
     },
@@ -1224,12 +1224,6 @@
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDUUhnekJiOXAtLXZ5RlBrc3p6aGtzZ09xRHVTclpaOG1PUUY5Zmh5Y01ER1h6QVJzTjhuYi12ekpFdFlVeHN4cktLVXBQQXBOMWplMjJVRE1qMm1EZ2c?oc=5",
           "pubDate": "Mon, 23 May 2016 04:54:34 GMT"
-        },
-        {
-          "title": "Climate & Nature Report 2024",
-          "source": "nochubank.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOGlTY2N5YXd4cEI4WlVKWHZRVWxzYlk5V2lBc0x3SDNFQU8xV3B5WFh3a3dQdWF1WWozWjJDbjB6anpSSUYwblB5TnAtRDBYeWFRenpyNHdvajVqVkdZZnMtV2dqZkktRUROdnNnc1owUkMzUHRPN0FxbHR1TUFOQmx4eXE0WHVGSGUzQQ?oc=5",
-          "pubDate": "Tue, 17 Nov 2020 08:00:00 GMT"
         },
         {
           "title": "Policy on Website Accessibility Measures：The Norinchukin Bank",
@@ -1272,6 +1266,12 @@
           "source": "nochubank.or.jp",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6S2w1ejBtWUxGZF84blNZZkRaYnd4VG5xNEZNUlVPTHJpaHBCNlljOGEwRjFmRWQwUXpTa3F2bDUzUEJlZVB1cTI4RmMyc0dRSjRzaW9sSjZ2MjMzTEFjYnlZZjVkU0hZeEZScE5DWWhSUEU?oc=5",
           "pubDate": "Thu, 31 Aug 2023 06:38:07 GMT"
+        },
+        {
+          "title": "Initiatives to Manage Environmental and Social Risks：Sustainability：The Norinchukin Bank",
+          "source": "nochubank.or.jp",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoNlpucHF3cXFjSHJEZGN4QThqSERaVGVFV29tVW11dGFiWnMwMzI4NjBmejBNcTVXWmJRMDI3bHFhOF9SQ0dnZUl6cUxnUEV6SzRhY2V4Q1lDMnFVTEN1YTBBajNuTW1WbC1OUDJNOA?oc=5",
+          "pubDate": "Thu, 31 Aug 2023 08:43:40 GMT"
         }
       ]
     }
