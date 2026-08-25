@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T07:45:31Z",
+  "generated_at": "2026-08-25T08:45:10Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.3,
-      "change": -0.29999999999999716,
-      "changePct": -0.4021447721179587,
+      "price": 74.35,
+      "change": -0.25,
+      "changePct": -0.3351206434316354,
       "currency": "HKD",
       "prevClose": 74.6,
       "dayHigh": 75.75,
@@ -486,12 +486,6 @@
           "pubDate": "Mon, 24 Feb 2025 00:02:27 GMT"
         },
         {
-          "title": "Covered Bond Valuation Investor Report",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEaUlPdkl4WVBaeHhUb05FTFVhMjVBaXB2S2YzQk1adTZzRWxqVHVRNkdycXd6NWc5Y3V5ZVpLTW5LSTRkRnlQY2liT29BTHNrSm1rMGw5dVFEUmZtazgyR1B4OElnUVozQkJsaGdmZVc?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 09:00:24 GMT"
-        },
-        {
           "title": "SuMi TRUST Covered Bond",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LMm92aFVjUGNpejlpbl9CaU5iRHVGaTRxa0l2TXdWQW1wMEFxalI3SklhMnNia2ZTaTFIaUVVTlVXTXFDUjBEM2diRTdzdmFndUdKSWQ0V1lTODhVR2UwZm4wRWczTDJVOFE?oc=5",
@@ -502,6 +496,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZjVZOGM0RVQ2TUVkRVRVSDB6eHFhSTlNRmJ0SzZCMDFZLWFkeF9aMTRDRm0zYUhEUUNxN2xxVXZrMXJYOXRHamE5ZHdqX29VbVhJbFhucmdBTDhIZjduYg?oc=5",
           "pubDate": "Mon, 24 Feb 2025 02:05:00 GMT"
+        },
+        {
+          "title": "Integrated Reports / Annual Reports | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qWklWZHhFaGQyM21fTUhGV2JEeXhGVDZibUhTSFo5Z0NrSTFWQVk2U3NCbEY3SG1yRWZCZnhpaXBYZTdaWk1DdkxqMlJQSmt1dFh2V2tjWE1sMlZUVUlVN0hBZVJ2UQ?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 00:06:08 GMT"
         }
       ]
     },
@@ -824,6 +824,12 @@
           "pubDate": "Sat, 16 May 2026 08:26:24 GMT"
         },
         {
+          "title": "Untitled",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
+          "pubDate": "Fri, 12 Sep 2025 17:18:18 GMT"
+        },
+        {
           "title": "Press Releases",
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
@@ -846,12 +852,6 @@
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
           "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
-        },
-        {
-          "title": "2018 Annual Report | Reports │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KV3RwY3dBZEh4S25QRmczTXpYbW9NMGpEZWpUeDI2clhGSEVvT2pNOFVhTjFJYzFSWkVybVJEYWYtYm05WnhqX0JxN0dyZw?oc=5",
-          "pubDate": "Thu, 30 May 2019 07:00:00 GMT"
         }
       ]
     },
@@ -921,7 +921,7 @@
           "title": "영문 0709 최종22.indd",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53b25MdnhOZDdkQjAxWHJvckVqM0tFMVNrcnBNRzJ2MG56Z29BRFYwRXlUR0duTnlRWW9WanV3Nmp4ZjBLam5kUmcwcUQ0NlI2WnlXajEwRjZxV21iRjFmdTBJV0poRW9s?oc=5",
-          "pubDate": "Wed, 22 Jul 2026 00:36:00 GMT"
+          "pubDate": "Mon, 27 Jul 2026 21:53:48 GMT"
         }
       ]
     },
