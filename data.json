@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:22:16Z",
+  "generated_at": "2026-08-25T02:40:26Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,31 +250,31 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.0,
-      "change": -2.5999999999999943,
-      "changePct": -3.4852546916890006,
+      "price": 73.85,
+      "change": -0.75,
+      "changePct": -1.0053619302949064,
       "currency": "HKD",
       "prevClose": 74.6,
-      "dayHigh": 75.7,
-      "dayLow": 74.05,
+      "dayHigh": 75.75,
+      "dayLow": 73.55,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 106200.0,
-      "change": 2900.0,
-      "changePct": 2.8073572120038723,
+      "price": 107300.0,
+      "change": 4000.0,
+      "changePct": 3.8722168441432716,
       "currency": "KRW",
       "prevClose": 103300.0,
-      "dayHigh": 106500.0,
+      "dayHigh": 107500.0,
       "dayLow": 102800.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1712.5,
-      "change": 10.5,
-      "changePct": 0.6169212690951821,
+      "price": 1716.0,
+      "change": 14.0,
+      "changePct": 0.8225616921269095,
       "currency": "JPY",
       "prevClose": 1702.0,
       "dayHigh": 1728.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3166.0,
-      "change": 15.0,
-      "changePct": 0.47603935258648045,
+      "price": 3170.0,
+      "change": 19.0,
+      "changePct": 0.6029831799428753,
       "currency": "JPY",
       "prevClose": 3151.0,
       "dayHigh": 3191.0,
@@ -1004,62 +1004,62 @@
       },
       "items": [
         {
-          "title": "2026; Weekly Archives - TCorp",
-          "source": "NSW Government",
+          "title": "2026; Weekly Archives",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rOFZiMHBIQVhTTXU0cTh3bXlxSmxrLWgwQVZVel8xazk3Rl91UlEzUmhyb3ZHRTZPT2JUT0lrZm1ta1NPOTlwTW41LTkwaHJuQzM4?oc=5",
           "pubDate": "Tue, 18 Aug 2026 11:52:33 GMT"
         },
         {
-          "title": "Article by TCorp Head of Investment Research and Strategy, Ali Parker - TCorp",
-          "source": "NSW Government",
+          "title": "Article by TCorp Head of Investment Research and Strategy, Ali Parker",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRG40UmJWS3Z1OFR3b0Q3N0NYbW5QUUlXUjhPY3RDNGdDYlZvcFNkU2pWZk1NOVYycmpCeWdZVWtrZTlEM0JOc0Q3cHU1WlBMbVJLU2tsdnIwOTNVX2FKY2dHQ1JUWE5haUVXREZZdWdSY1JsNVhWcm14NkF4clJnUXZlNndxSEh5Wmk1YjJneDE4ZTkwZUk2cVY5WHJwR1hJOVJkUWhlc3M3QjM2ZzlSYnF4cHFPdw?oc=5",
           "pubDate": "Mon, 24 Aug 2026 05:19:43 GMT"
         },
         {
-          "title": "TCorp announces an increase to the 2.00% 20 March 2031 Benchmark bond and 4.75% 20 September 2035 Benchmark Sustainability bond via Yieldbroker tender - TCorp",
-          "source": "NSW Government",
+          "title": "TCorp announces an increase to the 2.00% 20 March 2031 Benchmark bond and 4.75% 20 September 2035 Benchmark Sustainability bond via Yieldbroker tender",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMlBkWFBEUnN0WkRrRU9saS15MjI4T1IydS1HTW5Xa3Y5VGhPZTFGeVpkWl8zNW0wTm5uZXRYWllFZXBreF9xRkxRQlZqWWZQQm9Zb0pYMnF3LUhzaTY5N3BId3JabERDWDZkeWxJVU1MXzVWZzV3UGE1YnpNQnJUOV8xMGV0UTU1VlV2NGJmQVRxcnJrNFAxUzBRVFhqNlc4a3EtaksxZlF5WGFsVTB5cnBFZ19WVllwNWpmcDhoRUdOZ2Z4SUwxMFFGQ3ZqRll2N01sUERsLXNVSHZhYWxqSHZtajlFNDZ6TnJ2dTlOYU5YYzMtUk5NVUZLcTZFS3hBOXlLcTBiNnFCS1U?oc=5",
           "pubDate": "Sat, 15 Aug 2026 05:04:18 GMT"
         },
         {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
+          "title": "Market announcement",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQTzR4anVmazkwNU1YLTg5LVY5MXBaZ0RDTEdIajNmOFdoTFZod25sNFJwYWNpNDl6b1ZDM0EtLWFlbzNJSUM3dXBXTVNuMUMxRTFRZGV5dWFOQnltMENDN1dReHJ4cjJObXBHZDZMY25XSVBocFh4cnNPU3ItMk1ZcHB5WVlBc1hUV1o0dXRIeFpDMm92emRWdHQ5UGo3bnlBZV9nNmlGNTNVR3lMOWVfcDZLXzZ1RTVSUVZneFE4Um1OOVgwdm1jcEgtQTcxNHBqb3p4VGR2TExWRnVYcTZ4NHYxNnRES1hYMDNwNHdLZ3NHNDRiRTh6NjVhWXNJT0dBUF9NR2tRZERIYmdiY3E5M0ZPMElOOUh1VFpYVE5QTFA5M2VwRTVnN2x0S3Q2VDA?oc=5",
           "pubDate": "Thu, 13 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
-          "source": "NSW Government",
+          "title": "TCorp appoints General Manager, Financial Markets",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
           "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
+          "title": "Market announcement",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
           "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Galuwa Recreation Centre - TCorp",
-          "source": "NSW Government",
+          "title": "Galuwa Recreation Centre",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkdFlrcGRJdDRjV28wMDBKSk16RmhzcHJCbGpfTUFBRkxlMjloaFBVZkxsV2gzM1l5M1ppbEZ2WVFUaU83WGEzaVEzbEdhTzhlLXpCVkp6Z2EwOVdwdlNn?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         },
         {
-          "title": "TCorp economic podcast - TCorp",
-          "source": "NSW Government",
+          "title": "TCorp economic podcast",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
           "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Market announcement – non-benchmark bond line reclassification - TCorp",
-          "source": "NSW Government",
+          "title": "Market announcement – non-benchmark bond line reclassification",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkdVX0ZtMHhIelNFbzFXX0g5WGlSa3ZwUW9rX0EtQVo5SndVZTEwZ1lZdlpoWEhqZVVuYTBsQWxQZm9ReU9Vb1N2dERGY2RqX1BUUG5IbkJ4dnQzUjlIWGhGRTZxT2lxbUdxdmdyaVlkNnJMWWJWbDB5MDBQMmt1Z3U5ZllabUx4TUtwU2Q2YVhQZDlsd3NpU1gzbDFlaUZkeHlaNGRYWS0?oc=5",
           "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT"
         },
         {
-          "title": "Financing renewable energy project connections - TCorp",
-          "source": "NSW Government",
+          "title": "Financing renewable energy project connections",
+          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jQW90Zy12UGNMcFRDTmpQTU5zeEdTUG9GZklLdDVydWtHd0J4X0V5dG9vcVVmdWw2SE5OUU5wOEg3ZnRkbFpBMnB4bzA4c25HWUp1S1dVei1fRXE2cTUyYnVkQkZOWHdyLWN1ODlqVnRCamF6ZkEyc3c3dHY?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         }
