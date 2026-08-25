@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:50:30Z",
+  "generated_at": "2026-08-25T04:40:44Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.9,
-      "change": -0.6999999999999886,
-      "changePct": -0.938337801608564,
+      "price": 73.95,
+      "change": -0.6499999999999915,
+      "changePct": -0.8713136729222406,
       "currency": "HKD",
       "prevClose": 74.6,
       "dayHigh": 75.75,
@@ -261,31 +261,31 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107400.0,
-      "change": 4100.0,
-      "changePct": 3.969022265246854,
+      "price": 107300.0,
+      "change": 4000.0,
+      "changePct": 3.8722168441432716,
       "currency": "KRW",
       "prevClose": 103300.0,
-      "dayHigh": 107500.0,
+      "dayHigh": 107800.0,
       "dayLow": 102800.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1725.5,
-      "change": 23.5,
-      "changePct": 1.3807285546415982,
+      "price": 1733.0,
+      "change": 31.0,
+      "changePct": 1.8213866039952997,
       "currency": "JPY",
       "prevClose": 1702.0,
-      "dayHigh": 1728.0,
+      "dayHigh": 1733.0,
       "dayLow": 1700.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3180.0,
-      "change": 29.0,
-      "changePct": 0.9203427483338623,
+      "price": 3188.0,
+      "change": 37.0,
+      "changePct": 1.174230403046652,
       "currency": "JPY",
       "prevClose": 3151.0,
       "dayHigh": 3191.0,
@@ -660,58 +660,58 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
+          "title": "AVP/VP, Incident and Business Continuity Management, Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSXdQdEhPMGduNElRRXlrdHdrMEJGMWxzTDNMOVY1MWx6WW0zQTVPUjd6NElXLW13b0RTOGJOSE5ybXptYzd4R0R3UV9NbzRicFZHQkhhc1NFTVhtaURpTWVFUmYxVWZqMWprUmZRQUtqMmUxZzFpTzduanZLTHFUa2UzVWpCbjZYbHd6bkhzLVBBSThCLWlSVjBJNTZHUzR0OE5VRW1ZcGlTcENrV3NoOWNsNkdGT182MlBGNHJ6NTJybjQ?oc=5",
+          "pubDate": "Sun, 23 Aug 2026 04:25:31 GMT"
+        },
+        {
+          "title": "AVP/VP, AI Engineer, Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUENkUkxxNU12a1p4S09ORHNVcEpnTzV1T1VWV2t2UmNDbUd2dG9WWkxnZlBJQ1FfeDlDMGFCVWJrelZ1ai12Ml9fa04tRC1XZllub1FxTGFsWUZSUXVjOEYyVHNEeTZBUHRZbGVXWm5mMDhPMWxRLVZ3VFBmWFZNc2VpcWI3RWVFRTdVcktuSVQwc2VyNktIMg?oc=5",
+          "pubDate": "Sun, 23 Aug 2026 04:23:11 GMT"
+        },
+        {
+          "title": "GIC acquires 25.1% stake in Lendlease International Towers Sydney Trust",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1lHa294cC1FUWxicnhnSzVWV1h0T3B0Tzk5U0RYREIxS01JNEFzN0hEanJMUnN2U09nQkF1TGtqNTlYQ0wyTmtoVC1wZng5VTdJOW93TkNIamt3MWRSRkRWaWx0UHFrLXVmRmV2QURadnprMkJHaUlNU1hURFE1NEdueHNFbjI1NklwUnVGZ3lpOGRfS2lrOUVWZUVoUmlma2VNSl92MHF0RHNM?oc=5",
+          "pubDate": "Mon, 19 Aug 2019 07:00:00 GMT"
+        },
+        {
+          "title": "Mark Lee",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
+          "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
+        },
+        {
+          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
+          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
+        },
+        {
           "title": "Boon Chin Hau",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
           "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
         },
         {
-          "title": "Elaine Chan",
+          "title": "Deepak Parekh",
           "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJOS13c2k3dEtlWTFlQ3hCMm9hTnlnWGt3VUNKS213NnR5b0t1VGJCZGFtclpRb0ZoRDhTOTVrN3N6Z2tJN1lWOFFOYnM1SHowbnpGa3RFdXNvUWFtS24yVU1tSEpySUlBUHF5Mnh3?oc=5",
-          "pubDate": "Wed, 15 Jun 2022 09:22:22 GMT"
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         },
         {
-          "title": "Macro Outlook",
+          "title": "Carsten Stendevad",
           "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oS192S21oc1dTMlBwdC1RN2tnUjIteTFaQURpbExCdUpXNktDWkhpMnBkXzNlZm9PNm1FM3NQcjNzaWJ2RFJyYTBqdTBWUzJyNE5GWnMwTkQ4ellY?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
+          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
         },
         {
-          "title": "Pankaj Sood",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pNDFmTlpkY0hVdHpnLUNleGhhNVoxeDVZaXRIOW1mdGQ3SnF2ZTIyZ3RSOTZXM1FGa1hUSUlkZG5kdndSWC1Xa2daUkpEMzM4MlIwbUtvVmVxbUxHTjgxc2dXODdmMjFIdDVNUXdR?oc=5",
-          "pubDate": "Wed, 03 Aug 2022 13:10:57 GMT"
-        },
-        {
-          "title": "Contact Us",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmR3hPX3JzX0hkM0txcVBzUkpwVHdvdkpIaGhHMDlCUnhKMW9sMDFGb2MyZVkyZ1BkYW5DLWJxeTBXOHJtcnlsU0Z3?oc=5",
-          "pubDate": "Wed, 21 Mar 2018 22:23:30 GMT"
-        },
-        {
-          "title": "Dr Prakash Kannan",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Jb2paLWJnSzh5QlRBWW00UTdJOWFNUlBkUGhUN3pYeVZfZk5kRzlEVmNDRjlJOUhiNWdQNTZIX1lSMFozN0ROdmVIcHBuR2NudnU5MEZyOEtURk5WcW1zenFnZVlWQjhNb1BIUlFDZFpGRXk0dXc?oc=5",
-          "pubDate": "Mon, 08 Jul 2024 09:40:12 GMT"
-        },
-        {
-          "title": "Yap Siao Teng",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55OExMZDY3OURwdGZ0R1QzdlRIeVRJZW9yd3ZuZmRIODhJVXV1VDZnZnJkam9SWG9MdU5SSGhKOEFyZ2l6bnZvV3Vzd2Y2OTBZdHgtNG9Vb3JFVmRsdDJ4R1dWWk80TlYyR2xpaFNfd08?oc=5",
-          "pubDate": "Fri, 24 Jun 2022 12:14:26 GMT"
-        },
-        {
-          "title": "Mark Ong",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uVGpfdF9CTUtORV9XNFR1SnYzcC1NeXJpdmhXYXUtX0ZXSk5FbG90ZXBpdzZiTEtlbUZJUnFVcGtKS3BBT2xEcUxOM0hPa21VNTFGTTcyWm1fLXpuTWhtbGQwSHZRNEVzaWc?oc=5",
-          "pubDate": "Tue, 14 Jun 2022 14:25:38 GMT"
-        },
-        {
-          "title": "Liew Tzu Mi",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5paVFRVnZBclpTLVdpYlFTODlnTHpGLVNNdlg2S1JQRnJYSDk1MnZxNmp6aXhrNVNRQklDMkZLUkNYUFVzSGxwVmpOUmE0RFpfTzlHbWkwaXJhV0FmVy01djdROE15RlJpdHZsZUh1c3AxUXdtYUE?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:37:26 GMT"
+          "title": "VP, Information & Technology Risk Manager (Audit Management)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajg5UDlpbzBUUk43YUdmZVlyNDY0SEk0QTJ0OXRCdHFiNlBpQXowMG5XQzljYTNFR0hRa0NUVmpzQUI1bXlBVEk3Z3NEYlR5S3NqR3pLUk8tV2NGVWU5Q3o1M1FMV1lmdk1wdVFmREVVZV8ya3I3QTg2RFM1WHR1d1I1N1RuRUVvdEd6VTA0V2VweGdVcDF6U0lFNXJWTks2alFSNVJhQXA0VlJfMm84bzRqUEhuVEFnbnU4?oc=5",
+          "pubDate": "Thu, 09 Jul 2026 04:17:17 GMT"
         }
       ]
     },
@@ -824,12 +824,6 @@
           "pubDate": "Sat, 16 May 2026 08:26:24 GMT"
         },
         {
-          "title": "Untitled",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
-          "pubDate": "Fri, 12 Sep 2025 17:18:18 GMT"
-        },
-        {
           "title": "Press Releases",
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
@@ -852,6 +846,12 @@
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
           "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
+        },
+        {
+          "title": "2018 Annual Report | Reports │ Newsroom │ Korea Investment Corporation",
+          "source": "한국투자공사/KIC",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KV3RwY3dBZEh4S25QRmczTXpYbW9NMGpEZWpUeDI2clhGSEVvT2pNOFVhTjFJYzFSWkVybVJEYWYtYm05WnhqX0JxN0dyZw?oc=5",
+          "pubDate": "Thu, 30 May 2019 07:00:00 GMT"
         }
       ]
     },
