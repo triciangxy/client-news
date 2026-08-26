@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:25:24Z",
+  "generated_at": "2026-08-26T02:48:49Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,31 +250,31 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.35,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 73.95,
+      "change": -0.3999999999999915,
+      "changePct": -0.5379959650302508,
       "currency": "HKD",
       "prevClose": 74.35,
-      "dayHigh": 75.75,
-      "dayLow": 73.55,
+      "dayHigh": 74.6,
+      "dayLow": 73.75,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 108000.0,
-      "change": 1500.0,
-      "changePct": 1.4084507042253522,
+      "price": 107700.0,
+      "change": 1200.0,
+      "changePct": 1.1267605633802817,
       "currency": "KRW",
       "prevClose": 106500.0,
-      "dayHigh": 108400.0,
+      "dayHigh": 108700.0,
       "dayLow": 105200.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1754.5,
-      "change": 20.5,
-      "changePct": 1.182237600922722,
+      "price": 1758.5,
+      "change": 24.5,
+      "changePct": 1.4129181084198386,
       "currency": "JPY",
       "prevClose": 1734.0,
       "dayHigh": 1763.5,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3251.0,
-      "change": 64.0,
-      "changePct": 2.008158142453718,
+      "price": 3252.0,
+      "change": 65.0,
+      "changePct": 2.0395356134295572,
       "currency": "JPY",
       "prevClose": 3187.0,
-      "dayHigh": 3254.0,
+      "dayHigh": 3255.0,
       "dayLow": 3203.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -654,22 +654,10 @@
       },
       "items": [
         {
-          "title": "Who We Are",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nUnRlazljZkZ6bWZ2Z1ZxOGtnMkhrazY4Vy0tOFlNU1V3clliNWt0YTFHRlNaUW9yWnFQeXlrbW9JVlAzVk1qRmxn?oc=5",
-          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
-        },
-        {
           "title": "AVP/VP, Incident and Business Continuity Management, Technology Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSXdQdEhPMGduNElRRXlrdHdrMEJGMWxzTDNMOVY1MWx6WW0zQTVPUjd6NElXLW13b0RTOGJOSE5ybXptYzd4R0R3UV9NbzRicFZHQkhhc1NFTVhtaURpTWVFUmYxVWZqMWprUmZRQUtqMmUxZzFpTzduanZLTHFUa2UzVWpCbjZYbHd6bkhzLVBBSThCLWlSVjBJNTZHUzR0OE5VRW1ZcGlTcENrV3NoOWNsNkdGT182MlBGNHJ6NTJybjQ?oc=5",
           "pubDate": "Sun, 23 Aug 2026 04:25:31 GMT"
-        },
-        {
-          "title": "AVP/VP, Total Portfolio Data Business Analyst",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZkJWb0U4M29oelptNnBNZEs0TFFObF8xbE4wbzU4dlNEMFJJMUU1NkdxMTFIWHhaS3RENjNhcUJqYXFTUXM3NkZFSmJjY3hIZ0NqZmZsMzhXall1dU5jcXFELTJsTWtvU2pZaUxGanAwRkV5dW1VMFc0dE1OeFZkUEZYRnRVbk05WGFxaWtHQmJVQ2U5ZmloWWxRdV9Qck9z?oc=5",
-          "pubDate": "Tue, 25 Aug 2026 14:18:01 GMT"
         },
         {
           "title": "AVP/VP, AI Engineer, Technology Group",
@@ -712,6 +700,18 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
           "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
+        },
+        {
+          "title": "Carsten Stendevad",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
+          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
+        },
+        {
+          "title": "VP, Information & Technology Risk Manager (Audit Management)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajg5UDlpbzBUUk43YUdmZVlyNDY0SEk0QTJ0OXRCdHFiNlBpQXowMG5XQzljYTNFR0hRa0NUVmpzQUI1bXlBVEk3Z3NEYlR5S3NqR3pLUk8tV2NGVWU5Q3o1M1FMV1lmdk1wdVFmREVVZV8ya3I3QTg2RFM1WHR1d1I1N1RuRUVvdEd6VTA0V2VweGdVcDF6U0lFNXJWTks2alFSNVJhQXA0VlJfMm84bzRqUEhuVEFnbnU4?oc=5",
+          "pubDate": "Thu, 09 Jul 2026 04:17:17 GMT"
         }
       ]
     },
