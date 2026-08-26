@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:53:11Z",
+  "generated_at": "2026-08-26T07:49:19Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.4,
-      "change": 0.05000000000001137,
-      "changePct": 0.06724949562879808,
+      "price": 74.2,
+      "change": -0.14999999999999147,
+      "changePct": -0.20174848688633687,
       "currency": "HKD",
       "prevClose": 74.35,
       "dayHigh": 74.6,
@@ -666,6 +666,12 @@
           "pubDate": "Tue, 25 Aug 2026 15:13:47 GMT"
         },
         {
+          "title": "AVP/VP, Total Portfolio Data Business Analyst",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZkJWb0U4M29oelptNnBNZEs0TFFObF8xbE4wbzU4dlNEMFJJMUU1NkdxMTFIWHhaS3RENjNhcUJqYXFTUXM3NkZFSmJjY3hIZ0NqZmZsMzhXall1dU5jcXFELTJsTWtvU2pZaUxGanAwRkV5dW1VMFc0dE1OeFZkUEZYRnRVbk05WGFxaWtHQmJVQ2U5ZmloWWxRdV9Qck9z?oc=5",
+          "pubDate": "Tue, 25 Aug 2026 14:18:01 GMT"
+        },
+        {
           "title": "AVP/VP, AI Engineer, Technology Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUENkUkxxNU12a1p4S09ORHNVcEpnTzV1T1VWV2t2UmNDbUd2dG9WWkxnZlBJQ1FfeDlDMGFCVWJrelZ1ai12Ml9fa04tRC1XZllub1FxTGFsWUZSUXVjOEYyVHNEeTZBUHRZbGVXWm5mMDhPMWxRLVZ3VFBmWFZNc2VpcWI3RWVFRTdVcktuSVQwc2VyNktIMg?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
           "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
-        },
-        {
-          "title": "Carsten Stendevad",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
-          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
         }
       ]
     },
