@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T02:48:49Z",
+  "generated_at": "2026-08-26T03:54:54Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.95,
-      "change": -0.3999999999999915,
-      "changePct": -0.5379959650302508,
+      "price": 74.0,
+      "change": -0.3499999999999943,
+      "changePct": -0.47074646940147186,
       "currency": "HKD",
       "prevClose": 74.35,
       "dayHigh": 74.6,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 107700.0,
-      "change": 1200.0,
-      "changePct": 1.1267605633802817,
+      "price": 107200.0,
+      "change": 700.0,
+      "changePct": 0.6572769953051643,
       "currency": "KRW",
       "prevClose": 106500.0,
       "dayHigh": 108700.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1758.5,
-      "change": 24.5,
-      "changePct": 1.4129181084198386,
+      "price": 1752.0,
+      "change": 18.0,
+      "changePct": 1.0380622837370241,
       "currency": "JPY",
       "prevClose": 1734.0,
       "dayHigh": 1763.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3252.0,
-      "change": 65.0,
-      "changePct": 2.0395356134295572,
+      "price": 3246.0,
+      "change": 59.0,
+      "changePct": 1.8512707875745216,
       "currency": "JPY",
       "prevClose": 3187.0,
       "dayHigh": 3255.0,
@@ -660,6 +660,18 @@
           "pubDate": "Sun, 23 Aug 2026 04:25:31 GMT"
         },
         {
+          "title": "AVP, Business Analyst, Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUU2SlJqckVCMUw0dzlzUHVwTjlNU25Xa296T0g0YjVyQWFLOTZnWHJYRzEyUFNQUFRuN0N5S2tBN3dfbDBlbmw3T2xHNHc3aXN1ZnpkMEh4UDR3QmRGNDVvWkY5LUlQTDE1bmZQQjVSU3RtQm1IMW9MSXF3VU5ZNmpxYkJSbkZ5b1ptWlRRTXF1TnZfRnF4UHM4cDI?oc=5",
+          "pubDate": "Tue, 25 Aug 2026 15:13:47 GMT"
+        },
+        {
+          "title": "AVP/VP, Total Portfolio Data Business Analyst",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZkJWb0U4M29oelptNnBNZEs0TFFObF8xbE4wbzU4dlNEMFJJMUU1NkdxMTFIWHhaS3RENjNhcUJqYXFTUXM3NkZFSmJjY3hIZ0NqZmZsMzhXall1dU5jcXFELTJsTWtvU2pZaUxGanAwRkV5dW1VMFc0dE1OeFZkUEZYRnRVbk05WGFxaWtHQmJVQ2U5ZmloWWxRdV9Qck9z?oc=5",
+          "pubDate": "Tue, 25 Aug 2026 14:18:01 GMT"
+        },
+        {
           "title": "AVP/VP, AI Engineer, Technology Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUENkUkxxNU12a1p4S09ORHNVcEpnTzV1T1VWV2t2UmNDbUd2dG9WWkxnZlBJQ1FfeDlDMGFCVWJrelZ1ai12Ml9fa04tRC1XZllub1FxTGFsWUZSUXVjOEYyVHNEeTZBUHRZbGVXWm5mMDhPMWxRLVZ3VFBmWFZNc2VpcWI3RWVFRTdVcktuSVQwc2VyNktIMg?oc=5",
@@ -700,18 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
           "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
-        },
-        {
-          "title": "Carsten Stendevad",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
-          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
-        },
-        {
-          "title": "VP, Information & Technology Risk Manager (Audit Management)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajg5UDlpbzBUUk43YUdmZVlyNDY0SEk0QTJ0OXRCdHFiNlBpQXowMG5XQzljYTNFR0hRa0NUVmpzQUI1bXlBVEk3Z3NEYlR5S3NqR3pLUk8tV2NGVWU5Q3o1M1FMV1lmdk1wdVFmREVVZV8ya3I3QTg2RFM1WHR1d1I1N1RuRUVvdEd6VTA0V2VweGdVcDF6U0lFNXJWTks2alFSNVJhQXA0VlJfMm84bzRqUEhuVEFnbnU4?oc=5",
-          "pubDate": "Thu, 09 Jul 2026 04:17:17 GMT"
         }
       ]
     },
