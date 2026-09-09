@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:23:19Z",
+  "generated_at": "2026-09-09T03:44:18Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.9,
-      "change": -0.19999999999998863,
-      "changePct": -0.2594033722438245,
+      "price": 77.05,
+      "change": 0.14999999999999147,
+      "changePct": 0.1950585175552555,
       "currency": "HKD",
-      "prevClose": 77.1,
-      "dayHigh": 77.25,
-      "dayLow": 75.8,
+      "prevClose": 76.9,
+      "dayHigh": 77.1,
+      "dayLow": 76.3,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 113200.0,
-      "change": -700.0,
-      "changePct": -0.6145741878841089,
+      "price": 110900.0,
+      "change": -2300.0,
+      "changePct": -2.0318021201413425,
       "currency": "KRW",
-      "prevClose": 113900.0,
-      "dayHigh": 116500.0,
-      "dayLow": 112600.0,
+      "prevClose": 113200.0,
+      "dayHigh": 113000.0,
+      "dayLow": 109900.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1756.5,
-      "change": -25.5,
-      "changePct": -1.430976430976431,
+      "price": 1749.5,
+      "change": -7.0,
+      "changePct": -0.3985197836606889,
       "currency": "JPY",
-      "prevClose": 1782.0,
-      "dayHigh": 1791.0,
-      "dayLow": 1752.5,
+      "prevClose": 1756.5,
+      "dayHigh": 1763.5,
+      "dayLow": 1730.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3280.0,
-      "change": -61.0,
-      "changePct": -1.8258006584854836,
+      "price": 3271.0,
+      "change": -9.0,
+      "changePct": -0.274390243902439,
       "currency": "JPY",
-      "prevClose": 3341.0,
-      "dayHigh": 3353.0,
-      "dayLow": 3257.0,
+      "prevClose": 3280.0,
+      "dayHigh": 3301.0,
+      "dayLow": 3234.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -590,6 +590,12 @@
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
+          "title": "Our Portfolio",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yRlZnaDkzb0UzSWt6VVZ4QmxDUElxSkh0ZWllaFY4UzFIOEZXUkdjZXNDTERNLVVqMFptMGI3bFgyMS1YOFJVcnVkU2ZSUnJpcHRFaHV5azNSOG94dW1sSHNYb2JDclphbVY0?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
+        },
+        {
           "title": "About Us",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWcTFrVzFnaEhHaUtWLXUyWHJMNWFTRmQ3TFowZUlGNzBrdUo5eDBRM2s2UEpRRXNwbHV1YlZ3ZVZfOFo2S0VnVE1ZeGgzUjQ?oc=5",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
           "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Fu Chengyu to Step Down from Temasek Board",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
-          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -653,6 +653,12 @@
         "query": "site:gic.com.sg"
       },
       "items": [
+        {
+          "title": "Associate - VP, External Managers, Macro/Fixed Income - Portfolio Manager",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOazE1eGNZREtwalQ1MmRnNm55OHVXR2JZaUE3WXl6ekRqa3NxTWRkVldVaVA4alE3WER4MjRVVVVSb0gybE15Q1kwREdCQW5xTjhuY1hEa29WdllFd21PSXNaZ0Q3OVZncnUtNGhiTGFpYV80cGhvVWNfWGdObUpPbjE4OUVJZHk1NktvRU1XSkdzblBEMnlOS0lSdkctb3V2TjUwZ0t0QVk0QW85QkVuRzQwc1pNanhieVpkSmtHcWFEY3c?oc=5",
+          "pubDate": "Sun, 30 Aug 2026 17:59:55 GMT"
+        },
         {
           "title": "AVP/VP, Fixed Income & Multi Asset, Fixed Income Risk (CIOO)",
           "source": "gic.careers",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
           "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
-        },
-        {
-          "title": "Carsten Stendevad",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
-          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
         }
       ]
     },
@@ -794,64 +794,64 @@
       },
       "items": [
         {
-          "title": "Press Releases",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOGtzQzVFdG5Lb1JxX01hV3FtYTlIeTRoYS1LMTI0Rnd1azhaTm5vcEFtU3F3bnFzcmNzOThJZ2lkclFseDJhX1VSSjJMWTVpQXltR29rcEM5WEU?oc=5",
-          "pubDate": "Tue, 18 May 2021 07:00:00 GMT"
+          "title": "2 April 2012",
+          "source": "kic.kr",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8ySHBuZTVEYngzUEFqVU8tUElvaUhxUWdUNFprYnE4NUdOV2NVWEJzc2JKZjN6cl90RmI5SDZQQko3R0NOcWdteW9QaElKUkZuU2NKckYwSVRiY09aVk9WbVEwVVJXSDBfUFpRUkNwc0F2ejN4TWRMNG1B?oc=5",
+          "pubDate": "Mon, 02 Apr 2012 07:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:21:28 GMT"
         },
         {
           "title": "Benchmark │ Our Portfolio │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MzNRUTdUS3luTkxmZWVTc1JnaTdTMERod01JTGIzWmhtN3MySThvUkhPeXl3OV96c21XLXgyM0o5aUJzek5QOVI1NDIwaXZ2Sm16SmtQY05BcU5zNG9nZHp3?oc=5",
           "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
         },
         {
+          "title": "KIC 2023 Annual Report",
+          "source": "kic.kr",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMVdJc2Q3dnEwd3RYQ2lScnh3b0UtNXNzM29oM0I1c0sySV9qX3NVRnBlX0E2U0laYlFOc3o2eHBKUmlVdXBCLU9nUlN4Yy1nRzFVNkpnQ1lxNTRTWVVZ?oc=5",
+          "pubDate": "Sat, 16 May 2026 08:26:24 GMT"
+        },
+        {
           "title": "Untitled",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
           "pubDate": "Fri, 12 Sep 2025 17:18:18 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
           "pubDate": "Fri, 28 Feb 2025 08:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrcEZoMmNqeDlwdjk0UXVDOEV3MnhSYVRDZzNkMHdqN3NzY0JTdlEyUW4zaGd4WlBhTTdSbmxkVXZHdEZTN180cFl5bUZMbFk1SUYzMXpHUHo2aWM?oc=5",
           "pubDate": "Thu, 21 Jun 2018 07:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
         },
         {
+          "title": "문서뷰어",
+          "source": "kic.kr",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOajdoelYydm5UM3BDSU1ub3lfck1VdWJzS21HZ3liUl9hSHVGcndsWEJSUzJQQ2pDSUtrdzNveS1kOFA0Nkw2ZHpUU2dVNmZtb3V1czVhZVBrUDA5YVVaWW1wTFF6ZE15OE9EeWZBNHh3Y0xvUm1acWRSTjBuckRoOWhpNC1qakE?oc=5",
+          "pubDate": "Tue, 08 Sep 2026 07:50:14 GMT"
+        },
+        {
           "title": "PRESS RELEASE",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
           "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
-        },
-        {
-          "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
-          "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
-        },
-        {
-          "title": "Client Privacy Notice│ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Ca2pUOElDNW9yX1ZLeE5KM1VyU3FoQktBUmszNHhiNzZQS19lcExYRU9qekozcE9tUllaQ1pIa3NGNlVfTTNQTkxTaUM?oc=5",
-          "pubDate": "Sun, 22 Jun 2025 09:03:18 GMT"
         }
       ]
     },
@@ -934,12 +934,6 @@
       },
       "items": [
         {
-          "title": "Home",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
-          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
-        },
-        {
           "title": "Our SMI Tax Guide makes tax time easier",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzdXM4Q2s0TWx3Mlh2bHY2VGVBTHVDZGlaMXUxbWZzMXV6SDhfLWFYazhhQ1V4dTJjSFlwVmpCM0xKMUFPQTVqT1JQSG5IcldaUnoteEVzWUlIR3lyYmlON1RUS3dheGJX?oc=5",
@@ -992,6 +986,12 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
           "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
+        },
+        {
+          "title": "CEO Message: Cyber Security Update",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
+          "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
         }
       ]
     },
