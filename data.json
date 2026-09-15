@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T09:21:15Z",
+  "generated_at": "2026-09-15T14:24:50Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -428,10 +428,10 @@
           "pubDate": "Wed, 26 Mar 2025 07:00:00 GMT"
         },
         {
-          "title": "Shinhan Financial Group-Annual Report",
+          "title": "ESG HIGHLIGHT",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPVHB3M181ZTZfTS1DRGw2dmdZWHoyWGJ5eHFoUEtQWEhCV3dzNnpKdTI2WVhfZER3dXBOU3dwSFBxRldFRTJjNV8yY1lsTzZBaWVSLU5MMm9vZ29lZlpVVQ?oc=5",
-          "pubDate": "Tue, 23 Jul 2024 14:12:03 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUFd1M2xOcDBYU0pTMkNhVHVHcS1fVm1KTWd4aGFQeHdGMmhzVW1tN2dIRDk5NXRBT29aSFBKbndYMmhBMFBwQ3Y5UDhhMFpwVV9YSWdYU3g2b3c5ZjZ2Umt6R2hCcDhINXQ5UURJX2NqLWNxU0ltdFg4ZnFBcjV4c0lIeDR2YXM4dEVr?oc=5",
+          "pubDate": "Wed, 19 Feb 2025 02:41:43 GMT"
         }
       ]
     },
@@ -590,12 +590,6 @@
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
-          "title": "Beyond Capital: Partnering with European Companies to Scale Globally",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObWtlZXRMS2lCMDNvZkU5dm9tLXI3aU9ua2FBc1BvZk84X2gxQVFsMG1Jd0g0VUJ6RVBuVnJPS0JLY09ZaEl5NkFLZllTMTVMSkRjWHBzTWd1eUNuSGZsX0Q5MU0yQVVqcmFncko2c0dsVnBOY0gyaGo5RjBLZHhTLURQTGtxenhNZklBSEdlSHdjZ1dYTE90d2dNcmRWS05ObmxveDNrTmZ1aUpwRERFQkVHWWw5VTQxRTNfQmxKa1JSS0thU3BHd0cwRmp4WGE1VDUwU3JQUGZkY2xBX3dR?oc=5",
-          "pubDate": "Wed, 09 Sep 2026 07:00:00 GMT"
-        },
-        {
           "title": "Vice President, Organisation & People (Talent Management) Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNDY3amNPRkF6WjFjbFJjRl83TUk2UnZ1aWYwdi1yVG5jcTgzbEM1ZlNBY20tbGIxMU1MRlVEWlFiR0xIYkN5emlOcG9wTUVxcXQybjJoRFVSM080Vkt6Tm9pc0NwOXd3T3RITEEzbjM3VmotTXUwSk5VS0dTaS1JcDdDbmZSbmczUXVBQXY1dWRicENUNGxvTjFCLXY5NWVRVURLYVVkMWo3OVBBR19IUlFiT3JIenpEMldHLXI0bGpzZ0FfNDVZUHFXTlZJdHVYZ3BPLUVsTmxjeUlPbnRSZnhDTl9NY1N2RHJKMTZn?oc=5",
@@ -635,13 +629,19 @@
           "title": "Temasek’s approach to alternative assets",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzM5R1N3VmVsMk9sT3B1OFJRako1YUpwdEZoWEczSjBtWW5OVTdKX3ZCZ2ZMTXZmWkQyZ0pMcmtFdUtpcmRSVktfa2U5bnBTcHptWEVoM0k1Z09QSjh0NGZvRm43aEFKcEpGOFpIUUN6TVhFMWFUUU1VX0g0ai1kTjNiNHd3VTM3aEFqY0ZxRGd1WUtFck85Y3VlOEEzU3pGSDZBMg?oc=5",
-          "pubDate": "Thu, 10 Sep 2026 19:45:49 GMT"
+          "pubDate": "Fri, 11 Sep 2026 04:50:30 GMT"
         },
         {
           "title": "Home",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcWdlT0xMUXZmLV91dF9RZnU2RUtNY3RHYlFQTDc2c3lkSTBzdk4wcmRKdFc5SVJJeVNScHU0aFBHMERCY3J0dFlCQ045QTFJeWhiM21TQ3k4eWQ1UDBoUXpwV0pqalRTQ3pUbExMaHp4NXBsLWhqWDVRd1NKcS0yQUtB?oc=5",
           "pubDate": "Sat, 12 Sep 2026 01:56:06 GMT"
+        },
+        {
+          "title": "Beyond Capital: Partnering with European Companies to Scale Globally",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObWtlZXRMS2lCMDNvZkU5dm9tLXI3aU9ua2FBc1BvZk84X2gxQVFsMG1Jd0g0VUJ6RVBuVnJPS0JLY09ZaEl5NkFLZllTMTVMSkRjWHBzTWd1eUNuSGZsX0Q5MU0yQVVqcmFncko2c0dsVnBOY0gyaGo5RjBLZHhTLURQTGtxenhNZklBSEdlSHdjZ1dYTE90d2dNcmRWS05ObmxveDNrTmZ1aUpwRERFQkVHWWw5VTQxRTNfQmxKa1JSS0thU3BHd0cwRmp4WGE1VDUwU3JQUGZkY2xBX3dR?oc=5",
+          "pubDate": "Wed, 09 Sep 2026 07:00:00 GMT"
         }
       ]
     },
@@ -664,12 +664,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV2Nnb3ZXVTV0dHJMbUlvWjN0ZExfSkQ3bHlkOE1KQkNwUTVEWWFqVjlibWlWV0JGNUwzc3cyMFZDZndNTHpSaHRrYkJlSF9SX1ZmNDhyWmtMZ2FiZVVZcml5M0ltbXJRQnkteVdSSzd4ajdvaERHRU0zVEpQU3IzbmR2RU5kQldOem56d01VbFZ5U0hFc05WOHhZRGgycEU1QlZyenAzQTg?oc=5",
           "pubDate": "Tue, 15 Sep 2026 02:05:32 GMT"
-        },
-        {
-          "title": "AVP, Transaction Management, Private Equity (2-Year Contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZldrR3lsNnVwNS12Q09QbFhGOEV5N1ZPOER0d2pLOU5oLUdkWlZDMEhpU29tYkVLc1QtVVdDWE9LbUhhUmM0R09kUk92bEpaNWNtdGNnOVc1czNhNHQ0SGZoYjV6M1VUWVhZLW1kQWtVRFBrNVNGaDVDUTVNTm4wTnlvbXJZT1VhSGd0aC1FZXRpb0NEaC1pZ3ZIRGxOQ184eUJETnhkMFhqdXFpcXRfU2hjb1JwN2ZfZDVB?oc=5",
-          "pubDate": "Thu, 20 Aug 2026 04:42:37 GMT"
         },
         {
           "title": "AVP/VP, Fixed Income & Multi Asset, Fixed Income Risk (CIOO)",
@@ -712,6 +706,12 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
           "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
+        },
+        {
+          "title": "GIC",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnZEZvejhYUU13UnUyWDJSRUVaRldqcFpmY0FxU3p6OVlUTFBxTW5ZS1h6RnBJNkZWSXpHeXJUVUlRak5jS2R5TENiNGxYTVp6cXc?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         }
       ]
     },
@@ -876,12 +876,6 @@
           "pubDate": "Wed, 22 Jul 2026 23:14:09 GMT"
         },
         {
-          "title": "National Pension Service of Korea - 국민연금공단",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlVjFfeUpmMkVQaXVNcVIyaWJZLWw3dUtMUzI3NXRKSUNTWVNIWWg1VzFpZ2VWdzBic1pJVEN3V0l2NU95eHhwS2pYMWFvbEhCU2ZVU2VtQzg?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
-        },
-        {
           "title": "National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vT3haOTFGeTNYcDkxUVNhUC03aTJYZTlDTmlBMW9wTEg3TC1Cei15U0hDY1hlSXFfWm5xcDlSVWJ3al85MWVwSUprU1Z5VWZLc0duXzBuUmphRjB2ZEI0a1hyWTd6c01xaEpZ?oc=5",
@@ -922,6 +916,12 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
+        },
+        {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbmI1UXU3cVUzRjlOeEdLNjZsN19velN6WktSaE9TOFhqNDFlVzQ1N2hsQ2phMnc3WEI0U3JLYk1NdzVWdWxDdS1LNVg5MkxxQjJ5UV96dXduLXRzWFNpcVhDTkFYX1FocUNoZGRkTlFsOHUzcXVNQ3h1aWxWVXBOMDZJQ0k2VWxEX3lpME40WU9aUQ?oc=5",
+          "pubDate": "Wed, 07 May 2025 04:17:22 GMT"
         }
       ]
     },
@@ -943,7 +943,7 @@
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+          "pubDate": "Mon, 10 Nov 2025 05:13:00 GMT"
         },
         {
           "title": "Indexed balanced",
@@ -1004,10 +1004,10 @@
       },
       "items": [
         {
-          "title": "Weekly bonds outstanding - 11 September 2026 - TCorp",
+          "title": "Weekly bonds outstanding - 4 September 2026 - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LR2J0ZzhrazhvWHdEUjNTNE0tQjcxLUtUWks3WVo0TW03MVNZSmV0aF9La3VkODRBZWtKTVVfazNqekk3SWJIZmlLUTJiaW1Tdl83bVJ3Vk1xWWl0LUUtQkRR?oc=5",
-          "pubDate": "Mon, 14 Sep 2026 14:22:08 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0SUwwMVpibkRucVM3MFYwSUV2c2Q5andpOVBkUW5PcTdIR1JldkY2NWZzX1NReXNaS3JfT2taV2tad213MXFBdkRKODlYYXAwa25lWHhaUkxKWnZqNGxVNg?oc=5",
+          "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT"
         },
         {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
@@ -1144,6 +1144,12 @@
       },
       "items": [
         {
+          "title": "FWD | YONG PEI LING",
+          "source": "ace-ib.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxeldPbWFzX0tHVEtiMExHOE5WTUduT0ZXemgyd1FlejNpc3JEb2s4U1hqelZLSmhQczdGSENRclJaVlFQVmFnSUVhQ1Y0X1lxd2NrRkU3Q0tCSmJpUmNsbEFMMkFKZGhNN2c?oc=5",
+          "pubDate": "Sun, 06 Sep 2026 20:37:18 GMT"
+        },
+        {
           "title": "FWD Group publishes 2026 interim report",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFVSWExuOTZ3QjJJdmtEMldpX2xpSnBMc3djRDNHSHg5SU5hY2piYzJHanpxd0dkblpOaWFuNW1yR2ZNLW1wQ3F1c2lKSUF1WUhybHJkVHI4S3BDXzU0d0UwekJYbzRiQmg2MjVGSkNXUy0yWUtzVGtTenhZWUlmM0kxZ1J0TG9JWnBoZUVKZEE?oc=5",
@@ -1168,6 +1174,18 @@
           "pubDate": "Tue, 02 Jun 2026 04:18:21 GMT"
         },
         {
+          "title": "Code of Ethics and Business Conduct v3",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGh1ODRnSnVCWlN5bFB5R2lHTXBsaFNxWUN6dXVITFhUMVNaVFBmejdyLWIyVVBnZkFvQXViTlRFQkthejhqOHhVcGpBd1kzZi02amE4NDNXTE1aazYwZkp2NWhWLXNUbk5NSGgzSVpnRUVMdnNrZ0Y3d0RmWUsycmc4Nkp3U0V5b1RqOEV0ZUN5djBsR0hjbXNrVnlZcVpWQllORFZhb1lFQllMSnB4eGdFRFdlZ1VMYWZLYVgxYTdjTGRXMUVmRlhzUHk?oc=5",
+          "pubDate": "Fri, 04 Aug 2023 11:47:59 GMT"
+        },
+        {
+          "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
+          "pubDate": "Fri, 10 Oct 2025 13:17:58 GMT"
+        },
+        {
           "title": "David Junius",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
@@ -1184,24 +1202,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
           "pubDate": "Thu, 16 Apr 2026 16:13:07 GMT"
-        },
-        {
-          "title": "FWD Vendor Code of Ethics and Business Conduct",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
-          "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
-        },
-        {
-          "title": "Craig Tunstall",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
-          "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
-        },
-        {
-          "title": "Latest announcements & exchange notices",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vYjVZbHA5a3ZDTzVOZUJkVDlGRHMzM1g1U1paa0lQY25hME9ULWZlemtWaUJoSXZsOEt1bFdsVGtQNmdXbHRhRmVmc25xN1ljUzU3WVpTSWJkeDFlYnhPQzh5S2Q?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         }
       ]
     },
