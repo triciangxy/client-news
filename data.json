@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:58:21Z",
+  "generated_at": "2026-09-15T09:21:15Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.0,
-      "change": 0.5499999999999972,
-      "changePct": 0.7289595758780612,
+      "price": 76.05,
+      "change": 0.5999999999999943,
+      "changePct": 0.7952286282306088,
       "currency": "HKD",
       "prevClose": 75.45,
       "dayHigh": 76.45,
@@ -261,35 +261,35 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 112800.0,
-      "change": -1800.0,
-      "changePct": -1.5706806282722512,
+      "price": 112200.0,
+      "change": -2400.0,
+      "changePct": -2.094240837696335,
       "currency": "KRW",
       "prevClose": 114600.0,
       "dayHigh": 113800.0,
-      "dayLow": 111900.0,
+      "dayLow": 111600.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1776.5,
-      "change": -22.0,
-      "changePct": -1.2232415902140672,
+      "price": 1773.0,
+      "change": -25.5,
+      "changePct": -1.4178482068390326,
       "currency": "JPY",
       "prevClose": 1798.5,
       "dayHigh": 1804.0,
-      "dayLow": 1775.5,
+      "dayLow": 1769.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3254.0,
-      "change": -45.0,
-      "changePct": -1.3640497120339496,
+      "price": 3260.0,
+      "change": -39.0,
+      "changePct": -1.1821764170960898,
       "currency": "JPY",
       "prevClose": 3299.0,
       "dayHigh": 3318.0,
-      "dayLow": 3248.0,
+      "dayLow": 3239.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -520,12 +520,6 @@
           "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
         },
         {
-          "title": "International Remittances-JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvN1lEb2cweW9wZzMyTjJ6SENuOW53d3NtelRxb1k1Q0V3UHJDQVExT0I5NUJ2VlFUcWt5QjZZWUpaSzhHMGZtdzA4WkdaWUFXOVFUcXZsWlRHd25SUHo2c29vQ2hZODFG?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
-        },
-        {
           "title": "ゆうちょ銀行口座へのお振込方法",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSk9jMG5OMnh4a0dicVNvLVhFbjBoMnd0N2JEYWNzdVkzR1hjdGFwX3ZRVWxFZXZKMFdJekRwTU1IQ3ktNUNWeVVNdmU1eVpSZmxiVHlrV0c5cENKdmxuVWdBVHJUN1NicXFzOF9YWW1FTE5oQmdQQmdENk9JWTlGT1VWbVRvVFE?oc=5",
@@ -572,6 +566,12 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ01TeUdJcmhoZUNLZFk5X0pacXlHNzVuOEZiNWR5VWE2QVpjdERHY0dQSklzNFE0SngtYThqSlFKNEEwNUxnaEhBYTY2dlF5ZS1mbEtXMDE2elhMUFdhSlY4a2taX3JILTZVcnpqUGE5bkwtZGMzdGxqaUlVd1BQQjh3?oc=5",
           "pubDate": "Wed, 07 Apr 2021 01:46:45 GMT"
+        },
+        {
+          "title": "External Assessments and Endorsement of Initiatives | JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LcnJrRHNpd1lUU0RYQVgzbjhWY3lEdHQ4Q3JEZzk3WGF6Q19sREVqRWxzVDVGUTRUdVlzZGNDaUpxZDE3Z3dNTEw4dlZoOEdzdkMxV3pVNC0yaHZGNm1fdGN4UjhlSkRGOVU5NHdtYw?oc=5",
+          "pubDate": "Fri, 10 Dec 2021 11:47:32 GMT"
         }
       ]
     },
@@ -600,6 +600,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNDY3amNPRkF6WjFjbFJjRl83TUk2UnZ1aWYwdi1yVG5jcTgzbEM1ZlNBY20tbGIxMU1MRlVEWlFiR0xIYkN5emlOcG9wTUVxcXQybjJoRFVSM080Vkt6Tm9pc0NwOXd3T3RITEEzbjM3VmotTXUwSk5VS0dTaS1JcDdDbmZSbmczUXVBQXY1dWRicENUNGxvTjFCLXY5NWVRVURLYVVkMWo3OVBBR19IUlFiT3JIenpEMldHLXI0bGpzZ0FfNDVZUHFXTlZJdHVYZ3BPLUVsTmxjeUlPbnRSZnhDTl9NY1N2RHJKMTZn?oc=5",
           "pubDate": "Thu, 10 Sep 2026 12:35:53 GMT"
+        },
+        {
+          "title": "Temasek Appoints Wendy Koh as Chief Financial Officer",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSFZSZEdzQ0E0N244MDhPVUR2RkxMV0RIN2xtNDdIenFzVVltYWZpcjZrNS13MzJQX1hicXFQWFFKMGwxMlg1VlhXVy1vUkNoRWNxS2h6S2J1dTkxT1pybWp6eWpfOEw0ajlNZmcyU01FRVFTN2lOZF9zX1BJb19yaFMtRUppdzdEZWVkTk5jUEpEejVoenhNQnhHSUlQYlhMNEJ5LTdxek5pTE9fRFhvS1gwQ2ZfVk80YWdOZlBmNA?oc=5",
+          "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Digital Transformation & AI Adoption, AVP Job Details",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcWdlT0xMUXZmLV91dF9RZnU2RUtNY3RHYlFQTDc2c3lkSTBzdk4wcmRKdFc5SVJJeVNScHU0aFBHMERCY3J0dFlCQ045QTFJeWhiM21TQ3k4eWQ1UDBoUXpwV0pqalRTQ3pUbExMaHp4NXBsLWhqWDVRd1NKcS0yQUtB?oc=5",
           "pubDate": "Sat, 12 Sep 2026 01:56:06 GMT"
-        },
-        {
-          "title": "Statement on Asia Business Daily Article",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSm1McEJhWnVoeTdoNXdZT0tYWDdnSmJzRExIc1dHaXctLVNtbXRzZTQyUkJ2LTIyM05TT19hWkRTSWRWNVBwLW5vbV9EM2I1OUV4bHFZRXdUNkJMRDRNMVBRUnpVUmtpNm5aWU5WaldWZE82cXVlQnk2QzRES0Jpa2RqY3ZOb2h5SEs2cUNFd2xTcUtnMGdqMFBrVUE3dExvcVJtVUtqX0ZpMXM4N2s4dzEtVkVkZw?oc=5",
-          "pubDate": "Thu, 20 Aug 2026 07:00:00 GMT"
         }
       ]
     },
@@ -876,6 +876,18 @@
           "pubDate": "Wed, 22 Jul 2026 23:14:09 GMT"
         },
         {
+          "title": "National Pension Service of Korea - 국민연금공단",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlVjFfeUpmMkVQaXVNcVIyaWJZLWw3dUtMUzI3NXRKSUNTWVNIWWg1VzFpZ2VWdzBic1pJVEN3V0l2NU95eHhwS2pYMWFvbEhCU2ZVU2VtQzg?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
+          "title": "National Pension Service",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vT3haOTFGeTNYcDkxUVNhUC03aTJYZTlDTmlBMW9wTEg3TC1Cei15U0hDY1hlSXFfWm5xcDlSVWJ3al85MWVwSUprU1Z5VWZLc0duXzBuUmphRjB2ZEI0a1hyWTd6c01xaEpZ?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
           "title": "National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEVJLTU5Y2h5cWpwNWc2SDRBSFNkWFo4dkQtNC1BTjB6WTlKYWRfYTJ4WGw4akpZSmhzX3RYVjVyMEhTVVo1Z2VNTGhtLUMzV01YLWhLWDJEdXN5d3J6UVVjbERIOElqWWliNlAzb0NQMThNcmNhbThDVERzV3Y0Z2t6WENyYXNNbGpZ?oc=5",
@@ -910,18 +922,6 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
-        },
-        {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbmI1UXU3cVUzRjlOeEdLNjZsN19velN6WktSaE9TOFhqNDFlVzQ1N2hsQ2phMnc3WEI0U3JLYk1NdzVWdWxDdS1LNVg5MkxxQjJ5UV96dXduLXRzWFNpcVhDTkFYX1FocUNoZGRkTlFsOHUzcXVNQ3h1aWxWVXBOMDZJQ0k2VWxEX3lpME40WU9aUQ?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:17:22 GMT"
-        },
-        {
-          "title": "수탁자 책임 활동 보고서 영문 09.13(표지 앞뒤).indd",
-          "source": "기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
-          "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
         }
       ]
     },
@@ -943,7 +943,7 @@
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
-          "pubDate": "Mon, 10 Nov 2025 05:13:00 GMT"
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "Indexed balanced",
@@ -961,12 +961,6 @@
           "title": "Meet our trusted Financial Advisers",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
-        },
-        {
-          "title": "Compare Super Investment Options",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUEFEY2dyMWdPRVdTNzhxN2VwYjdVWm9EcERTY0FmNlNtR3o3UUpWcGpleFdpY1Zvam1ZWVpvdk9WOVpNRHVFamZ5RUxmZDgzcXVVT3ZKNTI2T2dYZ0dHU19Qa2dzNGhhTmF2c2w1ejh0eU11Y3VMN1Q4LTRYeDZuT2lMZlRZaXRhM1FGbExUV094Q2IwZV9xb1lsNEs2X09ydnc?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
@@ -992,6 +986,12 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
           "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
+        },
+        {
+          "title": "Understanding market declines",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbVhWNFVTbmZqanMtaVpnOWJzWGxzX0d4V0xXY0UxbjRZekRFeFhQTGRVQ3JlMV90a1FCN3hOZTlLRmhncG5DZlZyRUkzWW9tQ3VOWlJ2ZURtbzN2bUZFQ2VxODl2S09meEVfZGRxdlByaTAtZjNPWTByRU1zeDk1VmNGc1MtLWhQTE52ei1hZHlEZkk?oc=5",
+          "pubDate": "Fri, 29 May 2026 19:06:18 GMT"
         }
       ]
     },
@@ -1144,12 +1144,6 @@
       },
       "items": [
         {
-          "title": "FWD | YONG PEI LING",
-          "source": "ace-ib.fwd.com",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxeldPbWFzX0tHVEtiMExHOE5WTUduT0ZXemgyd1FlejNpc3JEb2s4U1hqelZLSmhQczdGSENRclJaVlFQVmFnSUVhQ1Y0X1lxd2NrRkU3Q0tCSmJpUmNsbEFMMkFKZGhNN2c?oc=5",
-          "pubDate": "Sun, 06 Sep 2026 20:37:18 GMT"
-        },
-        {
           "title": "FWD Group publishes 2026 interim report",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFVSWExuOTZ3QjJJdmtEMldpX2xpSnBMc3djRDNHSHg5SU5hY2piYzJHanpxd0dkblpOaWFuNW1yR2ZNLW1wQ3F1c2lKSUF1WUhybHJkVHI4S3BDXzU0d0UwekJYbzRiQmg2MjVGSkNXUy0yWUtzVGtTenhZWUlmM0kxZ1J0TG9JWnBoZUVKZEE?oc=5",
@@ -1174,18 +1168,6 @@
           "pubDate": "Tue, 02 Jun 2026 04:18:21 GMT"
         },
         {
-          "title": "Code of Ethics and Business Conduct v3",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGh1ODRnSnVCWlN5bFB5R2lHTXBsaFNxWUN6dXVITFhUMVNaVFBmejdyLWIyVVBnZkFvQXViTlRFQkthejhqOHhVcGpBd1kzZi02amE4NDNXTE1aazYwZkp2NWhWLXNUbk5NSGgzSVpnRUVMdnNrZ0Y3d0RmWUsycmc4Nkp3U0V5b1RqOEV0ZUN5djBsR0hjbXNrVnlZcVpWQllORFZhb1lFQllMSnB4eGdFRFdlZ1VMYWZLYVgxYTdjTGRXMUVmRlhzUHk?oc=5",
-          "pubDate": "Fri, 04 Aug 2023 11:47:59 GMT"
-        },
-        {
-          "title": "FWD Group collaborates with Yale School of Management to offer exclusive bespoke learning programme for Bancassurance and IFA partners",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3lPUngxa2owYnVVS3dZVUxGOXhpOTVuamQ3azJOLWtPdWVPVkN4OC1DZHhiUUtaZlRWMFJqOVNzTE9QamROQkhFc1RCdW95bmlOZ1NFdFotVi1wVk1MdEMtN01QWUZzWTNOVzFBRUN1YXYwdzFEWV9JUjVIOXF5MGI1UWRoa0E?oc=5",
-          "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
-        },
-        {
           "title": "David Junius",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
@@ -1202,6 +1184,24 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
           "pubDate": "Thu, 16 Apr 2026 16:13:07 GMT"
+        },
+        {
+          "title": "FWD Vendor Code of Ethics and Business Conduct",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
+          "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
+        },
+        {
+          "title": "Craig Tunstall",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
+          "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
+        },
+        {
+          "title": "Latest announcements & exchange notices",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vYjVZbHA5a3ZDTzVOZUJkVDlGRHMzM1g1U1paa0lQY25hME9ULWZlemtWaUJoSXZsOEt1bFdsVGtQNmdXbHRhRmVmc25xN1ljUzU3WVpTSWJkeDFlYnhPQzh5S2Q?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         }
       ]
     },
