@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T03:55:57Z",
+  "generated_at": "2026-09-16T09:10:53Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.05,
-      "change": 1.0,
-      "changePct": 1.314924391847469,
+      "price": 77.0,
+      "change": 0.9500000000000028,
+      "changePct": 1.2491781722550992,
       "currency": "HKD",
       "prevClose": 76.05,
       "dayHigh": 77.3,
@@ -261,35 +261,35 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 111900.0,
-      "change": -300.0,
-      "changePct": -0.267379679144385,
+      "price": 112100.0,
+      "change": -100.0,
+      "changePct": -0.08912655971479501,
       "currency": "KRW",
       "prevClose": 112200.0,
-      "dayHigh": 112300.0,
+      "dayHigh": 112500.0,
       "dayLow": 110400.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1791.0,
-      "change": 18.0,
-      "changePct": 1.015228426395939,
+      "price": 1776.0,
+      "change": 3.0,
+      "changePct": 0.1692047377326565,
       "currency": "JPY",
       "prevClose": 1773.0,
       "dayHigh": 1808.0,
-      "dayLow": 1776.0,
+      "dayLow": 1774.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3274.0,
-      "change": 14.0,
-      "changePct": 0.4294478527607362,
+      "price": 3258.0,
+      "change": -2.0,
+      "changePct": -0.06134969325153375,
       "currency": "JPY",
       "prevClose": 3260.0,
       "dayHigh": 3300.0,
-      "dayLow": 3259.0,
+      "dayLow": 3247.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -562,16 +562,16 @@
           "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "IR Presentations-JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ01TeUdJcmhoZUNLZFk5X0pacXlHNzVuOEZiNWR5VWE2QVpjdERHY0dQSklzNFE0SngtYThqSlFKNEEwNUxnaEhBYTY2dlF5ZS1mbEtXMDE2elhMUFdhSlY4a2taX3JILTZVcnpqUGE5bkwtZGMzdGxqaUlVd1BQQjh3?oc=5",
-          "pubDate": "Wed, 07 Apr 2021 01:46:45 GMT"
-        },
-        {
           "title": "External Assessments and Endorsement of Initiatives | JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LcnJrRHNpd1lUU0RYQVgzbjhWY3lEdHQ4Q3JEZzk3WGF6Q19sREVqRWxzVDVGUTRUdVlzZGNDaUpxZDE3Z3dNTEw4dlZoOEdzdkMxV3pVNC0yaHZGNm1fdGN4UjhlSkRGOVU5NHdtYw?oc=5",
           "pubDate": "Fri, 10 Dec 2021 11:47:32 GMT"
+        },
+        {
+          "title": "Management Strategy-JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWHJoTTBaZTVuVG5xVVJ4RTVVc3lmYWZhT2I2dFVPYXN5MkZ0c0QtaFpDQUFnanpvSDhfR2lKWGZzX192Ri0xVWJhLVNxaEpHUzBZUXFHZHZ1VmVPU0dkdEdQYTZ6RngtS2lwRzQtcG1uNS10czdtS0FQSW56cWoyUkt3?oc=5",
+          "pubDate": "Fri, 21 Sep 2018 08:39:23 GMT"
         }
       ]
     },
@@ -587,7 +587,7 @@
           "title": "Careers",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWTTZzaEtNNUJkQUI4T0lVbGtWSGg3bFRGODZ2eURTNnBfTTVHd2tON3M1a3U3cnV3ZHZoRGtzTjVVazExcU5ySElUQXdlczJFRHZCRFVSVTJTdw?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+          "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
           "title": "Our Portfolio",
@@ -708,10 +708,10 @@
           "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
         },
         {
-          "title": "MPIC Raises Php 35.3bn from Co-Investment by GIC and KKR in Hospital Unit",
+          "title": "The Role of REITs in Real Estate Allocations",
           "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdE0ybmFIWGoxRm8wR3VCeU1pSmFwV2poWW5PQzRkVElKeGhiMmFUSXZ3cFBXWTZtaFRtNGNwS1JGOVVReW1PSld3ZmN5eVR6ZV93QVlqcll6N3FKLXhzYkJyNVc4V1daZmk2Q0FRZGN0NmlQd2gxRVgwMU9kT1pHVmRoU2xIbFh1QjVvWXBqX3BJT0JkRXVIYXBTemU0bjBNU2M1ZWtub1VGcG9vM1h2YQ?oc=5",
-          "pubDate": "Tue, 15 Oct 2019 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLXJMZE50N3hURlFqbTh0VWg0UGhsLUlhZzVCUTRMY0ZGRFVRbnU1THVDVlR1N2JvY0tTNDVyNDh1TVBaYWtOamxaUkNrYnJES1p2YkFRWVA3eGkwOElsMFYtM3NsOWlDWEE3X0gyeHFnUVBfd0lTSktOdVRNZExNWjZySmI5VUxRckZFMlBmN3VCUzhVUE1xZTZHdGpybUJHMVdkbQ?oc=5",
+          "pubDate": "Tue, 04 Jun 2024 11:12:02 GMT"
         }
       ]
     },
@@ -795,63 +795,63 @@
       "items": [
         {
           "title": "2 April 2012",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8ySHBuZTVEYngzUEFqVU8tUElvaUhxUWdUNFprYnE4NUdOV2NVWEJzc2JKZjN6cl90RmI5SDZQQko3R0NOcWdteW9QaElKUkZuU2NKckYwSVRiY09aVk9WbVEwVVJXSDBfUFpRUkNwc0F2ejN4TWRMNG1B?oc=5",
           "pubDate": "Mon, 02 Apr 2012 07:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOGtzQzVFdG5Lb1JxX01hV3FtYTlIeTRoYS1LMTI0Rnd1azhaTm5vcEFtU3F3bnFzcmNzOThJZ2lkclFseDJhX1VSSjJMWTVpQXltR29rcEM5WEU?oc=5",
           "pubDate": "Tue, 18 May 2021 07:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:21:28 GMT"
         },
         {
           "title": "Benchmark │ Our Portfolio │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MzNRUTdUS3luTkxmZWVTc1JnaTdTMERod01JTGIzWmhtN3MySThvUkhPeXl3OV96c21XLXgyM0o5aUJzek5QOVI1NDIwaXZ2Sm16SmtQY05BcU5zNG9nZHp3?oc=5",
           "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
         },
         {
           "title": "KIC 2023 Annual Report",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMVdJc2Q3dnEwd3RYQ2lScnh3b0UtNXNzM29oM0I1c0sySV9qX3NVRnBlX0E2U0laYlFOc3o2eHBKUmlVdXBCLU9nUlN4Yy1nRzFVNkpnQ1lxNTRTWVVZ?oc=5",
           "pubDate": "Sat, 16 May 2026 08:26:24 GMT"
         },
         {
           "title": "Untitled",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
           "pubDate": "Fri, 28 Feb 2025 08:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
         },
         {
-          "title": "문서뷰어",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOajdoelYydm5UM3BDSU1ub3lfck1VdWJzS21HZ3liUl9hSHVGcndsWEJSUzJQQ2pDSUtrdzNveS1kOFA0Nkw2ZHpUU2dVNmZtb3V1czVhZVBrUDA5YVVaWW1wTFF6ZE15OE9EeWZBNHh3Y0xvUm1acWRSTjBuckRoOWhpNC1qakE?oc=5",
-          "pubDate": "Tue, 08 Sep 2026 07:50:14 GMT"
-        },
-        {
           "title": "PRESS RELEASE",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
           "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
+        },
+        {
+          "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
+          "source": "kic.kr",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
+          "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
         }
       ]
     },
@@ -865,61 +865,61 @@
       "items": [
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaFpjRXA2QkpqRVR6N2ROdEpxMFlDRmNCa1RTZHp2UllzUWZidlE5Q1EwQmdQWE5vZ2g0OGVtUkFDei1aeDJhci1ZWnpDS2gwc3djUVEyZFJBY1Zkd1FrS2Vvc3FyeXlnM2FoTXZNdEtCaWZtbFpHVkZsOVptb1ZvREtjWlJGUQ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "영문 0709 최종22.indd",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vNWduekxaTi12YnMyUHBSMUxGQkdwU2hxay0zMUl6al96OG1GU252eXVtUmhNc0daS2toZ2gwQ2FvV2hGbUJ4dmVITC1MYTlOelM3U2JHeUUzcGRaM29BOVdHUXRLQQ?oc=5",
           "pubDate": "Wed, 22 Jul 2026 23:14:09 GMT"
         },
         {
           "title": "National Pension Service Investment Management > Our Investments > Overview",
-          "source": "기금운용본부",
+          "source": "fund.nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90NGtmNnl3d08yRHpQaDhFbDdyeW1CZFRBV3FPRWlZeW5BWnVBbVREWk5kakJibmZLNGpybl9XUk01WndvTHg5RHQwYWM3RnJLelNWXzJEYWQ0a2R2NjdsLW8za0dYQQ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "National Pension Service of Korea - 국민연금공단",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlVjFfeUpmMkVQaXVNcVIyaWJZLWw3dUtMUzI3NXRKSUNTWVNIWWg1VzFpZ2VWdzBic1pJVEN3V0l2NU95eHhwS2pYMWFvbEhCU2ZVU2VtQzg?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vT3haOTFGeTNYcDkxUVNhUC03aTJYZTlDTmlBMW9wTEg3TC1Cei15U0hDY1hlSXFfWm5xcDlSVWJ3al85MWVwSUprU1Z5VWZLc0duXzBuUmphRjB2ZEI0a1hyWTd6c01xaEpZ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEVJLTU5Y2h5cWpwNWc2SDRBSFNkWFo4dkQtNC1BTjB6WTlKYWRfYTJ4WGw4akpZSmhzX3RYVjVyMEhTVVo1Z2VNTGhtLUMzV01YLWhLWDJEdXN5d3J6UVVjbERIOElqWWliNlAzb0NQMThNcmNhbThDVERzV3Y0Z2t6WENyYXNNbGpZ?oc=5",
           "pubDate": "Tue, 07 Jul 2026 22:04:25 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yeFF5OXRLMWRQRGFSdmVEUnlPZTFSWV9VN0Z1OHkyRHIzazJVbjJDUjlYb21IVEluLU1xS3ZfU2s4UmtQLWNFU3poNnk1MFBNVlNzbVBlV1p1a2tnNzhyY0JsMTV2TmZSLVNIbnNIb0NkZw?oc=5",
           "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGYzTFR4cUZmUVI2ODJuUXBMeWNUOFlsOXBCV0pUbnhrajdWU2F4bmhxMHBhREo1MVpZUndnX3lPcFlZaHozRUxxcy1MX3JfZHAtbkZ4eG1SQmt6UGhFeUxCYXdxYnBOVldfV1RkbkJ6ajI3Nnk0U2wzNUpFSE1DWlJTMTNnYzYz?oc=5",
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "국민연금공단",
+          "source": "nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmNDUzRVNzVtUDJyVUlOSXpTWlBSckRqSUxVbWU3OW51aUdQY1k0eTNpSEpid25nM0x0UjFzMlhHanBqUi1IVmRUUVVZNHBHaWhJYXE0VUJtTDBONlpJYkpLS0Y1RjZqZlU3SFNIMGhLQTZfOHJLRkVJWlgteFN1ZzdnRDVjQ3M?oc=5",
           "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
         },
         {
           "title": "National Pension Service Investment Management > About Us > Governance",
-          "source": "기금운용본부",
+          "source": "fund.nps.or.kr",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HTTY4RXBWVmpzbjdGVmd5VEVLT2lRN2NwaWlBYk9TMnp0SndtNEdRczdGcS1tUFk0ZmxEQ294X1B3akEtcG5WUDFGeUo5em5BRGs3NldjVDdEOFN4YUVLdndtWWJ0c1E?oc=5",
           "pubDate": "Wed, 07 May 2025 01:28:39 GMT"
         }
@@ -940,12 +940,6 @@
           "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
-          "title": "Compare Super Investment Options",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUEFEY2dyMWdPRVdTNzhxN2VwYjdVWm9EcERTY0FmNlNtR3o3UUpWcGpleFdpY1Zvam1ZWVpvdk9WOVpNRHVFamZ5RUxmZDgzcXVVT3ZKNTI2T2dYZ0dHU19Qa2dzNGhhTmF2c2w1ejh0eU11Y3VMN1Q4LTRYeDZuT2lMZlRZaXRhM1FGbExUV094Q2IwZV9xb1lsNEs2X09ydnc?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
-        },
-        {
           "title": "Hostplus surpasses 2 million members as scale drives member benefits",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPdDd6M2N5VDV0NWRWZFk2di1NVzdjTVZZeGxkZV8yM1RLVG9zSEJTYlBXVUw3S2lac3ZUajJmam5ZUHlsSWZhbUFENjNJSFBJbU1FdGlHTUhrWjRXZGpMQlBPWTkxSkhCRDRINm1ncUdlbVVfV2g0VHdYN0hWVlE?oc=5",
@@ -961,7 +955,7 @@
           "title": "Indexed balanced",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWpfVWxUZTZLSjZBaWZuTi0xdVc4QnJPRkJNTG1aek03dGdTWi1qZjFVbVIxbE5TcmhPMVhJYTEzdHZESkk1aFpHUkxoVjJkNVAxV1E5RVp0dFJ2YUREdDFuWVVoYi1pSUdrUjk5aHpvQzhRdm5vSmhfdXhVS1QzaFN1bDdzME9oQzA3NDRzT0d6U2pHSEx3eXR6OGw3LTV5OHNCRnRhbWZZR3Z0amR6MXRCQ0tiR0puZ1lSd04tbzI3dmd2b084Rg?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+          "pubDate": "Mon, 29 Sep 2025 20:08:55 GMT"
         },
         {
           "title": "GOVERNMENT SUPER CO-CONTRIBUTION",
@@ -992,6 +986,12 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQanp3S1B4TE1BYUlPOUpDRi02c2gyNUVQVFZOWTJmTWRkU3pENm1nNHFjcER1alQ4V21QREdNcndBbWtFZEpKTHdXNE4yT3cwRFN3eHBwc3FKd0N2N05TN09mVmQ1NDVBRnBtcDVrS0lWdkxEczY1Wi1ETkJJLW96Ulh3eGpWanNYVzdkQWxNTQ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
+          "title": "Pension end of year performance December 2025",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
+          "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
         }
       ]
     },
