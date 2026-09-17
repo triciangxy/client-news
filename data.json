@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:35:28Z",
+  "generated_at": "2026-09-17T14:45:26Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -311,13 +311,13 @@
         },
         {
           "title": "AIA Healthiest Schools（AIA最健康学校）计划",
-          "source": "AIA Healthiest Schools Programme",
+          "source": "ahs.aia.com",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5IckMweWdjS0VReHR4aUZQNmVranVjRFJmeWk3VTFESktGUlFuVVhOWVN1MC1uc0pGcTBNQkNhQXNPb251dzMxVkJQUHR4d2lCczd4VDgxRUVBMVlCckE0OGs5V3BENGN0NDRNVGU2LUZVRTJqRTBsUA?oc=5",
           "pubDate": "Sun, 06 Sep 2026 16:09:42 GMT"
         },
         {
           "title": "AIA Healthiest Schools（AIA最健康学校）计划",
-          "source": "AIA Healthiest Schools Programme",
+          "source": "ahs.aia.com",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFByTk5sTHoyOXF2Mmp6dGpJS2dMSTRpWnR1UkxpOVhDN1RXQjJPRVNNMkRKNkRwQlM5SEl2TFJqWmNGMm5PVjhJTDIzUndHbFJMVUhodkpVQnhVZS1WbnpKSGJOMkQ4dEpZTzlLM0loMTEtNFRXUlQ0Nm5Vcw?oc=5",
           "pubDate": "Mon, 07 Sep 2026 07:31:26 GMT"
         },
@@ -520,12 +520,6 @@
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
-          "title": "Japan Post Bank Debit Application Method (Website Version)",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
-          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
-        },
-        {
           "title": "ゆうちょ銀行口座へのお振込方法",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSk9jMG5OMnh4a0dicVNvLVhFbjBoMnd0N2JEYWNzdVkzR1hjdGFwX3ZRVWxFZXZKMFdJekRwTU1IQ3ktNUNWeVVNdmU1eVpSZmxiVHlrV0c5cENKdmxuVWdBVHJUN1NicXFzOF9YWW1FTE5oQmdQQmdENk9JWTlGT1VWbVRvVFE?oc=5",
@@ -542,6 +536,12 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vejJMV2NWZ1l3TE53QVN3blFKRWRBLUNUY0FCcXRqSE02Q2htLUY0SGJZa05zRGs3NXdNVkw0ZWprT1pvYS00NlRlWW5KdUZvVUFnX2VyNW5ZdktRRXJ5OERKSHFqUll0b0V0YmZFeGFJY1dvXzg5NQ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
+          "title": "Japan Post Bank Debit Application Method (Website Version)",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
+          "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
         },
         {
           "title": "To Valued Customers who encounter a message at our bank ATM regarding an information update on your residence card/ period of stay-JAPAN POST BANK",
@@ -632,16 +632,16 @@
           "pubDate": "Thu, 10 Sep 2026 07:55:39 GMT"
         },
         {
-          "title": "Associate/Senior Associate (12 months contract), Data Management (Data Sourcing Business Analyst)",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZlRxMmlkbmU3NUh4NUhsYmtYRTBta2ZTWDdLY2N5NWdCSGE3aC00LVAwSWY2aWVhRWNqZXdfaFp2VV8zTmgyZW92ZzJTR0I0UmcxaThBY0Y0VzBCb3ZMRXA4R1JtNkpMU0p3bkVITlgtNjItX29OM3FOYVJUWFRyOUg5Qm1tWC1SQXRhZFZKbmxSYWZGVkxlYzM3cWhTNk92M052d2RxWkdOa2FXNmhXdVJsbWFGcXpkQlBrbi1kLVlJblQtMGZDUC1ndUplaXN4UkxyRkFQM21VNm4yZmFFVUtNaUZfMDYzNlI5bnBR?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
-        },
-        {
           "title": "Senior Associate, Assistant Vice President (10 months LOA cover), Global Finance Operations",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOX08xbVVveDlkZnBobGlZWnVtMzZOemhraXdJMVlUUVI0eVhneXo5Q19GdjFoSFcyd1VkRzI5UFRPZkxqcXdhRmVQMXlPQWUzUVE1Q2RVZXZGQkp0M0RSTFk4bnJna0NIMXA2TllRU2k5N3ZGR21xRmFNX1hXb3FFU3pMQnk0N2p3eGtDQ2JtQW1MVEp3ZlRIMEh4aG1OczF4LTZkY3c0bVpqSm8yQjI4VkFUWGsxcmtRY05BQzhZcVRuWEozRHB5eW1PWnJkSjlCWk1HMDhsMVVaeWdEeXJKdER6ZkxFRWVfdHZmWGQ1ZjJQc04xT2JfSTNQZUNGMDFVZzVHUmRTa3FZNXc0dExmMDZyOUx2QmFtT1VGbDB3?oc=5",
           "pubDate": "Sat, 12 Sep 2026 08:01:56 GMT"
+        },
+        {
+          "title": "Temasek’s approach to alternative assets",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzM5R1N3VmVsMk9sT3B1OFJRako1YUpwdEZoWEczSjBtWW5OVTdKX3ZCZ2ZMTXZmWkQyZ0pMcmtFdUtpcmRSVktfa2U5bnBTcHptWEVoM0k1Z09QSjh0NGZvRm43aEFKcEpGOFpIUUN6TVhFMWFUUU1VX0g0ai1kTjNiNHd3VTM3aEFqY0ZxRGd1WUtFck85Y3VlOEEzU3pGSDZBMg?oc=5",
+          "pubDate": "Fri, 11 Sep 2026 04:50:30 GMT"
         }
       ]
     },
@@ -900,6 +900,12 @@
           "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
         {
+          "title": "National Pension Service Investment Management > Publications > Annual Reports",
+          "source": "국민연금공단",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZTTMwZTVMWHE2NkxMVm9XekVqYTlKMU5VSktXSTNhLV9VYk9wNkxhcXBxd3VnWjZRQTlWbWN2ODBJSGZvMWxmWnRMbEJYQVVrX3dYR2hST2RfTlFkVEhWSGF4eGYtQTNoWExwRQ?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
           "title": "National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGYzTFR4cUZmUVI2ODJuUXBMeWNUOFlsOXBCV0pUbnhrajdWU2F4bmhxMHBhREo1MVpZUndnX3lPcFlZaHozRUxxcy1MX3JfZHAtbkZ4eG1SQmt6UGhFeUxCYXdxYnBOVldfV1RkbkJ6ajI3Nnk0U2wzNUpFSE1DWlJTMTNnYzYz?oc=5",
@@ -916,12 +922,6 @@
           "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HTTY4RXBWVmpzbjdGVmd5VEVLT2lRN2NwaWlBYk9TMnp0SndtNEdRczdGcS1tUFk0ZmxEQ294X1B3akEtcG5WUDFGeUo5em5BRGs3NldjVDdEOFN4YUVLdndtWWJ0c1E?oc=5",
           "pubDate": "Wed, 07 May 2025 01:28:39 GMT"
-        },
-        {
-          "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
-          "source": "기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
-          "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         }
       ]
     },
@@ -935,61 +935,61 @@
       "items": [
         {
           "title": "Home",
-          "source": "mol.hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
           "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
           "title": "Hostplus surpasses 2 million members as scale drives member benefits",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPdDd6M2N5VDV0NWRWZFk2di1NVzdjTVZZeGxkZV8yM1RLVG9zSEJTYlBXVUw3S2lac3ZUajJmam5ZUHlsSWZhbUFENjNJSFBJbU1FdGlHTUhrWjRXZGpMQlBPWTkxSkhCRDRINm1ncUdlbVVfV2g0VHdYN0hWVlE?oc=5",
           "pubDate": "Tue, 15 Sep 2026 10:51:33 GMT"
         },
         {
           "title": "How to stay safe from sales tactics and scams",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "Indexed balanced",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWpfVWxUZTZLSjZBaWZuTi0xdVc4QnJPRkJNTG1aek03dGdTWi1qZjFVbVIxbE5TcmhPMVhJYTEzdHZESkk1aFpHUkxoVjJkNVAxV1E5RVp0dFJ2YUREdDFuWVVoYi1pSUdrUjk5aHpvQzhRdm5vSmhfdXhVS1QzaFN1bDdzME9oQzA3NDRzT0d6U2pHSEx3eXR6OGw3LTV5OHNCRnRhbWZZR3Z0amR6MXRCQ0tiR0puZ1lSd04tbzI3dmd2b084Rg?oc=5",
           "pubDate": "Mon, 29 Sep 2025 20:08:55 GMT"
         },
         {
           "title": "GOVERNMENT SUPER CO-CONTRIBUTION",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXJCQWZMSXd2VE5DSDFxVTlZZklFVERtYXdGa1MwNFVHRmJPRkl2U3QxTnFtV2Q0OTg5UzhOUndLcFhhaHpSa0VuQlJkUS13eHJ3OWhsT056NW1sLWpXSmlIbEZwVDBZYzhseWt5R3NhNnpkaWdwNUl0QVNFOHhIbkZmbDZvLUdzNVoxdXQtQWl4NDRZRUZrSHB4b1B0WHRkWTdEMmZ4X1V3YmZkVUJ1WW1rNzRCQ2U5cmZralBvX2dNUUgyWi1xZlBxQzZiRVFRSHJxUWZ1TGY4RzA?oc=5",
           "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "Meet our trusted Financial Advisers",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
           "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
         },
         {
           "title": "Stable",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdHRPSWZZcVhSWFg4bmNxb3ZtSkcycmdFRFFKUHRXZlFXRUZhY05BVk9QWEVhMzRaUDNvVlJERWRWVFdmT0V3SjJ4MlFENU9JclZoUWozZjBNTUcwSXZrMWFMVGpzSHlxWjRHbHM3Z0tLQ1ptQlA4V29QeHNSMkl6czUyVXMtd3JRVmVJNDJFc1liY2cxeXFSbm94VXhvYVhhMVp2X3BHSmVYRXAzVFFOX0VfTHhYaUthdS1V?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "HOSTPLUS SELF-MANAGED INVEST ANNUAL REPORT",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
           "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
         },
         {
           "title": "Access your super early",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQanp3S1B4TE1BYUlPOUpDRi02c2gyNUVQVFZOWTJmTWRkU3pENm1nNHFjcER1alQ4V21QREdNcndBbWtFZEpKTHdXNE4yT3cwRFN3eHBwc3FKd0N2N05TN09mVmQ1NDVBRnBtcDVrS0lWdkxEczY1Wi1ETkJJLW96Ulh3eGpWanNYVzdkQWxNTQ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "Pension end of year performance December 2025",
-          "source": "hostplus.com.au",
+          "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
           "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
         }
