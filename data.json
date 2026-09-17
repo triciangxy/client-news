@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:17:33Z",
+  "generated_at": "2026-09-17T04:01:48Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -251,45 +251,45 @@
   "quotes": {
     "1299.HK": {
       "price": 77.0,
-      "change": 0.9500000000000028,
-      "changePct": 1.2491781722550992,
+      "change": 0.0,
+      "changePct": 0.0,
       "currency": "HKD",
-      "prevClose": 76.05,
-      "dayHigh": 77.3,
-      "dayLow": 75.75,
+      "prevClose": 77.0,
+      "dayHigh": 77.05,
+      "dayLow": 75.6,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 112100.0,
-      "change": -100.0,
-      "changePct": -0.08912655971479501,
+      "price": 113500.0,
+      "change": 1400.0,
+      "changePct": 1.2488849241748439,
       "currency": "KRW",
-      "prevClose": 112200.0,
-      "dayHigh": 112500.0,
-      "dayLow": 110400.0,
+      "prevClose": 112100.0,
+      "dayHigh": 114300.0,
+      "dayLow": 111100.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1776.0,
-      "change": 3.0,
-      "changePct": 0.1692047377326565,
+      "price": 1796.5,
+      "change": 20.5,
+      "changePct": 1.1542792792792793,
       "currency": "JPY",
-      "prevClose": 1773.0,
-      "dayHigh": 1808.0,
-      "dayLow": 1774.0,
+      "prevClose": 1776.0,
+      "dayHigh": 1797.5,
+      "dayLow": 1777.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3258.0,
-      "change": -2.0,
-      "changePct": -0.06134969325153375,
+      "price": 3316.0,
+      "change": 58.0,
+      "changePct": 1.780233271945979,
       "currency": "JPY",
-      "prevClose": 3260.0,
-      "dayHigh": 3300.0,
-      "dayLow": 3247.0,
+      "prevClose": 3258.0,
+      "dayHigh": 3317.0,
+      "dayLow": 3264.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -358,10 +358,10 @@
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
-          "title": "How financial planning can help your small business",
+          "title": "Brisk walking: How to do it correctly, according to experts",
           "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
-          "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3hUSkNoUmhmTUVFeUJENEVrcC1sM3pfTll0TFBKMl80SEVZLTZtV2ZrZFB1RGwwZlpaWTc4QzRieGpwNEdvUzFvVXE3RXNyTzR4U2h3QlppNEJIZ1dNTklMeGxtaGk1TVNQR09wLWxZRWFZMDBEU0UtZHlkSE9DM2h4b3l4QWhYRDJxTnZ3?oc=5",
+          "pubDate": "Wed, 14 Dec 2022 10:59:21 GMT"
         }
       ]
     },
@@ -471,7 +471,7 @@
           "title": "IR Presentation Materials | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFbVlxbERPQy1OZlpna296TGJMRjB1RWc4dkdNTWRBaFVaRjJtN2ppWGlydjk4QW9Ld1hJNjBYdnpNaG5wbVg4SEItaTIzVFJla2lBWVVYN2tHRExTSnNIdmczdUc1QTdC?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+          "pubDate": "Mon, 24 Feb 2025 01:44:06 GMT"
         },
         {
           "title": "Directors and Executive Officers | Company information | SUMITOMO MITSUI TRUST GROUP",
@@ -532,6 +532,12 @@
           "pubDate": "Sun, 25 Feb 2018 20:59:50 GMT"
         },
         {
+          "title": "User Guide",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vejJMV2NWZ1l3TE53QVN3blFKRWRBLUNUY0FCcXRqSE02Q2htLUY0SGJZa05zRGs3NXdNVkw0ZWprT1pvYS00NlRlWW5KdUZvVUFnX2VyNW5ZdktRRXJ5OERKSHFqUll0b0V0YmZFeGFJY1dvXzg5NQ?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
           "title": "To Valued Customers who encounter a message at our bank ATM regarding an information update on your residence card/ period of stay-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUHo5QlpWNmdpQWhfNS1UdmJWNGoyV3ZzWEZBT3FfNzMyTm5VZjV0ci1GLVhHTU5kYnkwNFAwdGM0N3ZZUndxbEdHRGFabU5tRjJjcGdhNHlVeHRPOE1YeDNRVFUySEpNVHNsRGhLOA?oc=5",
@@ -556,22 +562,16 @@
           "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT"
         },
         {
+          "title": "Summary of Consolidated Financial Results for the Nine Months Ended December 31, 2018",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JcU9md29iSWdkNW5YSjRfVFFCblozUTR6TTA4STc0RFVIUzJtb2tCZ2FHblZHQUZFQUJ6RHZrOGNESWJjV0lKZ1lFYnlucUhQR0kzbFFieWtQZENvZHMwb25kRWoxVHV5bUNQYWFXNVhiZGJsOE1Z?oc=5",
+          "pubDate": "Thu, 14 Feb 2019 08:00:00 GMT"
+        },
+        {
           "title": "External Assessments and Endorsement of Initiatives | JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LcnJrRHNpd1lUU0RYQVgzbjhWY3lEdHQ4Q3JEZzk3WGF6Q19sREVqRWxzVDVGUTRUdVlzZGNDaUpxZDE3Z3dNTEw4dlZoOEdzdkMxV3pVNC0yaHZGNm1fdGN4UjhlSkRGOVU5NHdtYw?oc=5",
           "pubDate": "Fri, 10 Dec 2021 11:47:32 GMT"
-        },
-        {
-          "title": "Management Strategy-JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWHJoTTBaZTVuVG5xVVJ4RTVVc3lmYWZhT2I2dFVPYXN5MkZ0c0QtaFpDQUFnanpvSDhfR2lKWGZzX192Ri0xVWJhLVNxaEpHUzBZUXFHZHZ1VmVPU0dkdEdQYTZ6RngtS2lwRzQtcG1uNS10czdtS0FQSW56cWoyUkt3?oc=5",
-          "pubDate": "Fri, 21 Sep 2018 08:39:23 GMT"
-        },
-        {
-          "title": "Criteria for Nomination of Director Candidates Article 1 (Purpose) These criteria prescribe criteria when nominating candidates",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeGRlMWRrcEEyYmZOTUZoRnJGMFN4dWNnak1JVlktaDRUbmFuNm5uazlyM21rUEFaMHN3dGw2NVptLVNOS1lIdkRrbjZfdG5MdnFYbWhUcGdvdWRNT1RtaXhlUkllM3J4WEFzeVJBcm92cnJNemt5blhyS1N6dlpRT3pCeVpQNlFwOURPTEJUd3Z5WTh1NkMzS2MtS2ZQRm55aFEtRHlpbmtRZlJiVUQ2SmstX2ZhYS1iQkhqQTRoeDk?oc=5",
-          "pubDate": "Sat, 11 Dec 2021 00:20:22 GMT"
         }
       ]
     },
@@ -588,6 +588,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWTTZzaEtNNUJkQUI4T0lVbGtWSGg3bFRGODZ2eURTNnBfTTVHd2tON3M1a3U3cnV3ZHZoRGtzTjVVazExcU5ySElUQXdlczJFRHZCRFVSVTJTdw?oc=5",
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
+        },
+        {
+          "title": "Temasek Careers",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE05dV9mVHdyNVVfc1d4YjFHV2FTMTY5MXUzZVZDZ2FnM2VkT1FEajdRd3dJU3R0QnNWZmRYMUNTRjFDUQ?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "Our Leadership",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzM5R1N3VmVsMk9sT3B1OFJRako1YUpwdEZoWEczSjBtWW5OVTdKX3ZCZ2ZMTXZmWkQyZ0pMcmtFdUtpcmRSVktfa2U5bnBTcHptWEVoM0k1Z09QSjh0NGZvRm43aEFKcEpGOFpIUUN6TVhFMWFUUU1VX0g0ai1kTjNiNHd3VTM3aEFqY0ZxRGd1WUtFck85Y3VlOEEzU3pGSDZBMg?oc=5",
           "pubDate": "Fri, 11 Sep 2026 04:50:30 GMT"
-        },
-        {
-          "title": "Home",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcWdlT0xMUXZmLV91dF9RZnU2RUtNY3RHYlFQTDc2c3lkSTBzdk4wcmRKdFc5SVJJeVNScHU0aFBHMERCY3J0dFlCQ045QTFJeWhiM21TQ3k4eWQ1UDBoUXpwV0pqalRTQ3pUbExMaHp4NXBsLWhqWDVRd1NKcS0yQUtB?oc=5",
-          "pubDate": "Sat, 12 Sep 2026 01:56:06 GMT"
         }
       ]
     },
@@ -865,63 +865,63 @@
       "items": [
         {
           "title": "National Pension Service",
-          "source": "nps.or.kr",
+          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaFpjRXA2QkpqRVR6N2ROdEpxMFlDRmNCa1RTZHp2UllzUWZidlE5Q1EwQmdQWE5vZ2g0OGVtUkFDei1aeDJhci1ZWnpDS2gwc3djUVEyZFJBY1Zkd1FrS2Vvc3FyeXlnM2FoTXZNdEtCaWZtbFpHVkZsOVptb1ZvREtjWlJGUQ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "영문 0709 최종22.indd",
-          "source": "nps.or.kr",
+          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vNWduekxaTi12YnMyUHBSMUxGQkdwU2hxay0zMUl6al96OG1GU252eXVtUmhNc0daS2toZ2gwQ2FvV2hGbUJ4dmVITC1MYTlOelM3U2JHeUUzcGRaM29BOVdHUXRLQQ?oc=5",
           "pubDate": "Wed, 22 Jul 2026 23:14:09 GMT"
         },
         {
           "title": "National Pension Service Investment Management > Our Investments > Overview",
-          "source": "fund.nps.or.kr",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90NGtmNnl3d08yRHpQaDhFbDdyeW1CZFRBV3FPRWlZeW5BWnVBbVREWk5kakJibmZLNGpybl9XUk01WndvTHg5RHQwYWM3RnJLelNWXzJEYWQ0a2R2NjdsLW8za0dYQQ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
-          "title": "National Pension Service of Korea - 국민연금공단",
-          "source": "nps.or.kr",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlVjFfeUpmMkVQaXVNcVIyaWJZLWw3dUtMUzI3NXRKSUNTWVNIWWg1VzFpZ2VWdzBic1pJVEN3V0l2NU95eHhwS2pYMWFvbEhCU2ZVU2VtQzg?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
-        },
-        {
           "title": "National Pension Service",
-          "source": "nps.or.kr",
+          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vT3haOTFGeTNYcDkxUVNhUC03aTJYZTlDTmlBMW9wTEg3TC1Cei15U0hDY1hlSXFfWm5xcDlSVWJ3al85MWVwSUprU1Z5VWZLc0duXzBuUmphRjB2ZEI0a1hyWTd6c01xaEpZ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "nps.or.kr",
+          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEVJLTU5Y2h5cWpwNWc2SDRBSFNkWFo4dkQtNC1BTjB6WTlKYWRfYTJ4WGw4akpZSmhzX3RYVjVyMEhTVVo1Z2VNTGhtLUMzV01YLWhLWDJEdXN5d3J6UVVjbERIOElqWWliNlAzb0NQMThNcmNhbThDVERzV3Y0Z2t6WENyYXNNbGpZ?oc=5",
           "pubDate": "Tue, 07 Jul 2026 22:04:25 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "nps.or.kr",
+          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yeFF5OXRLMWRQRGFSdmVEUnlPZTFSWV9VN0Z1OHkyRHIzazJVbjJDUjlYb21IVEluLU1xS3ZfU2s4UmtQLWNFU3poNnk1MFBNVlNzbVBlV1p1a2tnNzhyY0JsMTV2TmZSLVNIbnNIb0NkZw?oc=5",
           "pubDate": "Sat, 06 Jun 2026 18:27:34 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "nps.or.kr",
+          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGYzTFR4cUZmUVI2ODJuUXBMeWNUOFlsOXBCV0pUbnhrajdWU2F4bmhxMHBhREo1MVpZUndnX3lPcFlZaHozRUxxcy1MX3JfZHAtbkZ4eG1SQmt6UGhFeUxCYXdxYnBOVldfV1RkbkJ6ajI3Nnk0U2wzNUpFSE1DWlJTMTNnYzYz?oc=5",
           "pubDate": "Thu, 28 May 2026 10:18:09 GMT"
         },
         {
           "title": "National Pension Service",
-          "source": "nps.or.kr",
+          "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmNDUzRVNzVtUDJyVUlOSXpTWlBSckRqSUxVbWU3OW51aUdQY1k0eTNpSEpid25nM0x0UjFzMlhHanBqUi1IVmRUUVVZNHBHaWhJYXE0VUJtTDBONlpJYkpLS0Y1RjZqZlU3SFNIMGhLQTZfOHJLRkVJWlgteFN1ZzdnRDVjQ3M?oc=5",
           "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
         },
         {
           "title": "National Pension Service Investment Management > About Us > Governance",
-          "source": "fund.nps.or.kr",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HTTY4RXBWVmpzbjdGVmd5VEVLT2lRN2NwaWlBYk9TMnp0SndtNEdRczdGcS1tUFk0ZmxEQ294X1B3akEtcG5WUDFGeUo5em5BRGs3NldjVDdEOFN4YUVLdndtWWJ0c1E?oc=5",
           "pubDate": "Wed, 07 May 2025 01:28:39 GMT"
+        },
+        {
+          "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
+          "source": "기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
+          "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         }
       ]
     },
@@ -967,7 +967,7 @@
           "title": "Meet our trusted Financial Advisers",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+          "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
         },
         {
           "title": "Stable",
@@ -1116,12 +1116,6 @@
           "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
         },
         {
-          "title": "Announcement of the Scheduled Date for Partial Transfer of Nippon Wealth Life’s Investment Management Functions to Enhance Nippon Life Group’s Investment Capabilities",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SeUtVWUx2Uk5QZ0hxNzJubWM4VHl5Slg3a0pDWTRPRFYxaGFTOENoUU5SRDFtc2lpSzN1TkkxbEJYNWJLTmdRQnROM2V0cGNVckF2cFVuOFd0WGdBOVlJ?oc=5",
-          "pubDate": "Fri, 07 Mar 2025 08:00:00 GMT"
-        },
-        {
           "title": "About Us | Nippon Life Insurance Company",
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJSjFuODQ1RTc2bkF0UXdBTXFVQjZNTnhoT05mTEJUcVhfSmNUTGMtOWZ1clQ1TnZxRHI0c1NWLUxzc1NIRVgzQ2NlSE0yT1k?oc=5",
@@ -1132,6 +1126,12 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41TFhYMlJURnk0RXVFa0FKbXJtR1BfRExZaHA3eG5GMU9iX0hzcURhNFZyYXNLWDBpSzlaSDNwWVRjRzE1WW9PdXRaMEliVDVNYjdUUWpNaUVJZVdTUFlBRGJkNjNZOG9TQ0UyczRUbngxbXNvNDlFSWZhNng?oc=5",
           "pubDate": "Sun, 04 Apr 2010 21:24:30 GMT"
+        },
+        {
+          "title": "Investment in the European Infrastructure Debt Fund Managed by DWS | Newsroom | Nippon Life Insurance Company",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuSmtFTDlkQzItMkxmMGZtNkFHbHl2Z0FzU1pvcTA0Z0drQ1pLVS1zanNHZUZqa09fenZDQnZHLVNYSUZtVGVoY01La2FTZUJUSVN4SzFwanRXNHpOUUJj?oc=5",
+          "pubDate": "Tue, 04 Nov 2025 08:00:00 GMT"
         }
       ]
     },
@@ -1168,6 +1168,12 @@
           "pubDate": "Tue, 02 Jun 2026 04:18:21 GMT"
         },
         {
+          "title": "Code of Ethics and Business Conduct v3",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGh1ODRnSnVCWlN5bFB5R2lHTXBsaFNxWUN6dXVITFhUMVNaVFBmejdyLWIyVVBnZkFvQXViTlRFQkthejhqOHhVcGpBd1kzZi02amE4NDNXTE1aazYwZkp2NWhWLXNUbk5NSGgzSVpnRUVMdnNrZ0Y3d0RmWUsycmc4Nkp3U0V5b1RqOEV0ZUN5djBsR0hjbXNrVnlZcVpWQllORFZhb1lFQllMSnB4eGdFRFdlZ1VMYWZLYVgxYTdjTGRXMUVmRlhzUHk?oc=5",
+          "pubDate": "Fri, 04 Aug 2023 11:47:59 GMT"
+        },
+        {
           "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
@@ -1186,22 +1192,16 @@
           "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         },
         {
+          "title": "FWD FitForMe | Uncover AI-recommended coverages based on people like you!",
+          "source": "FWD FitForMe",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
           "title": "2025 Annual Report Chairman’s statement",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
           "pubDate": "Thu, 16 Apr 2026 16:13:07 GMT"
-        },
-        {
-          "title": "FWD Vendor Code of Ethics and Business Conduct",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
-          "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
-        },
-        {
-          "title": "Craig Tunstall",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
-          "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
         }
       ]
     },
