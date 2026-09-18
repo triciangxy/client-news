@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:45:26Z",
+  "generated_at": "2026-09-18T03:48:16Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.35,
-      "change": 0.3499999999999943,
-      "changePct": 0.45454545454544715,
+      "price": 77.0,
+      "change": -0.3499999999999943,
+      "changePct": -0.4524886877827981,
       "currency": "HKD",
-      "prevClose": 77.0,
-      "dayHigh": 77.4,
-      "dayLow": 75.6,
+      "prevClose": 77.35,
+      "dayHigh": 78.05,
+      "dayLow": 77.0,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 113300.0,
-      "change": 1200.0,
-      "changePct": 1.070472792149866,
+      "price": 111400.0,
+      "change": -1900.0,
+      "changePct": -1.6769638128861428,
       "currency": "KRW",
-      "prevClose": 112100.0,
-      "dayHigh": 114300.0,
-      "dayLow": 111100.0,
+      "prevClose": 113300.0,
+      "dayHigh": 114400.0,
+      "dayLow": 110400.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1789.5,
-      "change": 13.5,
-      "changePct": 0.7601351351351352,
+      "price": 1760.0,
+      "change": -29.5,
+      "changePct": -1.648505169041632,
       "currency": "JPY",
-      "prevClose": 1776.0,
-      "dayHigh": 1798.5,
-      "dayLow": 1773.5,
+      "prevClose": 1789.5,
+      "dayHigh": 1796.0,
+      "dayLow": 1756.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3286.0,
-      "change": 28.0,
-      "changePct": 0.8594229588704727,
+      "price": 3225.0,
+      "change": -61.0,
+      "changePct": -1.856360316494218,
       "currency": "JPY",
-      "prevClose": 3258.0,
-      "dayHigh": 3321.0,
-      "dayLow": 3264.0,
+      "prevClose": 3286.0,
+      "dayHigh": 3315.0,
+      "dayLow": 3218.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -311,13 +311,13 @@
         },
         {
           "title": "AIA Healthiest Schools（AIA最健康学校）计划",
-          "source": "ahs.aia.com",
+          "source": "AIA Healthiest Schools Programme",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5IckMweWdjS0VReHR4aUZQNmVranVjRFJmeWk3VTFESktGUlFuVVhOWVN1MC1uc0pGcTBNQkNhQXNPb251dzMxVkJQUHR4d2lCczd4VDgxRUVBMVlCckE0OGs5V3BENGN0NDRNVGU2LUZVRTJqRTBsUA?oc=5",
           "pubDate": "Sun, 06 Sep 2026 16:09:42 GMT"
         },
         {
           "title": "AIA Healthiest Schools（AIA最健康学校）计划",
-          "source": "ahs.aia.com",
+          "source": "AIA Healthiest Schools Programme",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFByTk5sTHoyOXF2Mmp6dGpJS2dMSTRpWnR1UkxpOVhDN1RXQjJPRVNNMkRKNkRwQlM5SEl2TFJqWmNGMm5PVjhJTDIzUndHbFJMVUhodkpVQnhVZS1WbnpKSGJOMkQ4dEpZTzlLM0loMTEtNFRXUlQ0Nm5Vcw?oc=5",
           "pubDate": "Mon, 07 Sep 2026 07:31:26 GMT"
         },
@@ -514,12 +514,6 @@
       },
       "items": [
         {
-          "title": "JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zWHNXdnhJdVZwUXRsa25HbTBKM1JQMkdBdUxyQWlOTHd6SWFwMHBWQzBZdzhaZEtnWUlRSXdxRjY2Ukp2aDR6X1ZyWk1BVW1zdFZEQkxBMEJoQQ?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
-        },
-        {
           "title": "ゆうちょ銀行口座へのお振込方法",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSk9jMG5OMnh4a0dicVNvLVhFbjBoMnd0N2JEYWNzdVkzR1hjdGFwX3ZRVWxFZXZKMFdJekRwTU1IQ3ktNUNWeVVNdmU1eVpSZmxiVHlrV0c5cENKdmxuVWdBVHJUN1NicXFzOF9YWW1FTE5oQmdQQmdENk9JWTlGT1VWbVRvVFE?oc=5",
@@ -529,7 +523,7 @@
           "title": "委 任 状",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjZGNSYmsyU0NVX3doRjVKU1VjM28wS29wRFk5LXhYSFg4THVTdU01TUxTaHNva3lxVTFKSWUyRjlpcG9SUG1fcUE0YS1DQVczQ241a1k4TW9QaTU0azVzcjUzSC1YTW45ZnlBOVZqaEZ1dE5k?oc=5",
-          "pubDate": "Sun, 25 Feb 2018 20:59:50 GMT"
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "User Guide",
@@ -538,16 +532,22 @@
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
+          "title": "To Valued Customers who encounter a message at our bank ATM regarding an information update on your residence card/ period of stay-JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUHo5QlpWNmdpQWhfNS1UdmJWNGoyV3ZzWEZBT3FfNzMyTm5VZjV0ci1GLVhHTU5kYnkwNFAwdGM0N3ZZUndxbEdHRGFabU5tRjJjcGdhNHlVeHRPOE1YeDNRVFUySEpNVHNsRGhLOA?oc=5",
+          "pubDate": "Tue, 04 Jan 2022 08:00:00 GMT"
+        },
+        {
           "title": "Japan Post Bank Debit Application Method (Website Version)",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
           "pubDate": "Fri, 01 Sep 2023 01:29:02 GMT"
         },
         {
-          "title": "To Valued Customers who encounter a message at our bank ATM regarding an information update on your residence card/ period of stay-JAPAN POST BANK",
+          "title": "About JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUHo5QlpWNmdpQWhfNS1UdmJWNGoyV3ZzWEZBT3FfNzMyTm5VZjV0ci1GLVhHTU5kYnkwNFAwdGM0N3ZZUndxbEdHRGFabU5tRjJjcGdhNHlVeHRPOE1YeDNRVFUySEpNVHNsRGhLOA?oc=5",
-          "pubDate": "Tue, 04 Jan 2022 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sTXhtX1JNQnRDeWc2bWR1b1ZhRTFQemNzc1pfZHpOX0RKeWVGS2pKYVVkSk9WWWtVenZpMjhaN2JMT05KTGltSHZaSnJGdExJdm1IUTd6Tnd4Ny1RQ19LRzZxZzluaTVXTDliWXRud1hSNHlMeHRF?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "ESG Investment and Financing | JAPAN POST BANK",
@@ -568,10 +568,10 @@
           "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "External Assessments and Endorsement of Initiatives | JAPAN POST BANK",
+          "title": "Contact Us (for IR inquiries only)-JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LcnJrRHNpd1lUU0RYQVgzbjhWY3lEdHQ4Q3JEZzk3WGF6Q19sREVqRWxzVDVGUTRUdVlzZGNDaUpxZDE3Z3dNTEw4dlZoOEdzdkMxV3pVNC0yaHZGNm1fdGN4UjhlSkRGOVU5NHdtYw?oc=5",
-          "pubDate": "Fri, 10 Dec 2021 11:47:32 GMT"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDeDh5TnJSYjZqUVFNV1NNQVpRVHhsbVBmdWxZa05QQkE2TnFUNlMxTTAwMGJZaFhVUkZHMF9idkV1SC05TEEzTmFOUGhaTXYzdTRWcTNfQlEtbFlrLUQ1N3NmMHZGV0R2T3BvdGFMSDRnODgyLXRQclo0U1FsQjA?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         }
       ]
     },
@@ -594,6 +594,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE05dV9mVHdyNVVfc1d4YjFHV2FTMTY5MXUzZVZDZ2FnM2VkT1FEajdRd3dJU3R0QnNWZmRYMUNTRjFDUQ?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
+          "title": "Temasek’s Net Portfolio Value Grows to S$518 billion, up S$49 billion from Last Year",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQWVUUlBWSkdfVnl1SDYyOXY0bTRheDZJOGR6eTV6ckNic2tpbktZSDNUbl8zZDlnU29wTWJXUDNVeWN4Vm1KaXMwNjVoWnFlRWluamNOSVd1LXBsVHkzeFVIU045U2tweVEwb21wOHdsc05adWpYVXhsYTItMkdLTzFYbkViTFpaNEJaZTNUZXZCYVdfRUtta3BnSkZubW9sYmU3ZS1qTlh0T05ZMWQ5SjBLSHVPY3pTMjlBNTVRZ29OMjJtdVk3ZVNpUFg?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT"
         },
         {
           "title": "Our Leadership",
@@ -632,16 +638,10 @@
           "pubDate": "Thu, 10 Sep 2026 07:55:39 GMT"
         },
         {
-          "title": "Senior Associate, Assistant Vice President (10 months LOA cover), Global Finance Operations",
+          "title": "Associate/Senior Associate (12 months contract), Data Management (Data Sourcing Business Analyst)",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOX08xbVVveDlkZnBobGlZWnVtMzZOemhraXdJMVlUUVI0eVhneXo5Q19GdjFoSFcyd1VkRzI5UFRPZkxqcXdhRmVQMXlPQWUzUVE1Q2RVZXZGQkp0M0RSTFk4bnJna0NIMXA2TllRU2k5N3ZGR21xRmFNX1hXb3FFU3pMQnk0N2p3eGtDQ2JtQW1MVEp3ZlRIMEh4aG1OczF4LTZkY3c0bVpqSm8yQjI4VkFUWGsxcmtRY05BQzhZcVRuWEozRHB5eW1PWnJkSjlCWk1HMDhsMVVaeWdEeXJKdER6ZkxFRWVfdHZmWGQ1ZjJQc04xT2JfSTNQZUNGMDFVZzVHUmRTa3FZNXc0dExmMDZyOUx2QmFtT1VGbDB3?oc=5",
-          "pubDate": "Sat, 12 Sep 2026 08:01:56 GMT"
-        },
-        {
-          "title": "Temasek’s approach to alternative assets",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzM5R1N3VmVsMk9sT3B1OFJRako1YUpwdEZoWEczSjBtWW5OVTdKX3ZCZ2ZMTXZmWkQyZ0pMcmtFdUtpcmRSVktfa2U5bnBTcHptWEVoM0k1Z09QSjh0NGZvRm43aEFKcEpGOFpIUUN6TVhFMWFUUU1VX0g0ai1kTjNiNHd3VTM3aEFqY0ZxRGd1WUtFck85Y3VlOEEzU3pGSDZBMg?oc=5",
-          "pubDate": "Fri, 11 Sep 2026 04:50:30 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZlRxMmlkbmU3NUh4NUhsYmtYRTBta2ZTWDdLY2N5NWdCSGE3aC00LVAwSWY2aWVhRWNqZXdfaFp2VV8zTmgyZW92ZzJTR0I0UmcxaThBY0Y0VzBCb3ZMRXA4R1JtNkpMU0p3bkVITlgtNjItX29OM3FOYVJUWFRyOUg5Qm1tWC1SQXRhZFZKbmxSYWZGVkxlYzM3cWhTNk92M052d2RxWkdOa2FXNmhXdVJsbWFGcXpkQlBrbi1kLVlJblQtMGZDUC1ndUplaXN4UkxyRkFQM21VNm4yZmFFVUtNaUZfMDYzNlI5bnBR?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         }
       ]
     },
@@ -666,10 +666,22 @@
           "pubDate": "Wed, 09 Sep 2026 00:10:19 GMT"
         },
         {
+          "title": "Associate, Real Estate, Investments - Japan",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONm8xWmx3OWpHTklzREpJYTBJZWN6SUZSYlhpSUp5TXlGX2w5TEV4dlZabGx5WnpZRXJWUmY1aGJQRV9ZWGpsQ3AtMlJrXzhTSlpMLUNDNXpXVTZRbzBZQjZCVFd5ZEprcGduTm9UdmVtRURwcTJ4cWRxUUZQYVZjSHJncjk3V1RhMF9OOFRSS1FGTXAxeXV3MHFR?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
           "title": "GIC Marks 45 Years with The Secret Vault, its First Public Exhibition",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV2Nnb3ZXVTV0dHJMbUlvWjN0ZExfSkQ3bHlkOE1KQkNwUTVEWWFqVjlibWlWV0JGNUwzc3cyMFZDZndNTHpSaHRrYkJlSF9SX1ZmNDhyWmtMZ2FiZVVZcml5M0ltbXJRQnkteVdSSzd4ajdvaERHRU0zVEpQU3IzbmR2RU5kQldOem56d01VbFZ5U0hFc05WOHhZRGgycEU1QlZyenAzQTg?oc=5",
           "pubDate": "Tue, 15 Sep 2026 02:05:32 GMT"
+        },
+        {
+          "title": "AVP, Transaction Management, Private Equity (2-Year Contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZldrR3lsNnVwNS12Q09QbFhGOEV5N1ZPOER0d2pLOU5oLUdkWlZDMEhpU29tYkVLc1QtVVdDWE9LbUhhUmM0R09kUk92bEpaNWNtdGNnOVc1czNhNHQ0SGZoYjV6M1VUWVhZLW1kQWtVRFBrNVNGaDVDUTVNTm4wTnlvbXJZT1VhSGd0aC1FZXRpb0NEaC1pZ3ZIRGxOQ184eUJETnhkMFhqdXFpcXRfU2hjb1JwN2ZfZDVB?oc=5",
+          "pubDate": "Thu, 20 Aug 2026 04:42:37 GMT"
         },
         {
           "title": "AVP/VP, Fixed Income & Multi Asset, Fixed Income Risk (CIOO)",
@@ -700,18 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
           "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
-        },
-        {
-          "title": "Boon Chin Hau",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
-          "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
-        },
-        {
-          "title": "The Role of REITs in Real Estate Allocations",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLXJMZE50N3hURlFqbTh0VWg0UGhsLUlhZzVCUTRMY0ZGRFVRbnU1THVDVlR1N2JvY0tTNDVyNDh1TVBaYWtOamxaUkNrYnJES1p2YkFRWVA3eGkwOElsMFYtM3NsOWlDWEE3X0gyeHFnUVBfd0lTSktOdVRNZExNWjZySmI5VUxRckZFMlBmN3VCUzhVUE1xZTZHdGpybUJHMVdkbQ?oc=5",
-          "pubDate": "Tue, 04 Jun 2024 11:12:02 GMT"
         }
       ]
     },
@@ -795,61 +795,61 @@
       "items": [
         {
           "title": "2 April 2012",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8ySHBuZTVEYngzUEFqVU8tUElvaUhxUWdUNFprYnE4NUdOV2NVWEJzc2JKZjN6cl90RmI5SDZQQko3R0NOcWdteW9QaElKUkZuU2NKckYwSVRiY09aVk9WbVEwVVJXSDBfUFpRUkNwc0F2ejN4TWRMNG1B?oc=5",
           "pubDate": "Mon, 02 Apr 2012 07:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOGtzQzVFdG5Lb1JxX01hV3FtYTlIeTRoYS1LMTI0Rnd1azhaTm5vcEFtU3F3bnFzcmNzOThJZ2lkclFseDJhX1VSSjJMWTVpQXltR29rcEM5WEU?oc=5",
           "pubDate": "Tue, 18 May 2021 07:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:21:28 GMT"
         },
         {
           "title": "Benchmark │ Our Portfolio │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MzNRUTdUS3luTkxmZWVTc1JnaTdTMERod01JTGIzWmhtN3MySThvUkhPeXl3OV96c21XLXgyM0o5aUJzek5QOVI1NDIwaXZ2Sm16SmtQY05BcU5zNG9nZHp3?oc=5",
           "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
         },
         {
           "title": "KIC 2023 Annual Report",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMVdJc2Q3dnEwd3RYQ2lScnh3b0UtNXNzM29oM0I1c0sySV9qX3NVRnBlX0E2U0laYlFOc3o2eHBKUmlVdXBCLU9nUlN4Yy1nRzFVNkpnQ1lxNTRTWVVZ?oc=5",
           "pubDate": "Sat, 16 May 2026 08:26:24 GMT"
         },
         {
           "title": "Untitled",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
           "pubDate": "Fri, 28 Feb 2025 08:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
         },
         {
           "title": "PRESS RELEASE",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
           "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
         },
         {
           "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
           "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
         }
@@ -918,10 +918,10 @@
           "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
         },
         {
-          "title": "National Pension Service Investment Management > About Us > Governance",
+          "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
           "source": "기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HTTY4RXBWVmpzbjdGVmd5VEVLT2lRN2NwaWlBYk9TMnp0SndtNEdRczdGcS1tUFk0ZmxEQ294X1B3akEtcG5WUDFGeUo5em5BRGs3NldjVDdEOFN4YUVLdndtWWJ0c1E?oc=5",
-          "pubDate": "Wed, 07 May 2025 01:28:39 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
+          "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         }
       ]
     },
@@ -1144,6 +1144,12 @@
       },
       "items": [
         {
+          "title": "FWD | YONG PEI LING",
+          "source": "ace-ib.fwd.com",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91UWNwb1lVdlFhUG1zSzRkUVVqNUpHSHlMNC1MYWV1azYwdUJPWVljakl2cnk2VVlLaWdDNGJwaXYycE8wS0FhUXk2a1N1MFhXeEljdXVpUUFqNlgwZm9zRlBmWmhTTmpMdmc?oc=5",
+          "pubDate": "Thu, 17 Sep 2026 01:53:07 GMT"
+        },
+        {
           "title": "FWD Group publishes 2026 interim report",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFVSWExuOTZ3QjJJdmtEMldpX2xpSnBMc3djRDNHSHg5SU5hY2piYzJHanpxd0dkblpOaWFuNW1yR2ZNLW1wQ3F1c2lKSUF1WUhybHJkVHI4S3BDXzU0d0UwekJYbzRiQmg2MjVGSkNXUy0yWUtzVGtTenhZWUlmM0kxZ1J0TG9JWnBoZUVKZEE?oc=5",
@@ -1172,12 +1178,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGh1ODRnSnVCWlN5bFB5R2lHTXBsaFNxWUN6dXVITFhUMVNaVFBmejdyLWIyVVBnZkFvQXViTlRFQkthejhqOHhVcGpBd1kzZi02amE4NDNXTE1aazYwZkp2NWhWLXNUbk5NSGgzSVpnRUVMdnNrZ0Y3d0RmWUsycmc4Nkp3U0V5b1RqOEV0ZUN5djBsR0hjbXNrVnlZcVpWQllORFZhb1lFQllMSnB4eGdFRFdlZ1VMYWZLYVgxYTdjTGRXMUVmRlhzUHk?oc=5",
           "pubDate": "Fri, 04 Aug 2023 11:47:59 GMT"
-        },
-        {
-          "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
-          "pubDate": "Fri, 10 Oct 2025 13:17:58 GMT"
         },
         {
           "title": "David Junius",
