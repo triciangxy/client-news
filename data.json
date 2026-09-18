@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T03:48:16Z",
+  "generated_at": "2026-09-18T08:52:45Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.0,
-      "change": -0.3499999999999943,
-      "changePct": -0.4524886877827981,
+      "price": 76.75,
+      "change": -0.5999999999999943,
+      "changePct": -0.7756948933419449,
       "currency": "HKD",
       "prevClose": 77.35,
       "dayHigh": 78.05,
-      "dayLow": 77.0,
+      "dayLow": 76.4,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 111400.0,
-      "change": -1900.0,
-      "changePct": -1.6769638128861428,
+      "price": 110100.0,
+      "change": -3200.0,
+      "changePct": -2.824360105913504,
       "currency": "KRW",
       "prevClose": 113300.0,
       "dayHigh": 114400.0,
-      "dayLow": 110400.0,
+      "dayLow": 110100.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1760.0,
-      "change": -29.5,
-      "changePct": -1.648505169041632,
+      "price": 1768.5,
+      "change": -21.0,
+      "changePct": -1.173512154233026,
       "currency": "JPY",
       "prevClose": 1789.5,
       "dayHigh": 1796.0,
-      "dayLow": 1756.0,
+      "dayLow": 1748.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3225.0,
-      "change": -61.0,
-      "changePct": -1.856360316494218,
+      "price": 3264.0,
+      "change": -22.0,
+      "changePct": -0.6695069993913573,
       "currency": "JPY",
       "prevClose": 3286.0,
       "dayHigh": 3315.0,
-      "dayLow": 3218.0,
+      "dayLow": 3209.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -550,6 +550,12 @@
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
+          "title": "Yucho Tetsuzuki App",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOWJjWnVtaHpJRm5yVTRyUngwWV9HdVdheFBpR3FBNmswWl82TlFHTHl3ZmJ5V3M3ZEZHTlNETVR4R1RBQlF3T2FUc2ZUbXZhd3RkRWxJUFRBcVlwZU93cWlUN2VkdmxIOHdmMW1wNkVGTG1kZnJMbWFQMDdWUzRncmF1dmducnlYclYxT1lqaw?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
           "title": "ESG Investment and Financing | JAPAN POST BANK",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5bnRSbkF3dkc5bXJuV0tKdG1rRjBPd3hPblIyMDRFVkRjb0xub0l2RWh4dXBYY3AtZGNfdU1ZbFpmdlkxM2ZKWXNLaDVqdGxmNWhvMURSbkRzMGlYUU5ibUlHdFVUeGVYcG9kVjQtQWV2WnBXRzZSeElhbnBBM2s?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlVkUtMWV1dXFsNVlNeThlV3ZJcW9TV29WWVRDSW11VUlYYWUtT1I4TjQ2VkFoVW1iOTdZc0JLMmkzNTVNN0c2azg5YkFuZm9TQlY0WVNpS0RCb2I1b29uVUdBd3IwR2FZUGc1NDBzdVZMQng3WjhJ?oc=5",
           "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Contact Us (for IR inquiries only)-JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDeDh5TnJSYjZqUVFNV1NNQVpRVHhsbVBmdWxZa05QQkE2TnFUNlMxTTAwMGJZaFhVUkZHMF9idkV1SC05TEEzTmFOUGhaTXYzdTRWcTNfQlEtbFlrLUQ1N3NmMHZGV0R2T3BvdGFMSDRnODgyLXRQclo0U1FsQjA?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         }
       ]
     },
@@ -620,12 +620,6 @@
           "pubDate": "Thu, 10 Sep 2026 12:35:53 GMT"
         },
         {
-          "title": "Temasek Appoints Wendy Koh as Chief Financial Officer",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSFZSZEdzQ0E0N244MDhPVUR2RkxMV0RIN2xtNDdIenFzVVltYWZpcjZrNS13MzJQX1hicXFQWFFKMGwxMlg1VlhXVy1vUkNoRWNxS2h6S2J1dTkxT1pybWp6eWpfOEw0ajlNZmcyU01FRVFTN2lOZF9zX1BJb19yaFMtRUppdzdEZWVkTk5jUEpEejVoenhNQnhHSUlQYlhMNEJ5LTdxek5pTE9fRFhvS1gwQ2ZfVk80YWdOZlBmNA?oc=5",
-          "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT"
-        },
-        {
           "title": "Digital Transformation & AI Adoption, AVP Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMnVnaDlJNlF4dWV0TkxIUUdLQjYtRmtIQlliYkNNaXR0R05JRXYtbFBlOV9zYUZORGNDOHp3NklWWUNjNEIzSG15Ty1lTDJDSDBUZHNUR2o3Um1CMEFNRm1JT2ttblpuSVVjN2VOaXpBWEdUWWxFc0QwUDgtc05md29zLVhvYTlUQXhfRTRUX1BsV3dzMklyRmx3?oc=5",
@@ -642,6 +636,12 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZlRxMmlkbmU3NUh4NUhsYmtYRTBta2ZTWDdLY2N5NWdCSGE3aC00LVAwSWY2aWVhRWNqZXdfaFp2VV8zTmgyZW92ZzJTR0I0UmcxaThBY0Y0VzBCb3ZMRXA4R1JtNkpMU0p3bkVITlgtNjItX29OM3FOYVJUWFRyOUg5Qm1tWC1SQXRhZFZKbmxSYWZGVkxlYzM3cWhTNk92M052d2RxWkdOa2FXNmhXdVJsbWFGcXpkQlBrbi1kLVlJblQtMGZDUC1ndUplaXN4UkxyRkFQM21VNm4yZmFFVUtNaUZfMDYzNlI5bnBR?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
+        },
+        {
+          "title": "Senior Associate, Assistant Vice President (10 months LOA cover), Global Finance Operations",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOX08xbVVveDlkZnBobGlZWnVtMzZOemhraXdJMVlUUVI0eVhneXo5Q19GdjFoSFcyd1VkRzI5UFRPZkxqcXdhRmVQMXlPQWUzUVE1Q2RVZXZGQkp0M0RSTFk4bnJna0NIMXA2TllRU2k5N3ZGR21xRmFNX1hXb3FFU3pMQnk0N2p3eGtDQ2JtQW1MVEp3ZlRIMEh4aG1OczF4LTZkY3c0bVpqSm8yQjI4VkFUWGsxcmtRY05BQzhZcVRuWEozRHB5eW1PWnJkSjlCWk1HMDhsMVVaeWdEeXJKdER6ZkxFRWVfdHZmWGQ1ZjJQc04xT2JfSTNQZUNGMDFVZzVHUmRTa3FZNXc0dExmMDZyOUx2QmFtT1VGbDB3?oc=5",
+          "pubDate": "Sat, 12 Sep 2026 08:01:56 GMT"
         }
       ]
     },
@@ -664,6 +664,12 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWmp1YTlUeUJTeVFuYmtJdFNhbEN3RkU4VllzbjFxWGZsd29JMzBEeWEtT1JrTVZad1NUcTFyZG4zWGNnWDI5aWlIZ0FseERqUnNUOHNRNnRNcHpmZ3hNWDdVQldYSUtidFp2MkhYbGRSRlJ0RkRMNnpwUktjT2NCbkNxcGlvQ3hlSnNmVDBkUl9INHgzelVJLTZ1eS0zb1l0?oc=5",
           "pubDate": "Wed, 09 Sep 2026 00:10:19 GMT"
+        },
+        {
+          "title": "VP, Vendor Governance, Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSmFxbHQ0aHZZN0MzZ1otdk1iVlBwcmQ4ekc1NUZWY1BycnViNTdfcHFmTTVTbzVYLVBqY016TmdBX1ZLMnpPM0p0YXBPdFQ4VWZBY2pCVWpqeGQ3MDlWUXpvX1pfSmM1Z2t6UE5MbkcwbDY1YVJSQW1iU1lmYVhSMjFfLWVxX3pxUW16ZE9MRUhxRTV6dDFaWVNMNlY?oc=5",
+          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "Associate, Real Estate, Investments - Japan",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bTNoX0ltaUcyQmxsZEdYOTZYMGpEZk1kZFdEblhFQzIwd3BlajBUU2JQZ3hfQXIzRmFKTTlkZElpMXlsN2Vla2cwUk4ybkZzQWVxQ05wajlmel9VS3hmdWZybHE1Q0tqYnc?oc=5",
           "pubDate": "Sun, 19 Jun 2022 07:20:23 GMT"
-        },
-        {
-          "title": "Blackstone, GIC & MassMutual to acquire Goldman Sachs’ shareholding in Rothesay Life",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
-          "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
         }
       ]
     },
@@ -723,6 +723,12 @@
         "query": "site:china-inv.cn"
       },
       "items": [
+        {
+          "title": "ANNUAL REPORT",
+          "source": "china-inv.cn",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UZENwNDg4aFFnaDhaLVJiNVBoTFFzcHFEQjUwTVZOa2JyZnZra0RRNml0ZDhVUDFLN0xjM3BqU2gxdnplT2RYbU9MRURmWlFPMnhWMWdCNEdwTFVyVWRGRFJEdUNKNWIwWnc?oc=5",
+          "pubDate": "Tue, 09 Dec 2025 06:28:40 GMT"
+        },
         {
           "title": "China Investment Corporation",
           "source": "china-inv.cn",
@@ -776,12 +782,6 @@
           "source": "china-inv.cn",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWWZJMjNxX1p3OTk5N1UxQXhCUTcwRGVTVExDSEg5cExOb2N3aW1EZzA0T1dBczBQcmZzd1MxRHZyaGx3aG1PVXhYUmVJZ2x0b1YtS1RzVjRnWEtyQWducUJxS25wcHgzdnB2MTZveG1TXzRkanRWUkpWZ2VYekVsZjVR?oc=5",
           "pubDate": "Wed, 17 Apr 2024 15:08:09 GMT"
-        },
-        {
-          "title": "China Investment Corporation",
-          "source": "china-inv.cn",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYUlPOTlSUVBneExscVlEbjUxSDEyRmJtV1hBWXVTcWdhdGxTWXlMczhsLWpwRzY4N0paN1hMV2t4RWFZeUROZzdjckhDLXpyalZPQzRZeTQxNDgtT3lqUkVKS2lYYjQxeURLOEI4bEg0OC1JNWlkcGxmbGoxTXlYZ3RzRQ?oc=5",
-          "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         }
       ]
     },
@@ -795,61 +795,61 @@
       "items": [
         {
           "title": "2 April 2012",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8ySHBuZTVEYngzUEFqVU8tUElvaUhxUWdUNFprYnE4NUdOV2NVWEJzc2JKZjN6cl90RmI5SDZQQko3R0NOcWdteW9QaElKUkZuU2NKckYwSVRiY09aVk9WbVEwVVJXSDBfUFpRUkNwc0F2ejN4TWRMNG1B?oc=5",
           "pubDate": "Mon, 02 Apr 2012 07:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOGtzQzVFdG5Lb1JxX01hV3FtYTlIeTRoYS1LMTI0Rnd1azhaTm5vcEFtU3F3bnFzcmNzOThJZ2lkclFseDJhX1VSSjJMWTVpQXltR29rcEM5WEU?oc=5",
           "pubDate": "Tue, 18 May 2021 07:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:21:28 GMT"
         },
         {
           "title": "Benchmark │ Our Portfolio │ Investments │ Korea Investment Corporation",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MzNRUTdUS3luTkxmZWVTc1JnaTdTMERod01JTGIzWmhtN3MySThvUkhPeXl3OV96c21XLXgyM0o5aUJzek5QOVI1NDIwaXZ2Sm16SmtQY05BcU5zNG9nZHp3?oc=5",
           "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
         },
         {
           "title": "KIC 2023 Annual Report",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMVdJc2Q3dnEwd3RYQ2lScnh3b0UtNXNzM29oM0I1c0sySV9qX3NVRnBlX0E2U0laYlFOc3o2eHBKUmlVdXBCLU9nUlN4Yy1nRzFVNkpnQ1lxNTRTWVVZ?oc=5",
           "pubDate": "Sat, 16 May 2026 08:26:24 GMT"
         },
         {
           "title": "Untitled",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
           "pubDate": "Thu, 01 Jan 1970 00:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
           "pubDate": "Fri, 28 Feb 2025 08:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
         },
         {
           "title": "PRESS RELEASE",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
           "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
         },
         {
           "title": "Mumbai Office │ Our Offices │ About Us │ Korea Investment Corporation",
-          "source": "kic.kr",
+          "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SenRuRlJXYTN0aUtoVGN0VzJielZpRk9nNFEwLXR1a01TQmNlZ203X0V4eWFzanMyeHA2TXZETWdnRy1qSXZ6UTY1a0d5b3duMFVkMDZNSlpEVkM0bjRTTzRMMXo?oc=5",
           "pubDate": "Sun, 16 Nov 2025 17:05:31 GMT"
         }
