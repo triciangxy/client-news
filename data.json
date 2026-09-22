@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:19:06Z",
+  "generated_at": "2026-09-22T03:56:09Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,24 +250,24 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.35,
-      "change": 0.5999999999999943,
-      "changePct": 0.7817589576547157,
+      "price": 76.55,
+      "change": -0.7999999999999972,
+      "changePct": -1.0342598577892659,
       "currency": "HKD",
-      "prevClose": 76.75,
+      "prevClose": 77.35,
       "dayHigh": 77.45,
-      "dayLow": 75.75,
+      "dayLow": 76.2,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 113100.0,
-      "change": 3000.0,
-      "changePct": 2.7247956403269753,
+      "price": 113200.0,
+      "change": 100.0,
+      "changePct": 0.08841732979664013,
       "currency": "KRW",
-      "prevClose": 110100.0,
-      "dayHigh": 114000.0,
-      "dayLow": 110000.0,
+      "prevClose": 113100.0,
+      "dayHigh": 114300.0,
+      "dayLow": 112200.0,
       "marketState": "",
       "exchange": "KSE"
     },
@@ -305,7 +305,7 @@
       "items": [
         {
           "title": "AIA Healthiest Schools",
-          "source": "AIA Healthiest Schools Programme",
+          "source": "ahs.aia.com",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tSjdqTkVtSnk2UjI1M3ZhWUlJRkpXSlZCVHd0RzdHZTdBRXRnQkZxY2JDTkVRNi1FZTdZNXk5WXRfdGs1Y0lEQ1NocWlFSzdiNFdkS3BpY1ZkLUVQNnJYOHVsYjZXSVYtU0NHSFhGV01wbWp5eVkwR2x5aV9wMG8?oc=5",
           "pubDate": "Fri, 18 Sep 2026 05:01:23 GMT"
         },
@@ -317,7 +317,7 @@
         },
         {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
-          "source": "AIA Design",
+          "source": "design.aia.com",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OZUVyblNTeUdnSjNvR096TWFxVlNodVdreU5ZUXFSaENMME1RdGswSUh1V3FBYXlUdUZVel9wZ3NjZE02YzZNTjFQcVhKV1hGeG42RExuOA?oc=5",
           "pubDate": "Mon, 17 Mar 2025 15:17:41 GMT"
         },
@@ -353,7 +353,7 @@
         },
         {
           "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
-          "source": "AIA Design",
+          "source": "design.aia.com",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
         },
@@ -480,6 +480,12 @@
           "pubDate": "Mon, 24 Feb 2025 01:55:44 GMT"
         },
         {
+          "title": "Untitled",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzhJeGJBZXh2UVRFcFk1RUdxMGZkRDFsVl9OdVZQZ1ZQSi1oQTBkcVpsdVZ2Xzc2TmgyeDl5dmc2OXo5a3d2ZmJSd1l5SGFRM1R4UFRtbFYtd1F5NDkwdl8xX19RWVBfNDdza0c0Tk42NzZfREJyUE1SWl8wbVFHYlFUY0hNQQ?oc=5",
+          "pubDate": "Thu, 17 Apr 2025 07:00:00 GMT"
+        },
+        {
           "title": "Investor Relations | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TQ2VydlZHQWZZNXc4bzFRVDB4aGdpWEw5djl0NE56WHIzaUdyZlNmQld6LXF5dUd4dHZKTjc5N2JHdUY3ejltY1NCY1RyZw?oc=5",
@@ -496,12 +502,6 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZjVZOGM0RVQ2TUVkRVRVSDB6eHFhSTlNRmJ0SzZCMDFZLWFkeF9aMTRDRm0zYUhEUUNxN2xxVXZrMXJYOXRHamE5ZHdqX29VbVhJbFhucmdBTDhIZjduYg?oc=5",
           "pubDate": "Mon, 24 Feb 2025 02:05:00 GMT"
-        },
-        {
-          "title": "Integrated Reports / Annual Reports | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qWklWZHhFaGQyM21fTUhGV2JEeXhGVDZibUhTSFo5Z0NrSTFWQVk2U3NCbEY3SG1yRWZCZnhpaXBYZTdaWk1DdkxqMlJQSmt1dFh2V2tjWE1sMlZUVUlVN0hBZVJ2UQ?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 00:06:08 GMT"
         }
       ]
     },
@@ -654,12 +654,6 @@
       },
       "items": [
         {
-          "title": "Associate, Corporate Communications (Contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWmp1YTlUeUJTeVFuYmtJdFNhbEN3RkU4VllzbjFxWGZsd29JMzBEeWEtT1JrTVZad1NUcTFyZG4zWGNnWDI5aWlIZ0FseERqUnNUOHNRNnRNcHpmZ3hNWDdVQldYSUtidFp2MkhYbGRSRlJ0RkRMNnpwUktjT2NCbkNxcGlvQ3hlSnNmVDBkUl9INHgzelVJLTZ1eS0zb1l0?oc=5",
-          "pubDate": "Wed, 09 Sep 2026 00:10:19 GMT"
-        },
-        {
           "title": "GIC Marks 45 Years with The Secret Vault, its First Public Exhibition",
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV2Nnb3ZXVTV0dHJMbUlvWjN0ZExfSkQ3bHlkOE1KQkNwUTVEWWFqVjlibWlWV0JGNUwzc3cyMFZDZndNTHpSaHRrYkJlSF9SX1ZmNDhyWmtMZ2FiZVVZcml5M0ltbXJRQnkteVdSSzd4ajdvaERHRU0zVEpQU3IzbmR2RU5kQldOem56d01VbFZ5U0hFc05WOHhZRGgycEU1QlZyenAzQTg?oc=5",
@@ -712,6 +706,12 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
           "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
+        },
+        {
+          "title": "Carsten Stendevad",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNWUMtelZsUzh1OEtpNVRfNXJWcFVPNlgwWHdYUTlqNmpWNFN4Q2dvdGRWTFlYa3Y1bjRXWG9xQm13ZnI5b3pCSVlnSktIUnNBTkVURDB0UFBkUWdSNVFodXI4NGtWMG1lYmkxdUxmaU83X3NUZ2l5dA?oc=5",
+          "pubDate": "Mon, 06 Oct 2025 09:55:21 GMT"
         }
       ]
     },
@@ -1004,12 +1004,6 @@
       },
       "items": [
         {
-          "title": "Weekly bonds outstanding - 18 September 2026 - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBieS1sOURpOV9HUUYxa1FxR1lKRWZYSDZDT01VRVFCMzEtaVdzMVctclIwTTJGUFQzbzhsaXBJd0sxZW43NDlwZEdSTENIUzdINnRwY3N2ZE9Hd2NHUkl3bTFR?oc=5",
-          "pubDate": "Mon, 21 Sep 2026 04:55:55 GMT"
-        },
-        {
           "title": "Weekly bonds outstanding - 4 September 2026 - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0SUwwMVpibkRucVM3MFYwSUV2c2Q5andpOVBkUW5PcTdIR1JldkY2NWZzX1NReXNaS3JfT2taV2tad213MXFBdkRKODlYYXAwa25lWHhaUkxKWnZqNGxVNg?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLUd6SDNaYlJEbnBKdmdzU1ZMT1NIMGM5RUFud0hNamY0SW9CTUF4RnU5TEQ0d2x5SGRWSThOSmFJZGJ3R2I3QUNhZzl2RVFWTzVvQzNtb2JHUXg2LWxnV29TcmdYWDRkZjZsUllSWWxIclkwZTZGTHU3WWx5UWVBd3FZUUhhTlgwYVlfSjFWek56UzU2a3c?oc=5",
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Investor update from TCorp’s Funding and Investor Relations team - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaHVvWC1YTkN2clRDUlZ3QnF5d2I0Yjh1akZBUk1DdHlZRmFUTHBhVE5sTVJneXRXMXYwa09xX0V3XzRuQ25xMWh3QWM3UllNWHpGRzVaeXVLV2FwWGxWQ3lFNGE3Rk9USkxYZWFBYkp3ZzdHS1JkQlRJTUN3MnFJaHM5eWQxMVVHWjFkNDRLaXZxNTh5Y01nZHJvVXdsWmZlNS1MUWdqcw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
