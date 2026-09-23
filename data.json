@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T03:53:35Z",
+  "generated_at": "2026-09-23T09:10:44Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 75.85,
-      "change": -0.4000000000000057,
-      "changePct": -0.5245901639344337,
+      "price": 75.35,
+      "change": -0.9000000000000057,
+      "changePct": -1.1803278688524665,
       "currency": "HKD",
       "prevClose": 76.25,
-      "dayHigh": 75.95,
+      "dayHigh": 76.3,
       "dayLow": 74.2,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 109200.0,
-      "change": -4000.0,
-      "changePct": -3.53356890459364,
+      "price": 109300.0,
+      "change": -3900.0,
+      "changePct": -3.4452296819787986,
       "currency": "KRW",
       "prevClose": 113200.0,
       "dayHigh": 113300.0,
@@ -316,12 +316,6 @@
           "pubDate": "Fri, 18 Sep 2026 05:01:23 GMT"
         },
         {
-          "title": "Climate and Health in Asia",
-          "source": "aia.com",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51Rk43bFFCakJTTzMwMlZFTGRDWl9lMmxfWk54ZWh4TU9KWFZuYnEwa3UxeFBrME1mQ045RkJrU3dLT2tXbzlOZUVmRFl6X1V1NDBIQnJOenlSOXFLZGpUQ2xrTjQ?oc=5",
-          "pubDate": "Mon, 24 Aug 2026 08:44:05 GMT"
-        },
-        {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
           "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OZUVyblNTeUdnSjNvR096TWFxVlNodVdreU5ZUXFSaENMME1RdGswSUh1V3FBYXlUdUZVel9wZ3NjZE02YzZNTjFQcVhKV1hGeG42RExuOA?oc=5",
@@ -362,6 +356,12 @@
           "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
+        },
+        {
+          "title": "Four reasons why you need life insurance now",
+          "source": "aia.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQTU4QXlKUlk3VHdDbV9xOFNtOXhfYkNxSG51YU1HQ3piamZ2TDhacGgtVkxJVUMxR2l5QndzRWpJNWQ4TEFaVXprajdzeDI3c0xVcFZ6YW9SX1BfeFB4MjNMNXJobTk0TXFOT2EzenlyeU1oYzJVVVNxVDFqcWlrLTBFeUVVZlUwSXNwY1dFTkhtckVwU3hIMnZNcmY2MUE?oc=5",
+          "pubDate": "Mon, 17 Oct 2022 07:00:00 GMT"
         }
       ]
     },
@@ -660,12 +660,6 @@
           "pubDate": "Tue, 15 Sep 2026 02:05:32 GMT"
         },
         {
-          "title": "SVP, Production Support and SRE Lead (SAT), Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3ZVYy1GcFNfazEtVjl3cGdjZ1c0WE5MMFNhLVZnUXZyd3BQTGRZcFpNZHh3WnFHOHNMN0oteWxRRHl1VHZGUDY2azVQcFNVNGVKa00ySFVQbEFRdUVfQ2xYOUl0cFJUREp5SEhTSTNRLXZ4b2VtSVRMR0M5dXlJOS1yNENNaHRqZ2t1Vjd1SzNtSXgxR0I3b080d3JLWE4xdXR2bTZLYVZvOEtCWm9ha0JfNA?oc=5",
-          "pubDate": "Fri, 18 Sep 2026 03:00:30 GMT"
-        },
-        {
           "title": "AVP, Business Solutions & Risk",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNakFpdHY0NlE1TG5TcTlSS2o4UE9GSmNmZTZPOV9ya2dsV21VMVlKeGVKc2hkZzNLbzVxOWYxVExEU2RMX05oS21WMWtsbkxYRHpQYTd0c2xVcEl3SWZxZlpSNzd3Y2FONmtTSFVaTUluWng5U0RZcFNZUHRRLWh6elQ4VmN0ckt1ZFU1XzJn?oc=5",
@@ -712,6 +706,12 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
           "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
+        },
+        {
+          "title": "Deepak Parekh",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
         }
       ]
     },
@@ -1010,6 +1010,12 @@
           "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT"
         },
         {
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHJjNXdDazJZT0Q3enN1MDNYeU43WkJnY2gwc3h5bDk3SklMTXRYV3FrYVYwZ3dJZ0xWNnlpVW9rNHh6TG15b0tSeGd2RWttXzBEdmluMmVBM0h6NC05djdIeExrMXlrdUE2a0NRUExESERUNWE2Y3U1UzVySXJsTG1jTVJwcVJSMWsxUVdDM2FFSWFWRmRYYTIxMERtVWpyczgxQzJNS19IeFZGamRaMmNFWTUyLW5sMXJUazFB?oc=5",
+          "pubDate": "Wed, 23 Sep 2026 08:13:03 GMT"
+        },
+        {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLUd6SDNaYlJEbnBKdmdzU1ZMT1NIMGM5RUFud0hNamY0SW9CTUF4RnU5TEQ0d2x5SGRWSThOSmFJZGJ3R2I3QUNhZzl2RVFWTzVvQzNtb2JHUXg2LWxnV29TcmdYWDRkZjZsUllSWWxIclkwZTZGTHU3WWx5UWVBd3FZUUhhTlgwYVlfSjFWek56UzU2a3c?oc=5",
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Investor update from TCorp’s Funding and Investor Relations team - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaHVvWC1YTkN2clRDUlZ3QnF5d2I0Yjh1akZBUk1DdHlZRmFUTHBhVE5sTVJneXRXMXYwa09xX0V3XzRuQ25xMWh3QWM3UllNWHpGRzVaeXVLV2FwWGxWQ3lFNGE3Rk9USkxYZWFBYkp3ZzdHS1JkQlRJTUN3MnFJaHM5eWQxMVVHWjFkNDRLaXZxNTh5Y01nZHJvVXdsWmZlNS1MUWdqcw?oc=5",
-          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
