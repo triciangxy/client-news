@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T03:46:08Z",
+  "generated_at": "2026-09-24T09:06:09Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.0,
-      "change": 0.6500000000000057,
-      "changePct": 0.8626410086264178,
+      "price": 75.8,
+      "change": 0.45000000000000284,
+      "changePct": 0.5972130059721339,
       "currency": "HKD",
       "prevClose": 75.35,
       "dayHigh": 76.2,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1758.5,
-      "change": -10.0,
-      "changePct": -0.5654509471303365,
+      "price": 1760.0,
+      "change": -8.5,
+      "changePct": -0.48063330506078594,
       "currency": "JPY",
       "prevClose": 1768.5,
       "dayHigh": 1771.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3203.0,
-      "change": -61.0,
-      "changePct": -1.8688725490196079,
+      "price": 3200.0,
+      "change": -64.0,
+      "changePct": -1.9607843137254901,
       "currency": "JPY",
       "prevClose": 3264.0,
       "dayHigh": 3244.0,
@@ -544,12 +544,6 @@
           "pubDate": "Mon, 25 May 2026 05:22:44 GMT"
         },
         {
-          "title": "ESG Investment and Financing | JAPAN POST BANK",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5bnRSbkF3dkc5bXJuV0tKdG1rRjBPd3hPblIyMDRFVkRjb0xub0l2RWh4dXBYY3AtZGNfdU1ZbFpmdlkxM2ZKWXNLaDVqdGxmNWhvMURSbkRzMGlYUU5ibUlHdFVUeGVYcG9kVjQtQWV2WnBXRzZSeElhbnBBM2s?oc=5",
-          "pubDate": "Thu, 12 Jan 2023 17:40:53 GMT"
-        },
-        {
           "title": "Japan Post Bank Debit Application Method (Website Version)",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
@@ -572,6 +566,12 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yM2IwMFZETGpPbi1hRXFTaEYxZ0FyNXZhRjkwODgwQUFTbmYzSXJrRDdQVUxIRVdEUTVfWU5sZHFnRHBrZURGTVRuYWdlVE0wVlBlOFFSNURtU3NPakRpMjB1Z1k0VHdlM0dLaW1ZelJIb2c?oc=5",
           "pubDate": "Fri, 31 Jul 2026 02:39:08 GMT"
+        },
+        {
+          "title": "Selected Financial Information For the Six Months Ended September 30, 2025",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlVkUtMWV1dXFsNVlNeThlV3ZJcW9TV29WWVRDSW11VUlYYWUtT1I4TjQ2VkFoVW1iOTdZc0JLMmkzNTVNN0c2azg5YkFuZm9TQlY0WVNpS0RCb2I1b29uVUdBd3IwR2FZUGc1NDBzdVZMQng3WjhJ?oc=5",
+          "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT"
         }
       ]
     },
@@ -590,6 +590,12 @@
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
+          "title": "Home",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUEppaUltbnFPdVVlNXFUU2JkVzh6VV9KZWlDSzY1VkY3ZVNHUEZ5WWlDRk5BWEtQSnFBY21Ic1hobFNjcHpTZXVfT2l1Sl9vSlFjdzF4eFpnd3g3d3JURTJHWldKYVZqd3JFcTNWQWNpX0QybXRFY0Rrek9RQUUxeVJR?oc=5",
+          "pubDate": "Wed, 23 Sep 2026 18:58:37 GMT"
+        },
+        {
           "title": "Digital Transformation & AI Adoption, AVP Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMnVnaDlJNlF4dWV0TkxIUUdLQjYtRmtIQlliYkNNaXR0R05JRXYtbFBlOV9zYUZORGNDOHp3NklWWUNjNEIzSG15Ty1lTDJDSDBUZHNUR2o3Um1CMEFNRm1JT2ttblpuSVVjN2VOaXpBWEdUWWxFc0QwUDgtc05md29zLVhvYTlUQXhfRTRUX1BsV3dzMklyRmx3?oc=5",
@@ -600,12 +606,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYVRwM3NINzhHSWgzNHFRYlpUQjMxdWE4QVRhdElxQzdpeWRhRjhMeTcxQ2lNT0pTTzc2R2R5bmpDSWQ2eTNZb1FvUGdkZ0MtalpsN0FfQlNHTXhVWW5GRlQ5TGlyclR5dUxUa2htNGFZb2VNMHFRam90RDE1eDZ6ZG1MZl9OS0FiNjlaQ1l6d185akZzaG9mZW5KUkdZRkZ1OTh2NmZ6R2lod0p4WmJvVVFwVQ?oc=5",
           "pubDate": "Thu, 10 Sep 2026 07:55:39 GMT"
-        },
-        {
-          "title": "Temasek’s approach to alternative assets",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzM5R1N3VmVsMk9sT3B1OFJRako1YUpwdEZoWEczSjBtWW5OVTdKX3ZCZ2ZMTXZmWkQyZ0pMcmtFdUtpcmRSVktfa2U5bnBTcHptWEVoM0k1Z09QSjh0NGZvRm43aEFKcEpGOFpIUUN6TVhFMWFUUU1VX0g0ai1kTjNiNHd3VTM3aEFqY0ZxRGd1WUtFck85Y3VlOEEzU3pGSDZBMg?oc=5",
-          "pubDate": "Fri, 11 Sep 2026 04:50:30 GMT"
         },
         {
           "title": "The partnership behind Schneider Electric India Private Limited’s growth",
@@ -661,19 +661,19 @@
         },
         {
           "title": "AVP, Business Solutions & Risk",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNakFpdHY0NlE1TG5TcTlSS2o4UE9GSmNmZTZPOV9ya2dsV21VMVlKeGVKc2hkZzNLbzVxOWYxVExEU2RMX05oS21WMWtsbkxYRHpQYTd0c2xVcEl3SWZxZlpSNzd3Y2FONmtTSFVaTUluWng5U0RZcFNZUHRRLWh6elQ4VmN0ckt1ZFU1XzJn?oc=5",
           "pubDate": "Tue, 22 Sep 2026 06:30:00 GMT"
         },
         {
           "title": "AVP, Total Portfolio Implementation",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZGRIenRGN0JtR2haa0NLNHRGRkFINDdOVUlOdXRmdUdWT2pFZUJHQ0xtQ2lRY3RYdXY2VWZfeDRQWTNQRjM3S1VjTXM3dDdZQ1dJcjdPRDNYUDBEM1NkOVZuNlJCWS01S1pMZHoyX0NESUJ5dkN6ODNnemNQVk5ZQ24zTk5EMUdMci1oLXdKSUllRFFm?oc=5",
           "pubDate": "Tue, 22 Sep 2026 06:27:59 GMT"
         },
         {
           "title": "AVP/VP, Fixed Income & Multi Asset, Fixed Income Risk (CIOO)",
-          "source": "careers.gic.com.sg",
+          "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVkRkLTZCMUh1aUFhSUtOSUk2YmEzcjNiNkdJRWJzVFFFbXMzcnR6dlhpQjZ1bllHem44MVlqQ1JMbzFxMGVQSUt4SE5hUGVFbjR0TkVVZ1VvQjluelI4SkVXdldISlBiclRvRTJBcU5yZ191Ymx3UVdFd3otR3hXdFFvdUtYWWRnOWVRQWYybHRESjVlRHFwelZZbjAxQXhmU1lBUUZFTF9OQ2piMGdFUUNxVlYtMEQ2dDRtTw?oc=5",
           "pubDate": "Tue, 25 Aug 2026 16:04:12 GMT"
         },
@@ -1012,8 +1012,8 @@
         {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHJjNXdDazJZT0Q3enN1MDNYeU43WkJnY2gwc3h5bDk3SklMTXRYV3FrYVYwZ3dJZ0xWNnlpVW9rNHh6TG15b0tSeGd2RWttXzBEdmluMmVBM0h6NC05djdIeExrMXlrdUE2a0NRUExESERUNWE2Y3U1UzVySXJsTG1jTVJwcVJSMWsxUVdDM2FFSWFWRmRYYTIxMERtVWpyczgxQzJNS19IeFZGamRaMmNFWTUyLW5sMXJUazFB?oc=5",
-          "pubDate": "Wed, 23 Sep 2026 08:13:03 GMT"
+          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQXzJULXQwYjNDNXdkc3R1NnJVc2Zta1NvRTd0UURMUDE0dVhlZllSU1dBNkNzWENUdElfRWx6eUhMNVZqRURyTHB4VmhJNFhlUnVNUUNXUlNUNnkwNEhhNFBKUjZYZGNjamlDbHhtMklYcjFwRC1PbDlQZTVmTEN6T1F2Q1laVE5NU1FRbkVwX2NLZDhDS1l3SUJzSjQ4N2J0b3JXQzBkMEpuWHZIMFRrdE5ld25vMDdXVUJHRWRYWmVqSEQxb1N2amswTnZYZThUV3VQbGRYSEZ6UUdXS1J3cDctUUNXcXlxemM2cmxCMjVPRzhrd1h5Mm1oNElVbFRzQVpzWVlVcEFmZ1VfSHRaRG1xME5iMGhYT2NDZ205VGU3Z2ZFSlE?oc=5",
+          "pubDate": "Thu, 24 Sep 2026 03:54:56 GMT"
         },
         {
           "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase - TCorp",
@@ -1046,6 +1046,12 @@
           "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
         },
         {
+          "title": "Q&A with CEO of Weave Youth & Community Services Ltd - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWFjTlRHeU5IYXVocnYxYzdLUHkyZ2UtTkh2R0c1bEhlaklCSkdtUlZ5X0VzYWg2Rl9fWE9mNXhHMHFfX1Bob2RyRDc5ZUNQYTVRWC1ZY1RTSkdFblZBOGFfWmttal93VFJFeDcyS2JmQk42M1p2cDMxcDNZUGhrSDRjNmprV1BTWm1YUDdsdmk1WElGSExnUmVaRWg4emNBR3VKeVJnRFBPX0RKNGZRb01uQzdpQQ?oc=5",
+          "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
+        },
+        {
           "title": "TCorp economic podcast - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
@@ -1056,12 +1062,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPaVctdHQ5aVc1NUxENTJ0c2dDV3MtVFR1ZldMVFZXeVN0NkRRYUlTUXZ3RTBGWnhUanMzTmpGblFtVm1kNWNheFFOdnRiS2NVZlQ2YXR1cVpsQ011WnNySThsWFBENmNvUTF2V29QUmc4ekFva1dzaGd3SkhsRG83aW1hdWtueWU5WGlUblhQOGc4S3FqOEZqSW5GVTgtNnB2eW82Z2NSTUlQb0FJRmNUY0tEN2ZjOGlKNkdER1A0VEJ5SEdwMXA4ME9Mb1B0TGZ0UDJka0dYV01laWR3eFFjeUhfaFNyS0FndmVLSzg4SjVOSVBvcUpHaVZuVVN5dC1yMVNjUnh1VUU4N191WGxCNFBXSXFETm9y?oc=5",
           "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Fireside Chat with Rob Kenna, Chief Executive TCorp - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLUd6SDNaYlJEbnBKdmdzU1ZMT1NIMGM5RUFud0hNamY0SW9CTUF4RnU5TEQ0d2x5SGRWSThOSmFJZGJ3R2I3QUNhZzl2RVFWTzVvQzNtb2JHUXg2LWxnV29TcmdYWDRkZjZsUllSWWxIclkwZTZGTHU3WWx5UWVBd3FZUUhhTlgwYVlfSjFWek56UzU2a3c?oc=5",
-          "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1151,7 +1151,7 @@
         },
         {
           "title": "FWD Group publishes 2026 interim report",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFVSWExuOTZ3QjJJdmtEMldpX2xpSnBMc3djRDNHSHg5SU5hY2piYzJHanpxd0dkblpOaWFuNW1yR2ZNLW1wQ3F1c2lKSUF1WUhybHJkVHI4S3BDXzU0d0UwekJYbzRiQmg2MjVGSkNXUy0yWUtzVGtTenhZWUlmM0kxZ1J0TG9JWnBoZUVKZEE?oc=5",
           "pubDate": "Fri, 11 Sep 2026 13:50:11 GMT"
         },
@@ -1163,43 +1163,43 @@
         },
         {
           "title": "FWD Group fact sheet H1 2026_EN",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRklQLTJiVkJHU0dXS295N0dHYzhGb3NTZi03TG9lbF85THdFd0pwMGhHTThQX3MxV2FDS05qZjVycGF5YVdlV09qbjZQQTUzQzhjNG1Yb0ZyU3NOX041emd4RXBJV1c5T2g4dUlVN05kSnNDdEl6a1VxS3phUUtraUNEeC10NHFHZjlxNGNrMlhhdElicHFTZVJPWk1tTW5CNmFXeVJUS2p4ME8ydm1LcDFQQmRnNmVKcHdGdGV1c1JsbWQ1?oc=5",
           "pubDate": "Tue, 01 Sep 2026 13:41:04 GMT"
         },
         {
           "title": "FWD Group marks 13 years with charitable grants benefitting over 13,000 people across Asia",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQd0JEaFUxeE11djRmR3ZFNEpHU1Q5ejNDMVBXZXBWY3JxVEJHQWo4TmthTnJZWlJybklydXcteGh5RGtZcVI4VVF6WjBoMUlXOVpLU1JjUzNuMlZHNWNodWlWUGhuT1lkdW9XcmVrSDhSaUI5U1Q2MTRZWHR0cjRpNW9ZV2hFbEU5VVVzNXlDb3F6Tm1ITGREM0hOYlI4UnB2UVdKMDZjSVJneUNyTUtWcFhsdkJzNjNJYlRwSUF2MHVzTXE1MTR6dk02RkpzOFF2cHNF?oc=5",
           "pubDate": "Fri, 14 Aug 2026 07:00:00 GMT"
         },
         {
           "title": "FWD Group reports record profit amid continued growth",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYm1XbnQxVnFNRkswbTNOalREcHpSSGtTWktMZTFQa1pqRVN6Sl9fOU1UbEdlQjMzMFZlWkJtbTVhdmItS1E3RlBJN0FTdG0xV2VCeWlMdkNoTUVCdEYxMFdtcHBwdmFZWkJqLUw5QklKZnQ4dXJLNWpUZlhGaXRBWTVxbmdRNlhDSWxHbkpnUmhCdHU3X3BEX25iUjZ4dzMwR1M4?oc=5",
           "pubDate": "Wed, 26 Aug 2026 07:00:00 GMT"
         },
         {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
           "pubDate": "Tue, 02 Jun 2026 04:18:21 GMT"
         },
         {
           "title": "Code of Ethics and Business Conduct v3",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGh1ODRnSnVCWlN5bFB5R2lHTXBsaFNxWUN6dXVITFhUMVNaVFBmejdyLWIyVVBnZkFvQXViTlRFQkthejhqOHhVcGpBd1kzZi02amE4NDNXTE1aazYwZkp2NWhWLXNUbk5NSGgzSVpnRUVMdnNrZ0Y3d0RmWUsycmc4Nkp3U0V5b1RqOEV0ZUN5djBsR0hjbXNrVnlZcVpWQllORFZhb1lFQllMSnB4eGdFRFdlZ1VMYWZLYVgxYTdjTGRXMUVmRlhzUHk?oc=5",
           "pubDate": "Fri, 04 Aug 2023 11:47:59 GMT"
         },
         {
           "title": "FWD Group collaborates with Yale School of Management to offer exclusive bespoke learning programme for Bancassurance and IFA partners",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3lPUngxa2owYnVVS3dZVUxGOXhpOTVuamQ3azJOLWtPdWVPVkN4OC1DZHhiUUtaZlRWMFJqOVNzTE9QamROQkhFc1RCdW95bmlOZ1NFdFotVi1wVk1MdEMtN01QWUZzWTNOVzFBRUN1YXYwdzFEWV9JUjVIOXF5MGI1UWRoa0E?oc=5",
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
         },
         {
           "title": "David Junius",
-          "source": "fwd.com",
+          "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
         }
