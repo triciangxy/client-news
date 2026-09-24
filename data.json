@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:06:09Z",
+  "generated_at": "2026-09-24T14:19:23Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -386,7 +386,7 @@
           "pubDate": "Wed, 24 Jul 2024 02:04:00 GMT"
         },
         {
-          "title": "Innovation Leader, Shinhan Financial Group",
+          "title": "09/17 2026 Shinhan Financial Group 'Analyst Day'",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
@@ -544,6 +544,12 @@
           "pubDate": "Mon, 25 May 2026 05:22:44 GMT"
         },
         {
+          "title": "ESG Investment and Financing | JAPAN POST BANK",
+          "source": "jp-bank.japanpost.jp",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5bnRSbkF3dkc5bXJuV0tKdG1rRjBPd3hPblIyMDRFVkRjb0xub0l2RWh4dXBYY3AtZGNfdU1ZbFpmdlkxM2ZKWXNLaDVqdGxmNWhvMURSbkRzMGlYUU5ibUlHdFVUeGVYcG9kVjQtQWV2WnBXRzZSeElhbnBBM2s?oc=5",
+          "pubDate": "Thu, 12 Jan 2023 17:40:53 GMT"
+        },
+        {
           "title": "Japan Post Bank Debit Application Method (Website Version)",
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
@@ -566,12 +572,6 @@
           "source": "jp-bank.japanpost.jp",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yM2IwMFZETGpPbi1hRXFTaEYxZ0FyNXZhRjkwODgwQUFTbmYzSXJrRDdQVUxIRVdEUTVfWU5sZHFnRHBrZURGTVRuYWdlVE0wVlBlOFFSNURtU3NPakRpMjB1Z1k0VHdlM0dLaW1ZelJIb2c?oc=5",
           "pubDate": "Fri, 31 Jul 2026 02:39:08 GMT"
-        },
-        {
-          "title": "Selected Financial Information For the Six Months Ended September 30, 2025",
-          "source": "jp-bank.japanpost.jp",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlVkUtMWV1dXFsNVlNeThlV3ZJcW9TV29WWVRDSW11VUlYYWUtT1I4TjQ2VkFoVW1iOTdZc0JLMmkzNTVNN0c2azg5YkFuZm9TQlY0WVNpS0RCb2I1b29uVUdBd3IwR2FZUGc1NDBzdVZMQng3WjhJ?oc=5",
-          "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT"
         }
       ]
     },
@@ -590,22 +590,16 @@
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
-          "title": "Home",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUEppaUltbnFPdVVlNXFUU2JkVzh6VV9KZWlDSzY1VkY3ZVNHUEZ5WWlDRk5BWEtQSnFBY21Ic1hobFNjcHpTZXVfT2l1Sl9vSlFjdzF4eFpnd3g3d3JURTJHWldKYVZqd3JFcTNWQWNpX0QybXRFY0Rrek9RQUUxeVJR?oc=5",
-          "pubDate": "Wed, 23 Sep 2026 18:58:37 GMT"
-        },
-        {
-          "title": "Digital Transformation & AI Adoption, AVP Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMnVnaDlJNlF4dWV0TkxIUUdLQjYtRmtIQlliYkNNaXR0R05JRXYtbFBlOV9zYUZORGNDOHp3NklWWUNjNEIzSG15Ty1lTDJDSDBUZHNUR2o3Um1CMEFNRm1JT2ttblpuSVVjN2VOaXpBWEdUWWxFc0QwUDgtc05md29zLVhvYTlUQXhfRTRUX1BsV3dzMklyRmx3?oc=5",
-          "pubDate": "Mon, 07 Sep 2026 00:12:09 GMT"
-        },
-        {
           "title": "Beyond the Brink: A New Horizon For Conservation",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYVRwM3NINzhHSWgzNHFRYlpUQjMxdWE4QVRhdElxQzdpeWRhRjhMeTcxQ2lNT0pTTzc2R2R5bmpDSWQ2eTNZb1FvUGdkZ0MtalpsN0FfQlNHTXhVWW5GRlQ5TGlyclR5dUxUa2htNGFZb2VNMHFRam90RDE1eDZ6ZG1MZl9OS0FiNjlaQ1l6d185akZzaG9mZW5KUkdZRkZ1OTh2NmZ6R2lod0p4WmJvVVFwVQ?oc=5",
           "pubDate": "Thu, 10 Sep 2026 07:55:39 GMT"
+        },
+        {
+          "title": "Temasek’s approach to alternative assets",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYzM5R1N3VmVsMk9sT3B1OFJRako1YUpwdEZoWEczSjBtWW5OVTdKX3ZCZ2ZMTXZmWkQyZ0pMcmtFdUtpcmRSVktfa2U5bnBTcHptWEVoM0k1Z09QSjh0NGZvRm43aEFKcEpGOFpIUUN6TVhFMWFUUU1VX0g0ai1kTjNiNHd3VTM3aEFqY0ZxRGd1WUtFck85Y3VlOEEzU3pGSDZBMg?oc=5",
+          "pubDate": "Fri, 11 Sep 2026 04:50:30 GMT"
         },
         {
           "title": "The partnership behind Schneider Electric India Private Limited’s growth",
@@ -620,6 +614,12 @@
           "pubDate": "Wed, 09 Sep 2026 07:00:00 GMT"
         },
         {
+          "title": "Digital Transformation & AI Adoption, AVP Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMnVnaDlJNlF4dWV0TkxIUUdLQjYtRmtIQlliYkNNaXR0R05JRXYtbFBlOV9zYUZORGNDOHp3NklWWUNjNEIzSG15Ty1lTDJDSDBUZHNUR2o3Um1CMEFNRm1JT2ttblpuSVVjN2VOaXpBWEdUWWxFc0QwUDgtc05md29zLVhvYTlUQXhfRTRUX1BsV3dzMklyRmx3?oc=5",
+          "pubDate": "Mon, 07 Sep 2026 00:12:09 GMT"
+        },
+        {
           "title": "Letter to The Business Times: Temasek supports SIA's long-term strategy",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTzZfTmQzREhDcUJfazJUSWgxR1piSEQ2UjFVdnozaWZleVRWb3k1d1lZMHlwTHBNNVBRZ3RxUW4yeElxTGZlNkhhVloxWjJQM1g3elJkbWdRbFFTdmtoVWtwWDkyemhselpNazRaMDUxOTJOdjJmX2ctYXJMZzdjamdoTm96RTJyXzN5V3JNdS1ZVVJVUFUwcTZyaWtWVHJUSDgtbE1wVWZIc0VuUzJwRTlqTVpzVjlvTXZxajduSGpOWWRiTzlqNmR0RWtKaC1ybGxtdEFHSWgzazQ?oc=5",
@@ -632,16 +632,16 @@
           "pubDate": "Fri, 28 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "Senior Associate, Assistant Vice President (10 months LOA cover), Global Finance Operations",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOX08xbVVveDlkZnBobGlZWnVtMzZOemhraXdJMVlUUVI0eVhneXo5Q19GdjFoSFcyd1VkRzI5UFRPZkxqcXdhRmVQMXlPQWUzUVE1Q2RVZXZGQkp0M0RSTFk4bnJna0NIMXA2TllRU2k5N3ZGR21xRmFNX1hXb3FFU3pMQnk0N2p3eGtDQ2JtQW1MVEp3ZlRIMEh4aG1OczF4LTZkY3c0bVpqSm8yQjI4VkFUWGsxcmtRY05BQzhZcVRuWEozRHB5eW1PWnJkSjlCWk1HMDhsMVVaeWdEeXJKdER6ZkxFRWVfdHZmWGQ1ZjJQc04xT2JfSTNQZUNGMDFVZzVHUmRTa3FZNXc0dExmMDZyOUx2QmFtT1VGbDB3?oc=5",
-          "pubDate": "Sat, 12 Sep 2026 08:01:56 GMT"
-        },
-        {
           "title": "AI and the Energy Transition: Enabling Efficiency while Managing Trade-offs",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
           "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Fu Chengyu to Step Down from Temasek Board",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
+          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -653,6 +653,12 @@
         "query": "site:gic.com.sg"
       },
       "items": [
+        {
+          "title": "SVP, Exposure Management, Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcTU5Nm5lTlM5RGdPZHFuVmx4cFFzNEtmb0ZmWVN5VktoQ2NQM2pqMmYxUTViU3Z5LXZGOVZMMWwtc1FqRDhXRy01cFMzSWt1U0RHM01OSFk2TVhPeDdSLUZNdGYzZlU3NVNoel9NMlFOMUhaczBJOHdoRWU1dXdKMXo5UmNybWhWel95TlRfMURqS0cyTTN3bm13NEhZR28?oc=5",
+          "pubDate": "Thu, 24 Sep 2026 04:50:25 GMT"
+        },
         {
           "title": "GIC Marks 45 Years with The Secret Vault, its First Public Exhibition",
           "source": "gic.com.sg",
@@ -706,12 +712,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RdU1fRDdFaVFzZ3YwTjE4NHJXTV9fUjdzSzhRT1EzdUFpNDZtdWRrcV9qWFRNWDFKQ3o0ZXNqMzZEZWpWMXpvMjFnc1I4UFA5OGJOMmJhd2k0RUw1eWNaQVZXZ3U5WFNnaU1hN1doRXdmQlE?oc=5",
           "pubDate": "Fri, 21 May 2021 16:54:40 GMT"
-        },
-        {
-          "title": "MPIC Raises Php 35.3bn from Co-Investment by GIC and KKR in Hospital Unit",
-          "source": "gic.com.sg",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdE0ybmFIWGoxRm8wR3VCeU1pSmFwV2poWW5PQzRkVElKeGhiMmFUSXZ3cFBXWTZtaFRtNGNwS1JGOVVReW1PSld3ZmN5eVR6ZV93QVlqcll6N3FKLXhzYkJyNVc4V1daZmk2Q0FRZGN0NmlQd2gxRVgwMU9kT1pHVmRoU2xIbFh1QjVvWXBqX3BJT0JkRXVIYXBTemU0bjBNU2M1ZWtub1VGcG9vM1h2YQ?oc=5",
-          "pubDate": "Tue, 15 Oct 2019 07:00:00 GMT"
         }
       ]
     },
