@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T04:01:41Z",
+  "generated_at": "2026-09-25T09:44:26Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 73.1,
-      "change": -2.700000000000003,
-      "changePct": -3.5620052770448587,
+      "price": 73.75,
+      "change": -2.049999999999997,
+      "changePct": -2.704485488126646,
       "currency": "HKD",
       "prevClose": 75.8,
       "dayHigh": 74.8,
@@ -272,23 +272,23 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1784.5,
-      "change": 24.5,
-      "changePct": 1.3920454545454546,
+      "price": 1801.5,
+      "change": 41.5,
+      "changePct": 2.3579545454545454,
       "currency": "JPY",
       "prevClose": 1760.0,
-      "dayHigh": 1793.0,
+      "dayHigh": 1801.5,
       "dayLow": 1767.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3319.0,
-      "change": 119.0,
-      "changePct": 3.71875,
+      "price": 3349.0,
+      "change": 149.0,
+      "changePct": 4.65625,
       "currency": "JPY",
       "prevClose": 3200.0,
-      "dayHigh": 3334.0,
+      "dayHigh": 3349.0,
       "dayLow": 3224.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -596,6 +596,12 @@
           "pubDate": "Wed, 23 Sep 2026 18:58:37 GMT"
         },
         {
+          "title": "Temasek Appoints Susan Wagner to its Board",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWjY2RHhIdm1CTkhGWGxTVlBrVk93MFFLczRnazk3MFZUTkM4RUlSTzBLcUJ2cTFzWlpCZExuNV9XQ2FSMmtzSFgweXIwWVUySTFTYmF4QjRVYkJQeHFUZkVCS01OLTU1MUR0aXpaRDhaZTl4Wl9reHVkZG9DVlRhVDlsbnNGUmMwZmdjdHJHTHhoc3gxZW1XQ2RpS25vMjdYU0o3U2tiYjZMZFd3bmRfXw?oc=5",
+          "pubDate": "Fri, 25 Sep 2026 08:33:46 GMT"
+        },
+        {
           "title": "Beyond the Brink: A New Horizon For Conservation",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYVRwM3NINzhHSWgzNHFRYlpUQjMxdWE4QVRhdElxQzdpeWRhRjhMeTcxQ2lNT0pTTzc2R2R5bmpDSWQ2eTNZb1FvUGdkZ0MtalpsN0FfQlNHTXhVWW5GRlQ5TGlyclR5dUxUa2htNGFZb2VNMHFRam90RDE1eDZ6ZG1MZl9OS0FiNjlaQ1l6d185akZzaG9mZW5KUkdZRkZ1OTh2NmZ6R2lod0p4WmJvVVFwVQ?oc=5",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
           "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Fu Chengyu to Step Down from Temasek Board",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVpRX0dCeGVtM0J2T1FrdVJYNHFWdHJLSTdJaXFaWHBULTFPaTNZZjFYNTd4QWFQUDlWSnFReElnUEVmckpIM0x2eks3SkFkNF9ET2NsWEQxc2RUYXpheERkU1FDZEhwTUZZRHNIZ1ZzcDNSQ3hIb1RfVDZNVGlyN2w3T3BESE9WdmpqTjEzZVhaQnRSSnlXSGxINUNlTnJKMjZMVC1lMXJob0JXS2c?oc=5",
-          "pubDate": "Fri, 15 Nov 2024 08:00:00 GMT"
         }
       ]
     },
@@ -1174,12 +1174,6 @@
           "pubDate": "Fri, 14 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "FWD Group reports record profit amid continued growth",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYm1XbnQxVnFNRkswbTNOalREcHpSSGtTWktMZTFQa1pqRVN6Sl9fOU1UbEdlQjMzMFZlWkJtbTVhdmItS1E3RlBJN0FTdG0xV2VCeWlMdkNoTUVCdEYxMFdtcHBwdmFZWkJqLUw5QklKZnQ4dXJLNWpUZlhGaXRBWTVxbmdRNlhDSWxHbkpnUmhCdHU3X3BEX25iUjZ4dzMwR1M4?oc=5",
-          "pubDate": "Wed, 26 Aug 2026 07:00:00 GMT"
-        },
-        {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
@@ -1202,6 +1196,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
+        },
+        {
+          "title": "Our fact sheet",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
+          "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         }
       ]
     },
