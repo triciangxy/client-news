@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T04:22:02Z",
+  "generated_at": "2026-09-28T11:09:00Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 74.9,
-      "change": 1.1500000000000057,
-      "changePct": 1.5593220338983127,
+      "price": 74.05,
+      "change": 0.29999999999999716,
+      "changePct": 0.40677966101694535,
       "currency": "HKD",
       "prevClose": 73.75,
       "dayHigh": 75.15,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 111200.0,
-      "change": 1900.0,
-      "changePct": 1.738334858188472,
+      "price": 111300.0,
+      "change": 2000.0,
+      "changePct": 1.8298261665141813,
       "currency": "KRW",
       "prevClose": 109300.0,
       "dayHigh": 112200.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1802.5,
-      "change": 1.0,
-      "changePct": 0.05550929780738274,
+      "price": 1809.5,
+      "change": 8.0,
+      "changePct": 0.44407438245906194,
       "currency": "JPY",
       "prevClose": 1801.5,
       "dayHigh": 1817.0,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3422.0,
-      "change": 73.0,
-      "changePct": 2.179755150791281,
+      "price": 3430.0,
+      "change": 81.0,
+      "changePct": 2.4186324275903255,
       "currency": "JPY",
       "prevClose": 3349.0,
-      "dayHigh": 3432.0,
+      "dayHigh": 3440.0,
       "dayLow": 3340.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -375,61 +375,61 @@
       "items": [
         {
           "title": "Shinhan Financial Group-ESG Reporting | ESG Report",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0WUtKSWlnMklxUGtNUENZZnA3M09NcDJDNnJLak5hY1Q4SEJkWURmVWVLVGViTUFRbzJGRVllc2hWNFZPMUNxZ1NGQnE2OEdjcU9PeXZ0aUJnbVd5Z1E?oc=5",
           "pubDate": "Mon, 29 Jul 2024 07:38:36 GMT"
         },
         {
           "title": "Shinhan Financial Group-Dividends",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qejJvNnlTU2Y1SDJncU0xRkdNeGJjYkdUd1UzMDF3dTFSdXZnTllab28wcUpTUlRaLWN1cDIteWUzdk14b2ZiVnhxcUh1aE9HR3A3ZE5lTFVaeVlPbUotMkxQNnkwcWlSM0UxcjVR?oc=5",
           "pubDate": "Wed, 24 Jul 2024 02:04:00 GMT"
         },
         {
           "title": "Innovation Leader, Shinhan Financial Group",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
         },
         {
           "title": "Environmental & Social Risk Management Policy Framework | SHINHAN FINANCIAL GROUP",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xTXFjRTlKT210WXZVSTdqb0RLR29hMGp2SGZOOTcyZUVfVlRLLXdxRTRXOE9uUVNfRl9TRC1YWEpVZVpnVTNwcWxILVpkLUhfU1NWZHoyTEQ?oc=5",
           "pubDate": "Tue, 29 Oct 2024 05:42:05 GMT"
         },
         {
           "title": "Shinhan Financial Group-Networks",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZRmxCcTdXQ1dPZ3VvaEZINm9NcTBVUnpROGprdDNQZ3ZBQmpzcDNJc0lMUUcyOVdvNmlXaFdybnlGS2s2T3JPYTUxaHd0b3g5bUk0cVBEWUY5YVk?oc=5",
           "pubDate": "Tue, 23 Jul 2024 10:50:35 GMT"
         },
         {
           "title": "Shinhan Financial Group-History | Growth",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVzROSlN4Q0FPWmctX0tMeEZCYXB1bld5bTN5VkxQMWZ3QXJBYTY0a043YU9WVUxDX0xBU0JsTkFIWGx5eWhicnlmcUlWWV82QzZTV1RjdW0zcWpX?oc=5",
           "pubDate": "Mon, 29 Jul 2024 11:19:17 GMT"
         },
         {
           "title": "Shinhan Financial Group-Investor Relations",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
           "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
         },
         {
           "title": "Shinhan Financial Group-CoC for Partner Companie",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PSXJORURBUEtkckw1X1dyNEdVS3B2MGpZZ1FCNjlwcktHa3NJQXVlTWdoWlZfUEJyWWZ4UDk3VmtZd0RpcFcxT3VQTFZEdHlkbjBXaHAwVkM5dGwz?oc=5",
           "pubDate": "Fri, 26 Jul 2024 19:21:21 GMT"
         },
         {
           "title": "Shinhan Financial Group-Letter to Shareholders",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81dXFscUlqa3ZWc25tUUxDTGJtSVlDUGRZQ093blg2U1ZuQ1NXQ3BOZnhLeHgtVGxRZGdlSEl4OWZoS3NkU1FGdDdtWXdCdVZBbGJQNHpFUQ?oc=5",
           "pubDate": "Thu, 25 Jul 2024 11:10:13 GMT"
         },
         {
           "title": "Shinhan Financial Group-ESG Evaluation",
-          "source": "shinhangroup.com",
+          "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zREN1cTNSOFRCUHpSMFpscWtRdDlSX2N5V2tCU1RPZDlJRndlRkc5LXRZa0ZLaHFYOVpzbU9JZUNTR0VsX3FLZnZJMnVoTEJaQ3czYWs0M28tbXluTHlENDhyNU1rdw?oc=5",
           "pubDate": "Wed, 24 Jul 2024 01:23:56 GMT"
         }
@@ -626,6 +626,12 @@
           "pubDate": "Fri, 25 Sep 2026 17:31:19 GMT"
         },
         {
+          "title": "Temasek deepens its commitment to Italy through strategic partnership with FSI, the largest fund in Europe dedicated to one single country",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQndDZ2pzRHpfNG5oenQ2TFNUNGVjQ0M1QzR1SnQ4a3B4aHA5NWQ0TTlsNkZqWDF2S1hzaUE3LWMwM3dkZ2FSRFVyaUNQSEwtVWFiOTBzT1V4RThNVElkOVl3emVnYmFEX0xrSU9IZzVzQkpWRVd4Ry0tbGpnUTZkLUlVcjh5QVpqRkFYZnktWFVpemhiQVhyTjJmRFVOTW1tYWM4a2VqN3FFaGpRYTVEcnZDRXRERlZFTjZ1OHdTSWZhQXBIZDBwRjBYNF9VZklyX0RUVjY3bXRzWjk0QjNzaw?oc=5",
+          "pubDate": "Mon, 28 Sep 2026 02:46:14 GMT"
+        },
+        {
           "title": "The partnership behind Schneider Electric India Private Limited’s growth",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbEswWHY4Yzd2Y3I4X0ZObF85OUJSSnVlVGZHX2VPWWdqelpncmNsLTZiUlNzZGdtM2xYMkMtdS00NVdNZlBpVHhnZTNFVlhTWklNV0lzSUc0U2lNVHRWZGMwVW1YSXl4UmwtcUxraTVmS1RwdHg1c0FrWnFXeWJudEhpUDE0RUxpYjVrQVY4T1V2RkoyMUwtWW5aZUpHS21OOWhZMmRjaFFWNVpWamRQb0VZM0VuOF9vb2lIVENlVFl3aVBxVmdPTkJjQmU0MzFZdUFkdF9HYU44bF84RDNVTjhqVQ?oc=5",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMzlNajl2WVlKY2xYaURxdTlGR243ZExNTURfWW5hM1BuWk4yTGJ5M09DZkRpM012NExLbFhPVV9md0FTcmNnejdyd2lIbFltRld1N2lyWER6X05sSHlJdDBnWmVrS3poZlM0ZTFCdFlReFM5T193OVIxSTRJX0xtZkVXLURja2JlMmtVcHVXaEpNUjBPejExZWVoblo0eC1NbzFPeWhuS01LbUpmdVZyX0V4RTd1NUoxTklzcnN5ZHBOQ2ZsVWlTbEVENmZFN0Qta3JiemdTaEJOc0U?oc=5",
           "pubDate": "Tue, 01 Sep 2026 19:12:58 GMT"
-        },
-        {
-          "title": "Digital Transformation & AI Adoption, AVP Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMnVnaDlJNlF4dWV0TkxIUUdLQjYtRmtIQlliYkNNaXR0R05JRXYtbFBlOV9zYUZORGNDOHp3NklWWUNjNEIzSG15Ty1lTDJDSDBUZHNUR2o3Um1CMEFNRm1JT2ttblpuSVVjN2VOaXpBWEdUWWxFc0QwUDgtc05md29zLVhvYTlUQXhfRTRUX1BsV3dzMklyRmx3?oc=5",
-          "pubDate": "Mon, 07 Sep 2026 00:12:09 GMT"
         }
       ]
     },
@@ -670,12 +670,6 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV2Nnb3ZXVTV0dHJMbUlvWjN0ZExfSkQ3bHlkOE1KQkNwUTVEWWFqVjlibWlWV0JGNUwzc3cyMFZDZndNTHpSaHRrYkJlSF9SX1ZmNDhyWmtMZ2FiZVVZcml5M0ltbXJRQnkteVdSSzd4ajdvaERHRU0zVEpQU3IzbmR2RU5kQldOem56d01VbFZ5U0hFc05WOHhZRGgycEU1QlZyenAzQTg?oc=5",
           "pubDate": "Tue, 15 Sep 2026 02:05:32 GMT"
-        },
-        {
-          "title": "AVP, Business Solutions & Risk",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNakFpdHY0NlE1TG5TcTlSS2o4UE9GSmNmZTZPOV9ya2dsV21VMVlKeGVKc2hkZzNLbzVxOWYxVExEU2RMX05oS21WMWtsbkxYRHpQYTd0c2xVcEl3SWZxZlpSNzd3Y2FONmtTSFVaTUluWng5U0RZcFNZUHRRLWh6elQ4VmN0ckt1ZFU1XzJn?oc=5",
-          "pubDate": "Tue, 22 Sep 2026 06:30:00 GMT"
         },
         {
           "title": "AVP, Total Portfolio Implementation",
@@ -712,6 +706,12 @@
           "source": "gic.com.sg",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHdDeUdxdzJkWVEyUWRVbTFHRzU1alc3dVNFZFp1dmN4X3dBMmpBZkFlVzU1SmZEVXdONDBCbW5yV0dmdV91T1pyckZiTkdBYTl1ZjJSaW4zQjB0OUNyTVNMZnZRUHhmTXAwZ1FSUl9GSkJDLXJiNFlxWVVPbnpKNjNtdFVDTzRETXpIVEg5a2doZnYxM3lEb04yNENNYlVBSklZcTItRjZ4cXNEb3hieGZBbGJTdUNsRUE?oc=5",
           "pubDate": "Wed, 09 Aug 2017 07:00:00 GMT"
+        },
+        {
+          "title": "Boon Chin Hau",
+          "source": "gic.com.sg",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41TVNqNDc5WWVXOGJLTmE4Nmk5TnM1ZHBsbUpjLXh2RVY3ZlRLUFl1cEFnUTJCdk9ZSVU4cHhSVVF0aFBjUTZNUGMySEd2NlBiLU9ZWU0zbGo0ZmxhSDdBZGVNcHdNdHlzd09fbkNkeVc?oc=5",
+          "pubDate": "Tue, 14 Jun 2022 14:26:59 GMT"
         }
       ]
     },
@@ -1075,7 +1075,7 @@
       "items": [
         {
           "title": "NISSAY Defined Contribution Pension Call Center",
-          "source": "日本生命保険相互会社",
+          "source": "401k-faq.nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObFRCMGpnak5hb0VsS2hYdFQwTkNobEJFdng5Q1prallCckNWQ1RFZHNYMGpqUGllemZ1WmRPTlBka0xkbVRoX29wbXlZa2NmTUlKQjZoaV93TldXMURyNGIxbFdvcW9FaGgtQzc5Um00cWVETTJSaVRTb3pTMTgxWUhqVlVHa3VmY1AxSXE5TVpaT0xxNEtPd2xaTVFCMkYwa2Jqa1FITkM2Sm5jYWdYWkRn?oc=5",
           "pubDate": "Fri, 25 Sep 2026 08:37:16 GMT"
         },
@@ -1090,6 +1090,12 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVNNY1JGa0ZMZEhHcDVjVEpTYkFDWkw5N1BTWUpTdEJuRVFwT1BELWpETDROY1V3ZDlXcjZ3blBJRXptYUZuMEl6SUZEbkhoLXJCQUI1SXNkVktDYlFENVNCbzBLQ194VHpyYVFIMnVDVHEwVm1wY19oblB3QnJCVmJTMVl0Qk1uaGJYRQ?oc=5",
           "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT"
+        },
+        {
+          "title": "About Us | Nippon Life Insurance Company",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJSjFuODQ1RTc2bkF0UXdBTXFVQjZNTnhoT05mTEJUcVhfSmNUTGMtOWZ1clQ1TnZxRHI0c1NWLUxzc1NIRVgzQ2NlSE0yT1k?oc=5",
+          "pubDate": "Thu, 29 Jun 2023 10:17:31 GMT"
         },
         {
           "title": "Global Subsidiaries, Affiliates, and Representative Offices | Nippon Life Insurance Company",
@@ -1126,12 +1132,6 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
           "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
-        },
-        {
-          "title": "Announcement of the Scheduled Date for Partial Transfer of Nippon Wealth Life’s Investment Management Functions to Enhance Nippon Life Group’s Investment Capabilities",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SeUtVWUx2Uk5QZ0hxNzJubWM4VHl5Slg3a0pDWTRPRFYxaGFTOENoUU5SRDFtc2lpSzN1TkkxbEJYNWJLTmdRQnROM2V0cGNVckF2cFVuOFd0WGdBOVlJ?oc=5",
-          "pubDate": "Fri, 07 Mar 2025 08:00:00 GMT"
         }
       ]
     },
