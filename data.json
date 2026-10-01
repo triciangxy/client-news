@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T04:50:32Z",
+  "generated_at": "2026-10-01T11:26:11Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104700.0,
-      "change": -1400.0,
-      "changePct": -1.3195098963242224,
+      "price": 103800.0,
+      "change": -2300.0,
+      "changePct": -2.167766258246937,
       "currency": "KRW",
       "prevClose": 106100.0,
       "dayHigh": 106300.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1773.0,
-      "change": -11.0,
-      "changePct": -0.6165919282511211,
+      "price": 1778.5,
+      "change": -5.5,
+      "changePct": -0.30829596412556054,
       "currency": "JPY",
       "prevClose": 1784.0,
       "dayHigh": 1789.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3432.0,
-      "change": -70.0,
-      "changePct": -1.9988577955454025,
+      "price": 3441.0,
+      "change": -61.0,
+      "changePct": -1.7418617932609939,
       "currency": "JPY",
       "prevClose": 3502.0,
       "dayHigh": 3503.0,
@@ -305,7 +305,7 @@
       "items": [
         {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
-          "source": "AIA Design",
+          "source": "design.aia.com",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5OZUVyblNTeUdnSjNvR096TWFxVlNodVdreU5ZUXFSaENMME1RdGswSUh1V3FBYXlUdUZVel9wZ3NjZE02YzZNTjFQcVhKV1hGeG42RExuOA?oc=5",
           "pubDate": "Mon, 17 Mar 2025 15:17:41 GMT"
         },
@@ -347,7 +347,7 @@
         },
         {
           "title": "AIA Digital Design Standards | Guidelines for a consistent design and user experience",
-          "source": "AIA Design",
+          "source": "design.aia.com",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
         },
@@ -450,12 +450,6 @@
           "pubDate": "Sun, 23 Feb 2025 22:36:20 GMT"
         },
         {
-          "title": "Reports (Sustainability) | Sustainability | SUMITOMO MITSUI TRUST GROUP",
-          "source": "smtg.jp",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jTHVmQnV5RHVGRVhYMW9teFE4a0VQWXFHUmVoeUhDTGFmaVVtOXF2bk4tb1NCQXVSbExvSG9WYzMtNGxXU3pJYWtYYS1WV1NTcWdqTDhocnNiMW5vOVE?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 18:41:46 GMT"
-        },
-        {
           "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1LQm02YUFLaDR6bUZHRnJOQVR1dnJFTTZTU0YteDlUUzZ6X0lMZTFXZFpCOHRwODdJWmRBUmJwSHk?oc=5",
@@ -502,6 +496,12 @@
           "source": "smtg.jp",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mY3ZiT2xvazdNdm1MbGpvbW1tZFRISE16MU50QlVCaDhoSktwWV91T3VWeXF1bUJlS1Rfa1ZOdEcwYmFKTjlwUF9kNExna3E3WWVWUXl5eHpwRU90MzZwTmt5WnpvM0N0d3Bj?oc=5",
           "pubDate": "Mon, 24 Feb 2025 00:09:02 GMT"
+        },
+        {
+          "title": "Rating Information | Stock and Corporate Bond Information | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "smtg.jp",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZjVZOGM0RVQ2TUVkRVRVSDB6eHFhSTlNRmJ0SzZCMDFZLWFkeF9aMTRDRm0zYUhEUUNxN2xxVXZrMXJYOXRHamE5ZHdqX29VbVhJbFhucmdBTDhIZjduYg?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 02:05:00 GMT"
         }
       ]
     },
@@ -666,12 +666,6 @@
           "pubDate": "Tue, 29 Sep 2026 06:20:25 GMT"
         },
         {
-          "title": "Event Information - The Secret Vault",
-          "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1ejJxSG02bVdZaFBfN21RYUxSUzFBNDltNEtsd1JnSFh6V20yM2U5enpWVjdtZzZrRDNwblV5RGI2OG03TDdQMjJB?oc=5",
-          "pubDate": "Wed, 30 Sep 2026 08:55:05 GMT"
-        },
-        {
           "title": "Associate, Investment Finance, Global Investment Services",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRUswMnJxWkVudkgwdHNhM3c1V21Ob1RfN0R1bnVGNjlXNXpTTGFLQW04TV9WMGpzeXE4Mi16QkRiQmhhLVJPU2lRakJRRTIwMWU2Q1FPa19MbzhxZV9pSTNzTjM0ZWJJcHU4T0RTamtQRC1jWThCR2J0cGxPZFhGQ1hyMXI5bkpfVW5rWm81ODNHOW1WS3FiU0RvRnRuU3JKdzBYTGVxU3RaR3BlSlBUR0RRY3c?oc=5",
@@ -702,16 +696,22 @@
           "pubDate": "Tue, 29 Sep 2026 22:25:54 GMT"
         },
         {
-          "title": "AVP, Total Portfolio Implementation",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZGRIenRGN0JtR2haa0NLNHRGRkFINDdOVUlOdXRmdUdWT2pFZUJHQ0xtQ2lRY3RYdXY2VWZfeDRQWTNQRjM3S1VjTXM3dDdZQ1dJcjdPRDNYUDBEM1NkOVZuNlJCWS01S1pMZHoyX0NESUJ5dkN6ODNnemNQVk5ZQ24zTk5EMUdMci1oLXdKSUllRFFm?oc=5",
-          "pubDate": "Tue, 22 Sep 2026 06:27:59 GMT"
-        },
-        {
           "title": "VP/SVP, Operating Model & Transformation, PE COO Office",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMGZxcDJQUDR5X3ZXQjREaUVTYzByQ2ZucDJIb3dkSnM2azFYcjl1NTN1czdnMGhkcnA0TVE4MG9GQmg5aTNwQlF0OWJVUkYwdmlBb29WdVBWVU5GWVpqMmFsWERiYjVuTEFGYUN2ejltNXRYeE9MLW1MSXRzN0JJd0xBT3ZIM2YtMDhUNm1ET1EzRjAzRzltVzhqR2w0N2xHYVpNYUx2b0Ftb0lBTGoxWA?oc=5",
           "pubDate": "Mon, 28 Sep 2026 16:12:38 GMT"
+        },
+        {
+          "title": "Associate, Employee Communications (Contract)",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2lrd0pnTFBuOWRMX0J0OF91TFRjeWdCcnZZa29nR1lkYkJnTFhFVnF1NkdRcEFlTDhSbGNhcW5EaXVyNmtmN05MNjV2Q0d2RDRyYVZhVW9sU0tMeXFqbnRIcERaRWVaMFJmaW9mUkdaV0FGOVI4bVBKQWVyMjVmRjhqRnZkc0JZQl9PeWhBanl6UGJWYlBYMU95emlWd0IyYmNvcE5jaw?oc=5",
+          "pubDate": "Sat, 26 Sep 2026 00:28:44 GMT"
+        },
+        {
+          "title": "Event Information - The Secret Vault",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1ejJxSG02bVdZaFBfN21RYUxSUzFBNDltNEtsd1JnSFh6V20yM2U5enpWVjdtZzZrRDNwblV5RGI2OG03TDdQMjJB?oc=5",
+          "pubDate": "Wed, 30 Sep 2026 08:55:05 GMT"
         }
       ]
     },
@@ -1012,12 +1012,6 @@
         {
           "title": "Market announcement",
           "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQXzJULXQwYjNDNXdkc3R1NnJVc2Zta1NvRTd0UURMUDE0dVhlZllSU1dBNkNzWENUdElfRWx6eUhMNVZqRURyTHB4VmhJNFhlUnVNUUNXUlNUNnkwNEhhNFBKUjZYZGNjamlDbHhtMklYcjFwRC1PbDlQZTVmTEN6T1F2Q1laVE5NU1FRbkVwX2NLZDhDS1l3SUJzSjQ4N2J0b3JXQzBkMEpuWHZIMFRrdE5ld25vMDdXVUJHRWRYWmVqSEQxb1N2amswTnZYZThUV3VQbGRYSEZ6UUdXS1J3cDctUUNXcXlxemM2cmxCMjVPRzhrd1h5Mm1oNElVbFRzQVpzWVlVcEFmZ1VfSHRaRG1xME5iMGhYT2NDZ205VGU3Z2ZFSlE?oc=5",
-          "pubDate": "Thu, 24 Sep 2026 03:54:56 GMT"
-        },
-        {
-          "title": "Market announcement",
-          "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHJjNXdDazJZT0Q3enN1MDNYeU43WkJnY2gwc3h5bDk3SklMTXRYV3FrYVYwZ3dJZ0xWNnlpVW9rNHh6TG15b0tSeGd2RWttXzBEdmluMmVBM0h6NC05djdIeExrMXlrdUE2a0NRUExESERUNWE2Y3U1UzVySXJsTG1jTVJwcVJSMWsxUVdDM2FFSWFWRmRYYTIxMERtVWpyczgxQzJNS19IeFZGamRaMmNFWTUyLW5sMXJUazFB?oc=5",
           "pubDate": "Wed, 23 Sep 2026 08:13:03 GMT"
         },
@@ -1038,6 +1032,12 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblVWTGNJdVMyOHVJQjNVc08xdUdObTZ1YlhtZkpSdGkySDQtZU5WMmp0bm85ZnVUZXpiTHg0QnFhQ2hSelMtQVAxdDR3S0Z4LUROUC1QdFljUHkwVGdLQ0VjbjZ6Mmx5QjFKN0l4RnFrOURoNGJQZmMzazB3TDJHbGlJZ2NrV3dwU09YajJDMDE1MlJCbEJRWkZYdF9hN2Z6MjVPVGxyZzNsUExfVzk3cUJJNTIxNkwybkpj?oc=5",
           "pubDate": "Mon, 23 Feb 2026 01:03:21 GMT"
+        },
+        {
+          "title": "Market announcement",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
+          "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
           "title": "TCorp Q3 FY26 Funding Update",
