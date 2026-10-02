@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:41:33Z",
+  "generated_at": "2026-10-02T10:56:24Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 69.45,
-      "change": -4.1499999999999915,
-      "changePct": -5.638586956521728,
+      "price": 69.2,
+      "change": -4.3999999999999915,
+      "changePct": -5.978260869565206,
       "currency": "HKD",
       "prevClose": 73.6,
       "dayHigh": 71.2,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 104600.0,
-      "change": 800.0,
-      "changePct": 0.7707129094412332,
+      "price": 104800.0,
+      "change": 1000.0,
+      "changePct": 0.9633911368015413,
       "currency": "KRW",
       "prevClose": 103800.0,
       "dayHigh": 105300.0,
@@ -278,14 +278,14 @@
       "currency": "JPY",
       "prevClose": 1778.5,
       "dayHigh": 1770.0,
-      "dayLow": 1741.0,
+      "dayLow": 1738.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3417.0,
-      "change": -24.0,
-      "changePct": -0.6974716652136007,
+      "price": 3395.0,
+      "change": -46.0,
+      "changePct": -1.3368206916594012,
       "currency": "JPY",
       "prevClose": 3441.0,
       "dayHigh": 3447.0,
@@ -375,61 +375,61 @@
       "items": [
         {
           "title": "Shinhan Financial Group-ESG Reporting | ESG Report",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0WUtKSWlnMklxUGtNUENZZnA3M09NcDJDNnJLak5hY1Q4SEJkWURmVWVLVGViTUFRbzJGRVllc2hWNFZPMUNxZ1NGQnE2OEdjcU9PeXZ0aUJnbVd5Z1E?oc=5",
           "pubDate": "Mon, 29 Jul 2024 07:38:36 GMT"
         },
         {
           "title": "Shinhan Financial Group-Dividends",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qejJvNnlTU2Y1SDJncU0xRkdNeGJjYkdUd1UzMDF3dTFSdXZnTllab28wcUpTUlRaLWN1cDIteWUzdk14b2ZiVnhxcUh1aE9HR3A3ZE5lTFVaeVlPbUotMkxQNnkwcWlSM0UxcjVR?oc=5",
           "pubDate": "Wed, 24 Jul 2024 02:04:00 GMT"
         },
         {
           "title": "Innovation Leader, Shinhan Financial Group",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
         },
         {
           "title": "Environmental & Social Risk Management Policy Framework | SHINHAN FINANCIAL GROUP",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xTXFjRTlKT210WXZVSTdqb0RLR29hMGp2SGZOOTcyZUVfVlRLLXdxRTRXOE9uUVNfRl9TRC1YWEpVZVpnVTNwcWxILVpkLUhfU1NWZHoyTEQ?oc=5",
           "pubDate": "Tue, 29 Oct 2024 05:42:05 GMT"
         },
         {
           "title": "Shinhan Financial Group-Networks",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZRmxCcTdXQ1dPZ3VvaEZINm9NcTBVUnpROGprdDNQZ3ZBQmpzcDNJc0lMUUcyOVdvNmlXaFdybnlGS2s2T3JPYTUxaHd0b3g5bUk0cVBEWUY5YVk?oc=5",
           "pubDate": "Tue, 23 Jul 2024 10:50:35 GMT"
         },
         {
           "title": "Shinhan Financial Group-History | Growth",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVzROSlN4Q0FPWmctX0tMeEZCYXB1bld5bTN5VkxQMWZ3QXJBYTY0a043YU9WVUxDX0xBU0JsTkFIWGx5eWhicnlmcUlWWV82QzZTV1RjdW0zcWpX?oc=5",
           "pubDate": "Mon, 29 Jul 2024 11:19:17 GMT"
         },
         {
           "title": "Shinhan Financial Group-Investor Relations",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
           "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
         },
         {
           "title": "Shinhan Financial Group-CoC for Partner Companie",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PSXJORURBUEtkckw1X1dyNEdVS3B2MGpZZ1FCNjlwcktHa3NJQXVlTWdoWlZfUEJyWWZ4UDk3VmtZd0RpcFcxT3VQTFZEdHlkbjBXaHAwVkM5dGwz?oc=5",
           "pubDate": "Fri, 26 Jul 2024 19:21:21 GMT"
         },
         {
           "title": "Shinhan Financial Group-Letter to Shareholders",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81dXFscUlqa3ZWc25tUUxDTGJtSVlDUGRZQ093blg2U1ZuQ1NXQ3BOZnhLeHgtVGxRZGdlSEl4OWZoS3NkU1FGdDdtWXdCdVZBbGJQNHpFUQ?oc=5",
           "pubDate": "Thu, 25 Jul 2024 11:10:13 GMT"
         },
         {
           "title": "Shinhan Financial Group-ESG Evaluation",
-          "source": "신한금융그룹",
+          "source": "shinhangroup.com",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zREN1cTNSOFRCUHpSMFpscWtRdDlSX2N5V2tCU1RPZDlJRndlRkc5LXRZa0ZLaHFYOVpzbU9JZUNTR0VsX3FLZnZJMnVoTEJaQ3czYWs0M28tbXluTHlENDhyNU1rdw?oc=5",
           "pubDate": "Wed, 24 Jul 2024 01:23:56 GMT"
         }
@@ -666,6 +666,12 @@
           "pubDate": "Thu, 01 Oct 2026 12:41:43 GMT"
         },
         {
+          "title": "AVP/VP, Quantitative Strategist, Structured Product Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM1NCSHU5dlZjajhyMzRxVFB1Wm5BUHplVk5na1piYXZzb01YV08zX3dKN2VOTWhkMGE2WDJRTmloUjRmTE04VlhHako0RjJrQzR1Wk1zLVN6Z0NKUnlxTFRJbnhJUHlPUUVNWTN1YUNPTVJLLV9yT2o0dlQxWS14NDFJMFMxREJTNnJYTkdRdHFKel9PSm9fTzBHcDRqX19RQnhIcVlRUEpaX2Vj?oc=5",
+          "pubDate": "Fri, 02 Oct 2026 06:35:30 GMT"
+        },
+        {
           "title": "SVP, Exposure Management, Technology Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcTU5Nm5lTlM5RGdPZHFuVmx4cFFzNEtmb0ZmWVN5VktoQ2NQM2pqMmYxUTViU3Z5LXZGOVZMMWwtc1FqRDhXRy01cFMzSWt1U0RHM01OSFk2TVhPeDdSLUZNdGYzZlU3NVNoel9NMlFOMUhaczBJOHdoRWU1dXdKMXo5UmNybWhWel95TlRfMURqS0cyTTN3bm13NEhZR28?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTWtDNUhXbUd2UFhlTzY3dVZHRms3cThRajlISzhYZHZKV1JZSGtQb2Jnd08tbXhhOEV0ZTlhSmVnVHE2OEFXVjlJR01TbXc3TGZCUGh6UlQ3ZmsyYlVJWDhMOVdHR1AxbGJ2alJTV2hJZlhibXpTc1ZtS0FtRFJNV0FRSG9LQVVJeHJ0WXZ5SlRGMS1DUEJhWA?oc=5",
           "pubDate": "Thu, 01 Oct 2026 07:41:16 GMT"
-        },
-        {
-          "title": "Associate, Employee Communications (Contract)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2lrd0pnTFBuOWRMX0J0OF91TFRjeWdCcnZZa29nR1lkYkJnTFhFVnF1NkdRcEFlTDhSbGNhcW5EaXVyNmtmN05MNjV2Q0d2RDRyYVZhVW9sU0tMeXFqbnRIcERaRWVaMFJmaW9mUkdaV0FGOVI4bVBKQWVyMjVmRjhqRnZkc0JZQl9PeWhBanl6UGJWYlBYMU95emlWd0IyYmNvcE5jaw?oc=5",
-          "pubDate": "Sat, 26 Sep 2026 00:28:44 GMT"
         }
       ]
     },
@@ -795,63 +795,63 @@
       "items": [
         {
           "title": "Press Releases",
-          "source": "한국투자공사",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LOGtzQzVFdG5Lb1JxX01hV3FtYTlIeTRoYS1LMTI0Rnd1azhaTm5vcEFtU3F3bnFzcmNzOThJZ2lkclFseDJhX1VSSjJMWTVpQXltR29rcEM5WEU?oc=5",
           "pubDate": "Tue, 18 May 2021 07:00:00 GMT"
         },
         {
           "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOGxwRUFkcG9xVnpxaG1yZG1ZSkhwOXp4aUpuSnktQVI3VGxtWTRkYjEzdTlIVXBtRGtqR1dsdkhQdm1fS0pYcXZVWl9LOGJRSHZ4Q05uY2U?oc=5",
           "pubDate": "Mon, 07 Jul 2025 05:21:28 GMT"
         },
         {
           "title": "Benchmark │ Our Portfolio │ Investments │ Korea Investment Corporation",
-          "source": "한국투자공사",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4MzNRUTdUS3luTkxmZWVTc1JnaTdTMERod01JTGIzWmhtN3MySThvUkhPeXl3OV96c21XLXgyM0o5aUJzek5QOVI1NDIwaXZ2Sm16SmtQY05BcU5zNG9nZHp3?oc=5",
           "pubDate": "Fri, 27 Jun 2025 04:39:25 GMT"
         },
         {
           "title": "KIC 2023 Annual Report",
-          "source": "한국투자공사",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByMVdJc2Q3dnEwd3RYQ2lScnh3b0UtNXNzM29oM0I1c0sySV9qX3NVRnBlX0E2U0laYlFOc3o2eHBKUmlVdXBCLU9nUlN4Yy1nRzFVNkpnQ1lxNTRTWVVZ?oc=5",
           "pubDate": "Sat, 16 May 2026 08:26:24 GMT"
         },
         {
           "title": "Untitled",
-          "source": "한국투자공사",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaaUhlZ3dfWmRnMXh3enJaV0tnaW9QYlduSGFlangtbmhuZ3d1WFZVYmEyd1BMZjFBenUxNEZ1MkxnTnUwRFFvRXhZdFlzbDNsbW9YVHl0VEJSSVJjQ2I5V2pGQVFZRXE0eWtyaXFyXy1UUGJSV2R5TU9B?oc=5",
           "pubDate": "Fri, 12 Sep 2025 17:18:18 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pdl83QTZ4TmJ2NUpJT29YcTIwcElUUThUSmI5UndxdmhiZjhLQmpCaUh5cnUwUGhkWG14akJQWGFrMzRCODZfSkJRRGhaQ1gxTkd0M0RyZHpfUFU?oc=5",
           "pubDate": "Fri, 28 Feb 2025 08:00:00 GMT"
         },
         {
           "title": "Press Releases",
-          "source": "한국투자공사",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrcEZoMmNqeDlwdjk0UXVDOEV3MnhSYVRDZzNkMHdqN3NzY0JTdlEyUW4zaGd4WlBhTTdSbmxkVXZHdEZTN180cFl5bUZMbFk1SUYzMXpHUHo2aWM?oc=5",
           "pubDate": "Thu, 21 Jun 2018 07:00:00 GMT"
         },
         {
           "title": "Social Contribution Activities",
-          "source": "한국투자공사",
+          "source": "kic.kr",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RYTFrTlBsOVVMUFJxSkNibGFnQVRBSHFHbHFYSDVPZnlhVlJSWE1JZEFoVC1Fazc0dTNHSl9DcWVxNk1TVS1ycEdMMHpsQ0dUOVBGTUQ5UU1rcXRwWWtmU3pvTmJfRlFhOTgxUDZETVI5RENFblBWWQ?oc=5",
           "pubDate": "Sat, 16 May 2026 12:46:48 GMT"
         },
         {
-          "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
-          "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
+          "title": "Announcements",
+          "source": "kic.kr",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUc2hBZkJ1R2JfWTZkMlJkalhsODVBR2otU3BNNk5pV3I1QlpfWlRIVlp6Tnp0Vk5NWWlxRGZpZ1lFMXBBdWpRd3ZLVEtfUjdRTFdseWdVNXJwRWRmMDhKbkdvc3Q0dw?oc=5",
+          "pubDate": "Fri, 19 Dec 2014 08:00:00 GMT"
         },
         {
-          "title": "PRESS RELEASE",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxckVUNHFOQjJJS2FIdnhhdFFQWDJyUUhaMW9DbWlPSEhSQTFWSGI1TGd3MndTT0FlcnpmVkt6U0VyRmdjd1hUTTRPbVhVcWRpQ29PTDBoMEg?oc=5",
-          "pubDate": "Tue, 29 Dec 2015 08:00:00 GMT"
+          "title": "Press Releases 리스트 │ Latest Stories │ Newsroom │ Korea Investment Corporation",
+          "source": "kic.kr",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xX2ZKSS0xWFJ0VUNBbndqMV92M1NBTzNGbWVDYmtGaUtIdUJCeUlyVkJWZm9HOVNBa3dNVHRQd0wtOUg4Y3IzLTMySkFtbG1WXy1DaTZfZw?oc=5",
+          "pubDate": "Mon, 07 Jul 2025 05:27:18 GMT"
         }
       ]
     },
@@ -1034,10 +1034,10 @@
           "pubDate": "Mon, 23 Feb 2026 01:03:21 GMT"
         },
         {
-          "title": "TCorp Q3 FY26 Funding Update",
+          "title": "Market announcement",
           "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY0ZYS3J6ZXdCU3hEclJGUEtMeHN6UUIzUDN4NzRHUVN4Q0dQUklfdjFUdmk3MmN1Rlp4Q1Y0d3dFUXNPNHpPZm0xUVlsWjdDNXRzaHMyWEk5WkF4OFkxQUFtZ25HTkprdVJJ?oc=5",
-          "pubDate": "Fri, 24 Apr 2026 11:49:05 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeWtUVUNQYmRjYUZnYkRUanpQWVpyVllzY2ViQ1lsblpjQ2tJb1JqXzgzODJOZ1NjcWFkeUJnU05HUC1KdVFUSkhJbzR0eGNTRm9kWkdsb2lNb05meXdBU0xYNGc4SE03MV92ODhKTGJKV3VOVVJvQ2I1bEZsNXJVVlVyUUc5SVVpVVRkX0NpTTVWVk4zd0ZZdllENFVMcmk3VDd3TERSemxaZG5Ia0FQRk1fWTViZjhEcmRob05kX05WQzJtbmFPU3dIaWwybHAybnMzUFotdE5VTG8?oc=5",
+          "pubDate": "Mon, 09 Feb 2026 08:00:00 GMT"
         },
         {
           "title": "Q&A with CEO of Weave Youth & Community Services Ltd",
@@ -1092,6 +1092,12 @@
           "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT"
         },
         {
+          "title": "About Us | Nippon Life Insurance Company",
+          "source": "nissay.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJSjFuODQ1RTc2bkF0UXdBTXFVQjZNTnhoT05mTEJUcVhfSmNUTGMtOWZ1clQ1TnZxRHI0c1NWLUxzc1NIRVgzQ2NlSE0yT1k?oc=5",
+          "pubDate": "Thu, 29 Jun 2023 10:17:31 GMT"
+        },
+        {
           "title": "Investment in the European Infrastructure Debt Fund Managed by DWS | Newsroom | Nippon Life Insurance Company",
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuSmtFTDlkQzItMkxmMGZtNkFHbHl2Z0FzU1pvcTA0Z0drQ1pLVS1zanNHZUZqa09fenZDQnZHLVNYSUZtVGVoY01La2FTZUJUSVN4SzFwanRXNHpOUUJj?oc=5",
@@ -1126,12 +1132,6 @@
           "source": "nissay.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50UjVMTEMtZmp3WUxPeFVtMWxCa29hdG9rSkRDSUhfWk1KREdpX0RFZEpMZW5vdERLYnItODd2VFYxTVpQZlF2d0FodmhtUHRldk5ld0dUOXdYLXVnWWxrR2pyQQ?oc=5",
           "pubDate": "Fri, 30 Jun 2023 09:53:51 GMT"
-        },
-        {
-          "title": "Global Network | Nippon Life Insurance Company",
-          "source": "nissay.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1MnZuUlhnTk5nQ2RUbU9JUlUxOF9kb2V2bi1xUEZoa1o2XzFOMDEweC1GZ1hZdmNpQUVweXViRVppd3VxblFEdHYxLXZqYkhEVERIcVp1R2RzQnZ2Qk9ObEZ2RQ?oc=5",
-          "pubDate": "Sun, 23 Nov 2025 22:15:14 GMT"
         }
       ]
     },
@@ -1145,61 +1145,61 @@
       "items": [
         {
           "title": "FWD Group publishes 2026 interim report",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFVSWExuOTZ3QjJJdmtEMldpX2xpSnBMc3djRDNHSHg5SU5hY2piYzJHanpxd0dkblpOaWFuNW1yR2ZNLW1wQ3F1c2lKSUF1WUhybHJkVHI4S3BDXzU0d0UwekJYbzRiQmg2MjVGSkNXUy0yWUtzVGtTenhZWUlmM0kxZ1J0TG9JWnBoZUVKZEE?oc=5",
           "pubDate": "Fri, 11 Sep 2026 13:50:11 GMT"
         },
         {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
           "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT"
         },
         {
           "title": "Code of Ethics and Business Conduct v3",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGh1ODRnSnVCWlN5bFB5R2lHTXBsaFNxWUN6dXVITFhUMVNaVFBmejdyLWIyVVBnZkFvQXViTlRFQkthejhqOHhVcGpBd1kzZi02amE4NDNXTE1aazYwZkp2NWhWLXNUbk5NSGgzSVpnRUVMdnNrZ0Y3d0RmWUsycmc4Nkp3U0V5b1RqOEV0ZUN5djBsR0hjbXNrVnlZcVpWQllORFZhb1lFQllMSnB4eGdFRFdlZ1VMYWZLYVgxYTdjTGRXMUVmRlhzUHk?oc=5",
           "pubDate": "Fri, 04 Aug 2023 11:47:59 GMT"
         },
         {
           "title": "FWD Group collaborates with Yale School of Management to offer exclusive bespoke learning programme for Bancassurance and IFA partners",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3lPUngxa2owYnVVS3dZVUxGOXhpOTVuamQ3azJOLWtPdWVPVkN4OC1DZHhiUUtaZlRWMFJqOVNzTE9QamROQkhFc1RCdW95bmlOZ1NFdFotVi1wVk1MdEMtN01QWUZzWTNOVzFBRUN1YXYwdzFEWV9JUjVIOXF5MGI1UWRoa0E?oc=5",
           "pubDate": "Sat, 25 Mar 2023 15:46:19 GMT"
         },
         {
           "title": "Craig Tunstall appointed Interim Group Chief Risk Officer",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQUMtZFFfclNpSHR6NmVLRXh5d21nb2l4ZmE0cGxkMUVWSkFJc1ZTcE9WTnhBZmFFcHVjcHplbllEOTdJbVlqeUNhblljZnFxUnFneDlUQjVwZTJLZnhUZE52SndjLW9Gd045S2FFbHNJejNYVVRvVUV2NHZfNjdjd1MwOUtNU1V2b2VfaFk3X1paUURzeU1jSTg4d0FjbmJwc3N6SmRIaHA?oc=5",
           "pubDate": "Fri, 10 Oct 2025 13:17:58 GMT"
         },
         {
           "title": "David Junius",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NNFhjUnpVaTJqMXdadUVQX0x6VF9lY1VINjFlQm9DYlp0TWNJX1JTdlRKbFBHeUdFU3VuVVdUZ1FEcnRLeDhWOWpqM0FlbG9qU2hVdEg2ZmpCa0lOdFRwTzRSb0g?oc=5",
           "pubDate": "Wed, 06 May 2026 02:58:17 GMT"
         },
         {
           "title": "Our fact sheet",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JYTMzRTl3aURIUkhOTUUzZkMxdTNCT3NTMHpmeElocnZrRDRzb2FNem8xb2JMWnAxV3pGWklXLVhLOTAyREtZQjU4RnRIVFU?oc=5",
           "pubDate": "Wed, 13 May 2026 05:04:26 GMT"
         },
         {
           "title": "FWD FitForMe | Uncover AI-recommended coverages based on people like you!",
-          "source": "FWD FitForMe",
+          "source": "fitforme-ph.fwd.com",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OMDJCYVg4UTJLWkZzek9ydGZfQUlNT2JFdDV3UWlWaEJNRDlRQVFPZFBscGZuOEt6TmZDc2dSTnVrUVl1aVJ5ckQ5YzNheVltXy13ZlNUTlZrdVkzdEhfTg?oc=5",
           "pubDate": "Thu, 05 Dec 2024 03:07:27 GMT"
         },
         {
           "title": "2025 Annual Report Chairman’s statement",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOW1aSFdPcC1JUVJLWkN6Ynk3RmZLN2V3OVY4Q0dMSmQ4ZU5CbXdycTQ1ZHp6a2pTUkFOYVo2ZWpsbzBlM2hzZlpRb2dteUZKQUpYdDVFSGVLcnJLTzAtbWJFdy1uVzlPNWdZUUd6ajVFRmVVRWxiVXV5dzVUMTY4SnpNSXVBUFlFNWRnWm1LVzZwaTJkMkRGZkFtRWtLb3JtNHVKNjFUSk5fcDUzSW9QejdaMFFlekkyVjVLTTc2LVM2TzRMeXlZTGFzdmx1LVYteXExWmR5U2lTUQ?oc=5",
           "pubDate": "Thu, 16 Apr 2026 16:13:07 GMT"
         },
         {
           "title": "FWD Vendor Code of Ethics and Business Conduct",
-          "source": "FWD Group",
+          "source": "fwd.com",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSklKVUkyMUZidzVnMkRpUG83bjhVT1U2ZFhuNU1LZF94OURqUl9HOHNmOUhrR1p2bXdxaDRocUhJVWdxcEZ5RTJxRWtUZ2lxSEhDa1VaajdLQ21YNFZrZTg0c3BHaXVpTC01SGQybUFQa3dzWjF0OF9hMmhWekFDbGNDa1l5NXljd2d1RWhOYUpDd2FZNlBFLVAyZ3YyNFpqWFozZUlLRmZHaDlLV0lERUF1dEJxT3RzVGZXMEpsTF96TjVNVWhQa0tfR1JBVWxMZVgyd19zWS11Y0l1NTZCcHFJVQ?oc=5",
           "pubDate": "Wed, 02 Mar 2022 08:00:00 GMT"
         }
