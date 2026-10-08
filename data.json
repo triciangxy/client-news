@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T05:08:37Z",
+  "generated_at": "2026-10-08T12:10:57Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,31 +250,31 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 70.35,
-      "change": 1.5499999999999972,
-      "changePct": 2.2529069767441823,
+      "price": 69.25,
+      "change": 0.45000000000000284,
+      "changePct": 0.6540697674418646,
       "currency": "HKD",
       "prevClose": 68.8,
-      "dayHigh": 70.55,
+      "dayHigh": 70.7,
       "dayLow": 68.4,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 100600.0,
-      "change": -2700.0,
-      "changePct": -2.6137463697967087,
+      "price": 99500.0,
+      "change": -3800.0,
+      "changePct": -3.6786060019361084,
       "currency": "KRW",
       "prevClose": 103300.0,
       "dayHigh": 103100.0,
-      "dayLow": 99900.0,
+      "dayLow": 99500.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1715.5,
-      "change": -39.0,
-      "changePct": -2.2228555143915645,
+      "price": 1704.0,
+      "change": -50.5,
+      "changePct": -2.878312909660872,
       "currency": "JPY",
       "prevClose": 1754.5,
       "dayHigh": 1740.5,
@@ -283,13 +283,13 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3273.0,
-      "change": -91.0,
-      "changePct": -2.7051129607609985,
+      "price": 3247.0,
+      "change": -117.0,
+      "changePct": -3.4780023781212845,
       "currency": "JPY",
       "prevClose": 3364.0,
       "dayHigh": 3336.0,
-      "dayLow": 3251.0,
+      "dayLow": 3247.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -702,16 +702,16 @@
           "pubDate": "Thu, 24 Sep 2026 04:50:25 GMT"
         },
         {
-          "title": "VP/SVP, Integrated Strategies Group - Japan",
+          "title": "AVP, Platform Engineer (Enterprise Service Management), Technology Group",
           "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcUVEd1NZczEtMlMxZVcyMi02U3Y4aENGSnZCVzNQTGo2ME5kRlAtal9ULXRhdHRoUENveFZKZndIeEs3VG9Qc2F5YTBzZHNSclprSkZNS0lxbUw1NzdSZXZKcG1vMXg4RlNZbXY3MnJPUkRuWmtneG03bTBYWUxCc2J3LXZ0Um1kQ0NINEtvcGt2d05Ma3c?oc=5",
-          "pubDate": "Sun, 27 Sep 2026 12:48:16 GMT"
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWE1tNUR3TDlGQVo1aXg5ZkZlRG4xdWVKS1JiY0FZWlJzNExFY3BFVExSQ29WVlFUXzY5V1FEdXRNUEU4Si04dm5kdzBXbVh1dUVJNjZmYVd6Vk10S2c4aDdkNXRseUZ6Snc4RXhOQ0JtR25sUnVOQVRiWjFCdzgxTnVQT0Q3VXBkdzYtNDIya3VWMENwckZPWWJWNDhvQ0ZCd0JSWmlILXhDWnlKakVJSWI4V0s2djE1Ukp5WWY0a24tajZNa3Q2b2FZZGFWdw?oc=5",
+          "pubDate": "Thu, 08 Oct 2026 00:51:37 GMT"
         },
         {
-          "title": "AVP, Fixed Income & Multi Asset, Fixed Income Risk (CIOO)",
+          "title": "VP, Quantitative Research Analyst, Exposure & Liquidity Research, Portfolio Exposure & Liquidity",
           "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRGJ3RG56XzMwYjhzSFd5M3FaZGQzQXhPQXFjSXNQQzV3d0ZxTU1PVmRlYmZsSTRBXzkzRzBNRDhpdm9KQ01HdV9oRC1QMHRuVUFBanJ3RExhRjFHUVVndmhsX25lSThvVk5kc2ExLXJkZ3kzOGZEVGRGa3lKT2Z5WDc3SkIyQTlUWXJHRnZyWkNocGZDUktSSDVuOVlZbDJnek5OV3BiN2RHUWQ2RWdpQ2pJMUtyRUt2VFE?oc=5",
-          "pubDate": "Tue, 29 Sep 2026 22:25:54 GMT"
+          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOam14WGNicTlBS3MxeTd3OGhuZWNNMGMwVXF3NmJCSjl3bGVKVW9OS1k1U2hnTGczcEkwaThUSlV1MWgtS0RFNm1YLWp4c0RiV0xjaDc2ZDNvNjR3ZmktQm4zWU9IWmlpdW1FaHNreDVlNnpjWnRkc2Zpcl9KMklMNFZiajRFNjE2WkxQZ1UzdFdXYndVTFRLUmQ3bGI4RzhpZkhhVXl0SjJtQzhFcXA1MF9ISTVHTTZtakhWYU9LWGxnZkUydGZ4c29MN1B4Mjg2ZV90ZDRqOV9PZ3F6QjJNRmZxcTNUT2VRaG5YOVpOWnA5MjdzelVEOHAxUmpuN1g1a1JkUlNJQnJqeEZ1N0VRQ1g5cEJfem9hNF9ZT2pzWDhOQUlvRXhXS2NZT1NEanAwUjdNUTNNVQ?oc=5",
+          "pubDate": "Wed, 07 Oct 2026 21:22:09 GMT"
         }
       ]
     },
@@ -900,6 +900,12 @@
           "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
         },
         {
+          "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
+          "source": "국민연금기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wSUR6b2JoRFJvTXlQVUw5d3I1SXVwSUpiSGFCN0NkWWRMVkRvY1RTaVpRVWp3WHJCaGx2Mm9hSG0wRXRDM25ZbmJrd1ZMYVlfZVpDaWowWUl1cXhaVkZyVWhNN1ZEZUQ0N1E?oc=5",
+          "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
+        },
+        {
           "title": "National Pension Guide for Foreigners",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zdlN0a0hSZWdMVlRheWNFMjlQRW5SaHlzMzYxMUUtLWdGa2hYZ2x0NU45dmZfRnhfLTQwSzRyMEcycG9vbVRiRC1uR29CREtYWUxxc0dvS1FLcWtibmJrTjRoUGpmMGFrdjlMdUNn?oc=5",
@@ -916,12 +922,6 @@
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
           "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
-        },
-        {
-          "title": "Executive Fund Director & Chief Investment Officer",
-          "source": "국민연금기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
-          "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
         }
       ]
     },
@@ -1052,16 +1052,16 @@
           "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
         },
         {
+          "title": "Article by TCorp Head of Investment Research and Strategy, Ali Parker - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRG40UmJWS3Z1OFR3b0Q3N0NYbW5QUUlXUjhPY3RDNGdDYlZvcFNkU2pWZk1NOVYycmpCeWdZVWtrZTlEM0JOc0Q3cHU1WlBMbVJLU2tsdnIwOTNVX2FKY2dHQ1JUWE5haUVXREZZdWdSY1JsNVhWcm14NkF4clJnUXZlNndxSEh5Wmk1YjJneDE4ZTkwZUk2cVY5WHJwR1hJOVJkUWhlc3M3QjM2ZzlSYnF4cHFPdw?oc=5",
+          "pubDate": "Mon, 24 Aug 2026 07:00:00 GMT"
+        },
+        {
           "title": "Fireside Chat with Rob Kenna, Chief Executive TCorp",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLUd6SDNaYlJEbnBKdmdzU1ZMT1NIMGM5RUFud0hNamY0SW9CTUF4RnU5TEQ0d2x5SGRWSThOSmFJZGJ3R2I3QUNhZzl2RVFWTzVvQzNtb2JHUXg2LWxnV29TcmdYWDRkZjZsUllSWWxIclkwZTZGTHU3WWx5UWVBd3FZUUhhTlgwYVlfSjFWek56UzU2a3c?oc=5",
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "TCorp updates its forecast FY27 term borrowing programme",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdTVzaVFWV281N2hDS0hZSHNjWFU3d3RrV2Y0ZU4wSGVXZWxwSDdXVXFpeDFNX1pkVzBfcTcwRzNxU3pTYjlGMmhsR084S1lhVUl5UXoyR3RhQnp2VFl2bDNNMGdBdndGMlljejQwQUJnQ2NIc20xNkhNczdWUE9TWUpBV29VTUtFcXBtSkdhSUg?oc=5",
-          "pubDate": "Sun, 28 Jun 2026 15:32:12 GMT"
         }
       ]
     },
