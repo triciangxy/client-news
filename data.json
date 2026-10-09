@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T05:11:33Z",
+  "generated_at": "2026-10-09T12:02:01Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.2,
-      "change": 1.9500000000000028,
-      "changePct": 2.8158844765343,
+      "price": 71.25,
+      "change": 2.0,
+      "changePct": 2.888086642599278,
       "currency": "HKD",
       "prevClose": 69.25,
       "dayHigh": 72.15,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1696.5,
-      "change": -7.5,
-      "changePct": -0.44014084507042256,
+      "price": 1687.5,
+      "change": -16.5,
+      "changePct": -0.9683098591549295,
       "currency": "JPY",
       "prevClose": 1704.0,
       "dayHigh": 1725.5,
@@ -283,13 +283,13 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3201.0,
-      "change": -46.0,
-      "changePct": -1.4166923313828148,
+      "price": 3178.0,
+      "change": -69.0,
+      "changePct": -2.125038497074222,
       "currency": "JPY",
       "prevClose": 3247.0,
       "dayHigh": 3285.0,
-      "dayLow": 3179.0,
+      "dayLow": 3178.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -386,7 +386,7 @@
           "pubDate": "Wed, 24 Jul 2024 02:04:00 GMT"
         },
         {
-          "title": "Shinhan Financial Group",
+          "title": "Innovation Leader, Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
@@ -590,6 +590,12 @@
           "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
         },
         {
+          "title": "Our Leadership",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
+        },
+        {
           "title": "Building Enduring Partnerships in China",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaWVjZmxMaWJRVVZvY0tiTFRIN0JERjBzU0FLQ1ZscXN0VHRRb25ST3p2WV9zZW94QTJLOXAyWTZpU3AtZlp5TkF4U0RpdmZsNzEzNUdZTWhUc1hWWmwzb0pIVlhaaXljeG43ZnliVmlfMDV1aHhxelZ5NjBXRFNIMnZmRUdwZ1FnT3lxMUZ0bGNTQTFKc0lDdlVmZHNUMUxQX1FsWTZpV0dMTmhleDJSb2t0MnpwUE9MNGc?oc=5",
@@ -629,19 +635,13 @@
           "title": "Temasek Announces Plans to Expand Presence in the Middle East",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPV3g5RkRLWTM4SlhsRTdJbjV3cTlOeUtPZWFJc2ZidE5XcmJSUmIyNGdoalRTNUpmSm5OSllJanRVWUVIVkZ4aW90Ymw1UkZpMURvc0s3TnJiNUdIVWJYZFY2ZHAzTFIweWlTUnhwWnBkYkNIUTRuQlJTd2tfbUF1Sm5DVHJPUUtmeF9BNzJwbWswV3BsSm0tVkU3LVpBRmJkZ0h5RW9XMWQ4c3I0a2VwNmo5U0lfOHZJX2k0ZVdELWdaY2JUeE5aMTlR?oc=5",
-          "pubDate": "Wed, 30 Sep 2026 08:02:45 GMT"
+          "pubDate": "Wed, 30 Sep 2026 07:00:00 GMT"
         },
         {
           "title": "Temasek deepens its commitment to Italy through strategic partnership with FSI, the largest fund in Europe dedicated to one single country",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQndDZ2pzRHpfNG5oenQ2TFNUNGVjQ0M1QzR1SnQ4a3B4aHA5NWQ0TTlsNkZqWDF2S1hzaUE3LWMwM3dkZ2FSRFVyaUNQSEwtVWFiOTBzT1V4RThNVElkOVl3emVnYmFEX0xrSU9IZzVzQkpWRVd4Ry0tbGpnUTZkLUlVcjh5QVpqRkFYZnktWFVpemhiQVhyTjJmRFVOTW1tYWM4a2VqN3FFaGpRYTVEcnZDRXRERlZFTjZ1OHdTSWZhQXBIZDBwRjBYNF9VZklyX0RUVjY3bXRzWjk0QjNzaw?oc=5",
           "pubDate": "Mon, 28 Sep 2026 07:00:00 GMT"
-        },
-        {
-          "title": "How Temasek harnesses AI to build resilience and drive long-term value",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUjJEYkItdnZMVWNsV3AwYmV1NWVpTzRZSXNncjd6M0U3dlhmMjhCVVFmTWtoUHdtTWxFdGwwMjN6bFVCX2FWS3k0VkpCYnZvRVo2cndPMVpaRXg4YUpUa1FTdXRYY3AtODJ6WFYwZ0N0aUI4UUd4czlCTUZteEMzdGpCb25yR2tDdTI1SFdib0VsUXBYY3FtSGllV2VqYTA2ZmZwQkdvRW5WVGhmTnYtQWJKZ2l3RU5iUnhhRmZxN1F5NHRMaHQ4UndGbHQwZUk?oc=5",
-          "pubDate": "Mon, 28 Sep 2026 15:46:37 GMT"
         }
       ]
     },
@@ -690,12 +690,6 @@
           "pubDate": "Thu, 08 Oct 2026 05:20:29 GMT"
         },
         {
-          "title": "Investing Through the Sustainability Cycle",
-          "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNkNLRVdGNlhZWHFDTzJsMU1DdzhBeDZCOE1IelhTRXBpbTFTMi1jajE0R280UWpkV3pqdnRYNzJ0TEc2QXdIT0FoUjZQVnhLQ1V1SGFZTC1taDRHb3RETkZaUmY0a05fVEY1dVVLTHlXNGl4MlpZcUtIZmtmTXdza1h6QlMwdl9fbDY5alRNOG1FR1hlMEZF?oc=5",
-          "pubDate": "Tue, 06 Oct 2026 22:18:11 GMT"
-        },
-        {
           "title": "VP, Network Automation and Reliability Engineer, Technology Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDNHS21qbExhZGRueDNCdThoaGV3RE53UW5ha210allVTlJ1RDd0NUV4NW1sYWwzYVdYZ005YkRuNkpRM21SX1loUTNWSllnS3J5Y29lb20xV1h6ZnZDU0gzQWtQWFoydzdpYW56c1Nvb2FpQk40MWJXdkw3djlaWkgyb0hKOFhYTng2OC1lcU1ZZktfWUtkTHRTWHU0UEtTazY0eTJuNHFVak5BOFdhWXE5SEdXVUVvN2ZHVnlHYw?oc=5",
@@ -712,6 +706,12 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTFJ0ZkxsbVgxdjlLRzdxZ3lIeThTNXd6U1Z2dUNIQ3hsTTczOEJwN00td1lUcHYyWGVQaW9GRVkzUjRHR3c0eW16cGdYOERtaGMxQ2F6NjAzTnhLZ1B4aWdCYmNDVEZ2ZmVyalZueVZtYnMyb0lCdmJMUDNXY2hZa0RxdTIwQlN0OFVncDQ3aWQ4cDFPdlprcnU3S0xrcVUzQUxxNUln?oc=5",
           "pubDate": "Thu, 08 Oct 2026 05:20:13 GMT"
+        },
+        {
+          "title": "SVP, Exposure Management, Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcTU5Nm5lTlM5RGdPZHFuVmx4cFFzNEtmb0ZmWVN5VktoQ2NQM2pqMmYxUTViU3Z5LXZGOVZMMWwtc1FqRDhXRy01cFMzSWt1U0RHM01OSFk2TVhPeDdSLUZNdGYzZlU3NVNoel9NMlFOMUhaczBJOHdoRWU1dXdKMXo5UmNybWhWel95TlRfMURqS0cyTTN3bm13NEhZR28?oc=5",
+          "pubDate": "Thu, 24 Sep 2026 04:50:25 GMT"
         }
       ]
     },
@@ -1058,10 +1058,10 @@
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Weekly bonds outstanding - 14 August 2026",
+          "title": "TCorp economic podcast",
           "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56WEtPOUhCVUVQeWEtc0xsV3o3amhsTUotUWwwSjloMmxLWXlTSEFjeVNxZXdqQmZVVzJSem92ekRKQ1lnU1UyNjFRR002RDI1MDVnSzBHVG5KR2h2QlhXblV3?oc=5",
-          "pubDate": "Tue, 18 Aug 2026 18:12:45 GMT"
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00YTMyOUhnVzZGNGwxUWk1a0lQNk5WZFBBWnRsV1hEU0hCU1VNN2ZJZlJoMWtCVmhVRHVpSWNkcFdWMWdfVkY0YS04ZHAyV1RIZ2U0WlVUOHZKay1ZM3ctR09GX2hGSks0LUVDS21ieEw?oc=5",
+          "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         }
       ]
     },
