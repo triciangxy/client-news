@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T04:59:59Z",
+  "generated_at": "2026-10-12T13:01:40Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.35,
-      "change": 1.0999999999999943,
-      "changePct": 1.5438596491227992,
+      "price": 71.9,
+      "change": 0.6500000000000057,
+      "changePct": 0.9122807017543939,
       "currency": "HKD",
       "prevClose": 71.25,
       "dayHigh": 72.7,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 100600.0,
-      "change": 1100.0,
-      "changePct": 1.105527638190955,
+      "price": 100500.0,
+      "change": 1000.0,
+      "changePct": 1.0050251256281406,
       "currency": "KRW",
       "prevClose": 99500.0,
       "dayHigh": 101600.0,
@@ -416,6 +416,12 @@
           "pubDate": "Tue, 23 Jul 2024 10:50:35 GMT"
         },
         {
+          "title": "Shinhan Bank Personal Banking",
+          "source": "신한은행",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80X0owWmZJZ3NnQzAtNWh1VWJ4YWQwTnNxWXpqYUZ0NTdFWWdEVUUxdFR3LVpJTk9CQTFyWk5mZVVpb2lRX1VsaHU1Q3M5QQ?oc=5",
+          "pubDate": "Thu, 18 May 2017 08:47:26 GMT"
+        },
+        {
           "title": "Shinhan Financial Group-CoC for Partner Companie",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PSXJORURBUEtkckw1X1dyNEdVS3B2MGpZZ1FCNjlwcktHa3NJQXVlTWdoWlZfUEJyWWZ4UDk3VmtZd0RpcFcxT3VQTFZEdHlkbjBXaHAwVkM5dGwz?oc=5",
@@ -426,12 +432,6 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81dXFscUlqa3ZWc25tUUxDTGJtSVlDUGRZQ093blg2U1ZuQ1NXQ3BOZnhLeHgtVGxRZGdlSEl4OWZoS3NkU1FGdDdtWXdCdVZBbGJQNHpFUQ?oc=5",
           "pubDate": "Thu, 25 Jul 2024 11:10:13 GMT"
-        },
-        {
-          "title": "Shinhan Financial Group-ESG Evaluation",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zREN1cTNSOFRCUHpSMFpscWtRdDlSX2N5V2tCU1RPZDlJRndlRkc5LXRZa0ZLaHFYOVpzbU9JZUNTR0VsX3FLZnZJMnVoTEJaQ3czYWs0M28tbXluTHlENDhyNU1rdw?oc=5",
-          "pubDate": "Wed, 24 Jul 2024 01:23:56 GMT"
         }
       ]
     },
@@ -632,16 +632,16 @@
           "pubDate": "Wed, 23 Sep 2026 18:58:37 GMT"
         },
         {
-          "title": "Senior Associate, Assistant Vice President (10 months LOA cover), Global Finance Operations",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOX08xbVVveDlkZnBobGlZWnVtMzZOemhraXdJMVlUUVI0eVhneXo5Q19GdjFoSFcyd1VkRzI5UFRPZkxqcXdhRmVQMXlPQWUzUVE1Q2RVZXZGQkp0M0RSTFk4bnJna0NIMXA2TllRU2k5N3ZGR21xRmFNX1hXb3FFU3pMQnk0N2p3eGtDQ2JtQW1MVEp3ZlRIMEh4aG1OczF4LTZkY3c0bVpqSm8yQjI4VkFUWGsxcmtRY05BQzhZcVRuWEozRHB5eW1PWnJkSjlCWk1HMDhsMVVaeWdEeXJKdER6ZkxFRWVfdHZmWGQ1ZjJQc04xT2JfSTNQZUNGMDFVZzVHUmRTa3FZNXc0dExmMDZyOUx2QmFtT1VGbDB3?oc=5",
-          "pubDate": "Sat, 12 Sep 2026 08:01:56 GMT"
-        },
-        {
           "title": "Vice President Agentic AI Platform Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeGFmTnFGLW4zWDRBaTNLWVYzbHN1SjV5ZllmTFAtMGFKZGtIVGt4aFoyTXl4RlRBaUs5QmxlclBKb29QS2o4eTk4clpsWjlrM19PMFNSeFpYd01jNlZIRE0xME5mdS1OWFJhWk9JbWhUT0MzeUQ5T0dpQk1Uenl1NF9KZEMzR2MxMlhMYy13?oc=5",
           "pubDate": "Thu, 17 Sep 2026 06:30:36 GMT"
+        },
+        {
+          "title": "AI and the Energy Transition: Enabling Efficiency while Managing Trade-offs",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVEFMMnRmT2plWkdNcG5LdGxhTXlsVm1MUGt1MUE1d0xVbnpLVWdRanBnUUQzSjZEUkJiZ0k3YnlYWE9nSkdaYnpOQmZmdXJUS05nTjVkbGROWXlmemdJek1jYzY4MVV5LW1oVXI1eEEwSzRoUmF6WGlxbzhfVGJ0WWFiM0dtVWV5SmppN2F4RUp4YXlmbzFiLTlqMThGd2RtYXBNNlNYVllxeDFzalBMMllmVnh0eG5XU29ZSFREdzhVMWVzY19RRUFJSVUxelVxMWhDTVc4MUpjMUtvd3JER3YxUUtRbkc3ZU54M21fY3JwOGFDdUhjb0ljMUhiQm14dEE?oc=5",
+          "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
         }
       ]
     },
@@ -934,6 +934,12 @@
       },
       "items": [
         {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
+        },
+        {
           "title": "How to stay safe from sales tactics and scams",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
@@ -986,12 +992,6 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
           "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
-        },
-        {
-          "title": "FY24 Hostplus Pooled Superannuation Trust Financial Statements June 2024",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQU3U2eWtLMU1oci1GZ0JVSVVpZWVRS0lCOE9OakY2VmkwTHZIRVp3MWI4UmtBcFVjcTZjZ0lrd0RzQWRGLW9qOHNhSE1aQjdoOFI5cXB3M2lPTDU1TXA5bFBFY3JGdGZrT1RiMkVBY29ZT1Q0QWJpTW1mYTMxd0F3R29fXzUycmpHUDN3OU00VWFYSTEwdXNOQWc2WHZ4UmJFNkZWNlpGRzR2ajdBQ0Q1UXFjZ3FVaGZkV0ZwYjkxTENVaW0xcmd6ZlJxMURpNlNRNXotZG04c0Q1aG5uYllPS1EyM2RMb2FrY0lWNm9NLThuU3R3RmF6Qjc5RXRLcHpodmR5N0gwdUFXZVl1LUtIaGNCUnptYWlKMkFyZXVR?oc=5",
-          "pubDate": "Sun, 30 Jun 2024 07:00:00 GMT"
         }
       ]
     },
@@ -1034,12 +1034,6 @@
           "pubDate": "Thu, 08 Oct 2026 01:32:29 GMT"
         },
         {
-          "title": "TCorp prices a A$2.5 billion 2.50% 22 November 2032 benchmark sustainability bond increase",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxkUklka19OUUE5Y1c3cUIzcWZrMk5ENFpQUmlRZnZtMTZNLXdHMzNHdTh1T3NOWHc1bUYzSUJKeWQydmxzQ1dRUU54bGFEN1paZmtxS2N3ZExTZEY4YXIzRUd3ZmkwTHJSNHlTTVZBQVVHeVgxSWlIRE5ubE5PTkk4OG8zYkZERm9oLTVjRDcxM2dpR1N2NUJwOUlmbkVnMXlQZU9wZE5HeXJlbE1iNkV4OGM0eV9IM180NHhDNmhPWG5hTGhhTzctWF9fOWctN2drUEdDdzFRbXZXZENv?oc=5",
-          "pubDate": "Fri, 20 Feb 2026 08:00:00 GMT"
-        },
-        {
           "title": "Monthly economic report",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzNnVkclVraUFrUThPNmtBZElJMUQ2VDloUFlrTzhGSmp5azZiWFdHWHUwU2FQQzRYNzAydDJDU0VncjFvbWlXZWZtTUNjZXR0VVdNcndiS3hjdl9TQTA0VTNGb2I2N3BNTjJ1NnMzVUJmNllLNkpn?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWFjTlRHeU5IYXVocnYxYzdLUHkyZ2UtTkh2R0c1bEhlaklCSkdtUlZ5X0VzYWg2Rl9fWE9mNXhHMHFfX1Bob2RyRDc5ZUNQYTVRWC1ZY1RTSkdFblZBOGFfWmttal93VFJFeDcyS2JmQk42M1p2cDMxcDNZUGhrSDRjNmprV1BTWm1YUDdsdmk1WElGSExnUmVaRWg4emNBR3VKeVJnRFBPX0RKNGZRb01uQzdpQQ?oc=5",
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Weekly bonds outstanding - 14 August 2026",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56WEtPOUhCVUVQeWEtc0xsV3o3amhsTUotUWwwSjloMmxLWXlTSEFjeVNxZXdqQmZVVzJSem92ekRKQ1lnU1UyNjFRR002RDI1MDVnSzBHVG5KR2h2QlhXblV3?oc=5",
+          "pubDate": "Tue, 18 Aug 2026 18:12:45 GMT"
         }
       ]
     },
@@ -1084,6 +1084,12 @@
           "source": "日本生命保険相互会社",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVNNY1JGa0ZMZEhHcDVjVEpTYkFDWkw5N1BTWUpTdEJuRVFwT1BELWpETDROY1V3ZDlXcjZ3blBJRXptYUZuMEl6SUZEbkhoLXJCQUI1SXNkVktDYlFENVNCbzBLQ194VHpyYVFIMnVDVHEwVm1wY19oblB3QnJCVmJTMVl0Qk1uaGJYRQ?oc=5",
           "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT"
+        },
+        {
+          "title": "About Us | Nippon Life Insurance Company",
+          "source": "日本生命保険相互会社",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJSjFuODQ1RTc2bkF0UXdBTXFVQjZNTnhoT05mTEJUcVhfSmNUTGMtOWZ1clQ1TnZxRHI0c1NWLUxzc1NIRVgzQ2NlSE0yT1k?oc=5",
+          "pubDate": "Thu, 29 Jun 2023 10:17:31 GMT"
         },
         {
           "title": "Investment in the European Infrastructure Debt Fund Managed by DWS | Newsroom | Nippon Life Insurance Company",
@@ -1126,12 +1132,6 @@
           "source": "日本生命保険相互会社",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1MnZuUlhnTk5nQ2RUbU9JUlUxOF9kb2V2bi1xUEZoa1o2XzFOMDEweC1GZ1hZdmNpQUVweXViRVppd3VxblFEdHYxLXZqYkhEVERIcVp1R2RzQnZ2Qk9ObEZ2RQ?oc=5",
           "pubDate": "Sun, 23 Nov 2025 22:15:14 GMT"
-        },
-        {
-          "title": "Reports and Publications | Nippon Life Insurance Company",
-          "source": "日本生命保険相互会社",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
-          "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
         }
       ]
     },
