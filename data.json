@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:39:49Z",
+  "generated_at": "2026-10-14T14:55:53Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -444,34 +444,16 @@
       },
       "items": [
         {
-          "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
-          "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1LQm02YUFLaDR6bUZHRnJOQVR1dnJFTTZTU0YteDlUUzZ6X0lMZTFXZFpCOHRwODdJWmRBUmJwSHk?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 18:14:49 GMT"
-        },
-        {
-          "title": "Management Strategy | Company information | SUMITOMO MITSUI TRUST GROUP",
-          "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oX2dOdGlRN3NiSTZpS0s4eDhpdXNzdU9GQThmSHRtaDNjeV9aalc5YkxYQjJ0elhhY0tDZDVpZTFxMEdhcE43Z2FncV9WSVV4Ym5TVExKVG0?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 22:59:49 GMT"
-        },
-        {
-          "title": "Investor Relations | SUMITOMO MITSUI TRUST GROUP",
-          "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TQ2VydlZHQWZZNXc4bzFRVDB4aGdpWEw5djl0NE56WHIzaUdyZlNmQld6LXF5dUd4dHZKTjc5N2JHdUY3ejltY1NCY1RyZw?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 00:02:27 GMT"
-        },
-        {
-          "title": "Integrated Reports / Annual Reports | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
-          "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qWklWZHhFaGQyM21fTUhGV2JEeXhGVDZibUhTSFo5Z0NrSTFWQVk2U3NCbEY3SG1yRWZCZnhpaXBYZTdaWk1DdkxqMlJQSmt1dFh2V2tjWE1sMlZUVUlVN0hBZVJ2UQ?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 00:06:08 GMT"
-        },
-        {
           "title": "Shareholders' Meeting",
           "source": "三井住友トラストグループ",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZaXdrMVgydUt5XzJ5Y0huaXNuVXBDRXBVM3FLa2VTOXRhVjEzb0w2dzZJZ3o5b24zM0x4X3BzbEpuRWpOZlcxVHlnN2htLUE3OEJaS3hxVHpGUm8wY1NLTw?oc=5",
           "pubDate": "Sun, 23 Feb 2025 22:36:20 GMT"
+        },
+        {
+          "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
+          "source": "三井住友トラストグループ",
+          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1LQm02YUFLaDR6bUZHRnJOQVR1dnJFTTZTU0YteDlUUzZ6X0lMZTFXZFpCOHRwODdJWmRBUmJwSHk?oc=5",
+          "pubDate": "Sun, 23 Feb 2025 18:14:49 GMT"
         },
         {
           "title": "Notice regarding Change of Directors and Executive Officers in Sumitomo Mitsui Trust Group and Sumitomo Mitsui Trust Bank",
@@ -480,16 +462,16 @@
           "pubDate": "Thu, 26 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Financial Data | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "title": "Management Strategy | Company information | SUMITOMO MITSUI TRUST GROUP",
           "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12WlRZRVNPenhUQUpuUnBMRjRQOGdxMGw0cmw1UVY3UXlvLVNkV2VybGY5dWZ4UUxnbklPdVVtNUdvWWhja2Y0LW5BUEtfaTlQM0FRV3NYWFdwX1U?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 07:47:31 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oX2dOdGlRN3NiSTZpS0s4eDhpdXNzdU9GQThmSHRtaDNjeV9aalc5YkxYQjJ0elhhY0tDZDVpZTFxMEdhcE43Z2FncV9WSVV4Ym5TVExKVG0?oc=5",
+          "pubDate": "Sun, 23 Feb 2025 22:59:49 GMT"
         },
         {
-          "title": "History Sumitomo Mitsui Trust Group, Inc.",
+          "title": "IR Presentation Materials | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
           "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mY3ZiT2xvazdNdm1MbGpvbW1tZFRISE16MU50QlVCaDhoSktwWV91T3VWeXF1bUJlS1Rfa1ZOdEcwYmFKTjlwUF9kNExna3E3WWVWUXl5eHpwRU90MzZwTmt5WnpvM0N0d3Bj?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 00:09:02 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFbVlxbERPQy1OZlpna296TGJMRjB1RWc4dkdNTWRBaFVaRjJtN2ppWGlydjk4QW9Ld1hJNjBYdnpNaG5wbVg4SEItaTIzVFJla2lBWVVYN2tHRExTSnNIdmczdUc1QTdC?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 01:44:06 GMT"
         },
         {
           "title": "Directors and Executive Officers | Company information | SUMITOMO MITSUI TRUST GROUP",
@@ -498,10 +480,28 @@
           "pubDate": "Mon, 24 Feb 2025 01:55:44 GMT"
         },
         {
-          "title": "Human Capital | Management Foundation/Governance | Company information | SUMITOMO MITSUI TRUST GROUP",
+          "title": "Financial Data | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
           "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBydTB2dVdNc2d0ZVlZWi0wRkF0cHhqTmRPT0NMUUptUXc0TzFTNVRhQ09ZaEw2WFhLM1lrREx4c1lLRl9xNHBrOUp3bGNyc2g5ZHMydmJnT08yV3pMSEZCNDBDbXB2LVFtODB5VEQzM18?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 23:05:03 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12WlRZRVNPenhUQUpuUnBMRjRQOGdxMGw0cmw1UVY3UXlvLVNkV2VybGY5dWZ4UUxnbklPdVVtNUdvWWhja2Y0LW5BUEtfaTlQM0FRV3NYWFdwX1U?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 07:47:31 GMT"
+        },
+        {
+          "title": "Integrated Reports / Annual Reports | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "三井住友トラストグループ",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qWklWZHhFaGQyM21fTUhGV2JEeXhGVDZibUhTSFo5Z0NrSTFWQVk2U3NCbEY3SG1yRWZCZnhpaXBYZTdaWk1DdkxqMlJQSmt1dFh2V2tjWE1sMlZUVUlVN0hBZVJ2UQ?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 00:06:08 GMT"
+        },
+        {
+          "title": "Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "三井住友トラストグループ",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TQ2VydlZHQWZZNXc4bzFRVDB4aGdpWEw5djl0NE56WHIzaUdyZlNmQld6LXF5dUd4dHZKTjc5N2JHdUY3ejltY1NCY1RyZw?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 00:02:27 GMT"
+        },
+        {
+          "title": "SuMi TRUST Covered Bond",
+          "source": "三井住友トラストグループ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LMm92aFVjUGNpejlpbl9CaU5iRHVGaTRxa0l2TXdWQW1wMEFxalI3SklhMnNia2ZTaTFIaUVVTlVXTXFDUjBEM2diRTdzdmFndUdKSWQ0V1lTODhVR2UwZm4wRWczTDJVOFE?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 09:05:22 GMT"
         }
       ]
     },
@@ -632,16 +632,16 @@
           "pubDate": "Wed, 23 Sep 2026 18:58:37 GMT"
         },
         {
-          "title": "Associate/Senior Associate, Public Affairs (Content Strategy & Storytelling) Job Details",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOXzV2QXZDdmYxYjExZmhlN2tiN2pMT0VtZ1oyOXk0RG13SGpaN2xRMUMxVGJFQWZiVDY1blNHRUFTSVB1QUxfZ1F2Ul9CVl9MQkIwN0RVVEg3YXF2ZjROUGhJdm91cDV2OWxZMFdoNWFDS0w3aWg2U0lQMFFmUmIyZ1ZKVFFaeWhwbW9Ub1hPT2lFcHExcER4alZyR3JlV0hyZmxXZjR2MlFzRDAyaVZRRmVCY1VVRWROQnFrcEJjNGVxZ0tvRlFJaGpUMFI?oc=5",
-          "pubDate": "Mon, 14 Sep 2026 12:24:45 GMT"
-        },
-        {
           "title": "Temasek Appoints Susan Wagner to its Board",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWjY2RHhIdm1CTkhGWGxTVlBrVk93MFFLczRnazk3MFZUTkM4RUlSTzBLcUJ2cTFzWlpCZExuNV9XQ2FSMmtzSFgweXIwWVUySTFTYmF4QjRVYkJQeHFUZkVCS01OLTU1MUR0aXpaRDhaZTl4Wl9reHVkZG9DVlRhVDlsbnNGUmMwZmdjdHJHTHhoc3gxZW1XQ2RpS25vMjdYU0o3U2tiYjZMZFd3bmRfXw?oc=5",
           "pubDate": "Fri, 25 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Senior Associate/Assistant Vice President (12 months contract), People Technology (Business Analyst)",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeDY4QmdiV3k2ay1vbXhhb3RkVEZwUi1fTzJ4dHV3YTNCNFlUdm5lUFROM19OaHB6TmF6WWYwZGdGU2psS2I0MF8tOVdtS1NNZ1RlYV9IMVl2TDg5ODQ3S000cmk2SHBFbnJmWmQ3cEZTUXJlVlNVX09kVFF1czcyLXJabEFqQ1EtTzFEUHRfaVBJS2QyLU9nVjI5Mk14SGNXQmtHRHpNQWZLai1Cbldfcm1VRmExdlc5NHJpUEJZdThpN2ZQX05xVXpyRzA5QmdKek9CSHlQaDN5Z3BWcW1RMTJ5UFpQUFV6TnNCeFFNODltUQ?oc=5",
+          "pubDate": "Tue, 15 Sep 2026 13:00:42 GMT"
         }
       ]
     },
