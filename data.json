@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:03:22Z",
+  "generated_at": "2026-10-14T09:39:49Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.8,
-      "change": -0.25,
-      "changePct": -0.3422313483915127,
+      "price": 72.75,
+      "change": -0.29999999999999716,
+      "changePct": -0.4106776180698113,
       "currency": "HKD",
       "prevClose": 73.05,
-      "dayHigh": 73.2,
+      "dayHigh": 73.5,
       "dayLow": 71.85,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 95800.0,
-      "change": -3900.0,
-      "changePct": -3.911735205616851,
+      "price": 95000.0,
+      "change": -4700.0,
+      "changePct": -4.714142427281845,
       "currency": "KRW",
       "prevClose": 99700.0,
       "dayHigh": 99400.0,
@@ -272,24 +272,24 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1681.0,
-      "change": -51.5,
-      "changePct": -2.9725829725829724,
+      "price": 1678.5,
+      "change": -54.0,
+      "changePct": -3.116883116883117,
       "currency": "JPY",
       "prevClose": 1732.5,
       "dayHigh": 1720.0,
-      "dayLow": 1676.5,
+      "dayLow": 1673.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3111.0,
-      "change": -97.0,
-      "changePct": -3.0236907730673317,
+      "price": 3093.0,
+      "change": -115.0,
+      "changePct": -3.5847880299251873,
       "currency": "JPY",
       "prevClose": 3208.0,
       "dayHigh": 3216.0,
-      "dayLow": 3102.0,
+      "dayLow": 3082.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -632,16 +632,16 @@
           "pubDate": "Wed, 23 Sep 2026 18:58:37 GMT"
         },
         {
+          "title": "Associate/Senior Associate, Public Affairs (Content Strategy & Storytelling) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOXzV2QXZDdmYxYjExZmhlN2tiN2pMT0VtZ1oyOXk0RG13SGpaN2xRMUMxVGJFQWZiVDY1blNHRUFTSVB1QUxfZ1F2Ul9CVl9MQkIwN0RVVEg3YXF2ZjROUGhJdm91cDV2OWxZMFdoNWFDS0w3aWg2U0lQMFFmUmIyZ1ZKVFFaeWhwbW9Ub1hPT2lFcHExcER4alZyR3JlV0hyZmxXZjR2MlFzRDAyaVZRRmVCY1VVRWROQnFrcEJjNGVxZ0tvRlFJaGpUMFI?oc=5",
+          "pubDate": "Mon, 14 Sep 2026 12:24:45 GMT"
+        },
+        {
           "title": "Temasek Appoints Susan Wagner to its Board",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWjY2RHhIdm1CTkhGWGxTVlBrVk93MFFLczRnazk3MFZUTkM4RUlSTzBLcUJ2cTFzWlpCZExuNV9XQ2FSMmtzSFgweXIwWVUySTFTYmF4QjRVYkJQeHFUZkVCS01OLTU1MUR0aXpaRDhaZTl4Wl9reHVkZG9DVlRhVDlsbnNGUmMwZmdjdHJHTHhoc3gxZW1XQ2RpS25vMjdYU0o3U2tiYjZMZFd3bmRfXw?oc=5",
           "pubDate": "Fri, 25 Sep 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Senior Associate/Assistant Vice President (12 months contract), People Technology (Business Analyst)",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeDY4QmdiV3k2ay1vbXhhb3RkVEZwUi1fTzJ4dHV3YTNCNFlUdm5lUFROM19OaHB6TmF6WWYwZGdGU2psS2I0MF8tOVdtS1NNZ1RlYV9IMVl2TDg5ODQ3S000cmk2SHBFbnJmWmQ3cEZTUXJlVlNVX09kVFF1czcyLXJabEFqQ1EtTzFEUHRfaVBJS2QyLU9nVjI5Mk14SGNXQmtHRHpNQWZLai1Cbldfcm1VRmExdlc5NHJpUEJZdThpN2ZQX05xVXpyRzA5QmdKek9CSHlQaDN5Z3BWcW1RMTJ5UFpQUFV6TnNCeFFNODltUQ?oc=5",
-          "pubDate": "Tue, 15 Sep 2026 13:00:42 GMT"
         }
       ]
     },
@@ -912,16 +912,16 @@
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         },
         {
-          "title": "National Pension Guide for Foreigners",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zdlN0a0hSZWdMVlRheWNFMjlQRW5SaHlzMzYxMUUtLWdGa2hYZ2x0NU45dmZfRnhfLTQwSzRyMEcycG9vbVRiRC1uR29CREtYWUxxc0dvS1FLcWtibmJrTjRoUGpmMGFrdjlMdUNn?oc=5",
-          "pubDate": "Fri, 07 May 2021 02:57:01 GMT"
-        },
-        {
           "title": "National Pension Service",
           "source": "국민연금공단",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbmI1UXU3cVUzRjlOeEdLNjZsN19velN6WktSaE9TOFhqNDFlVzQ1N2hsQ2phMnc3WEI0U3JLYk1NdzVWdWxDdS1LNVg5MkxxQjJ5UV96dXduLXRzWFNpcVhDTkFYX1FocUNoZGRkTlFsOHUzcXVNQ3h1aWxWVXBOMDZJQ0k2VWxEX3lpME40WU9aUQ?oc=5",
           "pubDate": "Wed, 07 May 2025 04:17:22 GMT"
+        },
+        {
+          "title": "수탁자 책임 활동 보고서 영문 09.13(표지 앞뒤).indd",
+          "source": "기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxnVlBySng2YnFUOWV1OFo0U1NpbHdzZVlhRmcwTTNoell2MmVsUGFGME9iWlY5QTh3VGdudkpSQWlIQWxyM2lDMzhZM0xuREszbEJuaW9MNEVUU2M5REdWX1pDNURWU3ZxMmJ1cjRVc1N5aDcycHNUQW05OU0tWm9SRjJTakpGeUhfVzVJMU9ldHBRWV9JZUhkQkwyckZRTDB2YUZjaDREdkNNVUE?oc=5",
+          "pubDate": "Thu, 26 Dec 2024 05:56:17 GMT"
         }
       ]
     },
@@ -940,58 +940,58 @@
           "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
+          "title": "How to stay safe from sales tactics and scams",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
+          "pubDate": "Mon, 10 Nov 2025 05:13:00 GMT"
+        },
+        {
+          "title": "GOVERNMENT SUPER CO-CONTRIBUTION",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXJCQWZMSXd2VE5DSDFxVTlZZklFVERtYXdGa1MwNFVHRmJPRkl2U3QxTnFtV2Q0OTg5UzhOUndLcFhhaHpSa0VuQlJkUS13eHJ3OWhsT056NW1sLWpXSmlIbEZwVDBZYzhseWt5R3NhNnpkaWdwNUl0QVNFOHhIbkZmbDZvLUdzNVoxdXQtQWl4NDRZRUZrSHB4b1B0WHRkWTdEMmZ4X1V3YmZkVUJ1WW1rNzRCQ2U5cmZralBvX2dNUUgyWi1xZlBxQzZiRVFRSHJxUWZ1TGY4RzA?oc=5",
+          "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Meet our trusted Financial Advisers",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
+          "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
+        },
+        {
+          "title": "HOSTPLUS SELF-MANAGED INVEST ANNUAL REPORT",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
+          "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
+        },
+        {
+          "title": "HOW TO TRANSFER FUNDS FROM A SELF-MANAGED SUPER FUND (SMSF) INTO HOSTPLUS",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVFo0bXg5d3NHdHgxZmt0dnN2SXVoNTJCUDVXYm1BZ3dUVlZKZEpUVS1mYWMxcmh2VUt5UjI0WTVvVl9sWXdJeU52NDM2cjJ1UkNHSWg4X3YwajlxTWJRRnhjazRXaGZQYUduYWYwbk1nN1VIT2NvU3ZnZHVwT1J0YVQwdmRXVUVsdjVpUmpFZVVNX0JfVFN1aUJucUEyMl9IV3J4TE1RSVZfSTMtcHhncVVacnRLS3hfSVlaM1Y3Y2ZmekwtRVdoZWQyRFEydGM?oc=5",
+          "pubDate": "Tue, 16 Dec 2025 10:21:42 GMT"
+        },
+        {
+          "title": "Pension end of year performance December 2025",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
+          "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
+        },
+        {
+          "title": "Understanding market declines",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbVhWNFVTbmZqanMtaVpnOWJzWGxzX0d4V0xXY0UxbjRZekRFeFhQTGRVQ3JlMV90a1FCN3hOZTlLRmhncG5DZlZyRUkzWW9tQ3VOWlJ2ZURtbzN2bUZFQ2VxODl2S09meEVfZGRxdlByaTAtZjNPWTByRU1zeDk1VmNGc1MtLWhQTE52ei1hZHlEZkk?oc=5",
+          "pubDate": "Fri, 29 May 2026 19:06:18 GMT"
+        },
+        {
           "title": "Retirement Bonus",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
           "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "Hostplus Statement on Cyber Incident",
+          "title": "CEO Message: Cyber Security Update",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qbS12elhfelJ3ZnRBeVZPc0dhMERNaFNoMEZraWZERVZtUDM3aWNiRkJrVlk5MU92R01LWngzTlRyaTRDZEpZLXh3RmlLc1ZXbl9HQ0dfekhsYW9CSURwZ0N3R2NYWkFMcE12SzhkY0JxNVJKTUlBR1hNNEZlN1E?oc=5",
-          "pubDate": "Fri, 04 Apr 2025 07:00:00 GMT"
-        },
-        {
-          "title": "Hostplus Investment Performance Jan-March 2026",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV2xHZ3FYbVFFN3haMldheDFGRmFVOXdIRE1YaFU5RmtfOF9NMXliWUJkbG9aMnFEaGZfTGozMDZhbUVjbW4waEFWbWFZb21QOGxDdVJGMjFkLTUyRU1JWVdTWFhVckxUT3FFSWRialB6OXVTZG96NWJvVnN5a0JZdUE5bDdhX2d5dlFqMDM4WHhuRkFfMVRod3EzeTRsLUxVRE4wSEgtRmNUT09tVjdIRllOcHM?oc=5",
-          "pubDate": "Mon, 25 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "HOSTPLUS SUPERANNUATION FUND ANNUAL REPORT 30 JUNE 2025 Registered Address of the trustee is Host-Plus Pty. Limited Level 9 114",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMWJKM3VhRzV1cGlJNXVTdUJvUEctc3pxWlduSXBUYjZyU2ROZTJjWkMtZzdOSEdTVGVvdlJYdXJHMko2TEpibEVFWk1FSm5XTHFNekF1UzJMMUtBZ3hWbVNQWW5oQ0ZzRW16dXV5dExTVVRrMFo5THByVkFpRm12VHVJQmxpMEVaT1lwOTlwSHY5VDBmbXdQcVpqNDhFeWFWWmtYa3AtRGdwMXkzM1F5Qk0zUktfaUN5dHRSUkF1WEExUWFzMnUtZ3duRnhLcEk4RmdJaXJYd1publpyWnQ3ODFySFhGSG9ib3FYZFVMTHEwcXpycGNyaUItR3dneFVwWTdzRE5yMXRXdw?oc=5",
-          "pubDate": "Mon, 30 Jun 2025 07:00:00 GMT"
-        },
-        {
-          "title": "frequently asked questions - Payday Super",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05OHhwZ2ZYRV9mOElpTzN5aUlmb3p4YVZhWndTcXhxRDB3djFRRFBsUEdDWEIzWFlXZThoWXpFVDRlRjlYbUNKQ2gza3ZyQlhneFVVekhpcGZDdWgwbE5RY0pZSFVqTUJMRHBlV19pRk9DUjJQMi1mN0ZjQlVNQQ?oc=5",
-          "pubDate": "Wed, 24 Dec 2025 01:20:21 GMT"
-        },
-        {
-          "title": "Hostplus members rewarded with strong FY26 returns",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
-          "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Adviser Online Tech Support",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX292RXFEQjRoaHZYZTJFYUp5Mmc3ZjhzWDVza1JYdWkxa21YV29WR1lQUWlWYWhhMXpmNUk2WF9Pb2JMOGdMLURLTlQ3cmlhM0lzbUVVbDc2YXROZDdsQloyZWFJSmFzWmNVYVZqMHFpWlB4dVpwa0lKNHZ0cGVPd0prOVcwZWc?oc=5",
-          "pubDate": "Fri, 14 Aug 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Statewide",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zMHBKc0piTGx3azZvVDdVM09CdVhkdHB1Sm5OSUs1WkU4anNodDZ6MXVIb3BIM1cwZmlwOWRiYndwNGU0WlJ6OXd3aFY4alJzX3pQNGdVLVF3dTVrT1Rj?oc=5",
-          "pubDate": "Fri, 29 Apr 2022 07:00:00 GMT"
-        },
-        {
-          "title": "Introducing 360Health for Hostplus members",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONFF3N0RJVmRQVEJOSGtJX0s0YWlyajY5RUo1SWVBWDVnQjhITmR6ZTFSMXNoNmYwUF9DZktVZW0tX2I2U3FZd1p4QVBHMFpfcjg5TnFTRXpBdXBKdUlsd3NJZTR2Q3RUaTJFZzFjRXI1VExGTGlDa3NVSUdidF9BdGJzUHNFN2VXSlRJZXNmRElrWjZaZjhnNHpB?oc=5",
-          "pubDate": "Thu, 13 Nov 2025 16:53:05 GMT"
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UjZfX1UyS2diQ1BrN1ZMOW1fckZnWV9RZXU4RWJMNGRZSTVaN1pPTGRXelFDS3gzcHQ3VXM5NG1ON0NKMndqb0R0bDloakFXcU8tT0hQdVFnemtmdnZxT3Q4NmVZbWtoeFE1SA?oc=5",
+          "pubDate": "Sun, 06 Apr 2025 07:00:00 GMT"
         }
       ]
     },
