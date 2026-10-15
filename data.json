@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T14:55:53Z",
+  "generated_at": "2026-10-15T03:45:38Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 72.75,
-      "change": -0.29999999999999716,
-      "changePct": -0.4106776180698113,
+      "price": 72.65,
+      "change": -0.09999999999999432,
+      "changePct": -0.1374570446735317,
       "currency": "HKD",
-      "prevClose": 73.05,
-      "dayHigh": 73.5,
-      "dayLow": 71.85,
+      "prevClose": 72.75,
+      "dayHigh": 73.95,
+      "dayLow": 71.65,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 95000.0,
-      "change": -4700.0,
-      "changePct": -4.714142427281845,
+      "price": 93500.0,
+      "change": -1500.0,
+      "changePct": -1.5789473684210527,
       "currency": "KRW",
-      "prevClose": 99700.0,
-      "dayHigh": 99400.0,
-      "dayLow": 94300.0,
+      "prevClose": 95000.0,
+      "dayHigh": 95000.0,
+      "dayLow": 92400.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1678.5,
-      "change": -54.0,
-      "changePct": -3.116883116883117,
+      "price": 1662.0,
+      "change": -16.5,
+      "changePct": -0.9830205540661305,
       "currency": "JPY",
-      "prevClose": 1732.5,
-      "dayHigh": 1720.0,
-      "dayLow": 1673.5,
+      "prevClose": 1678.5,
+      "dayHigh": 1678.5,
+      "dayLow": 1646.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3093.0,
-      "change": -115.0,
-      "changePct": -3.5847880299251873,
+      "price": 3041.0,
+      "change": -52.0,
+      "changePct": -1.6812156482379566,
       "currency": "JPY",
-      "prevClose": 3208.0,
-      "dayHigh": 3216.0,
-      "dayLow": 3082.0,
+      "prevClose": 3093.0,
+      "dayHigh": 3086.0,
+      "dayLow": 2996.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -303,6 +303,12 @@
         "query": "site:aia.com"
       },
       "items": [
+        {
+          "title": "AIA Healthiest Schools",
+          "source": "AIA Healthiest Schools Programme",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tSjdqTkVtSnk2UjI1M3ZhWUlJRkpXSlZCVHd0RzdHZTdBRXRnQkZxY2JDTkVRNi1FZTdZNXk5WXRfdGs1Y0lEQ1NocWlFSzdiNFdkS3BpY1ZkLUVQNnJYOHVsYjZXSVYtU0NHSFhGV01wbWp5eVkwR2x5aV9wMG8?oc=5",
+          "pubDate": "Fri, 18 Sep 2026 05:01:23 GMT"
+        },
         {
           "title": "Empty State Component | AIA Qi Design System for Guidance and Engagement",
           "source": "AIA Design",
@@ -356,12 +362,6 @@
           "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
-        },
-        {
-          "title": "Healthy Finances",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1S2lEdDJRMnNDQU02M2s1ZFlqUTVYdnR2VDVEMWQyV1ZtdDh0bzE0ZG1SWURueUxucDR5MGNGWm91RW91a0dEb2hGQno5TW40bnRub25KV0tLVGY4ZDFhaGlvSkdlTksyajBfclhObTMzdVZ5d0VlS3d3?oc=5",
-          "pubDate": "Fri, 22 Jul 2022 04:22:23 GMT"
         }
       ]
     },
@@ -380,7 +380,7 @@
           "pubDate": "Wed, 24 Jul 2024 02:04:00 GMT"
         },
         {
-          "title": "Innovation Leader, Shinhan Financial Group",
+          "title": "Shinhan Financial Group",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
@@ -392,7 +392,7 @@
           "pubDate": "Tue, 29 Oct 2024 05:42:05 GMT"
         },
         {
-          "title": "Ethics at Shinhan",
+          "title": "Shinhan Financial Group-ESG Reporting | ESG Report",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OUlZDN2dSU3lDT1lrZFJjR3FCN1FDQzZqN2xRaEQ5SDkxc3lJMUJVQzdJN0ZMc2kyamwyaUtZRHUtc0lZcHlpRTVMbnl1Y09vNXpwcUpzMWI?oc=5",
           "pubDate": "Sun, 28 Jul 2024 19:43:06 GMT"
@@ -660,16 +660,16 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
-          "title": "AVP/VP, Third Party Risk Managment, Operational Risk Management",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYUhGR0RfWVQwNGo4VjBLT3h1MVRCdXc3a0lrTVgxRzF2eWx5VHViNmNvVHVsLS0tR2UwRGh3N1FWNkxGeG1EdUdiRmxuMFdLNFpRelhPSnZrYm8xSm5Mbjlob0ZqTTRyR293M05WTVJjOGczRjVHVUd3UUdHV0dsVlFQa0NpYVhFVFdFQU9QY2ttVTFiWEJjSHlxRnQ2SmItVG0zSWJfM0VZMG1QZktTRzB4Y2RxTElvRkdF?oc=5",
-          "pubDate": "Tue, 29 Sep 2026 06:20:25 GMT"
-        },
-        {
           "title": "VP, Quantitative Research Analyst - Multi-Asset Liquidity & Execution Performance",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc2xtUzE4ZEVoNWxZR2tDcTltRG9wMDVLbURjVE0zVS1JWEtyRHlGNUUyX3pTaHhBcHNkMTNtTkFSUXBtNmVYcHg1M0x6Sm9ySElJN3p6Z2pTUkNzVGJFXzJManBWUEt4WDRqcmdQVG5DZHdDcXJlTnNRMkF2eXNxYnlyVVEyYjAxNHJEMFhRTzJhaVUwbjd5bjV5NHBTXzlMbXNxMHRuanpLQ2N5MTg3NHBYX0ZvaXlWVmI4bU9ldGFjdmFVR1dFSW5lZkZFd3M?oc=5",
           "pubDate": "Thu, 08 Oct 2026 00:19:14 GMT"
+        },
+        {
+          "title": "AVP/VP, Third Party Risk Management, Operational Risk Management",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNanIzYktCQ0tYOWxBdmJyYkdQV3N6akhaZVVOT053eGZtdU44eTkyblJSS1RlSDVIMG1wS1labXVyTl9fUDJUZXpLbUF2dDAyVXUxUzVVSGdsb2pYSl9qMHVKV3NfXzBPc21yNVdDdkdBcGhxRlFnMlhNcEg2SkduaFRjT3I5RmxCdENoY3hlRUthRUNINk5vSllQcFVocExtWkZjakVkWU1PeU9PYmVSVU5FcThwTTVpN2hYZw?oc=5",
+          "pubDate": "Thu, 08 Oct 2026 21:21:50 GMT"
         },
         {
           "title": "Event Information - The Secret Vault",
@@ -696,6 +696,12 @@
           "pubDate": "Thu, 08 Oct 2026 05:20:29 GMT"
         },
         {
+          "title": "VP/SVP, Identity & Access Management (IAM), Technology Group",
+          "source": "gic.careers",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRFVxclotenprcHRfWHJmRG8zazYtbVVwQUFib3gzQ3NKZV8yakdWQmxWUTBXNDU0YW5BV2hKYTJGM3Nyb05KU3ZYLW1UQWgtbVJ0YzdqRnZMOGFlWFJnTEhBdHZPTjhpR0QzMkFJN05mX25SbnVhVHh4VkpTNzBCdWVNNUlpc3E5dkkzVS1VRFl6c3oyb2lwd21CSzdmLWtIRVh0cWE3QTVRNnNWMFBlOVZ6WXNrVFNqNkVsUg?oc=5",
+          "pubDate": "Wed, 14 Oct 2026 13:51:02 GMT"
+        },
+        {
           "title": "VP, Network Automation and Reliability Engineer, Technology Group",
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDNHS21qbExhZGRueDNCdThoaGV3RE53UW5ha210allVTlJ1RDd0NUV4NW1sYWwzYVdYZ005YkRuNkpRM21SX1loUTNWSllnS3J5Y29lb20xV1h6ZnZDU0gzQWtQWFoydzdpYW56c1Nvb2FpQk40MWJXdkw3djlaWkgyb0hKOFhYTng2OC1lcU1ZZktfWUtkTHRTWHU0UEtTazY0eTJuNHFVak5BOFdhWXE5SEdXVUVvN2ZHVnlHYw?oc=5",
@@ -706,12 +712,6 @@
           "source": "gic.careers",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTFJ0ZkxsbVgxdjlLRzdxZ3lIeThTNXd6U1Z2dUNIQ3hsTTczOEJwN00td1lUcHYyWGVQaW9GRVkzUjRHR3c0eW16cGdYOERtaGMxQ2F6NjAzTnhLZ1B4aWdCYmNDVEZ2ZmVyalZueVZtYnMyb0lCdmJMUDNXY2hZa0RxdTIwQlN0OFVncDQ3aWQ4cDFPdlprcnU3S0xrcVUzQUxxNUln?oc=5",
           "pubDate": "Thu, 08 Oct 2026 05:20:13 GMT"
-        },
-        {
-          "title": "Opening Remarks by GIC CEO Lim Chow Kiat at the Opening of The Secret Vault, GIC’s First Public Exhibition",
-          "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdkNnVEJJSTNGZ19NSFVuWHlvRzF3WE5EQ2w4WlpSczVOUlEtdWl0MTF2NUcwSHdHWXhJMEV0dUZ6WnNoX01Tdm5NT0ZDbW9sc2l5MzhUbzJCMC1sY09NSzBuU0dubWU2X1JPbWV1eXZhalJUV2d6Mjh4TGNGdkJ6LUROWmtXeVlMUlZVYXZ5YUIyT0VaNG1aeEJKVTF6VHo4enJKZlhnSTl3NEszdDZJbkRRcTE2V2M4TGt4S0NWbXg1eExwOW43OEF6V0U2TnFZeUJCN09zZ2s?oc=5",
-          "pubDate": "Fri, 09 Oct 2026 09:01:39 GMT"
         }
       ]
     },
@@ -1046,12 +1046,6 @@
           "pubDate": "Tue, 25 Aug 2026 05:14:23 GMT"
         },
         {
-          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
-          "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
-        },
-        {
           "title": "Q&A with CEO of Weave Youth & Community Services Ltd - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWFjTlRHeU5IYXVocnYxYzdLUHkyZ2UtTkh2R0c1bEhlaklCSkdtUlZ5X0VzYWg2Rl9fWE9mNXhHMHFfX1Bob2RyRDc5ZUNQYTVRWC1ZY1RTSkdFblZBOGFfWmttal93VFJFeDcyS2JmQk42M1p2cDMxcDNZUGhrSDRjNmprV1BTWm1YUDdsdmk1WElGSExnUmVaRWg4emNBR3VKeVJnRFBPX0RKNGZRb01uQzdpQQ?oc=5",
@@ -1062,6 +1056,12 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56WEtPOUhCVUVQeWEtc0xsV3o3amhsTUotUWwwSjloMmxLWXlTSEFjeVNxZXdqQmZVVzJSem92ekRKQ1lnU1UyNjFRR002RDI1MDVnSzBHVG5KR2h2QlhXblV3?oc=5",
           "pubDate": "Tue, 18 Aug 2026 18:12:45 GMT"
+        },
+        {
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPaVctdHQ5aVc1NUxENTJ0c2dDV3MtVFR1ZldMVFZXeVN0NkRRYUlTUXZ3RTBGWnhUanMzTmpGblFtVm1kNWNheFFOdnRiS2NVZlQ2YXR1cVpsQ011WnNySThsWFBENmNvUTF2V29QUmc4ekFva1dzaGd3SkhsRG83aW1hdWtueWU5WGlUblhQOGc4S3FqOEZqSW5GVTgtNnB2eW82Z2NSTUlQb0FJRmNUY0tEN2ZjOGlKNkdER1A0VEJ5SEdwMXA4ME9Mb1B0TGZ0UDJka0dYV01laWR3eFFjeUhfaFNyS0FndmVLSzg4SjVOSVBvcUpHaVZuVVN5dC1yMVNjUnh1VUU4N191WGxCNFBXSXFETm9y?oc=5",
+          "pubDate": "Tue, 26 May 2026 07:00:00 GMT"
         }
       ]
     },
