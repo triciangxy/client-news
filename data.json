@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T08:49:52Z",
+  "generated_at": "2026-10-16T13:47:57Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -410,12 +410,6 @@
           "pubDate": "Mon, 29 Jul 2024 11:19:17 GMT"
         },
         {
-          "title": "ESG DATA PACK",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcE9vZG1Gb3JUT0hwUGRXYURMVnJTRDdvUkkzREtjTFVFaEo5V2MwVG1jRGxIODFoWDlYckJnTFFTQWt0V1MxYzNYZUI2S1dydDZkZ3pRa09relN0c0hhNFU2SE83Zks4LU1JZTdIQUZZeHh2Z0N2WEJJNGttY1hYYlgzaHJKTjREcTBicTQzam9ZQmM0Umk2eXZIS2JrakY1bWFVazRBRk43andoTlE?oc=5",
-          "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
-        },
-        {
           "title": "Shinhan Financial Group-Investor Relations",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
@@ -432,6 +426,12 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PSXJORURBUEtkckw1X1dyNEdVS3B2MGpZZ1FCNjlwcktHa3NJQXVlTWdoWlZfUEJyWWZ4UDk3VmtZd0RpcFcxT3VQTFZEdHlkbjBXaHAwVkM5dGwz?oc=5",
           "pubDate": "Fri, 26 Jul 2024 19:21:21 GMT"
+        },
+        {
+          "title": "Shinhan Financial Group-Letter to Shareholders",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81dXFscUlqa3ZWc25tUUxDTGJtSVlDUGRZQ093blg2U1ZuQ1NXQ3BOZnhLeHgtVGxRZGdlSEl4OWZoS3NkU1FGdDdtWXdCdVZBbGJQNHpFUQ?oc=5",
+          "pubDate": "Thu, 25 Jul 2024 11:10:13 GMT"
         }
       ]
     },
@@ -550,6 +550,12 @@
           "pubDate": "Mon, 25 May 2026 05:22:44 GMT"
         },
         {
+          "title": "ESG Investment and Financing | JAPAN POST BANK",
+          "source": "ゆうちょ銀行",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5bnRSbkF3dkc5bXJuV0tKdG1rRjBPd3hPblIyMDRFVkRjb0xub0l2RWh4dXBYY3AtZGNfdU1ZbFpmdlkxM2ZKWXNLaDVqdGxmNWhvMURSbkRzMGlYUU5ibUlHdFVUeGVYcG9kVjQtQWV2WnBXRzZSeElhbnBBM2s?oc=5",
+          "pubDate": "Thu, 12 Jan 2023 17:40:53 GMT"
+        },
+        {
           "title": "Japan Post Bank Debit Application Method (Website Version)",
           "source": "ゆうちょ銀行",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
@@ -566,12 +572,6 @@
           "source": "ゆうちょ銀行",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yM2IwMFZETGpPbi1hRXFTaEYxZ0FyNXZhRjkwODgwQUFTbmYzSXJrRDdQVUxIRVdEUTVfWU5sZHFnRHBrZURGTVRuYWdlVE0wVlBlOFFSNURtU3NPakRpMjB1Z1k0VHdlM0dLaW1ZelJIb2c?oc=5",
           "pubDate": "Fri, 31 Jul 2026 02:39:08 GMT"
-        },
-        {
-          "title": "IR Presentations-JAPAN POST BANK",
-          "source": "ゆうちょ銀行",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ01TeUdJcmhoZUNLZFk5X0pacXlHNzVuOEZiNWR5VWE2QVpjdERHY0dQSklzNFE0SngtYThqSlFKNEEwNUxnaEhBYTY2dlF5ZS1mbEtXMDE2elhMUFdhSlY4a2taX3JILTZVcnpqUGE5bkwtZGMzdGxqaUlVd1BQQjh3?oc=5",
-          "pubDate": "Wed, 07 Apr 2021 01:46:45 GMT"
         }
       ]
     },
@@ -1144,12 +1144,6 @@
       },
       "items": [
         {
-          "title": "2025 Annual Report CEO report",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNSmZWVHpfdDZWS05YQTRDUms2T0ZwZ29iaWt3OE50eElnRjVjMUdsV0VGYmpzekNZX3dWR1NmcTQ3LUJRZ0xhU2FaMXY1MXp2RGFEblByTWNrWkx1THR5MzE0ZFYya3FDQWoyU0FKWGJCZThxUGRaNEJrb1Y1cU1FaFp0SWR6S1FSam5lYnFpTi10TGdsRjFRYl9qVXhpbEcwZFRTak1YOUJEZTZuSlVjNU9pSW4zUDBPVldVeGhQY08tbVBmYTZNZ2pzTFpFNjZaWS13M1hzNlAyODhaR0IxVTNLRlFSWWdZbDJXQ2ZQcjFOTFNiU2JpVDRhdG0yaDhVVEhzVWNkOTVtbTR0Y0Z6bWpJN0dpSDM3Uzk1ck9KOElPb1h5dFpwQXZ4OVg3WmdiVnVJa3U5aDdDREFN?oc=5",
-          "pubDate": "Thu, 15 Oct 2026 10:33:14 GMT"
-        },
-        {
           "title": "FWD Group appoints Jeffrey Woo as President Director of FWD Indonesia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUWlMZUdFaWZxb1N1T1l2ZnpJYnBLaG4tcEVQVUNmYWlwRDZrUFZmVER5aFBtTFU2V3hDQlFBU0gxSS1jc041RjJqNmNhOGloSW9sT2J5R19LdXI1a0dJX1Fzd20yeEtqeEtaZXhsbGowVkRGaGd4NjhZN24xUTRQS3Etb2hpOFlzTjNFb2Q2NlBsZUNVVVVFWjJ4aU8wUWVrU1VONU1NUzZyR1NHc2tzenFsQi1HSEVz?oc=5",
@@ -1202,6 +1196,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRFNMbkI4RkhhYzVQVi1RYmtLRUJUd0xtUzJ4NzgtNnNlUm96UFRPRjhrQnY4UkQza0NkWUUxZEN3Skl3bVZiaEh4RGFqYzZ2di1jUzNUdGZQdF9fY042NUYzaFZUUDg?oc=5",
           "pubDate": "Wed, 06 May 2026 03:20:56 GMT"
+        },
+        {
+          "title": "Latest announcements & exchange notices",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vYjVZbHA5a3ZDTzVOZUJkVDlGRHMzM1g1U1paa0lQY25hME9ULWZlemtWaUJoSXZsOEt1bFdsVGtQNmdXbHRhRmVmc25xN1ljUzU3WVpTSWJkeDFlYnhPQzh5S2Q?oc=5",
+          "pubDate": "Sat, 22 Nov 2025 13:18:43 GMT"
         }
       ]
     },
