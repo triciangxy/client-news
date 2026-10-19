@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T03:48:21Z",
+  "generated_at": "2026-10-19T09:41:46Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 92400.0,
-      "change": -1000.0,
-      "changePct": -1.070663811563169,
+      "price": 93300.0,
+      "change": -100.0,
+      "changePct": -0.10706638115631692,
       "currency": "KRW",
       "prevClose": 93400.0,
       "dayHigh": 93900.0,
@@ -272,23 +272,23 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1663.5,
-      "change": -16.0,
-      "changePct": -0.9526644834772254,
+      "price": 1686.0,
+      "change": 6.5,
+      "changePct": 0.3870199464126228,
       "currency": "JPY",
       "prevClose": 1679.5,
-      "dayHigh": 1668.0,
+      "dayHigh": 1686.0,
       "dayLow": 1640.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3085.0,
-      "change": -17.0,
-      "changePct": -0.548033526756931,
+      "price": 3118.0,
+      "change": 16.0,
+      "changePct": 0.5157962604771116,
       "currency": "JPY",
       "prevClose": 3102.0,
-      "dayHigh": 3089.0,
+      "dayHigh": 3121.0,
       "dayLow": 3020.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -340,12 +340,6 @@
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
-          "title": "AIA Healthiest Schools",
-          "source": "AIA Healthiest Schools Programme",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzME9qME5qZnY5VkNGdlE1ZEtpcHQ0cVNvRnBRR0gwb2hlTFlFYnlCNjRKR1FtQURZaHRzV3dXVlhxUlp4TDJvaVFoeGZnazFsejJLM19mVHhMSy0wRFlzMkNJdFBDX0lLSXFtT2NidXJMMFgtWmx0WW1Gaw?oc=5",
-          "pubDate": "Wed, 02 Sep 2026 03:20:11 GMT"
-        },
-        {
           "title": "How financial planning can help your small business",
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
@@ -362,6 +356,12 @@
           "source": "AIA Design",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTFRXNWtNV1R5dWRKS1FiMzdPSmwtcmFaWVZCY211c1VEbWtScEFpT29sS1NFd09RazM1TXRYbF9jM3VkeFdUSGZRbVoxczFw?oc=5",
           "pubDate": "Thu, 13 Mar 2025 12:26:24 GMT"
+        },
+        {
+          "title": "AIG Divests Remaining Holding in AIA, Marking a Milestone in AIA’s History",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVFpBRUotNWtsc2RMbFNDWDFqbl80Y3ZGR21GUUpDdmQzZ0VZVGJKZXg2WkFCVWNXTExSUWJiX1BzVDluUHJRTHFBVEhxLXNGRElQbnZPQTh4SUdMc3JfUWZpbkdnV1VoYzdZbk5VVGlVRWxWTkNONVNhSG1KZ1dvQkNDZGZXaGRET3FLaGp1YjJDbnpOaUFkWEdTSGxFQVg1Ull0MzlsOGRnZ1pJZUJpc2pEUlF4TmFFNkoydVRLZGlLUHlHOHBSeXpsTlpEY0k?oc=5",
+          "pubDate": "Tue, 18 Dec 2012 08:00:00 GMT"
         }
       ]
     },
@@ -374,10 +374,16 @@
       },
       "items": [
         {
-          "title": "Shinhan Bank",
-          "source": "신한은행",
-          "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1KTC1pZ1MzZm45RnJFRVpFVUlkbzZfSHZXUEtSdjZEb21zUmpMUlJkT0czcnZvelQxWHo3TQ?oc=5",
-          "pubDate": "Mon, 01 May 2017 16:42:16 GMT"
+          "title": "Shinhan Financial Group-ESG Reporting | ESG Report",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OUlZDN2dSU3lDT1lrZFJjR3FCN1FDQzZqN2xRaEQ5SDkxc3lJMUJVQzdJN0ZMc2kyamwyaUtZRHUtc0lZcHlpRTVMbnl1Y09vNXpwcUpzMWI?oc=5",
+          "pubDate": "Sun, 28 Jul 2024 19:43:06 GMT"
+        },
+        {
+          "title": "Environmental & Social Risk Management Policy Framework | SHINHAN FINANCIAL GROUP",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xTXFjRTlKT210WXZVSTdqb0RLR29hMGp2SGZOOTcyZUVfVlRLLXdxRTRXOE9uUVNfRl9TRC1YWEpVZVpnVTNwcWxILVpkLUhfU1NWZHoyTEQ?oc=5",
+          "pubDate": "Tue, 29 Oct 2024 05:42:05 GMT"
         },
         {
           "title": "Shinhan Financial Group-Dividends",
@@ -392,28 +398,16 @@
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
         },
         {
-          "title": "Environmental & Social Risk Management Policy Framework | SHINHAN FINANCIAL GROUP",
+          "title": "Ethics at Shinhan",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xTXFjRTlKT210WXZVSTdqb0RLR29hMGp2SGZOOTcyZUVfVlRLLXdxRTRXOE9uUVNfRl9TRC1YWEpVZVpnVTNwcWxILVpkLUhfU1NWZHoyTEQ?oc=5",
-          "pubDate": "Tue, 29 Oct 2024 05:42:05 GMT"
-        },
-        {
-          "title": "Shinhan Financial Group-ESG Reporting | ESG Report",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OUlZDN2dSU3lDT1lrZFJjR3FCN1FDQzZqN2xRaEQ5SDkxc3lJMUJVQzdJN0ZMc2kyamwyaUtZRHUtc0lZcHlpRTVMbnl1Y09vNXpwcUpzMWI?oc=5",
-          "pubDate": "Sun, 28 Jul 2024 19:43:06 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtNE9rNUVmUDJya2syOVFadHR5ZEVOb3JkeUFhZlFDQ3Y3U1Z1Y05EY2V3a3pqTGtNQmFWeTJ6UG9fa1BEMjRWRGtxcXNiXzhON3o4MU45SDcyM0czeXZ3?oc=5",
+          "pubDate": "Tue, 23 Jul 2024 08:35:10 GMT"
         },
         {
           "title": "Shinhan Financial Group-Members",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84Ymw4c0hMYjdaYVVkMlgtdmpTSjNIQ2VYazQ0Ul9hZ3gzNVUwcS1mVWYwWTBjVmpRUVcxR3Ezb2tybXVBMmhMZWV3ZFZPNjUxb1o5eFpralZBc2Ixck9iQkw3cUs?oc=5",
           "pubDate": "Wed, 24 Jul 2024 02:36:04 GMT"
-        },
-        {
-          "title": "Ethics at Shinhan",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtNE9rNUVmUDJya2syOVFadHR5ZEVOb3JkeUFhZlFDQ3Y3U1Z1Y05EY2V3a3pqTGtNQmFWeTJ6UG9fa1BEMjRWRGtxcXNiXzhON3o4MU45SDcyM0czeXZ3?oc=5",
-          "pubDate": "Tue, 23 Jul 2024 08:35:10 GMT"
         },
         {
           "title": "Shinhan Financial Group-History | Growth",
@@ -428,10 +422,16 @@
           "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
         },
         {
-          "title": "Financial Reporting",
+          "title": "Shinhan Financial Group-Networks",
           "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZWEdqaGxDU3FObklJZk9TVTlNWGdlbmczeW9LUW9ockNRcVk3cndhWXhtY1ZLR1FsdGcyRDloZEdZM2lZeU5Oel9OTEx4VmJG?oc=5",
-          "pubDate": "Tue, 23 Jul 2024 22:53:40 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZRmxCcTdXQ1dPZ3VvaEZINm9NcTBVUnpROGprdDNQZ3ZBQmpzcDNJc0lMUUcyOVdvNmlXaFdybnlGS2s2T3JPYTUxaHd0b3g5bUk0cVBEWUY5YVk?oc=5",
+          "pubDate": "Tue, 23 Jul 2024 10:50:35 GMT"
+        },
+        {
+          "title": "Shinhan Financial Group-CoC for Partner Companie",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PSXJORURBUEtkckw1X1dyNEdVS3B2MGpZZ1FCNjlwcktHa3NJQXVlTWdoWlZfUEJyWWZ4UDk3VmtZd0RpcFcxT3VQTFZEdHlkbjBXaHAwVkM5dGwz?oc=5",
+          "pubDate": "Fri, 26 Jul 2024 19:21:21 GMT"
         }
       ]
     },
@@ -556,6 +556,12 @@
           "pubDate": "Mon, 25 May 2026 05:22:44 GMT"
         },
         {
+          "title": "NOTICE OF CONVOCATION OF THE 16TH ORDINARY GENERAL MEETING OF SHAREHOLDERS",
+          "source": "ゆうちょ銀行",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR3YwQTFmRlFTLW1rSGFXc0JmRUk4N0xsWEJ5QUZ2dHY2dGNGQm9vV0xYZVZvMGZWVnlOMWtSeGpMUWhMekdFRXpfQmVESVNneFIwUG5fYzBHaGM3MUxmb1VqRXFqUjljcTl1TEtVckk1aC11ZXZNTnhYWmlZQU9CekhxbTZBazU4S214X2EzdnNNUTJz?oc=5",
+          "pubDate": "Thu, 26 May 2022 07:00:00 GMT"
+        },
+        {
           "title": "Japan Post Bank Debit Application Method (Website Version)",
           "source": "ゆうちょ銀行",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFo5M0QzMWhYVjR2NlVwbWlCNlNMcGY4aEFJZE50WVdSbV9BSU82bENYd0hDV2pwSk04SjI1VkliQnFjV1hmNHhBUjlTbTlvQmg4QTROc3VOZ193YlhCX2dJMWRvemc0MUxRUnlTTkh3OUN1ZzEtSzNwR1J3Tmc4dFJRNGlTNlI5bzFiNUNn?oc=5",
@@ -566,12 +572,6 @@
           "source": "ゆうちょ銀行",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ROWZ5a1lLUkczSHhRTGZrYWVBUEx2RFNYbl9MT1o4ejRHR3FBRGN5M0Q0V1hQb3E3V2p1Nko5cXRNb2NqYW9Xcy1jVHN0WGFKaks2YUxPaWI4WWhVc1hPMzd5ZlVfcEFydFBhNDIzVlY3NTBSUU82QnhLUQ?oc=5",
           "pubDate": "Fri, 15 May 2026 11:08:46 GMT"
-        },
-        {
-          "title": "Selected Financial Information For the Nine Months Ended December 31, 2025",
-          "source": "ゆうちょ銀行",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9uaDd1TWNoZzdYOGVqdUNmVWhQZEJxak1CcFRYNmZqeXlfWGQzX2k0bGE4ZFBGZFYtSWpxcnRydW80NFZ3cFdZTXdlVjZRYWstT2xvcFpGUkRmMkU3V1Y3NVFwbm1ycFA2elFndWhOcWlsUzZhWUtz?oc=5",
-          "pubDate": "Fri, 13 Feb 2026 08:00:00 GMT"
         }
       ]
     },
@@ -794,12 +794,6 @@
       },
       "items": [
         {
-          "title": "2024 년 1 월 11 일",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpTWhVVEtYM2pLOGNpS1FralUxaG5la2oyWXNBelpnemN6TDdRektkd00xaWZudkZFdVA3RTdSNm1oR3lKU1BrR1B2eTI4cmJwWGV5TmlQY0lINjRoeXQxX2N2NzZxTnBBaFdPbm1sMnFDTS1SMWlQTG5LLURpZm8?oc=5",
-          "pubDate": "Mon, 12 Oct 2026 17:10:30 GMT"
-        },
-        {
           "title": "Job Opportunities at KIC(London Office) | Job Openings │ Careers │ Korea Investment Corporation",
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53Q094UjBUWmhzTXVCTFNOOTBVeW5faXFjVGtJaS04SlVuS0dyb0VkRl82MC1iX29Hc2FadFQ2dlJlYnlMTm1MZldSMkZWemFmWkE?oc=5",
@@ -852,6 +846,12 @@
           "source": "한국투자공사",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wU1hHVlVJdkQzZkF4eFg1dkNlMWFGbGZZdUx3MWxBZlJVOXhHdC1RVFo2SXBCUnNOcUM0Wkg2YU9TQVZYeWx1RGcyWjlNWC1FNlh4QzhvbEl3Ym1Hc3duRDBWZE15QnNQbWQ3QmpENS1md21MbXZ3RzZB?oc=5",
           "pubDate": "Thu, 09 Jul 2026 12:41:38 GMT"
+        },
+        {
+          "title": "문서뷰어",
+          "source": "한국투자공사",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOajdoelYydm5UM3BDSU1ub3lfck1VdWJzS21HZ3liUl9hSHVGcndsWEJSUzJQQ2pDSUtrdzNveS1kOFA0Nkw2ZHpUU2dVNmZtb3V1czVhZVBrUDA5YVVaWW1wTFF6ZE15OE9EeWZBNHh3Y0xvUm1acWRSTjBuckRoOWhpNC1qakE?oc=5",
+          "pubDate": "Tue, 08 Sep 2026 07:50:14 GMT"
         }
       ]
     },
@@ -1010,6 +1010,12 @@
           "pubDate": "Thu, 08 Oct 2026 23:48:13 GMT"
         },
         {
+          "title": "TCorp announces results from the increase of its 4.75% 20 September 2035 Benchmark Sustainability Bond via tender",
+          "source": "TCorp",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYjZlNGJKanZVS3R5RFhkNUp5b1E0VGxkOVFxNzdWQWhINlczZGNnNXpjcFRBckxrMlhsWWVCa0tZb1FwTFpGcnNSR3ZJOHBBZzUtTThTdENlQk9CTG5vUmVTTll1MC1ncTY3d1pJa0N0LTlFdW9BVlRuVDdPOGUxUDRuYXFBcG5zelZLc1FDWWl1bzJxeWlFSl9vTkY4c1hjaUQ0bkdGLTAyOEc3Q1ZKc2ZxWGF6eUVqSFNUQnRXZ0h2dTJOejVDUEtZWWFGU3R1a1FZUDZkNDJQODQ?oc=5",
+          "pubDate": "Thu, 08 Oct 2026 23:49:47 GMT"
+        },
+        {
           "title": "Market announcement - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNm9jNHlsZmxEMXRqcHJGTWFBaUdpOVFaakoxRzB3VXlGNG5hSjB3ZnNQaVF4cENHaHJlakJDR3FXU1V6NFFiT3I2YVhqTjhMemx0UXc0dV9iaWRtT3FfSzhzdEN4NkFzdF8zaWlqOWxUdk1mYnkyU1V6THpYQXBGRGpNdm0wUGxJT0E3N2g4eWlGa1UxXzhiQV8yM2NvaktYWExCVkthcmlCcVRMTVg2NFlLUndjUG9hUGZlWkdnaw?oc=5",
@@ -1026,12 +1032,6 @@
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzNnVkclVraUFrUThPNmtBZElJMUQ2VDloUFlrTzhGSmp5azZiWFdHWHUwU2FQQzRYNzAydDJDU0VncjFvbWlXZWZtTUNjZXR0VVdNcndiS3hjdl9TQTA0VTNGb2I2N3BNTjJ1NnMzVUJmNllLNkpn?oc=5",
           "pubDate": "Fri, 03 Jul 2026 01:02:10 GMT"
-        },
-        {
-          "title": "Q&A with CEO of Weave Youth & Community Services Ltd - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWFjTlRHeU5IYXVocnYxYzdLUHkyZ2UtTkh2R0c1bEhlaklCSkdtUlZ5X0VzYWg2Rl9fWE9mNXhHMHFfX1Bob2RyRDc5ZUNQYTVRWC1ZY1RTSkdFblZBOGFfWmttal93VFJFeDcyS2JmQk42M1p2cDMxcDNZUGhrSDRjNmprV1BTWm1YUDdsdmk1WElGSExnUmVaRWg4emNBR3VKeVJnRFBPX0RKNGZRb01uQzdpQQ?oc=5",
-          "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
         },
         {
           "title": "Weekly bonds outstanding - 14 August 2026",
