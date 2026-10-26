@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T03:49:59Z",
+  "generated_at": "2026-10-26T09:53:22Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 71.25,
-      "change": 0.20000000000000284,
-      "changePct": 0.2814919071076747,
+      "price": 70.85,
+      "change": -0.20000000000000284,
+      "changePct": -0.2814919071076747,
       "currency": "HKD",
       "prevClose": 71.05,
       "dayHigh": 71.55,
@@ -261,20 +261,20 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 86100.0,
-      "change": -2000.0,
-      "changePct": -2.2701475595913734,
+      "price": 85500.0,
+      "change": -2600.0,
+      "changePct": -2.9511918274687856,
       "currency": "KRW",
       "prevClose": 88100.0,
       "dayHigh": 88600.0,
-      "dayLow": 86000.0,
+      "dayLow": 85500.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1610.0,
-      "change": 10.0,
-      "changePct": 0.625,
+      "price": 1606.5,
+      "change": 6.5,
+      "changePct": 0.40625,
       "currency": "JPY",
       "prevClose": 1600.0,
       "dayHigh": 1633.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 2970.5,
-      "change": 9.0,
-      "changePct": 0.30390005065000847,
+      "price": 2983.0,
+      "change": 21.5,
+      "changePct": 0.7259834543305757,
       "currency": "JPY",
       "prevClose": 2961.5,
       "dayHigh": 3023.0,
@@ -310,58 +310,58 @@
           "pubDate": "Fri, 23 Oct 2026 02:35:55 GMT"
         },
         {
-          "title": "AIA Healthiest Schools",
-          "source": "AIA Healthiest Schools Programme",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96c0hrcTlxY3k5OEJQQzJNQTJ1OURlQVhrVnNuVFRhaEo2V3JlczBqV1R2a3ZzMExNdldrWFVQZFdTeW1nekdQN2ZPN3NBWUxTS0xTQ2kyM3VRUHVEazM2dVRsQ3BucFFPNzU4?oc=5",
-          "pubDate": "Wed, 21 Oct 2026 21:01:58 GMT"
-        },
-        {
-          "title": "AIA Healthiest Schools",
-          "source": "AIA Healthiest Schools Programme",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PWEU4MXM3R3Byc21UVFR2XzdYNkV5cURvTTgzNjRYZGVQLXBmMDZlc1dva0xpbFBjb2RJX0JUSEpWdlNDY2Y0QlR3WFdLZkJNM3Qwa0VzYVRCLTNyUVJVYWFhck56OEVHcFR3dDNROGhkOFRORGxVM0h2bw?oc=5",
-          "pubDate": "Thu, 22 Oct 2026 13:34:41 GMT"
-        },
-        {
-          "title": "A Conversation with Grace Cheng, founder of Agewhale",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNEJDUmNjQk9UUzFQcHJiV1kzT09yQTdOcmdQN3MtU3pNT1pWS0kwSU11ODJUNGlmZ2pjODZBT3hwSnA1TmFZa2VyckQ3RFRNTzBEeUVqSlIwZE91eU5xUVNWRjVjb01MRVRQMEZxZm41S0NmclViajl6Z192Qk9sZDdR?oc=5",
-          "pubDate": "Fri, 23 Oct 2026 12:34:48 GMT"
-        },
-        {
-          "title": "AIA Healthiest Schools",
-          "source": "AIA Healthiest Schools Programme",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rWmFocVhrNWlQbXBUdDZyNTBkNEI3NXg2U216MjVPQWpoeUF4bVg3OC1lRldnbllUSTR2VWRTRzluczRodlBXcHIwV0pRa1pwdjM5eExsSkZRTTFPLUtyMDVWOTRoZUItZktV?oc=5",
-          "pubDate": "Thu, 22 Oct 2026 12:34:41 GMT"
-        },
-        {
-          "title": "AIA Healthiest Schools",
-          "source": "AIA Healthiest Schools Programme",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GX3VxLUVUQ3ExcHF6X05WMHlHS3FURVZhWVB5M0ZtbGFiWGZQQXRwdUpCcUlIUmJvamgtUHl4MlZ1enBSTU9nSWRKNHNMLVk5RUdCOC1YVWVLN21kNDlqVkFSZjBULS05UDBlMkZLbw?oc=5",
-          "pubDate": "Thu, 22 Oct 2026 10:31:59 GMT"
-        },
-        {
-          "title": "How to recognise social anxiety disorder: Causes, symptoms and treatments",
-          "source": "AIA Group Limited",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRGI0MGsxVFZQLUIwMnR5UEZJTUZnNFEzLVdoM3pzZVlGRVRWTVNucVJUNTB6clBHMDVCX3dzZ3NLNGNQVEVkMlpHNzFPcG5BSHJ6TE4tQU5SRGJKVVppbF9sTUk5N1dKZVlTeVZtLTFHSE9CR0NvaWlBdThaRjRGU0pBNGJHa3ZVejMwcnJoRXZYQXN0?oc=5",
-          "pubDate": "Wed, 14 Dec 2022 11:02:55 GMT"
-        },
-        {
-          "title": "AIA China accelerates geographical expansion with approval to prepare a new branch in Zhejiang",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnJOVkJObjFvVFZCaFZPazFldEdpS2xVcVRPN1h0dVhOdlloc0pFNEFkZ3V1c1dIeUt6NmJ5MVRWR0JDcjJnanpxSE9IS1J1X01FR3RVVmQ2TFFpQy0tWEdfcnFSNG51OTFHMFdZN1hETVZpQ0ItU2s5a0VIOWZVbEZNTkQtYmhwM0pka1E0YWV4QQ?oc=5",
-          "pubDate": "Tue, 26 Nov 2024 08:00:00 GMT"
-        },
-        {
           "title": "Healthy living with Tottenham Hotspur",
           "source": "AIA Group Limited",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWNRQV9raTlOWE41cXNjOVpRX1BEbnBEQUQzSzFEeEtTeEhnOElBWVBWOUhhSF9nOV95YjFpUDNzRnlMbC1rWTV1LVlhUFJmWFM3XzdQMDd1OE1pQ0VrT1BDUFdqZFppRmFBZGRJcUpRbHQ5N3ZzTlFIaWgtOFdzUksya085dGxPX2Z5SUFMdGVKY2tSMG1XNGxhVQ?oc=5",
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
-          "title": "How financial planning can help your small business",
+          "title": "Untitled",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbHlLYzcxNXFrRk9lenBDb0d6NWVVdUJ3TWxST1lNRmpldW1WZmlubl9oaDlkcmp0Y05IZ2FBbDdUcUtfUkhWMlZFUElVTnBYUmNsZFI2MmZTT0hydW1qTjJUdWRyZUdrTGVHUzVobnQ4YmhUdEtyTHJNenJTcVZtWG03akhJd3VLVld4OFZVb0F3OGdSRnBZTVVyTkdEdUN6bF9UWVhpaE9CNndqOHhaRm56NjlQNy1TTE16MHpkbXFQV2xxd0ZSSmxOSWJNS3JkVVE?oc=5",
+          "pubDate": "Thu, 19 Mar 2026 02:21:57 GMT"
+        },
+        {
+          "title": "HEALTHIER PLANET, HEALTHIER COMMUNITIES AIA GROUP LIMITED SUSTAINABILITY REPORT 2025",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMHpSN25SU2F3c0hSMXNBTDBZNW5abnVnY1FaS1NGSTZ6UVpiMGQzUG1iZHZ4TTlZRGxIcUkyRUNrQ1ZjN2lSSjZZUElINnYxX0hFeEgxUWF4YmQ0bzd5UTFkQTZ5dkZuRE04YUdFdTFWaWlCZ3VSU0djaXZJLXE0MXdpVFhweXdMTFdOZ3Q1T08ySTYzWHdhLWZ6SlhyVDYz?oc=5",
+          "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "AIA Healthiest Schools Programme",
+          "source": "AIA Healthiest Schools Programme",
+          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE95dnhGelVmMDFLSG1CODRjcHJfdGw5dkQtdTdMUTFtWUZyZFlqZ1pTYVVjWHNZZW9RRTUyQk83QQ?oc=5",
+          "pubDate": "Tue, 01 Sep 2026 22:29:07 GMT"
+        },
+        {
+          "title": "AIA delivers strong first half results in 2026",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX2JrYXRWdzJxdGFZRUVRWG0wNTlES1RZLWk4UlBEQi1rUkx1Wmd4Ty1HYS1XYU5TQmMzajZXMW12c1V1T0FXVXpBUFpGcl9OamxMRzlXVWJuUUpwZFl6RWlTTy12R1BMNzJwRUxWZmUwZ0RYbzRDNUVhZHpOUHVoRFNQTWg0UE5JTnBVdERXdUpPZw?oc=5",
+          "pubDate": "Thu, 20 Aug 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Credit Investors",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYNVhiWlJxTWs2aG43TDZCWmVKcEI3ZG9HeF9XS0dtUlhSVERhdXdWWFJNX0lNTlhCY2hndm0xbFhWdTRIUF9ucE9DZGZkOVFjWnBYaDF2OTEwcHRZWnBDdVVHRnJYX0o3VTlTaFlFbGw0M2JYN2c?oc=5",
+          "pubDate": "Sun, 03 Jul 2022 01:03:07 GMT"
+        },
+        {
+          "title": "About Us | Asia's Leading Insurance Company",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSWGJBbXRuNGlJSDVaY29NZG5ESjNtelhoVE5FbkN1S1dHWENjX3k3RVBjamJleG1DcEZrajE5LS01VnozWFFzZmlvbTdkMTJGcFNB?oc=5",
+          "pubDate": "Sat, 02 Jul 2022 21:44:22 GMT"
+        },
+        {
+          "title": "AIA One Billion",
           "source": "AIA Group Limited",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
-          "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jczVucTJ5cUI4SXJ1aGRHSk5FVGpCN2FSNzhQbVNkQVV5UTlJemdCMzI2ZFN0ZjkwV0VNa3VOYVdSTzc5LU5iWURaVXNycHJlQnFzNmFROGNQd1Zh?oc=5",
+          "pubDate": "Sat, 02 Jul 2022 00:36:33 GMT"
+        },
+        {
+          "title": "AIA INVESTMENTS | AIAIM PH",
+          "source": "AIA Group Limited",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ2dvNmswMnNrY2Nva1AxNXBnTThzWVJ6cUtaX2R4aUV6UEpIWHZLVS1WSWdrbE16a0JKdjJYTGRRQ0gxcFhLUFRrR01QOWRYZlZFaTI2SnZNTE1iN3ZwS3lzb19zQktQbTBQR25EQUJNT3dpZmt5dnhhT2UxZFhRMWZ3?oc=5",
+          "pubDate": "Thu, 22 Jan 2026 09:59:38 GMT"
         }
       ]
     },
@@ -373,6 +373,12 @@
         "query": "site:shinhangroup.com OR site:shinhan.com"
       },
       "items": [
+        {
+          "title": "Shinhan",
+          "source": "신한은행",
+          "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1KTC1pZ1MzZm45RnJFRVpFVUlkbzZfSHZXUEtSdjZEb21zUmpMUlJkT0czcnZvelQxWHo3TQ?oc=5",
+          "pubDate": "Mon, 01 May 2017 16:42:16 GMT"
+        },
         {
           "title": "Shinhan Financial Group-Dividends",
           "source": "신한금융그룹",
@@ -426,12 +432,6 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVzROSlN4Q0FPWmctX0tMeEZCYXB1bld5bTN5VkxQMWZ3QXJBYTY0a043YU9WVUxDX0xBU0JsTkFIWGx5eWhicnlmcUlWWV82QzZTV1RjdW0zcWpX?oc=5",
           "pubDate": "Mon, 29 Jul 2024 11:19:17 GMT"
-        },
-        {
-          "title": "ESG DATA PACK",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcE9vZG1Gb3JUT0hwUGRXYURMVnJTRDdvUkkzREtjTFVFaEo5V2MwVG1jRGxIODFoWDlYckJnTFFTQWt0V1MxYzNYZUI2S1dydDZkZ3pRa09relN0c0hhNFU2SE83Zks4LU1JZTdIQUZZeHh2Z0N2WEJJNGttY1hYYlgzaHJKTjREcTBicTQzam9ZQmM0Umk2eXZIS2JrakY1bWFVazRBRk43andoTlE?oc=5",
-          "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
         }
       ]
     },
@@ -584,6 +584,48 @@
       },
       "items": [
         {
+          "title": "Director, Cybersecurity (Governance, AI Trust and Assurance) Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU0NhdFVBZS1WQmtnMl9NcEpsZnpYTDVRX3dFUFBpMGRkaTAzU2prY21WVmZlaFRhQTE2RVptWFdVZmNCRTVJdWZ3am53REc1YTEzMzBFSTBLaTZBNU0tcWhYVHAxYTlBMloyXy1HT0hIWlhvM050a1J5VEplZ21GSXkxLVlsY2FKc1ZzNE1aQWpncUc3b3FCRmtNNmE4OWYzMjF3eURaNFZ4QlpDVkwxMHU5OW1JckdEOVZj?oc=5",
+          "pubDate": "Tue, 20 Oct 2026 12:40:45 GMT"
+        },
+        {
+          "title": "Home",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VV2xsLWk2V2tTY2hNanRVVzdQMVhvbnJ0eWhCRWdydE1TZ2dhSHJWRWkzOTZjNjNZVnZhc1hqUTV6bEVVT2MzZlF6TDZaWWdLa0w1Z2JNZlJBMEVrd0wwc0ZGSjlaRzdXVWVjN09kNTdqR2gz?oc=5",
+          "pubDate": "Tue, 20 Oct 2026 11:47:49 GMT"
+        },
+        {
+          "title": "Supplier Resources",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iVkVOa05rZHRyZGFwNWhjemhwVm9Ka0liVjFYMTJrcm10U1VOZFI3eEVvSFhZTlZjclhUTTcwd29TSVVsdVNsNmM3VUg1UXJodVNzSjIxd3VDWXRkTEZ3TTRHOGMycjZoS1ZQalJiYw?oc=5",
+          "pubDate": "Sat, 24 Oct 2026 00:48:21 GMT"
+        },
+        {
+          "title": "Senior Associate / Assistant Vice President, Investment Performance & Management Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTFVKc1NxUURuSGFtQXhhcW15OTNqT3pEY3hRa1pNMzZUUnMtUXk5ZFBUVjhVRjNYRzBPZ0lSRWhYMDhqTjNiUENLNERTVWJaTi1uNlVjb3BvQld5bTRkYXEtVGgteWU4d1MzT0pjYkFubFFzQWdVUHAxTE5lY2t1Sl9CZ2MzR24wRXhMUUhjTWtpZEJrMWoyR0YxNEU4MGdQRnRyN0NNaGo5TXI0WTlfcUdhbFkwODMxS2phVFY0dGFfWWstclR2eDRBWQ?oc=5",
+          "pubDate": "Fri, 16 Oct 2026 23:10:54 GMT"
+        },
+        {
+          "title": "Temasek Supplier Code of Conduct Purpose Temasek is committed to embedding sustainability in everything we do. We recognise the",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOFFHMW9vdWg5ZzRMSnprYU9BMmhJSnlOS2RZZ1ludW1DbGhFYlBiNkRycVVfaXdrX29oNG8xemVwNWNOa0N0VDhicXI2R3V5RlJtOHhnU1RqcEw4enlIRzF1RElFUGdkQ1p2d2ZSTWlsU2hnQ1I4ZWNnVGlsN2xiMTQ1b29vYzFYdEx0SUxfeEd4Ulo1eVNZNDZHd09VNVNBZkFreXBYc0Uya0hkSnFncVFNdWZvZ2NqS0RN?oc=5",
+          "pubDate": "Sat, 24 Oct 2026 01:14:11 GMT"
+        },
+        {
+          "title": "Senior Executive Assistant Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbXkzRHNmYnhXdEU5bERKbXk4SW9abHFtQWVoRl9ac0xadGVKVDI1WjVnTjdlakgxMXE1R0VvNE1BLXo3Z3JQc2lHM0lYa2RKRk5ZczgzLWF6QmVUQ3lndUtURjFxYU1mVlE5b0JDUnpTQVVBRHBzYndNS1RhTTRhWGtTNA?oc=5",
+          "pubDate": "Thu, 15 Oct 2026 09:38:43 GMT"
+        },
+        {
+          "title": "Associate/Senior Associate (12 months LOA cover), Payroll Job Details",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaDdkRENqcF9SMmJJdlI1a2duNjhfZl9IdjRJUks1cV9USkFadFhyU3Y3NHE2dHhrcmUzME9iOVpReHdHdXVwcFpReEhRNldNUjl2RFBoa01GaWhiaE1iM1EzXzJXVGdKNDRhLXY0TFUyR1JreV9WN3lFX2pFVGt1VWJhMnNMdFlEMnlMSmlOTFhYVGQxRWk5QTZMSkRtVUp3eVhUN3MyU2tmUQ?oc=5",
+          "pubDate": "Sun, 11 Oct 2026 04:36:50 GMT"
+        },
+        {
           "title": "Temasek Invests in the Scaleup Europe Fund",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUU5BNTdGTUJfSndwVWQ0a3NMOE1obEI4YUk1bDg3Z0JqMUYzOXp5ajBXTU9MSHJIeXhubS00UXl3Y0lGT3pZY05OUWdhY2Y0RDVoeld4c0tBNWt1cThXdDVra1U3Y1dtNUh5Unl2VUVlMFo5ZUR4LTYyZjJsUzZmNS1INWQzcnQzNWdSc1hmMUJzcm1GZ3VMdWQ5WlRrUDBvT0R0MUhQNEhDUEFDVW14bG05dkJHYzhO?oc=5",
@@ -596,52 +638,10 @@
           "pubDate": "Wed, 21 Oct 2026 03:05:36 GMT"
         },
         {
-          "title": "Temasek Announces Plans to Expand Presence in the Middle East",
+          "title": "Building Enduring Partnerships in China",
           "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPV3g5RkRLWTM4SlhsRTdJbjV3cTlOeUtPZWFJc2ZidE5XcmJSUmIyNGdoalRTNUpmSm5OSllJanRVWUVIVkZ4aW90Ymw1UkZpMURvc0s3TnJiNUdIVWJYZFY2ZHAzTFIweWlTUnhwWnBkYkNIUTRuQlJTd2tfbUF1Sm5DVHJPUUtmeF9BNzJwbWswV3BsSm0tVkU3LVpBRmJkZ0h5RW9XMWQ4c3I0a2VwNmo5U0lfOHZJX2k0ZVdELWdaY2JUeE5aMTlR?oc=5",
-          "pubDate": "Wed, 30 Sep 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Temasek deepens its commitment to Italy through strategic partnership with FSI, the largest fund in Europe dedicated to one single country",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQndDZ2pzRHpfNG5oenQ2TFNUNGVjQ0M1QzR1SnQ4a3B4aHA5NWQ0TTlsNkZqWDF2S1hzaUE3LWMwM3dkZ2FSRFVyaUNQSEwtVWFiOTBzT1V4RThNVElkOVl3emVnYmFEX0xrSU9IZzVzQkpWRVd4Ry0tbGpnUTZkLUlVcjh5QVpqRkFYZnktWFVpemhiQVhyTjJmRFVOTW1tYWM4a2VqN3FFaGpRYTVEcnZDRXRERlZFTjZ1OHdTSWZhQXBIZDBwRjBYNF9VZklyX0RUVjY3bXRzWjk0QjNzaw?oc=5",
-          "pubDate": "Mon, 28 Sep 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Euro-commercial Paper",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02bGwyVU5CcURFdFpucHAxQ0l2XzM3bmg0TnRwS0RIdVNUbU45a0Jxd3l2TUhPaDNuUklIenp0VFBhekRHZWd0U0w3YkxCNHNIUE8tVll3UEMzNHFQYU5BOTlvY2F5T0lYOHBCYjFxY0hBVDIz?oc=5",
-          "pubDate": "Wed, 16 Feb 2011 08:00:00 GMT"
-        },
-        {
-          "title": "Temasek Appoints Susan Wagner to its Board",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWjY2RHhIdm1CTkhGWGxTVlBrVk93MFFLczRnazk3MFZUTkM4RUlSTzBLcUJ2cTFzWlpCZExuNV9XQ2FSMmtzSFgweXIwWVUySTFTYmF4QjRVYkJQeHFUZkVCS01OLTU1MUR0aXpaRDhaZTl4Wl9reHVkZG9DVlRhVDlsbnNGUmMwZmdjdHJHTHhoc3gxZW1XQ2RpS25vMjdYU0o3U2tiYjZMZFd3bmRfXw?oc=5",
-          "pubDate": "Fri, 25 Sep 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Contact Us",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wcDI4VUdFV3RnS0JTVGt6SlZCS2Vmd2doT1FYNm5VZDRRX3JqdldpOFdCZ2J6Z2szUGVZQjBpZENkczRnTVZiUi1hR0ZLUnBmWWc?oc=5",
-          "pubDate": "Thu, 05 Dec 2019 15:58:36 GMT"
-        },
-        {
-          "title": "Our Leadership",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBweXE0Wnpwa3ZNWkxaYjZsNlpnNFBfZVpCZkx3dmx3ZWk2SmsxdnVsc1pObUFYY1hvV1llb05BVlQ3ZEhBVDFEVEhPalVCaHZ5c3BaN2FaZDExRUxqZ1JHS1ZyOA?oc=5",
-          "pubDate": "Wed, 01 Dec 2021 07:06:38 GMT"
-        },
-        {
-          "title": "Our Investments",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55bVpKRlJMU1ZBTDZqOGNtM1NYWVpzYTdRbklwSi1MMm5vV2c2eENXelQ3VnpfMXJyZnlIYWZqaDJKclNJTUF6TlV2ekF6RDB1OXNERWQxQnQ?oc=5",
-          "pubDate": "Fri, 03 Dec 2021 08:55:17 GMT"
-        },
-        {
-          "title": "Newsroom",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qbFdicmswNVM3QkdqZ2JaNFBKZHYwSDNiM29jUWN0M1RVdHhtRXhEd0FpYUVKREF5RGVVcnpGN1d0TDV3QW04ZmlqQzgwYWRmb05kQTdndktHNUJQNE5vcExLN3VNUGZHSlE?oc=5",
-          "pubDate": "Tue, 30 Nov 2021 20:51:40 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaWVjZmxMaWJRVVZvY0tiTFRIN0JERjBzU0FLQ1ZscXN0VHRRb25ST3p2WV9zZW94QTJLOXAyWTZpU3AtZlp5TkF4U0RpdmZsNzEzNUdZTWhUc1hWWmwzb0pIVlhaaXljeG43ZnliVmlfMDV1aHhxelZ5NjBXRFNIMnZmRUdwZ1FnT3lxMUZ0bGNTQTFKc0lDdlVmZHNUMUxQX1FsWTZpV0dMTmhleDJSb2t0MnpwUE9MNGc?oc=5",
+          "pubDate": "Fri, 18 Sep 2026 07:00:00 GMT"
         }
       ]
     },
