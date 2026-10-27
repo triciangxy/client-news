@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:37:50Z",
+  "generated_at": "2026-10-27T04:12:17Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 70.85,
-      "change": -0.20000000000000284,
-      "changePct": -0.2814919071076747,
+      "price": 72.4,
+      "change": 1.5500000000000114,
+      "changePct": 2.1877205363444054,
       "currency": "HKD",
-      "prevClose": 71.05,
-      "dayHigh": 71.55,
+      "prevClose": 70.85,
+      "dayHigh": 72.4,
       "dayLow": 70.7,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 85500.0,
-      "change": -2600.0,
-      "changePct": -2.9511918274687856,
+      "price": 83800.0,
+      "change": -1700.0,
+      "changePct": -1.9883040935672516,
       "currency": "KRW",
-      "prevClose": 88100.0,
-      "dayHigh": 88600.0,
-      "dayLow": 85500.0,
+      "prevClose": 85500.0,
+      "dayHigh": 86400.0,
+      "dayLow": 83200.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1606.5,
-      "change": 6.5,
-      "changePct": 0.40625,
+      "price": 1633.0,
+      "change": 26.5,
+      "changePct": 1.649548708372238,
       "currency": "JPY",
-      "prevClose": 1600.0,
-      "dayHigh": 1633.0,
-      "dayLow": 1585.5,
+      "prevClose": 1606.5,
+      "dayHigh": 1636.0,
+      "dayLow": 1616.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 2983.0,
-      "change": 21.5,
-      "changePct": 0.7259834543305757,
+      "price": 3014.0,
+      "change": 31.0,
+      "changePct": 1.039222259470332,
       "currency": "JPY",
-      "prevClose": 2961.5,
-      "dayHigh": 3023.0,
-      "dayLow": 2935.0,
+      "prevClose": 2983.0,
+      "dayHigh": 3033.0,
+      "dayLow": 2981.5,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -310,58 +310,58 @@
           "pubDate": "Fri, 23 Oct 2026 02:35:55 GMT"
         },
         {
+          "title": "AIA Healthiest Schools",
+          "source": "AIA Healthiest Schools Programme",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96c0hrcTlxY3k5OEJQQzJNQTJ1OURlQVhrVnNuVFRhaEo2V3JlczBqV1R2a3ZzMExNdldrWFVQZFdTeW1nekdQN2ZPN3NBWUxTS0xTQ2kyM3VRUHVEazM2dVRsQ3BucFFPNzU4?oc=5",
+          "pubDate": "Wed, 21 Oct 2026 21:01:58 GMT"
+        },
+        {
+          "title": "AIA Healthiest Schools",
+          "source": "AIA Healthiest Schools Programme",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PWEU4MXM3R3Byc21UVFR2XzdYNkV5cURvTTgzNjRYZGVQLXBmMDZlc1dva0xpbFBjb2RJX0JUSEpWdlNDY2Y0QlR3WFdLZkJNM3Qwa0VzYVRCLTNyUVJVYWFhck56OEVHcFR3dDNROGhkOFRORGxVM0h2bw?oc=5",
+          "pubDate": "Thu, 22 Oct 2026 13:34:41 GMT"
+        },
+        {
+          "title": "A Conversation with Grace Cheng, founder of Agewhale",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNEJDUmNjQk9UUzFQcHJiV1kzT09yQTdOcmdQN3MtU3pNT1pWS0kwSU11ODJUNGlmZ2pjODZBT3hwSnA1TmFZa2VyckQ3RFRNTzBEeUVqSlIwZE91eU5xUVNWRjVjb01MRVRQMEZxZm41S0NmclViajl6Z192Qk9sZDdR?oc=5",
+          "pubDate": "Fri, 23 Oct 2026 12:34:48 GMT"
+        },
+        {
+          "title": "AIA Healthiest Schools",
+          "source": "AIA Healthiest Schools Programme",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rWmFocVhrNWlQbXBUdDZyNTBkNEI3NXg2U216MjVPQWpoeUF4bVg3OC1lRldnbllUSTR2VWRTRzluczRodlBXcHIwV0pRa1pwdjM5eExsSkZRTTFPLUtyMDVWOTRoZUItZktV?oc=5",
+          "pubDate": "Thu, 22 Oct 2026 12:34:41 GMT"
+        },
+        {
+          "title": "AIA Healthiest Schools",
+          "source": "AIA Healthiest Schools Programme",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GX3VxLUVUQ3ExcHF6X05WMHlHS3FURVZhWVB5M0ZtbGFiWGZQQXRwdUpCcUlIUmJvamgtUHl4MlZ1enBSTU9nSWRKNHNMLVk5RUdCOC1YVWVLN21kNDlqVkFSZjBULS05UDBlMkZLbw?oc=5",
+          "pubDate": "Thu, 22 Oct 2026 10:31:59 GMT"
+        },
+        {
+          "title": "How to recognise social anxiety disorder: Causes, symptoms and treatments",
+          "source": "AIA Group Limited",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRGI0MGsxVFZQLUIwMnR5UEZJTUZnNFEzLVdoM3pzZVlGRVRWTVNucVJUNTB6clBHMDVCX3dzZ3NLNGNQVEVkMlpHNzFPcG5BSHJ6TE4tQU5SRGJKVVppbF9sTUk5N1dKZVlTeVZtLTFHSE9CR0NvaWlBdThaRjRGU0pBNGJHa3ZVejMwcnJoRXZYQXN0?oc=5",
+          "pubDate": "Wed, 14 Dec 2022 11:02:55 GMT"
+        },
+        {
+          "title": "AIA China accelerates geographical expansion with approval to prepare a new branch in Zhejiang",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnJOVkJObjFvVFZCaFZPazFldEdpS2xVcVRPN1h0dVhOdlloc0pFNEFkZ3V1c1dIeUt6NmJ5MVRWR0JDcjJnanpxSE9IS1J1X01FR3RVVmQ2TFFpQy0tWEdfcnFSNG51OTFHMFdZN1hETVZpQ0ItU2s5a0VIOWZVbEZNTkQtYmhwM0pka1E0YWV4QQ?oc=5",
+          "pubDate": "Tue, 26 Nov 2024 08:00:00 GMT"
+        },
+        {
           "title": "Healthy living with Tottenham Hotspur",
           "source": "AIA Group Limited",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWNRQV9raTlOWE41cXNjOVpRX1BEbnBEQUQzSzFEeEtTeEhnOElBWVBWOUhhSF9nOV95YjFpUDNzRnlMbC1rWTV1LVlhUFJmWFM3XzdQMDd1OE1pQ0VrT1BDUFdqZFppRmFBZGRJcUpRbHQ5N3ZzTlFIaWgtOFdzUksya085dGxPX2Z5SUFMdGVKY2tSMG1XNGxhVQ?oc=5",
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
         {
-          "title": "Untitled",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbHlLYzcxNXFrRk9lenBDb0d6NWVVdUJ3TWxST1lNRmpldW1WZmlubl9oaDlkcmp0Y05IZ2FBbDdUcUtfUkhWMlZFUElVTnBYUmNsZFI2MmZTT0hydW1qTjJUdWRyZUdrTGVHUzVobnQ4YmhUdEtyTHJNenJTcVZtWG03akhJd3VLVld4OFZVb0F3OGdSRnBZTVVyTkdEdUN6bF9UWVhpaE9CNndqOHhaRm56NjlQNy1TTE16MHpkbXFQV2xxd0ZSSmxOSWJNS3JkVVE?oc=5",
-          "pubDate": "Thu, 19 Mar 2026 02:21:57 GMT"
-        },
-        {
-          "title": "HEALTHIER PLANET, HEALTHIER COMMUNITIES AIA GROUP LIMITED SUSTAINABILITY REPORT 2025",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMHpSN25SU2F3c0hSMXNBTDBZNW5abnVnY1FaS1NGSTZ6UVpiMGQzUG1iZHZ4TTlZRGxIcUkyRUNrQ1ZjN2lSSjZZUElINnYxX0hFeEgxUWF4YmQ0bzd5UTFkQTZ5dkZuRE04YUdFdTFWaWlCZ3VSU0djaXZJLXE0MXdpVFhweXdMTFdOZ3Q1T08ySTYzWHdhLWZ6SlhyVDYz?oc=5",
-          "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "AIA Healthiest Schools Programme",
-          "source": "AIA Healthiest Schools Programme",
-          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE95dnhGelVmMDFLSG1CODRjcHJfdGw5dkQtdTdMUTFtWUZyZFlqZ1pTYVVjWHNZZW9RRTUyQk83QQ?oc=5",
-          "pubDate": "Tue, 01 Sep 2026 22:29:07 GMT"
-        },
-        {
-          "title": "AIA delivers strong first half results in 2026",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX2JrYXRWdzJxdGFZRUVRWG0wNTlES1RZLWk4UlBEQi1rUkx1Wmd4Ty1HYS1XYU5TQmMzajZXMW12c1V1T0FXVXpBUFpGcl9OamxMRzlXVWJuUUpwZFl6RWlTTy12R1BMNzJwRUxWZmUwZ0RYbzRDNUVhZHpOUHVoRFNQTWg0UE5JTnBVdERXdUpPZw?oc=5",
-          "pubDate": "Thu, 20 Aug 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Credit Investors",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYNVhiWlJxTWs2aG43TDZCWmVKcEI3ZG9HeF9XS0dtUlhSVERhdXdWWFJNX0lNTlhCY2hndm0xbFhWdTRIUF9ucE9DZGZkOVFjWnBYaDF2OTEwcHRZWnBDdVVHRnJYX0o3VTlTaFlFbGw0M2JYN2c?oc=5",
-          "pubDate": "Sun, 03 Jul 2022 01:03:07 GMT"
-        },
-        {
-          "title": "About Us | Asia's Leading Insurance Company",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSWGJBbXRuNGlJSDVaY29NZG5ESjNtelhoVE5FbkN1S1dHWENjX3k3RVBjamJleG1DcEZrajE5LS01VnozWFFzZmlvbTdkMTJGcFNB?oc=5",
-          "pubDate": "Sat, 02 Jul 2022 21:44:22 GMT"
-        },
-        {
-          "title": "AIA One Billion",
+          "title": "How financial planning can help your small business",
           "source": "AIA Group Limited",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jczVucTJ5cUI4SXJ1aGRHSk5FVGpCN2FSNzhQbVNkQVV5UTlJemdCMzI2ZFN0ZjkwV0VNa3VOYVdSTzc5LU5iWURaVXNycHJlQnFzNmFROGNQd1Zh?oc=5",
-          "pubDate": "Sat, 02 Jul 2022 00:36:33 GMT"
-        },
-        {
-          "title": "AIA INVESTMENTS | AIAIM PH",
-          "source": "AIA Group Limited",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ2dvNmswMnNrY2Nva1AxNXBnTThzWVJ6cUtaX2R4aUV6UEpIWHZLVS1WSWdrbE16a0JKdjJYTGRRQ0gxcFhLUFRrR01QOWRYZlZFaTI2SnZNTE1iN3ZwS3lzb19zQktQbTBQR25EQUJNT3dpZmt5dnhhT2UxZFhRMWZ3?oc=5",
-          "pubDate": "Thu, 22 Jan 2026 09:59:38 GMT"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUGJXSllDYUI5bm4yN3YtVDFQMk1WY0xTTkh0ZHRDWDB1a0hzMFNtdHF4UV9fRVZSX2NIX3lFZjBlZlpyMEpzVU50ZUEzLVZjMlFPVGZZZzFrVnRRTFJYMlNmcmliYjZHZmY3dnUzTGRlVzRIVVVtRWJHMnZpZDhmazN1RHNBdVNvUHNwRFJKMU1XM1ZnbVk4alNGalVrT19nTWgwMkJ6MA?oc=5",
+          "pubDate": "Mon, 10 Apr 2023 02:44:16 GMT"
         }
       ]
     },
@@ -373,12 +373,6 @@
         "query": "site:shinhangroup.com OR site:shinhan.com"
       },
       "items": [
-        {
-          "title": "Shinhan",
-          "source": "신한은행",
-          "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1KTC1pZ1MzZm45RnJFRVpFVUlkbzZfSHZXUEtSdjZEb21zUmpMUlJkT0czcnZvelQxWHo3TQ?oc=5",
-          "pubDate": "Mon, 01 May 2017 16:42:16 GMT"
-        },
         {
           "title": "Shinhan Financial Group-Dividends",
           "source": "신한금융그룹",
@@ -432,6 +426,12 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVzROSlN4Q0FPWmctX0tMeEZCYXB1bld5bTN5VkxQMWZ3QXJBYTY0a043YU9WVUxDX0xBU0JsTkFIWGx5eWhicnlmcUlWWV82QzZTV1RjdW0zcWpX?oc=5",
           "pubDate": "Mon, 29 Jul 2024 11:19:17 GMT"
+        },
+        {
+          "title": "ESG DATA PACK",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcE9vZG1Gb3JUT0hwUGRXYURMVnJTRDdvUkkzREtjTFVFaEo5V2MwVG1jRGxIODFoWDlYckJnTFFTQWt0V1MxYzNYZUI2S1dydDZkZ3pRa09relN0c0hhNFU2SE83Zks4LU1JZTdIQUZZeHh2Z0N2WEJJNGttY1hYYlgzaHJKTjREcTBicTQzam9ZQmM0Umk2eXZIS2JrakY1bWFVazRBRk43andoTlE?oc=5",
+          "pubDate": "Wed, 03 Sep 2025 19:13:28 GMT"
         }
       ]
     },
@@ -584,6 +584,18 @@
       },
       "items": [
         {
+          "title": "Temasek Invests in the Scaleup Europe Fund",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUU5BNTdGTUJfSndwVWQ0a3NMOE1obEI4YUk1bDg3Z0JqMUYzOXp5ajBXTU9MSHJIeXhubS00UXl3Y0lGT3pZY05OUWdhY2Y0RDVoeld4c0tBNWt1cThXdDVra1U3Y1dtNUh5Unl2VUVlMFo5ZUR4LTYyZjJsUzZmNS1INWQzcnQzNWdSc1hmMUJzcm1GZ3VMdWQ5WlRrUDBvT0R0MUhQNEhDUEFDVW14bG05dkJHYzhO?oc=5",
+          "pubDate": "Tue, 20 Oct 2026 05:21:41 GMT"
+        },
+        {
+          "title": "The Age of Interconnected Risks: Lord Mark Sedwill",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWklsUWhzOUJmdzlrODZ5Wk9PdTctVEFuUmVPNUdDUDFjczdib0lIdExqNmpBOW5uMXNUZEZLald4U2VFSmJ6VVNocy1yN0lGWnlMZi1pNkJyeXh3a2xGZ0VjQUczNlo5STcxX3JmVFVESEhweVRJWDYyaUJObDR3Yi0xTVpOT2lCY1VYeUE0dF9FTEZBTllKVU0yUXF4SlV6QWlwdnRKRzFhLXIwZWlUYzk3ZHZGdFN0NmRVSTc0aTRzMFJ2RE0tbER0aEVJSGtnWUE3dGtuaXRRbEcwV0pUZjBuTmFDUQ?oc=5",
+          "pubDate": "Mon, 26 Oct 2026 15:47:10 GMT"
+        },
+        {
           "title": "Director, Cybersecurity (Governance, AI Trust and Assurance) Job Details",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU0NhdFVBZS1WQmtnMl9NcEpsZnpYTDVRX3dFUFBpMGRkaTAzU2prY21WVmZlaFRhQTE2RVptWFdVZmNCRTVJdWZ3am53REc1YTEzMzBFSTBLaTZBNU0tcWhYVHAxYTlBMloyXy1HT0hIWlhvM050a1J5VEplZ21GSXkxLVlsY2FKc1ZzNE1aQWpncUc3b3FCRmtNNmE4OWYzMjF3eURaNFZ4QlpDVkwxMHU5OW1JckdEOVZj?oc=5",
@@ -626,22 +638,10 @@
           "pubDate": "Sun, 11 Oct 2026 04:36:50 GMT"
         },
         {
-          "title": "Temasek Invests in the Scaleup Europe Fund",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUU5BNTdGTUJfSndwVWQ0a3NMOE1obEI4YUk1bDg3Z0JqMUYzOXp5ajBXTU9MSHJIeXhubS00UXl3Y0lGT3pZY05OUWdhY2Y0RDVoeld4c0tBNWt1cThXdDVra1U3Y1dtNUh5Unl2VUVlMFo5ZUR4LTYyZjJsUzZmNS1INWQzcnQzNWdSc1hmMUJzcm1GZ3VMdWQ5WlRrUDBvT0R0MUhQNEhDUEFDVW14bG05dkJHYzhO?oc=5",
-          "pubDate": "Tue, 20 Oct 2026 05:21:41 GMT"
-        },
-        {
           "title": "Southeast Asia’s digital economy set for $368B GMV in 2026, tracking to $1T by 2035",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSTRoU2w0bWRlaDYwMzctZnFaRjdaV25DQmcwcHMwR2MtaDZvc0RsbEhyZEtwaW5FU19ISTRFNzd6OEhlc3JHM3Y3MEVKVmZ3V3l1UVVHbnNSRnhoNjl2a0lHTFB4cWJJV3VzZUo2eWFtQXEwU1E2MVV3MHFfY2w4eS0wWFlhMzVXT1g5X0d3bTlva0REWXRxb2ZpcGdham5WWFZJR3BlNVlSZF9KOG5kNjU1MG1JOW8zaTV3WWZNejBnOFo2SlNHOWt5RWhrdGRXZ3YtMk85NlRqa0ZZRmNsMg?oc=5",
           "pubDate": "Wed, 21 Oct 2026 03:05:36 GMT"
-        },
-        {
-          "title": "Building Enduring Partnerships in China",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaWVjZmxMaWJRVVZvY0tiTFRIN0JERjBzU0FLQ1ZscXN0VHRRb25ST3p2WV9zZW94QTJLOXAyWTZpU3AtZlp5TkF4U0RpdmZsNzEzNUdZTWhUc1hWWmwzb0pIVlhaaXljeG43ZnliVmlfMDV1aHhxelZ5NjBXRFNIMnZmRUdwZ1FnT3lxMUZ0bGNTQTFKc0lDdlVmZHNUMUxQX1FsWTZpV0dMTmhleDJSb2t0MnpwUE9MNGc?oc=5",
-          "pubDate": "Fri, 18 Sep 2026 07:00:00 GMT"
         }
       ]
     },
@@ -660,58 +660,58 @@
           "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
         },
         {
-          "title": "Associate, Funds and Co-investments Group, Private Equity",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWUd1OG5CSnhHR2o2R0dNT284UmlJeTVQRXg5VWMtSFpNaDJOR0JGRXZrMmN5d3J0UzROQjFpb08tRW9tWjkwZ0kxRF92Y1hnVFd5WXdnX0xKeU5ueDZJUW9iT21Xel9lQVBjUDJkcE9WTjdxX19aOVlqajFiTDNrcUE2ZFZ6S3Q2NUlMN0VnamFHblYtWDJkTzJiTHh1V1FKRGNoWnVjWEdTNHJjbmZVZA?oc=5",
-          "pubDate": "Sat, 24 Oct 2026 01:03:10 GMT"
-        },
-        {
-          "title": "AVP/VP, Third Party Risk Management, Operational Risk Management",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNanIzYktCQ0tYOWxBdmJyYkdQV3N6akhaZVVOT053eGZtdU44eTkyblJSS1RlSDVIMG1wS1labXVyTl9fUDJUZXpLbUF2dDAyVXUxUzVVSGdsb2pYSl9qMHVKV3NfXzBPc21yNVdDdkdBcGhxRlFnMlhNcEg2SkduaFRjT3I5RmxCdENoY3hlRUthRUNINk5vSllQcFVocExtWkZjakVkWU1PeU9PYmVSVU5FcThwTTVpN2hYZw?oc=5",
-          "pubDate": "Thu, 08 Oct 2026 21:21:50 GMT"
-        },
-        {
-          "title": "Associate/AVP, Deal Management",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3Rpc3lidzVQT3lRX3h2Z1lJZUdpc0txU2ZIc2ZIcS1ZMkhvQnlxd09ERmpmRnNvRDlndWtrN09UY2hQbXE1UFdmUjFhLWpXUWdTbGNwY2IwRVhvX0k4QUg0cmtLRFpZcm1HWjlfRl9GYTBVeF9KWmgxcm1PS0lNRGhmaWhwQWhBWmc?oc=5",
-          "pubDate": "Sat, 17 Oct 2026 18:35:11 GMT"
-        },
-        {
-          "title": "AVP/VP, Forensic Accountant (Public Equities)",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSFRfSjlOdFg3VGt5TzJtV0NsRzVrM1hfODV3ekwzTnhaeGcwRE1nTjRodU55MW1UQjNlQ3JMZkd6RjF2QlA3SXB1dWJQLXZVV0NpRVRoZVZEWkVSVGpKcGlsd2xyaEFJS0ZGZzZUdWNlajNoZDhoeDRtTUFDdTU3Q2VxZ21GeUdaSlNKQzFIRDQyYTRsbTJ4clA2LURSaEZ2VFRkOXFR?oc=5",
-          "pubDate": "Mon, 19 Oct 2026 05:53:18 GMT"
-        },
-        {
-          "title": "VP/SVP, Identity & Access Management (IAM), Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRFVxclotenprcHRfWHJmRG8zazYtbVVwQUFib3gzQ3NKZV8yakdWQmxWUTBXNDU0YW5BV2hKYTJGM3Nyb05KU3ZYLW1UQWgtbVJ0YzdqRnZMOGFlWFJnTEhBdHZPTjhpR0QzMkFJN05mX25SbnVhVHh4VkpTNzBCdWVNNUlpc3E5dkkzVS1VRFl6c3oyb2lwd21CSzdmLWtIRVh0cWE3QTVRNnNWMFBlOVZ6WXNrVFNqNkVsUg?oc=5",
-          "pubDate": "Wed, 14 Oct 2026 13:51:02 GMT"
-        },
-        {
-          "title": "VP, Network Automation and Reliability Engineer, Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDNHS21qbExhZGRueDNCdThoaGV3RE53UW5ha210allVTlJ1RDd0NUV4NW1sYWwzYVdYZ005YkRuNkpRM21SX1loUTNWSllnS3J5Y29lb20xV1h6ZnZDU0gzQWtQWFoydzdpYW56c1Nvb2FpQk40MWJXdkw3djlaWkgyb0hKOFhYTng2OC1lcU1ZZktfWUtkTHRTWHU0UEtTazY0eTJuNHFVak5BOFdhWXE5SEdXVUVvN2ZHVnlHYw?oc=5",
-          "pubDate": "Thu, 08 Oct 2026 04:50:49 GMT"
-        },
-        {
-          "title": "VP/SVP, Risk Manager, Business Solutions & Risk",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTFJ0ZkxsbVgxdjlLRzdxZ3lIeThTNXd6U1Z2dUNIQ3hsTTczOEJwN00td1lUcHYyWGVQaW9GRVkzUjRHR3c0eW16cGdYOERtaGMxQ2F6NjAzTnhLZ1B4aWdCYmNDVEZ2ZmVyalZueVZtYnMyb0lCdmJMUDNXY2hZa0RxdTIwQlN0OFVncDQ3aWQ4cDFPdlprcnU3S0xrcVUzQUxxNUln?oc=5",
-          "pubDate": "Thu, 08 Oct 2026 05:20:13 GMT"
-        },
-        {
-          "title": "Opening Remarks by GIC CEO Lim Chow Kiat at the Opening of The Secret Vault, GIC’s First Public Exhibition",
+          "title": "Event Information - The Secret Vault",
           "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdkNnVEJJSTNGZ19NSFVuWHlvRzF3WE5EQ2w4WlpSczVOUlEtdWl0MTF2NUcwSHdHWXhJMEV0dUZ6WnNoX01Tdm5NT0ZDbW9sc2l5MzhUbzJCMC1sY09NSzBuU0dubWU2X1JPbWV1eXZhalJUV2d6Mjh4TGNGdkJ6LUROWmtXeVlMUlZVYXZ5YUIyT0VaNG1aeEJKVTF6VHo4enJKZlhnSTl3NEszdDZJbkRRcTE2V2M4TGt4S0NWbXg1eExwOW43OEF6V0U2TnFZeUJCN09zZ2s?oc=5",
-          "pubDate": "Fri, 09 Oct 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WTEpRQTIxajFOelpQbS14RnRubmpPVmtlX1kwN29uc1h1QVZZQUl6TjJUUEk1X2xKVHhscTU4YUFvcS1MeDR0bHB2dllCemNlajBfMW80MlJRamtnaVFUN0xGMElKNWdubEwwTlFJYw?oc=5",
+          "pubDate": "Fri, 02 Oct 2026 08:36:27 GMT"
         },
         {
-          "title": "SVP, Compute Platform Services, Technology Group",
-          "source": "gic.careers",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOamI0RUZWUnRyQkZmaVFzQ2t2Yi1ONS1rUUVaZEtkUTFyVGwzT0Y2MTBkM2I4a3Q2Wm1RMHExN18tM2NVSGtHTUhvelFLZGpwck4xb3NSWkY3UFNCRjRiZmFYbkJsbzNaekIzWmNaaE11SlJ5SXdMSDBqdV9sZVE1WGQ4OGlhSTlDOFdlMFZBdzRnVDFSTUNDbFE4Y214UGpwUE44d1F4V2c?oc=5",
-          "pubDate": "Wed, 21 Oct 2026 10:25:24 GMT"
+          "title": "Statement Regarding Personal Views Expressed by a Former GIC Employee in Brazil",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObFZFX0UwSGlWbnZJNVJmcDRPNzhaTmpUVi1ONkljaWUzMGNiNUFiVm5VdGFtOGY1SHJJRTJ4SW9FWjlCRGpyMTI1ZjU0SS1SWXF6VFU2Z1lWZU9lN2t0OGt4NG8yOVNYN25EX1VBdzF6ZXdlM1FpOVlGUkI3ZGdHUFBDTTc4aFNNbWxzTkRwWjRvNTk1MEhTNUlPRGNYUzM3WG8zMHdvNmZzZHppMlNKZWxBT2djMEk?oc=5",
+          "pubDate": "Fri, 02 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Liew Tzu Mi",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lS3NPckdmTllic2lwSENHS3V3Ri1CWVpsZnM1bUx6R2xWQWw5b19zRGtOdnVTTy1zeDdubDlFeGVxQkpNNlpIX1RoNjhRQnJDWE5LZGZDdWZLWnBjNW04ajl2U2doNDV5U25mcHR3?oc=5",
+          "pubDate": "Fri, 17 Jun 2022 05:05:29 GMT"
+        },
+        {
+          "title": "Contact Us",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmR3hPX3JzX0hkM0txcVBzUkpwVHdvdkpIaGhHMDlCUnhKMW9sMDFGb2MyZVkyZ1BkYW5DLWJxeTBXOHJtcnlsU0Z3?oc=5",
+          "pubDate": "Wed, 21 Mar 2018 22:23:30 GMT"
+        },
+        {
+          "title": "Dr Prakash Kannan",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Jb2paLWJnSzh5QlRBWW00UTdJOWFNUlBkUGhUN3pYeVZfZk5kRzlEVmNDRjlJOUhiNWdQNTZIX1lSMFozN0ROdmVIcHBuR2NudnU5MEZyOEtURk5WcW1zenFnZVlWQjhNb1BIUlFDZFpGRXk0dXc?oc=5",
+          "pubDate": "Mon, 08 Jul 2024 09:40:12 GMT"
+        },
+        {
+          "title": "Yap Siao Teng",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55OExMZDY3OURwdGZ0R1QzdlRIeVRJZW9yd3ZuZmRIODhJVXV1VDZnZnJkam9SWG9MdU5SSGhKOEFyZ2l6bnZvV3Vzd2Y2OTBZdHgtNG9Vb3JFVmRsdDJ4R1dWWk80TlYyR2xpaFNfd08?oc=5",
+          "pubDate": "Fri, 24 Jun 2022 12:14:26 GMT"
+        },
+        {
+          "title": "Cai Wenzheng",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5LZ2pIQzhHM2V1VjR6LWs2Rm12ZlV4cEZzUWY2ZU1kbDM5NVNWYzU4NzgtanAwOXFORWFyMWJRdm9FRWZzeG5IZFE2dHE1bVQ5akN1NktmZnBaV0Y4N1RTVjFUOS1hTHl0cHBfTGkzTQ?oc=5",
+          "pubDate": "Mon, 03 Jun 2024 19:06:06 GMT"
+        },
+        {
+          "title": "Wealthsimple Announces $750 Million Equity Round at $10 Billion Post-Money Valuation to Accelerate Growth",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM0l5VDhKNm5USUNLTTJOWDVEWkVEcVhka2xGMWw0SnpBaUhyLXJ3aEtXeVhVdmYyeHphMVRKZ1NvbnlOZ0RrUXExTjZnOTBHUjdxMFlSSTlCV2RyZWx1RW5hUy1QcW54bFVEM21VM3VDSXhNU3FRMGZUZ0M5aDd5ZHdLWTFOY3NCSktCU2FFeW1uUEg0dzZnRHBaVTd2ejVpd1V2V2ZBaDFLN29ub2Y3dU5qRjZ0bE9FTkd5eGI3ZVI0c2p6SVNHTXYzQmxEZGZxOFdIeEZoTQ?oc=5",
+          "pubDate": "Tue, 28 Oct 2025 07:00:00 GMT"
+        },
+        {
+          "title": "Girish Karira",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oS0pmUl9pX2ZWT3FlZUlCQXlsdHpIT3FjTUR3LWVzSFJjM3hTcWNacXpkNzBFMlIxamZyTFFEV2hWNl9ma0NQSlFPSmc5M1pLazY3eG9OR0loTWVrNE9qV2c5eU14ZTZvZzhna1ZFLVg?oc=5",
+          "pubDate": "Fri, 24 Jun 2022 12:14:11 GMT"
         }
       ]
     },
@@ -800,12 +800,6 @@
           "pubDate": "Thu, 26 Mar 2015 07:00:00 GMT"
         },
         {
-          "title": "2024 년 1 월 24 일",
-          "source": "한국투자공사",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mRW94MnI2X3ItNjFBVjZIMWh5X3ZoUXNmWWNvT1NTTWxQdVBSYmh1WDlfTGxiS245UXlzMElGQUhGYzVTWWVTX0NFUGpQdVhmakhOeHF4MUxwZklqVU1pNHI3TGFpUHBYdTg3UGd5aTJXQ2FZZS10TklIeUJNT0k?oc=5",
-          "pubDate": "Fri, 25 Sep 2026 14:08:12 GMT"
-        },
-        {
           "title": "Securities Lending │ Our Portfolio │ Investments │ Korea Investment Corporation",
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VYjloY0tSWkpVRzFwMDFSaFRWeVE3TmJ5WGMxdEJySFJ2dmJmcjQxaVUza3BjRDlGNmRNQ0twczVhOXVzZ3J6Z2wtSUwySEVPOXFmeU5UY0R5dlV0aWJ5TW5WaXcwd2hYVW45VlBB?oc=5",
@@ -852,6 +846,12 @@
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45cWhSVmExOWNnRWlicXdoSDZndWkwdERZeGkyYzA0ZjFlNzB4b2wwamR1SDlUUHB5RTZMQkc2ajRsaE92cmczbDE3azktbE1TbEZIZTExSXVsVUUtb085ZWdn?oc=5",
           "pubDate": "Sun, 22 Jun 2025 06:03:27 GMT"
+        },
+        {
+          "title": "[Press Release] KIC names new COO | Press Releases │ Latest Stories │ Newsroom │ Korea Investment Corporation",
+          "source": "한국투자공사/KIC",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GSXBIU09EQmdQaU9GbUJhb0ljVDFWLS10TEdtZE9FT0dHd3JXM0xLX3p3d1NQcTE4WUoyRmVSMElQUVlvVFg2TUdTZlpDektFR0xEcTNR?oc=5",
+          "pubDate": "Mon, 18 Apr 2016 07:00:00 GMT"
         }
       ]
     },
@@ -863,12 +863,6 @@
         "query": "site:nps.or.kr"
       },
       "items": [
-        {
-          "title": "영문 0709 최종22.indd",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53b25MdnhOZDdkQjAxWHJvckVqM0tFMVNrcnBNRzJ2MG56Z29BRFYwRXlUR0duTnlRWW9WanV3Nmp4ZjBLam5kUmcwcUQ0NlI2WnlXajEwRjZxV21iRjFmdTBJV0poRW9s?oc=5",
-          "pubDate": "Mon, 27 Jul 2026 21:53:48 GMT"
-        },
         {
           "title": "2024 National Pension Service",
           "source": "국민연금공단",
@@ -896,14 +890,14 @@
         {
           "title": "National Pension Service",
           "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmNDUzRVNzVtUDJyVUlOSXpTWlBSckRqSUxVbWU3OW51aUdQY1k0eTNpSEpid25nM0x0UjFzMlhHanBqUi1IVmRUUVVZNHBHaWhJYXE0VUJtTDBONlpJYkpLS0Y1RjZqZlU3SFNIMGhLQTZfOHJLRkVJWlgteFN1ZzdnRDVjQ3M?oc=5",
-          "pubDate": "Sun, 02 Nov 2025 20:45:37 GMT"
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxNFl6bWprS0diY2VVeG9zcXZOVDZmQWMyM0t6ZHZSRUhmcHpNQUY4Z1drelhfVE5OZ1dWdG5LTzI0dEUxRWU1MURiYUYxcnZuU0VGSHE1bkxNV19fcVBtUzlnQk5lR1JMQ0cxMkJhZnQ?oc=5",
+          "pubDate": "Wed, 07 May 2025 06:38:32 GMT"
         },
         {
-          "title": "National Pension Service Investment Management > About Us > Governance",
+          "title": "National Pension Service Investment Management > Publications > Press Releases",
           "source": "국민연금기금운용본부",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HTTY4RXBWVmpzbjdGVmd5VEVLT2lRN2NwaWlBYk9TMnp0SndtNEdRczdGcS1tUFk0ZmxEQ294X1B3akEtcG5WUDFGeUo5em5BRGs3NldjVDdEOFN4YUVLdndtWWJ0c1E?oc=5",
-          "pubDate": "Wed, 07 May 2025 01:28:39 GMT"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWE1KTkVaUE1WcmZVVExxR1Z3UkRrYWhoYlM1SXNqRjE1cVhZbklOS0xBSjREeHdOUjljNkVZQ0t1RWR5Wk1kV3pCTk1HSWI2QXgtV1hIdUJiLXJEVGFrYXBrTTl4al9xR1dNdXZuUjdEOTVaMTZCdlQ1SFdFUmM?oc=5",
+          "pubDate": "Wed, 07 May 2025 03:20:37 GMT"
         },
         {
           "title": "National Pension Service Investment Management > RI Activities > Shareholder Activities",
@@ -912,16 +906,16 @@
           "pubDate": "Wed, 07 May 2025 07:04:27 GMT"
         },
         {
-          "title": "National Pension Service",
-          "source": "국민연금공단",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbmI1UXU3cVUzRjlOeEdLNjZsN19velN6WktSaE9TOFhqNDFlVzQ1N2hsQ2phMnc3WEI0U3JLYk1NdzVWdWxDdS1LNVg5MkxxQjJ5UV96dXduLXRzWFNpcVhDTkFYX1FocUNoZGRkTlFsOHUzcXVNQ3h1aWxWVXBOMDZJQ0k2VWxEX3lpME40WU9aUQ?oc=5",
-          "pubDate": "Wed, 07 May 2025 04:17:22 GMT"
-        },
-        {
           "title": "Executive Fund Director & Chief Investment Officer",
           "source": "국민연금기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
+        },
+        {
+          "title": "National Pension Service Investment Management",
+          "source": "국민연금기금운용본부",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Pa0dlNzRXeGtqN3NyRWpZS285UWg3MnhqaTVsSm1qSXJ6cjNPeTE1WC1HN2lTRkRCcGdvWkZnRHFSVE0wOW02TDZB?oc=5",
+          "pubDate": "Tue, 06 May 2025 23:22:09 GMT"
         }
       ]
     },
@@ -940,58 +934,58 @@
           "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
-          "title": "How to stay safe from sales tactics and scams",
+          "title": "Retirement Bonus",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZlOXk3bmdvdkFOaURQN1p1ZEE0aWJMTS1rZVgwdDV2UWJaMDJ5RldYaE9faFFTTWw4d3VnZzViQlNJZVZWN2hTVXR2SThxUzl5ckduYkdCNnVsNmduSWN5SmwwdFNWZHg5THd0S0xiMVpkdXRPLVlRUlZ5ZHRna3FiUGpfOGRMbkZ1YUpzcGd0c253UHBlb2ZZak1taTM4RDEyOUEzcmI?oc=5",
-          "pubDate": "Mon, 10 Nov 2025 05:13:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
+          "pubDate": "Mon, 10 Nov 2025 08:00:00 GMT"
         },
         {
-          "title": "GOVERNMENT SUPER CO-CONTRIBUTION",
+          "title": "Hostplus Statement on Cyber Incident",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXJCQWZMSXd2VE5DSDFxVTlZZklFVERtYXdGa1MwNFVHRmJPRkl2U3QxTnFtV2Q0OTg5UzhOUndLcFhhaHpSa0VuQlJkUS13eHJ3OWhsT056NW1sLWpXSmlIbEZwVDBZYzhseWt5R3NhNnpkaWdwNUl0QVNFOHhIbkZmbDZvLUdzNVoxdXQtQWl4NDRZRUZrSHB4b1B0WHRkWTdEMmZ4X1V3YmZkVUJ1WW1rNzRCQ2U5cmZralBvX2dNUUgyWi1xZlBxQzZiRVFRSHJxUWZ1TGY4RzA?oc=5",
-          "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qbS12elhfelJ3ZnRBeVZPc0dhMERNaFNoMEZraWZERVZtUDM3aWNiRkJrVlk5MU92R01LWngzTlRyaTRDZEpZLXh3RmlLc1ZXbl9HQ0dfekhsYW9CSURwZ0N3R2NYWkFMcE12SzhkY0JxNVJKTUlBR1hNNEZlN1E?oc=5",
+          "pubDate": "Fri, 04 Apr 2025 07:00:00 GMT"
         },
         {
-          "title": "Meet our trusted Financial Advisers",
+          "title": "Hostplus members rewarded with strong FY26 returns",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN01Zc1o5TElOeDJPcmFJVHlBNHZUbDl2WVA5Qmc5WWJ3MEwyY2ZZUlhDRlZ6OVFQSDlIVG16c05FNXVBazdmRjJrOHJ1VVdRYjZaelV0WVlEbWVicWRiYUFXVmZYM1dXX0dvWDYtUnNibUVMUTFISFpPSHhlUDZLbzE1TFZuYzA5OFc0TTlrRWpjekZCLWRKQmlfN1BmbjhIMS1IbGdTTWdGTXZDV2JLNnUtR3FjaG9IS1I4SkdUT0c?oc=5",
-          "pubDate": "Thu, 16 Apr 2026 02:58:19 GMT"
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmNZby1YeHltNVBtam00QXYzRVpJTktzY0trWDItN2UtMUxqaU94eWhRc3kyRndZQkpTa2lYaEZRZEpQLTdZWERHZHZvNE5Qa0NZbjZLdDNVUUpVbG1maWtKMUpDbURLNHRuQUkzczN1TlZFMTAtRjRiaUlRV1ZUcWMweE13Zkg1OVFQT2poWnd2QQ?oc=5",
+          "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT"
         },
         {
-          "title": "HOSTPLUS SELF-MANAGED INVEST ANNUAL REPORT",
+          "title": "MySuper dashboard",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDV5OGp1S1NzdkZOZUw4ck1GdVU3aU5GNy1KRVB5clV0anQwSVh1TW9aUGttMEp4aUI5UEU5Uno0UjRDQm5wVUc5RTJFWXkzWkVaWV85YWxoN2padU95QVh5QXVmbGV3VFYxMlNZVUdpNFhrZjNmLTFRX0xCbzNULVd5OHdBU1Fjai1Pa0Z5OEdseHJkSjh2NzZXNmljd0xsNXNQd0V4djJ2T3hnVXZXVFNPSjZOQQ?oc=5",
-          "pubDate": "Wed, 19 Nov 2025 05:03:37 GMT"
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaktaeXFUQUItYzBrb3ZHUXY5YVp3Vm9MWXJkYjd1SVRJaXhzLXo3T1FWUkpfeVFMX2NfcWhNTVJCX1hRbEc1SUhOYkhzOTktcGo5SGhjdW9MT1ByM3BWMzVaUGljdWFsRW94Vm9MUUl3MTk5TldId2I0X1JvVF9zODFTbTN1ckdXM1RVaXBIeVhYUHRJaWRNVjd3?oc=5",
+          "pubDate": "Tue, 06 Dec 2022 19:30:55 GMT"
         },
         {
-          "title": "Review -",
+          "title": "Online enquiry form",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSHF4cUh5aV9IWVAwX0FDU05xNnZxOWtDNzN2NEJOcnQ5LVVqWGM1NjZadm1BNmNhTjF3RXJjOU4tQkpSS1pxVGMwYjlpdWROS20wa0VGRnpyeExfZXZpMWRELTc1ME9STnNvNXE5WXdWdjM0RjJmTUFNaFo4V0lBZnhUTnJUUk9lYkxvbzBPeHJKRExxaUhHYjRkdWFONmRJdWM1NkdJRzQ0RGpzZWc0UUNZWi04MENsLUdyUTQwbndPcWpuYXloV3Axc05MelcxcEMyQ3VfUF9wOVFaaTZsRQ?oc=5",
-          "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sSUZfS0dzbVZkenBKMnZUZzhvaHdVVXVuXzgxaloyeFE0MmxneGQxMWdwcG5JaDZLS1FBZENtcnRxcWlqd2txbVFBeEpJQlNqWTh4bWFoOUhRUkFjVnN2SmxaVlpVMTRtM2g2akJYX1U?oc=5",
+          "pubDate": "Wed, 07 Dec 2022 02:11:24 GMT"
         },
         {
-          "title": "HOW TO TRANSFER FUNDS FROM A SELF-MANAGED SUPER FUND (SMSF) INTO HOSTPLUS",
+          "title": "Helping to protect your super from online fraud and scams",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVFo0bXg5d3NHdHgxZmt0dnN2SXVoNTJCUDVXYm1BZ3dUVlZKZEpUVS1mYWMxcmh2VUt5UjI0WTVvVl9sWXdJeU52NDM2cjJ1UkNHSWg4X3YwajlxTWJRRnhjazRXaGZQYUduYWYwbk1nN1VIT2NvU3ZnZHVwT1J0YVQwdmRXVUVsdjVpUmpFZVVNX0JfVFN1aUJucUEyMl9IV3J4TE1RSVZfSTMtcHhncVVacnRLS3hfSVlaM1Y3Y2ZmekwtRVdoZWQyRFEydGM?oc=5",
-          "pubDate": "Tue, 16 Dec 2025 10:21:42 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kYV9nd1hCdnBaQUxyc0I0bnlOYUI4dV9VZGlUei0xLW9vSDVnbjAtLVM5dmhlQTEwR05wU1I5VkZUMlFHVGpBSjBJVVl6U04tbzhrMC1SNFAyemo0ZVF2R2g3WEF5c3hk?oc=5",
+          "pubDate": "Tue, 25 Jul 2023 15:41:35 GMT"
         },
         {
-          "title": "Pension end of year performance December 2025",
+          "title": "Hostplus Executive",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS29LZERadjljejlKYnRvY0FQNlJDNVdaR3NWZy1tVUZLVjFrMXFHT3YzOGNwUUtlVWNNQzk3TThDVUdpRmZFdkdESkgtbnRxTDBoMGgyY25TY254SW1EcVczRDY4VzBzUWhtNlJUS2YwbnpyMDZEN09ZQXhQZkgteEU2OWFTVjJtRDg3c0xjd09OVHZjSEt4Z3Z0dXBMVHpMdkdpRFgxWQ?oc=5",
-          "pubDate": "Sat, 07 Mar 2026 12:29:40 GMT"
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPay11eG9XdTItdzFMaUpoRG5NWXZVT2lmTEpiOGdybXhQY2JfWDBiNm5FTHllaFRJZ19Jd2RmcF81RmVab0sxWVlxenRzNjhaVWFpMlJDbGZPY05ma2lNQW82NFJtdC1lZy1XenRrOTc1MUszdGdNSlNTS3ZhUGlfQlRWUnQ1UjFqejVBZXJnaTU2SzF4UXdyZQ?oc=5",
+          "pubDate": "Wed, 07 Dec 2022 05:03:54 GMT"
         },
         {
-          "title": "TargetMarketDetermination",
+          "title": "Contact Hostplus",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUFJQZmVISHhSWHNhR2k1STVBcGF2Qm91dXNta0Z0UHc0a0c1dUsxWWRudEYxQVFONFB5cTk3elhHdmZJNjJjMnlFNG5lUml5Slhoc0dvYmJwWXFIVGFrTzJMa3d2cG9VVWtqeHdQeHlSVXdicUw1RHdHSkV6a3NMTkF1Q2lfamxtSF9HWEVPeWpxYklNa0xjYlpwTVBsNmhrLXNKMm1NZVJaWGlhalVTSW56aE15U0tYMUIweTl1Z0xYNXFxcTExdWZab2puejAzUExpcDZlajFSQ1ZhaEE?oc=5",
-          "pubDate": "Wed, 30 Sep 2026 07:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKVFBQNk5lc2l2Z0NUTTZSMnJnUVY1djdfVEc1NHdMOERHUEs1QTN5Wnd1NmNMbEk0bjFaM0tLQUFQeURRWVJtekExYWtSQlN5Njd3MFBn?oc=5",
+          "pubDate": "Tue, 06 Dec 2022 21:04:05 GMT"
         },
         {
-          "title": "Understanding market declines",
+          "title": "Indexed High Growth",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbVhWNFVTbmZqanMtaVpnOWJzWGxzX0d4V0xXY0UxbjRZekRFeFhQTGRVQ3JlMV90a1FCN3hOZTlLRmhncG5DZlZyRUkzWW9tQ3VOWlJ2ZURtbzN2bUZFQ2VxODl2S09meEVfZGRxdlByaTAtZjNPWTByRU1zeDk1VmNGc1MtLWhQTE52ei1hZHlEZkk?oc=5",
-          "pubDate": "Fri, 29 May 2026 19:06:18 GMT"
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblRQU2hWc2p2OUo2YlM0Ry1FZ0hxVlloVENqek1oaDdHRHZENnl3cVR1Sm9kOTcycmtmaWlySjZUbmFLU0tzZlRUNF8zS2FNU1FsOWlzUnI3ZS1OOUt3ZHJqMUJWa0lpanE0LU9yWkJxenlFb1VCOGpvOXd4MnhsMXNpUHF2NzRwMXY2ZENQNzFjVm1yRS1YcTlRMW41TnVIVVR1dzlmVjJuWklPUlp5cFdKempYWm4tejkta3RUMS1LY0pVZUZ3ZlpjSlc?oc=5",
+          "pubDate": "Mon, 29 Sep 2025 20:14:04 GMT"
         }
       ]
     },
