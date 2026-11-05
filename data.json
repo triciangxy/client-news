@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:43:20Z",
+  "generated_at": "2026-11-05T14:14:59Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 79.0,
-      "change": 2.049999999999997,
-      "changePct": 2.664067576348274,
+      "price": 78.85,
+      "change": 1.8999999999999915,
+      "changePct": 2.4691358024691246,
       "currency": "HKD",
       "prevClose": 76.95,
       "dayHigh": 79.9,
@@ -261,35 +261,35 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 88500.0,
-      "change": 2200.0,
-      "changePct": 2.549246813441483,
+      "price": 88700.0,
+      "change": 2400.0,
+      "changePct": 2.7809965237543453,
       "currency": "KRW",
       "prevClose": 86300.0,
       "dayHigh": 90200.0,
-      "dayLow": 87800.0,
+      "dayLow": 87700.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1654.0,
-      "change": 31.0,
-      "changePct": 1.9100431300061615,
+      "price": 1650.5,
+      "change": 27.5,
+      "changePct": 1.6943930991990142,
       "currency": "JPY",
       "prevClose": 1623.0,
       "dayHigh": 1681.0,
-      "dayLow": 1648.5,
+      "dayLow": 1645.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3072.0,
-      "change": 48.0,
-      "changePct": 1.5873015873015872,
+      "price": 3063.0,
+      "change": 39.0,
+      "changePct": 1.2896825396825395,
       "currency": "JPY",
       "prevClose": 3024.0,
       "dayHigh": 3127.0,
-      "dayLow": 3059.0,
+      "dayLow": 3053.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -328,6 +328,12 @@
           "pubDate": "Thu, 20 Aug 2026 07:00:00 GMT"
         },
         {
+          "title": "AIA announces very strong financial results for 2021 and a US$10.0 billion share buy-back programme",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT2FCbGlRWWNveENGSmttSU1vVnFKLXBSQ0c2dU1nM21MSWUtVkxHRjg0R2pHeTFRTzZhcE5fSFQydnR0RmxCQW9GRHd0S19JYUZxV2VtSi1mbGMtbnhqSkZPaXg4VC1IOFVWa1ZzSlFWLWU5RjRpdFoyblFBeFVjYWZ2SndHT2RDejNLcnBqaTlqdw?oc=5",
+          "pubDate": "Fri, 11 Mar 2022 08:00:00 GMT"
+        },
+        {
           "title": "Credit Investors",
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYNVhiWlJxTWs2aG43TDZCWmVKcEI3ZG9HeF9XS0dtUlhSVERhdXdWWFJNX0lNTlhCY2hndm0xbFhWdTRIUF9ucE9DZGZkOVFjWnBYaDF2OTEwcHRZWnBDdVVHRnJYX0o3VTlTaFlFbGw0M2JYN2c?oc=5",
@@ -356,12 +362,6 @@
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ2dvNmswMnNrY2Nva1AxNXBnTThzWVJ6cUtaX2R4aUV6UEpIWHZLVS1WSWdrbE16a0JKdjJYTGRRQ0gxcFhLUFRrR01QOWRYZlZFaTI2SnZNTE1iN3ZwS3lzb19zQktQbTBQR25EQUJNT3dpZmt5dnhhT2UxZFhRMWZ3?oc=5",
           "pubDate": "Thu, 22 Jan 2026 09:59:38 GMT"
-        },
-        {
-          "title": "AIA Group 1H26 Analyst Presentation",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdklEUDlVc3JYNkVxWmNxQUtiYUxnR3gtYW0tSUZNUnZsNHcxby1mTEs2Qi12clFrU3pxLTlHbHBYdkR4ZnNKMUJCSEFRZlBRdnFZVER5bVQ1ZFk4amtTODNkdkYydkNUZGNkTldzQ3JsMTUzRWdwSlFYWGhmdExibGVTTlBablhaM0VYQVA3TXZydnJuOHQxbFFjZEI2MHkyRDFWUk5yaTFkQ3hiOTJobGktcGozNzZkd21tZEw5VFVZcnJ4cG9TYkp2dFUwSnBSWm5ubm8zbzY5Z3pLSm42SGR2S1k?oc=5",
-          "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT"
         }
       ]
     },
@@ -599,7 +599,7 @@
           "title": "In appreciation of Mr Peter Seah’s Chairmanship of DBS Group Holdings",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMnJ5b2lOWWx6b1ZDMC02U2lBSTZfNE9wdHN5MU9QcGt6OFdvSFJ4NzFuZnR2aUxmV3BUX0ZtQ1NfTzMzd2pQeDd1bmlCYUV2OVlNZE9uODBQTng4a1hXTlZCSlVTUjNXYmpPR1g4UnpFMWI3Y0tUTWNuVDVmbW5LNmxXQ0JrNGdYbXFtSi1jVXRpdUFUX0U5R2xSNEM1dmMtTHlPQndVc25qQWhKejBPZFlaZU5XUnBiVUNRckhFNW8zYTloRTRpRWVIV0t3eHhxaTFhVEZ6Y2s0dw?oc=5",
-          "pubDate": "Thu, 05 Nov 2026 00:01:54 GMT"
+          "pubDate": "Thu, 05 Nov 2026 00:04:33 GMT"
         },
         {
           "title": "Speech by Mr Teo Chee Hean, Chairman of Temasek Holdings, at Steward Leadership Summit 2026",
@@ -654,12 +654,6 @@
       },
       "items": [
         {
-          "title": "The Three Macro Forces Redefining Investing",
-          "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRkxDOU1keG9hUWVJVEtyQ2FsZlNPbWJWM2RnSmZmZG1jSF84OFByWTZvTFFLaVRWeWNHZWtEZnpzUDMzVUQzSk5kSE9idmxyQ0FSRkpaekFjamN3RFpMREFDUG9MRi1KUE1GSEhIc0QzQjI0ZzBTaWxfU0VsSThRZnpMSU1XV05HNjJ6Z1h6RVQtSWtSNEpV?oc=5",
-          "pubDate": "Wed, 04 Nov 2026 06:35:58 GMT"
-        },
-        {
           "title": "Wealthsimple raises $425 million led by GIC at $13.8 billion valuation to accelerate growth",
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTZhWmk1Q0p3REFMZFZSc3lLd1l5RHJucFpnbjlMaWV6Y21TZjRDZC02X1NDLWNMQkx3UTZoTm1reWhhS0lETE5sd0YzazNlVTAyazBIRjNyOWNma2IwbFV4TklkNVEwZWhjV0V4MEdKVy1ENHRNT1RKTi14MlZPaXhZTk9YWDBaTjY5c1BvMWlkSWlVY1hUWEtnM3ZPOS16Y1lJNEc3ODNFdlFkWGtlUHh0X0dYNVF3bDktMG5qWEVZZUM3?oc=5",
@@ -676,12 +670,6 @@
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Jb2paLWJnSzh5QlRBWW00UTdJOWFNUlBkUGhUN3pYeVZfZk5kRzlEVmNDRjlJOUhiNWdQNTZIX1lSMFozN0ROdmVIcHBuR2NudnU5MEZyOEtURk5WcW1zenFnZVlWQjhNb1BIUlFDZFpGRXk0dXc?oc=5",
           "pubDate": "Mon, 08 Jul 2024 09:40:12 GMT"
-        },
-        {
-          "title": "Santiago Principles",
-          "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MckxwbFZ3T3RVdGc4QkpzT1hlekNSXzBDXzFUUXNKWFlyOC1UWVRXZ3FCUzl5R0pKTnNyS0t5TkQ0TmVGdDVhYkEyMEs2RWJ3eng1RW9qZ2JvRHVKZXpoWlVxajlTVnpL?oc=5",
-          "pubDate": "Fri, 21 May 2021 15:21:10 GMT"
         },
         {
           "title": "Cai Wenzheng",
@@ -712,6 +700,18 @@
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1PLU9OTk5wRk5Sby1ON3ZkaHd2NFUyNld3UlVxM1JiYWlCVWQ4V0R6OXFJamgxYXJoSHlRQnVjN2FGT3BIR3lxR2Vn?oc=5",
           "pubDate": "Sat, 11 Jan 2020 03:45:57 GMT"
+        },
+        {
+          "title": "Hotel Investment Partners announces new investment from GIC",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUURtdjlHNW9Bb1QxZlJlQlBOelFJWE4wdzRiRVM2THJFOEd6MERhZV9ybE9XejdqVVZCamVvNjFWSVZYalc2SEhTR081ZEoxSElINWtLSVdfMlRjX244M3I3Rk9TUGEzS1ZfVndHdmZhS1JYM0kzb3RVdnJDMGdYTmhqU2wxaVJYT2gxbERzb193b09WY2s0dFRubXc?oc=5",
+          "pubDate": "Tue, 31 Oct 2023 07:00:00 GMT"
+        },
+        {
+          "title": "Investment Strategies",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oTzdITFZLcEVxSVViTUtBMkhoTEUyY1E3czVlZm96V2FDNUFFdjB2VlNXdUZkWjlRNG9XUHU4aW02c2V6Z0o2bHdRZ0xabmxYV1VSbTFWdXcyejJnbEFybnB6QkdkY2c?oc=5",
+          "pubDate": "Mon, 03 Jun 2024 03:38:27 GMT"
         }
       ]
     },
