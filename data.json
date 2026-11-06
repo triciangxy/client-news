@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:14:59Z",
+  "generated_at": "2026-11-06T05:40:31Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 78.85,
-      "change": 1.8999999999999915,
-      "changePct": 2.4691358024691246,
+      "price": 78.7,
+      "change": -0.14999999999999147,
+      "changePct": -0.19023462270132085,
       "currency": "HKD",
-      "prevClose": 76.95,
-      "dayHigh": 79.9,
-      "dayLow": 77.7,
+      "prevClose": 78.85,
+      "dayHigh": 79.45,
+      "dayLow": 78.45,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 88700.0,
-      "change": 2400.0,
-      "changePct": 2.7809965237543453,
+      "price": 87400.0,
+      "change": -1300.0,
+      "changePct": -1.4656144306651635,
       "currency": "KRW",
-      "prevClose": 86300.0,
-      "dayHigh": 90200.0,
-      "dayLow": 87700.0,
+      "prevClose": 88700.0,
+      "dayHigh": 87400.0,
+      "dayLow": 83200.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1650.5,
-      "change": 27.5,
-      "changePct": 1.6943930991990142,
+      "price": 1561.5,
+      "change": -89.0,
+      "changePct": -5.392305362011512,
       "currency": "JPY",
-      "prevClose": 1623.0,
-      "dayHigh": 1681.0,
-      "dayLow": 1645.0,
+      "prevClose": 1650.5,
+      "dayHigh": 1584.0,
+      "dayLow": 1542.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3063.0,
-      "change": 39.0,
-      "changePct": 1.2896825396825395,
+      "price": 2866.0,
+      "change": -197.0,
+      "changePct": -6.431603003591251,
       "currency": "JPY",
-      "prevClose": 3024.0,
-      "dayHigh": 3127.0,
-      "dayLow": 3053.0,
+      "prevClose": 3063.0,
+      "dayHigh": 2895.0,
+      "dayLow": 2816.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -800,6 +800,18 @@
           "pubDate": "Thu, 26 Mar 2015 07:00:00 GMT"
         },
         {
+          "title": "Recruitment │ Careers │ Korea Investment Corporation",
+          "source": "한국투자공사/KIC",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xdVRMci1OdWFtOVJxNTlmS1YwbENlR0p1T3RWY1RKWm9Db21jby1BazdCN2pBVHFDNnlzTVYxbTR6dUZ0MWNJVE9WRnhPUQ?oc=5",
+          "pubDate": "Sat, 05 Jul 2025 21:49:59 GMT"
+        },
+        {
+          "title": "KIC Annual Report",
+          "source": "한국투자공사/KIC",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rbGh2bUhTUFFFOWRLOHNubDVSVERnNk55TndId3A0MG8zTWc2TGI0REhHVjZKUGdMXzVGNUF0XzhYMG1lNm14aE1FZ2h0Q1dwOWQw?oc=5",
+          "pubDate": "Sun, 19 Jul 2026 16:32:00 GMT"
+        },
+        {
           "title": "KIC 2023 Annual Report",
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5RV0hHVV9HTkIwbmFKb3FkSG50NmpqV0FNS1JEYUR5bHN1VUVYS0xfa1J2RmFBZTFJd2I1ckNQcW0wWFpWdC1qYVBfUjhoM0w5TVBiRmQtNG82NEZDT0Q0?oc=5",
@@ -840,18 +852,6 @@
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzZldKOVpxZXVwb0tLS3hfWlI3OTJoSWZCMlZ0TEhwejFjMWRkaE15a2RJUVRrdkdONzExbGhTVnFxcXMyc1JPTkJMeDdnSkc2OWlmekRrYnJsTE5E?oc=5",
           "pubDate": "Mon, 23 Jun 2025 05:23:37 GMT"
-        },
-        {
-          "title": "PRESS RELEASE",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BenpPYUVfc3BYWTRmSTJpY1RhT29zZmxwRVdNeW13ZlptMEtrR0JUSjZSa1V5RkxpNnp0QzBDbFRMMVU5bU52enhOYmZYMVAtRHJoS2JGckhiY3JSV0E?oc=5",
-          "pubDate": "Fri, 30 Jun 2023 07:00:00 GMT"
-        },
-        {
-          "title": "Job Opportunities at KIC(New York Office) | Job Openings │ Careers │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVZExfVEhYWXFKSWFsU1VBUXRUZ2FKeTVJTjE5NjFhMlphaHRyMjUxOWN1cXFUcXd3S2lqTVl0NVA0dlBJWUVxNmVVdmlqT056ek84YUhkVQ?oc=5",
-          "pubDate": "Fri, 25 Apr 2025 07:00:00 GMT"
         }
       ]
     },
@@ -952,10 +952,10 @@
           "pubDate": "Thu, 06 Nov 2025 10:11:09 GMT"
         },
         {
-          "title": "SAVE FOR YOUR FIRST HOME WITH HOSTPLUS",
+          "title": "Forms and Resources",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZWNDb2RIYTQ0N0hRTTBRYzVFU1B4aGo0cXRVcW5rWXJtczhEUl9FaGVqM2pHa2ZUTDM4b3c1RUJwRWZzV0JqUF82eWdLVE9yanFpeEVTazJzdjdUVUZaekhnUm5yRXROQlptQ2dYUjFxYVFweS11TzNTUENGbnp0d2RfeUhPWTg3MTdkelBUNmk3bG9sY1dvazBCUk03Zk4yeXRmaDBsZGVjQTBabDliWE1CS1YzOXkyZ1lYOUZoRmw0WHd4VkI1Z19tNmlYUHM2UTJjeU5HSzM?oc=5",
-          "pubDate": "Tue, 06 Dec 2022 19:39:36 GMT"
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qTndQVXNhb3E2SnJ3aXlSbExjMnI3ay0wTlpJNE02aFZWWmhJT2ljb2Fja0U1SmhfYzctR09KVHJpa1k4RUI1eGxXeFZjeU5td3F3aUdWNkFIZ05xTFB4N1JhVnlidGFPckx2WThPNA?oc=5",
+          "pubDate": "Tue, 06 Dec 2022 19:29:23 GMT"
         },
         {
           "title": "Online enquiry form",
@@ -1016,6 +1016,12 @@
           "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         },
         {
+          "title": "Market announcement - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNm9jNHlsZmxEMXRqcHJGTWFBaUdpOVFaakoxRzB3VXlGNG5hSjB3ZnNQaVF4cENHaHJlakJDR3FXU1V6NFFiT3I2YVhqTjhMemx0UXc0dV9iaWRtT3FfSzhzdEN4NkFzdF8zaWlqOWxUdk1mYnkyU1V6THpYQXBGRGpNdm0wUGxJT0E3N2g4eWlGa1UxXzhiQV8yM2NvaktYWExCVkthcmlCcVRMTVg2NFlLUndjUG9hUGZlWkdnaw?oc=5",
+          "pubDate": "Thu, 08 Oct 2026 07:00:00 GMT"
+        },
+        {
           "title": "How Sydney became a global pacesetter for marathons - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObDlLem85cEJUMTdyQnAyYVNZSmNqTmdmOXJBY0UtNUE0dTNvOXFZcWl1Yk1NR241VnZkWWV0bFVJaTNXeGJRc1kxcFBCQVNxR2lfeXFScEpncFVfUERlb3c0MkJsckZlekhpb2Qza0FfMG5wYXdhaVJHWnBaelpseUlzYw?oc=5",
@@ -1044,12 +1050,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTC1VZXBKUXlSVmQxQ2lDOExhUWxqbVdDc3kzQ2oyRkJzcFZGSHd0Vjk1ZnJ4WDNxWGgzMUk5N3hOQUNVdE1LdzdIQmJZVEQzamttTFVUOVp0Y1lrc2FBc2FUUHM0TzM1cTJjWi0wVDZHdmdHbGt0Q1lKT0cyel9zTlRBRzBEN2VfMTM0a0dkZFJOY28xT1JadWc4WUE?oc=5",
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Weekly economic report - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mVzhOSXNKaDFYUjltUjZSRC1xVXZHel9KeFIwT09OUTNNd1p6cjVPenVScGx5TWpiMWUzeUNacHctMHlxOXU5Wll2akVhcHZFYWx0VEJKQ0stUTBhTUUzQ3BpNGlNUHJpYTJsVEZGOA?oc=5",
-          "pubDate": "Mon, 12 Oct 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1168,6 +1168,12 @@
           "pubDate": "Wed, 06 May 2026 03:25:59 GMT"
         },
         {
+          "title": "AIG Fuji Life Becomes FWD Fuji Life",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc3BtUmEzVHRnZThhUDg4OTRKdlVmUW5HZ1phUU8xX1lPTWtIQjlPZDJOWm5ULWFBWS1HQlhnRjh4WWdQNDlSODdIbTRzNm9LQVFMSDF0RFVORXA0akdsSTMxVHFJVHpwNmY3eFk2dlFRUFNFRzNmUHY5Z3Bydmc1UkdCNFRyaUNYLXlv?oc=5",
+          "pubDate": "Fri, 24 Mar 2023 09:58:47 GMT"
+        },
+        {
           "title": "FWD Group marks 13 years with charitable grants benefitting over 13,000 people across Asia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQd0JEaFUxeE11djRmR3ZFNEpHU1Q5ejNDMVBXZXBWY3JxVEJHQWo4TmthTnJZWlJybklydXcteGh5RGtZcVI4VVF6WjBoMUlXOVpLU1JjUzNuMlZHNWNodWlWUGhuT1lkdW9XcmVrSDhSaUI5U1Q2MTRZWHR0cjRpNW9ZV2hFbEU5VVVzNXlDb3F6Tm1ITGREM0hOYlI4UnB2UVdKMDZjSVJneUNyTUtWcFhsdkJzNjNJYlRwSUF2MHVzTXE1MTR6dk02RkpzOFF2cHNF?oc=5",
@@ -1184,12 +1190,6 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb25US2ptbl9ieTlrQUR6NlNsNFpJY1k4T1BQRDNyR1hCSWZKQjVLY2VuMTNiN0RiX09KeF9TS0R2dFI3TzJ4V0UzVmxmcW80ZWh0QnkxZFQ0VU5jNU1TbWFKN3pqLW40UW5VS1V4Y3NKNXB0QW0zeW1MYjhUdWlaZXJPei1USC1CalhiQnNZQ1p3d2x3cHcwR2R6aEpKQUZNVS1UbnNfYm5SZGtsQVg3b1hXc2tKNUYtZDJZZkN5c2k1aUlRZU9jSHlhUVdQckxYd0Y2d0hrRWRWeC1RZnVtdmlCWVE?oc=5",
           "pubDate": "Tue, 07 Jan 2025 18:25:09 GMT"
-        },
-        {
-          "title": "FWD Group reports record profit amid continued growth",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYm1XbnQxVnFNRkswbTNOalREcHpSSGtTWktMZTFQa1pqRVN6Sl9fOU1UbEdlQjMzMFZlWkJtbTVhdmItS1E3RlBJN0FTdG0xV2VCeWlMdkNoTUVCdEYxMFdtcHBwdmFZWkJqLUw5QklKZnQ4dXJLNWpUZlhGaXRBWTVxbmdRNlhDSWxHbkpnUmhCdHU3X3BEX25iUjZ4dzMwR1M4?oc=5",
-          "pubDate": "Wed, 26 Aug 2026 07:00:00 GMT"
         }
       ]
     },
