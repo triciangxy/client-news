@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:40:31Z",
+  "generated_at": "2026-11-06T13:55:00Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,31 +250,31 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 78.7,
-      "change": -0.14999999999999147,
-      "changePct": -0.19023462270132085,
+      "price": 78.45,
+      "change": -0.3999999999999915,
+      "changePct": -0.5072923272035403,
       "currency": "HKD",
       "prevClose": 78.85,
       "dayHigh": 79.45,
-      "dayLow": 78.45,
+      "dayLow": 78.35,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 87400.0,
-      "change": -1300.0,
-      "changePct": -1.4656144306651635,
+      "price": 86700.0,
+      "change": -2000.0,
+      "changePct": -2.254791431792559,
       "currency": "KRW",
       "prevClose": 88700.0,
-      "dayHigh": 87400.0,
+      "dayHigh": 88100.0,
       "dayLow": 83200.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1561.5,
-      "change": -89.0,
-      "changePct": -5.392305362011512,
+      "price": 1566.5,
+      "change": -84.0,
+      "changePct": -5.089366858527719,
       "currency": "JPY",
       "prevClose": 1650.5,
       "dayHigh": 1584.0,
@@ -283,12 +283,12 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 2866.0,
-      "change": -197.0,
-      "changePct": -6.431603003591251,
+      "price": 2890.0,
+      "change": -173.0,
+      "changePct": -5.648057460006529,
       "currency": "JPY",
       "prevClose": 3063.0,
-      "dayHigh": 2895.0,
+      "dayHigh": 2899.5,
       "dayLow": 2816.0,
       "marketState": "",
       "exchange": "Tokyo"
@@ -328,12 +328,6 @@
           "pubDate": "Thu, 20 Aug 2026 07:00:00 GMT"
         },
         {
-          "title": "AIA announces very strong financial results for 2021 and a US$10.0 billion share buy-back programme",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT2FCbGlRWWNveENGSmttSU1vVnFKLXBSQ0c2dU1nM21MSWUtVkxHRjg0R2pHeTFRTzZhcE5fSFQydnR0RmxCQW9GRHd0S19JYUZxV2VtSi1mbGMtbnhqSkZPaXg4VC1IOFVWa1ZzSlFWLWU5RjRpdFoyblFBeFVjYWZ2SndHT2RDejNLcnBqaTlqdw?oc=5",
-          "pubDate": "Fri, 11 Mar 2022 08:00:00 GMT"
-        },
-        {
           "title": "Credit Investors",
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYNVhiWlJxTWs2aG43TDZCWmVKcEI3ZG9HeF9XS0dtUlhSVERhdXdWWFJNX0lNTlhCY2hndm0xbFhWdTRIUF9ucE9DZGZkOVFjWnBYaDF2OTEwcHRZWnBDdVVHRnJYX0o3VTlTaFlFbGw0M2JYN2c?oc=5",
@@ -362,6 +356,12 @@
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ2dvNmswMnNrY2Nva1AxNXBnTThzWVJ6cUtaX2R4aUV6UEpIWHZLVS1WSWdrbE16a0JKdjJYTGRRQ0gxcFhLUFRrR01QOWRYZlZFaTI2SnZNTE1iN3ZwS3lzb19zQktQbTBQR25EQUJNT3dpZmt5dnhhT2UxZFhRMWZ3?oc=5",
           "pubDate": "Thu, 22 Jan 2026 09:59:38 GMT"
+        },
+        {
+          "title": "AIA Group 1H26 Analyst Presentation",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdklEUDlVc3JYNkVxWmNxQUtiYUxnR3gtYW0tSUZNUnZsNHcxby1mTEs2Qi12clFrU3pxLTlHbHBYdkR4ZnNKMUJCSEFRZlBRdnFZVER5bVQ1ZFk4amtTODNkdkYydkNUZGNkTldzQ3JsMTUzRWdwSlFYWGhmdExibGVTTlBablhaM0VYQVA3TXZydnJuOHQxbFFjZEI2MHkyRDFWUk5yaTFkQ3hiOTJobGktcGozNzZkd21tZEw5VFVZcnJ4cG9TYkp2dFUwSnBSWm5ubm8zbzY5Z3pLSm42SGR2S1k?oc=5",
+          "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT"
         }
       ]
     },
@@ -666,6 +666,12 @@
           "pubDate": "Fri, 17 Jun 2022 05:05:29 GMT"
         },
         {
+          "title": "Macro Outlook",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oS192S21oc1dTMlBwdC1RN2tnUjIteTFaQURpbExCdUpXNktDWkhpMnBkXzNlZm9PNm1FM3NQcjNzaWJ2RFJyYTBqdTBWUzJyNE5GWnMwTkQ4ellY?oc=5",
+          "pubDate": "Fri, 21 May 2021 16:21:27 GMT"
+        },
+        {
           "title": "Dr Prakash Kannan",
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Jb2paLWJnSzh5QlRBWW00UTdJOWFNUlBkUGhUN3pYeVZfZk5kRzlEVmNDRjlJOUhiNWdQNTZIX1lSMFozN0ROdmVIcHBuR2NudnU5MEZyOEtURk5WcW1zenFnZVlWQjhNb1BIUlFDZFpGRXk0dXc?oc=5",
@@ -706,12 +712,6 @@
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUURtdjlHNW9Bb1QxZlJlQlBOelFJWE4wdzRiRVM2THJFOEd6MERhZV9ybE9XejdqVVZCamVvNjFWSVZYalc2SEhTR081ZEoxSElINWtLSVdfMlRjX244M3I3Rk9TUGEzS1ZfVndHdmZhS1JYM0kzb3RVdnJDMGdYTmhqU2wxaVJYT2gxbERzb193b09WY2s0dFRubXc?oc=5",
           "pubDate": "Tue, 31 Oct 2023 07:00:00 GMT"
-        },
-        {
-          "title": "Investment Strategies",
-          "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oTzdITFZLcEVxSVViTUtBMkhoTEUyY1E3czVlZm96V2FDNUFFdjB2VlNXdUZkWjlRNG9XUHU4aW02c2V6Z0o2bHdRZ0xabmxYV1VSbTFWdXcyejJnbEFybnB6QkdkY2c?oc=5",
-          "pubDate": "Mon, 03 Jun 2024 03:38:27 GMT"
         }
       ]
     },
@@ -928,12 +928,6 @@
       },
       "items": [
         {
-          "title": "Home",
-          "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
-          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
-        },
-        {
           "title": "Retirement Bonus",
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTlgxbzlvTzY4TnBNTklaSTNRLUJvV0NYdDdyWmE4VFJiZDI5SW1IaG5faExJcWpPLTRLNGJtbFpSYnlzQzhTYUhYSE1uczBJM0hveVJIN3NOc0Y5OTl1T0w5NzJSbFdaWnUw?oc=5",
@@ -946,10 +940,10 @@
           "pubDate": "Fri, 04 Apr 2025 07:00:00 GMT"
         },
         {
-          "title": "Request to transfer into Hostplus.",
+          "title": "SAVE FOR YOUR FIRST HOME WITH HOSTPLUS",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQl95ZEhLQ3JMRW51SVpQc1hpSk96R0Y3VGNGR0t5QjZieFIwbXdHLUliaXlhMy1jWjJJS05fck1UTzY5eWNPVTlnWHl0TWpRMmdXR2dPZEtVX3JXOVBLUXVlaUFRSlBfM0JMamtsQlpJclg3Q3lFcFRzaWJjaTZCd2VjRkdUTG94ZU1QeF8wamZJaVA0ZDBjVUQ3ZXRMMW9oWVRsOVFuQzAxSE04SlVacUR1eTBUNHdZWmxHdnVaMXlFcVk?oc=5",
-          "pubDate": "Thu, 06 Nov 2025 10:11:09 GMT"
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZWNDb2RIYTQ0N0hRTTBRYzVFU1B4aGo0cXRVcW5rWXJtczhEUl9FaGVqM2pHa2ZUTDM4b3c1RUJwRWZzV0JqUF82eWdLVE9yanFpeEVTazJzdjdUVUZaekhnUm5yRXROQlptQ2dYUjFxYVFweS11TzNTUENGbnp0d2RfeUhPWTg3MTdkelBUNmk3bG9sY1dvazBCUk03Zk4yeXRmaDBsZGVjQTBabDliWE1CS1YzOXkyZ1lYOUZoRmw0WHd4VkI1Z19tNmlYUHM2UTJjeU5HSzM?oc=5",
+          "pubDate": "Tue, 06 Dec 2022 19:39:36 GMT"
         },
         {
           "title": "Forms and Resources",
@@ -974,6 +968,12 @@
           "source": "Hostplus",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPay11eG9XdTItdzFMaUpoRG5NWXZVT2lmTEpiOGdybXhQY2JfWDBiNm5FTHllaFRJZ19Jd2RmcF81RmVab0sxWVlxenRzNjhaVWFpMlJDbGZPY05ma2lNQW82NFJtdC1lZy1XenRrOTc1MUszdGdNSlNTS3ZhUGlfQlRWUnQ1UjFqejVBZXJnaTU2SzF4UXdyZQ?oc=5",
           "pubDate": "Wed, 07 Dec 2022 05:03:54 GMT"
+        },
+        {
+          "title": "Home",
+          "source": "Hostplus",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1rSGNxRlptSDJteDRtcmIzLWZ1aklHZ2RydVlyRE51UUN0VEtBZGM4MWNiMjNQZ3VLTGI1QjhqcFluUQ?oc=5",
+          "pubDate": "Wed, 17 Nov 2021 00:46:41 GMT"
         },
         {
           "title": "Contact Hostplus",
@@ -1016,12 +1016,6 @@
           "pubDate": "Tue, 10 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Market announcement - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNm9jNHlsZmxEMXRqcHJGTWFBaUdpOVFaakoxRzB3VXlGNG5hSjB3ZnNQaVF4cENHaHJlakJDR3FXU1V6NFFiT3I2YVhqTjhMemx0UXc0dV9iaWRtT3FfSzhzdEN4NkFzdF8zaWlqOWxUdk1mYnkyU1V6THpYQXBGRGpNdm0wUGxJT0E3N2g4eWlGa1UxXzhiQV8yM2NvaktYWExCVkthcmlCcVRMTVg2NFlLUndjUG9hUGZlWkdnaw?oc=5",
-          "pubDate": "Thu, 08 Oct 2026 07:00:00 GMT"
-        },
-        {
           "title": "How Sydney became a global pacesetter for marathons - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObDlLem85cEJUMTdyQnAyYVNZSmNqTmdmOXJBY0UtNUE0dTNvOXFZcWl1Yk1NR241VnZkWWV0bFVJaTNXeGJRc1kxcFBCQVNxR2lfeXFScEpncFVfUERlb3c0MkJsckZlekhpb2Qza0FfMG5wYXdhaVJHWnBaelpseUlzYw?oc=5",
@@ -1050,6 +1044,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTC1VZXBKUXlSVmQxQ2lDOExhUWxqbVdDc3kzQ2oyRkJzcFZGSHd0Vjk1ZnJ4WDNxWGgzMUk5N3hOQUNVdE1LdzdIQmJZVEQzamttTFVUOVp0Y1lrc2FBc2FUUHM0TzM1cTJjWi0wVDZHdmdHbGt0Q1lKT0cyel9zTlRBRzBEN2VfMTM0a0dkZFJOY28xT1JadWc4WUE?oc=5",
           "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Weekly economic report - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84SXZXcTZzYWd2ejRRaG1xRnBOMTd0ZnFVVmt2QmwyTzc3TnlPYllocnJEdjVOX05OSS1LQjNmWE9HUVZrc0ZodlJ1Z3NXY0lhZXRlZUhCMWFHT0JnRTAyZThLMEJ6bzdZVUVOOU1STWlWMUZx?oc=5",
+          "pubDate": "Tue, 06 Oct 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1168,12 +1168,6 @@
           "pubDate": "Wed, 06 May 2026 03:25:59 GMT"
         },
         {
-          "title": "AIG Fuji Life Becomes FWD Fuji Life",
-          "source": "FWD Group",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc3BtUmEzVHRnZThhUDg4OTRKdlVmUW5HZ1phUU8xX1lPTWtIQjlPZDJOWm5ULWFBWS1HQlhnRjh4WWdQNDlSODdIbTRzNm9LQVFMSDF0RFVORXA0akdsSTMxVHFJVHpwNmY3eFk2dlFRUFNFRzNmUHY5Z3Bydmc1UkdCNFRyaUNYLXlv?oc=5",
-          "pubDate": "Fri, 24 Mar 2023 09:58:47 GMT"
-        },
-        {
           "title": "FWD Group marks 13 years with charitable grants benefitting over 13,000 people across Asia",
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQd0JEaFUxeE11djRmR3ZFNEpHU1Q5ejNDMVBXZXBWY3JxVEJHQWo4TmthTnJZWlJybklydXcteGh5RGtZcVI4VVF6WjBoMUlXOVpLU1JjUzNuMlZHNWNodWlWUGhuT1lkdW9XcmVrSDhSaUI5U1Q2MTRZWHR0cjRpNW9ZV2hFbEU5VVVzNXlDb3F6Tm1ITGREM0hOYlI4UnB2UVdKMDZjSVJneUNyTUtWcFhsdkJzNjNJYlRwSUF2MHVzTXE1MTR6dk02RkpzOFF2cHNF?oc=5",
@@ -1190,6 +1184,12 @@
           "source": "FWD Group",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb25US2ptbl9ieTlrQUR6NlNsNFpJY1k4T1BQRDNyR1hCSWZKQjVLY2VuMTNiN0RiX09KeF9TS0R2dFI3TzJ4V0UzVmxmcW80ZWh0QnkxZFQ0VU5jNU1TbWFKN3pqLW40UW5VS1V4Y3NKNXB0QW0zeW1MYjhUdWlaZXJPei1USC1CalhiQnNZQ1p3d2x3cHcwR2R6aEpKQUZNVS1UbnNfYm5SZGtsQVg3b1hXc2tKNUYtZDJZZkN5c2k1aUlRZU9jSHlhUVdQckxYd0Y2d0hrRWRWeC1RZnVtdmlCWVE?oc=5",
           "pubDate": "Tue, 07 Jan 2025 18:25:09 GMT"
+        },
+        {
+          "title": "FWD Group reports record profit amid continued growth",
+          "source": "FWD Group",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYm1XbnQxVnFNRkswbTNOalREcHpSSGtTWktMZTFQa1pqRVN6Sl9fOU1UbEdlQjMzMFZlWkJtbTVhdmItS1E3RlBJN0FTdG0xV2VCeWlMdkNoTUVCdEYxMFdtcHBwdmFZWkJqLUw5QklKZnQ4dXJLNWpUZlhGaXRBWTVxbmdRNlhDSWxHbkpnUmhCdHU3X3BEX25iUjZ4dzMwR1M4?oc=5",
+          "pubDate": "Wed, 26 Aug 2026 07:00:00 GMT"
         }
       ]
     },
@@ -1218,12 +1218,6 @@
           "source": "農林中央金庫",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pOGRQdHRFZUxPeTFPN0JIUXZfeng5M2R3RkdNcHA4dHd0WmZMbkVJS2J5a0lXWjRudzctSmF6ME0xUmlPNy0xbHY0eDlBOFBMZjVfODlOYzh5N1dUT0ZHbXAyZ0JuQjA?oc=5",
           "pubDate": "Fri, 30 Oct 2026 13:10:51 GMT"
-        },
-        {
-          "title": "Branch Information｜The Norinchukin Bank",
-          "source": "農林中央金庫",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hUzRQZ01GZVRXRUs0VmxLSV9QaEZFVGkzVExiQjVRN2hMWlJqZXVSc1hWXzVVdHBCaXFUTnA0Vl90ZkNRZTdDbjluNDV0b2g2?oc=5",
-          "pubDate": "Tue, 27 Oct 2026 23:49:56 GMT"
         },
         {
           "title": "Financial Information｜The Norinchukin Bank",
@@ -1260,6 +1254,12 @@
           "source": "農林中央金庫",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LWWNpbk1XSGh1Zm93a01IMk1sa29TTHExSUtkMGxzZWlzdkxpZzZBdXljTjBqZEYzalZ5dVVpUGpqa0liQWlxLXh0OTlFZw?oc=5",
           "pubDate": "Mon, 23 May 2016 04:54:03 GMT"
+        },
+        {
+          "title": "Warning about scam websites and counterfeit e-mails｜The Norinchukin Bank",
+          "source": "農林中央金庫",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IRUNTVHBPUEprTU9qRlNSdmNQUHZ4QzQ5eFVyZmJmc2pBblZXMk5JMGdRTjhURGM3WXZnMUlzUE5uTVYwR1I4UDR0bGxaRkgzUXV1YTJEcEtJTEUxTk1mcEllOURUMk92OU5QOG1DWTA?oc=5",
+          "pubDate": "Sat, 31 Oct 2026 07:50:59 GMT"
         }
       ]
     }
