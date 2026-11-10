@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T06:29:27Z",
+  "generated_at": "2026-11-10T15:10:22Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 79.2,
-      "change": 0.6500000000000057,
-      "changePct": 0.8274984086569136,
+      "price": 79.35,
+      "change": 0.7999999999999972,
+      "changePct": 1.0184595798854197,
       "currency": "HKD",
       "prevClose": 78.55,
       "dayHigh": 80.0,
@@ -267,14 +267,14 @@
       "currency": "KRW",
       "prevClose": 85800.0,
       "dayHigh": 89000.0,
-      "dayLow": 85300.0,
+      "dayLow": 85100.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1661.5,
-      "change": 55.5,
-      "changePct": 3.455790784557908,
+      "price": 1654.5,
+      "change": 48.5,
+      "changePct": 3.019925280199253,
       "currency": "JPY",
       "prevClose": 1606.0,
       "dayHigh": 1672.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3137.0,
-      "change": 93.0,
-      "changePct": 3.055190538764783,
+      "price": 3123.0,
+      "change": 79.0,
+      "changePct": 2.59526938239159,
       "currency": "JPY",
       "prevClose": 3044.0,
       "dayHigh": 3181.0,
@@ -907,7 +907,7 @@
         },
         {
           "title": "Executive Fund Director & Chief Investment Officer",
-          "source": "국민연금기금운용본부",
+          "source": "기금운용본부",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YVXFRR2NmTEFvdlpiSU9aMUFpTGtndzc4NHZ6Z3FtdVBYaENuSkFnQWJUdWdOM0U1VDBYWGYyTmRSVmxMcTUwVGdHWXVZdzR0NHBOb2NZbFVNc0dmZzY1S1FWem1sOVE?oc=5",
           "pubDate": "Wed, 07 May 2025 03:20:45 GMT"
         },
@@ -998,9 +998,9 @@
           "pubDate": "Fri, 23 Oct 2026 18:59:45 GMT"
         },
         {
-          "title": "Reducing fuel price volatility for NSW trains and buses - TCorp",
+          "title": "Urunga Sewage Treatment Plant upgrade - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWGctS3JOUGlwZnBpUE1jMy16ZkdUZWVzbERTUUduaV96OFlNMThYbFNvNW5SZHZOYVd4ZHNIaGV3LVlVOEtjM3hUQkplZDBoQ3MydUo5dDFXN0ZRcnZDTmVQVXdOS0o3MGs2emRSQ0NhX2NGTkR4bTNLNWFaX2Q5MnhqM3FiOXRh?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95MDZfR2NNY1AwRWlFbFMwOU1LMFl2RVIzU1VPWE5iallSeUt3bmdvLWhLcWlOaUFjdXNlS3ZndjBFVXpoQ29UdTFnendJRlAtdDYtOG9jcU9kNDY3SmlNTEdHRjc3ZG1mSm1EVVRlOUg?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         },
         {
