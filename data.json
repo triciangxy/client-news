@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:12:20Z",
+  "generated_at": "2026-11-10T06:29:27Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 78.55,
-      "change": 0.09999999999999432,
-      "changePct": 0.127469725940082,
+      "price": 79.2,
+      "change": 0.6500000000000057,
+      "changePct": 0.8274984086569136,
       "currency": "HKD",
-      "prevClose": 78.45,
-      "dayHigh": 79.4,
-      "dayLow": 78.25,
+      "prevClose": 78.55,
+      "dayHigh": 80.0,
+      "dayLow": 78.65,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 85800.0,
-      "change": -900.0,
-      "changePct": -1.0380622837370241,
+      "price": 85500.0,
+      "change": -300.0,
+      "changePct": -0.34965034965034963,
       "currency": "KRW",
-      "prevClose": 86700.0,
-      "dayHigh": 88500.0,
-      "dayLow": 84600.0,
+      "prevClose": 85800.0,
+      "dayHigh": 89000.0,
+      "dayLow": 85300.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1606.0,
-      "change": 39.5,
-      "changePct": 2.5215448451962974,
+      "price": 1661.5,
+      "change": 55.5,
+      "changePct": 3.455790784557908,
       "currency": "JPY",
-      "prevClose": 1566.5,
-      "dayHigh": 1633.5,
-      "dayLow": 1586.5,
+      "prevClose": 1606.0,
+      "dayHigh": 1672.5,
+      "dayLow": 1639.5,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3044.0,
-      "change": 154.0,
-      "changePct": 5.328719723183391,
+      "price": 3137.0,
+      "change": 93.0,
+      "changePct": 3.055190538764783,
       "currency": "JPY",
-      "prevClose": 2890.0,
-      "dayHigh": 3069.0,
-      "dayLow": 2970.0,
+      "prevClose": 3044.0,
+      "dayHigh": 3181.0,
+      "dayLow": 3113.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -608,6 +608,12 @@
           "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT"
         },
         {
+          "title": "Careers",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWTTZzaEtNNUJkQUI4T0lVbGtWSGg3bFRGODZ2eURTNnBfTTVHd2tON3M1a3U3cnV3ZHZoRGtzTjVVazExcU5ySElUQXdlczJFRHZCRFVSVTJTdw?oc=5",
+          "pubDate": "Wed, 01 Dec 2021 07:41:52 GMT"
+        },
+        {
           "title": "Contact Us",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wcDI4VUdFV3RnS0JTVGt6SlZCS2Vmd2doT1FYNm5VZDRRX3JqdldpOFdCZ2J6Z2szUGVZQjBpZENkczRnTVZiUi1hR0ZLUnBmWWc?oc=5",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWDFHaGtacU9TYmxhZUxpX2QwT0tBaDBNTzY5SnY3cWVndXltNm96eF93NVc3al9zR0lnblFlNUx5aW55QXNaSDBvcjV5VXQ5NFlxVFNyd1QwMFR1cE1LQTFNMzR4bjVnUFl6eU1tNk9sUnZqRUM5NWtmTFVFTjdkQkZrQWJacEpYdEpSRU00blRocWRjaUpBc2lCcjVNZ29OckxILW9QQUxLOUx0NHNuUDJqc24tTGsyWVp4QWxPNzVLbnRHRTRHZnFPbEZCTjZ5TGcxZ3Q0UGEtSEdCMV9v?oc=5",
           "pubDate": "Tue, 11 Nov 2025 08:00:00 GMT"
-        },
-        {
-          "title": "About Us",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWcTFrVzFnaEhHaUtWLXUyWHJMNWFTRmQ3TFowZUlGNzBrdUo5eDBRM2s2UEpRRXNwbHV1YlZ3ZVZfOFo2S0VnVE1ZeGgzUjQ?oc=5",
-          "pubDate": "Tue, 30 Nov 2021 20:45:33 GMT"
         }
       ]
     },
@@ -678,6 +678,12 @@
           "pubDate": "Mon, 08 Jul 2024 09:40:12 GMT"
         },
         {
+          "title": "Santiago Principles",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MckxwbFZ3T3RVdGc4QkpzT1hlekNSXzBDXzFUUXNKWFlyOC1UWVRXZ3FCUzl5R0pKTnNyS0t5TkQ0TmVGdDVhYkEyMEs2RWJ3eng1RW9qZ2JvRHVKZXpoWlVxajlTVnpL?oc=5",
+          "pubDate": "Fri, 21 May 2021 15:21:10 GMT"
+        },
+        {
           "title": "Cai Wenzheng",
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5LZ2pIQzhHM2V1VjR6LWs2Rm12ZlV4cEZzUWY2ZU1kbDM5NVNWYzU4NzgtanAwOXFORWFyMWJRdm9FRWZzeG5IZFE2dHE1bVQ5akN1NktmZnBaV0Y4N1RTVjFUOS1hTHl0cHBfTGkzTQ?oc=5",
@@ -706,12 +712,6 @@
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1PLU9OTk5wRk5Sby1ON3ZkaHd2NFUyNld3UlVxM1JiYWlCVWQ4V0R6OXFJamgxYXJoSHlRQnVjN2FGT3BIR3lxR2Vn?oc=5",
           "pubDate": "Sat, 11 Jan 2020 03:45:57 GMT"
-        },
-        {
-          "title": "Hotel Investment Partners announces new investment from GIC",
-          "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUURtdjlHNW9Bb1QxZlJlQlBOelFJWE4wdzRiRVM2THJFOEd6MERhZV9ybE9XejdqVVZCamVvNjFWSVZYalc2SEhTR081ZEoxSElINWtLSVdfMlRjX244M3I3Rk9TUGEzS1ZfVndHdmZhS1JYM0kzb3RVdnJDMGdYTmhqU2wxaVJYT2gxbERzb193b09WY2s0dFRubXc?oc=5",
-          "pubDate": "Tue, 31 Oct 2023 07:00:00 GMT"
         }
       ]
     },
@@ -946,10 +946,10 @@
           "pubDate": "Fri, 04 Apr 2025 07:00:00 GMT"
         },
         {
-          "title": "SAVE FOR YOUR FIRST HOME WITH HOSTPLUS",
+          "title": "MySuper dashboard",
           "source": "Hostplus",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZWNDb2RIYTQ0N0hRTTBRYzVFU1B4aGo0cXRVcW5rWXJtczhEUl9FaGVqM2pHa2ZUTDM4b3c1RUJwRWZzV0JqUF82eWdLVE9yanFpeEVTazJzdjdUVUZaekhnUm5yRXROQlptQ2dYUjFxYVFweS11TzNTUENGbnp0d2RfeUhPWTg3MTdkelBUNmk3bG9sY1dvazBCUk03Zk4yeXRmaDBsZGVjQTBabDliWE1CS1YzOXkyZ1lYOUZoRmw0WHd4VkI1Z19tNmlYUHM2UTJjeU5HSzM?oc=5",
-          "pubDate": "Tue, 06 Dec 2022 19:39:36 GMT"
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaktaeXFUQUItYzBrb3ZHUXY5YVp3Vm9MWXJkYjd1SVRJaXhzLXo3T1FWUkpfeVFMX2NfcWhNTVJCX1hRbEc1SUhOYkhzOTktcGo5SGhjdW9MT1ByM3BWMzVaUGljdWFsRW94Vm9MUUl3MTk5TldId2I0X1JvVF9zODFTbTN1ckdXM1RVaXBIeVhYUHRJaWRNVjd3?oc=5",
+          "pubDate": "Tue, 06 Dec 2022 19:30:55 GMT"
         },
         {
           "title": "Forms and Resources",
@@ -992,16 +992,16 @@
       },
       "items": [
         {
-          "title": "Annual Report 2026 - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85RDZRSU9kYl9OLVc4WTVDallGYmVjYjRRRHdnbWU1N0lYZGxyWmxCckdSZlpKQzFmaTdoeXMtUzk1YktVWW1WVG8yV1BHOTJlRXNPZXlLSndPbm1oRGFGQzdoajc2MThpRFJjTlJMVQ?oc=5",
-          "pubDate": "Thu, 29 Oct 2026 05:35:32 GMT"
-        },
-        {
           "title": "Performance Summary Report – September 2026",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE04WWRrV2JJQldQSWVfZUdQSkxfd1doZzE4eW5oVjJOYkRTYThnclFDU3EwMl93V0NwSjJVc1MtbFFhOGUwMC1QR2gwSGZvQkFUakgtay1mNjZkS1c2WDFNRmxmQ19taFJtUmZ1Mzc3Q2FuNEI4RmJLcnRnYw?oc=5",
           "pubDate": "Fri, 23 Oct 2026 18:59:45 GMT"
+        },
+        {
+          "title": "Reducing fuel price volatility for NSW trains and buses - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWGctS3JOUGlwZnBpUE1jMy16ZkdUZWVzbERTUUduaV96OFlNMThYbFNvNW5SZHZOYVd4ZHNIaGV3LVlVOEtjM3hUQkplZDBoQ3MydUo5dDFXN0ZRcnZDTmVQVXdOS0o3MGs2emRSQ0NhX2NGTkR4bTNLNWFaX2Q5MnhqM3FiOXRh?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         },
         {
           "title": "TCorp appoints General Manager, Financial Markets - TCorp",
@@ -1062,46 +1062,34 @@
       },
       "items": [
         {
-          "title": "Our History | About Us | Nippon Life Insurance Company",
-          "source": "日本生命保険相互会社",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jUEV3Z3ZjSmd2WVBoRlFYUF9NVndUYVpTbkUyazJCZnBfUk0xZnVkZHdhVTY2b1JXWnRkYlh0Wk5WbW9FT29TdmRYT3dHZURjcUhpdEZHcURoaWx4aGRZ?oc=5",
-          "pubDate": "Thu, 29 Jun 2023 10:46:38 GMT"
-        },
-        {
-          "title": "NISSAY Defined Contribution Pension Call Center",
-          "source": "日本生命保険相互会社",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObFRCMGpnak5hb0VsS2hYdFQwTkNobEJFdng5Q1prallCckNWQ1RFZHNYMGpqUGllemZ1WmRPTlBka0xkbVRoX29wbXlZa2NmTUlKQjZoaV93TldXMURyNGIxbFdvcW9FaGgtQzc5Um00cWVETTJSaVRTb3pTMTgxWUhqVlVHa3VmY1AxSXE5TVpaT0xxNEtPd2xaTVFCMkYwa2Jqa1FITkM2Sm5jYWdYWkRn?oc=5",
-          "pubDate": "Fri, 25 Sep 2026 08:37:16 GMT"
-        },
-        {
           "title": "Major Responsible Investment Examples | Sustainability | Nippon Life Insurance Company",
           "source": "日本生命保険相互会社",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PRUQ4ejI2UVlBWDQ0X0EzUkswMzlVcnZhZUVvS2hyajNoRGwxRzh2VF9KLVczRHp5ZktNV3VPUm0zNl9FaG95SXJ2azVpVzRBN3c2aXhwVFRZNnRaTmNMcHhXMWtTTEZ4Zi1zTnU5QTA?oc=5",
           "pubDate": "Thu, 29 Jun 2023 16:16:45 GMT"
         },
         {
-          "title": "How to log in to the Nissay Defined Contribution Pension Online Service",
+          "title": "About Us | Nippon Life Insurance Company",
           "source": "日本生命保険相互会社",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcTRvZzhGOU5GU0QyZnRhLXdGTjBocjZxS1RueGV3TUNBOGJtcXRNdHN0NS1Lb2ZpV2N0NndJRkxEaG9UczdzcTA4bW1zLUhpbldWeDZQcGs3akhvc2NpaU1nU19CVkFXMXpIa2hNa0ZUVFVMTEtMZFJzcThwSlBEZ1p1ZjJlOFhCNUhFZ1A5WDBJVURaWXpxTjJCNmlIblRHMFN2YXVkdG1VVzk3WU5iMWc4UjBRQUt0TTFiSkg2aXVpTXBUcHdSYThPYWQxMFFHNndQTm9vOFhKZk4xMUlfblB3?oc=5",
-          "pubDate": "Fri, 25 Sep 2026 08:11:15 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJSjFuODQ1RTc2bkF0UXdBTXFVQjZNTnhoT05mTEJUcVhfSmNUTGMtOWZ1clQ1TnZxRHI0c1NWLUxzc1NIRVgzQ2NlSE0yT1k?oc=5",
+          "pubDate": "Thu, 29 Jun 2023 10:17:31 GMT"
         },
         {
-          "title": "Global Network | Nippon Life Insurance Company",
+          "title": "Global Subsidiaries, Affiliates, and Representative Offices | Nippon Life Insurance Company",
           "source": "日本生命保険相互会社",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1MnZuUlhnTk5nQ2RUbU9JUlUxOF9kb2V2bi1xUEZoa1o2XzFOMDEweC1GZ1hZdmNpQUVweXViRVppd3VxblFEdHYxLXZqYkhEVERIcVp1R2RzQnZ2Qk9ObEZ2RQ?oc=5",
-          "pubDate": "Sun, 23 Nov 2025 22:15:14 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Balh0NVZTak1keXRMNVNLZllrVEIydlltalVKamFGTlFhVjE1SUdic09OY1F6SldZTi1EVmhmcEsxYXBXaEcwLURYN0pMRDd6cTY3ZmJDd0l3OVlvdTlPdUs3OFhqN2UzbnFMUDZ4N252QldvZnY4LXp3?oc=5",
+          "pubDate": "Wed, 08 May 2024 03:58:41 GMT"
         },
         {
-          "title": "Corporate Governance | About Us | Nippon Life Insurance Company",
+          "title": "Major Responsible Investment Methods | Sustainability | Nippon Life Insurance Company",
           "source": "日本生命保険相互会社",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50UjVMTEMtZmp3WUxPeFVtMWxCa29hdG9rSkRDSUhfWk1KREdpX0RFZEpMZW5vdERLYnItODd2VFYxTVpQZlF2d0FodmhtUHRldk5ld0dUOXdYLXVnWWxrR2pyQQ?oc=5",
-          "pubDate": "Fri, 30 Jun 2023 09:53:51 GMT"
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZZHA2aU1tcGJmVDBLb0FmR2ZPZzB6bDZ0RjNNVS1kdm9qM21fWVdxbGVOSkFNcnJ6NDhBYjlJYWxZZlpaLWxFOU9od2tuSmc2QXc4OE56R002cXN5S3l1U2pDVGZzbWROd1U0MjJPVQ?oc=5",
+          "pubDate": "Thu, 29 Jun 2023 10:29:29 GMT"
         },
         {
-          "title": "Reports and Publications | Nippon Life Insurance Company",
+          "title": "Our History | About Us | Nippon Life Insurance Company",
           "source": "日本生命保険相互会社",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
-          "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jUEV3Z3ZjSmd2WVBoRlFYUF9NVndUYVpTbkUyazJCZnBfUk0xZnVkZHdhVTY2b1JXWnRkYlh0Wk5WbW9FT29TdmRYT3dHZURjcUhpdEZHcURoaWx4aGRZ?oc=5",
+          "pubDate": "Thu, 29 Jun 2023 10:46:38 GMT"
         },
         {
           "title": "Our Leadership | About Us | Nippon Life Insurance Company",
@@ -1110,16 +1098,28 @@
           "pubDate": "Thu, 29 Jun 2023 11:15:46 GMT"
         },
         {
+          "title": "Corporate Governance | About Us | Nippon Life Insurance Company",
+          "source": "日本生命保険相互会社",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50UjVMTEMtZmp3WUxPeFVtMWxCa29hdG9rSkRDSUhfWk1KREdpX0RFZEpMZW5vdERLYnItODd2VFYxTVpQZlF2d0FodmhtUHRldk5ld0dUOXdYLXVnWWxrR2pyQQ?oc=5",
+          "pubDate": "Fri, 30 Jun 2023 09:53:51 GMT"
+        },
+        {
+          "title": "Global Network | Nippon Life Insurance Company",
+          "source": "日本生命保険相互会社",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1MnZuUlhnTk5nQ2RUbU9JUlUxOF9kb2V2bi1xUEZoa1o2XzFOMDEweC1GZ1hZdmNpQUVweXViRVppd3VxblFEdHYxLXZqYkhEVERIcVp1R2RzQnZ2Qk9ObEZ2RQ?oc=5",
+          "pubDate": "Sun, 23 Nov 2025 22:15:14 GMT"
+        },
+        {
           "title": "What We Do | About Us | Nippon Life Insurance Company",
           "source": "日本生命保険相互会社",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1vTEVXSVdwM3ZrUmJtdHdhSVU3TF9EcmMyR2JNQ05icEhSOTA1cG5mRVRLX0pPdkFKZDhyY1VUTjM1QmVLV2hQdkk0dEpiSG05YzB3S2VWaU14bEVZVktiMEhsaw?oc=5",
           "pubDate": "Thu, 29 Jun 2023 13:15:42 GMT"
         },
         {
-          "title": "About Us | Nippon Life Insurance Company",
+          "title": "Reports and Publications | Nippon Life Insurance Company",
           "source": "日本生命保険相互会社",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJSjFuODQ1RTc2bkF0UXdBTXFVQjZNTnhoT05mTEJUcVhfSmNUTGMtOWZ1clQ1TnZxRHI0c1NWLUxzc1NIRVgzQ2NlSE0yT1k?oc=5",
-          "pubDate": "Thu, 29 Jun 2023 10:17:31 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fYVVuUXQwanZJaDh5cGIwQzcyaEdqeGNxTmYyeEFiTGl4TThhQnczMnRuTDlIMnZtazdKTU81ZnJGeXFRR01rdFRpN2JHZVE5?oc=5",
+          "pubDate": "Mon, 16 Mar 2026 01:21:57 GMT"
         }
       ]
     },
