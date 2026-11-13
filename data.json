@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:30:22Z",
+  "generated_at": "2026-11-13T05:40:48Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,46 +250,46 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 79.25,
-      "change": 0.3499999999999943,
-      "changePct": 0.44359949302914364,
+      "price": 77.35,
+      "change": -1.9000000000000057,
+      "changePct": -2.3974763406940136,
       "currency": "HKD",
-      "prevClose": 78.9,
-      "dayHigh": 79.4,
-      "dayLow": 77.5,
+      "prevClose": 79.25,
+      "dayHigh": 78.95,
+      "dayLow": 77.35,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 85000.0,
-      "change": -700.0,
-      "changePct": -0.8168028004667445,
+      "price": 89400.0,
+      "change": 4400.0,
+      "changePct": 5.176470588235294,
       "currency": "KRW",
-      "prevClose": 85700.0,
-      "dayHigh": 86800.0,
-      "dayLow": 84300.0,
+      "prevClose": 85000.0,
+      "dayHigh": 90500.0,
+      "dayLow": 85200.0,
       "marketState": "",
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1689.5,
-      "change": -1.0,
-      "changePct": -0.05915409642117716,
+      "price": 1783.0,
+      "change": 93.5,
+      "changePct": 5.534181710565256,
       "currency": "JPY",
-      "prevClose": 1690.5,
-      "dayHigh": 1708.0,
-      "dayLow": 1679.0,
+      "prevClose": 1689.5,
+      "dayHigh": 1799.0,
+      "dayLow": 1745.0,
       "marketState": "",
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3151.0,
-      "change": -49.0,
-      "changePct": -1.53125,
+      "price": 3146.0,
+      "change": -5.0,
+      "changePct": -0.15867978419549347,
       "currency": "JPY",
-      "prevClose": 3200.0,
-      "dayHigh": 3208.0,
-      "dayLow": 3136.0,
+      "prevClose": 3151.0,
+      "dayHigh": 3212.0,
+      "dayLow": 3131.0,
       "marketState": "",
       "exchange": "Tokyo"
     }
@@ -311,7 +311,7 @@
         },
         {
           "title": "Healthy living with Tottenham Hotspur",
-          "source": "AIA Group",
+          "source": "AIA Group Limited",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWNRQV9raTlOWE41cXNjOVpRX1BEbnBEQUQzSzFEeEtTeEhnOElBWVBWOUhhSF9nOV95YjFpUDNzRnlMbC1rWTV1LVlhUFJmWFM3XzdQMDd1OE1pQ0VrT1BDUFdqZFppRmFBZGRJcUpRbHQ5N3ZzTlFIaWgtOFdzUksya085dGxPX2Z5SUFMdGVKY2tSMG1XNGxhVQ?oc=5",
           "pubDate": "Wed, 06 Jul 2022 17:19:52 GMT"
         },
@@ -320,24 +320,6 @@
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMHpSN25SU2F3c0hSMXNBTDBZNW5abnVnY1FaS1NGSTZ6UVpiMGQzUG1iZHZ4TTlZRGxIcUkyRUNrQ1ZjN2lSSjZZUElINnYxX0hFeEgxUWF4YmQ0bzd5UTFkQTZ5dkZuRE04YUdFdTFWaWlCZ3VSU0djaXZJLXE0MXdpVFhweXdMTFdOZ3Q1T08ySTYzWHdhLWZ6SlhyVDYz?oc=5",
           "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Planning for a baby? Tips for managing finances",
-          "source": "AIA Group Limited",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb0ZkUG9hUFZaMGJOZWJsYk1xbnFMMGJ2ZHhaUjZHQldUR3ZjVmxhczFHX1dvMTJ5X1hELVhnVkMwOGgtWkwyaVhMQ3VUcTB2VHN6THBqMjNsd1FMekxkdzU1RlYzUV9EQ1ZCS0RNYm5xSEhPVTZvdkJpa01jVXZVTE1odWJoVzZseF9IWnBSWnhNRGNBYkpUSnRDVTNKaHFmbUE?oc=5",
-          "pubDate": "Thu, 27 Apr 2023 07:00:00 GMT"
-        },
-        {
-          "title": "AIA THAILAND GROWTH STRATEGY",
-          "source": "AIA Group Limited",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQS29wSF9NRWVIWHhuRHlmZVR1Q0tEdENud1RYYjRDTHBWMERKYjRYMFUyZGQ4VXRmX0ZxRUZobV9qLVI1c2RrY2FNa2Z2MGhIOWFFTUZwYjVkVl9abVBIWnIwRXJRelFoc3BOSy1iY3pkY2NfVzRxbkJHWTY5UUJJbHQ1MllEZ0I5ZnVkajJaOFQzTVRzZ0JfQ0pnNGZvOHlkbDctbXBsaEYzdVNnLWl3UmhlSmJoS2IzbkhlYU5WV3RFYVF6M3lCSlo5UEVidkxQcnJQalpIQWswRkN6V3EzR09lZkZZNDNuRnRZMDNiWHgteXd6Z0lQaHpqWlhFbkNsZ29Z?oc=5",
-          "pubDate": "Thu, 19 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Thanh Thuy’s Story",
-          "source": "AIA Group Limited",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OVmhEU2VhTDN6YTZCRmgxRkhjTkNiM1ctalB1b1EybGJxam54Zm9PVWJ1dFQwTFhvWXRnN29ySnE0YkhNenJiZ0ZraUwyV09jQzl6UUJqb2VkZGcxaHpuN1lHNlR5WmFlRjVn?oc=5",
-          "pubDate": "Tue, 18 Jun 2024 08:56:34 GMT"
         },
         {
           "title": "AIA delivers strong first half results in 2026",
@@ -362,6 +344,24 @@
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jczVucTJ5cUI4SXJ1aGRHSk5FVGpCN2FSNzhQbVNkQVV5UTlJemdCMzI2ZFN0ZjkwV0VNa3VOYVdSTzc5LU5iWURaVXNycHJlQnFzNmFROGNQd1Zh?oc=5",
           "pubDate": "Sat, 02 Jul 2022 00:36:33 GMT"
+        },
+        {
+          "title": "Partnership with Tottenham Hotspur",
+          "source": "AIA Group Limited",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BbmlCWG9EdzhmQWVBVDJQQzhPQ2l0aEltQ01DdVBKb25rOFRJeWwxQmh0QU5xZzJ0dEJQOTNZYkhtYmFiMWpnbXkydlZOeWhnaWJBUWVCUDJyQVBUcWplem1kN1BhdEdwWUw4bkJCbm4zYWRH?oc=5",
+          "pubDate": "Sat, 02 Jul 2022 03:44:15 GMT"
+        },
+        {
+          "title": "AIA Healthiest Schools Programme",
+          "source": "AIA Group",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5RTDNjOTVnR256cW1BTklKOV9HemtIbE1qX3pRQXVyRkVBdmZ1Szh4a3FoNUxQS3haZ1o0?oc=5",
+          "pubDate": "Thu, 22 Oct 2026 01:00:07 GMT"
+        },
+        {
+          "title": "AIA INVESTMENTS | AIAIM PH",
+          "source": "AIA Group Limited",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ2dvNmswMnNrY2Nva1AxNXBnTThzWVJ6cUtaX2R4aUV6UEpIWHZLVS1WSWdrbE16a0JKdjJYTGRRQ0gxcFhLUFRrR01QOWRYZlZFaTI2SnZNTE1iN3ZwS3lzb19zQktQbTBQR25EQUJNT3dpZmt5dnhhT2UxZFhRMWZ3?oc=5",
+          "pubDate": "Thu, 22 Jan 2026 09:59:38 GMT"
         }
       ]
     },
@@ -444,34 +444,10 @@
       },
       "items": [
         {
-          "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
-          "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1LQm02YUFLaDR6bUZHRnJOQVR1dnJFTTZTU0YteDlUUzZ6X0lMZTFXZFpCOHRwODdJWmRBUmJwSHk?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 18:14:49 GMT"
-        },
-        {
-          "title": "Management Strategy | Company information | SUMITOMO MITSUI TRUST GROUP",
-          "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oX2dOdGlRN3NiSTZpS0s4eDhpdXNzdU9GQThmSHRtaDNjeV9aalc5YkxYQjJ0elhhY0tDZDVpZTFxMEdhcE43Z2FncV9WSVV4Ym5TVExKVG0?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 22:59:49 GMT"
-        },
-        {
           "title": "Sustainability Report",
           "source": "三井住友トラストグループ",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdktvS3R5UTZLWjgtNWktNFZTRkVSeXVWb1Vnclp3Q0VQOTgxa0czcVI2cklRX09KM1N6Mmx6WmpfZFVtblZQMTJBVWZkWDRzNFF1T1NsT0xhZ0toUEhDbS1GYVZlcU5VVzNhU1RNVkR2RzdyUEhtN0NTMU9MZ09GdEJNVll1cTVSbFhmQnp3dzNGeTRrZjB2bzFsTDJrNEZfNmww?oc=5",
           "pubDate": "Tue, 15 Apr 2025 04:49:36 GMT"
-        },
-        {
-          "title": "Integrated Reports / Annual Reports | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
-          "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qWklWZHhFaGQyM21fTUhGV2JEeXhGVDZibUhTSFo5Z0NrSTFWQVk2U3NCbEY3SG1yRWZCZnhpaXBYZTdaWk1DdkxqMlJQSmt1dFh2V2tjWE1sMlZUVUlVN0hBZVJ2UQ?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 00:06:08 GMT"
-        },
-        {
-          "title": "Investor Relations | SUMITOMO MITSUI TRUST GROUP",
-          "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TQ2VydlZHQWZZNXc4bzFRVDB4aGdpWEw5djl0NE56WHIzaUdyZlNmQld6LXF5dUd4dHZKTjc5N2JHdUY3ejltY1NCY1RyZw?oc=5",
-          "pubDate": "Mon, 24 Feb 2025 00:02:27 GMT"
         },
         {
           "title": "Shareholders' Meeting",
@@ -486,10 +462,28 @@
           "pubDate": "Sun, 23 Feb 2025 18:41:46 GMT"
         },
         {
+          "title": "SUMITOMO MITSUI TRUST GROUP | SUMITOMO MITSUI TRUST GROUP",
+          "source": "三井住友トラストグループ",
+          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1LQm02YUFLaDR6bUZHRnJOQVR1dnJFTTZTU0YteDlUUzZ6X0lMZTFXZFpCOHRwODdJWmRBUmJwSHk?oc=5",
+          "pubDate": "Sun, 23 Feb 2025 18:14:49 GMT"
+        },
+        {
           "title": "Notice regarding Change of Directors and Executive Officers in Sumitomo Mitsui Trust Group and Sumitomo Mitsui Trust Bank",
           "source": "三井住友トラストグループ",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QcDJsU0tINWRKb09oUjF5WjlOaXdQbTZMREYzdElxVWlnU0R5WE1tX05aM2lVQU9PWkZ2YkRXSTBhbnp6bl9uRFJ2TXBlUjh0SnBHaUY3VkRYMVpzQ1VkdkpESy1jVXY5enItVmVjT2tOM2MzZ1dfd1d2QQ?oc=5",
           "pubDate": "Thu, 26 Feb 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Management Strategy | Company information | SUMITOMO MITSUI TRUST GROUP",
+          "source": "三井住友トラストグループ",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oX2dOdGlRN3NiSTZpS0s4eDhpdXNzdU9GQThmSHRtaDNjeV9aalc5YkxYQjJ0elhhY0tDZDVpZTFxMEdhcE43Z2FncV9WSVV4Ym5TVExKVG0?oc=5",
+          "pubDate": "Sun, 23 Feb 2025 22:59:49 GMT"
+        },
+        {
+          "title": "IR Presentation Materials | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "三井住友トラストグループ",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFbVlxbERPQy1OZlpna296TGJMRjB1RWc4dkdNTWRBaFVaRjJtN2ppWGlydjk4QW9Ld1hJNjBYdnpNaG5wbVg4SEItaTIzVFJla2lBWVVYN2tHRExTSnNIdmczdUc1QTdC?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 01:44:06 GMT"
         },
         {
           "title": "Directors and Executive Officers | Company information | SUMITOMO MITSUI TRUST GROUP",
@@ -498,10 +492,16 @@
           "pubDate": "Mon, 24 Feb 2025 01:55:44 GMT"
         },
         {
-          "title": "External Evaluation | Sustainability | SUMITOMO MITSUI TRUST GROUP",
+          "title": "Integrated Reports / Annual Reports | Reports | Investor Relations | SUMITOMO MITSUI TRUST GROUP",
           "source": "三井住友トラストグループ",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ma1RyTEdHTThwOENfUkVBalByTUliQlFMUUEybTNOYkF0OXIwOERudHhhRGRoT0lNcFlwazhpUTdvMzJ0eHFqLVJLNXBwSTBaWFhIY29YNkZXMFJ3emxLT1lRQQ?oc=5",
-          "pubDate": "Sun, 23 Feb 2025 22:16:02 GMT"
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qWklWZHhFaGQyM21fTUhGV2JEeXhGVDZibUhTSFo5Z0NrSTFWQVk2U3NCbEY3SG1yRWZCZnhpaXBYZTdaWk1DdkxqMlJQSmt1dFh2V2tjWE1sMlZUVUlVN0hBZVJ2UQ?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 00:06:08 GMT"
+        },
+        {
+          "title": "Investor Relations | SUMITOMO MITSUI TRUST GROUP",
+          "source": "三井住友トラストグループ",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TQ2VydlZHQWZZNXc4bzFRVDB4aGdpWEw5djl0NE56WHIzaUdyZlNmQld6LXF5dUd4dHZKTjc5N2JHdUY3ejltY1NCY1RyZw?oc=5",
+          "pubDate": "Mon, 24 Feb 2025 00:02:27 GMT"
         }
       ]
     },
@@ -614,6 +614,12 @@
           "pubDate": "Wed, 08 Jul 2026 07:01:21 GMT"
         },
         {
+          "title": "Temasek Review 2026 Media Briefing: CEO Address Video Transcript",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUkg1M3dWS09MZjVYdzhkQU45X3JnZGltN01tRl9sMm5JTlRlcXM0MFB2ZXNUdFFybjNtcGsteEluZ0wzMXVYXy1OUk9VVW50clh0c3VCY0Vmd0g4M1lGWnpERTV4THVGSjZXaHZLS0NVaVI3anFraEI1NmxVYTBWY3YtdlVIWjRla1pEeWJ2SVFFNzVhdHVrU1owSVJ4WnBSNkZBaWZPUkRQcXZvZENJMmdSeW5CUUdpSjBPSXpDNWFTTWxJX0NKZGE0WXZMT2NaWEE?oc=5",
+          "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT"
+        },
+        {
           "title": "Temasek Appoints Susan Wagner to its Board",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWjY2RHhIdm1CTkhGWGxTVlBrVk93MFFLczRnazk3MFZUTkM4RUlSTzBLcUJ2cTFzWlpCZExuNV9XQ2FSMmtzSFgweXIwWVUySTFTYmF4QjRVYkJQeHFUZkVCS01OLTU1MUR0aXpaRDhaZTl4Wl9reHVkZG9DVlRhVDlsbnNGUmMwZmdjdHJHTHhoc3gxZW1XQ2RpS25vMjdYU0o3U2tiYjZMZFd3bmRfXw?oc=5",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55bVpKRlJMU1ZBTDZqOGNtM1NYWVpzYTdRbklwSi1MMm5vV2c2eENXelQ3VnpfMXJyZnlIYWZqaDJKclNJTUF6TlV2ekF6RDB1OXNERWQxQnQ?oc=5",
           "pubDate": "Fri, 03 Dec 2021 08:55:17 GMT"
-        },
-        {
-          "title": "Newsroom",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qbFdicmswNVM3QkdqZ2JaNFBKZHYwSDNiM29jUWN0M1RVdHhtRXhEd0FpYUVKREF5RGVVcnpGN1d0TDV3QW04ZmlqQzgwYWRmb05kQTdndktHNUJQNE5vcExLN3VNUGZHSlE?oc=5",
-          "pubDate": "Tue, 30 Nov 2021 20:51:40 GMT"
         }
       ]
     },
@@ -684,12 +684,6 @@
           "pubDate": "Mon, 08 Jul 2024 09:40:12 GMT"
         },
         {
-          "title": "Santiago Principles",
-          "source": "GIC",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MckxwbFZ3T3RVdGc4QkpzT1hlekNSXzBDXzFUUXNKWFlyOC1UWVRXZ3FCUzl5R0pKTnNyS0t5TkQ0TmVGdDVhYkEyMEs2RWJ3eng1RW9qZ2JvRHVKZXpoWlVxajlTVnpL?oc=5",
-          "pubDate": "Fri, 21 May 2021 15:21:10 GMT"
-        },
-        {
           "title": "Cai Wenzheng",
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5LZ2pIQzhHM2V1VjR6LWs2Rm12ZlV4cEZzUWY2ZU1kbDM5NVNWYzU4NzgtanAwOXFORWFyMWJRdm9FRWZzeG5IZFE2dHE1bVQ5akN1NktmZnBaV0Y4N1RTVjFUOS1hTHl0cHBfTGkzTQ?oc=5",
@@ -712,6 +706,12 @@
           "source": "GIC",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBROVpRQWtBanBIaF8xRUk5WmNDRnh2NUlEQlI2Rm9nRUhpY1BQU3d2MW9vb3ZWczhQUXFkdVQ5TXJKZWlNaHN2TVl6SmxaekJYcXRMWG1kWWRFQlpUemc?oc=5",
           "pubDate": "Fri, 21 May 2021 15:21:10 GMT"
+        },
+        {
+          "title": "ThinkSpace",
+          "source": "GIC",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1PLU9OTk5wRk5Sby1ON3ZkaHd2NFUyNld3UlVxM1JiYWlCVWQ4V0R6OXFJamgxYXJoSHlRQnVjN2FGT3BIR3lxR2Vn?oc=5",
+          "pubDate": "Sat, 11 Jan 2020 03:45:57 GMT"
         }
       ]
     },
@@ -992,6 +992,12 @@
       },
       "items": [
         {
+          "title": "Performance Summary Report – October 2026 - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90OURyeDh3bnVDY0ZBOWRtbmdnaG41ZTFLdmhHWUN2TE4yV010a283UjNGRm1LeXBmRV9XaXFpenFFazJZWHREbEJablJYdzByd2dQalV1ck1pSnRUbXlTYzE2bkY2ekFxekRXN0RtZ3o1cldzRUNwa3FR?oc=5",
+          "pubDate": "Fri, 13 Nov 2026 03:47:02 GMT"
+        },
+        {
           "title": "Performance Summary Report – September 2026",
           "source": "TCorp",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE04WWRrV2JJQldQSWVfZUdQSkxfd1doZzE4eW5oVjJOYkRTYThnclFDU3EwMl93V0NwSjJVc1MtbFFhOGUwMC1QR2gwSGZvQkFUakgtay1mNjZkS1c2WDFNRmxmQ19taFJtUmZ1Mzc3Q2FuNEI4RmJLcnRnYw?oc=5",
@@ -1025,12 +1031,6 @@
           "title": "How Sydney became a global pacesetter for marathons - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObDlLem85cEJUMTdyQnAyYVNZSmNqTmdmOXJBY0UtNUE0dTNvOXFZcWl1Yk1NR241VnZkWWV0bFVJaTNXeGJRc1kxcFBCQVNxR2lfeXFScEpncFVfUERlb3c0MkJsckZlekhpb2Qza0FfMG5wYXdhaVJHWnBaelpseUlzYw?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Financing renewable energy project connections - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jQW90Zy12UGNMcFRDTmpQTU5zeEdTUG9GZklLdDVydWtHd0J4X0V5dG9vcVVmdWw2SE5OUU5wOEg3ZnRkbFpBMnB4bzA4c25HWUp1S1dVei1fRXE2cTUyYnVkQkZOWHdyLWN1ODlqVnRCamF6ZkEyc3c3dHY?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
         },
         {
