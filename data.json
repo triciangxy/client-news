@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:40:48Z",
+  "generated_at": "2026-11-13T14:09:37Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,20 +250,20 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 77.35,
-      "change": -1.9000000000000057,
-      "changePct": -2.3974763406940136,
+      "price": 77.75,
+      "change": -1.5,
+      "changePct": -1.8927444794952681,
       "currency": "HKD",
       "prevClose": 79.25,
       "dayHigh": 78.95,
-      "dayLow": 77.35,
+      "dayLow": 76.85,
       "marketState": "",
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 89400.0,
-      "change": 4400.0,
-      "changePct": 5.176470588235294,
+      "price": 89800.0,
+      "change": 4800.0,
+      "changePct": 5.647058823529412,
       "currency": "KRW",
       "prevClose": 85000.0,
       "dayHigh": 90500.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1783.0,
-      "change": 93.5,
-      "changePct": 5.534181710565256,
+      "price": 1786.5,
+      "change": 97.0,
+      "changePct": 5.741343592778929,
       "currency": "JPY",
       "prevClose": 1689.5,
       "dayHigh": 1799.0,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3146.0,
-      "change": -5.0,
-      "changePct": -0.15867978419549347,
+      "price": 3140.0,
+      "change": -11.0,
+      "changePct": -0.3490955252300857,
       "currency": "JPY",
       "prevClose": 3151.0,
       "dayHigh": 3212.0,
@@ -322,6 +322,12 @@
           "pubDate": "Wed, 18 Mar 2026 07:00:00 GMT"
         },
         {
+          "title": "Thanh Thuy’s Story",
+          "source": "AIA Group Limited",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OVmhEU2VhTDN6YTZCRmgxRkhjTkNiM1ctalB1b1EybGJxam54Zm9PVWJ1dFQwTFhvWXRnN29ySnE0YkhNenJiZ0ZraUwyV09jQzl6UUJqb2VkZGcxaHpuN1lHNlR5WmFlRjVn?oc=5",
+          "pubDate": "Tue, 18 Jun 2024 08:56:34 GMT"
+        },
+        {
           "title": "AIA delivers strong first half results in 2026",
           "source": "AIA Group",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX2JrYXRWdzJxdGFZRUVRWG0wNTlES1RZLWk4UlBEQi1rUkx1Wmd4Ty1HYS1XYU5TQmMzajZXMW12c1V1T0FXVXpBUFpGcl9OamxMRzlXVWJuUUpwZFl6RWlTTy12R1BMNzJwRUxWZmUwZ0RYbzRDNUVhZHpOUHVoRFNQTWg0UE5JTnBVdERXdUpPZw?oc=5",
@@ -346,22 +352,16 @@
           "pubDate": "Sat, 02 Jul 2022 00:36:33 GMT"
         },
         {
+          "title": "AIA delivers excellent results in the first half of 2025",
+          "source": "AIA Group Limited",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORUhrVFFIODUySUN1SW9oVU1tdnBtdVZYUnNJaXRJTlFDVUF0OTZLZV93N3dYZVVzaDdJYWhwdnNKR2JoMVhXWWtqUVRXYXF0d3ptOXo1enJKb2RZMHlGSGloeTNmV1NZRnZfMkR0QWZXbWwxbDNtTkZMYWVJdHo2dHFldWxySTJreGFsZnVzZDhxdw?oc=5",
+          "pubDate": "Thu, 21 Aug 2025 07:00:00 GMT"
+        },
+        {
           "title": "Partnership with Tottenham Hotspur",
           "source": "AIA Group Limited",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BbmlCWG9EdzhmQWVBVDJQQzhPQ2l0aEltQ01DdVBKb25rOFRJeWwxQmh0QU5xZzJ0dEJQOTNZYkhtYmFiMWpnbXkydlZOeWhnaWJBUWVCUDJyQVBUcWplem1kN1BhdEdwWUw4bkJCbm4zYWRH?oc=5",
           "pubDate": "Sat, 02 Jul 2022 03:44:15 GMT"
-        },
-        {
-          "title": "AIA Healthiest Schools Programme",
-          "source": "AIA Group",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5RTDNjOTVnR256cW1BTklKOV9HemtIbE1qX3pRQXVyRkVBdmZ1Szh4a3FoNUxQS3haZ1o0?oc=5",
-          "pubDate": "Thu, 22 Oct 2026 01:00:07 GMT"
-        },
-        {
-          "title": "AIA INVESTMENTS | AIAIM PH",
-          "source": "AIA Group Limited",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ2dvNmswMnNrY2Nva1AxNXBnTThzWVJ6cUtaX2R4aUV6UEpIWHZLVS1WSWdrbE16a0JKdjJYTGRRQ0gxcFhLUFRrR01QOWRYZlZFaTI2SnZNTE1iN3ZwS3lzb19zQktQbTBQR25EQUJNT3dpZmt5dnhhT2UxZFhRMWZ3?oc=5",
-          "pubDate": "Thu, 22 Jan 2026 09:59:38 GMT"
         }
       ]
     },
@@ -998,12 +998,6 @@
           "pubDate": "Fri, 13 Nov 2026 03:47:02 GMT"
         },
         {
-          "title": "Performance Summary Report – September 2026",
-          "source": "TCorp",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE04WWRrV2JJQldQSWVfZUdQSkxfd1doZzE4eW5oVjJOYkRTYThnclFDU3EwMl93V0NwSjJVc1MtbFFhOGUwMC1QR2gwSGZvQkFUakgtay1mNjZkS1c2WDFNRmxmQ19taFJtUmZ1Mzc3Q2FuNEI4RmJLcnRnYw?oc=5",
-          "pubDate": "Fri, 23 Oct 2026 18:59:45 GMT"
-        },
-        {
           "title": "Reducing fuel price volatility for NSW trains and buses - TCorp",
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWGctS3JOUGlwZnBpUE1jMy16ZkdUZWVzbERTUUduaV96OFlNMThYbFNvNW5SZHZOYVd4ZHNIaGV3LVlVOEtjM3hUQkplZDBoQ3MydUo5dDFXN0ZRcnZDTmVQVXdOS0o3MGs2emRSQ0NhX2NGTkR4bTNLNWFaX2Q5MnhqM3FiOXRh?oc=5",
@@ -1026,6 +1020,12 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkdFlrcGRJdDRjV28wMDBKSk16RmhzcHJCbGpfTUFBRkxlMjloaFBVZkxsV2gzM1l5M1ppbEZ2WVFUaU83WGEzaVEzbEdhTzhlLXpCVkp6Z2EwOVdwdlNn?oc=5",
           "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Performance Summary Report – March 2026 - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93ejh3ZWFKMUp5ODl6TG9zVWwwdDJDR3J1Z0ZsU2QyUzFjYVY2UVBmcktKb3VQcmdtSERLZWYxTllicjBVdklkRmJoQVIyOWdmejZRZktZVjVxdUxEc3FBQnlyVDhhOWdTUDlmeHBCbGEtc3pnR2k0?oc=5",
+          "pubDate": "Sat, 18 Apr 2026 07:43:54 GMT"
         },
         {
           "title": "How Sydney became a global pacesetter for marathons - TCorp",
@@ -1232,6 +1232,12 @@
           "pubDate": "Sat, 11 Sep 2021 16:02:19 GMT"
         },
         {
+          "title": "Value Report：The Norinchukin Bank",
+          "source": "農林中央金庫",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YZ2ZtVU1WSjdleEJnaERtTnVWN0FTU0pkdWNFTGJsX05hWVE0WDZiTnhEMUdmNHZRQ3NsUXNZdlJpVGo3c09ZRkh5RnA2QXdPbWh4TkQ1ZEU1UQ?oc=5",
+          "pubDate": "Thu, 31 Aug 2017 03:09:23 GMT"
+        },
+        {
           "title": "Policy on Website Accessibility Measures｜The Norinchukin Bank",
           "source": "農林中央金庫",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PS2JyMnJRMEd0bHZCME1vNHdhTl9uMTVSMnlVN2ZkQkhuNkxkZ2VldDgtbExDU3VVVG04Zlg2dC1XZ2JzNVIyUHhsTTl5QW40RmMyVk45YTQ?oc=5",
@@ -1254,12 +1260,6 @@
           "source": "農林中央金庫",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LWWNpbk1XSGh1Zm93a01IMk1sa29TTHExSUtkMGxzZWlzdkxpZzZBdXljTjBqZEYzalZ5dVVpUGpqa0liQWlxLXh0OTlFZw?oc=5",
           "pubDate": "Mon, 23 May 2016 04:54:03 GMT"
-        },
-        {
-          "title": "Warning about scam websites and counterfeit e-mails｜The Norinchukin Bank",
-          "source": "農林中央金庫",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IRUNTVHBPUEprTU9qRlNSdmNQUHZ4QzQ5eFVyZmJmc2pBblZXMk5JMGdRTjhURGM3WXZnMUlzUE5uTVYwR1I4UDR0bGxaRkgzUXV1YTJEcEtJTEUxTk1mcEllOURUMk92OU5QOG1DWTA?oc=5",
-          "pubDate": "Sat, 31 Oct 2026 07:50:59 GMT"
         }
       ]
     }
