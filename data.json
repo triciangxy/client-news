@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T06:29:34Z",
+  "generated_at": "2026-11-18T15:55:47Z",
   "clients": [
     {
       "name": "AIA Group",
@@ -250,9 +250,9 @@
   ],
   "quotes": {
     "1299.HK": {
-      "price": 76.65,
-      "change": -0.6999999999999886,
-      "changePct": -0.9049773755655962,
+      "price": 76.85,
+      "change": -0.5,
+      "changePct": -0.6464124111182935,
       "currency": "HKD",
       "prevClose": 77.35,
       "dayHigh": 77.25,
@@ -261,9 +261,9 @@
       "exchange": "HKSE"
     },
     "055550.KS": {
-      "price": 86800.0,
-      "change": -700.0,
-      "changePct": -0.8,
+      "price": 87000.0,
+      "change": -500.0,
+      "changePct": -0.5714285714285714,
       "currency": "KRW",
       "prevClose": 87500.0,
       "dayHigh": 88000.0,
@@ -272,9 +272,9 @@
       "exchange": "KSE"
     },
     "8309.T": {
-      "price": 1702.5,
-      "change": -9.5,
-      "changePct": -0.5549065420560747,
+      "price": 1697.5,
+      "change": -14.5,
+      "changePct": -0.8469626168224298,
       "currency": "JPY",
       "prevClose": 1712.0,
       "dayHigh": 1728.5,
@@ -283,9 +283,9 @@
       "exchange": "Tokyo"
     },
     "7182.T": {
-      "price": 3050.0,
-      "change": -53.0,
-      "changePct": -1.7080244924266839,
+      "price": 3052.0,
+      "change": -51.0,
+      "changePct": -1.643570737995488,
       "currency": "JPY",
       "prevClose": 3103.0,
       "dayHigh": 3113.0,
@@ -380,12 +380,6 @@
           "pubDate": "Mon, 29 Jul 2024 07:38:36 GMT"
         },
         {
-          "title": "Environmental & Social Risk Management Policy Framework | SHINHAN FINANCIAL GROUP",
-          "source": "신한금융그룹",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xTXFjRTlKT210WXZVSTdqb0RLR29hMGp2SGZOOTcyZUVfVlRLLXdxRTRXOE9uUVNfRl9TRC1YWEpVZVpnVTNwcWxILVpkLUhfU1NWZHoyTEQ?oc=5",
-          "pubDate": "Tue, 29 Oct 2024 05:42:05 GMT"
-        },
-        {
           "title": "Shinhan Financial Group-Dividends",
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qejJvNnlTU2Y1SDJncU0xRkdNeGJjYkdUd1UzMDF3dTFSdXZnTllab28wcUpTUlRaLWN1cDIteWUzdk14b2ZiVnhxcUh1aE9HR3A3ZE5lTFVaeVlPbUotMkxQNnkwcWlSM0UxcjVR?oc=5",
@@ -396,6 +390,12 @@
           "source": "신한금융그룹",
           "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hT0FLbGpvd1FXa2dOS0dpWFJZTFExOG5pbTFabUZUbndPdExYXzBuSDE3dWNnOGFQbnp5MF9la08?oc=5",
           "pubDate": "Tue, 23 Jul 2024 02:39:28 GMT"
+        },
+        {
+          "title": "Environmental & Social Risk Management Policy Framework | SHINHAN FINANCIAL GROUP",
+          "source": "신한금융그룹",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xTXFjRTlKT210WXZVSTdqb0RLR29hMGp2SGZOOTcyZUVfVlRLLXdxRTRXOE9uUVNfRl9TRC1YWEpVZVpnVTNwcWxILVpkLUhfU1NWZHoyTEQ?oc=5",
+          "pubDate": "Tue, 29 Oct 2024 05:42:05 GMT"
         },
         {
           "title": "Shinhan Financial Group-Investor Presentations",
@@ -590,6 +590,12 @@
           "pubDate": "Wed, 01 Dec 2021 15:37:29 GMT"
         },
         {
+          "title": "Backing Innovent through a Decade of Growth",
+          "source": "Temasek",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWW1HZUVyWm5qWXAtQmU5Zk5xWjQwVDFILUZka0d3TTRXbzZTOF82eEY5NGQwTGwwWHdvQlZmeTlZbkdpN1pSWWJCNWw0dWFndDRMbEtJdnZmeHpiTFNERmRaUGtmWnNpTGYzcWNaczQ0OUFXMmp0b3IyWTIwckFFa19zeFRVNG5idnZwRWNYV29BRFp3S3JxYVRRMFNPSEJYTWRzbGNzZ2I2TDRwVFJ3Rmpidjk5b3luUno1b3BTUQ?oc=5",
+          "pubDate": "Wed, 18 Nov 2026 08:32:39 GMT"
+        },
+        {
           "title": "Southeast Asia’s digital economy set for $368B GMV in 2026, tracking to $1T by 2035",
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSTRoU2w0bWRlaDYwMzctZnFaRjdaV25DQmcwcHMwR2MtaDZvc0RsbEhyZEtwaW5FU19ISTRFNzd6OEhlc3JHM3Y3MEVKVmZ3V3l1UVVHbnNSRnhoNjl2a0lHTFB4cWJJV3VzZUo2eWFtQXEwU1E2MVV3MHFfY2w4eS0wWFlhMzVXT1g5X0d3bTlva0REWXRxb2ZpcGdham5WWFZJR3BlNVlSZF9KOG5kNjU1MG1JOW8zaTV3WWZNejBnOFo2SlNHOWt5RWhrdGRXZ3YtMk85NlRqa0ZZRmNsMg?oc=5",
@@ -636,12 +642,6 @@
           "source": "Temasek",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55bVpKRlJMU1ZBTDZqOGNtM1NYWVpzYTdRbklwSi1MMm5vV2c2eENXelQ3VnpfMXJyZnlIYWZqaDJKclNJTUF6TlV2ekF6RDB1OXNERWQxQnQ?oc=5",
           "pubDate": "Fri, 03 Dec 2021 08:55:17 GMT"
-        },
-        {
-          "title": "Newsroom",
-          "source": "Temasek",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qbFdicmswNVM3QkdqZ2JaNFBKZHYwSDNiM29jUWN0M1RVdHhtRXhEd0FpYUVKREF5RGVVcnpGN1d0TDV3QW04ZmlqQzgwYWRmb05kQTdndktHNUJQNE5vcExLN3VNUGZHSlE?oc=5",
-          "pubDate": "Tue, 30 Nov 2021 20:51:40 GMT"
         }
       ]
     },
@@ -794,18 +794,6 @@
       },
       "items": [
         {
-          "title": "San Francisco Office │ Our Offices │ About Us │ Korea Investment Corporation",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82WEFUTk9VNklhZjJRbmFYTmJHVGRHQUI1TDRnN0VkWE9wWEdVNXhsSERNbV9iN09SUE9Ta1c1dWNZS0xtLTVyZ3hKWk9uZWJwN3FzcVJhWjFqbVgtUWVjNk9jWXVkZk5yX3E0clBn?oc=5",
-          "pubDate": "Tue, 29 Jul 2025 23:31:34 GMT"
-        },
-        {
-          "title": "Invitation To Bid",
-          "source": "한국투자공사/KIC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yTjZYUUx3V0VrOTlnUnhQZHFjUERCOVBsZjlLNGtIc0JHc1ZvTTc1UUZsME9UOFA1U1JRLUx4by1TMnF2UVNEQ3llbXBiTThtU3k0RGktQlZORDRuY3c?oc=5",
-          "pubDate": "Tue, 26 Aug 2025 18:37:10 GMT"
-        },
-        {
           "title": "PRESS RELEASE",
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PdW5iTC1GVnpKczhueFRDWVFIUnRwN2xrSjlMX2lubWtzRlR5S0IwdzN3UnlNRXh2N1RsZUVGb0JtMndDNHFqdVZyckMxRi00VTNOTG9IeHo?oc=5",
@@ -852,6 +840,18 @@
           "source": "한국투자공사/KIC",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVZExfVEhYWXFKSWFsU1VBUXRUZ2FKeTVJTjE5NjFhMlphaHRyMjUxOWN1cXFUcXd3S2lqTVl0NVA0dlBJWUVxNmVVdmlqT056ek84YUhkVQ?oc=5",
           "pubDate": "Fri, 25 Apr 2025 07:00:00 GMT"
+        },
+        {
+          "title": "2025 Annual Report - 2025 Key Figures",
+          "source": "한국투자공사/KIC",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aWUtVZHd5Mk54VHRMRVBEczBPV01kQjc1SzlIV3lNRTIwblZNaHhibVB6Rm9Oanp2RmY2YS05MmU2ZE9TRjdsaWI0OFpnMS1SM0xtUFhBbTlKcTdWYjZYQ3E0Yw?oc=5",
+          "pubDate": "Wed, 15 Jul 2026 23:03:02 GMT"
+        },
+        {
+          "title": "PRESS RELEASE",
+          "source": "한국투자공사/KIC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBSDBMZ2tVOHhDN1hySXFhN1lZMlNGX3o5VDl6YWRVTVlqTmpuLTFycWFJd015MnhENmk0dGl3TnJyX084bUtOQjI5bG54UDZmV19ldnhleEZpNkU3a2c?oc=5",
+          "pubDate": "Fri, 17 Feb 2017 08:00:00 GMT"
         }
       ]
     },
@@ -992,10 +992,22 @@
       },
       "items": [
         {
-          "title": "TCorp secondary market turnover datahub – September 2026 - TCorp",
+          "title": "Gunnedah Regional Saleyards redevelopment - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORVhGbGk0SFJ0ZGlqdzV3RkdlVWYtdWk1S0JfbFhJSXhUbXQtXzlyLTN6Z1NGWEh3eUhCVHF5T2tvamtKdTVhc24yQmNhZU5mQThkRnBwWFU3X2pVaDZUVlZnZ0ZicDJnbTJQY3VMNkZUY2xIZ3RUY0Rocm81TllRd3ZVdWtzSXN3bXptNFEwQ1UyNVFnS01JUW03MkI4XzhoZjJv?oc=5",
-          "pubDate": "Sat, 31 Oct 2026 12:14:28 GMT"
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPUjVlLXdEdWh2UEtNZVd0Y2ZpLVFfd2xDTXdlU0RyRDZjeHJDQ01od2lqWGU5aDFNMlVsdVJoOHBjRDQ1UGVOZUFHT3hQb29JMVdwUU56SjQ3Q3JlTlRpd2JJQ1l2ZjFudzlHLVVvcmhpdXZWM0E?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "Performance Summary Report – August 2026 - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54VGV6WDRPS1pGVm9wUzc0Q2c0SnZqWGpiYlJLajk1RnNMOWh0OVNzOFVWMEhfS1dSZGZ4RkdBbTJndWZ5MTFIa0tRUk5tNG1BcUNXclV1VklnLVZmOGJjX1hLZEFIblpqa2xGVl9JWGowWUl1QjF1dw?oc=5",
+          "pubDate": "Wed, 09 Sep 2026 12:22:36 GMT"
+        },
+        {
+          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
+          "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
         },
         {
           "title": "Annual Report 2026 - TCorp",
@@ -1004,10 +1016,16 @@
           "pubDate": "Thu, 29 Oct 2026 05:35:32 GMT"
         },
         {
-          "title": "TCorp appoints General Manager, Financial Markets - TCorp",
+          "title": "Financing renewable energy project connections - TCorp",
           "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVhzckFnNk9seXRrMGFVNEJ3WmlsLU5Vc0xpZWhvYnRJLUJBM2NDcEgxbnVuUERuOEVmTDQtZ0dIUE1RTnpDQzU4TjJoZ0I2OHlIcE85TTUzVnBpUlJiR3lBazh2dmNnRUtuSTZ0N3RaeldBb2NoVExQU3lNT1dkVEZwblFYZ1ZOV0pQcVo5bjFtcUlyZlM3QVZQWQ?oc=5",
-          "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jQW90Zy12UGNMcFRDTmpQTU5zeEdTUG9GZklLdDVydWtHd0J4X0V5dG9vcVVmdWw2SE5OUU5wOEg3ZnRkbFpBMnB4bzA4c25HWUp1S1dVei1fRXE2cTUyYnVkQkZOWHdyLWN1ODlqVnRCamF6ZkEyc3c3dHY?oc=5",
+          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
+        },
+        {
+          "title": "TCorp secondary market turnover datahub – September 2026 - TCorp",
+          "source": "NSW Government",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORVhGbGk0SFJ0ZGlqdzV3RkdlVWYtdWk1S0JfbFhJSXhUbXQtXzlyLTN6Z1NGWEh3eUhCVHF5T2tvamtKdTVhc24yQmNhZU5mQThkRnBwWFU3X2pVaDZUVlZnZ0ZicDJnbTJQY3VMNkZUY2xIZ3RUY0Rocm81TllRd3ZVdWtzSXN3bXptNFEwQ1UyNVFnS01JUW03MkI4XzhoZjJv?oc=5",
+          "pubDate": "Sat, 31 Oct 2026 12:14:28 GMT"
         },
         {
           "title": "Galuwa Recreation Centre - TCorp",
@@ -1020,24 +1038,6 @@
           "source": "NSW Government",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE43Z29CdmZPb1pBSy1JeUE1bkVfUEpNWkpUSnZudzdNbUE5Z21rVkZzTUw5VTd2QWcwVEVZXzFkZGlGYWwwWnpzMlJCbHRSS2RiRV84bmdMVl85eUJRTXpYcnB0UlItTmI1S1REaUxxeExBbGRITVI5LWJB?oc=5",
           "pubDate": "Thu, 12 Feb 2026 07:10:20 GMT"
-        },
-        {
-          "title": "Financing renewable energy project connections - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jQW90Zy12UGNMcFRDTmpQTU5zeEdTUG9GZklLdDVydWtHd0J4X0V5dG9vcVVmdWw2SE5OUU5wOEg3ZnRkbFpBMnB4bzA4c25HWUp1S1dVei1fRXE2cTUyYnVkQkZOWHdyLWN1ODlqVnRCamF6ZkEyc3c3dHY?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Gunnedah Regional Saleyards redevelopment - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPUjVlLXdEdWh2UEtNZVd0Y2ZpLVFfd2xDTXdlU0RyRDZjeHJDQ01od2lqWGU5aDFNMlVsdVJoOHBjRDQ1UGVOZUFHT3hQb29JMVdwUU56SjQ3Q3JlTlRpd2JJQ1l2ZjFudzlHLVVvcmhpdXZWM0E?oc=5",
-          "pubDate": "Thu, 04 Dec 2025 08:00:00 GMT"
-        },
-        {
-          "title": "Performance Summary Report – August 2026 - TCorp",
-          "source": "NSW Government",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54VGV6WDRPS1pGVm9wUzc0Q2c0SnZqWGpiYlJLajk1RnNMOWh0OVNzOFVWMEhfS1dSZGZ4RkdBbTJndWZ5MTFIa0tRUk5tNG1BcUNXclV1VklnLVZmOGJjX1hLZEFIblpqa2xGVl9JWGowWUl1QjF1dw?oc=5",
-          "pubDate": "Wed, 09 Sep 2026 12:22:36 GMT"
         },
         {
           "title": "Weekly economic report - TCorp",
